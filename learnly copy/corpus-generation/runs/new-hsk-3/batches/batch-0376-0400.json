@@ -1,0 +1,343 @@
+[
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0376",
+    "rank": 376,
+    "display_form": "进步",
+    "lemma": "进步",
+    "generation_form": "进步",
+    "pronunciation": "jìnbù",
+    "pos": "unknown",
+    "primary_gloss": "progress",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0377",
+    "rank": 377,
+    "display_form": "进一步",
+    "lemma": "进一步",
+    "generation_form": "进一步",
+    "pronunciation": "jìn yí bù",
+    "pos": "unknown",
+    "primary_gloss": "go a step further",
+    "secondary_glosses": [
+      "further"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0378",
+    "rank": 378,
+    "display_form": "进展",
+    "lemma": "进展",
+    "generation_form": "进展",
+    "pronunciation": "jìnzhǎn",
+    "pos": "unknown",
+    "primary_gloss": "evolve",
+    "secondary_glosses": [
+      "get along"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0379",
+    "rank": 379,
+    "display_form": "近期",
+    "lemma": "近期",
+    "generation_form": "近期",
+    "pronunciation": "jìn qī",
+    "pos": "unknown",
+    "primary_gloss": "recent",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0380",
+    "rank": 380,
+    "display_form": "京剧",
+    "lemma": "京剧",
+    "generation_form": "京剧",
+    "pronunciation": "jīngjù",
+    "pos": "unknown",
+    "primary_gloss": "Beijing opera",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0381",
+    "rank": 381,
+    "display_form": "经济",
+    "lemma": "经济",
+    "generation_form": "经济",
+    "pronunciation": "jīngjì",
+    "pos": "unknown",
+    "primary_gloss": "Economics",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0382",
+    "rank": 382,
+    "display_form": "经历",
+    "lemma": "经历",
+    "generation_form": "经历",
+    "pronunciation": "jīnglì",
+    "pos": "unknown",
+    "primary_gloss": "experience",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0383",
+    "rank": 383,
+    "display_form": "经验",
+    "lemma": "经验",
+    "generation_form": "经验",
+    "pronunciation": "jīngyàn",
+    "pos": "unknown",
+    "primary_gloss": "experience",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0384",
+    "rank": 384,
+    "display_form": "经营",
+    "lemma": "经营",
+    "generation_form": "经营",
+    "pronunciation": "jīngyíng",
+    "pos": "unknown",
+    "primary_gloss": "Management",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0385",
+    "rank": 385,
+    "display_form": "精彩",
+    "lemma": "精彩",
+    "generation_form": "精彩",
+    "pronunciation": "jīngcǎi",
+    "pos": "unknown",
+    "primary_gloss": "Marvellous",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0386",
+    "rank": 386,
+    "display_form": "精神",
+    "lemma": "精神",
+    "generation_form": "精神",
+    "pronunciation": "jīngshén",
+    "pos": "unknown",
+    "primary_gloss": "spirit",
+    "secondary_glosses": [
+      "mind"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0387",
+    "rank": 387,
+    "display_form": "精神",
+    "lemma": "精神",
+    "generation_form": "精神",
+    "pronunciation": "jīngshen",
+    "pos": "unknown",
+    "primary_gloss": "lively",
+    "secondary_glosses": [
+      "vigour"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0388",
+    "rank": 388,
+    "display_form": "景色",
+    "lemma": "景色",
+    "generation_form": "景色",
+    "pronunciation": "jǐngsè",
+    "pos": "unknown",
+    "primary_gloss": "scenery",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0389",
+    "rank": 389,
+    "display_form": "警察",
+    "lemma": "警察",
+    "generation_form": "警察",
+    "pronunciation": "jǐngchá",
+    "pos": "unknown",
+    "primary_gloss": "Police",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0390",
+    "rank": 390,
+    "display_form": "静",
+    "lemma": "静",
+    "generation_form": "静",
+    "pronunciation": "jìng",
+    "pos": "unknown",
+    "primary_gloss": "silent",
+    "secondary_glosses": [
+      "quiet",
+      "calm"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0391",
+    "rank": 391,
+    "display_form": "久",
+    "lemma": "久",
+    "generation_form": "久",
+    "pronunciation": "jiǔ",
+    "pos": "unknown",
+    "primary_gloss": "long",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0392",
+    "rank": 392,
+    "display_form": "旧",
+    "lemma": "旧",
+    "generation_form": "旧",
+    "pronunciation": "jiù",
+    "pos": "unknown",
+    "primary_gloss": "used",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0393",
+    "rank": 393,
+    "display_form": "救",
+    "lemma": "救",
+    "generation_form": "救",
+    "pronunciation": "jiù",
+    "pos": "unknown",
+    "primary_gloss": "save",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0394",
+    "rank": 394,
+    "display_form": "就是",
+    "lemma": "就是",
+    "generation_form": "就是",
+    "pronunciation": "jiù shì",
+    "pos": "unknown",
+    "primary_gloss": "precisely",
+    "secondary_glosses": [
+      "exactly",
+      "just like"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0395",
+    "rank": 395,
+    "display_form": "就业",
+    "lemma": "就业",
+    "generation_form": "就业",
+    "pronunciation": "jiùyè",
+    "pos": "unknown",
+    "primary_gloss": "take up an occupation",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0396",
+    "rank": 396,
+    "display_form": "举办",
+    "lemma": "举办",
+    "generation_form": "举办",
+    "pronunciation": "jǔbàn",
+    "pos": "unknown",
+    "primary_gloss": "hold",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0397",
+    "rank": 397,
+    "display_form": "具体",
+    "lemma": "具体",
+    "generation_form": "具体",
+    "pronunciation": "jùtǐ",
+    "pos": "unknown",
+    "primary_gloss": "specific",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0398",
+    "rank": 398,
+    "display_form": "具有",
+    "lemma": "具有",
+    "generation_form": "具有",
+    "pronunciation": "jù yǒu possess;",
+    "pos": "unknown",
+    "primary_gloss": "have",
+    "secondary_glosses": [
+      "be provided with"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0399",
+    "rank": 399,
+    "display_form": "剧场",
+    "lemma": "剧场",
+    "generation_form": "剧场",
+    "pronunciation": "jù chǎng",
+    "pos": "unknown",
+    "primary_gloss": "theater",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0400",
+    "rank": 400,
+    "display_form": "据说",
+    "lemma": "据说",
+    "generation_form": "据说",
+    "pronunciation": "jùshuō",
+    "pos": "unknown",
+    "primary_gloss": "allegedly",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  }
+]

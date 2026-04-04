@@ -1,0 +1,1389 @@
+2026-03-31T14:59:32.577784Z  WARN codex_core::project_doc: Project doc `/Users/moi/Desktop/business/learnly/corpus-generation/AGENTS.md` exceeds remaining budget (9567 bytes) - truncating.
+OpenAI Codex v0.118.0-alpha.2 (research preview)
+--------
+workdir: /Users/moi/Desktop/business/learnly/corpus-generation
+model: gpt-5.4
+provider: openai
+approval: never
+sandbox: danger-full-access
+reasoning effort: xhigh
+reasoning summaries: none
+session id: 019d4468-3265-7dd3-bdd5-f465e19672c5
+--------
+user
+You are a corpus-generation worker in the workspace /Users/moi/Desktop/business/learnly/corpus-generation.
+
+Read this manifest:
+- /Users/moi/Desktop/business/learnly/corpus-generation/runs/new-hsk-1/jobs/generator-2-batch-0251-0300.json
+
+Write this JSONL file:
+- /Users/moi/Desktop/business/learnly/corpus-generation/runs/new-hsk-1/generated/generator-2/generator-2-batch-0251-0300.jsonl
+
+Requirements:
+- Read every job row and write one final payload JSON object per line.
+- Use the final payload shape already present in tmp_new_hsk_1_0001.json and tmp_new_hsk_1_0002.json.
+- Keep word ids, ranks, and pronunciations aligned with the manifest.
+- `word.lang` must be `zh`.
+- `word.lemma` and `word.display_form` should use the manifest's normalized `generation_form`.
+- Refine `pos` only when obvious; otherwise keep the seed value.
+- Keep the seed primary gloss unless clearly wrong.
+- Secondary glosses may be empty if uncertain.
+- Notes should be brief and learner-friendly.
+- Produce exactly 3 examples and 3 matching translations per word.
+- Each Chinese sentence must be simplified Chinese, natural, 5-12 words, concrete, and use the target word in its primary meaning.
+- Use distinct scenarios.
+- Example ids must be `{word_id}-ex1`, `-ex2`, and `-ex3`.
+- Set `source` to `generator-2` on every example.
+- Exactly one example must have `is_primary: true`.
+- Use conservative difficulty values 1, 2, or 3.
+- Overwrite the output file with only valid JSONL content for this batch.
+- Validate the JSONL before finishing.
+
+When done, reply with a short summary only.
+
+2026-03-31T14:59:32.682925Z  WARN codex_core::shell_snapshot: Failed to delete shell snapshot at "/Users/moi/.codex/shell_snapshots/019d4468-3265-7dd3-bdd5-f465e19672c5.tmp-1774969172587034000": Os { code: 2, kind: NotFound, message: "No such file or directory" }
+2026-03-31T14:59:32.848684Z  WARN codex_core::plugins::manager: failed to warm featured plugin ids cache error=remote plugin sync request to https://chatgpt.com/backend-api/plugins/featured failed with status 403 Forbidden: <html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-direction:column;gap:2rem;height:100%;justify-content:center;width:100%}@keyframes enlarge-appear{0%{opacity:0;transform:scale(75%) rotate(-90deg)}to{opacity:1;transform:scale(100%) rotate(0deg)}}.logo{color:#8e8ea0}.scale-appear{animation:enlarge-appear .4s ease-out}@media (min-width:768px){.scale-appear{height:48px;width:48px}}.data:empty{display:none}.data{border-radius:5px;color:#8e8ea0;text-align:center}@media (prefers-color-scheme:dark){body{background-color:#343541}.logo{color:#acacbe}}</style>
+  <meta http-equiv="refresh" content="360"></head>
+  <body>
+    <div class="container">
+      <div class="logo">
+        <svg
+          width="41"
+          height="41"
+          viewBox="0 0 41 41"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          strokeWidth="2"
+          class="scale-appear"
+        >
+          <path
+            d="M37.5324 16.8707C37.9808 15.5241 38.1363 14.0974 37.9886 12.6859C37.8409 11.2744 37.3934 9.91076 36.676 8.68622C35.6126 6.83404 33.9882 5.3676 32.0373 4.4985C30.0864 3.62941 27.9098 3.40259 25.8215 3.85078C24.8796 2.7893 23.7219 1.94125 22.4257 1.36341C21.1295 0.785575 19.7249 0.491269 18.3058 0.500197C16.1708 0.495044 14.0893 1.16803 12.3614 2.42214C10.6335 3.67624 9.34853 5.44666 8.6917 7.47815C7.30085 7.76286 5.98686 8.3414 4.8377 9.17505C3.68854 10.0087 2.73073 11.0782 2.02839 12.312C0.956464 14.1591 0.498905 16.2988 0.721698 18.4228C0.944492 20.5467 1.83612 22.5449 3.268 24.1293C2.81966 25.4759 2.66413 26.9026 2.81182 28.3141C2.95951 29.7256 3.40701 31.0892 4.12437 32.3138C5.18791 34.1659 6.8123 35.6322 8.76321 36.5013C10.7141 37.3704 12.8907 37.5973 14.9789 37.1492C15.9208 38.2107 17.0786 39.0587 18.3747 39.6366C19.6709 40.2144 21.0755 40.5087 22.4946 40.4998C24.6307 40.5054 26.7133 39.8321 28.4418 38.5772C30.1704 37.3223 31.4556 35.5506 32.1119 33.5179C33.5027 33.2332 34.8167 32.6547 35.9659 31.821C37.115 30.9874 38.0728 29.9178 38.7752 28.684C39.8458 26.8371 40.3023 24.6979 40.0789 22.5748C39.8556 20.4517 38.9639 18.4544 37.5324 16.8707ZM22.4978 37.8849C20.7443 37.8874 19.0459 37.2733 17.6994 36.1501C17.7601 36.117 17.8666 36.0586 17.936 36.0161L25.9004 31.4156C26.1003 31.3019 26.2663 31.137 26.3813 30.9378C26.4964 30.7386 26.5563 30.5124 26.5549 30.2825V19.0542L29.9213 20.998C29.9389 21.0068 29.9541 21.0198 29.9656 21.0359C29.977 21.052 29.9842 21.0707 29.9867 21.0902V30.3889C29.9842 32.375 29.1946 34.2791 27.7909 35.6841C26.3872 37.0892 24.4838 37.8806 22.4978 37.8849ZM6.39227 31.0064C5.51397 29.4888 5.19742 27.7107 5.49804 25.9832C5.55718 26.0187 5.66048 26.0818 5.73461 26.1244L13.699 30.7248C13.8975 30.8408 14.1233 30.902 14.3532 30.902C14.583 30.902 14.8088 30.8408 15.0073 30.7248L24.731 25.1103V28.9979C24.7321 29.0177 24.7283 29.0376 24.7199 29.0556C24.7115 29.0736 24.6988 29.0893 24.6829 29.1012L16.6317 33.7497C14.9096 34.7416 12.8643 35.0097 10.9447 34.4954C9.02506 33.9811 7.38785 32.7263 6.39227 31.0064ZM4.29707 13.6194C5.17156 12.0998 6.55279 10.9364 8.19885 10.3327C8.19885 10.4013 8.19491 10.5228 8.19491 10.6071V19.808C8.19351 20.0378 8.25334 20.2638 8.36823 20.4629C8.48312 20.6619 8.64893 20.8267 8.84863 20.9404L18.5723 26.5542L15.206 28.4979C15.1894 28.5089 15.1703 28.5155 15.1505 28.5173C15.1307 28.5191 15.1107 28.516 15.0924 28.5082L7.04046 23.8557C5.32135 22.8601 4.06716 21.2235 3.55289 19.3046C3.03862 17.3858 3.30624 15.3413 4.29707 13.6194ZM31.955 20.0556L22.2312 14.4411L25.5976 12.4981C25.6142 12.4872 25.6333 12.4805 25.6531 12.4787C25.6729 12.4769 25.6928 12.4801 25.7111 12.4879L33.7631 17.1364C34.9967 17.849 36.0017 18.8982 36.6606 20.1613C37.3194 21.4244 37.6047 22.849 37.4832 24.2684C37.3617 25.6878 36.8382 27.0432 35.9743 28.1759C35.1103 29.3086 33.9415 30.1717 32.6047 30.6641C32.6047 30.5947 32.6047 30.4733 32.6047 30.3889V21.188C32.6066 20.9586 32.5474 20.7328 32.4332 20.5338C32.319 20.3348 32.154 20.1698 31.955 20.0556ZM35.3055 15.0128C35.2464 14.9765 35.1431 14.9142 35.069 14.8717L27.1045 10.2712C26.906 10.1554 26.6803 10.0943 26.4504 10.0943C26.2206 10.0943 25.9948 10.1554 25.7963 10.2712L16.0726 15.8858V11.9982C16.0715 11.9783 16.0753 11.9585 16.0837 11.9405C16.0921 11.9225 16.1048 11.9068 16.1207 11.8949L24.1719 7.25025C25.4053 6.53903 26.8158 6.19376 28.2383 6.25482C29.6608 6.31589 31.0364 6.78077 32.2044 7.59508C33.3723 8.40939 34.2842 9.53945 34.8334 10.8531C35.3826 12.1667 35.5464 13.6095 35.3055 15.0128ZM14.2424 21.9419L10.8752 19.9981C10.8576 19.9893 10.8423 19.9763 10.8309 19.9602C10.8195 19.9441 10.8122 19.9254 10.8098 19.9058V10.6071C10.8107 9.18295 11.2173 7.78848 11.9819 6.58696C12.7466 5.38544 13.8377 4.42659 15.1275 3.82264C16.4173 3.21869 17.8524 2.99464 19.2649 3.1767C20.6775 3.35876 22.0089 3.93941 23.1034 4.85067C23.0427 4.88379 22.937 4.94215 22.8668 4.98473L14.9024 9.58517C14.7025 9.69878 14.5366 9.86356 14.4215 10.0626C14.3065 10.2616 14.2466 10.4877 14.2479 10.7175L14.2424 21.9419ZM16.071 17.9991L20.4018 15.4978L24.7325 17.9975V22.9985L20.4018 25.4983L16.071 22.9985V17.9991Z"
+            fill="currentColor"
+          />
+        </svg>
+      </div>
+      <div class="data"><div class="main-wrapper" role="main"><div class="main-content"><noscript><div class="h2"><span id="challenge-error-text">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script>(function(){window._cf_chl_opt = {cvId: '3',cZone: 'chatgpt.com',cType: 'managed',cRay: '9e5037f2fd540a6c',cH: 'uacOXnJL2ERosSOsNzY.eN2HoU3m9NDU7oauzjYHxyM-1774969172-1.2.1.1-5GRQdQiI58LMHke6P_9sXiOx9rTfPeY7REosD6Y7WWuzKUNJl5aCr7geGM2pvwBy',cUPMDTk:"/backend-api/plugins/featured?platform=codex&__cf_chl_tk=AhX5c6944ClJj3V4HQSvqslEe5SdzLOy23Vtid7dByU-1774969172-1.0.1.1-_xC7d7F99FI_ui1q7RZFknfQJlW53mV9yFEXjYsxy9M",cFPWv: 'g',cITimeS: '1774969172',cTplC:1,cTplO:0,cTplV:5,cTplB: '0',fa:"/backend-api/plugins/featured?platform=codex&__cf_chl_f_tk=AhX5c6944ClJj3V4HQSvqslEe5SdzLOy23Vtid7dByU-1774969172-1.0.1.1-_xC7d7F99FI_ui1q7RZFknfQJlW53mV9yFEXjYsxy9M",md: 'qUpAEV4AW6xmwEWj9GidJSNVGDApMUGvKOpzE236GSc-1774969172-1.2.1.1-L7pOKmuRl4oa2m6lKR0hqu6pVALAGEQlpI_RH7QwPsTuVWzMOa8zOlPqE2biJYo898CFIAA17EJLCwnqbflAO_yMeFh7R9lHH87uXXn0OnVSh8JmI5k_pvgvoZH8lrRAQ3bLN1D_G2DXu6uh3EgALfw6aFGx4wowyk8Kv6lUeDErVAgpQOjhuMtOgH6i3B0g_2MlZIhfqUY9U7Fp2.iz9tn70y9NxFJzTbCoUXthNW1WcGNshWK7sOm1SqLdKyL3_1dpH8OmROtHHPlDKefaEBGiNj15SUmbLbJimlAWueEr6tb4cnRFA_JYl.cxiSv08R7rOwSBGRazBo4meLBZVELpdVXac7s4yA7F.KjTR8hAclr5KNXdoS.8Kk27KfsNj3isgF6yB3YEIvAbdKzSPZ4Kdmu45CUTDni7k6wjQACRF7ww67FZ8auXcsBeqjvJ.Agr38_TsZrtE279ghOEn4acrrZRn0z7UdAxnrCSq97m1Lr2QZh41lJI1vNdiZPtQWkiC48BAEx3xKeshwr1KrAPhTjsY_nW1RzNg7mv.iAHHRnBwoob4AzCpSnPd_59ovz7D_3RUK0AboXaIMJiDvgjjxOAohDrnsOc89gsarIAl05DxBuM32vHjfV4kYlCvGVJ4zMT9772K7tmFHs4s5apJFGZc5924um8bZ14YXmjtSByfGPxqmMfiMc3KSvkNWbfDsRXumzZipVC8S0iHBdXZSU0eKalph1vWBrY6QEJk2GsGCVUHswI_PdKIX9UpdEc2mfFZGrQsZRLFOj8yrxJwtVYAmJwBKobfbSF4OYZEh8zFRvKT_AgoeaD_qGAI3oVpcB0U0664LLDaP9Q9WwMOja69Yitk2GUwvxnvfmyjZQkDfXgsRGS.OMmVnVRo_zqbWceURi6okWPt8aenYTMpzw5eDdUd6CS9cyuq17gf.3YiHWC7uty9EkBnguJUDpqxauEbPhL8ZO9rmrjDg_Yx9bSYI1hLoQAURU86qpxoX.WiCZByY7PRrjUnP3GxH8QI2sf6yk409aI08uxuA',mdrd: 'gjXKySOiprNZGmv3XxFVTpFMzejXPUlPyR9o5Hgvt7U-1774969172-1.2.1.1-8xzZGvRalodmXn5imfpEhs8LTnCmYJSAVG_8gbkSweBAdF_uZCSNgygBTgm8WUVTf8eTS3Zmb9ss13IdSX3MU3H6EdrsXc1o1ejzOWTyL6WESQOjROeIpmSLsQu7eEbwd42vGPfNH_s3xcEQJ8W_HuTG0pvH.nkXkajAgaQwzDikzZqaWgGiLx58G6K.EHbeUtXhIfYyqDbGbPkkXeWveUdmbrKoYNmqRXw419GuIRK0PtvoFYC6JsUDxu_YGCdngla.5AsWuBCnOjlevSSwlUSdiHSjQXE2x9SjbxTtST2Ms2sKQXdbcvFyvp47N_zi98jGRdj.T4eAsbaikl9KX372B629iuzydW0R19EXskumx3alFrIJQ_29ZZsJVCWPN6tzOftUMypS34uYvONeGXwQvlsYRRQwhMtqf0OPaWBfeODLj4ftmPOvNby2fgrxLf7h3aYTB.kXHGGiHGkRNmtZRvZDLDUKZtV7uLF99Jp.m7mO2NNg4jYms4Qd0xGNbdnuX9GiU1itW71YeHqc49d3E2fDgsKaBO2GZGLdUCC3WQ2UOgoImr4wFq4i9I52TYzIrIx8WlA2gwliW2WPBbc6im0qrjYi6fW3z3zpg0oqPnzXW6A_.CTj8NECa.X4OYAkS6OXP8fty5i0hHZm96UIqEPWKyQo38GJq6nshcgmSy.JWHYeuVWazDQTNjjQTiQ_8Drk1OsIpKp5VQNLdJfBV8RunHovxh1PZEhxAhMHFlPOBe8mmVtMHRF8w72jT7OZcBMAbFEyPONJW1NsQLiaehwXpmQmzGAlTvNaEALOG8s66MqX2dphSc9oe5NeI20UMGIw8bbIYRSQ5LvsbWhBAamz87U.QrvwfgTywpAT_4IPQ2FoO2D3v.5i_BCR.vYsbUqskLWhcwF1Fne6zHukm6IHC_EsWz99hcserM_dhXGPeOYjgm6K1unIt6u4QkWiD3bmRlLTGX02LAAO6mgIZ_KtSw79oW0Dc34HQt5HA_a1xP26G_GLQiwB2f8iVij67wtgoPrRZem6ZVuiehDzjVcc0CBB3Vmex5QLqa9RBeCV4HdIMG81jjI_Tl3SklGBjJGoZp9Cgn38G3a5jI4w6e0Fhtq0KkMH3RnZvn3MXUQrplR1.ni.f_h_8JNLW27n2FlxCPOHd1afTlt_Y5zUFKKQed5G9AQ4xaBvML04XJ9E1.axMcmnPlOiVkKZ.tx0kqAAVsypn6Q7KEllFBgiOOaGfVy6CMltaooWBaMMjsLf3chW3ivsOQ4nj1MsDrhrPrpipjddtfb0zDdnElB2OEchWaNKVOFMl3IoKoXjN_UyPgM33vciKjDTH9UDuhZV2NGmlOZ.jV1cJx2zdFRp05WxXLDYrD4qq9DzNQwIstKYJIT_SiP8kAkSQHP6clKJ1Iij.xYL0IfrUmll24o7TSYyE1Bqak5ecYLkAn3tj7Q_GH9cUXcCcJGegyD9H4Ci5VJd91sgCaQasWY2p5td0xc_AWiorcSOAxTwNDUbqHv2DLYploPjwVsFhI_WoYTDOOWA_scksbqSTsuKNKT1IjDVSO_gHfz_Ip9omnRC3YgVdUcIgGL49q616JaAroGcL_kOrxdJywEUA5wtJK4lfrDKo33W2Rm2A9E7xMdyb6mWV..xV2VG.6XLEE3ngPdtzYbmr3xDgO5ztAoLkkOW12NDl5BQGB8anz50UHs3JvmQQDFBC5WdoCpnCCJeKu4OFPA8vgnoZpgc0vJnX14OXaDXCuvW0_fC02E1LPk0bbHgsHqOsfOI6KyMUxib18hd60NR9bf_PoHYdJ_6OtgAyD4bcdtNezaae2yPvAXTk9pkx1dHCUf2Ey_H3gVL_fyRX5abGrxzdMF8ZjxThepDzrenIRke5PI0oj6vh5RjKrDTO5Cn8F3az7I1l1C5Zk3s8myTFYS8GsZd2dDt2Bz.usRS.FNc6.Bu3IC4IURDXumznrYc12X_ccjZ2IOFT.r08Qjy1Q9sOVWMZoy1jwsLxP1BwZhTreq2oe4L8vJ0QKT4EYnXexUyiJQqx_.mUjwD2LNnEy8.ksDXiX.0YoB4fXtYzLe9U2SVtM0ba63TDaXzoTclgt_W3RX1cVeCBTWqlS8j7VzbJPqnxbJY1.Ux.SmlrYNWvwbyyO7TMNDDEdFQ5vzLL2SvV_Vjz6y4spTNKycUriqhKDZkF_9fsGwOjRzv8v2VdARF2XHswFwyzKhAQtreC5nmauckhwn3.Uoe5P0JYIr23LcfxQlIqaLVavE5y9klqVdj8o5HiH4',};var a = document.createElement('script');a.src = '/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=9e5037f2fd540a6c';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,"/backend-api/plugins/featured?platform=codex&__cf_chl_rt_tk=AhX5c6944ClJj3V4HQSvqslEe5SdzLOy23Vtid7dByU-1774969172-1.0.1.1-_xC7d7F99FI_ui1q7RZFknfQJlW53mV9yFEXjYsxy9M"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></div>
+    </div>
+  </body>
+</html>
+
+codex
+Reading the batch manifest and the existing payload examples first, then I’ll generate the JSONL in the repo’s established shape and validate it before finishing.
+exec
+/bin/zsh -lc "sed -n '1,220p' tmp_new_hsk_1_0001.json" in /Users/moi/Desktop/business/learnly/corpus-generation
+ succeeded in 0ms:
+{
+  "word": {
+    "id": "new-hsk-1-0001",
+    "lang": "zh",
+    "lemma": "爱",
+    "display_form": "爱",
+    "pos": "verb",
+    "rank": 1,
+    "pronunciation": "ài"
+  },
+  "glosses": {
+    "primary_gloss": "love",
+    "secondary_glosses": [
+      "like",
+      "be fond of"
+    ],
+    "notes": "Common verb for loving or liking people, things, and activities. In beginner speech it often appears before verbs to show what someone enjoys doing."
+  },
+  "examples": [
+    {
+      "id": "new-hsk-1-0001-ex1",
+      "sentence": "我爱妈妈做的热汤。",
+      "difficulty": 2,
+      "source": "generator-5",
+      "is_primary": false
+    },
+    {
+      "id": "new-hsk-1-0001-ex2",
+      "sentence": "她爱在雨后去公园看花。",
+      "difficulty": 2,
+      "source": "generator-3",
+      "is_primary": false
+    },
+    {
+      "id": "new-hsk-1-0001-ex3",
+      "sentence": "她爱喝早上的热茶。",
+      "difficulty": 1,
+      "source": "generator-4",
+      "is_primary": true
+    }
+  ],
+  "example_translations": [
+    {
+      "example_id": "new-hsk-1-0001-ex1",
+      "translation": "I love the hot soup Mom made."
+    },
+    {
+      "example_id": "new-hsk-1-0001-ex2",
+      "translation": "She loves going to the park to look at flowers after the rain."
+    },
+    {
+      "example_id": "new-hsk-1-0001-ex3",
+      "translation": "She loves drinking hot tea in the morning."
+    }
+  ]
+}
+exec
+/bin/zsh -lc "sed -n '1,260p' AGENTS.md" in /Users/moi/Desktop/business/learnly/corpus-generation
+exec
+/bin/zsh -lc "sed -n '1,220p' runs/new-hsk-1/jobs/generator-2-batch-0251-0300.json" in /Users/moi/Desktop/business/learnly/corpus-generation
+ succeeded in 0ms:
+[
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0251",
+    "rank": 251,
+    "display_form": "哪里",
+    "lemma": "哪里",
+    "generation_form": "哪里",
+    "pronunciation": "nǎ lǐ",
+    "pos": "unknown",
+    "primary_gloss": "where",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0252",
+    "rank": 252,
+    "display_form": "哪儿",
+    "lemma": "哪儿",
+    "generation_form": "哪儿",
+    "pronunciation": "nǎr",
+    "pos": "unknown",
+    "primary_gloss": "where",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0253",
+    "rank": 253,
+    "display_form": "哪些",
+    "lemma": "哪些",
+    "generation_form": "哪些",
+    "pronunciation": "nǎ xiē",
+    "pos": "unknown",
+    "primary_gloss": "which",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0254",
+    "rank": 254,
+    "display_form": "那（代）",
+    "lemma": "那",
+    "generation_form": "那",
+    "pronunciation": "nà",
+    "pos": "pronoun",
+    "primary_gloss": "that",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. The source marks this entry as pronoun."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0255",
+    "rank": 255,
+    "display_form": "那边",
+    "lemma": "那边",
+    "generation_form": "那边",
+    "pronunciation": "nà biān",
+    "pos": "unknown",
+    "primary_gloss": "there",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0256",
+    "rank": 256,
+    "display_form": "那里",
+    "lemma": "那里",
+    "generation_form": "那里",
+    "pronunciation": "nà lǐ",
+    "pos": "unknown",
+    "primary_gloss": "there",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0257",
+    "rank": 257,
+    "display_form": "那儿",
+    "lemma": "那儿",
+    "generation_form": "那儿",
+    "pronunciation": "nàr",
+    "pos": "unknown",
+    "primary_gloss": "there",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0258",
+    "rank": 258,
+    "display_form": "那些",
+    "lemma": "那些",
+    "generation_form": "那些",
+    "pronunciation": "nà xiē",
+    "pos": "unknown",
+    "primary_gloss": "those",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0259",
+    "rank": 259,
+    "display_form": "奶",
+    "lemma": "奶",
+    "generation_form": "奶",
+    "pronunciation": "nǎi",
+    "pos": "unknown",
+    "primary_gloss": "milk",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0260",
+    "rank": 260,
+    "display_form": "奶奶",
+    "lemma": "奶奶",
+    "generation_form": "奶奶",
+    "pronunciation": "nǎinai",
+    "pos": "unknown",
+    "primary_gloss": "grandma",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0261",
+    "rank": 261,
+    "display_form": "男",
+    "lemma": "男",
+    "generation_form": "男",
+    "pronunciation": "nán",
+    "pos": "unknown",
+    "primary_gloss": "Man",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0262",
+    "rank": 262,
+    "display_form": "男孩儿",
+    "lemma": "男孩儿",
+    "generation_form": "男孩儿",
+    "pronunciation": "nán háir",
+    "pos": "unknown",
+    "primary_gloss": "boy",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0263",
+    "rank": 263,
+    "display_form": "男朋友",
+    "lemma": "男朋友",
+    "generation_form": "男朋友",
+    "pronunciation": "nán péng yǒu",
+    "pos": "unknown",
+    "primary_gloss": "boyfriend",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0264",
+    "rank": 264,
+    "display_form": "男人",
+    "lemma": "男人",
+    "generation_form": "男人",
+    "pronunciation": "nán ren",
+    "pos": "unknown",
+    "primary_gloss": "man",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0265",
+    "rank": 265,
+    "display_form": "男生",
+    "lemma": "男生",
+    "generation_form": "男生",
+    "pronunciation": "nán shēng",
+    "pos": "unknown",
+    "primary_gloss": "boy",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0266",
+    "rank": 266,
+    "display_form": "南",
+    "lemma": "南",
+    "generation_form": "南",
+    "pronunciation": "nán",
+    "pos": "unknown",
+    "primary_gloss": "south",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0267",
+    "rank": 267,
+    "display_form": "南边",
+    "lemma": "南边",
+    "generation_form": "南边",
+    "pronunciation": "nán biān",
+    "pos": "unknown",
+    "primary_gloss": "south",
+    "secondary_glosses": [
+
+ succeeded in 0ms:
+# Agent Instructions
+## Self-Correcting Rules Engine
+
+This file contains a growing ruleset that improves over time. **At session start, read the entire "Learned Rules" section before doing anything.**
+
+### How it works
+%I for Command, %L for Agent
+
+1. When the user corrects you or you make a mistake, **immediately append a new rule** to the "Learned Rules" section at the bottom of this file.
+2. Rules are numbered sequentially and written as clear, imperative instructions.
+3. Format: `N. [CATEGORY] Never/Always do X — because Y.`
+4. Categories: `[STYLE]`, `[CODE]`, `[ARCH]`, `[TOOL]`, `[PROCESS]`, `[DATA]`, `[UX]`, `[OTHER]`
+5. Before starting any task, scan all rules below for relevant constraints.
+6. If two rules conflict, the higher-numbered (newer) rule wins.
+7. Remove rules that are obsolete, contradictory, or confusing once a newer rule fully replaces them.
+
+### When to add a rule
+
+- User explicitly corrects your output ("no, do it this way")
+- User rejects a file, approach, or pattern
+- You hit a bug caused by a wrong assumption about this codebase
+- User states a preference ("always use X", "never do Y")
+
+### Rule format example
+
+14. [CODE] Always use `bun` instead of `npm` — user preference, bun is installed globally.
+15. [STYLE] Never add emojis to commit messages — project convention.
+16. [ARCH] API routes live in `src/server/routes/`, not `src/api/` — existing codebase pattern.
+
+---
+
+## Learned Rules
+
+<!-- New rules are appended below this line. Remove obsolete rules when newer ones fully replace them. -->
+2. [ARCH] Always bias product structure and UX toward Hack Chinese-style information architecture when evolving Learnly — user explicitly wants the app to copy Hack Chinese architecture more closely.
+3. [PROCESS] Never run `npm run typecheck` in parallel with `npm run build` in this repo — `tsconfig.json` includes `.next/types`, so concurrent verification can fail on generated file races.
+4. [UX] Always bias the study interface toward a premium, minimal, compact review surface with no 'if you grade this card' explainer and no redundant secondary study CTA — user explicitly wants denser, more polished review UX.
+5. [UX] Always support the review experience with two-button grading, reverse mode, stronger pronunciation, arrow-key shortcuts, and excellent responsive behavior — user explicitly wants function-first study ergonomics.
+6. [UX] Always treat the homepage, fonts, CTA styling, color system, and dark mode as top-priority polish areas — user explicitly says the current main page is bad and wants a bright premium Start Study button, dark mode option, and better color iteration.
+4. [UX] Always reduce the visible product to only the main page, dashboard, and study mode until the core loop is stronger — user explicitly rejected extra surfaces as confusing complexity.
+5. [STYLE] Always push the UI toward a premium, modern, minimal, polished look with excellent desktop, tablet, and mobile behavior — user explicitly wants a top-tier premium visual result.
+6. [UX] Always keep study mode binary for now with only `Know` and `Don't know` actions — user explicitly rejected the multi-grade review controls.
+7. [UX] Always remove the `If you grade this card...` preview from study mode and replace it with simpler, more direct study interactions — user explicitly called it wrong and confusing.
+8. [UX] Always support reverse English-to-Spanish mode, better sentence pronunciation, and arrow-key shortcuts in study mode — user explicitly wants these as core behavior, not optional extras.
+9. [STYLE] Always treat the landing page, CTA styling, typography, dark mode, and color system as first-class product work until the app feels premium and beautiful — user explicitly says the main page is still bad and wants a bright premium CTA plus dark mode.
+11. [UX] Always expose a real visible Words surface for studied vocabulary when refining Learnly — user explicitly wants a Words section listing studied words instead of hiding it behind redirects.
+11. [ARCH] Always keep a real Words section in the visible product when the user asks for it, showing the words already studied — the user explicitly requested a words area instead of hiding it behind redirects.
+12. [STYLE] Always make the top navigation float with a semi-transparent premium treatment and keep the header Study button bright and prominent when the user asks for that direction — the user explicitly corrected the current header design.
+13. [STYLE] Always rewrite homepage messaging toward concrete meaning and away from vague premium-sounding copy — the user explicitly rejected the current home page text as gibberish.
+14. [STYLE] Always treat `/v2` as a fully distinct product family and never reuse the current rejected dark glassy SaaS direction after the user scraps it — the user explicitly rejected the current `/v2` design and wants it redone from scratch.
+14. [STYLE] Always keep the homepage commercially legible, concrete, and emotionally clear instead of abstract or decorative — the user explicitly rejected vague home-page wording and wants a real company/product description.
+15. [STYLE] Always keep the header CTA bright, premium, and visually stronger than surrounding controls — the user explicitly clarified that the top Study button itself should stand out.
+16. [UX] Always keep a visible Words section showing the words already studied when the user asks for it — the user explicitly wants a real studied-words surface in the product.
+17. [STYLE] Always make dashboard colors coherent with the wider site palette and fully functional instead of feeling like a mismatched mockup — the user explicitly rejected the current dashboard chart treatment.
+18. [PROCESS] Always clear generated `.next` artifacts and rebuild if Next.js fails with a missing chunk/module during `next build` — this repo can leave stale build output that breaks otherwise-correct builds.
+19. [ARCH] Always build radically different design explorations in a separate `v2`-style subfolder when the user asks, instead of mutating the main product surface — the user explicitly wants a second version kept separate.
+20. [STYLE] Always keep `v2` design work structurally informed by the product but visually independent from the current version — the user explicitly rejected taking design inspiration from the existing UI.
+21. [STYLE] Never reuse the current cold dark `v2` luxury-tech direction once the user has rejected it; replace it with a fully different premium visual family while keeping the same product structure — the user explicitly called the implemented `/v2` design terrible and wants it scrapped.
+21. [STYLE] Always scrap and replace a rejected full-design direction instead of incrementally polishing it — the user explicitly rejected the current `v2` and wants a true redesign, not iteration on the same visual thesis.
+23. [PROCESS] Always clear `tsconfig.tsbuildinfo` and `.next/cache/.tsbuildinfo` along with `.next` when a build references missing `.next/types` route files — this repo keeps stale incremental TypeScript route entries after route changes.
+24. [DATA] Always treat the main product dataset as a real vocabulary corpus with large coverage, example sentences, and pronunciation support when the user asks for it — the user explicitly wants the database expanded to 1000 Spanish words with sentences and pronunciation.
+25. [UX] Always keep the study header non-floating on mobile if it risks overlapping the study surface, and make shortcut mapping visually explicit in the buttons instead of redundant footer legends — the user explicitly rejected the overlapping mobile header and the current shortcut labeling.
+26. [STYLE] Always keep Reviews Due and Vocabulary Growth fully functional, compact, and visually coherent, with the range control inside Reviews Due and no mismatched chart metaphors or colors — the user explicitly rejected the current dashboard chart rendering and vocabulary-growth styling.
+27. [STYLE] Always keep iterating on the main homepage messaging, content, and design until it feels commercially strong and beautiful — the user explicitly says the current main page is still not good enough.
+28. [PROCESS] Always clear `.next` and `tsconfig.tsbuildinfo` before restarting Next after major refactors if dev shows impossible webpack/runtime corruption — stale generated artifacts in this repo can cause false runtime errors.
+29. [PROCESS] Never run `next build` while `next dev` is using the same `.next` directory — this repo can corrupt the dev chunk graph and trigger false missing-module runtime errors.
+30. [STYLE] Always rename the visible product brand from `Lemma` to `LanguageHack` when updating the main experience — the user explicitly requested the rename.
+31. [UX] Always prevent the mobile top menu from overlapping dashboard or study content without shrinking the menu itself — the user explicitly reported the overlap as a bug.
+32. [UX] Always keep the top-menu navigation visible in study mode on mobile while still avoiding overlap with the study surface — the user explicitly rejected the disappearing buttons.
+33. [UX] Always remove the redundant `Study` nav pill when a primary header CTA already leads into study — the user explicitly called the duplicate study button confusing.
+34. [UX] Always map study shortcuts as `Up = word audio`, `Down = sentence audio`, `Right = reveal/know`, and `Left = don't know` — the user explicitly corrected the current arrow mapping.
+36. [ARCH] Always treat the product as a real scalable application rather than a demo and design data structures, storage, and fetch paths for future high-volume words, examples, audio, and SRS data — the user explicitly said to stop thinking about it as a demo.
+38. [DATA] Always remove the concept of a single `focus word` from the main product experience and underlying dashboard assumptions — the user explicitly rejected the idea of a focus word.
+39. [DATA] Always support Chinese as a first-class study language with separate HSK 1-6 list structure when expanding content architecture — the user explicitly requested Chinese HSK lists as separate lists.
+40. [UX] Always implement the requested staged study flows, with distinct non-Chinese and Chinese review sequences instead of a single generic binary review card — the user explicitly defined different study processes for Chinese and non-Chinese words.
+41. [UX] Never show a `Live` badge or status label in the dashboard queue section — the user explicitly asked for `Live` to be removed.
+42. [UX] Never expose queue-mode controls like `Everyday`, `Review only`, or `New only` on the dashboard — the user explicitly asked to remove queue mode there while keeping the product focused.
+43. [DATA] Always use working Chinese audio voice names or aliases instead of assuming old macOS spellings — the user explicitly reported that Chinese audio is broken.
+44. [STYLE] Always make the primary `Study` CTA visibly different when the user says it still has not changed — the user explicitly rejected the current button treatment.
+45. [UX] Always remove dashboard copy that estimates study time with `in about X minutes` when the user asks for it — the user explicitly wants that text gone.
+46. [STYLE] Always provide a concrete LanguageHack brand system with actual chosen logo and font pairings when the user asks for it — the user explicitly said the real logos and fonts were missing.
+47. [PROCESS] Always make dashboard language toggles and lower sections feel fast, with reduced lag during selection changes and refreshes — the user explicitly reported sluggish dashboard interactions.
+48. [STYLE] Always replace the main-site typography, especially the bold weights, when the user says the current fonts feel wrong — the user explicitly asked for font changes.
+49. [UX] Always show reviewed-today and new-words-today stats in the study header instead of the current recall explainer when the user asks for that swap — the user explicitly specified the replacement content.
+50. [UX] Always label the Today metric as `New words` instead of `Learned` on the dashboard — the user explicitly corrected the terminology.
+51. [UX] Always show `SC 1` after the learner taps `I don't know` in learning mode when the user requests that study-state label — the user explicitly specified that behavior.
+52. [STYLE] Always keep iterating the color system across the full website when the user calls it out — the user explicitly asked for broader color work throughout the site.
+53. [UX] Always interpret `sc 1` as `screenshot 1`, not as literal `SC 1` text in the UI — the user explicitly corrected this misunderstanding.
+54. [STYLE] Never change dashboard-specific colors when the user is asking for other fixes unless they explicitly ask for dashboard color changes — the user explicitly said the dashboard colors should not have been changed here.
+55. [STYLE] Always smooth out any visible dashboard rendering artifact or blotchy/striped patch the user points out instead of leaving translucent background effects in place — the user explicitly called out a bad-looking dashboard spot.
+56. [UX] Always surface Chinese pronunciation clearly in the study experience when the user says it is still missing — the user explicitly said Chinese pronunciation is still not there.
+57. [PROCESS] Always bust both browser and local generated-audio caches when fixing broken pronunciation in this repo — `/api/audio` is served as immutable and stale Chinese audio can survive code changes.
+58. [STYLE] Always use a San Francisco system stack everywhere and make bold typography less heavy when the user asks for a font experiment — the user explicitly requested SF across the app with softer bold weights.
+59. [STYLE] Always make typography experiments visibly obvious instead of technically subtle when the user says they can’t tell the difference — the user explicitly said they do not think the font change happened.
+60. [CODE] Always lighten component-level typography rules that embed `font-semibold` or `font-bold` when changing weights globally — utility-class overrides alone do not visibly affect many key controls in this codebase.
+61. [STYLE] Always give the `LanguageHack` wordmark its own prettier editorial treatment when the user asks for it, instead of leaving it as plain UI text — the brand name itself needs to feel designed.
+62. [STYLE] Always remove the `Ranked vocabulary recall` descriptor everywhere when the user asks for it gone — it should not remain in the logo lockup, metadata, or marketing copy.
+63. [STYLE] Always treat `LanguageHack` as one tight wordmark with a dedicated display font when refining the brand text — splitting it with visible spacing makes it feel less polished.
+64. [STYLE] Always remove the standalone brand symbol and keep only the `LanguageHack` wordmark when the user asks to remove the logo — the text mark should stand on its own.
+65. [STYLE] Always reduce the `LanguageHack` wordmark weight at the component level when the user asks for it to feel less bold — the header mark should not stay visually heavy because of an explicit `700` weight.
+66. [STYLE] Always refine the `LanguageHack` wordmark beyond simple weight changes when the user asks for more polish — it should feel elegant and editorial, not just thinner.
+67. [STYLE] Always keep the `H` in `LanguageHack` upright when refining the wordmark — italicizing the first letter of `Hack` makes the mark look wrong to the user.
+68. [STYLE] Always simplify the `LanguageHack` wordmark into one calm, elegant serif mark when the user asks for a more premium result — decorative split treatments can feel less luxurious than a cleaner single-word wordmark.
+69. [STYLE] Always prioritize readability over delicacy in the `LanguageHack` wordmark — a premium logo still needs to read clearly at small header sizes.
+70. [STYLE] Always avoid a wordmark font whose lowercase `g` has a visible top comma/ear when the user rejects that detail — the `LanguageHack` logo should keep a cleaner `g` shape.
+71. [STYLE] Always preserve the last readable `LanguageHack` wordmark and only change the rejected glyph detail when the user asks for a specific letter fix — do not reinvent the whole logo for a single-character complaint.
+72. [STYLE] Always follow the user’s supplied wordmark reference image over prior serif experiments — the `LanguageHack` logo should match the clean geometric sans direction when the user says `use this`.
+73. [STYLE] Always match the main light-theme background to the user’s supplied warm off-white reference when they provide one — keep it flatter and cleaner instead of using a stronger beige gradient.
+74. [STYLE] Always keep the main app on one cohesive warm-neutral palette with terracotta, sand, and muted sage accents when the user asks for color cleanup throughout the site — avoid disconnected cool accent jumps across dashboard, study, and words.
+75. [STYLE] Always rebuild the main `Start Study` CTA as a fresh custom design when the user asks for it from scratch — do not just keep iterating the old bright gradient button.
+76. [STYLE] Always make the rebuilt `Start Study` CTA decisively orange when the user explicitly asks for `orange orange` — avoid muted beige or softened warm-neutral treatments.
+77. [STYLE] Always use a flat solid orange fill with no gradients when the user says the study button should be `just orange` — keep the CTA literal instead of styling it with color transitions.
+78. [STYLE] Always restore the dashboard’s original gold/clay/violet accents exactly when the user asks for the old dashboard colors back — do not substitute green or pine tones there.
+79. [PROCESS] Always make literal, visually exact changes and avoid adjacent reinterpretation when the user is correcting repeated misses — approximation and extra styling changes break trust and create rework.
+80. [PROCESS] Always verify live page hydration and key audio endpoints on the running site before assuming the website works — this repo can serve HTML while stale Next chunks leave buttons dead and audio seemingly broken.
+81. [UX] Always keep Vocabulary Growth focused on learned words only in the visible graph, with hover details for learned and remaining counts, and never let the chart get flattened by the remaining corpus — the user explicitly rejected the squished graph and visible remaining series.
+82. [UX] Always reset Vocabulary Growth back to `Today` when hover ends and align the `Today` axis label to the chart edge instead of leaving it visually off-center — the user explicitly corrected both the default state and the label placement.
+84. [UX] Always use a neutral Vocabulary Growth summary label when `Today` is the resting state — `Hovered day` is misleading once the chart resets by default.
+85. [UX] Always make Vocabulary Growth easy to reset back to `Today` on touch and keep its axis labels visually integrated with the chart instead of detached below it — subagent critique surfaced both issues after the user asked for harsh review.
+86. [UX] Always render `Today` as the explicit resting-state label and as a distinct endpoint after the Vocabulary Growth graph, not as a normal in-sequence tick — the user explicitly clarified that `Today` means the label after the graph.
+87. [UX] Always keep Vocabulary Growth hover feedback visually flat and never add a `Show today` control when the user asks for a cleaner interaction — the user explicitly rejected both the extra button and the hover-expanded bar treatment.
+88. [UX] Always separate Vocabulary Growth hover preview from tap selection and reset preview on blur when removing explicit reset controls — the previous single-state interaction left non-mouse users stuck away from `Today`.
+89. [UX] Always clear any pinned Vocabulary Growth day when focus leaves the chart and support an inline keyboard reset like `Escape` if the explicit `Show today` control is gone — the chart still needs a no-button path back to `Today`.
+91. [UX] Always keep the dashboard language chips flat with no raised selected-tab treatment, and never show transient `Saving` or `Updating` status pills when the user asks for cleaner controls — the user explicitly rejected both behaviors.
+92. [PROCESS] Always use only Herschel for testing and critique after every implementation change, and never use or spawn other subagents unless the user explicitly asks — the user explicitly narrowed subagent use to Herschel alone.
+95. [PROCESS] Always remove obsolete or confusing AGENTS rules when a newer rule fully replaces them — the user explicitly said the old confusing rules can just be removed.
+96. [UX] Always keep the main app to one super-bright `Start Study` CTA in the top navigation and remove duplicate body CTAs like `Start Study` or `Open Dashboard` when the user asks — the user explicitly wants only the header study button.
+97. [UX] Always remove the dashboard `Target` block and keep the Today and Languages cards vertically tighter when the user asks for a cleaner top dashboard stack — the user explicitly rejected that extra section and wanted the cards shrunk.
+98. [STYLE] Always remove user-facing `beta` labels and copy when the user asks — the user explicitly wanted the word `beta` gone from the visible product.
+99. [STYLE] Always keep the main app outside the dashboard on one orange accent centered on `#FF991C` when the user asks for a single accent color — the user explicitly provided the accent reference and said the dashboard can be the exception.
+100. [STYLE] Always make dark-mode study read black at the top instead of grey when the user calls that out — the user explicitly wants a black study backdrop in dark mode.
+101. [STYLE] Always make dark-mode words read as black/dark-neutral instead of grey-heavy when the user calls out a grey words background — the user explicitly rejected the grey dark-mode words surface.
+102. [UX] Always hide Chinese pinyin during the initial `Did you know this pronunciation?` guess step and reveal it only after that step advances — the user explicitly said the pronunciation should not be shown before the learner first decides.
+103. [STYLE] Always refine the main dark theme toward warmer black surfaces, richer depth, and less cold grey when the user asks for dark-theme improvement — the user explicitly wants the dark theme to feel more polished, not merely darker.
+104. [STYLE] Always keep the study-mode top menu in dark mode visually coherent with the shared home/dashboard dark navigation rather than making it a pure black slab — the user explicitly corrected the study header treatment.
+105. [PROCESS] Always distinguish healthy visual consistency from harmful flatness when critiquing design — repeated components are normal; only call it a problem when hierarchy, contrast, or role separation break down.
+106. [PROCESS] Always verify the live rendered UI before making concrete design claims about what is visibly on screen — code alone can misrepresent the current interface and create false critique.
+107. [PROCESS] Always create the six corpus-generation sub-agents once and reuse them across the whole word list, compiling results into one SQLite database — the user explicitly corrected the workflow away from per-word agent spawning.
+108. [DATA] Always fully remove unwanted source datasets and their dataset-specific scaffolding when the user says to scrap them — the user explicitly asked to remove SUBTLEX-CH rather than keeping it in the workspace and DB.
+109. [PROCESS] Always orchestrate this corpus-generation workspace with exactly two reusable sentence-generator subagents when the user requests that split — the user explicitly asked for two subagents that receive words from the orchestrator and return example sentences.
+110. [DATA] Always process the first 500 requested source words in strict rank order and preserve their rank-linked metadata during generation and ingestion — the user explicitly asked to do these 500 words first and remember their ranks and everything.
+111. [DATA] Always use the existing `new-hsk-1-####` word-id prefix for the New HSK 1 dataset instead of deriving ids directly from `new-hsk-1-words` — a wrong assumption about the dataset-to-id mapping broke coverage tracking in this repo.
+
+exec
+/bin/zsh -lc "sed -n '1,220p' tmp_new_hsk_1_0002.json" in /Users/moi/Desktop/business/learnly/corpus-generation
+ succeeded in 0ms:
+{
+  "word": {
+    "id": "new-hsk-1-0002",
+    "lang": "zh",
+    "lemma": "爱好",
+    "display_form": "爱好",
+    "pos": "noun",
+    "rank": 2,
+    "pronunciation": "ài hào"
+  },
+  "glosses": {
+    "primary_gloss": "hobby",
+    "secondary_glosses": [
+      "interest",
+      "pastime"
+    ],
+    "notes": "Common noun for a pastime or personal interest. It often appears in patterns like `...的爱好是...` and `把...当作爱好`."
+  },
+  "examples": [
+    {
+      "id": "new-hsk-1-0002-ex1",
+      "sentence": "她的爱好是周末跑步。",
+      "difficulty": 1,
+      "source": "generator-4",
+      "is_primary": true
+    },
+    {
+      "id": "new-hsk-1-0002-ex2",
+      "sentence": "我的爱好是拍旧街上的照片。",
+      "difficulty": 2,
+      "source": "generator-2",
+      "is_primary": false
+    },
+    {
+      "id": "new-hsk-1-0002-ex3",
+      "sentence": "他把钓鱼当作爱好。",
+      "difficulty": 2,
+      "source": "generator-1",
+      "is_primary": false
+    }
+  ],
+  "example_translations": [
+    {
+      "example_id": "new-hsk-1-0002-ex1",
+      "translation": "Her hobby is running on weekends."
+    },
+    {
+      "example_id": "new-hsk-1-0002-ex2",
+      "translation": "My hobby is taking photos on old streets."
+    },
+    {
+      "example_id": "new-hsk-1-0002-ex3",
+      "translation": "He treats fishing as a hobby."
+    }
+  ]
+}
+codex
+I’ve got the target payload shape and the first half of the batch. Next I’m reading the rest of the manifest and checking whether nearby generated batches already establish conventions for POS, notes, and example style.
+exec
+/bin/zsh -lc "sed -n '221,520p' runs/new-hsk-1/jobs/generator-2-batch-0251-0300.json" in /Users/moi/Desktop/business/learnly/corpus-generation
+ succeeded in 0ms:
+      "south side"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0268",
+    "rank": 268,
+    "display_form": "难",
+    "lemma": "难",
+    "generation_form": "难",
+    "pronunciation": "nán",
+    "pos": "unknown",
+    "primary_gloss": "hard",
+    "secondary_glosses": [
+      "difficult"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0269",
+    "rank": 269,
+    "display_form": "呢",
+    "lemma": "呢",
+    "generation_form": "呢",
+    "pronunciation": "ne",
+    "pos": "unknown",
+    "primary_gloss": "auxiliary word",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0270",
+    "rank": 270,
+    "display_form": "能",
+    "lemma": "能",
+    "generation_form": "能",
+    "pronunciation": "néng",
+    "pos": "unknown",
+    "primary_gloss": "can",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0271",
+    "rank": 271,
+    "display_form": "你",
+    "lemma": "你",
+    "generation_form": "你",
+    "pronunciation": "nǐ",
+    "pos": "pronoun",
+    "primary_gloss": "you",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0272",
+    "rank": 272,
+    "display_form": "你们",
+    "lemma": "你们",
+    "generation_form": "你们",
+    "pronunciation": "nǐ men",
+    "pos": "pronoun",
+    "primary_gloss": "you",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0273",
+    "rank": 273,
+    "display_form": "年",
+    "lemma": "年",
+    "generation_form": "年",
+    "pronunciation": "nián",
+    "pos": "unknown",
+    "primary_gloss": "year",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0274",
+    "rank": 274,
+    "display_form": "您",
+    "lemma": "您",
+    "generation_form": "您",
+    "pronunciation": "nín",
+    "pos": "pronoun",
+    "primary_gloss": "you",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0275",
+    "rank": 275,
+    "display_form": "牛奶",
+    "lemma": "牛奶",
+    "generation_form": "牛奶",
+    "pronunciation": "niúnǎi",
+    "pos": "unknown",
+    "primary_gloss": "milk",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0276",
+    "rank": 276,
+    "display_form": "女",
+    "lemma": "女",
+    "generation_form": "女",
+    "pronunciation": "nǚ",
+    "pos": "unknown",
+    "primary_gloss": "woman",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0277",
+    "rank": 277,
+    "display_form": "女儿",
+    "lemma": "女儿",
+    "generation_form": "女儿",
+    "pronunciation": "nǚ'ér",
+    "pos": "unknown",
+    "primary_gloss": "daughter",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0278",
+    "rank": 278,
+    "display_form": "女孩儿",
+    "lemma": "女孩儿",
+    "generation_form": "女孩儿",
+    "pronunciation": "nǚ háir",
+    "pos": "unknown",
+    "primary_gloss": "girl",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0279",
+    "rank": 279,
+    "display_form": "女朋友",
+    "lemma": "女朋友",
+    "generation_form": "女朋友",
+    "pronunciation": "nǚ péng yǒu",
+    "pos": "unknown",
+    "primary_gloss": "girlfriend",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0280",
+    "rank": 280,
+    "display_form": "女人",
+    "lemma": "女人",
+    "generation_form": "女人",
+    "pronunciation": "nǚ ren",
+    "pos": "unknown",
+    "primary_gloss": "woman",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0281",
+    "rank": 281,
+    "display_form": "女生",
+    "lemma": "女生",
+    "generation_form": "女生",
+    "pronunciation": "nǚ shēng",
+    "pos": "unknown",
+    "primary_gloss": "girl",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0282",
+    "rank": 282,
+    "display_form": "旁边",
+    "lemma": "旁边",
+    "generation_form": "旁边",
+    "pronunciation": "pángbiān",
+    "pos": "unknown",
+    "primary_gloss": "Side",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0283",
+    "rank": 283,
+    "display_form": "跑",
+    "lemma": "跑",
+    "generation_form": "跑",
+    "pronunciation": "pǎo",
+    "pos": "unknown",
+    "primary_gloss": "run",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0284",
+    "rank": 284,
+    "display_form": "朋友",
+    "lemma": "朋友",
+    "generation_form": "朋友",
+    "pronunciation": "péngyou",
+    "pos": "unknown",
+    "primary_gloss": "Friend",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0285",
+    "rank": 285,
+    "display_form": "票",
+    "lemma": "票",
+    "generation_form": "票",
+    "pronunciation": "piào",
+    "pos": "unknown",
+    "primary_gloss": "ticket",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0286",
+    "rank": 286,
+    "display_form": "七",
+    "lemma": "七",
+    "generation_form": "七",
+    "pronunciation": "qī",
+    "pos": "numeral",
+    "primary_gloss": "Seven",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0287",
+    "rank": 287,
+    "display_form": "起",
+    "lemma": "起",
+    "generation_form": "起",
+    "pronunciation": "qǐ",
+    "pos": "unknown",
+    "primary_gloss": "get up",
+    "secondary_glosses": [
+      "start",
+      "rise"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0288",
+    "rank": 288,
+    "display_form": "起床",
+    "lemma": "起床",
+    "generation_form": "起床",
+    "pronunciation": "qǐchuáng",
+    "pos": "unknown",
+    "primary_gloss": "Get up",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0289",
+    "rank": 289,
+    "display_form": "起来",
+    "lemma": "起来",
+    "generation_form": "起来",
+    "pronunciation": "qǐlái",
+    "pos": "unknown",
+    "primary_gloss": "get up",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0290",
+    "rank": 290,
+    "display_form": "汽车",
+
+exec
+/bin/zsh -lc 'rg --files runs/new-hsk-1/generated/generator-2 | sort | tail -n 8' in /Users/moi/Desktop/business/learnly/corpus-generation
+ succeeded in 0ms:
+exec
+/bin/zsh -lc 'ls runs/new-hsk-1/generated/generator-2' in /Users/moi/Desktop/business/learnly/corpus-generation
+ succeeded in 0ms:
+exec
+/bin/zsh -lc "sed -n '521,760p' runs/new-hsk-1/jobs/generator-2-batch-0251-0300.json" in /Users/moi/Desktop/business/learnly/corpus-generation
+ succeeded in 0ms:
+    "lemma": "汽车",
+    "generation_form": "汽车",
+    "pronunciation": "qì chē",
+    "pos": "unknown",
+    "primary_gloss": "car",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0291",
+    "rank": 291,
+    "display_form": "前",
+    "lemma": "前",
+    "generation_form": "前",
+    "pronunciation": "qián",
+    "pos": "unknown",
+    "primary_gloss": "front",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0292",
+    "rank": 292,
+    "display_form": "前边",
+    "lemma": "前边",
+    "generation_form": "前边",
+    "pronunciation": "qián biān",
+    "pos": "unknown",
+    "primary_gloss": "in front",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0293",
+    "rank": 293,
+    "display_form": "前天",
+    "lemma": "前天",
+    "generation_form": "前天",
+    "pronunciation": "qián tiān",
+    "pos": "unknown",
+    "primary_gloss": "the day before yesterday",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0294",
+    "rank": 294,
+    "display_form": "钱",
+    "lemma": "钱",
+    "generation_form": "钱",
+    "pronunciation": "qián",
+    "pos": "unknown",
+    "primary_gloss": "money",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0295",
+    "rank": 295,
+    "display_form": "钱包",
+    "lemma": "钱包",
+    "generation_form": "钱包",
+    "pronunciation": "qián bāo",
+    "pos": "unknown",
+    "primary_gloss": "wallet",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0296",
+    "rank": 296,
+    "display_form": "请",
+    "lemma": "请",
+    "generation_form": "请",
+    "pronunciation": "qǐng",
+    "pos": "unknown",
+    "primary_gloss": "please",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0297",
+    "rank": 297,
+    "display_form": "请假",
+    "lemma": "请假",
+    "generation_form": "请假",
+    "pronunciation": "qǐngjià",
+    "pos": "unknown",
+    "primary_gloss": "ask for leave",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0298",
+    "rank": 298,
+    "display_form": "请进",
+    "lemma": "请进",
+    "generation_form": "请进",
+    "pronunciation": "qǐng jìn",
+    "pos": "unknown",
+    "primary_gloss": "please come in",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0299",
+    "rank": 299,
+    "display_form": "请问",
+    "lemma": "请问",
+    "generation_form": "请问",
+    "pronunciation": "qǐng wèn",
+    "pos": "unknown",
+    "primary_gloss": "excuse me",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0300",
+    "rank": 300,
+    "display_form": "请坐",
+    "lemma": "请坐",
+    "generation_form": "请坐",
+    "pronunciation": "qǐng zuò",
+    "pos": "unknown",
+    "primary_gloss": "please have a seat",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  }
+]
+
+codex
+The output directory is empty, so I’m checking adjacent generated data elsewhere in the repo for any schema details beyond the two tmp examples before I write the 50 final payloads.
+exec
+/bin/zsh -lc "find runs -maxdepth 4 -type f | sort | sed -n '1,220p'" in /Users/moi/Desktop/business/learnly/corpus-generation
+ succeeded in 0ms:
+runs/new-hsk-1/jobs/generator-1-batch-0004-0050.json
+runs/new-hsk-1/jobs/generator-1-batch-0051-0100.json
+runs/new-hsk-1/jobs/generator-1-batch-0101-0150.json
+runs/new-hsk-1/jobs/generator-1-batch-0151-0200.json
+runs/new-hsk-1/jobs/generator-1-batch-0201-0250.json
+runs/new-hsk-1/jobs/generator-1-jobs.json
+runs/new-hsk-1/jobs/generator-2-batch-0251-0300.json
+runs/new-hsk-1/jobs/generator-2-batch-0301-0350.json
+runs/new-hsk-1/jobs/generator-2-batch-0351-0400.json
+runs/new-hsk-1/jobs/generator-2-batch-0401-0450.json
+runs/new-hsk-1/jobs/generator-2-batch-0451-0500.json
+runs/new-hsk-1/jobs/generator-2-jobs.json
+runs/new-hsk-1/logs/generator-1-batch-0004-0050.log
+runs/new-hsk-1/logs/generator-2-batch-0251-0300.log
+
+exec
+/bin/zsh -lc "rg -n 'new-hsk-1-0251|example_translations|\"word\": \\{' -g '*.jsonl' -g '*.json' ." in /Users/moi/Desktop/business/learnly/corpus-generation
+ succeeded in 0ms:
+./tmp_new_hsk_1_0003.json:2:  "word": {
+./tmp_new_hsk_1_0003.json:41:  "example_translations": [
+./tmp_new_hsk_1_0002.json:2:  "word": {
+./tmp_new_hsk_1_0002.json:42:  "example_translations": [
+./tmp_new_hsk_1_0001.json:2:  "word": {
+./tmp_new_hsk_1_0001.json:42:  "example_translations": [
+./runs/new-hsk-1/jobs/generator-2-batch-0251-0300.json:4:    "word_id": "new-hsk-1-0251",
+./runs/new-hsk-1/jobs/generator-2-jobs.json:4:    "word_id": "new-hsk-1-0251",
+
+exec
+/bin/zsh -lc "sed -n '1,220p' tmp_new_hsk_1_0003.json" in /Users/moi/Desktop/business/learnly/corpus-generation
+exec
+/bin/zsh -lc "sed -n '1,220p' runs/new-hsk-1/logs/generator-2-batch-0251-0300.log" in /Users/moi/Desktop/business/learnly/corpus-generation
+ succeeded in 0ms:
+{
+  "word": {
+    "id": "new-hsk-1-0003",
+    "lang": "zh",
+    "lemma": "八",
+    "display_form": "八",
+    "pos": "numeral",
+    "rank": 3,
+    "pronunciation": "bā"
+  },
+  "glosses": {
+    "primary_gloss": "eight",
+    "secondary_glosses": [
+      "8"
+    ],
+    "notes": "Basic number eight. It often appears with classifiers such as `八个...` and in time expressions like `八点`."
+  },
+  "examples": [
+    {
+      "id": "new-hsk-1-0003-ex1",
+      "sentence": "桌上有八个红苹果。",
+      "difficulty": 1,
+      "source": "generator-3",
+      "is_primary": true
+    },
+    {
+      "id": "new-hsk-1-0003-ex2",
+      "sentence": "桌上放着八个红苹果。",
+      "difficulty": 2,
+      "source": "generator-5",
+      "is_primary": false
+    },
+    {
+      "id": "new-hsk-1-0003-ex3",
+      "sentence": "桌上摆着八个苹果。",
+      "difficulty": 2,
+      "source": "generator-1",
+      "is_primary": false
+    }
+  ],
+  "example_translations": [
+    {
+      "example_id": "new-hsk-1-0003-ex1",
+      "translation": "There are eight red apples on the table."
+    },
+    {
+      "example_id": "new-hsk-1-0003-ex2",
+      "translation": "Eight red apples are sitting on the table."
+    },
+    {
+      "example_id": "new-hsk-1-0003-ex3",
+      "translation": "Eight apples are laid out on the table."
+    }
+  ]
+}
+ succeeded in 0ms:
+2026-03-31T14:59:32.577784Z  WARN codex_core::project_doc: Project doc `/Users/moi/Desktop/business/learnly/corpus-generation/AGENTS.md` exceeds remaining budget (9567 bytes) - truncating.
+OpenAI Codex v0.118.0-alpha.2 (research preview)
+--------
+workdir: /Users/moi/Desktop/business/learnly/corpus-generation
+model: gpt-5.4
+provider: openai
+approval: never
+sandbox: danger-full-access
+reasoning effort: xhigh
+reasoning summaries: none
+session id: 019d4468-3265-7dd3-bdd5-f465e19672c5
+--------
+user
+You are a corpus-generation worker in the workspace /Users/moi/Desktop/business/learnly/corpus-generation.
+
+Read this manifest:
+- /Users/moi/Desktop/business/learnly/corpus-generation/runs/new-hsk-1/jobs/generator-2-batch-0251-0300.json
+
+Write this JSONL file:
+- /Users/moi/Desktop/business/learnly/corpus-generation/runs/new-hsk-1/generated/generator-2/generator-2-batch-0251-0300.jsonl
+
+Requirements:
+- Read every job row and write one final payload JSON object per line.
+- Use the final payload shape already present in tmp_new_hsk_1_0001.json and tmp_new_hsk_1_0002.json.
+- Keep word ids, ranks, and pronunciations aligned with the manifest.
+- `word.lang` must be `zh`.
+- `word.lemma` and `word.display_form` should use the manifest's normalized `generation_form`.
+- Refine `pos` only when obvious; otherwise keep the seed value.
+- Keep the seed primary gloss unless clearly wrong.
+- Secondary glosses may be empty if uncertain.
+- Notes should be brief and learner-friendly.
+- Produce exactly 3 examples and 3 matching translations per word.
+- Each Chinese sentence must be simplified Chinese, natural, 5-12 words, concrete, and use the target word in its primary meaning.
+- Use distinct scenarios.
+- Example ids must be `{word_id}-ex1`, `-ex2`, and `-ex3`.
+- Set `source` to `generator-2` on every example.
+- Exactly one example must have `is_primary: true`.
+- Use conservative difficulty values 1, 2, or 3.
+- Overwrite the output file with only valid JSONL content for this batch.
+- Validate the JSONL before finishing.
+
+When done, reply with a short summary only.
+
+2026-03-31T14:59:32.682925Z  WARN codex_core::shell_snapshot: Failed to delete shell snapshot at "/Users/moi/.codex/shell_snapshots/019d4468-3265-7dd3-bdd5-f465e19672c5.tmp-1774969172587034000": Os { code: 2, kind: NotFound, message: "No such file or directory" }
+2026-03-31T14:59:32.848684Z  WARN codex_core::plugins::manager: failed to warm featured plugin ids cache error=remote plugin sync request to https://chatgpt.com/backend-api/plugins/featured failed with status 403 Forbidden: <html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style global>body{font-family:Arial,Helvetica,sans-serif}.container{align-items:center;display:flex;flex-direction:column;gap:2rem;height:100%;justify-content:center;width:100%}@keyframes enlarge-appear{0%{opacity:0;transform:scale(75%) rotate(-90deg)}to{opacity:1;transform:scale(100%) rotate(0deg)}}.logo{color:#8e8ea0}.scale-appear{animation:enlarge-appear .4s ease-out}@media (min-width:768px){.scale-appear{height:48px;width:48px}}.data:empty{display:none}.data{border-radius:5px;color:#8e8ea0;text-align:center}@media (prefers-color-scheme:dark){body{background-color:#343541}.logo{color:#acacbe}}</style>
+  <meta http-equiv="refresh" content="360"></head>
+  <body>
+    <div class="container">
+      <div class="logo">
+        <svg
+          width="41"
+          height="41"
+          viewBox="0 0 41 41"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          strokeWidth="2"
+          class="scale-appear"
+        >
+          <path
+            d="M37.5324 16.8707C37.9808 15.5241 38.1363 14.0974 37.9886 12.6859C37.8409 11.2744 37.3934 9.91076 36.676 8.68622C35.6126 6.83404 33.9882 5.3676 32.0373 4.4985C30.0864 3.62941 27.9098 3.40259 25.8215 3.85078C24.8796 2.7893 23.7219 1.94125 22.4257 1.36341C21.1295 0.785575 19.7249 0.491269 18.3058 0.500197C16.1708 0.495044 14.0893 1.16803 12.3614 2.42214C10.6335 3.67624 9.34853 5.44666 8.6917 7.47815C7.30085 7.76286 5.98686 8.3414 4.8377 9.17505C3.68854 10.0087 2.73073 11.0782 2.02839 12.312C0.956464 14.1591 0.498905 16.2988 0.721698 18.4228C0.944492 20.5467 1.83612 22.5449 3.268 24.1293C2.81966 25.4759 2.66413 26.9026 2.81182 28.3141C2.95951 29.7256 3.40701 31.0892 4.12437 32.3138C5.18791 34.1659 6.8123 35.6322 8.76321 36.5013C10.7141 37.3704 12.8907 37.5973 14.9789 37.1492C15.9208 38.2107 17.0786 39.0587 18.3747 39.6366C19.6709 40.2144 21.0755 40.5087 22.4946 40.4998C24.6307 40.5054 26.7133 39.8321 28.4418 38.5772C30.1704 37.3223 31.4556 35.5506 32.1119 33.5179C33.5027 33.2332 34.8167 32.6547 35.9659 31.821C37.115 30.9874 38.0728 29.9178 38.7752 28.684C39.8458 26.8371 40.3023 24.6979 40.0789 22.5748C39.8556 20.4517 38.9639 18.4544 37.5324 16.8707ZM22.4978 37.8849C20.7443 37.8874 19.0459 37.2733 17.6994 36.1501C17.7601 36.117 17.8666 36.0586 17.936 36.0161L25.9004 31.4156C26.1003 31.3019 26.2663 31.137 26.3813 30.9378C26.4964 30.7386 26.5563 30.5124 26.5549 30.2825V19.0542L29.9213 20.998C29.9389 21.0068 29.9541 21.0198 29.9656 21.0359C29.977 21.052 29.9842 21.0707 29.9867 21.0902V30.3889C29.9842 32.375 29.1946 34.2791 27.7909 35.6841C26.3872 37.0892 24.4838 37.8806 22.4978 37.8849ZM6.39227 31.0064C5.51397 29.4888 5.19742 27.7107 5.49804 25.9832C5.55718 26.0187 5.66048 26.0818 5.73461 26.1244L13.699 30.7248C13.8975 30.8408 14.1233 30.902 14.3532 30.902C14.583 30.902 14.8088 30.8408 15.0073 30.7248L24.731 25.1103V28.9979C24.7321 29.0177 24.7283 29.0376 24.7199 29.0556C24.7115 29.0736 24.6988 29.0893 24.6829 29.1012L16.6317 33.7497C14.9096 34.7416 12.8643 35.0097 10.9447 34.4954C9.02506 33.9811 7.38785 32.7263 6.39227 31.0064ZM4.29707 13.6194C5.17156 12.0998 6.55279 10.9364 8.19885 10.3327C8.19885 10.4013 8.19491 10.5228 8.19491 10.6071V19.808C8.19351 20.0378 8.25334 20.2638 8.36823 20.4629C8.48312 20.6619 8.64893 20.8267 8.84863 20.9404L18.5723 26.5542L15.206 28.4979C15.1894 28.5089 15.1703 28.5155 15.1505 28.5173C15.1307 28.5191 15.1107 28.516 15.0924 28.5082L7.04046 23.8557C5.32135 22.8601 4.06716 21.2235 3.55289 19.3046C3.03862 17.3858 3.30624 15.3413 4.29707 13.6194ZM31.955 20.0556L22.2312 14.4411L25.5976 12.4981C25.6142 12.4872 25.6333 12.4805 25.6531 12.4787C25.6729 12.4769 25.6928 12.4801 25.7111 12.4879L33.7631 17.1364C34.9967 17.849 36.0017 18.8982 36.6606 20.1613C37.3194 21.4244 37.6047 22.849 37.4832 24.2684C37.3617 25.6878 36.8382 27.0432 35.9743 28.1759C35.1103 29.3086 33.9415 30.1717 32.6047 30.6641C32.6047 30.5947 32.6047 30.4733 32.6047 30.3889V21.188C32.6066 20.9586 32.5474 20.7328 32.4332 20.5338C32.319 20.3348 32.154 20.1698 31.955 20.0556ZM35.3055 15.0128C35.2464 14.9765 35.1431 14.9142 35.069 14.8717L27.1045 10.2712C26.906 10.1554 26.6803 10.0943 26.4504 10.0943C26.2206 10.0943 25.9948 10.1554 25.7963 10.2712L16.0726 15.8858V11.9982C16.0715 11.9783 16.0753 11.9585 16.0837 11.9405C16.0921 11.9225 16.1048 11.9068 16.1207 11.8949L24.1719 7.25025C25.4053 6.53903 26.8158 6.19376 28.2383 6.25482C29.6608 6.31589 31.0364 6.78077 32.2044 7.59508C33.3723 8.40939 34.2842 9.53945 34.8334 10.8531C35.3826 12.1667 35.5464 13.6095 35.3055 15.0128ZM14.2424 21.9419L10.8752 19.9981C10.8576 19.9893 10.8423 19.9763 10.8309 19.9602C10.8195 19.9441 10.8122 19.9254 10.8098 19.9058V10.6071C10.8107 9.18295 11.2173 7.78848 11.9819 6.58696C12.7466 5.38544 13.8377 4.42659 15.1275 3.82264C16.4173 3.21869 17.8524 2.99464 19.2649 3.1767C20.6775 3.35876 22.0089 3.93941 23.1034 4.85067C23.0427 4.88379 22.937 4.94215 22.8668 4.98473L14.9024 9.58517C14.7025 9.69878 14.5366 9.86356 14.4215 10.0626C14.3065 10.2616 14.2466 10.4877 14.2479 10.7175L14.2424 21.9419ZM16.071 17.9991L20.4018 15.4978L24.7325 17.9975V22.9985L20.4018 25.4983L16.071 22.9985V17.9991Z"
+            fill="currentColor"
+          />
+        </svg>
+      </div>
+      <div class="data"><div class="main-wrapper" role="main"><div class="main-content"><noscript><div class="h2"><span id="challenge-error-text">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script>(function(){window._cf_chl_opt = {cvId: '3',cZone: 'chatgpt.com',cType: 'managed',cRay: '9e5037f2fd540a6c',cH: 'uacOXnJL2ERosSOsNzY.eN2HoU3m9NDU7oauzjYHxyM-1774969172-1.2.1.1-5GRQdQiI58LMHke6P_9sXiOx9rTfPeY7REosD6Y7WWuzKUNJl5aCr7geGM2pvwBy',cUPMDTk:"/backend-api/plugins/featured?platform=codex&__cf_chl_tk=AhX5c6944ClJj3V4HQSvqslEe5SdzLOy23Vtid7dByU-1774969172-1.0.1.1-_xC7d7F99FI_ui1q7RZFknfQJlW53mV9yFEXjYsxy9M",cFPWv: 'g',cITimeS: '1774969172',cTplC:1,cTplO:0,cTplV:5,cTplB: '0',fa:"/backend-api/plugins/featured?platform=codex&__cf_chl_f_tk=AhX5c6944ClJj3V4HQSvqslEe5SdzLOy23Vtid7dByU-1774969172-1.0.1.1-_xC7d7F99FI_ui1q7RZFknfQJlW53mV9yFEXjYsxy9M",md: 'qUpAEV4AW6xmwEWj9GidJSNVGDApMUGvKOpzE236GSc-1774969172-1.2.1.1-L7pOKmuRl4oa2m6lKR0hqu6pVALAGEQlpI_RH7QwPsTuVWzMOa8zOlPqE2biJYo898CFIAA17EJLCwnqbflAO_yMeFh7R9lHH87uXXn0OnVSh8JmI5k_pvgvoZH8lrRAQ3bLN1D_G2DXu6uh3EgALfw6aFGx4wowyk8Kv6lUeDErVAgpQOjhuMtOgH6i3B0g_2MlZIhfqUY9U7Fp2.iz9tn70y9NxFJzTbCoUXthNW1WcGNshWK7sOm1SqLdKyL3_1dpH8OmROtHHPlDKefaEBGiNj15SUmbLbJimlAWueEr6tb4cnRFA_JYl.cxiSv08R7rOwSBGRazBo4meLBZVELpdVXac7s4yA7F.KjTR8hAclr5KNXdoS.8Kk27KfsNj3isgF6yB3YEIvAbdKzSPZ4Kdmu45CUTDni7k6wjQACRF7ww67FZ8auXcsBeqjvJ.Agr38_TsZrtE279ghOEn4acrrZRn0z7UdAxnrCSq97m1Lr2QZh41lJI1vNdiZPtQWkiC48BAEx3xKeshwr1KrAPhTjsY_nW1RzNg7mv.iAHHRnBwoob4AzCpSnPd_59ovz7D_3RUK0AboXaIMJiDvgjjxOAohDrnsOc89gsarIAl05DxBuM32vHjfV4kYlCvGVJ4zMT9772K7tmFHs4s5apJFGZc5924um8bZ14YXmjtSByfGPxqmMfiMc3KSvkNWbfDsRXumzZipVC8S0iHBdXZSU0eKalph1vWBrY6QEJk2GsGCVUHswI_PdKIX9UpdEc2mfFZGrQsZRLFOj8yrxJwtVYAmJwBKobfbSF4OYZEh8zFRvKT_AgoeaD_qGAI3oVpcB0U0664LLDaP9Q9WwMOja69Yitk2GUwvxnvfmyjZQkDfXgsRGS.OMmVnVRo_zqbWceURi6okWPt8aenYTMpzw5eDdUd6CS9cyuq17gf.3YiHWC7uty9EkBnguJUDpqxauEbPhL8ZO9rmrjDg_Yx9bSYI1hLoQAURU86qpxoX.WiCZByY7PRrjUnP3GxH8QI2sf6yk409aI08uxuA',mdrd: 'gjXKySOiprNZGmv3XxFVTpFMzejXPUlPyR9o5Hgvt7U-1774969172-1.2.1.1-8xzZGvRalodmXn5imfpEhs8LTnCmYJSAVG_8gbkSweBAdF_uZCSNgygBTgm8WUVTf8eTS3Zmb9ss13IdSX3MU3H6EdrsXc1o1ejzOWTyL6WESQOjROeIpmSLsQu7eEbwd42vGPfNH_s3xcEQJ8W_HuTG0pvH.nkXkajAgaQwzDikzZqaWgGiLx58G6K.EHbeUtXhIfYyqDbGbPkkXeWveUdmbrKoYNmqRXw419GuIRK0PtvoFYC6JsUDxu_YGCdngla.5AsWuBCnOjlevSSwlUSdiHSjQXE2x9SjbxTtST2Ms2sKQXdbcvFyvp47N_zi98jGRdj.T4eAsbaikl9KX372B629iuzydW0R19EXskumx3alFrIJQ_29ZZsJVCWPN6tzOftUMypS34uYvONeGXwQvlsYRRQwhMtqf0OPaWBfeODLj4ftmPOvNby2fgrxLf7h3aYTB.kXHGGiHGkRNmtZRvZDLDUKZtV7uLF99Jp.m7mO2NNg4jYms4Qd0xGNbdnuX9GiU1itW71YeHqc49d3E2fDgsKaBO2GZGLdUCC3WQ2UOgoImr4wFq4i9I52TYzIrIx8WlA2gwliW2WPBbc6im0qrjYi6fW3z3zpg0oqPnzXW6A_.CTj8NECa.X4OYAkS6OXP8fty5i0hHZm96UIqEPWKyQo38GJq6nshcgmSy.JWHYeuVWazDQTNjjQTiQ_8Drk1OsIpKp5VQNLdJfBV8RunHovxh1PZEhxAhMHFlPOBe8mmVtMHRF8w72jT7OZcBMAbFEyPONJW1NsQLiaehwXpmQmzGAlTvNaEALOG8s66MqX2dphSc9oe5NeI20UMGIw8bbIYRSQ5LvsbWhBAamz87U.QrvwfgTywpAT_4IPQ2FoO2D3v.5i_BCR.vYsbUqskLWhcwF1Fne6zHukm6IHC_EsWz99hcserM_dhXGPeOYjgm6K1unIt6u4QkWiD3bmRlLTGX02LAAO6mgIZ_KtSw79oW0Dc34HQt5HA_a1xP26G_GLQiwB2f8iVij67wtgoPrRZem6ZVuiehDzjVcc0CBB3Vmex5QLqa9RBeCV4HdIMG81jjI_Tl3SklGBjJGoZp9Cgn38G3a5jI4w6e0Fhtq0KkMH3RnZvn3MXUQrplR1.ni.f_h_8JNLW27n2FlxCPOHd1afTlt_Y5zUFKKQed5G9AQ4xaBvML04XJ9E1.axMcmnPlOiVkKZ.tx0kqAAVsypn6Q7KEllFBgiOOaGfVy6CMltaooWBaMMjsLf3chW3ivsOQ4nj1MsDrhrPrpipjddtfb0zDdnElB2OEchWaNKVOFMl3IoKoXjN_UyPgM33vciKjDTH9UDuhZV2NGmlOZ.jV1cJx2zdFRp05WxXLDYrD4qq9DzNQwIstKYJIT_SiP8kAkSQHP6clKJ1Iij.xYL0IfrUmll24o7TSYyE1Bqak5ecYLkAn3tj7Q_GH9cUXcCcJGegyD9H4Ci5VJd91sgCaQasWY2p5td0xc_AWiorcSOAxTwNDUbqHv2DLYploPjwVsFhI_WoYTDOOWA_scksbqSTsuKNKT1IjDVSO_gHfz_Ip9omnRC3YgVdUcIgGL49q616JaAroGcL_kOrxdJywEUA5wtJK4lfrDKo33W2Rm2A9E7xMdyb6mWV..xV2VG.6XLEE3ngPdtzYbmr3xDgO5ztAoLkkOW12NDl5BQGB8anz50UHs3JvmQQDFBC5WdoCpnCCJeKu4OFPA8vgnoZpgc0vJnX14OXaDXCuvW0_fC02E1LPk0bbHgsHqOsfOI6KyMUxib18hd60NR9bf_PoHYdJ_6OtgAyD4bcdtNezaae2yPvAXTk9pkx1dHCUf2Ey_H3gVL_fyRX5abGrxzdMF8ZjxThepDzrenIRke5PI0oj6vh5RjKrDTO5Cn8F3az7I1l1C5Zk3s8myTFYS8GsZd2dDt2Bz.usRS.FNc6.Bu3IC4IURDXumznrYc12X_ccjZ2IOFT.r08Qjy1Q9sOVWMZoy1jwsLxP1BwZhTreq2oe4L8vJ0QKT4EYnXexUyiJQqx_.mUjwD2LNnEy8.ksDXiX.0YoB4fXtYzLe9U2SVtM0ba63TDaXzoTclgt_W3RX1cVeCBTWqlS8j7VzbJPqnxbJY1.Ux.SmlrYNWvwbyyO7TMNDDEdFQ5vzLL2SvV_Vjz6y4spTNKycUriqhKDZkF_9fsGwOjRzv8v2VdARF2XHswFwyzKhAQtreC5nmauckhwn3.Uoe5P0JYIr23LcfxQlIqaLVavE5y9klqVdj8o5HiH4',};var a = document.createElement('script');a.src = '/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=9e5037f2fd540a6c';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,"/backend-api/plugins/featured?platform=codex&__cf_chl_rt_tk=AhX5c6944ClJj3V4HQSvqslEe5SdzLOy23Vtid7dByU-1774969172-1.0.1.1-_xC7d7F99FI_ui1q7RZFknfQJlW53mV9yFEXjYsxy9M"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></div>
+    </div>
+  </body>
+</html>
+
+codex
+Reading the batch manifest and the existing payload examples first, then I’ll generate the JSONL in the repo’s established shape and validate it before finishing.
+exec
+/bin/zsh -lc "sed -n '1,220p' tmp_new_hsk_1_0001.json" in /Users/moi/Desktop/business/learnly/corpus-generation
+ succeeded in 0ms:
+{
+  "word": {
+    "id": "new-hsk-1-0001",
+    "lang": "zh",
+    "lemma": "爱",
+    "display_form": "爱",
+    "pos": "verb",
+    "rank": 1,
+    "pronunciation": "ài"
+  },
+  "glosses": {
+    "primary_gloss": "love",
+    "secondary_glosses": [
+      "like",
+      "be fond of"
+    ],
+    "notes": "Common verb for loving or liking people, things, and activities. In beginner speech it often appears before verbs to show what someone enjoys doing."
+  },
+  "examples": [
+    {
+      "id": "new-hsk-1-0001-ex1",
+      "sentence": "我爱妈妈做的热汤。",
+      "difficulty": 2,
+      "source": "generator-5",
+      "is_primary": false
+    },
+    {
+      "id": "new-hsk-1-0001-ex2",
+      "sentence": "她爱在雨后去公园看花。",
+      "difficulty": 2,
+      "source": "generator-3",
+      "is_primary": false
+    },
+    {
+      "id": "new-hsk-1-0001-ex3",
+      "sentence": "她爱喝早上的热茶。",
+      "difficulty": 1,
+      "source": "generator-4",
+      "is_primary": true
+    }
+  ],
+  "example_translations": [
+    {
+      "example_id": "new-hsk-1-0001-ex1",
+      "translation": "I love the hot soup Mom made."
+    },
+    {
+      "example_id": "new-hsk-1-0001-ex2",
+      "translation": "She loves going to the park to look at flowers after the rain."
+    },
+    {
+      "example_id": "new-hsk-1-0001-ex3",
+      "translation": "She loves drinking hot tea in the morning."
+    }
+  ]
+}
+exec
+/bin/zsh -lc "sed -n '1,260p' AGENTS.md" in /Users/moi/Desktop/business/learnly/corpus-generation
+exec
+/bin/zsh -lc "sed -n '1,220p' runs/new-hsk-1/jobs/generator-2-batch-0251-0300.json" in /Users/moi/Desktop/business/learnly/corpus-generation
+ succeeded in 0ms:
+[
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0251",
+    "rank": 251,
+    "display_form": "哪里",
+    "lemma": "哪里",
+    "generation_form": "哪里",
+    "pronunciation": "nǎ lǐ",
+    "pos": "unknown",
+    "primary_gloss": "where",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0252",
+    "rank": 252,
+    "display_form": "哪儿",
+    "lemma": "哪儿",
+    "generation_form": "哪儿",
+    "pronunciation": "nǎr",
+    "pos": "unknown",
+    "primary_gloss": "where",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0253",
+    "rank": 253,
+    "display_form": "哪些",
+    "lemma": "哪些",
+    "generation_form": "哪些",
+    "pronunciation": "nǎ xiē",
+    "pos": "unknown",
+    "primary_gloss": "which",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0254",
+    "rank": 254,
+    "display_form": "那（代）",
+    "lemma": "那",
+    "generation_form": "那",
+    "pronunciation": "nà",
+    "pos": "pronoun",
+    "primary_gloss": "that",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. The source marks this entry as pronoun."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0255",
+    "rank": 255,
+    "display_form": "那边",
+    "lemma": "那边",
+    "generation_form": "那边",
+    "pronunciation": "nà biān",
+    "pos": "unknown",
+    "primary_gloss": "there",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0256",
+    "rank": 256,
+    "display_form": "那里",
+    "lemma": "那里",
+    "generation_form": "那里",
+    "pronunciation": "nà lǐ",
+    "pos": "unknown",
+    "primary_gloss": "there",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0257",
+
+codex
+I have the full 50-word batch. I’m pulling a compact id/lemma/gloss list now so I can write the payloads cleanly, then I’ll generate the JSONL and run a structural validator over every line.
+exec
+/bin/zsh -lc "jq -r '.[] | [.word_id, .generation_form, .pronunciation, .pos, .primary_gloss] | @tsv' runs/new-hsk-1/jobs/generator-2-batch-0251-0300.json" in /Users/moi/Desktop/business/learnly/corpus-generation
+ succeeded in 0ms:
+new-hsk-1-0251	哪里	nǎ lǐ	unknown	where
+new-hsk-1-0252	哪儿	nǎr	unknown	where
+new-hsk-1-0253	哪些	nǎ xiē	unknown	which
+new-hsk-1-0254	那	nà	pronoun	that
+new-hsk-1-0255	那边	nà biān	unknown	there
+new-hsk-1-0256	那里	nà lǐ	unknown	there
+new-hsk-1-0257	那儿	nàr	unknown	there
+new-hsk-1-0258	那些	nà xiē	unknown	those
+new-hsk-1-0259	奶	nǎi	unknown	milk
+new-hsk-1-0260	奶奶	nǎinai	unknown	grandma
+new-hsk-1-0261	男	nán	unknown	Man
+new-hsk-1-0262	男孩儿	nán háir	unknown	boy
+new-hsk-1-0263	男朋友	nán péng yǒu	unknown	boyfriend
+new-hsk-1-0264	男人	nán ren	unknown	man
+new-hsk-1-0265	男生	nán shēng	unknown	boy
+new-hsk-1-0266	南	nán	unknown	south
+new-hsk-1-0267	南边	nán biān	unknown	south
+new-hsk-1-0268	难	nán	unknown	hard
+new-hsk-1-0269	呢	ne	unknown	auxiliary word
+new-hsk-1-0270	能	néng	unknown	can
+new-hsk-1-0271	你	nǐ	pronoun	you
+new-hsk-1-0272	你们	nǐ men	pronoun	you
+new-hsk-1-0273	年	nián	unknown	year
+new-hsk-1-0274	您	nín	pronoun	you
+new-hsk-1-0275	牛奶	niúnǎi	unknown	milk
+new-hsk-1-0276	女	nǚ	unknown	woman
+new-hsk-1-0277	女儿	nǚ'ér	unknown	daughter
+new-hsk-1-0278	女孩儿	nǚ háir	unknown	girl
+new-hsk-1-0279	女朋友	nǚ péng yǒu	unknown	girlfriend
+new-hsk-1-0280	女人	nǚ ren	unknown	woman
+new-hsk-1-0281	女生	nǚ shēng	unknown	girl
+new-hsk-1-0282	旁边	pángbiān	unknown	Side
+new-hsk-1-0283	跑	pǎo	unknown	run
+new-hsk-1-0284	朋友	péngyou	unknown	Friend
+new-hsk-1-0285	票	piào	unknown	ticket
+new-hsk-1-0286	七	qī	numeral	Seven
+new-hsk-1-0287	起	qǐ	unknown	get up
+new-hsk-1-0288	起床	qǐchuáng	unknown	Get up
+new-hsk-1-0289	起来	qǐlái	unknown	get up
+new-hsk-1-0290	汽车	qì chē	unknown	car
+new-hsk-1-0291	前	qián	unknown	front
+new-hsk-1-0292	前边	qián biān	unknown	in front
+new-hsk-1-0293	前天	qián tiān	unknown	the day before yesterday
+new-hsk-1-0294	钱	qián	unknown	money
+new-hsk-1-0295	钱包	qián bāo	unknown	wallet
+new-hsk-1-0296	请	qǐng	unknown	please
+new-hsk-1-0297	请假	qǐngjià	unknown	ask for leave
+new-hsk-1-0298	请进	qǐng jìn	unknown	please come in
+new-hsk-1-0299	请问	qǐng wèn	unknown	excuse me
+new-hsk-1-0300	请坐	qǐng zuò	unknown	please have a seat
+
+codex
+I’m writing the batch generator now: a one-off script that merges manifest metadata with handcrafted payloads, writes the JSONL in the established schema, and then runs a structural validator against the finished file.

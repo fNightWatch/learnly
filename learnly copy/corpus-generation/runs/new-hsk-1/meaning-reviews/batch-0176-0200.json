@@ -1,0 +1,244 @@
+[
+  {
+    "word_id": "new-hsk-1-0176",
+    "rank": 176,
+    "lemma": "叫",
+    "reviewed_meanings": [
+      "be called",
+      "call",
+      "shout"
+    ],
+    "review_note": "For beginners, prioritize the naming sense in sentences like 我叫.... Call and shout are useful secondary senses."
+  },
+  {
+    "word_id": "new-hsk-1-0177",
+    "rank": 177,
+    "lemma": "教学楼",
+    "reviewed_meanings": [
+      "teaching building",
+      "classroom building"
+    ],
+    "review_note": "Teaching building is acceptable, but classroom building is often a clearer learner-facing gloss."
+  },
+  {
+    "word_id": "new-hsk-1-0178",
+    "rank": 178,
+    "lemma": "姐姐",
+    "reviewed_meanings": [
+      "older sister",
+      "elder sister"
+    ],
+    "review_note": "Older sister is the clearest everyday gloss. The short form 姐 is a variant, not a separate meaning."
+  },
+  {
+    "word_id": "new-hsk-1-0179",
+    "rank": 179,
+    "lemma": "介绍",
+    "reviewed_meanings": [
+      "introduce"
+    ],
+    "review_note": "Use the verb introduce in simple self-introduction or people-introduction contexts."
+  },
+  {
+    "word_id": "new-hsk-1-0180",
+    "rank": 180,
+    "lemma": "今年",
+    "reviewed_meanings": [
+      "this year"
+    ],
+    "review_note": "Use the time phrase this year."
+  },
+  {
+    "word_id": "new-hsk-1-0181",
+    "rank": 181,
+    "lemma": "今天",
+    "reviewed_meanings": [
+      "today"
+    ],
+    "review_note": "Use the time word today."
+  },
+  {
+    "word_id": "new-hsk-1-0182",
+    "rank": 182,
+    "lemma": "进",
+    "reviewed_meanings": [
+      "enter",
+      "go in"
+    ],
+    "review_note": "Use the motion sense enter or go in."
+  },
+  {
+    "word_id": "new-hsk-1-0183",
+    "rank": 183,
+    "lemma": "进来",
+    "reviewed_meanings": [
+      "come in"
+    ],
+    "review_note": "Use the directional phrase come in."
+  },
+  {
+    "word_id": "new-hsk-1-0184",
+    "rank": 184,
+    "lemma": "进去",
+    "reviewed_meanings": [
+      "go in"
+    ],
+    "review_note": "Use the directional phrase go in."
+  },
+  {
+    "word_id": "new-hsk-1-0185",
+    "rank": 185,
+    "lemma": "九",
+    "reviewed_meanings": [
+      "nine"
+    ],
+    "review_note": "Use the number nine."
+  },
+  {
+    "word_id": "new-hsk-1-0186",
+    "rank": 186,
+    "lemma": "就",
+    "reviewed_meanings": [
+      "then",
+      "right away",
+      "as soon as"
+    ],
+    "review_note": "Then or right away are usually the clearest beginner uses. As soon as is a useful secondary timing sense."
+  },
+  {
+    "word_id": "new-hsk-1-0187",
+    "rank": 187,
+    "lemma": "觉得",
+    "reviewed_meanings": [
+      "think",
+      "feel"
+    ],
+    "review_note": "Both think and feel are common and important for beginner use."
+  },
+  {
+    "word_id": "new-hsk-1-0188",
+    "rank": 188,
+    "lemma": "开",
+    "reviewed_meanings": [
+      "open",
+      "turn on"
+    ],
+    "review_note": "Use open for doors and turn on for devices when natural."
+  },
+  {
+    "word_id": "new-hsk-1-0189",
+    "rank": 189,
+    "lemma": "开车",
+    "reviewed_meanings": [
+      "drive"
+    ],
+    "review_note": "Use the verb drive."
+  },
+  {
+    "word_id": "new-hsk-1-0190",
+    "rank": 190,
+    "lemma": "开会",
+    "reviewed_meanings": [
+      "have a meeting"
+    ],
+    "review_note": "Use the phrase have a meeting."
+  },
+  {
+    "word_id": "new-hsk-1-0191",
+    "rank": 191,
+    "lemma": "开玩笑",
+    "reviewed_meanings": [
+      "joke",
+      "be kidding"
+    ],
+    "review_note": "For HSK 1, prioritize the everyday sense joke or be kidding rather than the narrower raw gloss make fun of."
+  },
+  {
+    "word_id": "new-hsk-1-0192",
+    "rank": 192,
+    "lemma": "看",
+    "reviewed_meanings": [
+      "look at",
+      "watch",
+      "read"
+    ],
+    "review_note": "Look at and watch are the strongest everyday senses. Read is also common with books or texts."
+  },
+  {
+    "word_id": "new-hsk-1-0193",
+    "rank": 193,
+    "lemma": "看病",
+    "reviewed_meanings": [
+      "see a doctor"
+    ],
+    "review_note": "Use the phrase see a doctor."
+  },
+  {
+    "word_id": "new-hsk-1-0194",
+    "rank": 194,
+    "lemma": "看到",
+    "reviewed_meanings": [
+      "see",
+      "catch sight of"
+    ],
+    "review_note": "Use the resultative sense see or catch sight of."
+  },
+  {
+    "word_id": "new-hsk-1-0195",
+    "rank": 195,
+    "lemma": "看见",
+    "reviewed_meanings": [
+      "see",
+      "catch sight of"
+    ],
+    "review_note": "Use the resultative sense see or catch sight of. Do not use the weak raw gloss seeing."
+  },
+  {
+    "word_id": "new-hsk-1-0196",
+    "rank": 196,
+    "lemma": "考",
+    "reviewed_meanings": [
+      "test",
+      "examine"
+    ],
+    "review_note": "Use the verb test or examine."
+  },
+  {
+    "word_id": "new-hsk-1-0197",
+    "rank": 197,
+    "lemma": "考试",
+    "reviewed_meanings": [
+      "exam",
+      "test"
+    ],
+    "review_note": "Exam is the clearest primary noun gloss."
+  },
+  {
+    "word_id": "new-hsk-1-0198",
+    "rank": 198,
+    "lemma": "渴",
+    "reviewed_meanings": [
+      "thirsty"
+    ],
+    "review_note": "Use the adjective thirsty."
+  },
+  {
+    "word_id": "new-hsk-1-0199",
+    "rank": 199,
+    "lemma": "课",
+    "reviewed_meanings": [
+      "class",
+      "lesson"
+    ],
+    "review_note": "Class or lesson are clearer beginner glosses than the broader raw gloss course."
+  },
+  {
+    "word_id": "new-hsk-1-0200",
+    "rank": 200,
+    "lemma": "课本",
+    "reviewed_meanings": [
+      "textbook"
+    ],
+    "review_note": "Use the noun textbook."
+  }
+]

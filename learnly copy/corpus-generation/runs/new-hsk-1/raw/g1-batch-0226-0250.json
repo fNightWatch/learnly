@@ -1,0 +1,764 @@
+{
+  "results": [
+    {
+      "word_id": "new-hsk-1-0226",
+      "rank": 226,
+      "lemma": "马上",
+      "meanings": [
+        {
+          "meaning_en": "right away",
+          "priority": 1
+        },
+        {
+          "meaning_en": "immediately",
+          "priority": 2
+        },
+        {
+          "meaning_en": "soon",
+          "priority": 3
+        }
+      ],
+      "notes": "Use this for something happening right away or very soon.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "right away",
+          "sentence": "你等一下儿，我马上来。",
+          "translation": "Wait a moment, I'll come right away.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "soon",
+          "sentence": "老师马上就来了。",
+          "translation": "The teacher will be here soon.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0227",
+      "rank": 227,
+      "lemma": "吗",
+      "meanings": [
+        {
+          "meaning_en": "yes-no question particle",
+          "priority": 1
+        }
+      ],
+      "notes": "A sentence-final particle used to ask yes-no questions.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "yes-no question particle",
+          "sentence": "你明天回家吃饭吗？",
+          "translation": "Are you going home to eat tomorrow?",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "yes-no question particle",
+          "sentence": "姐姐今天在家里吗？",
+          "translation": "Is my older sister at home today?",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0228",
+      "rank": 228,
+      "lemma": "买",
+      "meanings": [
+        {
+          "meaning_en": "buy",
+          "priority": 1
+        }
+      ],
+      "notes": "The common verb for buying something.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "buy",
+          "sentence": "妈妈下午去商店买菜。",
+          "translation": "Mom is going to the shop this afternoon to buy vegetables.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "buy",
+          "sentence": "我想买两本课本。",
+          "translation": "I want to buy two textbooks.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0229",
+      "rank": 229,
+      "lemma": "慢",
+      "meanings": [
+        {
+          "meaning_en": "slow",
+          "priority": 1
+        }
+      ],
+      "notes": "An adjective for slow speed or pace.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "slow",
+          "sentence": "我弟弟走路很慢。",
+          "translation": "My younger brother walks very slowly.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "slow",
+          "sentence": "你开车别太慢。",
+          "translation": "Don't drive too slowly.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0230",
+      "rank": 230,
+      "lemma": "忙",
+      "meanings": [
+        {
+          "meaning_en": "busy",
+          "priority": 1
+        }
+      ],
+      "notes": "An adjective meaning busy.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "busy",
+          "sentence": "妈妈今天很忙，不回家。",
+          "translation": "Mom is very busy today and isn't coming home.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "busy",
+          "sentence": "老师下午都很忙。",
+          "translation": "The teachers are all busy in the afternoon.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0231",
+      "rank": 231,
+      "lemma": "毛",
+      "meanings": [
+        {
+          "meaning_en": "mao",
+          "priority": 1
+        },
+        {
+          "meaning_en": "ten cents",
+          "priority": 2
+        }
+      ],
+      "notes": "A money unit worth one tenth of a yuan.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "mao",
+          "sentence": "这个包子三毛钱。",
+          "translation": "This bun costs three mao.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "ten cents",
+          "sentence": "米饭五毛，不贵。",
+          "translation": "The cooked rice is five mao, so it isn't expensive.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0232",
+      "rank": 232,
+      "lemma": "没",
+      "meanings": [
+        {
+          "meaning_en": "not",
+          "priority": 1
+        },
+        {
+          "meaning_en": "have not",
+          "priority": 2
+        }
+      ],
+      "notes": "A negator often used for past actions or not having done something.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "not",
+          "sentence": "我昨天没去上学。",
+          "translation": "I didn't go to school yesterday.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "have not",
+          "sentence": "我还没买机票。",
+          "translation": "I still haven't bought the plane ticket.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0233",
+      "rank": 233,
+      "lemma": "没关系",
+      "meanings": [
+        {
+          "meaning_en": "no problem",
+          "priority": 1
+        },
+        {
+          "meaning_en": "it's okay",
+          "priority": 2
+        }
+      ],
+      "notes": "Use this to reassure someone after a small problem or apology.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "no problem",
+          "sentence": "你来晚了，也没关系。",
+          "translation": "You came late, but it's no problem.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "it's okay",
+          "sentence": "这个字写错了，没关系。",
+          "translation": "This character was written wrong, but it's okay.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0234",
+      "rank": 234,
+      "lemma": "没什么",
+      "meanings": [
+        {
+          "meaning_en": "it's nothing",
+          "priority": 1
+        },
+        {
+          "meaning_en": "nothing much",
+          "priority": 2
+        }
+      ],
+      "notes": "A light reply meaning it is nothing or nothing much.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "nothing much",
+          "sentence": "今天没什么课。",
+          "translation": "There aren't many classes today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "it's nothing",
+          "sentence": "真的没什么，我们回家吧。",
+          "translation": "It's really nothing. Let's go home.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0235",
+      "rank": 235,
+      "lemma": "没事儿",
+      "meanings": [
+        {
+          "meaning_en": "it's okay",
+          "priority": 1
+        },
+        {
+          "meaning_en": "no problem",
+          "priority": 2
+        }
+      ],
+      "notes": "Use this to say things are okay or there is no problem.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "it's okay",
+          "sentence": "你来晚了，没事儿。",
+          "translation": "You came late, but it's okay.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "no problem",
+          "sentence": "书包没找到，也没事儿。",
+          "translation": "The schoolbag wasn't found, but it's no problem.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0236",
+      "rank": 236,
+      "lemma": "没有",
+      "meanings": [
+        {
+          "meaning_en": "do not have",
+          "priority": 1
+        },
+        {
+          "meaning_en": "there is not",
+          "priority": 2
+        }
+      ],
+      "notes": "Use this for not having something or for something not existing.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "do not have",
+          "sentence": "我家里还没有电脑。",
+          "translation": "We still don't have a computer at home.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "there is not",
+          "sentence": "桌子上现在没有书。",
+          "translation": "There isn't a book on the table now.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0237",
+      "rank": 237,
+      "lemma": "妹妹",
+      "meanings": [
+        {
+          "meaning_en": "younger sister",
+          "priority": 1
+        },
+        {
+          "meaning_en": "little sister",
+          "priority": 2
+        }
+      ],
+      "notes": "The everyday family word for a younger sister.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "younger sister",
+          "sentence": "我妹妹今天不上学。",
+          "translation": "My younger sister isn't going to school today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "little sister",
+          "sentence": "妹妹在家里看电视。",
+          "translation": "My little sister is watching TV at home.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0238",
+      "rank": 238,
+      "lemma": "门",
+      "meanings": [
+        {
+          "meaning_en": "door",
+          "priority": 1
+        }
+      ],
+      "notes": "The common noun for a door.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "door",
+          "sentence": "门开了，外边很冷。",
+          "translation": "The door is open, and it's cold outside.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "door",
+          "sentence": "门在后边，不在前边。",
+          "translation": "The door is in back, not in front.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0239",
+      "rank": 239,
+      "lemma": "门口",
+      "meanings": [
+        {
+          "meaning_en": "doorway",
+          "priority": 1
+        },
+        {
+          "meaning_en": "entrance",
+          "priority": 2
+        },
+        {
+          "meaning_en": "door",
+          "priority": 3
+        }
+      ],
+      "notes": "A place word for the doorway or entrance.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "doorway",
+          "sentence": "妈妈在门口等我。",
+          "translation": "Mom is waiting for me at the doorway.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "entrance",
+          "sentence": "门口有一个人。",
+          "translation": "There is a person at the entrance.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0240",
+      "rank": 240,
+      "lemma": "门票",
+      "meanings": [
+        {
+          "meaning_en": "ticket",
+          "priority": 1
+        },
+        {
+          "meaning_en": "admission ticket",
+          "priority": 2
+        }
+      ],
+      "notes": "A ticket for entering a place.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "ticket",
+          "sentence": "这个门票十块钱。",
+          "translation": "This ticket costs ten yuan.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "admission ticket",
+          "sentence": "我的门票在家里。",
+          "translation": "My admission ticket is at home.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0241",
+      "rank": 241,
+      "lemma": "们",
+      "meanings": [
+        {
+          "meaning_en": "plural marker",
+          "priority": 1
+        }
+      ],
+      "notes": "A plural suffix used with pronouns and some words for people.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "plural marker",
+          "sentence": "我们今天都在家里。",
+          "translation": "We are all at home today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "plural marker",
+          "sentence": "你们明天去上学吗？",
+          "translation": "Are you all going to school tomorrow?",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0242",
+      "rank": 242,
+      "lemma": "米饭",
+      "meanings": [
+        {
+          "meaning_en": "cooked rice",
+          "priority": 1
+        },
+        {
+          "meaning_en": "rice",
+          "priority": 2
+        }
+      ],
+      "notes": "The everyday word for cooked rice as food.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "cooked rice",
+          "sentence": "我晚上想吃米饭。",
+          "translation": "I want to eat cooked rice tonight.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "rice",
+          "sentence": "妈妈做的米饭很好吃。",
+          "translation": "The rice Mom made is very tasty.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0243",
+      "rank": 243,
+      "lemma": "面包",
+      "meanings": [
+        {
+          "meaning_en": "bread",
+          "priority": 1
+        }
+      ],
+      "notes": "The common noun for bread.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "bread",
+          "sentence": "我早上吃面包和鸡蛋。",
+          "translation": "I eat bread and eggs in the morning.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "bread",
+          "sentence": "妈妈买了三块面包。",
+          "translation": "Mom bought three pieces of bread.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0244",
+      "rank": 244,
+      "lemma": "面条儿",
+      "meanings": [
+        {
+          "meaning_en": "noodles",
+          "priority": 1
+        }
+      ],
+      "notes": "The everyday word for noodles.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "noodles",
+          "sentence": "我中午想吃面条儿。",
+          "translation": "I want to eat noodles at noon.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "noodles",
+          "sentence": "这个面条儿真的很好吃。",
+          "translation": "These noodles are really tasty.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0245",
+      "rank": 245,
+      "lemma": "名字",
+      "meanings": [
+        {
+          "meaning_en": "name",
+          "priority": 1
+        }
+      ],
+      "notes": "The common noun for a person's name.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "name",
+          "sentence": "你的名字很好听。",
+          "translation": "Your name sounds very nice.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "name",
+          "sentence": "我不记得老师的名字。",
+          "translation": "I don't remember the teacher's name.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0246",
+      "rank": 246,
+      "lemma": "明白",
+      "meanings": [
+        {
+          "meaning_en": "understand",
+          "priority": 1
+        },
+        {
+          "meaning_en": "clear",
+          "priority": 2
+        }
+      ],
+      "notes": "Use this for understanding something or being clear about it.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "understand",
+          "sentence": "我明白你的话了。",
+          "translation": "I understand what you said.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "understand",
+          "sentence": "现在我不明白这个字。",
+          "translation": "Right now I don't understand this character.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0247",
+      "rank": 247,
+      "lemma": "明年",
+      "meanings": [
+        {
+          "meaning_en": "next year",
+          "priority": 1
+        }
+      ],
+      "notes": "A time phrase for the year after this one.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "next year",
+          "sentence": "我明年去北京学习。",
+          "translation": "I'm going to Beijing next year to study.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "next year",
+          "sentence": "明年我们还在学校里。",
+          "translation": "Next year we'll still be at school.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0248",
+      "rank": 248,
+      "lemma": "明天",
+      "meanings": [
+        {
+          "meaning_en": "tomorrow",
+          "priority": 1
+        }
+      ],
+      "notes": "The basic time word for the next day.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "tomorrow",
+          "sentence": "明天我们有汉语课。",
+          "translation": "We have Chinese class tomorrow.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "tomorrow",
+          "sentence": "妈妈明天晚上回家吗？",
+          "translation": "Is Mom coming home tomorrow evening?",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0249",
+      "rank": 249,
+      "lemma": "拿",
+      "meanings": [
+        {
+          "meaning_en": "take",
+          "priority": 1
+        },
+        {
+          "meaning_en": "hold",
+          "priority": 2
+        }
+      ],
+      "notes": "Use this for taking something or holding it in your hand.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "take",
+          "sentence": "请拿这个书包给我。",
+          "translation": "Please take this schoolbag and give it to me.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "hold",
+          "sentence": "弟弟手上拿着花。",
+          "translation": "My younger brother is holding flowers in his hand.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0250",
+      "rank": 250,
+      "lemma": "哪",
+      "meanings": [
+        {
+          "meaning_en": "which",
+          "priority": 1
+        }
+      ],
+      "notes": "A question word used to ask which one.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "which",
+          "sentence": "你想买哪一个包？",
+          "translation": "Which bag do you want to buy?",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "which",
+          "sentence": "哪一个杯子是你的？",
+          "translation": "Which cup is yours?",
+          "difficulty": 2
+        }
+      ]
+    }
+  ]
+}

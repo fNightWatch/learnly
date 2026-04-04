@@ -1,0 +1,235 @@
+[
+  {
+    "word_id": "new-hsk-1-0376",
+    "rank": 376,
+    "lemma": "网友",
+    "reviewed_meanings": [
+      "online friend"
+    ],
+    "review_note": "Use the noun online friend."
+  },
+  {
+    "word_id": "new-hsk-1-0377",
+    "rank": 377,
+    "lemma": "忘",
+    "reviewed_meanings": [
+      "forget"
+    ],
+    "review_note": "Use the verb forget."
+  },
+  {
+    "word_id": "new-hsk-1-0378",
+    "rank": 378,
+    "lemma": "忘记",
+    "reviewed_meanings": [
+      "forget"
+    ],
+    "review_note": "Use the verb forget."
+  },
+  {
+    "word_id": "new-hsk-1-0379",
+    "rank": 379,
+    "lemma": "问",
+    "reviewed_meanings": [
+      "ask"
+    ],
+    "review_note": "Use the verb ask."
+  },
+  {
+    "word_id": "new-hsk-1-0380",
+    "rank": 380,
+    "lemma": "我",
+    "reviewed_meanings": [
+      "I"
+    ],
+    "review_note": "Use the pronoun I."
+  },
+  {
+    "word_id": "new-hsk-1-0381",
+    "rank": 381,
+    "lemma": "我们",
+    "reviewed_meanings": [
+      "we"
+    ],
+    "review_note": "Use the pronoun we."
+  },
+  {
+    "word_id": "new-hsk-1-0382",
+    "rank": 382,
+    "lemma": "五",
+    "reviewed_meanings": [
+      "five"
+    ],
+    "review_note": "Use the number five."
+  },
+  {
+    "word_id": "new-hsk-1-0383",
+    "rank": 383,
+    "lemma": "午饭",
+    "reviewed_meanings": [
+      "lunch"
+    ],
+    "review_note": "Use the noun lunch."
+  },
+  {
+    "word_id": "new-hsk-1-0384",
+    "rank": 384,
+    "lemma": "西",
+    "reviewed_meanings": [
+      "west"
+    ],
+    "review_note": "Use the direction west."
+  },
+  {
+    "word_id": "new-hsk-1-0385",
+    "rank": 385,
+    "lemma": "西边",
+    "reviewed_meanings": [
+      "west side",
+      "west"
+    ],
+    "review_note": "West side is the clearest learner-facing gloss."
+  },
+  {
+    "word_id": "new-hsk-1-0386",
+    "rank": 386,
+    "lemma": "洗",
+    "reviewed_meanings": [
+      "wash"
+    ],
+    "review_note": "Use the verb wash."
+  },
+  {
+    "word_id": "new-hsk-1-0387",
+    "rank": 387,
+    "lemma": "洗手间",
+    "reviewed_meanings": [
+      "restroom",
+      "bathroom"
+    ],
+    "review_note": "Restroom is the clearest primary gloss; bathroom is a natural secondary gloss."
+  },
+  {
+    "word_id": "new-hsk-1-0388",
+    "rank": 388,
+    "lemma": "喜欢",
+    "reviewed_meanings": [
+      "like"
+    ],
+    "review_note": "Use the common verb like."
+  },
+  {
+    "word_id": "new-hsk-1-0389",
+    "rank": 389,
+    "lemma": "下",
+    "reviewed_meanings": [
+      "below",
+      "down"
+    ],
+    "review_note": "Below is the clearest primary gloss for simple location examples; down is a useful secondary sense."
+  },
+  {
+    "word_id": "new-hsk-1-0390",
+    "rank": 390,
+    "lemma": "下班",
+    "reviewed_meanings": [
+      "get off work"
+    ],
+    "review_note": "Use the everyday verb get off work."
+  },
+  {
+    "word_id": "new-hsk-1-0391",
+    "rank": 391,
+    "lemma": "下边",
+    "reviewed_meanings": [
+      "below",
+      "under"
+    ],
+    "review_note": "Below is the clearest primary gloss; under is a useful secondary gloss."
+  },
+  {
+    "word_id": "new-hsk-1-0392",
+    "rank": 392,
+    "lemma": "下车",
+    "reviewed_meanings": [
+      "get off"
+    ],
+    "review_note": "Use get off for a vehicle."
+  },
+  {
+    "word_id": "new-hsk-1-0393",
+    "rank": 393,
+    "lemma": "下次",
+    "reviewed_meanings": [
+      "next time"
+    ],
+    "review_note": "Use the time phrase next time."
+  },
+  {
+    "word_id": "new-hsk-1-0394",
+    "rank": 394,
+    "lemma": "下课",
+    "reviewed_meanings": [
+      "finish class",
+      "class ends"
+    ],
+    "review_note": "Finish class is the clearest primary gloss; class ends is a useful secondary gloss."
+  },
+  {
+    "word_id": "new-hsk-1-0395",
+    "rank": 395,
+    "lemma": "下午",
+    "reviewed_meanings": [
+      "afternoon"
+    ],
+    "review_note": "Use the time word afternoon."
+  },
+  {
+    "word_id": "new-hsk-1-0396",
+    "rank": 396,
+    "lemma": "下雨",
+    "reviewed_meanings": [
+      "rain"
+    ],
+    "review_note": "Use the verb rain."
+  },
+  {
+    "word_id": "new-hsk-1-0397",
+    "rank": 397,
+    "lemma": "先",
+    "reviewed_meanings": [
+      "first",
+      "before"
+    ],
+    "review_note": "First is the clearest primary gloss; before is a useful secondary gloss."
+  },
+  {
+    "word_id": "new-hsk-1-0398",
+    "rank": 398,
+    "lemma": "先生",
+    "reviewed_meanings": [
+      "Mr.",
+      "sir"
+    ],
+    "review_note": "Mr. is the clearest primary gloss; sir is a natural secondary gloss."
+  },
+  {
+    "word_id": "new-hsk-1-0399",
+    "rank": 399,
+    "lemma": "现在",
+    "reviewed_meanings": [
+      "now"
+    ],
+    "review_note": "Use the adverb now."
+  },
+  {
+    "word_id": "new-hsk-1-0400",
+    "rank": 400,
+    "lemma": "想",
+    "reviewed_meanings": [
+      "want",
+      "think"
+    ],
+    "review_note": "Want is the clearest primary gloss for beginner examples; think is a useful secondary gloss when natural."
+  }
+]

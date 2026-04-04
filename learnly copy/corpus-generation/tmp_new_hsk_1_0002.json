@@ -1,0 +1,56 @@
+{
+  "word": {
+    "id": "new-hsk-1-0002",
+    "lang": "zh",
+    "lemma": "爱好",
+    "display_form": "爱好",
+    "pos": "noun",
+    "rank": 2,
+    "pronunciation": "ài hào"
+  },
+  "glosses": {
+    "primary_gloss": "hobby",
+    "secondary_glosses": [
+      "interest",
+      "pastime"
+    ],
+    "notes": "Common noun for a pastime or personal interest. It often appears in patterns like `...的爱好是...` and `把...当作爱好`."
+  },
+  "examples": [
+    {
+      "id": "new-hsk-1-0002-ex1",
+      "sentence": "她的爱好是周末跑步。",
+      "difficulty": 1,
+      "source": "generator-4",
+      "is_primary": true
+    },
+    {
+      "id": "new-hsk-1-0002-ex2",
+      "sentence": "我的爱好是拍旧街上的照片。",
+      "difficulty": 2,
+      "source": "generator-2",
+      "is_primary": false
+    },
+    {
+      "id": "new-hsk-1-0002-ex3",
+      "sentence": "他把钓鱼当作爱好。",
+      "difficulty": 2,
+      "source": "generator-1",
+      "is_primary": false
+    }
+  ],
+  "example_translations": [
+    {
+      "example_id": "new-hsk-1-0002-ex1",
+      "translation": "Her hobby is running on weekends."
+    },
+    {
+      "example_id": "new-hsk-1-0002-ex2",
+      "translation": "My hobby is taking photos on old streets."
+    },
+    {
+      "example_id": "new-hsk-1-0002-ex3",
+      "translation": "He treats fishing as a hobby."
+    }
+  ]
+}

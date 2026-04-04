@@ -1,0 +1,362 @@
+[
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0051",
+    "rank": 51,
+    "display_form": "表演",
+    "lemma": "表演",
+    "generation_form": "表演",
+    "pronunciation": "biǎoyǎn",
+    "pos": "unknown",
+    "primary_gloss": "perform",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0052",
+    "rank": 52,
+    "display_form": "并（副、连）",
+    "lemma": "并",
+    "generation_form": "并",
+    "pronunciation": "bìng and;",
+    "pos": "unknown",
+    "primary_gloss": "also",
+    "secondary_glosses": [
+      "equally",
+      "simultaneously",
+      "side by side"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0053",
+    "rank": 53,
+    "display_form": "并且",
+    "lemma": "并且",
+    "generation_form": "并且",
+    "pronunciation": "bìngqiě",
+    "pos": "unknown",
+    "primary_gloss": "also",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0054",
+    "rank": 54,
+    "display_form": "播出",
+    "lemma": "播出",
+    "generation_form": "播出",
+    "pronunciation": "bō chū",
+    "pos": "unknown",
+    "primary_gloss": "broadcast",
+    "secondary_glosses": [
+      "on the air"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0055",
+    "rank": 55,
+    "display_form": "播放",
+    "lemma": "播放",
+    "generation_form": "播放",
+    "pronunciation": "bōfàng",
+    "pos": "unknown",
+    "primary_gloss": "play",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0056",
+    "rank": 56,
+    "display_form": "不必",
+    "lemma": "不必",
+    "generation_form": "不必",
+    "pronunciation": "bú bì",
+    "pos": "unknown",
+    "primary_gloss": "need not",
+    "secondary_glosses": [
+      "not have to"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0057",
+    "rank": 57,
+    "display_form": "不断",
+    "lemma": "不断",
+    "generation_form": "不断",
+    "pronunciation": "búduàn",
+    "pos": "unknown",
+    "primary_gloss": "Constantly",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0058",
+    "rank": 58,
+    "display_form": "不论",
+    "lemma": "不论",
+    "generation_form": "不论",
+    "pronunciation": "bú lùn whether;",
+    "pos": "unknown",
+    "primary_gloss": "no matter",
+    "secondary_glosses": [
+      "whether ... or"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0059",
+    "rank": 59,
+    "display_form": "补",
+    "lemma": "补",
+    "generation_form": "补",
+    "pronunciation": "bǔ repair;",
+    "pos": "unknown",
+    "primary_gloss": "mend",
+    "secondary_glosses": [
+      "patch",
+      "supply",
+      "make up for"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0060",
+    "rank": 60,
+    "display_form": "补充",
+    "lemma": "补充",
+    "generation_form": "补充",
+    "pronunciation": "bǔchōng",
+    "pos": "unknown",
+    "primary_gloss": "supplement",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0061",
+    "rank": 61,
+    "display_form": "不安",
+    "lemma": "不安",
+    "generation_form": "不安",
+    "pronunciation": "bù'ān",
+    "pos": "unknown",
+    "primary_gloss": "Uneasy",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0062",
+    "rank": 62,
+    "display_form": "不得不",
+    "lemma": "不得不",
+    "generation_form": "不得不",
+    "pronunciation": "bùdébù",
+    "pos": "unknown",
+    "primary_gloss": "Cannot but",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0063",
+    "rank": 63,
+    "display_form": "不光",
+    "lemma": "不光",
+    "generation_form": "不光",
+    "pronunciation": "bù guāng",
+    "pos": "unknown",
+    "primary_gloss": "not only",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0064",
+    "rank": 64,
+    "display_form": "不仅",
+    "lemma": "不仅",
+    "generation_form": "不仅",
+    "pronunciation": "bùjǐn",
+    "pos": "unknown",
+    "primary_gloss": "not only",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0065",
+    "rank": 65,
+    "display_form": "布",
+    "lemma": "布",
+    "generation_form": "布",
+    "pronunciation": "bù",
+    "pos": "unknown",
+    "primary_gloss": "cloth",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0066",
+    "rank": 66,
+    "display_form": "步",
+    "lemma": "步",
+    "generation_form": "步",
+    "pronunciation": "bù",
+    "pos": "unknown",
+    "primary_gloss": "step",
+    "secondary_glosses": [
+      "stage",
+      "walk",
+      "foot"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0067",
+    "rank": 67,
+    "display_form": "部",
+    "lemma": "部",
+    "generation_form": "部",
+    "pronunciation": "bù unit;",
+    "pos": "unknown",
+    "primary_gloss": "ministry",
+    "secondary_glosses": [
+      "department",
+      "part",
+      "section"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0068",
+    "rank": 68,
+    "display_form": "部门",
+    "lemma": "部门",
+    "generation_form": "部门",
+    "pronunciation": "bùmén",
+    "pos": "unknown",
+    "primary_gloss": "department",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0069",
+    "rank": 69,
+    "display_form": "部长",
+    "lemma": "部长",
+    "generation_form": "部长",
+    "pronunciation": "bù zhǎng",
+    "pos": "unknown",
+    "primary_gloss": "minister",
+    "secondary_glosses": [
+      "head of a department"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0070",
+    "rank": 70,
+    "display_form": "才能",
+    "lemma": "才能",
+    "generation_form": "才能",
+    "pronunciation": "cái néng",
+    "pos": "unknown",
+    "primary_gloss": "talent",
+    "secondary_glosses": [
+      "ability",
+      "gift"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0071",
+    "rank": 71,
+    "display_form": "采取",
+    "lemma": "采取",
+    "generation_form": "采取",
+    "pronunciation": "cǎiqǔ",
+    "pos": "unknown",
+    "primary_gloss": "take",
+    "secondary_glosses": [
+      "adpopt"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0072",
+    "rank": 72,
+    "display_form": "采用",
+    "lemma": "采用",
+    "generation_form": "采用",
+    "pronunciation": "cǎi yòng",
+    "pos": "unknown",
+    "primary_gloss": "put to use",
+    "secondary_glosses": [
+      "adopt",
+      "use",
+      "employ"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0073",
+    "rank": 73,
+    "display_form": "彩色",
+    "lemma": "彩色",
+    "generation_form": "彩色",
+    "pronunciation": "cǎi sè",
+    "pos": "unknown",
+    "primary_gloss": "multicolour",
+    "secondary_glosses": [
+      "colour"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0074",
+    "rank": 74,
+    "display_form": "曾经",
+    "lemma": "曾经",
+    "generation_form": "曾经",
+    "pronunciation": "céngjīng",
+    "pos": "unknown",
+    "primary_gloss": "once",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0075",
+    "rank": 75,
+    "display_form": "产生",
+    "lemma": "产生",
+    "generation_form": "产生",
+    "pronunciation": "chǎnshēng",
+    "pos": "unknown",
+    "primary_gloss": "produce",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  }
+]

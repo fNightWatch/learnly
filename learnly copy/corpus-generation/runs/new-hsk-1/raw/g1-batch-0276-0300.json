@@ -1,0 +1,724 @@
+{
+  "results": [
+    {
+      "word_id": "new-hsk-1-0276",
+      "rank": 276,
+      "lemma": "女",
+      "meanings": [
+        {
+          "meaning_en": "female",
+          "priority": 1
+        }
+      ],
+      "notes": "A basic adjective for female. It often contrasts with 男.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "female",
+          "sentence": "这个孩子是女的。",
+          "translation": "This child is female.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "female",
+          "sentence": "学校里女老师很多。",
+          "translation": "There are many female teachers at the school.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0277",
+      "rank": 277,
+      "lemma": "女儿",
+      "meanings": [
+        {
+          "meaning_en": "daughter",
+          "priority": 1
+        }
+      ],
+      "notes": "A family noun for someone's daughter. It is common in everyday introductions.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "daughter",
+          "sentence": "她女儿今天在家看书。",
+          "translation": "Her daughter is reading at home today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "daughter",
+          "sentence": "我女儿在商店买水。",
+          "translation": "My daughter is buying water at the shop.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0278",
+      "rank": 278,
+      "lemma": "女孩儿",
+      "meanings": [
+        {
+          "meaning_en": "girl",
+          "priority": 1
+        }
+      ],
+      "notes": "A common noun for a girl. It appears in everyday public scenes.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "girl",
+          "sentence": "那个女孩儿在看地图。",
+          "translation": "That girl is looking at a map.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "girl",
+          "sentence": "女孩儿和妈妈去书店。",
+          "translation": "The girl is going to the bookstore with her mom.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0279",
+      "rank": 279,
+      "lemma": "女朋友",
+      "meanings": [
+        {
+          "meaning_en": "girlfriend",
+          "priority": 1
+        }
+      ],
+      "notes": "A common noun for girlfriend. It refers to a romantic partner.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "girlfriend",
+          "sentence": "他和女朋友在吃饭。",
+          "translation": "He is eating with his girlfriend.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "girlfriend",
+          "sentence": "女朋友给我买了花。",
+          "translation": "My girlfriend bought flowers for me.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0280",
+      "rank": 280,
+      "lemma": "女人",
+      "meanings": [
+        {
+          "meaning_en": "woman",
+          "priority": 1
+        }
+      ],
+      "notes": "A common noun for woman. It refers to an adult female person.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "woman",
+          "sentence": "那个女人在商店买菜。",
+          "translation": "That woman is buying vegetables at the shop.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "woman",
+          "sentence": "前边有一个女人。",
+          "translation": "There is a woman up ahead.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0281",
+      "rank": 281,
+      "lemma": "女生",
+      "meanings": [
+        {
+          "meaning_en": "female student",
+          "priority": 1
+        },
+        {
+          "meaning_en": "girl",
+          "priority": 2
+        }
+      ],
+      "notes": "Usually this means a female student in school contexts. It can also mean a girl.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "female student",
+          "sentence": "这个女生在图书馆学习。",
+          "translation": "This female student is studying in the library.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "girl",
+          "sentence": "两个女生在路上说话。",
+          "translation": "Two girls are talking on the road.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0282",
+      "rank": 282,
+      "lemma": "旁边",
+      "meanings": [
+        {
+          "meaning_en": "beside",
+          "priority": 1
+        },
+        {
+          "meaning_en": "next to",
+          "priority": 2
+        }
+      ],
+      "notes": "A location word for beside or next to. It places one thing close to another.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "beside",
+          "sentence": "那个医院在商场旁边。",
+          "translation": "That hospital is beside the mall.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "next to",
+          "sentence": "我坐在老师旁边。",
+          "translation": "I am sitting next to the teacher.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0283",
+      "rank": 283,
+      "lemma": "跑",
+      "meanings": [
+        {
+          "meaning_en": "run",
+          "priority": 1
+        }
+      ],
+      "notes": "A basic verb for running. It is common for people and children in motion.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "run",
+          "sentence": "孩子在公园里跑。",
+          "translation": "The child is running in the park.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "run",
+          "sentence": "我看见他跑出来了。",
+          "translation": "I saw him run out.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0284",
+      "rank": 284,
+      "lemma": "朋友",
+      "meanings": [
+        {
+          "meaning_en": "friend",
+          "priority": 1
+        }
+      ],
+      "notes": "A common noun for friend. It is used for social and everyday relationships.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "friend",
+          "sentence": "我朋友在北京工作。",
+          "translation": "My friend works in Beijing.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "friend",
+          "sentence": "朋友们一起去机场。",
+          "translation": "The friends are going to the airport together.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0285",
+      "rank": 285,
+      "lemma": "票",
+      "meanings": [
+        {
+          "meaning_en": "ticket",
+          "priority": 1
+        }
+      ],
+      "notes": "A common noun for a ticket. It often appears in travel or event contexts.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "ticket",
+          "sentence": "我的票在书包里。",
+          "translation": "My ticket is in the schoolbag.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "ticket",
+          "sentence": "你买的票在哪儿？",
+          "translation": "Where is the ticket you bought?",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0286",
+      "rank": 286,
+      "lemma": "七",
+      "meanings": [
+        {
+          "meaning_en": "seven",
+          "priority": 1
+        }
+      ],
+      "notes": "The number seven. It is common in dates, times, and counting.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "seven",
+          "sentence": "我们七月去北京玩儿。",
+          "translation": "We are going to Beijing in July to have fun.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "seven",
+          "sentence": "他家有七口人。",
+          "translation": "There are seven people in his family.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0287",
+      "rank": 287,
+      "lemma": "起",
+      "meanings": [
+        {
+          "meaning_en": "get up",
+          "priority": 1
+        }
+      ],
+      "notes": "A common verb for getting up or rising. It is frequent in daily schedules.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "get up",
+          "sentence": "明天你几点起？",
+          "translation": "What time will you get up tomorrow?",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "get up",
+          "sentence": "他六点起，我七点起。",
+          "translation": "He gets up at six, and I get up at seven.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0288",
+      "rank": 288,
+      "lemma": "起床",
+      "meanings": [
+        {
+          "meaning_en": "get up",
+          "priority": 1
+        }
+      ],
+      "notes": "A daily-life verb for getting out of bed. It is one of the most common morning actions.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "get up",
+          "sentence": "我明天七点起床。",
+          "translation": "I will get up at seven tomorrow.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "get up",
+          "sentence": "她起床后就去上班。",
+          "translation": "She goes to work right after getting up.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0289",
+      "rank": 289,
+      "lemma": "起来",
+      "meanings": [
+        {
+          "meaning_en": "get up",
+          "priority": 1
+        },
+        {
+          "meaning_en": "stand up",
+          "priority": 2
+        }
+      ],
+      "notes": "A direction or result word for getting up or standing up. It often appears in short spoken commands.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "get up",
+          "sentence": "快起来，我们去上学。",
+          "translation": "Get up quickly, we're going to school.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "stand up",
+          "sentence": "我叫他起来，他没动。",
+          "translation": "I told him to stand up, but he did not move.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0290",
+      "rank": 290,
+      "lemma": "汽车",
+      "meanings": [
+        {
+          "meaning_en": "car",
+          "priority": 1
+        }
+      ],
+      "notes": "A common noun for car. It is used in travel and street scenes.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "car",
+          "sentence": "我爸爸会开汽车。",
+          "translation": "My dad can drive a car.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "car",
+          "sentence": "汽车里有很多人。",
+          "translation": "There are many people in the car.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0291",
+      "rank": 291,
+      "lemma": "前",
+      "meanings": [
+        {
+          "meaning_en": "front",
+          "priority": 1
+        }
+      ],
+      "notes": "A location word for the front. It often appears before places or objects.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "front",
+          "sentence": "商店前有很多人。",
+          "translation": "There are many people in front of the shop.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "front",
+          "sentence": "车前有一个人。",
+          "translation": "There is a person in front of the car.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0292",
+      "rank": 292,
+      "lemma": "前边",
+      "meanings": [
+        {
+          "meaning_en": "in front",
+          "priority": 1
+        }
+      ],
+      "notes": "A location phrase for in front. It is very common in directions.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "in front",
+          "sentence": "前边有一家饭店。",
+          "translation": "There is a restaurant up ahead.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "in front",
+          "sentence": "我在你前边走。",
+          "translation": "I am walking in front of you.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0293",
+      "rank": 293,
+      "lemma": "前天",
+      "meanings": [
+        {
+          "meaning_en": "the day before yesterday",
+          "priority": 1
+        }
+      ],
+      "notes": "A time word for the day before yesterday. It is used for recent past events.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "the day before yesterday",
+          "sentence": "前天我们在家吃饭。",
+          "translation": "We ate at home the day before yesterday.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "the day before yesterday",
+          "sentence": "他前天回到北京了。",
+          "translation": "He returned to Beijing the day before yesterday.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0294",
+      "rank": 294,
+      "lemma": "钱",
+      "meanings": [
+        {
+          "meaning_en": "money",
+          "priority": 1
+        }
+      ],
+      "notes": "The basic noun for money. It appears in shopping, tickets, and daily expenses.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "money",
+          "sentence": "我包里还有钱。",
+          "translation": "I still have money in my bag.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "money",
+          "sentence": "这些书要很多钱。",
+          "translation": "These books cost a lot of money.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0295",
+      "rank": 295,
+      "lemma": "钱包",
+      "meanings": [
+        {
+          "meaning_en": "wallet",
+          "priority": 1
+        }
+      ],
+      "notes": "A common noun for wallet. It appears often in travel and shopping scenes.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "wallet",
+          "sentence": "我的钱包在桌子上边。",
+          "translation": "My wallet is on the table.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "wallet",
+          "sentence": "我看见你的钱包了。",
+          "translation": "I saw your wallet.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0296",
+      "rank": 296,
+      "lemma": "请",
+      "meanings": [
+        {
+          "meaning_en": "please",
+          "priority": 1
+        }
+      ],
+      "notes": "A polite word meaning please. It softens requests and instructions.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "please",
+          "sentence": "请你看一下地图。",
+          "translation": "Please take a look at the map.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "please",
+          "sentence": "请给老师打开门。",
+          "translation": "Please open the door for the teacher.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0297",
+      "rank": 297,
+      "lemma": "请假",
+      "meanings": [
+        {
+          "meaning_en": "ask for leave",
+          "priority": 1
+        }
+      ],
+      "notes": "A common phrase for asking for leave. It is used for school and work absences.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "ask for leave",
+          "sentence": "老师说他明天请假。",
+          "translation": "The teacher said he is taking leave tomorrow.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "ask for leave",
+          "sentence": "明天我想请假一天。",
+          "translation": "I want to ask for a day off tomorrow.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0298",
+      "rank": 298,
+      "lemma": "请进",
+      "meanings": [
+        {
+          "meaning_en": "please come in",
+          "priority": 1
+        }
+      ],
+      "notes": "A fixed polite phrase for inviting someone inside. It often appears at doors or offices.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "please come in",
+          "sentence": "老师说，请进，不用等。",
+          "translation": "The teacher said, 'Please come in, no need to wait.'",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "please come in",
+          "sentence": "门口没人，您请进。",
+          "translation": "No one is at the door, please come in.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0299",
+      "rank": 299,
+      "lemma": "请问",
+      "meanings": [
+        {
+          "meaning_en": "excuse me",
+          "priority": 1
+        },
+        {
+          "meaning_en": "may I ask",
+          "priority": 2
+        }
+      ],
+      "notes": "A polite phrase used before a question. It works like excuse me or may I ask.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "excuse me",
+          "sentence": "请问，这边有洗手间吗？",
+          "translation": "Excuse me, is there a restroom here?",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "may I ask",
+          "sentence": "请问，去机场怎么走？",
+          "translation": "May I ask how to get to the airport?",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0300",
+      "rank": 300,
+      "lemma": "请坐",
+      "meanings": [
+        {
+          "meaning_en": "please sit",
+          "priority": 1
+        },
+        {
+          "meaning_en": "please have a seat",
+          "priority": 2
+        }
+      ],
+      "notes": "A polite phrase for asking someone to sit. It is common when welcoming someone.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "please sit",
+          "sentence": "请坐，我们马上吃饭了。",
+          "translation": "Please sit down, we're about to eat.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "please have a seat",
+          "sentence": "老师说，请坐，看课本。",
+          "translation": "The teacher said, 'Please have a seat and look at the textbook.'",
+          "difficulty": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+[
+  {
+    "word_id": "new-hsk-1-0451",
+    "rank": 451,
+    "lemma": "远",
+    "reviewed_meanings": [
+      "far"
+    ],
+    "review_note": "Use the adjective far."
+  },
+  {
+    "word_id": "new-hsk-1-0452",
+    "rank": 452,
+    "lemma": "月",
+    "reviewed_meanings": [
+      "month"
+    ],
+    "review_note": "Use the noun month."
+  },
+  {
+    "word_id": "new-hsk-1-0453",
+    "rank": 453,
+    "lemma": "再",
+    "reviewed_meanings": [
+      "again"
+    ],
+    "review_note": "Use the adverb again."
+  },
+  {
+    "word_id": "new-hsk-1-0454",
+    "rank": 454,
+    "lemma": "再见",
+    "reviewed_meanings": [
+      "goodbye",
+      "see you again"
+    ],
+    "review_note": "Goodbye is the clearest primary gloss; see you again is a natural secondary gloss."
+  },
+  {
+    "word_id": "new-hsk-1-0455",
+    "rank": 455,
+    "lemma": "在",
+    "reviewed_meanings": [
+      "be at",
+      "be in"
+    ],
+    "review_note": "Use this mainly as a location verb meaning be at or be in, not the awkward source gloss stay."
+  },
+  {
+    "word_id": "new-hsk-1-0456",
+    "rank": 456,
+    "lemma": "在家",
+    "reviewed_meanings": [
+      "at home"
+    ],
+    "review_note": "Use the phrase at home."
+  },
+  {
+    "word_id": "new-hsk-1-0457",
+    "rank": 457,
+    "lemma": "早",
+    "reviewed_meanings": [
+      "early"
+    ],
+    "review_note": "Use the adjective early."
+  },
+  {
+    "word_id": "new-hsk-1-0458",
+    "rank": 458,
+    "lemma": "早饭",
+    "reviewed_meanings": [
+      "breakfast"
+    ],
+    "review_note": "Use the noun breakfast."
+  },
+  {
+    "word_id": "new-hsk-1-0459",
+    "rank": 459,
+    "lemma": "早上",
+    "reviewed_meanings": [
+      "morning"
+    ],
+    "review_note": "Use the time word morning."
+  },
+  {
+    "word_id": "new-hsk-1-0460",
+    "rank": 460,
+    "lemma": "怎么",
+    "reviewed_meanings": [
+      "how"
+    ],
+    "review_note": "Use the question word how."
+  },
+  {
+    "word_id": "new-hsk-1-0461",
+    "rank": 461,
+    "lemma": "站",
+    "reviewed_meanings": [
+      "station"
+    ],
+    "review_note": "Use the noun station for this HSK 1 entry."
+  },
+  {
+    "word_id": "new-hsk-1-0462",
+    "rank": 462,
+    "lemma": "找",
+    "reviewed_meanings": [
+      "look for"
+    ],
+    "review_note": "Use the verb look for."
+  },
+  {
+    "word_id": "new-hsk-1-0463",
+    "rank": 463,
+    "lemma": "找到",
+    "reviewed_meanings": [
+      "find"
+    ],
+    "review_note": "Use the verb find."
+  },
+  {
+    "word_id": "new-hsk-1-0464",
+    "rank": 464,
+    "lemma": "这",
+    "reviewed_meanings": [
+      "this"
+    ],
+    "review_note": "Use the demonstrative this."
+  },
+  {
+    "word_id": "new-hsk-1-0465",
+    "rank": 465,
+    "lemma": "这边",
+    "reviewed_meanings": [
+      "here",
+      "this side"
+    ],
+    "review_note": "Here is the clearest primary gloss; this side is a natural secondary gloss."
+  },
+  {
+    "word_id": "new-hsk-1-0466",
+    "rank": 466,
+    "lemma": "这里",
+    "reviewed_meanings": [
+      "here"
+    ],
+    "review_note": "Use the location word here."
+  },
+  {
+    "word_id": "new-hsk-1-0467",
+    "rank": 467,
+    "lemma": "这儿",
+    "reviewed_meanings": [
+      "here"
+    ],
+    "review_note": "Use the spoken location word here."
+  },
+  {
+    "word_id": "new-hsk-1-0468",
+    "rank": 468,
+    "lemma": "这些",
+    "reviewed_meanings": [
+      "these"
+    ],
+    "review_note": "Use the plural demonstrative these."
+  },
+  {
+    "word_id": "new-hsk-1-0469",
+    "rank": 469,
+    "lemma": "着",
+    "reviewed_meanings": [
+      "particle showing ongoing state"
+    ],
+    "review_note": "Treat this as a function word showing an ongoing state, not as an ordinary lexical word."
+  },
+  {
+    "word_id": "new-hsk-1-0470",
+    "rank": 470,
+    "lemma": "真",
+    "reviewed_meanings": [
+      "really",
+      "real"
+    ],
+    "review_note": "Really is the clearest primary gloss; real is a useful secondary gloss in some simple contexts."
+  },
+  {
+    "word_id": "new-hsk-1-0471",
+    "rank": 471,
+    "lemma": "真的",
+    "reviewed_meanings": [
+      "really",
+      "real"
+    ],
+    "review_note": "Really is the clearest primary gloss in common beginner examples; real is a useful secondary gloss."
+  },
+  {
+    "word_id": "new-hsk-1-0472",
+    "rank": 472,
+    "lemma": "正",
+    "reviewed_meanings": [
+      "just",
+      "exactly"
+    ],
+    "review_note": "Just is the clearest primary gloss for the adverb use in HSK 1."
+  },
+  {
+    "word_id": "new-hsk-1-0473",
+    "rank": 473,
+    "lemma": "正在",
+    "reviewed_meanings": [
+      "in the middle of",
+      "currently"
+    ],
+    "review_note": "Use this as the common progressive marker meaning currently or in the middle of doing something."
+  },
+  {
+    "word_id": "new-hsk-1-0474",
+    "rank": 474,
+    "lemma": "知道",
+    "reviewed_meanings": [
+      "know"
+    ],
+    "review_note": "Use the verb know."
+  },
+  {
+    "word_id": "new-hsk-1-0475",
+    "rank": 475,
+    "lemma": "知识",
+    "reviewed_meanings": [
+      "knowledge"
+    ],
+    "review_note": "Use the noun knowledge."
+  }
+]

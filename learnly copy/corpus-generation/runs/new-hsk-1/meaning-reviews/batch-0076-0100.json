@@ -1,0 +1,248 @@
+[
+  {
+    "word_id": "new-hsk-1-0076",
+    "rank": 76,
+    "lemma": "点",
+    "reviewed_meanings": [
+      "o'clock",
+      "point",
+      "dot"
+    ],
+    "review_note": "For HSK 1, prioritize the clock-time sense in examples. Secondary beginner senses are point and dot."
+  },
+  {
+    "word_id": "new-hsk-1-0077",
+    "rank": 77,
+    "lemma": "电",
+    "reviewed_meanings": [
+      "electricity"
+    ],
+    "review_note": "Keep this as electricity or electric power, not as shorthand for compounds like 电话 or 电脑."
+  },
+  {
+    "word_id": "new-hsk-1-0078",
+    "rank": 78,
+    "lemma": "电话",
+    "reviewed_meanings": [
+      "phone",
+      "telephone",
+      "phone call"
+    ],
+    "review_note": "Both the device and the phone-call sense are common and teachable."
+  },
+  {
+    "word_id": "new-hsk-1-0079",
+    "rank": 79,
+    "lemma": "电脑",
+    "reviewed_meanings": [
+      "computer"
+    ],
+    "review_note": "Use the everyday noun computer."
+  },
+  {
+    "word_id": "new-hsk-1-0080",
+    "rank": 80,
+    "lemma": "电视",
+    "reviewed_meanings": [
+      "TV",
+      "television"
+    ],
+    "review_note": "Prefer the everyday TV sense; 电视机 covers the physical TV set."
+  },
+  {
+    "word_id": "new-hsk-1-0081",
+    "rank": 81,
+    "lemma": "电视机",
+    "reviewed_meanings": [
+      "TV set",
+      "television set"
+    ],
+    "review_note": "Treat this as the physical television device."
+  },
+  {
+    "word_id": "new-hsk-1-0082",
+    "rank": 82,
+    "lemma": "电影",
+    "reviewed_meanings": [
+      "movie",
+      "film"
+    ],
+    "review_note": "Movie is the clearest primary beginner gloss."
+  },
+  {
+    "word_id": "new-hsk-1-0083",
+    "rank": 83,
+    "lemma": "电影院",
+    "reviewed_meanings": [
+      "movie theater",
+      "cinema"
+    ],
+    "review_note": "Movie theater is the clearest learner-facing gloss."
+  },
+  {
+    "word_id": "new-hsk-1-0084",
+    "rank": 84,
+    "lemma": "东",
+    "reviewed_meanings": [
+      "east"
+    ],
+    "review_note": "Use the direction east."
+  },
+  {
+    "word_id": "new-hsk-1-0085",
+    "rank": 85,
+    "lemma": "东边",
+    "reviewed_meanings": [
+      "east",
+      "east side"
+    ],
+    "review_note": "East side is often the most concrete beginner gloss."
+  },
+  {
+    "word_id": "new-hsk-1-0086",
+    "rank": 86,
+    "lemma": "东西",
+    "reviewed_meanings": [
+      "thing",
+      "object",
+      "stuff"
+    ],
+    "review_note": "Use the noun meaning thing or stuff, not the literal east-west reading."
+  },
+  {
+    "word_id": "new-hsk-1-0087",
+    "rank": 87,
+    "lemma": "动",
+    "reviewed_meanings": [
+      "move"
+    ],
+    "review_note": "Keep the core beginner sense move; avoid abstract extensions."
+  },
+  {
+    "word_id": "new-hsk-1-0088",
+    "rank": 88,
+    "lemma": "动作",
+    "reviewed_meanings": [
+      "action",
+      "movement"
+    ],
+    "review_note": "Action is the strongest primary gloss for learners."
+  },
+  {
+    "word_id": "new-hsk-1-0089",
+    "rank": 89,
+    "lemma": "都",
+    "reviewed_meanings": [
+      "all",
+      "both"
+    ],
+    "review_note": "All is the main meaning; both is common when exactly two are involved."
+  },
+  {
+    "word_id": "new-hsk-1-0090",
+    "rank": 90,
+    "lemma": "读",
+    "reviewed_meanings": [
+      "read"
+    ],
+    "review_note": "Keep this as the verb read; do not drift into 读书-style study senses here."
+  },
+  {
+    "word_id": "new-hsk-1-0091",
+    "rank": 91,
+    "lemma": "读书",
+    "reviewed_meanings": [
+      "study",
+      "read books"
+    ],
+    "review_note": "Both senses are common, but the study/go-to-school sense is especially important for beginner examples."
+  },
+  {
+    "word_id": "new-hsk-1-0092",
+    "rank": 92,
+    "lemma": "对",
+    "reviewed_meanings": [
+      "correct",
+      "right"
+    ],
+    "review_note": "This entry is the adjective meaning correct or right, not the preposition."
+  },
+  {
+    "word_id": "new-hsk-1-0093",
+    "rank": 93,
+    "lemma": "对不起",
+    "reviewed_meanings": [
+      "sorry",
+      "excuse me"
+    ],
+    "review_note": "Sorry is the main everyday meaning; excuse me is a useful secondary gloss."
+  },
+  {
+    "word_id": "new-hsk-1-0094",
+    "rank": 94,
+    "lemma": "多",
+    "reviewed_meanings": [
+      "many",
+      "much",
+      "more"
+    ],
+    "review_note": "Prefer many or much in simple examples; use more only when it is clearly natural."
+  },
+  {
+    "word_id": "new-hsk-1-0095",
+    "rank": 95,
+    "lemma": "多少",
+    "reviewed_meanings": [
+      "how many",
+      "how much"
+    ],
+    "review_note": "Use how many for countable examples and how much for amount examples."
+  },
+  {
+    "word_id": "new-hsk-1-0096",
+    "rank": 96,
+    "lemma": "饿",
+    "reviewed_meanings": [
+      "hungry"
+    ],
+    "review_note": "Use the adjective hungry."
+  },
+  {
+    "word_id": "new-hsk-1-0097",
+    "rank": 97,
+    "lemma": "儿子",
+    "reviewed_meanings": [
+      "son"
+    ],
+    "review_note": "Use the family-word meaning son."
+  },
+  {
+    "word_id": "new-hsk-1-0098",
+    "rank": 98,
+    "lemma": "二",
+    "reviewed_meanings": [
+      "two"
+    ],
+    "review_note": "Use the number two."
+  },
+  {
+    "word_id": "new-hsk-1-0099",
+    "rank": 99,
+    "lemma": "饭",
+    "reviewed_meanings": [
+      "meal",
+      "food",
+      "cooked rice"
+    ],
+    "review_note": "Prioritize the everyday meal or food sense in examples rather than a narrow rice-only gloss."
+  },
+  {
+    "word_id": "new-hsk-1-0100",
+    "rank": 100,
+    "lemma": "饭店",
+    "reviewed_meanings": [
+      "restaurant"
+    ],
+    "review_note": "Treat this as restaurant for this HSK 1 run; do not force the less relevant hotel sense."
+  }
+]

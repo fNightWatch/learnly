@@ -1,0 +1,235 @@
+[
+  {
+    "word_id": "new-hsk-1-0476",
+    "rank": 476,
+    "lemma": "中",
+    "reviewed_meanings": [
+      "middle",
+      "center"
+    ],
+    "review_note": "Middle is the clearest primary gloss; center is a useful secondary gloss."
+  },
+  {
+    "word_id": "new-hsk-1-0477",
+    "rank": 477,
+    "lemma": "中国",
+    "reviewed_meanings": [
+      "China"
+    ],
+    "review_note": "Use the country name China."
+  },
+  {
+    "word_id": "new-hsk-1-0478",
+    "rank": 478,
+    "lemma": "中间",
+    "reviewed_meanings": [
+      "middle",
+      "in the middle"
+    ],
+    "review_note": "Middle is the clearest primary gloss; in the middle is a natural secondary gloss."
+  },
+  {
+    "word_id": "new-hsk-1-0479",
+    "rank": 479,
+    "lemma": "中文",
+    "reviewed_meanings": [
+      "Chinese"
+    ],
+    "review_note": "Use the language name Chinese."
+  },
+  {
+    "word_id": "new-hsk-1-0480",
+    "rank": 480,
+    "lemma": "中午",
+    "reviewed_meanings": [
+      "noon"
+    ],
+    "review_note": "Use the time word noon."
+  },
+  {
+    "word_id": "new-hsk-1-0481",
+    "rank": 481,
+    "lemma": "中学",
+    "reviewed_meanings": [
+      "middle school"
+    ],
+    "review_note": "Use the noun middle school."
+  },
+  {
+    "word_id": "new-hsk-1-0482",
+    "rank": 482,
+    "lemma": "中学生",
+    "reviewed_meanings": [
+      "middle school student"
+    ],
+    "review_note": "Use the noun middle school student."
+  },
+  {
+    "word_id": "new-hsk-1-0483",
+    "rank": 483,
+    "lemma": "重",
+    "reviewed_meanings": [
+      "heavy"
+    ],
+    "review_note": "Use the adjective heavy."
+  },
+  {
+    "word_id": "new-hsk-1-0484",
+    "rank": 484,
+    "lemma": "重要",
+    "reviewed_meanings": [
+      "important"
+    ],
+    "review_note": "Use the adjective important."
+  },
+  {
+    "word_id": "new-hsk-1-0485",
+    "rank": 485,
+    "lemma": "住",
+    "reviewed_meanings": [
+      "live"
+    ],
+    "review_note": "Use the verb live."
+  },
+  {
+    "word_id": "new-hsk-1-0486",
+    "rank": 486,
+    "lemma": "准备",
+    "reviewed_meanings": [
+      "prepare",
+      "get ready"
+    ],
+    "review_note": "Prepare is the clearest primary gloss; get ready is a natural secondary gloss."
+  },
+  {
+    "word_id": "new-hsk-1-0487",
+    "rank": 487,
+    "lemma": "桌子",
+    "reviewed_meanings": [
+      "table"
+    ],
+    "review_note": "Use the noun table."
+  },
+  {
+    "word_id": "new-hsk-1-0488",
+    "rank": 488,
+    "lemma": "字",
+    "reviewed_meanings": [
+      "character",
+      "word"
+    ],
+    "review_note": "Character is the clearest primary gloss for beginner Chinese study; word is a weaker secondary gloss."
+  },
+  {
+    "word_id": "new-hsk-1-0489",
+    "rank": 489,
+    "lemma": "子",
+    "reviewed_meanings": [
+      "noun suffix"
+    ],
+    "review_note": "Treat this as the suffix used in some nouns, not as an ordinary standalone lexical noun here."
+  },
+  {
+    "word_id": "new-hsk-1-0490",
+    "rank": 490,
+    "lemma": "走",
+    "reviewed_meanings": [
+      "walk",
+      "go"
+    ],
+    "review_note": "Walk is the clearest primary gloss; go is a useful secondary gloss when natural."
+  },
+  {
+    "word_id": "new-hsk-1-0491",
+    "rank": 491,
+    "lemma": "走路",
+    "reviewed_meanings": [
+      "walk"
+    ],
+    "review_note": "Use the verb walk."
+  },
+  {
+    "word_id": "new-hsk-1-0492",
+    "rank": 492,
+    "lemma": "最",
+    "reviewed_meanings": [
+      "most"
+    ],
+    "review_note": "Use the adverb most."
+  },
+  {
+    "word_id": "new-hsk-1-0493",
+    "rank": 493,
+    "lemma": "最好",
+    "reviewed_meanings": [
+      "best"
+    ],
+    "review_note": "Use the adjective or adverb best."
+  },
+  {
+    "word_id": "new-hsk-1-0494",
+    "rank": 494,
+    "lemma": "最后",
+    "reviewed_meanings": [
+      "last",
+      "final"
+    ],
+    "review_note": "Last is the clearest primary gloss; final is a useful secondary gloss."
+  },
+  {
+    "word_id": "new-hsk-1-0495",
+    "rank": 495,
+    "lemma": "昨天",
+    "reviewed_meanings": [
+      "yesterday"
+    ],
+    "review_note": "Use the time word yesterday."
+  },
+  {
+    "word_id": "new-hsk-1-0496",
+    "rank": 496,
+    "lemma": "左",
+    "reviewed_meanings": [
+      "left"
+    ],
+    "review_note": "Use the direction left."
+  },
+  {
+    "word_id": "new-hsk-1-0497",
+    "rank": 497,
+    "lemma": "左边",
+    "reviewed_meanings": [
+      "left side",
+      "left"
+    ],
+    "review_note": "Left side is the clearest learner-facing gloss."
+  },
+  {
+    "word_id": "new-hsk-1-0498",
+    "rank": 498,
+    "lemma": "坐",
+    "reviewed_meanings": [
+      "sit"
+    ],
+    "review_note": "Use the verb sit."
+  },
+  {
+    "word_id": "new-hsk-1-0499",
+    "rank": 499,
+    "lemma": "坐下",
+    "reviewed_meanings": [
+      "sit down"
+    ],
+    "review_note": "Use the verb sit down."
+  },
+  {
+    "word_id": "new-hsk-1-0500",
+    "rank": 500,
+    "lemma": "做",
+    "reviewed_meanings": [
+      "do",
+      "make"
+    ],
+    "review_note": "Do is the clearest primary gloss; make is a useful secondary gloss when natural."
+  }
+]

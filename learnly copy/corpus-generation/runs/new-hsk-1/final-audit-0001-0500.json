@@ -1,0 +1,11 @@
+{
+  "word_count": 500,
+  "bad_example_count_words": [],
+  "bad_primary_count_words": [],
+  "lexicon_failures": [],
+  "missing_lemma": [],
+  "same_word_duplicate_sentences": [],
+  "same_word_duplicate_translations": [],
+  "cross_word_duplicate_sentence_groups": {},
+  "cross_word_duplicate_translation_groups": {}
+}

@@ -1,0 +1,56 @@
+{
+  "word": {
+    "id": "new-hsk-1-0001",
+    "lang": "zh",
+    "lemma": "爱",
+    "display_form": "爱",
+    "pos": "verb",
+    "rank": 1,
+    "pronunciation": "ài"
+  },
+  "glosses": {
+    "primary_gloss": "love",
+    "secondary_glosses": [
+      "like",
+      "be fond of"
+    ],
+    "notes": "Common verb for loving or liking people, things, and activities. In beginner speech it often appears before verbs to show what someone enjoys doing."
+  },
+  "examples": [
+    {
+      "id": "new-hsk-1-0001-ex1",
+      "sentence": "我爱妈妈做的热汤。",
+      "difficulty": 2,
+      "source": "generator-5",
+      "is_primary": false
+    },
+    {
+      "id": "new-hsk-1-0001-ex2",
+      "sentence": "她爱在雨后去公园看花。",
+      "difficulty": 2,
+      "source": "generator-3",
+      "is_primary": false
+    },
+    {
+      "id": "new-hsk-1-0001-ex3",
+      "sentence": "她爱喝早上的热茶。",
+      "difficulty": 1,
+      "source": "generator-4",
+      "is_primary": true
+    }
+  ],
+  "example_translations": [
+    {
+      "example_id": "new-hsk-1-0001-ex1",
+      "translation": "I love the hot soup Mom made."
+    },
+    {
+      "example_id": "new-hsk-1-0001-ex2",
+      "translation": "She loves going to the park to look at flowers after the rain."
+    },
+    {
+      "example_id": "new-hsk-1-0001-ex3",
+      "translation": "She loves drinking hot tea in the morning."
+    }
+  ]
+}

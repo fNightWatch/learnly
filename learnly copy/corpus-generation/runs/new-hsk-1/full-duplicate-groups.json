@@ -1,0 +1,1040 @@
+{
+  "duplicate_sentences": {
+    "我吃了一半面包。": [
+      {
+        "example_id": "new-hsk-1-0010-ex1",
+        "word_id": "new-hsk-1-0010",
+        "rank": 10,
+        "lemma": "半",
+        "sentence": "我吃了一半面包。",
+        "translation": "I ate half the bread."
+      },
+      {
+        "example_id": "new-hsk-1-0431-ex1",
+        "word_id": "new-hsk-1-0431",
+        "rank": 431,
+        "lemma": "一半",
+        "sentence": "我吃了一半面包。",
+        "translation": "I ate half the bread."
+      }
+    ],
+    "我想喝一杯茶。": [
+      {
+        "example_id": "new-hsk-1-0017-ex1",
+        "word_id": "new-hsk-1-0017",
+        "rank": 17,
+        "lemma": "杯",
+        "sentence": "我想喝一杯茶。",
+        "translation": "I want to drink a cup of tea."
+      },
+      {
+        "example_id": "new-hsk-1-0144-ex3",
+        "word_id": "new-hsk-1-0144",
+        "rank": 144,
+        "lemma": "喝",
+        "sentence": "我想喝一杯茶。",
+        "translation": "I want to drink a cup of tea."
+      }
+    ],
+    "学校北边有一个商店。": [
+      {
+        "example_id": "new-hsk-1-0019-ex2",
+        "word_id": "new-hsk-1-0019",
+        "rank": 19,
+        "lemma": "北",
+        "sentence": "学校北边有一个商店。",
+        "translation": "There is a shop on the north side of the school."
+      },
+      {
+        "example_id": "new-hsk-1-0020-ex1",
+        "word_id": "new-hsk-1-0020",
+        "rank": 20,
+        "lemma": "北边",
+        "sentence": "学校北边有一个商店。",
+        "translation": "There is a shop on the north side of the school."
+      }
+    ],
+    "我有两本课本。": [
+      {
+        "example_id": "new-hsk-1-0022-ex1",
+        "word_id": "new-hsk-1-0022",
+        "rank": 22,
+        "lemma": "本",
+        "sentence": "我有两本课本。",
+        "translation": "I have two textbooks."
+      },
+      {
+        "example_id": "new-hsk-1-0215-ex1",
+        "word_id": "new-hsk-1-0215",
+        "rank": 215,
+        "lemma": "两",
+        "sentence": "我有两本课本。",
+        "translation": "I have two textbooks."
+      }
+    ],
+    "哥哥比我高一点儿。": [
+      {
+        "example_id": "new-hsk-1-0024-ex3",
+        "word_id": "new-hsk-1-0024",
+        "rank": 24,
+        "lemma": "比",
+        "sentence": "哥哥比我高一点儿。",
+        "translation": "My older brother is a little taller than me."
+      },
+      {
+        "example_id": "new-hsk-1-0115-ex3",
+        "word_id": "new-hsk-1-0115",
+        "rank": 115,
+        "lemma": "高",
+        "sentence": "哥哥比我高一点儿。",
+        "translation": "My older brother is a little taller than me."
+      }
+    ],
+    "妈妈做的菜很好吃。": [
+      {
+        "example_id": "new-hsk-1-0035-ex1",
+        "word_id": "new-hsk-1-0035",
+        "rank": 35,
+        "lemma": "菜",
+        "sentence": "妈妈做的菜很好吃。",
+        "translation": "The dishes Mom made are very tasty."
+      },
+      {
+        "example_id": "new-hsk-1-0067-ex2",
+        "word_id": "new-hsk-1-0067",
+        "rank": 67,
+        "lemma": "的",
+        "sentence": "妈妈做的菜很好吃。",
+        "translation": "The food Mom made is very tasty."
+      }
+    ],
+    "爸爸在车站等我。": [
+      {
+        "example_id": "new-hsk-1-0045-ex1",
+        "word_id": "new-hsk-1-0045",
+        "rank": 45,
+        "lemma": "车站",
+        "sentence": "爸爸在车站等我。",
+        "translation": "Dad is waiting for me at the station."
+      },
+      {
+        "example_id": "new-hsk-1-0455-ex3",
+        "word_id": "new-hsk-1-0455",
+        "rank": 455,
+        "lemma": "在",
+        "sentence": "爸爸在车站等我。",
+        "translation": "Dad is waiting for me at the station."
+      }
+    ],
+    "这个房间很大，很干净。": [
+      {
+        "example_id": "new-hsk-1-0061-ex1",
+        "word_id": "new-hsk-1-0061",
+        "rank": 61,
+        "lemma": "大",
+        "sentence": "这个房间很大，很干净。",
+        "translation": "This room is big and very clean."
+      },
+      {
+        "example_id": "new-hsk-1-0101-ex3",
+        "word_id": "new-hsk-1-0101",
+        "rank": 101,
+        "lemma": "房间",
+        "sentence": "这个房间很大，很干净。",
+        "translation": "This room is big and very clean."
+      }
+    ],
+    "爸爸晚上常看电视。": [
+      {
+        "example_id": "new-hsk-1-0080-ex1",
+        "word_id": "new-hsk-1-0080",
+        "rank": 80,
+        "lemma": "电视",
+        "sentence": "爸爸晚上常看电视。",
+        "translation": "Dad often watches TV in the evening."
+      },
+      {
+        "example_id": "new-hsk-1-0192-ex2",
+        "word_id": "new-hsk-1-0192",
+        "rank": 192,
+        "lemma": "看",
+        "sentence": "爸爸晚上常看电视。",
+        "translation": "Dad often watches TV at night."
+      }
+    ],
+    "这个电影很好看。": [
+      {
+        "example_id": "new-hsk-1-0082-ex2",
+        "word_id": "new-hsk-1-0082",
+        "rank": 82,
+        "lemma": "电影",
+        "sentence": "这个电影很好看。",
+        "translation": "This movie is very good."
+      },
+      {
+        "example_id": "new-hsk-1-0140-ex2",
+        "word_id": "new-hsk-1-0140",
+        "rank": 140,
+        "lemma": "好看",
+        "sentence": "这个电影很好看。",
+        "translation": "This movie is very good to watch."
+      }
+    ],
+    "学校东边有一个商店。": [
+      {
+        "example_id": "new-hsk-1-0084-ex2",
+        "word_id": "new-hsk-1-0084",
+        "rank": 84,
+        "lemma": "东",
+        "sentence": "学校东边有一个商店。",
+        "translation": "There is a shop on the east side of the school."
+      },
+      {
+        "example_id": "new-hsk-1-0085-ex1",
+        "word_id": "new-hsk-1-0085",
+        "rank": 85,
+        "lemma": "东边",
+        "sentence": "学校东边有一个商店。",
+        "translation": "There is a shop on the east side of the school."
+      }
+    ],
+    "饭店在商店后边。": [
+      {
+        "example_id": "new-hsk-1-0100-ex3",
+        "word_id": "new-hsk-1-0100",
+        "rank": 100,
+        "lemma": "饭店",
+        "sentence": "饭店在商店后边。",
+        "translation": "The restaurant is behind the shop."
+      },
+      {
+        "example_id": "new-hsk-1-0148-ex3",
+        "word_id": "new-hsk-1-0148",
+        "rank": 148,
+        "lemma": "后边",
+        "sentence": "饭店在商店后边。",
+        "translation": "The restaurant is behind the shop."
+      }
+    ],
+    "我有一个弟弟。": [
+      {
+        "example_id": "new-hsk-1-0120-ex1",
+        "word_id": "new-hsk-1-0120",
+        "rank": 120,
+        "lemma": "个",
+        "sentence": "我有一个弟弟。",
+        "translation": "I have a younger brother."
+      },
+      {
+        "example_id": "new-hsk-1-0427-ex1",
+        "word_id": "new-hsk-1-0427",
+        "rank": 427,
+        "lemma": "一",
+        "sentence": "我有一个弟弟。",
+        "translation": "I have one younger brother."
+      }
+    ],
+    "妈妈给我买面包。": [
+      {
+        "example_id": "new-hsk-1-0121-ex1",
+        "word_id": "new-hsk-1-0121",
+        "rank": 121,
+        "lemma": "给",
+        "sentence": "妈妈给我买面包。",
+        "translation": "Mom buys bread for me."
+      },
+      {
+        "example_id": "new-hsk-1-0224-ex2",
+        "word_id": "new-hsk-1-0224",
+        "rank": 224,
+        "lemma": "妈妈",
+        "sentence": "妈妈给我买面包。",
+        "translation": "Mom buys bread for me."
+      }
+    ],
+    "今天天气很好，不冷。": [
+      {
+        "example_id": "new-hsk-1-0138-ex3",
+        "word_id": "new-hsk-1-0138",
+        "rank": 138,
+        "lemma": "好",
+        "sentence": "今天天气很好，不冷。",
+        "translation": "The weather is good today, and it's not cold."
+      },
+      {
+        "example_id": "new-hsk-1-0360-ex1",
+        "word_id": "new-hsk-1-0360",
+        "rank": 360,
+        "lemma": "天气",
+        "sentence": "今天天气很好，不冷。",
+        "translation": "The weather is nice today, and it isn't cold."
+      }
+    ],
+    "妈妈做的菜真好吃。": [
+      {
+        "example_id": "new-hsk-1-0139-ex2",
+        "word_id": "new-hsk-1-0139",
+        "rank": 139,
+        "lemma": "好吃",
+        "sentence": "妈妈做的菜真好吃。",
+        "translation": "The food Mom made is really tasty."
+      },
+      {
+        "example_id": "new-hsk-1-0470-ex1",
+        "word_id": "new-hsk-1-0470",
+        "rank": 470,
+        "lemma": "真",
+        "sentence": "妈妈做的菜真好吃。",
+        "translation": "The food Mom makes is really delicious."
+      }
+    ],
+    "这本书很好看。": [
+      {
+        "example_id": "new-hsk-1-0140-ex3",
+        "word_id": "new-hsk-1-0140",
+        "rank": 140,
+        "lemma": "好看",
+        "sentence": "这本书很好看。",
+        "translation": "This book is very enjoyable."
+      },
+      {
+        "example_id": "new-hsk-1-0341-ex2",
+        "word_id": "new-hsk-1-0341",
+        "rank": 341,
+        "lemma": "书",
+        "sentence": "这本书很好看。",
+        "translation": "This book is very good."
+      },
+      {
+        "example_id": "new-hsk-1-0464-ex1",
+        "word_id": "new-hsk-1-0464",
+        "rank": 464,
+        "lemma": "这",
+        "sentence": "这本书很好看。",
+        "translation": "This book is very good."
+      }
+    ],
+    "今天是三月五号。": [
+      {
+        "example_id": "new-hsk-1-0143-ex3",
+        "word_id": "new-hsk-1-0143",
+        "rank": 143,
+        "lemma": "号",
+        "sentence": "今天是三月五号。",
+        "translation": "Today is March fifth."
+      },
+      {
+        "example_id": "new-hsk-1-0452-ex1",
+        "word_id": "new-hsk-1-0452",
+        "rank": 452,
+        "lemma": "月",
+        "sentence": "今天是三月五号。",
+        "translation": "Today is March fifth."
+      }
+    ],
+    "学校后边有一个商店。": [
+      {
+        "example_id": "new-hsk-1-0148-ex1",
+        "word_id": "new-hsk-1-0148",
+        "rank": 148,
+        "lemma": "后边",
+        "sentence": "学校后边有一个商店。",
+        "translation": "There is a shop behind the school."
+      },
+      {
+        "example_id": "new-hsk-1-0421-ex3",
+        "word_id": "new-hsk-1-0421",
+        "rank": 421,
+        "lemma": "学校",
+        "sentence": "学校后边有一个商店。",
+        "translation": "There is a shop behind the school."
+      }
+    ],
+    "妈妈今天在家里做饭。": [
+      {
+        "example_id": "new-hsk-1-0170-ex1",
+        "word_id": "new-hsk-1-0170",
+        "rank": 170,
+        "lemma": "家里",
+        "sentence": "妈妈今天在家里做饭。",
+        "translation": "Mom is cooking at home today."
+      },
+      {
+        "example_id": "new-hsk-1-0181-ex2",
+        "word_id": "new-hsk-1-0181",
+        "rank": 181,
+        "lemma": "今天",
+        "sentence": "妈妈今天在家里做饭。",
+        "translation": "Mom is cooking at home today."
+      }
+    ],
+    "弟弟生病了，要看病。": [
+      {
+        "example_id": "new-hsk-1-0193-ex2",
+        "word_id": "new-hsk-1-0193",
+        "rank": 193,
+        "lemma": "看病",
+        "sentence": "弟弟生病了，要看病。",
+        "translation": "My younger brother is sick and needs to see a doctor."
+      },
+      {
+        "example_id": "new-hsk-1-0329-ex1",
+        "word_id": "new-hsk-1-0329",
+        "rank": 329,
+        "lemma": "生病",
+        "sentence": "弟弟生病了，要看病。",
+        "translation": "My younger brother got sick and needs to see a doctor."
+      }
+    ],
+    "我在路上看到老师了。": [
+      {
+        "example_id": "new-hsk-1-0194-ex1",
+        "word_id": "new-hsk-1-0194",
+        "rank": 194,
+        "lemma": "看到",
+        "sentence": "我在路上看到老师了。",
+        "translation": "I saw the teacher on the road."
+      },
+      {
+        "example_id": "new-hsk-1-0223-ex3",
+        "word_id": "new-hsk-1-0223",
+        "rank": 223,
+        "lemma": "路上",
+        "sentence": "我在路上看到老师了。",
+        "translation": "I saw the teacher on the way."
+      }
+    ],
+    "老师今天在教学楼上课。": [
+      {
+        "example_id": "new-hsk-1-0209-ex1",
+        "word_id": "new-hsk-1-0209",
+        "rank": 209,
+        "lemma": "老师",
+        "sentence": "老师今天在教学楼上课。",
+        "translation": "The teacher is teaching in the classroom building today."
+      },
+      {
+        "example_id": "new-hsk-1-0320-ex2",
+        "word_id": "new-hsk-1-0320",
+        "rank": 320,
+        "lemma": "上课",
+        "sentence": "老师今天在教学楼上课。",
+        "translation": "The teacher is teaching in the classroom building today."
+      }
+    ],
+    "你今天怎么去学校？": [
+      {
+        "example_id": "new-hsk-1-0271-ex1",
+        "word_id": "new-hsk-1-0271",
+        "rank": 271,
+        "lemma": "你",
+        "sentence": "你今天怎么去学校？",
+        "translation": "How are you going to school today?"
+      },
+      {
+        "example_id": "new-hsk-1-0460-ex1",
+        "word_id": "new-hsk-1-0460",
+        "rank": 460,
+        "lemma": "怎么",
+        "sentence": "你今天怎么去学校？",
+        "translation": "How are you going to school today?"
+      }
+    ],
+    "妈妈在商店买水果。": [
+      {
+        "example_id": "new-hsk-1-0314-ex1",
+        "word_id": "new-hsk-1-0314",
+        "rank": 314,
+        "lemma": "商店",
+        "sentence": "妈妈在商店买水果。",
+        "translation": "Mom is buying fruit at the shop."
+      },
+      {
+        "example_id": "new-hsk-1-0455-ex2",
+        "word_id": "new-hsk-1-0455",
+        "rank": 455,
+        "lemma": "在",
+        "sentence": "妈妈在商店买水果。",
+        "translation": "Mom is in the shop buying fruit."
+      }
+    ],
+    "妈妈生病了，在家休息。": [
+      {
+        "example_id": "new-hsk-1-0329-ex2",
+        "word_id": "new-hsk-1-0329",
+        "rank": 329,
+        "lemma": "生病",
+        "sentence": "妈妈生病了，在家休息。",
+        "translation": "Mom got sick and is resting at home."
+      },
+      {
+        "example_id": "new-hsk-1-0456-ex2",
+        "word_id": "new-hsk-1-0456",
+        "rank": 456,
+        "lemma": "在家",
+        "sentence": "妈妈生病了，在家休息。",
+        "translation": "Mom is sick and resting at home."
+      }
+    ],
+    "这些水果都很好吃。": [
+      {
+        "example_id": "new-hsk-1-0346-ex2",
+        "word_id": "new-hsk-1-0346",
+        "rank": 346,
+        "lemma": "水果",
+        "sentence": "这些水果都很好吃。",
+        "translation": "All this fruit is very tasty."
+      },
+      {
+        "example_id": "new-hsk-1-0468-ex1",
+        "word_id": "new-hsk-1-0468",
+        "rank": 468,
+        "lemma": "这些",
+        "sentence": "这些水果都很好吃。",
+        "translation": "These fruits are all very tasty."
+      }
+    ],
+    "桌子上有一本书。": [
+      {
+        "example_id": "new-hsk-1-0427-ex2",
+        "word_id": "new-hsk-1-0427",
+        "rank": 427,
+        "lemma": "一",
+        "sentence": "桌子上有一本书。",
+        "translation": "There is one book on the table."
+      },
+      {
+        "example_id": "new-hsk-1-0489-ex2",
+        "word_id": "new-hsk-1-0489",
+        "rank": 489,
+        "lemma": "子",
+        "sentence": "桌子上有一本书。",
+        "translation": "There is a book on the table."
+      }
+    ]
+  },
+  "duplicate_translations": {
+    "Let's go to the shop together.": [
+      {
+        "example_id": "new-hsk-1-0005-ex1",
+        "word_id": "new-hsk-1-0005",
+        "rank": 5,
+        "lemma": "吧",
+        "sentence": "我们一起去商店吧。",
+        "translation": "Let's go to the shop together."
+      },
+      {
+        "example_id": "new-hsk-1-0433-ex1",
+        "word_id": "new-hsk-1-0433",
+        "rank": 433,
+        "lemma": "一块儿",
+        "sentence": "我们一块儿去商店吧。",
+        "translation": "Let's go to the shop together."
+      }
+    ],
+    "I ate half the bread.": [
+      {
+        "example_id": "new-hsk-1-0010-ex1",
+        "word_id": "new-hsk-1-0010",
+        "rank": 10,
+        "lemma": "半",
+        "sentence": "我吃了一半面包。",
+        "translation": "I ate half the bread."
+      },
+      {
+        "example_id": "new-hsk-1-0431-ex1",
+        "word_id": "new-hsk-1-0431",
+        "rank": 431,
+        "lemma": "一半",
+        "sentence": "我吃了一半面包。",
+        "translation": "I ate half the bread."
+      }
+    ],
+    "I've read half of this book.": [
+      {
+        "example_id": "new-hsk-1-0010-ex3",
+        "word_id": "new-hsk-1-0010",
+        "rank": 10,
+        "lemma": "半",
+        "sentence": "这本书我看一半了。",
+        "translation": "I've read half of this book."
+      },
+      {
+        "example_id": "new-hsk-1-0431-ex2",
+        "word_id": "new-hsk-1-0431",
+        "rank": 431,
+        "lemma": "一半",
+        "sentence": "这本书我看了一半。",
+        "translation": "I've read half of this book."
+      }
+    ],
+    "I want to drink a cup of tea.": [
+      {
+        "example_id": "new-hsk-1-0017-ex1",
+        "word_id": "new-hsk-1-0017",
+        "rank": 17,
+        "lemma": "杯",
+        "sentence": "我想喝一杯茶。",
+        "translation": "I want to drink a cup of tea."
+      },
+      {
+        "example_id": "new-hsk-1-0144-ex3",
+        "word_id": "new-hsk-1-0144",
+        "rank": 144,
+        "lemma": "喝",
+        "sentence": "我想喝一杯茶。",
+        "translation": "I want to drink a cup of tea."
+      }
+    ],
+    "There is a shop on the north side of the school.": [
+      {
+        "example_id": "new-hsk-1-0019-ex2",
+        "word_id": "new-hsk-1-0019",
+        "rank": 19,
+        "lemma": "北",
+        "sentence": "学校北边有一个商店。",
+        "translation": "There is a shop on the north side of the school."
+      },
+      {
+        "example_id": "new-hsk-1-0020-ex1",
+        "word_id": "new-hsk-1-0020",
+        "rank": 20,
+        "lemma": "北边",
+        "sentence": "学校北边有一个商店。",
+        "translation": "There is a shop on the north side of the school."
+      }
+    ],
+    "I have two textbooks.": [
+      {
+        "example_id": "new-hsk-1-0022-ex1",
+        "word_id": "new-hsk-1-0022",
+        "rank": 22,
+        "lemma": "本",
+        "sentence": "我有两本课本。",
+        "translation": "I have two textbooks."
+      },
+      {
+        "example_id": "new-hsk-1-0215-ex1",
+        "word_id": "new-hsk-1-0215",
+        "rank": 215,
+        "lemma": "两",
+        "sentence": "我有两本课本。",
+        "translation": "I have two textbooks."
+      }
+    ],
+    "My older brother is a little taller than me.": [
+      {
+        "example_id": "new-hsk-1-0024-ex3",
+        "word_id": "new-hsk-1-0024",
+        "rank": 24,
+        "lemma": "比",
+        "sentence": "哥哥比我高一点儿。",
+        "translation": "My older brother is a little taller than me."
+      },
+      {
+        "example_id": "new-hsk-1-0115-ex3",
+        "word_id": "new-hsk-1-0115",
+        "rank": 115,
+        "lemma": "高",
+        "sentence": "哥哥比我高一点儿。",
+        "translation": "My older brother is a little taller than me."
+      }
+    ],
+    "Don't run on the road.": [
+      {
+        "example_id": "new-hsk-1-0025-ex1",
+        "word_id": "new-hsk-1-0025",
+        "rank": 25,
+        "lemma": "别",
+        "sentence": "你别在路上跑。",
+        "translation": "Don't run on the road."
+      },
+      {
+        "example_id": "new-hsk-1-0225-ex1",
+        "word_id": "new-hsk-1-0225",
+        "rank": 225,
+        "lemma": "马路",
+        "sentence": "你别在马路上跑。",
+        "translation": "Don't run on the road."
+      }
+    ],
+    "Dad is waiting for me at the station.": [
+      {
+        "example_id": "new-hsk-1-0045-ex1",
+        "word_id": "new-hsk-1-0045",
+        "rank": 45,
+        "lemma": "车站",
+        "sentence": "爸爸在车站等我。",
+        "translation": "Dad is waiting for me at the station."
+      },
+      {
+        "example_id": "new-hsk-1-0455-ex3",
+        "word_id": "new-hsk-1-0455",
+        "rank": 455,
+        "lemma": "在",
+        "sentence": "爸爸在车站等我。",
+        "translation": "Dad is waiting for me at the station."
+      }
+    ],
+    "My younger brother is sleeping on the bed.": [
+      {
+        "example_id": "new-hsk-1-0052-ex1",
+        "word_id": "new-hsk-1-0052",
+        "rank": 52,
+        "lemma": "床",
+        "sentence": "弟弟在床上睡觉。",
+        "translation": "My younger brother is sleeping on the bed."
+      },
+      {
+        "example_id": "new-hsk-1-0347-ex1",
+        "word_id": "new-hsk-1-0347",
+        "rank": 347,
+        "lemma": "睡",
+        "sentence": "弟弟在床上睡。",
+        "translation": "My younger brother is sleeping on the bed."
+      }
+    ],
+    "Dad turns on the TV to watch a movie.": [
+      {
+        "example_id": "new-hsk-1-0059-ex2",
+        "word_id": "new-hsk-1-0059",
+        "rank": 59,
+        "lemma": "打开",
+        "sentence": "爸爸打开电视看电影。",
+        "translation": "Dad turns on the TV to watch a movie."
+      },
+      {
+        "example_id": "new-hsk-1-0188-ex2",
+        "word_id": "new-hsk-1-0188",
+        "rank": 188,
+        "lemma": "开",
+        "sentence": "爸爸开电视看电影。",
+        "translation": "Dad turns on the TV to watch a movie."
+      }
+    ],
+    "This room is big and very clean.": [
+      {
+        "example_id": "new-hsk-1-0061-ex1",
+        "word_id": "new-hsk-1-0061",
+        "rank": 61,
+        "lemma": "大",
+        "sentence": "这个房间很大，很干净。",
+        "translation": "This room is big and very clean."
+      },
+      {
+        "example_id": "new-hsk-1-0101-ex3",
+        "word_id": "new-hsk-1-0101",
+        "rank": 101,
+        "lemma": "房间",
+        "sentence": "这个房间很大，很干净。",
+        "translation": "This room is big and very clean."
+      }
+    ],
+    "The food Mom made is very tasty.": [
+      {
+        "example_id": "new-hsk-1-0067-ex2",
+        "word_id": "new-hsk-1-0067",
+        "rank": 67,
+        "lemma": "的",
+        "sentence": "妈妈做的菜很好吃。",
+        "translation": "The food Mom made is very tasty."
+      },
+      {
+        "example_id": "new-hsk-1-0099-ex1",
+        "word_id": "new-hsk-1-0099",
+        "rank": 99,
+        "lemma": "饭",
+        "sentence": "妈妈做的饭很好吃。",
+        "translation": "The food Mom made is very tasty."
+      }
+    ],
+    "On a map, east is on the right.": [
+      {
+        "example_id": "new-hsk-1-0084-ex1",
+        "word_id": "new-hsk-1-0084",
+        "rank": 84,
+        "lemma": "东",
+        "sentence": "地图上东在右边。",
+        "translation": "On a map, east is on the right."
+      },
+      {
+        "example_id": "new-hsk-1-0447-ex3",
+        "word_id": "new-hsk-1-0447",
+        "rank": 447,
+        "lemma": "右",
+        "sentence": "地图上东在右。",
+        "translation": "On a map, east is on the right."
+      }
+    ],
+    "There is a shop on the east side of the school.": [
+      {
+        "example_id": "new-hsk-1-0084-ex2",
+        "word_id": "new-hsk-1-0084",
+        "rank": 84,
+        "lemma": "东",
+        "sentence": "学校东边有一个商店。",
+        "translation": "There is a shop on the east side of the school."
+      },
+      {
+        "example_id": "new-hsk-1-0085-ex1",
+        "word_id": "new-hsk-1-0085",
+        "rank": 85,
+        "lemma": "东边",
+        "sentence": "学校东边有一个商店。",
+        "translation": "There is a shop on the east side of the school."
+      }
+    ],
+    "The restaurant is behind the shop.": [
+      {
+        "example_id": "new-hsk-1-0100-ex3",
+        "word_id": "new-hsk-1-0100",
+        "rank": 100,
+        "lemma": "饭店",
+        "sentence": "饭店在商店后边。",
+        "translation": "The restaurant is behind the shop."
+      },
+      {
+        "example_id": "new-hsk-1-0148-ex3",
+        "word_id": "new-hsk-1-0148",
+        "rank": 148,
+        "lemma": "后边",
+        "sentence": "饭店在商店后边。",
+        "translation": "The restaurant is behind the shop."
+      }
+    ],
+    "I really like this movie.": [
+      {
+        "example_id": "new-hsk-1-0108-ex3",
+        "word_id": "new-hsk-1-0108",
+        "rank": 108,
+        "lemma": "非常",
+        "sentence": "我非常喜欢这个电影。",
+        "translation": "I really like this movie."
+      },
+      {
+        "example_id": "new-hsk-1-0388-ex3",
+        "word_id": "new-hsk-1-0388",
+        "rank": 388,
+        "lemma": "喜欢",
+        "sentence": "我很喜欢这个电影。",
+        "translation": "I really like this movie."
+      }
+    ],
+    "Mom buys bread for me.": [
+      {
+        "example_id": "new-hsk-1-0121-ex1",
+        "word_id": "new-hsk-1-0121",
+        "rank": 121,
+        "lemma": "给",
+        "sentence": "妈妈给我买面包。",
+        "translation": "Mom buys bread for me."
+      },
+      {
+        "example_id": "new-hsk-1-0224-ex2",
+        "word_id": "new-hsk-1-0224",
+        "rank": 224,
+        "lemma": "妈妈",
+        "sentence": "妈妈给我买面包。",
+        "translation": "Mom buys bread for me."
+      }
+    ],
+    "That child is running on the road.": [
+      {
+        "example_id": "new-hsk-1-0135-ex1",
+        "word_id": "new-hsk-1-0135",
+        "rank": 135,
+        "lemma": "孩子",
+        "sentence": "那个孩子在路上跑。",
+        "translation": "That child is running on the road."
+      },
+      {
+        "example_id": "new-hsk-1-0402-ex1",
+        "word_id": "new-hsk-1-0402",
+        "rank": 402,
+        "lemma": "小孩儿",
+        "sentence": "那个小孩儿在路上跑。",
+        "translation": "That child is running on the road."
+      }
+    ],
+    "Today is March fifth.": [
+      {
+        "example_id": "new-hsk-1-0143-ex3",
+        "word_id": "new-hsk-1-0143",
+        "rank": 143,
+        "lemma": "号",
+        "sentence": "今天是三月五号。",
+        "translation": "Today is March fifth."
+      },
+      {
+        "example_id": "new-hsk-1-0452-ex1",
+        "word_id": "new-hsk-1-0452",
+        "rank": 452,
+        "lemma": "月",
+        "sentence": "今天是三月五号。",
+        "translation": "Today is March fifth."
+      }
+    ],
+    "There is a shop behind the school.": [
+      {
+        "example_id": "new-hsk-1-0148-ex1",
+        "word_id": "new-hsk-1-0148",
+        "rank": 148,
+        "lemma": "后边",
+        "sentence": "学校后边有一个商店。",
+        "translation": "There is a shop behind the school."
+      },
+      {
+        "example_id": "new-hsk-1-0421-ex3",
+        "word_id": "new-hsk-1-0421",
+        "rank": 421,
+        "lemma": "学校",
+        "sentence": "学校后边有一个商店。",
+        "translation": "There is a shop behind the school."
+      }
+    ],
+    "Mom is cooking at home today.": [
+      {
+        "example_id": "new-hsk-1-0170-ex1",
+        "word_id": "new-hsk-1-0170",
+        "rank": 170,
+        "lemma": "家里",
+        "sentence": "妈妈今天在家里做饭。",
+        "translation": "Mom is cooking at home today."
+      },
+      {
+        "example_id": "new-hsk-1-0181-ex2",
+        "word_id": "new-hsk-1-0181",
+        "rank": 181,
+        "lemma": "今天",
+        "sentence": "妈妈今天在家里做饭。",
+        "translation": "Mom is cooking at home today."
+      }
+    ],
+    "I saw the teacher on the road.": [
+      {
+        "example_id": "new-hsk-1-0194-ex1",
+        "word_id": "new-hsk-1-0194",
+        "rank": 194,
+        "lemma": "看到",
+        "sentence": "我在路上看到老师了。",
+        "translation": "I saw the teacher on the road."
+      },
+      {
+        "example_id": "new-hsk-1-0223-ex1",
+        "word_id": "new-hsk-1-0223",
+        "rank": 223,
+        "lemma": "路上",
+        "sentence": "我在路上看见老师了。",
+        "translation": "I saw the teacher on the road."
+      }
+    ],
+    "This bun costs three yuan.": [
+      {
+        "example_id": "new-hsk-1-0203-ex2",
+        "word_id": "new-hsk-1-0203",
+        "rank": 203,
+        "lemma": "块",
+        "sentence": "这个包子三块钱。",
+        "translation": "This bun costs three yuan."
+      },
+      {
+        "example_id": "new-hsk-1-0450-ex3",
+        "word_id": "new-hsk-1-0450",
+        "rank": 450,
+        "lemma": "元",
+        "sentence": "这个包子三元。",
+        "translation": "This bun costs three yuan."
+      }
+    ],
+    "The teacher is teaching in the classroom building today.": [
+      {
+        "example_id": "new-hsk-1-0209-ex1",
+        "word_id": "new-hsk-1-0209",
+        "rank": 209,
+        "lemma": "老师",
+        "sentence": "老师今天在教学楼上课。",
+        "translation": "The teacher is teaching in the classroom building today."
+      },
+      {
+        "example_id": "new-hsk-1-0320-ex2",
+        "word_id": "new-hsk-1-0320",
+        "rank": 320,
+        "lemma": "上课",
+        "sentence": "老师今天在教学楼上课。",
+        "translation": "The teacher is teaching in the classroom building today."
+      }
+    ],
+    "The door is open, and it's cold outside.": [
+      {
+        "example_id": "new-hsk-1-0238-ex1",
+        "word_id": "new-hsk-1-0238",
+        "rank": 238,
+        "lemma": "门",
+        "sentence": "门开了，外边很冷。",
+        "translation": "The door is open, and it's cold outside."
+      },
+      {
+        "example_id": "new-hsk-1-0469-ex1",
+        "word_id": "new-hsk-1-0469",
+        "rank": 469,
+        "lemma": "着",
+        "sentence": "门开着，外边很冷。",
+        "translation": "The door is open, and it's cold outside."
+      }
+    ],
+    "I drink milk and eat bread in the morning.": [
+      {
+        "example_id": "new-hsk-1-0259-ex1",
+        "word_id": "new-hsk-1-0259",
+        "rank": 259,
+        "lemma": "奶",
+        "sentence": "我早上喝奶和吃面包。",
+        "translation": "I drink milk and eat bread in the morning."
+      },
+      {
+        "example_id": "new-hsk-1-0275-ex3",
+        "word_id": "new-hsk-1-0275",
+        "rank": 275,
+        "lemma": "牛奶",
+        "sentence": "我早上喝牛奶，吃面包。",
+        "translation": "I drink milk and eat bread in the morning."
+      }
+    ],
+    "How are you going to school today?": [
+      {
+        "example_id": "new-hsk-1-0271-ex1",
+        "word_id": "new-hsk-1-0271",
+        "rank": 271,
+        "lemma": "你",
+        "sentence": "你今天怎么去学校？",
+        "translation": "How are you going to school today?"
+      },
+      {
+        "example_id": "new-hsk-1-0460-ex1",
+        "word_id": "new-hsk-1-0460",
+        "rank": 460,
+        "lemma": "怎么",
+        "sentence": "你今天怎么去学校？",
+        "translation": "How are you going to school today?"
+      }
+    ],
+    "This book is very good.": [
+      {
+        "example_id": "new-hsk-1-0341-ex2",
+        "word_id": "new-hsk-1-0341",
+        "rank": 341,
+        "lemma": "书",
+        "sentence": "这本书很好看。",
+        "translation": "This book is very good."
+      },
+      {
+        "example_id": "new-hsk-1-0464-ex1",
+        "word_id": "new-hsk-1-0464",
+        "rank": 464,
+        "lemma": "这",
+        "sentence": "这本书很好看。",
+        "translation": "This book is very good."
+      }
+    ]
+  }
+}

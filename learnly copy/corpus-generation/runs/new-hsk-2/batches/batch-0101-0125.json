@@ -1,0 +1,348 @@
+[
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0101",
+    "rank": 101,
+    "display_form": "带",
+    "lemma": "带",
+    "generation_form": "带",
+    "pronunciation": "dài",
+    "pos": "unknown",
+    "primary_gloss": "belt",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0102",
+    "rank": 102,
+    "display_form": "带来",
+    "lemma": "带来",
+    "generation_form": "带来",
+    "pronunciation": "dài lái",
+    "pos": "unknown",
+    "primary_gloss": "bring",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0103",
+    "rank": 103,
+    "display_form": "单位",
+    "lemma": "单位",
+    "generation_form": "单位",
+    "pronunciation": "dānwèi",
+    "pos": "unknown",
+    "primary_gloss": "Company",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0104",
+    "rank": 104,
+    "display_form": "但",
+    "lemma": "但",
+    "generation_form": "但",
+    "pronunciation": "dàn",
+    "pos": "unknown",
+    "primary_gloss": "but",
+    "secondary_glosses": [
+      "however"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0105",
+    "rank": 105,
+    "display_form": "但是",
+    "lemma": "但是",
+    "generation_form": "但是",
+    "pronunciation": "dàn shì",
+    "pos": "unknown",
+    "primary_gloss": "but",
+    "secondary_glosses": [
+      "however"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0106",
+    "rank": 106,
+    "display_form": "蛋",
+    "lemma": "蛋",
+    "generation_form": "蛋",
+    "pronunciation": "dàn",
+    "pos": "unknown",
+    "primary_gloss": "egg",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0107",
+    "rank": 107,
+    "display_form": "当",
+    "lemma": "当",
+    "generation_form": "当",
+    "pronunciation": "dāng",
+    "pos": "unknown",
+    "primary_gloss": "When",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0108",
+    "rank": 108,
+    "display_form": "当时",
+    "lemma": "当时",
+    "generation_form": "当时",
+    "pronunciation": "dāngshí",
+    "pos": "unknown",
+    "primary_gloss": "at that time",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0109",
+    "rank": 109,
+    "display_form": "倒",
+    "lemma": "倒",
+    "generation_form": "倒",
+    "pronunciation": "dǎo",
+    "pos": "unknown",
+    "primary_gloss": "fall",
+    "secondary_glosses": [
+      "topple",
+      "fail"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0110",
+    "rank": 110,
+    "display_form": "到处",
+    "lemma": "到处",
+    "generation_form": "到处",
+    "pronunciation": "dàochù",
+    "pos": "unknown",
+    "primary_gloss": "everywhere",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0111",
+    "rank": 111,
+    "display_form": "倒",
+    "lemma": "倒",
+    "generation_form": "倒",
+    "pronunciation": "dào",
+    "pos": "unknown",
+    "primary_gloss": "inverted",
+    "secondary_glosses": [
+      "reverse"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0112",
+    "rank": 112,
+    "display_form": "道",
+    "lemma": "道",
+    "generation_form": "道",
+    "pronunciation": "dào",
+    "pos": "unknown",
+    "primary_gloss": "road",
+    "secondary_glosses": [
+      "way",
+      "path"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0113",
+    "rank": 113,
+    "display_form": "道理",
+    "lemma": "道理",
+    "generation_form": "道理",
+    "pronunciation": "dàolǐ",
+    "pos": "unknown",
+    "primary_gloss": "truth",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0114",
+    "rank": 114,
+    "display_form": "道路",
+    "lemma": "道路",
+    "generation_form": "道路",
+    "pronunciation": "dào lù",
+    "pos": "unknown",
+    "primary_gloss": "road",
+    "secondary_glosses": [
+      "way",
+      "path"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0115",
+    "rank": 115,
+    "display_form": "得",
+    "lemma": "得",
+    "generation_form": "得",
+    "pronunciation": "dé",
+    "pos": "unknown",
+    "primary_gloss": "get",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0116",
+    "rank": 116,
+    "display_form": "得出",
+    "lemma": "得出",
+    "generation_form": "得出",
+    "pronunciation": "dé chū",
+    "pos": "unknown",
+    "primary_gloss": "obtain results",
+    "secondary_glosses": [
+      "reach conclusion"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0117",
+    "rank": 117,
+    "display_form": "的话",
+    "lemma": "的话",
+    "generation_form": "的话",
+    "pronunciation": "de huà",
+    "pos": "unknown",
+    "primary_gloss": "if",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0118",
+    "rank": 118,
+    "display_form": "得",
+    "lemma": "得",
+    "generation_form": "得",
+    "pronunciation": "de",
+    "pos": "unknown",
+    "primary_gloss": "auxiliary verb",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0119",
+    "rank": 119,
+    "display_form": "灯",
+    "lemma": "灯",
+    "generation_form": "灯",
+    "pronunciation": "dēng",
+    "pos": "unknown",
+    "primary_gloss": "lamp",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0120",
+    "rank": 120,
+    "display_form": "等（助、名）",
+    "lemma": "等",
+    "generation_form": "等",
+    "pronunciation": "děng",
+    "pos": "unknown",
+    "primary_gloss": "etc.",
+    "secondary_glosses": [
+      "and so on"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0121",
+    "rank": 121,
+    "display_form": "等到",
+    "lemma": "等到",
+    "generation_form": "等到",
+    "pronunciation": "děng dào",
+    "pos": "unknown",
+    "primary_gloss": "wait until",
+    "secondary_glosses": [
+      "by the time"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0122",
+    "rank": 122,
+    "display_form": "等于",
+    "lemma": "等于",
+    "generation_form": "等于",
+    "pronunciation": "děngyú",
+    "pos": "unknown",
+    "primary_gloss": "Be equal to",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0123",
+    "rank": 123,
+    "display_form": "低",
+    "lemma": "低",
+    "generation_form": "低",
+    "pronunciation": "dī",
+    "pos": "unknown",
+    "primary_gloss": "low",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0124",
+    "rank": 124,
+    "display_form": "地球",
+    "lemma": "地球",
+    "generation_form": "地球",
+    "pronunciation": "dìqiú",
+    "pos": "unknown",
+    "primary_gloss": "earth",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0125",
+    "rank": 125,
+    "display_form": "地铁",
+    "lemma": "地铁",
+    "generation_form": "地铁",
+    "pronunciation": "dìtiě",
+    "pos": "unknown",
+    "primary_gloss": "metro",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  }
+]

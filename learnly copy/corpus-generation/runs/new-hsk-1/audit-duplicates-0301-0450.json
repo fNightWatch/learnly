@@ -1,0 +1,42 @@
+{
+  "range": "0301-0450",
+  "issue_count": 6,
+  "issues": [
+    {
+      "word_id": "new-hsk-1-0373",
+      "type": "duplicate_sentence",
+      "example_id": "new-hsk-1-0373-ex1",
+      "sentence": "我们晚上一起吃晚饭。"
+    },
+    {
+      "word_id": "new-hsk-1-0379",
+      "type": "duplicate_sentence",
+      "example_id": "new-hsk-1-0379-ex2",
+      "sentence": "请问，洗手间在这边吗？"
+    },
+    {
+      "word_id": "new-hsk-1-0379",
+      "type": "duplicate_translation",
+      "example_id": "new-hsk-1-0379-ex2",
+      "translation": "Excuse me, is the restroom this way?"
+    },
+    {
+      "word_id": "new-hsk-1-0381",
+      "type": "duplicate_sentence",
+      "example_id": "new-hsk-1-0381-ex1",
+      "sentence": "我们晚上一起吃晚饭。"
+    },
+    {
+      "word_id": "new-hsk-1-0387",
+      "type": "duplicate_sentence",
+      "example_id": "new-hsk-1-0387-ex3",
+      "sentence": "请问，洗手间在这边吗？"
+    },
+    {
+      "word_id": "new-hsk-1-0387",
+      "type": "duplicate_translation",
+      "example_id": "new-hsk-1-0387-ex3",
+      "translation": "Excuse me, is the restroom this way?"
+    }
+  ]
+}

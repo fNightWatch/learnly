@@ -1,0 +1,1192 @@
+{
+  "results": [
+    {
+      "word_id": "new-hsk-2-0415",
+      "rank": 415,
+      "lemma": "片",
+      "meanings": [
+        {
+          "meaning_en": "slice",
+          "priority": 1
+        },
+        {
+          "meaning_en": "piece",
+          "priority": 2
+        }
+      ],
+      "notes": "Common word for a slice or flat piece.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "slice",
+          "sentence": "今天桌子上有一片肉。",
+          "translation": "There is a slice of meat on the table today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "slice",
+          "sentence": "我今天吃了一片肉。",
+          "translation": "I ate a slice of meat today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "piece",
+          "sentence": "老师今天给我一片肉。",
+          "translation": "The teacher gave me a piece of meat today.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0420",
+      "rank": 420,
+      "lemma": "平等",
+      "meanings": [
+        {
+          "meaning_en": "equality",
+          "priority": 1
+        },
+        {
+          "meaning_en": "equal",
+          "priority": 2
+        }
+      ],
+      "notes": "Common word for equal treatment or equality.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "equal",
+          "sentence": "老师今天说大家都平等。",
+          "translation": "The teacher said today that everyone is equal.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "equal",
+          "sentence": "在学校里大家都平等。",
+          "translation": "In school, everyone is equal.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "equality",
+          "sentence": "今天老师和学生都平等。",
+          "translation": "Today the teachers and students are all equal.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0422",
+      "rank": 422,
+      "lemma": "瓶",
+      "meanings": [
+        {
+          "meaning_en": "bottle",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for a bottle.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "bottle",
+          "sentence": "这瓶茶在桌子上。",
+          "translation": "This bottle of tea is on the table.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "bottle",
+          "sentence": "我今天拿这瓶茶。",
+          "translation": "I am holding this bottle of tea today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "bottle",
+          "sentence": "桌子上有两瓶茶。",
+          "translation": "There are two bottles of tea on the table.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0423",
+      "rank": 423,
+      "lemma": "瓶子",
+      "meanings": [
+        {
+          "meaning_en": "bottle",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for a bottle.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "bottle",
+          "sentence": "这个瓶子在桌子上。",
+          "translation": "This bottle is on the table.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "bottle",
+          "sentence": "那个瓶子在门口旁边。",
+          "translation": "That bottle is beside the door.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "bottle",
+          "sentence": "我今天拿这个瓶子。",
+          "translation": "I am holding this bottle today.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0428",
+      "rank": 428,
+      "lemma": "骑",
+      "meanings": [
+        {
+          "meaning_en": "ride",
+          "priority": 1
+        }
+      ],
+      "notes": "Common verb for riding a bike or horse.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "ride",
+          "sentence": "我今天骑车去学校。",
+          "translation": "I ride my bike to school today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "ride",
+          "sentence": "他今天骑车去车站。",
+          "translation": "He rides his bike to the station today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "ride",
+          "sentence": "她今天骑车回家。",
+          "translation": "She rides her bike home today.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0430",
+      "rank": 430,
+      "lemma": "起飞",
+      "meanings": [
+        {
+          "meaning_en": "take off",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for an airplane taking off.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "take off",
+          "sentence": "今天飞机现在要起飞了。",
+          "translation": "Today the plane is about to take off now.",
+          "difficulty": 2
+        },
+        {
+          "slot": 2,
+          "meaning_en": "take off",
+          "sentence": "明天这飞机要起飞了。",
+          "translation": "Tomorrow this plane is going to take off.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "take off",
+          "sentence": "现在这飞机已经起飞了。",
+          "translation": "Now this plane has already taken off.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0433",
+      "rank": 433,
+      "lemma": "千",
+      "meanings": [
+        {
+          "meaning_en": "thousand",
+          "priority": 1
+        }
+      ],
+      "notes": "Common number word for one thousand.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "thousand",
+          "sentence": "我今天有五千元。",
+          "translation": "I have five thousand yuan today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "thousand",
+          "sentence": "这个包五千元。",
+          "translation": "This bag costs five thousand yuan.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "thousand",
+          "sentence": "这个电脑五千元。",
+          "translation": "This computer costs five thousand yuan.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0435",
+      "rank": 435,
+      "lemma": "前年",
+      "meanings": [
+        {
+          "meaning_en": "the year before last",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for the year before last.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "the year before last",
+          "sentence": "前年那时候我还在学校。",
+          "translation": "The year before last, I was still at school.",
+          "difficulty": 2
+        },
+        {
+          "slot": 2,
+          "meaning_en": "the year before last",
+          "sentence": "前年那时候他来这里了。",
+          "translation": "The year before last, he came here.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "the year before last",
+          "sentence": "前年那时候我们去北方了。",
+          "translation": "The year before last, we went to the north.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0436",
+      "rank": 436,
+      "lemma": "墙",
+      "meanings": [
+        {
+          "meaning_en": "wall",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for a wall.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "wall",
+          "sentence": "今天墙上有中国地图。",
+          "translation": "Today there is a China map on the wall.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "wall",
+          "sentence": "老师说墙上有地图。",
+          "translation": "The teacher said there is a map on the wall.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "wall",
+          "sentence": "今天这个墙上有图片。",
+          "translation": "Today there are pictures on this wall.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0439",
+      "rank": 439,
+      "lemma": "轻",
+      "meanings": [
+        {
+          "meaning_en": "light",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for something light in weight.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "light",
+          "sentence": "这个包比书更轻。",
+          "translation": "This bag is lighter than a book.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "light",
+          "sentence": "这件衣服比书更轻。",
+          "translation": "This piece of clothing is lighter than a book.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "light",
+          "sentence": "这个球鞋比书更轻。",
+          "translation": "These sneakers are lighter than a book.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0440",
+      "rank": 440,
+      "lemma": "清楚",
+      "meanings": [
+        {
+          "meaning_en": "clear",
+          "priority": 1
+        },
+        {
+          "meaning_en": "clearly",
+          "priority": 2
+        }
+      ],
+      "notes": "Common word for something being clear or easy to see and understand.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "clearly",
+          "sentence": "今天我看得很清楚。",
+          "translation": "Today I can see very clearly.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "clearly",
+          "sentence": "今天老师说得很清楚。",
+          "translation": "Today the teacher spoke very clearly.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "clear",
+          "sentence": "今天这个地图很清楚。",
+          "translation": "Today this map is very clear.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0444",
+      "rank": 444,
+      "lemma": "请求",
+      "meanings": [
+        {
+          "meaning_en": "request",
+          "priority": 1
+        },
+        {
+          "meaning_en": "ask for",
+          "priority": 2
+        }
+      ],
+      "notes": "Common word for making a request or asking for help.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "request",
+          "sentence": "我今天请求老师帮助了。",
+          "translation": "I asked the teacher for help today.",
+          "difficulty": 2
+        },
+        {
+          "slot": 2,
+          "meaning_en": "request",
+          "sentence": "老师今天请求学生帮助了。",
+          "translation": "The teacher asked the students for help today.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "ask for",
+          "sentence": "他今天请求大家帮助了。",
+          "translation": "He asked everyone for help today.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0449",
+      "rank": 449,
+      "lemma": "球鞋",
+      "meanings": [
+        {
+          "meaning_en": "sneakers",
+          "priority": 1
+        },
+        {
+          "meaning_en": "gym shoes",
+          "priority": 2
+        }
+      ],
+      "notes": "Common word for sports shoes or sneakers.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "sneakers",
+          "sentence": "我今天买了新球鞋。",
+          "translation": "I bought new sneakers today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "sneakers",
+          "sentence": "我今天穿新球鞋去学校。",
+          "translation": "I wore my new sneakers to school today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "gym shoes",
+          "sentence": "今天新球鞋在门口了。",
+          "translation": "Today the new sneakers are at the door.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0453",
+      "rank": 453,
+      "lemma": "全部",
+      "meanings": [
+        {
+          "meaning_en": "all",
+          "priority": 1
+        },
+        {
+          "meaning_en": "whole",
+          "priority": 2
+        }
+      ],
+      "notes": "Common word meaning all of something.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "all",
+          "sentence": "今天这些书全部在这里。",
+          "translation": "Today all these books are here.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "all",
+          "sentence": "今天钱全部在包里。",
+          "translation": "Today all the money is in the bag.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "whole",
+          "sentence": "今天所有学生全部来学校。",
+          "translation": "Today all the students came to school.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0454",
+      "rank": 454,
+      "lemma": "全国",
+      "meanings": [
+        {
+          "meaning_en": "nationwide",
+          "priority": 1
+        },
+        {
+          "meaning_en": "the whole country",
+          "priority": 2
+        }
+      ],
+      "notes": "Common word for the whole country or nationwide.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "nationwide",
+          "sentence": "全国的人都来这里。",
+          "translation": "People from across the country all come here.",
+          "difficulty": 2
+        },
+        {
+          "slot": 2,
+          "meaning_en": "nationwide",
+          "sentence": "全国的学生都来学校。",
+          "translation": "Students across the country all come to school.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "the whole country",
+          "sentence": "全国的人都喜欢这里。",
+          "translation": "People from across the whole country like here.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0455",
+      "rank": 455,
+      "lemma": "全家",
+      "meanings": [
+        {
+          "meaning_en": "whole family",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for the whole family.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "whole family",
+          "sentence": "全家今天坐车去公园。",
+          "translation": "The whole family takes a car to the park today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "whole family",
+          "sentence": "今天全家都在家里了。",
+          "translation": "Today the whole family is at home.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "whole family",
+          "sentence": "全家今天坐车回家了。",
+          "translation": "The whole family took a car home today.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0457",
+      "rank": 457,
+      "lemma": "全身",
+      "meanings": [
+        {
+          "meaning_en": "whole body",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for the whole body.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "whole body",
+          "sentence": "今天他全身都很冷。",
+          "translation": "Today his whole body feels very cold.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "whole body",
+          "sentence": "雨后他全身都很红。",
+          "translation": "After the rain, his whole body is very red.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "whole body",
+          "sentence": "今天他全身都是水。",
+          "translation": "Today his whole body is covered with water.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0466",
+      "rank": 466,
+      "lemma": "日报",
+      "meanings": [
+        {
+          "meaning_en": "daily newspaper",
+          "priority": 1
+        },
+        {
+          "meaning_en": "daily journal",
+          "priority": 2
+        }
+      ],
+      "notes": "Common word for a daily newspaper or daily report.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "daily newspaper",
+          "sentence": "今天老师看日报。",
+          "translation": "Today the teacher reads the daily newspaper.",
+          "difficulty": 2
+        },
+        {
+          "slot": 2,
+          "meaning_en": "daily newspaper",
+          "sentence": "我今天在家看日报。",
+          "translation": "I read the daily newspaper at home today.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "daily journal",
+          "sentence": "学生也看日报。",
+          "translation": "The students also read the daily newspaper.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0474",
+      "rank": 474,
+      "lemma": "少年",
+      "meanings": [
+        {
+          "meaning_en": "juvenile",
+          "priority": 1
+        },
+        {
+          "meaning_en": "young person",
+          "priority": 2
+        }
+      ],
+      "notes": "Common word for a young person or boy.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "young person",
+          "sentence": "今天这个少年在学校。",
+          "translation": "Today this young person is at school.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "young person",
+          "sentence": "今天少年骑车去车站。",
+          "translation": "Today the young person rides a bike to the station.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "juvenile",
+          "sentence": "今天这个少年很年轻。",
+          "translation": "Today this young person is very young.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0475",
+      "rank": 475,
+      "lemma": "身边",
+      "meanings": [
+        {
+          "meaning_en": "at one's side",
+          "priority": 1
+        },
+        {
+          "meaning_en": "near one",
+          "priority": 2
+        }
+      ],
+      "notes": "Common word for being near someone or at their side.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "at one's side",
+          "sentence": "今天手机放在我身边。",
+          "translation": "Today the phone is placed by my side.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "near one",
+          "sentence": "今天朋友在我身边。",
+          "translation": "Today a friend is near me.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "at one's side",
+          "sentence": "今天钱放在我身边。",
+          "translation": "Today the money is placed by my side.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0479",
+      "rank": 479,
+      "lemma": "生活",
+      "meanings": [
+        {
+          "meaning_en": "life",
+          "priority": 1
+        },
+        {
+          "meaning_en": "live",
+          "priority": 2
+        }
+      ],
+      "notes": "Common word for life or to live.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "life",
+          "sentence": "今天我很喜欢学校生活。",
+          "translation": "Today I really like school life.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "live",
+          "sentence": "今天这里的生活很安静。",
+          "translation": "Today life here is very quiet.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "live",
+          "sentence": "今天全家在这里生活了。",
+          "translation": "Today the whole family lived here.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0486",
+      "rank": 486,
+      "lemma": "实现",
+      "meanings": [
+        {
+          "meaning_en": "realize",
+          "priority": 1
+        },
+        {
+          "meaning_en": "achieve",
+          "priority": 2
+        }
+      ],
+      "notes": "Common word for making a plan or dream come true.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "achieve",
+          "sentence": "今天我们的理想实现了。",
+          "translation": "Today our dream came true.",
+          "difficulty": 2
+        },
+        {
+          "slot": 2,
+          "meaning_en": "achieve",
+          "sentence": "今天他的理想实现了。",
+          "translation": "Today his dream came true.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "realize",
+          "sentence": "今天老师帮助我们实现理想。",
+          "translation": "Today the teacher helped us achieve our dream.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0489",
+      "rank": 489,
+      "lemma": "食物",
+      "meanings": [
+        {
+          "meaning_en": "food",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for food.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "food",
+          "sentence": "医生说食物和水很重要。",
+          "translation": "The doctor said food and water are very important.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "food",
+          "sentence": "今天老师给学生食物了。",
+          "translation": "Today the teacher gave food to the students.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "food",
+          "sentence": "我今天拿食物回家了。",
+          "translation": "Today I took food home.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0490",
+      "rank": 490,
+      "lemma": "使用",
+      "meanings": [
+        {
+          "meaning_en": "use",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for using something.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "use",
+          "sentence": "今天老师教学生使用电脑。",
+          "translation": "Today the teacher teaches the students to use the computer.",
+          "difficulty": 2
+        },
+        {
+          "slot": 2,
+          "meaning_en": "use",
+          "sentence": "今天我们在学校使用电脑。",
+          "translation": "Today we use the computer at school.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "use",
+          "sentence": "今天大家都使用电脑了。",
+          "translation": "Today everyone used the computer.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0494",
+      "rank": 494,
+      "lemma": "收",
+      "meanings": [
+        {
+          "meaning_en": "collect",
+          "priority": 1
+        },
+        {
+          "meaning_en": "receive",
+          "priority": 2
+        }
+      ],
+      "notes": "Common word for collecting or receiving something.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "collect",
+          "sentence": "今天老师在课堂上收纸。",
+          "translation": "Today the teacher collects the paper in class.",
+          "difficulty": 2
+        },
+        {
+          "slot": 2,
+          "meaning_en": "receive",
+          "sentence": "我今天在家里收钱。",
+          "translation": "Today I receive money at home.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "collect",
+          "sentence": "今天学生在学校收书。",
+          "translation": "Today the students collect books at school.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0499",
+      "rank": 499,
+      "lemma": "舒服",
+      "meanings": [
+        {
+          "meaning_en": "comfortable",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for feeling comfortable.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "comfortable",
+          "sentence": "今天这个球鞋很舒服。",
+          "translation": "Today these sneakers are very comfortable.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "comfortable",
+          "sentence": "今天这个椅子很舒服。",
+          "translation": "Today this chair is very comfortable.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "comfortable",
+          "sentence": "今天这个房间很舒服。",
+          "translation": "Today this room is very comfortable.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0501",
+      "rank": 501,
+      "lemma": "数",
+      "meanings": [
+        {
+          "meaning_en": "count",
+          "priority": 1
+        }
+      ],
+      "notes": "Common verb for counting.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "count",
+          "sentence": "我今天数桌子上的钱。",
+          "translation": "Today I count the money on the table.",
+          "difficulty": 2
+        },
+        {
+          "slot": 2,
+          "meaning_en": "count",
+          "sentence": "老师今天数桌子上的纸。",
+          "translation": "Today the teacher counts the paper on the table.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "count",
+          "sentence": "他今天数桌子上的书。",
+          "translation": "Today he counts the books on the table.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0505",
+      "rank": 505,
+      "lemma": "说明",
+      "meanings": [
+        {
+          "meaning_en": "explain",
+          "priority": 1
+        },
+        {
+          "meaning_en": "explanation",
+          "priority": 2
+        }
+      ],
+      "notes": "Common word for explaining something.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "explain",
+          "sentence": "老师今天说明了这个问题。",
+          "translation": "Today the teacher explained this problem.",
+          "difficulty": 2
+        },
+        {
+          "slot": 2,
+          "meaning_en": "explain",
+          "sentence": "请他今天说明这个方法。",
+          "translation": "Please have him explain this method today.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "explain",
+          "sentence": "他今天说明了这个方法。",
+          "translation": "Today he explained this method.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0506",
+      "rank": 506,
+      "lemma": "司机",
+      "meanings": [
+        {
+          "meaning_en": "driver",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for a driver.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "driver",
+          "sentence": "今天司机开车去车站。",
+          "translation": "Today the driver drives to the station.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "driver",
+          "sentence": "今天司机开车去学校。",
+          "translation": "Today the driver drives to school.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "driver",
+          "sentence": "这个司机今天很忙。",
+          "translation": "This driver is very busy today.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0507",
+      "rank": 507,
+      "lemma": "送到",
+      "meanings": [
+        {
+          "meaning_en": "deliver to",
+          "priority": 1
+        },
+        {
+          "meaning_en": "send to",
+          "priority": 2
+        }
+      ],
+      "notes": "Common word for sending something to a place.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "deliver to",
+          "sentence": "今天这礼物送到门口了。",
+          "translation": "Today this gift was delivered to the door.",
+          "difficulty": 2
+        },
+        {
+          "slot": 2,
+          "meaning_en": "send to",
+          "sentence": "今天这书送到学校了。",
+          "translation": "Today this book was sent to the school.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "deliver to",
+          "sentence": "今天这茶送到家里了。",
+          "translation": "Today this tea was delivered home.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0508",
+      "rank": 508,
+      "lemma": "送给",
+      "meanings": [
+        {
+          "meaning_en": "give to",
+          "priority": 1
+        },
+        {
+          "meaning_en": "send to",
+          "priority": 2
+        }
+      ],
+      "notes": "Common word for giving something to someone.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "give to",
+          "sentence": "我今天送给老师礼物了。",
+          "translation": "Today I gave the teacher a gift.",
+          "difficulty": 2
+        },
+        {
+          "slot": 2,
+          "meaning_en": "give to",
+          "sentence": "他今天送给朋友茶了。",
+          "translation": "Today he gave tea to a friend.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "give to",
+          "sentence": "学生今天送给老师纸了。",
+          "translation": "Today the student gave paper to the teacher.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0514",
+      "rank": 514,
+      "lemma": "所有",
+      "meanings": [
+        {
+          "meaning_en": "all",
+          "priority": 1
+        },
+        {
+          "meaning_en": "every",
+          "priority": 2
+        }
+      ],
+      "notes": "Common word for all of something.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "all",
+          "sentence": "今天所有书全部在这里。",
+          "translation": "Today all these books are here.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "all",
+          "sentence": "今天所有钱全部在包里。",
+          "translation": "Today all the money is in the bag.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "every",
+          "sentence": "今天所有学生都来学校。",
+          "translation": "Today all the students came to school.",
+          "difficulty": 1
+        }
+      ]
+    }
+  ]
+}

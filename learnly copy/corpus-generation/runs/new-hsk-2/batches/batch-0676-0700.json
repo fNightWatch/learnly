@@ -1,0 +1,348 @@
+[
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0676",
+    "rank": 676,
+    "display_form": "英文",
+    "lemma": "英文",
+    "generation_form": "英文",
+    "pronunciation": "yīng wén",
+    "pos": "unknown",
+    "primary_gloss": "English",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0677",
+    "rank": 677,
+    "display_form": "英语",
+    "lemma": "英语",
+    "generation_form": "英语",
+    "pronunciation": "yīng yǔ",
+    "pos": "unknown",
+    "primary_gloss": "English",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0678",
+    "rank": 678,
+    "display_form": "影片",
+    "lemma": "影片",
+    "generation_form": "影片",
+    "pronunciation": "yǐng piàn",
+    "pos": "unknown",
+    "primary_gloss": "film",
+    "secondary_glosses": [
+      "movie"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0679",
+    "rank": 679,
+    "display_form": "影响",
+    "lemma": "影响",
+    "generation_form": "影响",
+    "pronunciation": "yǐngxiǎng",
+    "pos": "unknown",
+    "primary_gloss": "Influence",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0680",
+    "rank": 680,
+    "display_form": "永远",
+    "lemma": "永远",
+    "generation_form": "永远",
+    "pronunciation": "yǒngyuǎn",
+    "pos": "unknown",
+    "primary_gloss": "forever",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0681",
+    "rank": 681,
+    "display_form": "油",
+    "lemma": "油",
+    "generation_form": "油",
+    "pronunciation": "yóu",
+    "pos": "unknown",
+    "primary_gloss": "oil",
+    "secondary_glosses": [
+      "fat",
+      "grease"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0682",
+    "rank": 682,
+    "display_form": "游客",
+    "lemma": "游客",
+    "generation_form": "游客",
+    "pronunciation": "yóu kè",
+    "pos": "unknown",
+    "primary_gloss": "tourist",
+    "secondary_glosses": [
+      "visitor"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0683",
+    "rank": 683,
+    "display_form": "友好",
+    "lemma": "友好",
+    "generation_form": "友好",
+    "pronunciation": "yǒuhǎo",
+    "pos": "unknown",
+    "primary_gloss": "friendly",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0684",
+    "rank": 684,
+    "display_form": "有空儿",
+    "lemma": "有空儿",
+    "generation_form": "有空儿",
+    "pronunciation": "yǒu kòngr",
+    "pos": "unknown",
+    "primary_gloss": "be free",
+    "secondary_glosses": [
+      "at leisure"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0685",
+    "rank": 685,
+    "display_form": "有人",
+    "lemma": "有人",
+    "generation_form": "有人",
+    "pronunciation": "yǒu rén",
+    "pos": "unknown",
+    "primary_gloss": "someone",
+    "secondary_glosses": [
+      "there's someone"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0686",
+    "rank": 686,
+    "display_form": "有（一）点儿",
+    "lemma": "有点儿",
+    "generation_form": "有点儿",
+    "pronunciation": "yǒu （ yì ）",
+    "pos": "unknown",
+    "primary_gloss": "a little bit",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0687",
+    "rank": 687,
+    "display_form": "有意思",
+    "lemma": "有意思",
+    "generation_form": "有意思",
+    "pronunciation": "yǒu yì si",
+    "pos": "unknown",
+    "primary_gloss": "interesting",
+    "secondary_glosses": [
+      "significant"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0688",
+    "rank": 688,
+    "display_form": "又",
+    "lemma": "又",
+    "generation_form": "又",
+    "pronunciation": "yòu",
+    "pos": "unknown",
+    "primary_gloss": "also",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0689",
+    "rank": 689,
+    "display_form": "鱼",
+    "lemma": "鱼",
+    "generation_form": "鱼",
+    "pronunciation": "yú",
+    "pos": "unknown",
+    "primary_gloss": "fish",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0690",
+    "rank": 690,
+    "display_form": "语言",
+    "lemma": "语言",
+    "generation_form": "语言",
+    "pronunciation": "yǔyán",
+    "pos": "unknown",
+    "primary_gloss": "language",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0691",
+    "rank": 691,
+    "display_form": "原来",
+    "lemma": "原来",
+    "generation_form": "原来",
+    "pronunciation": "yuánlái",
+    "pos": "unknown",
+    "primary_gloss": "Original",
+    "secondary_glosses": [
+      "formerly"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0692",
+    "rank": 692,
+    "display_form": "原因",
+    "lemma": "原因",
+    "generation_form": "原因",
+    "pronunciation": "yuányīn",
+    "pos": "unknown",
+    "primary_gloss": "Reason",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0693",
+    "rank": 693,
+    "display_form": "院",
+    "lemma": "院",
+    "generation_form": "院",
+    "pronunciation": "yuàn",
+    "pos": "unknown",
+    "primary_gloss": "yard",
+    "secondary_glosses": [
+      "compound",
+      "courtyard",
+      "college"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0694",
+    "rank": 694,
+    "display_form": "院长",
+    "lemma": "院长",
+    "generation_form": "院长",
+    "pronunciation": "yuàn zhǎng",
+    "pos": "unknown",
+    "primary_gloss": "dean",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0695",
+    "rank": 695,
+    "display_form": "院子",
+    "lemma": "院子",
+    "generation_form": "院子",
+    "pronunciation": "yuàn zi",
+    "pos": "unknown",
+    "primary_gloss": "courtyard",
+    "secondary_glosses": [
+      "yard"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0696",
+    "rank": 696,
+    "display_form": "愿意",
+    "lemma": "愿意",
+    "generation_form": "愿意",
+    "pronunciation": "yuànyì",
+    "pos": "unknown",
+    "primary_gloss": "Be willing",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0697",
+    "rank": 697,
+    "display_form": "月份",
+    "lemma": "月份",
+    "generation_form": "月份",
+    "pronunciation": "yuè fèn",
+    "pos": "unknown",
+    "primary_gloss": "month",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0698",
+    "rank": 698,
+    "display_form": "月亮",
+    "lemma": "月亮",
+    "generation_form": "月亮",
+    "pronunciation": "yuèliang",
+    "pos": "unknown",
+    "primary_gloss": "Moon",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0699",
+    "rank": 699,
+    "display_form": "越",
+    "lemma": "越",
+    "generation_form": "越",
+    "pronunciation": "yuè",
+    "pos": "unknown",
+    "primary_gloss": "The more",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0700",
+    "rank": 700,
+    "display_form": "越来越",
+    "lemma": "越来越",
+    "generation_form": "越来越",
+    "pronunciation": "yuè lái yuè",
+    "pos": "unknown",
+    "primary_gloss": "more and more",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  }
+]

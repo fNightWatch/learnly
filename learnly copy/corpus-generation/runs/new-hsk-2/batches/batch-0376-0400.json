@@ -1,0 +1,354 @@
+[
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0376",
+    "rank": 376,
+    "display_form": "米（量）",
+    "lemma": "米",
+    "generation_form": "米",
+    "pronunciation": "mǐ",
+    "pos": "measure word",
+    "primary_gloss": "meter",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as measure word."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0377",
+    "rank": 377,
+    "display_form": "面（名、量）",
+    "lemma": "面",
+    "generation_form": "面",
+    "pronunciation": "miàn ¹",
+    "pos": "measure word",
+    "primary_gloss": "(measure word)",
+    "secondary_glosses": [
+      "side",
+      "aspect"
+    ],
+    "notes": "Imported from the source PDF. The source gloss marks this entry as a measure word."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0378",
+    "rank": 378,
+    "display_form": "面²（名）",
+    "lemma": "面²",
+    "generation_form": "面²",
+    "pronunciation": "miàn ²",
+    "pos": "noun",
+    "primary_gloss": "face",
+    "secondary_glosses": [
+      "surface",
+      "outside",
+      "side",
+      "scale",
+      "flour"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0379",
+    "rank": 379,
+    "display_form": "面前",
+    "lemma": "面前",
+    "generation_form": "面前",
+    "pronunciation": "miàn qián",
+    "pos": "unknown",
+    "primary_gloss": "in front of",
+    "secondary_glosses": [
+      "before"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0380",
+    "rank": 380,
+    "display_form": "名",
+    "lemma": "名",
+    "generation_form": "名",
+    "pronunciation": "míng",
+    "pos": "unknown",
+    "primary_gloss": "name",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0381",
+    "rank": 381,
+    "display_form": "名称",
+    "lemma": "名称",
+    "generation_form": "名称",
+    "pronunciation": "míng chēng",
+    "pos": "unknown",
+    "primary_gloss": "name",
+    "secondary_glosses": [
+      "designation"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0382",
+    "rank": 382,
+    "display_form": "名单",
+    "lemma": "名单",
+    "generation_form": "名单",
+    "pronunciation": "míng dān",
+    "pos": "unknown",
+    "primary_gloss": "list",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0383",
+    "rank": 383,
+    "display_form": "明星",
+    "lemma": "明星",
+    "generation_form": "明星",
+    "pronunciation": "míngxīng",
+    "pos": "unknown",
+    "primary_gloss": "Star",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0384",
+    "rank": 384,
+    "display_form": "目的",
+    "lemma": "目的",
+    "generation_form": "目的",
+    "pronunciation": "mùdì",
+    "pos": "unknown",
+    "primary_gloss": "objective",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0385",
+    "rank": 385,
+    "display_form": "拿出",
+    "lemma": "拿出",
+    "generation_form": "拿出",
+    "pronunciation": "ná chū",
+    "pos": "unknown",
+    "primary_gloss": "take out",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0386",
+    "rank": 386,
+    "display_form": "拿到",
+    "lemma": "拿到",
+    "generation_form": "拿到",
+    "pronunciation": "ná dào",
+    "pos": "unknown",
+    "primary_gloss": "get",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0387",
+    "rank": 387,
+    "display_form": "那（连）",
+    "lemma": "那",
+    "generation_form": "那",
+    "pronunciation": "nà",
+    "pos": "conjunction",
+    "primary_gloss": "then",
+    "secondary_glosses": [
+      "in that case"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as conjunction."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0388",
+    "rank": 388,
+    "display_form": "那会儿",
+    "lemma": "那会儿",
+    "generation_form": "那会儿",
+    "pronunciation": "nà huìr",
+    "pos": "unknown",
+    "primary_gloss": "at that time",
+    "secondary_glosses": [
+      "then"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0389",
+    "rank": 389,
+    "display_form": "那么",
+    "lemma": "那么",
+    "generation_form": "那么",
+    "pronunciation": "nà me",
+    "pos": "unknown",
+    "primary_gloss": "like that",
+    "secondary_glosses": [
+      "in that way"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0390",
+    "rank": 390,
+    "display_form": "那时候｜那时",
+    "lemma": "那时候",
+    "generation_form": "那时候",
+    "pronunciation": "nà shí",
+    "pos": "unknown",
+    "primary_gloss": "at that time",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0391",
+    "rank": 391,
+    "display_form": "那样",
+    "lemma": "那样",
+    "generation_form": "那样",
+    "pronunciation": "nà yàng",
+    "pos": "unknown",
+    "primary_gloss": "that kind",
+    "secondary_glosses": [
+      "like that",
+      "such"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0392",
+    "rank": 392,
+    "display_form": "南方",
+    "lemma": "南方",
+    "generation_form": "南方",
+    "pronunciation": "nán fāng",
+    "pos": "unknown",
+    "primary_gloss": "south",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0393",
+    "rank": 393,
+    "display_form": "难过",
+    "lemma": "难过",
+    "generation_form": "难过",
+    "pronunciation": "nánguò",
+    "pos": "unknown",
+    "primary_gloss": "Sorry",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0394",
+    "rank": 394,
+    "display_form": "难看",
+    "lemma": "难看",
+    "generation_form": "难看",
+    "pronunciation": "nán kàn",
+    "pos": "unknown",
+    "primary_gloss": "ugly",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0395",
+    "rank": 395,
+    "display_form": "难受",
+    "lemma": "难受",
+    "generation_form": "难受",
+    "pronunciation": "nánshòu",
+    "pos": "unknown",
+    "primary_gloss": "Uncomfortable",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0396",
+    "rank": 396,
+    "display_form": "难题",
+    "lemma": "难题",
+    "generation_form": "难题",
+    "pronunciation": "nán tí",
+    "pos": "unknown",
+    "primary_gloss": "problem",
+    "secondary_glosses": [
+      "difficult problem",
+      "puzzle"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0397",
+    "rank": 397,
+    "display_form": "难听",
+    "lemma": "难听",
+    "generation_form": "难听",
+    "pronunciation": "nán tīng",
+    "pos": "unknown",
+    "primary_gloss": "unpleasant to hear",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0398",
+    "rank": 398,
+    "display_form": "能够",
+    "lemma": "能够",
+    "generation_form": "能够",
+    "pronunciation": "néng gòu",
+    "pos": "unknown",
+    "primary_gloss": "be able to",
+    "secondary_glosses": [
+      "can"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0399",
+    "rank": 399,
+    "display_form": "年级",
+    "lemma": "年级",
+    "generation_form": "年级",
+    "pronunciation": "niánjí",
+    "pos": "unknown",
+    "primary_gloss": "grade",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0400",
+    "rank": 400,
+    "display_form": "年轻",
+    "lemma": "年轻",
+    "generation_form": "年轻",
+    "pronunciation": "niánqīng",
+    "pos": "unknown",
+    "primary_gloss": "Young",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  }
+]

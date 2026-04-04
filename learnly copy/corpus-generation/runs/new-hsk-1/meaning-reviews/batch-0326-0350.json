@@ -1,0 +1,237 @@
+[
+  {
+    "word_id": "new-hsk-1-0326",
+    "rank": 326,
+    "lemma": "身上",
+    "reviewed_meanings": [
+      "on the body"
+    ],
+    "review_note": "Use on the body as the clearest learner-facing gloss."
+  },
+  {
+    "word_id": "new-hsk-1-0327",
+    "rank": 327,
+    "lemma": "身体",
+    "reviewed_meanings": [
+      "body",
+      "health"
+    ],
+    "review_note": "Body is the clearest base gloss; health is a useful secondary sense in common greetings."
+  },
+  {
+    "word_id": "new-hsk-1-0328",
+    "rank": 328,
+    "lemma": "什么",
+    "reviewed_meanings": [
+      "what"
+    ],
+    "review_note": "Use the question word what."
+  },
+  {
+    "word_id": "new-hsk-1-0329",
+    "rank": 329,
+    "lemma": "生病",
+    "reviewed_meanings": [
+      "fall ill",
+      "get sick"
+    ],
+    "review_note": "Fall ill is the clearest primary gloss; get sick is a natural secondary gloss."
+  },
+  {
+    "word_id": "new-hsk-1-0330",
+    "rank": 330,
+    "lemma": "生气",
+    "reviewed_meanings": [
+      "get angry",
+      "be angry"
+    ],
+    "review_note": "Get angry is the clearest primary gloss for beginner examples."
+  },
+  {
+    "word_id": "new-hsk-1-0331",
+    "rank": 331,
+    "lemma": "生日",
+    "reviewed_meanings": [
+      "birthday"
+    ],
+    "review_note": "Use the noun birthday."
+  },
+  {
+    "word_id": "new-hsk-1-0332",
+    "rank": 332,
+    "lemma": "十",
+    "reviewed_meanings": [
+      "ten"
+    ],
+    "review_note": "Use the number ten."
+  },
+  {
+    "word_id": "new-hsk-1-0333",
+    "rank": 333,
+    "lemma": "时候",
+    "reviewed_meanings": [
+      "time",
+      "moment"
+    ],
+    "review_note": "Time is the clearest primary gloss; moment is a useful secondary gloss."
+  },
+  {
+    "word_id": "new-hsk-1-0334",
+    "rank": 334,
+    "lemma": "时间",
+    "reviewed_meanings": [
+      "time"
+    ],
+    "review_note": "Use the noun time."
+  },
+  {
+    "word_id": "new-hsk-1-0335",
+    "rank": 335,
+    "lemma": "事",
+    "reviewed_meanings": [
+      "thing",
+      "matter"
+    ],
+    "review_note": "Thing is the clearest primary gloss; matter is a useful secondary gloss."
+  },
+  {
+    "word_id": "new-hsk-1-0336",
+    "rank": 336,
+    "lemma": "试",
+    "reviewed_meanings": [
+      "try"
+    ],
+    "review_note": "Use the verb try."
+  },
+  {
+    "word_id": "new-hsk-1-0337",
+    "rank": 337,
+    "lemma": "是",
+    "reviewed_meanings": [
+      "be"
+    ],
+    "review_note": "Treat this as the verb be, not as the English word yes."
+  },
+  {
+    "word_id": "new-hsk-1-0338",
+    "rank": 338,
+    "lemma": "是不是",
+    "reviewed_meanings": [
+      "isn't it?",
+      "is or isn't"
+    ],
+    "review_note": "Use this as the common yes-no question pattern, not as a plain lexical noun or adjective."
+  },
+  {
+    "word_id": "new-hsk-1-0339",
+    "rank": 339,
+    "lemma": "手",
+    "reviewed_meanings": [
+      "hand"
+    ],
+    "review_note": "Use the noun hand."
+  },
+  {
+    "word_id": "new-hsk-1-0340",
+    "rank": 340,
+    "lemma": "手机",
+    "reviewed_meanings": [
+      "mobile phone",
+      "cell phone"
+    ],
+    "review_note": "Mobile phone is the clearest primary gloss; cell phone is a natural secondary gloss."
+  },
+  {
+    "word_id": "new-hsk-1-0341",
+    "rank": 341,
+    "lemma": "书",
+    "reviewed_meanings": [
+      "book"
+    ],
+    "review_note": "Use the noun book."
+  },
+  {
+    "word_id": "new-hsk-1-0342",
+    "rank": 342,
+    "lemma": "书包",
+    "reviewed_meanings": [
+      "schoolbag"
+    ],
+    "review_note": "Use the noun schoolbag."
+  },
+  {
+    "word_id": "new-hsk-1-0343",
+    "rank": 343,
+    "lemma": "书店",
+    "reviewed_meanings": [
+      "bookstore"
+    ],
+    "review_note": "Use the noun bookstore."
+  },
+  {
+    "word_id": "new-hsk-1-0344",
+    "rank": 344,
+    "lemma": "树",
+    "reviewed_meanings": [
+      "tree"
+    ],
+    "review_note": "Use the noun tree."
+  },
+  {
+    "word_id": "new-hsk-1-0345",
+    "rank": 345,
+    "lemma": "水",
+    "reviewed_meanings": [
+      "water"
+    ],
+    "review_note": "Use the noun water."
+  },
+  {
+    "word_id": "new-hsk-1-0346",
+    "rank": 346,
+    "lemma": "水果",
+    "reviewed_meanings": [
+      "fruit"
+    ],
+    "review_note": "Use fruit as the learner-facing gloss rather than the plural fruits."
+  },
+  {
+    "word_id": "new-hsk-1-0347",
+    "rank": 347,
+    "lemma": "睡",
+    "reviewed_meanings": [
+      "sleep"
+    ],
+    "review_note": "Use the verb sleep."
+  },
+  {
+    "word_id": "new-hsk-1-0348",
+    "rank": 348,
+    "lemma": "睡觉",
+    "reviewed_meanings": [
+      "sleep",
+      "go to sleep"
+    ],
+    "review_note": "Sleep is the clearest primary gloss; go to sleep is a useful secondary gloss."
+  },
+  {
+    "word_id": "new-hsk-1-0349",
+    "rank": 349,
+    "lemma": "说",
+    "reviewed_meanings": [
+      "say",
+      "speak"
+    ],
+    "review_note": "Say is the clearest primary gloss; speak is a useful secondary gloss."
+  },
+  {
+    "word_id": "new-hsk-1-0350",
+    "rank": 350,
+    "lemma": "说话",
+    "reviewed_meanings": [
+      "talk",
+      "speak"
+    ],
+    "review_note": "Talk is the clearest primary gloss; speak is a useful secondary gloss."
+  }
+]

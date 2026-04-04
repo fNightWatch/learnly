@@ -1,0 +1,343 @@
+[
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0901",
+    "rank": 901,
+    "display_form": "证明",
+    "lemma": "证明",
+    "generation_form": "证明",
+    "pronunciation": "zhèngmíng",
+    "pos": "unknown",
+    "primary_gloss": "Prove",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0902",
+    "rank": 902,
+    "display_form": "支（量）",
+    "lemma": "支",
+    "generation_form": "支",
+    "pronunciation": "zhī",
+    "pos": "measure word",
+    "primary_gloss": "(measure word)",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as measure word."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0903",
+    "rank": 903,
+    "display_form": "支持",
+    "lemma": "支持",
+    "generation_form": "支持",
+    "pronunciation": "zhīchí",
+    "pos": "unknown",
+    "primary_gloss": "Support",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0904",
+    "rank": 904,
+    "display_form": "支付",
+    "lemma": "支付",
+    "generation_form": "支付",
+    "pronunciation": "zhī fù",
+    "pos": "unknown",
+    "primary_gloss": "pay money",
+    "secondary_glosses": [
+      "defray"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0905",
+    "rank": 905,
+    "display_form": "只",
+    "lemma": "只",
+    "generation_form": "只",
+    "pronunciation": "zhī",
+    "pos": "unknown",
+    "primary_gloss": "single",
+    "secondary_glosses": [
+      "lonely"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0906",
+    "rank": 906,
+    "display_form": "直",
+    "lemma": "直",
+    "generation_form": "直",
+    "pronunciation": "zhí",
+    "pos": "unknown",
+    "primary_gloss": "straight",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0907",
+    "rank": 907,
+    "display_form": "直播",
+    "lemma": "直播",
+    "generation_form": "直播",
+    "pronunciation": "zhíbō",
+    "pos": "unknown",
+    "primary_gloss": "on live",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0908",
+    "rank": 908,
+    "display_form": "直到",
+    "lemma": "直到",
+    "generation_form": "直到",
+    "pronunciation": "zhí dào",
+    "pos": "unknown",
+    "primary_gloss": "until",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0909",
+    "rank": 909,
+    "display_form": "值",
+    "lemma": "值",
+    "generation_form": "值",
+    "pronunciation": "zhí",
+    "pos": "unknown",
+    "primary_gloss": "value",
+    "secondary_glosses": [
+      "be worth"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0910",
+    "rank": 910,
+    "display_form": "值得",
+    "lemma": "值得",
+    "generation_form": "值得",
+    "pronunciation": "zhíde",
+    "pos": "unknown",
+    "primary_gloss": "Worth",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0911",
+    "rank": 911,
+    "display_form": "职工",
+    "lemma": "职工",
+    "generation_form": "职工",
+    "pronunciation": "zhí gōng",
+    "pos": "unknown",
+    "primary_gloss": "staff",
+    "secondary_glosses": [
+      "worker"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0912",
+    "rank": 912,
+    "display_form": "职业",
+    "lemma": "职业",
+    "generation_form": "职业",
+    "pronunciation": "zhíyè",
+    "pos": "unknown",
+    "primary_gloss": "Occupation",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0913",
+    "rank": 913,
+    "display_form": "只好",
+    "lemma": "只好",
+    "generation_form": "只好",
+    "pronunciation": "zhǐhǎo",
+    "pos": "unknown",
+    "primary_gloss": "have to",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0914",
+    "rank": 914,
+    "display_form": "只是",
+    "lemma": "只是",
+    "generation_form": "只是",
+    "pronunciation": "zhǐ shì",
+    "pos": "unknown",
+    "primary_gloss": "merely",
+    "secondary_glosses": [
+      "only",
+      "just"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0915",
+    "rank": 915,
+    "display_form": "只有",
+    "lemma": "只有",
+    "generation_form": "只有",
+    "pronunciation": "zhǐ yǒu",
+    "pos": "unknown",
+    "primary_gloss": "only",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0916",
+    "rank": 916,
+    "display_form": "指",
+    "lemma": "指",
+    "generation_form": "指",
+    "pronunciation": "zhǐ",
+    "pos": "unknown",
+    "primary_gloss": "finger",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0917",
+    "rank": 917,
+    "display_form": "指出",
+    "lemma": "指出",
+    "generation_form": "指出",
+    "pronunciation": "zhǐ chū",
+    "pos": "unknown",
+    "primary_gloss": "point out",
+    "secondary_glosses": [
+      "indicate"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0918",
+    "rank": 918,
+    "display_form": "指导",
+    "lemma": "指导",
+    "generation_form": "指导",
+    "pronunciation": "zhǐdǎo",
+    "pos": "unknown",
+    "primary_gloss": "guidance",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0919",
+    "rank": 919,
+    "display_form": "至今",
+    "lemma": "至今",
+    "generation_form": "至今",
+    "pronunciation": "zhìjīn",
+    "pos": "unknown",
+    "primary_gloss": "so far",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0920",
+    "rank": 920,
+    "display_form": "至少",
+    "lemma": "至少",
+    "generation_form": "至少",
+    "pronunciation": "zhìshǎo",
+    "pos": "unknown",
+    "primary_gloss": "at least",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0921",
+    "rank": 921,
+    "display_form": "志愿",
+    "lemma": "志愿",
+    "generation_form": "志愿",
+    "pronunciation": "zhì yuàn",
+    "pos": "unknown",
+    "primary_gloss": "volunteer",
+    "secondary_glosses": [
+      "aspiration",
+      "wish"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0922",
+    "rank": 922,
+    "display_form": "志愿者",
+    "lemma": "志愿者",
+    "generation_form": "志愿者",
+    "pronunciation": "zhìyuànzhě",
+    "pos": "unknown",
+    "primary_gloss": "Volunteer",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0923",
+    "rank": 923,
+    "display_form": "制定",
+    "lemma": "制定",
+    "generation_form": "制定",
+    "pronunciation": "zhìdìng",
+    "pos": "unknown",
+    "primary_gloss": "Formulate",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0924",
+    "rank": 924,
+    "display_form": "制度",
+    "lemma": "制度",
+    "generation_form": "制度",
+    "pronunciation": "zhìdù",
+    "pos": "unknown",
+    "primary_gloss": "system",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0925",
+    "rank": 925,
+    "display_form": "制造",
+    "lemma": "制造",
+    "generation_form": "制造",
+    "pronunciation": "zhìzào",
+    "pos": "unknown",
+    "primary_gloss": "Manufacture",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  }
+]

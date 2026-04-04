@@ -1,0 +1,247 @@
+[
+  {
+    "word_id": "new-hsk-1-0126",
+    "rank": 126,
+    "lemma": "关上",
+    "reviewed_meanings": [
+      "close",
+      "shut"
+    ],
+    "review_note": "Use the verb close or shut."
+  },
+  {
+    "word_id": "new-hsk-1-0127",
+    "rank": 127,
+    "lemma": "贵",
+    "reviewed_meanings": [
+      "expensive",
+      "costly"
+    ],
+    "review_note": "For HSK 1, this should be expensive or costly, not noble."
+  },
+  {
+    "word_id": "new-hsk-1-0128",
+    "rank": 128,
+    "lemma": "国",
+    "reviewed_meanings": [
+      "country"
+    ],
+    "review_note": "Use the noun country."
+  },
+  {
+    "word_id": "new-hsk-1-0129",
+    "rank": 129,
+    "lemma": "国家",
+    "reviewed_meanings": [
+      "country",
+      "nation"
+    ],
+    "review_note": "Country is the clearest primary beginner gloss."
+  },
+  {
+    "word_id": "new-hsk-1-0130",
+    "rank": 130,
+    "lemma": "国外",
+    "reviewed_meanings": [
+      "abroad",
+      "overseas"
+    ],
+    "review_note": "For HSK 1, use abroad or overseas, not the vague raw gloss foreign."
+  },
+  {
+    "word_id": "new-hsk-1-0131",
+    "rank": 131,
+    "lemma": "过",
+    "reviewed_meanings": [
+      "pass",
+      "go past"
+    ],
+    "review_note": "Keep the core motion sense pass or go past for simple beginner examples."
+  },
+  {
+    "word_id": "new-hsk-1-0132",
+    "rank": 132,
+    "lemma": "还",
+    "reviewed_meanings": [
+      "still",
+      "also"
+    ],
+    "review_note": "Still is usually the strongest primary beginner meaning; also is a common secondary use."
+  },
+  {
+    "word_id": "new-hsk-1-0133",
+    "rank": 133,
+    "lemma": "还是",
+    "reviewed_meanings": [
+      "still",
+      "or"
+    ],
+    "review_note": "Both still and or are common. Use whichever sense fits a natural HSK 1 sentence."
+  },
+  {
+    "word_id": "new-hsk-1-0134",
+    "rank": 134,
+    "lemma": "还有",
+    "reviewed_meanings": [
+      "also have",
+      "there is also",
+      "in addition"
+    ],
+    "review_note": "Use the idea of also having something or there also being something."
+  },
+  {
+    "word_id": "new-hsk-1-0135",
+    "rank": 135,
+    "lemma": "孩子",
+    "reviewed_meanings": [
+      "child",
+      "kid"
+    ],
+    "review_note": "Use the singular learner-facing gloss child or kid, not the raw plural children."
+  },
+  {
+    "word_id": "new-hsk-1-0136",
+    "rank": 136,
+    "lemma": "汉语",
+    "reviewed_meanings": [
+      "Chinese",
+      "Chinese language"
+    ],
+    "review_note": "Treat this as the Chinese language."
+  },
+  {
+    "word_id": "new-hsk-1-0137",
+    "rank": 137,
+    "lemma": "汉字",
+    "reviewed_meanings": [
+      "Chinese character"
+    ],
+    "review_note": "Use the noun Chinese character."
+  },
+  {
+    "word_id": "new-hsk-1-0138",
+    "rank": 138,
+    "lemma": "好",
+    "reviewed_meanings": [
+      "good"
+    ],
+    "review_note": "This entry is the adjective good."
+  },
+  {
+    "word_id": "new-hsk-1-0139",
+    "rank": 139,
+    "lemma": "好吃",
+    "reviewed_meanings": [
+      "delicious",
+      "tasty"
+    ],
+    "review_note": "Use delicious or tasty; avoid the childish raw gloss yummy."
+  },
+  {
+    "word_id": "new-hsk-1-0140",
+    "rank": 140,
+    "lemma": "好看",
+    "reviewed_meanings": [
+      "good-looking",
+      "nice",
+      "good to watch"
+    ],
+    "review_note": "Use good-looking for people and nice or good to watch for things like clothes or movies when natural."
+  },
+  {
+    "word_id": "new-hsk-1-0141",
+    "rank": 141,
+    "lemma": "好听",
+    "reviewed_meanings": [
+      "pleasant to hear",
+      "nice-sounding"
+    ],
+    "review_note": "Use a sound-related gloss such as pleasant to hear or nice-sounding."
+  },
+  {
+    "word_id": "new-hsk-1-0142",
+    "rank": 142,
+    "lemma": "好玩儿",
+    "reviewed_meanings": [
+      "fun",
+      "interesting"
+    ],
+    "review_note": "Fun is the clearest primary beginner gloss."
+  },
+  {
+    "word_id": "new-hsk-1-0143",
+    "rank": 143,
+    "lemma": "号",
+    "reviewed_meanings": [
+      "number",
+      "day of the month"
+    ],
+    "review_note": "Use number in general and day of the month for dates when natural."
+  },
+  {
+    "word_id": "new-hsk-1-0144",
+    "rank": 144,
+    "lemma": "喝",
+    "reviewed_meanings": [
+      "drink"
+    ],
+    "review_note": "Use the verb drink."
+  },
+  {
+    "word_id": "new-hsk-1-0145",
+    "rank": 145,
+    "lemma": "和",
+    "reviewed_meanings": [
+      "and"
+    ],
+    "review_note": "Use the conjunction and for this HSK 1 run."
+  },
+  {
+    "word_id": "new-hsk-1-0146",
+    "rank": 146,
+    "lemma": "很",
+    "reviewed_meanings": [
+      "very"
+    ],
+    "review_note": "Use the adverb very."
+  },
+  {
+    "word_id": "new-hsk-1-0147",
+    "rank": 147,
+    "lemma": "后",
+    "reviewed_meanings": [
+      "behind",
+      "back",
+      "after"
+    ],
+    "review_note": "Behind or back are the clearest place meanings; after is also common in time expressions."
+  },
+  {
+    "word_id": "new-hsk-1-0148",
+    "rank": 148,
+    "lemma": "后边",
+    "reviewed_meanings": [
+      "behind",
+      "in back of"
+    ],
+    "review_note": "Use the place meaning behind or in back of."
+  },
+  {
+    "word_id": "new-hsk-1-0149",
+    "rank": 149,
+    "lemma": "后天",
+    "reviewed_meanings": [
+      "day after tomorrow"
+    ],
+    "review_note": "Use the time phrase day after tomorrow."
+  },
+  {
+    "word_id": "new-hsk-1-0150",
+    "rank": 150,
+    "lemma": "花",
+    "reviewed_meanings": [
+      "flower"
+    ],
+    "review_note": "This entry is the noun flower."
+  }
+]

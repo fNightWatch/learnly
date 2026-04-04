@@ -1,0 +1,243 @@
+[
+  {
+    "word_id": "new-hsk-1-0101",
+    "rank": 101,
+    "lemma": "房间",
+    "reviewed_meanings": [
+      "room"
+    ],
+    "review_note": "Use the everyday noun room."
+  },
+  {
+    "word_id": "new-hsk-1-0102",
+    "rank": 102,
+    "lemma": "房子",
+    "reviewed_meanings": [
+      "house"
+    ],
+    "review_note": "Use the common noun house."
+  },
+  {
+    "word_id": "new-hsk-1-0103",
+    "rank": 103,
+    "lemma": "放",
+    "reviewed_meanings": [
+      "put",
+      "place"
+    ],
+    "review_note": "For HSK 1, keep the core verb sense put or place. Do not use the weak raw gloss discharge."
+  },
+  {
+    "word_id": "new-hsk-1-0104",
+    "rank": 104,
+    "lemma": "放假",
+    "reviewed_meanings": [
+      "have a holiday",
+      "be on vacation"
+    ],
+    "review_note": "Treat this as being on holiday or on vacation."
+  },
+  {
+    "word_id": "new-hsk-1-0105",
+    "rank": 105,
+    "lemma": "放学",
+    "reviewed_meanings": [
+      "school is over",
+      "get out of school"
+    ],
+    "review_note": "Use the idea that school has finished for the day; do not use the weak raw gloss off school."
+  },
+  {
+    "word_id": "new-hsk-1-0106",
+    "rank": 106,
+    "lemma": "飞",
+    "reviewed_meanings": [
+      "fly"
+    ],
+    "review_note": "Use the verb fly."
+  },
+  {
+    "word_id": "new-hsk-1-0107",
+    "rank": 107,
+    "lemma": "飞机",
+    "reviewed_meanings": [
+      "airplane",
+      "plane"
+    ],
+    "review_note": "Airplane is the clearest primary beginner gloss; aircraft is too technical here."
+  },
+  {
+    "word_id": "new-hsk-1-0108",
+    "rank": 108,
+    "lemma": "非常",
+    "reviewed_meanings": [
+      "very",
+      "extremely"
+    ],
+    "review_note": "Very is the main beginner gloss."
+  },
+  {
+    "word_id": "new-hsk-1-0109",
+    "rank": 109,
+    "lemma": "分",
+    "reviewed_meanings": [
+      "minute",
+      "point"
+    ],
+    "review_note": "Prioritize the time sense minute. Point is a useful secondary sense for scores when natural."
+  },
+  {
+    "word_id": "new-hsk-1-0110",
+    "rank": 110,
+    "lemma": "风",
+    "reviewed_meanings": [
+      "wind"
+    ],
+    "review_note": "Use the noun wind."
+  },
+  {
+    "word_id": "new-hsk-1-0111",
+    "rank": 111,
+    "lemma": "干",
+    "reviewed_meanings": [
+      "dry"
+    ],
+    "review_note": "This entry is the adjective dry."
+  },
+  {
+    "word_id": "new-hsk-1-0112",
+    "rank": 112,
+    "lemma": "干净",
+    "reviewed_meanings": [
+      "clean"
+    ],
+    "review_note": "Use the adjective clean."
+  },
+  {
+    "word_id": "new-hsk-1-0113",
+    "rank": 113,
+    "lemma": "干",
+    "reviewed_meanings": [
+      "do"
+    ],
+    "review_note": "This entry is the verb do."
+  },
+  {
+    "word_id": "new-hsk-1-0114",
+    "rank": 114,
+    "lemma": "干什么",
+    "reviewed_meanings": [
+      "do what",
+      "what are you doing"
+    ],
+    "review_note": "Treat this as the everyday question do what or what are you doing."
+  },
+  {
+    "word_id": "new-hsk-1-0115",
+    "rank": 115,
+    "lemma": "高",
+    "reviewed_meanings": [
+      "tall",
+      "high"
+    ],
+    "review_note": "Use tall for people and high for height or position when natural."
+  },
+  {
+    "word_id": "new-hsk-1-0116",
+    "rank": 116,
+    "lemma": "高兴",
+    "reviewed_meanings": [
+      "happy",
+      "glad"
+    ],
+    "review_note": "Happy is the strongest primary gloss."
+  },
+  {
+    "word_id": "new-hsk-1-0117",
+    "rank": 117,
+    "lemma": "告诉",
+    "reviewed_meanings": [
+      "tell"
+    ],
+    "review_note": "Use the verb tell or inform in simple daily contexts."
+  },
+  {
+    "word_id": "new-hsk-1-0118",
+    "rank": 118,
+    "lemma": "哥哥",
+    "reviewed_meanings": [
+      "older brother",
+      "elder brother"
+    ],
+    "review_note": "Older brother is the clearest everyday gloss. The short form 哥 is a variant, not a separate meaning."
+  },
+  {
+    "word_id": "new-hsk-1-0119",
+    "rank": 119,
+    "lemma": "歌",
+    "reviewed_meanings": [
+      "song"
+    ],
+    "review_note": "Use the noun song."
+  },
+  {
+    "word_id": "new-hsk-1-0120",
+    "rank": 120,
+    "lemma": "个",
+    "reviewed_meanings": [
+      "general classifier",
+      "measure word"
+    ],
+    "review_note": "This is the common general classifier, not the noun individual."
+  },
+  {
+    "word_id": "new-hsk-1-0121",
+    "rank": 121,
+    "lemma": "给",
+    "reviewed_meanings": [
+      "give",
+      "to",
+      "for"
+    ],
+    "review_note": "Give is the core beginner sense. To and for are useful secondary grammar meanings when natural."
+  },
+  {
+    "word_id": "new-hsk-1-0122",
+    "rank": 122,
+    "lemma": "跟",
+    "reviewed_meanings": [
+      "with"
+    ],
+    "review_note": "Use the common preposition with."
+  },
+  {
+    "word_id": "new-hsk-1-0123",
+    "rank": 123,
+    "lemma": "工人",
+    "reviewed_meanings": [
+      "worker"
+    ],
+    "review_note": "Use the noun worker."
+  },
+  {
+    "word_id": "new-hsk-1-0124",
+    "rank": 124,
+    "lemma": "工作",
+    "reviewed_meanings": [
+      "work",
+      "job"
+    ],
+    "review_note": "Both the verb and noun senses are common and beginner-relevant."
+  },
+  {
+    "word_id": "new-hsk-1-0125",
+    "rank": 125,
+    "lemma": "关",
+    "reviewed_meanings": [
+      "close",
+      "shut",
+      "turn off"
+    ],
+    "review_note": "Close is the clearest primary gloss; turn off is a useful common extension for things like lights or TVs."
+  }
+]

@@ -1,0 +1,351 @@
+[
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0401",
+    "rank": 401,
+    "display_form": "鸟",
+    "lemma": "鸟",
+    "generation_form": "鸟",
+    "pronunciation": "niǎo",
+    "pos": "unknown",
+    "primary_gloss": "bird",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0402",
+    "rank": 402,
+    "display_form": "弄",
+    "lemma": "弄",
+    "generation_form": "弄",
+    "pronunciation": "nòng",
+    "pos": "unknown",
+    "primary_gloss": "get",
+    "secondary_glosses": [
+      "make"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0403",
+    "rank": 403,
+    "display_form": "努力",
+    "lemma": "努力",
+    "generation_form": "努力",
+    "pronunciation": "nǔlì",
+    "pos": "unknown",
+    "primary_gloss": "Strive",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0404",
+    "rank": 404,
+    "display_form": "爬",
+    "lemma": "爬",
+    "generation_form": "爬",
+    "pronunciation": "pá",
+    "pos": "unknown",
+    "primary_gloss": "climb",
+    "secondary_glosses": [
+      "creep",
+      "scramble"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0405",
+    "rank": 405,
+    "display_form": "爬山",
+    "lemma": "爬山",
+    "generation_form": "爬山",
+    "pronunciation": "páshān",
+    "pos": "unknown",
+    "primary_gloss": "Mountain climbing",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0406",
+    "rank": 406,
+    "display_form": "怕（动）",
+    "lemma": "怕",
+    "generation_form": "怕",
+    "pronunciation": "pà",
+    "pos": "verb",
+    "primary_gloss": "be afraid",
+    "secondary_glosses": [
+      "fear",
+      "dread"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0407",
+    "rank": 407,
+    "display_form": "排（名、量）",
+    "lemma": "排",
+    "generation_form": "排",
+    "pronunciation": "pái",
+    "pos": "unknown",
+    "primary_gloss": "row",
+    "secondary_glosses": [
+      "line"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0408",
+    "rank": 408,
+    "display_form": "排队",
+    "lemma": "排队",
+    "generation_form": "排队",
+    "pronunciation": "páiduì",
+    "pos": "unknown",
+    "primary_gloss": "queue",
+    "secondary_glosses": [
+      "stand in a line"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0409",
+    "rank": 409,
+    "display_form": "排球",
+    "lemma": "排球",
+    "generation_form": "排球",
+    "pronunciation": "pái qiú",
+    "pos": "unknown",
+    "primary_gloss": "volleyball",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0410",
+    "rank": 410,
+    "display_form": "碰",
+    "lemma": "碰",
+    "generation_form": "碰",
+    "pronunciation": "pèng",
+    "pos": "unknown",
+    "primary_gloss": "touch",
+    "secondary_glosses": [
+      "meet"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0411",
+    "rank": 411,
+    "display_form": "碰到",
+    "lemma": "碰到",
+    "generation_form": "碰到",
+    "pronunciation": "pèng dào",
+    "pos": "unknown",
+    "primary_gloss": "meet",
+    "secondary_glosses": [
+      "run into",
+      "bump into"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0412",
+    "rank": 412,
+    "display_form": "碰见",
+    "lemma": "碰见",
+    "generation_form": "碰见",
+    "pronunciation": "pèng jiàn",
+    "pos": "unknown",
+    "primary_gloss": "meet",
+    "secondary_glosses": [
+      "run into",
+      "bump into"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0413",
+    "rank": 413,
+    "display_form": "篇",
+    "lemma": "篇",
+    "generation_form": "篇",
+    "pronunciation": "piān",
+    "pos": "unknown",
+    "primary_gloss": "piece",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0414",
+    "rank": 414,
+    "display_form": "便宜",
+    "lemma": "便宜",
+    "generation_form": "便宜",
+    "pronunciation": "piányi",
+    "pos": "unknown",
+    "primary_gloss": "Cheap",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0415",
+    "rank": 415,
+    "display_form": "片",
+    "lemma": "片",
+    "generation_form": "片",
+    "pronunciation": "piàn",
+    "pos": "unknown",
+    "primary_gloss": "slice",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0416",
+    "rank": 416,
+    "display_form": "漂亮",
+    "lemma": "漂亮",
+    "generation_form": "漂亮",
+    "pronunciation": "piàoliang",
+    "pos": "unknown",
+    "primary_gloss": "Well done!； beautiful",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0417",
+    "rank": 417,
+    "display_form": "平",
+    "lemma": "平",
+    "generation_form": "平",
+    "pronunciation": "píng",
+    "pos": "unknown",
+    "primary_gloss": "flat",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0418",
+    "rank": 418,
+    "display_form": "平安",
+    "lemma": "平安",
+    "generation_form": "平安",
+    "pronunciation": "píng'ān",
+    "pos": "unknown",
+    "primary_gloss": "sound and safe",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0419",
+    "rank": 419,
+    "display_form": "平常",
+    "lemma": "平常",
+    "generation_form": "平常",
+    "pronunciation": "píngcháng",
+    "pos": "unknown",
+    "primary_gloss": "Usual",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0420",
+    "rank": 420,
+    "display_form": "平等",
+    "lemma": "平等",
+    "generation_form": "平等",
+    "pronunciation": "píngděng",
+    "pos": "unknown",
+    "primary_gloss": "equality",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0421",
+    "rank": 421,
+    "display_form": "平时",
+    "lemma": "平时",
+    "generation_form": "平时",
+    "pronunciation": "píngshí",
+    "pos": "unknown",
+    "primary_gloss": "peacetime",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0422",
+    "rank": 422,
+    "display_form": "瓶",
+    "lemma": "瓶",
+    "generation_form": "瓶",
+    "pronunciation": "píng",
+    "pos": "unknown",
+    "primary_gloss": "bottle",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0423",
+    "rank": 423,
+    "display_form": "瓶子",
+    "lemma": "瓶子",
+    "generation_form": "瓶子",
+    "pronunciation": "píngzi",
+    "pos": "unknown",
+    "primary_gloss": "Bottle",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0424",
+    "rank": 424,
+    "display_form": "普通",
+    "lemma": "普通",
+    "generation_form": "普通",
+    "pronunciation": "pǔ tōng",
+    "pos": "unknown",
+    "primary_gloss": "ordinary",
+    "secondary_glosses": [
+      "general",
+      "average",
+      "common"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0425",
+    "rank": 425,
+    "display_form": "普通话",
+    "lemma": "普通话",
+    "generation_form": "普通话",
+    "pronunciation": "pǔtōnghuà",
+    "pos": "unknown",
+    "primary_gloss": "Mandarin",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  }
+]

@@ -1,0 +1,241 @@
+[
+  {
+    "word_id": "new-hsk-1-0201",
+    "rank": 201,
+    "lemma": "课文",
+    "reviewed_meanings": [
+      "text",
+      "lesson text"
+    ],
+    "review_note": "Text is the clearest beginner gloss; lesson text is a helpful secondary gloss."
+  },
+  {
+    "word_id": "new-hsk-1-0202",
+    "rank": 202,
+    "lemma": "口",
+    "reviewed_meanings": [
+      "mouth"
+    ],
+    "review_note": "Use the body-part meaning mouth for this HSK 1 run."
+  },
+  {
+    "word_id": "new-hsk-1-0203",
+    "rank": 203,
+    "lemma": "块",
+    "reviewed_meanings": [
+      "piece",
+      "yuan"
+    ],
+    "review_note": "Do not keep the raw gloss block. Piece is a strong everyday sense, and yuan is a very common beginner money use."
+  },
+  {
+    "word_id": "new-hsk-1-0204",
+    "rank": 204,
+    "lemma": "快",
+    "reviewed_meanings": [
+      "fast",
+      "quick",
+      "soon"
+    ],
+    "review_note": "Fast or quick are the clearest core meanings; soon is a common time-related extension."
+  },
+  {
+    "word_id": "new-hsk-1-0205",
+    "rank": 205,
+    "lemma": "来",
+    "reviewed_meanings": [
+      "come"
+    ],
+    "review_note": "Use the verb come."
+  },
+  {
+    "word_id": "new-hsk-1-0206",
+    "rank": 206,
+    "lemma": "来到",
+    "reviewed_meanings": [
+      "come to",
+      "arrive at"
+    ],
+    "review_note": "Use the motion sense come to or arrive at a place."
+  },
+  {
+    "word_id": "new-hsk-1-0207",
+    "rank": 207,
+    "lemma": "老",
+    "reviewed_meanings": [
+      "old"
+    ],
+    "review_note": "Use the adjective old."
+  },
+  {
+    "word_id": "new-hsk-1-0208",
+    "rank": 208,
+    "lemma": "老人",
+    "reviewed_meanings": [
+      "old person",
+      "elderly person"
+    ],
+    "review_note": "Use old person or elderly person, not the raw plural old people as the only gloss."
+  },
+  {
+    "word_id": "new-hsk-1-0209",
+    "rank": 209,
+    "lemma": "老师",
+    "reviewed_meanings": [
+      "teacher"
+    ],
+    "review_note": "Use the noun teacher."
+  },
+  {
+    "word_id": "new-hsk-1-0210",
+    "rank": 210,
+    "lemma": "了",
+    "reviewed_meanings": [
+      "completed-action particle",
+      "change-of-state particle"
+    ],
+    "review_note": "Past tense marker is too loose. Keep this as a grammar particle marking completion or change of state."
+  },
+  {
+    "word_id": "new-hsk-1-0211",
+    "rank": 211,
+    "lemma": "累",
+    "reviewed_meanings": [
+      "tired"
+    ],
+    "review_note": "Use the adjective tired."
+  },
+  {
+    "word_id": "new-hsk-1-0212",
+    "rank": 212,
+    "lemma": "冷",
+    "reviewed_meanings": [
+      "cold"
+    ],
+    "review_note": "Use the adjective cold."
+  },
+  {
+    "word_id": "new-hsk-1-0213",
+    "rank": 213,
+    "lemma": "里",
+    "reviewed_meanings": [
+      "in",
+      "inside"
+    ],
+    "review_note": "Use the location meaning in or inside."
+  },
+  {
+    "word_id": "new-hsk-1-0214",
+    "rank": 214,
+    "lemma": "里边",
+    "reviewed_meanings": [
+      "inside",
+      "in"
+    ],
+    "review_note": "Use the place meaning inside."
+  },
+  {
+    "word_id": "new-hsk-1-0215",
+    "rank": 215,
+    "lemma": "两",
+    "reviewed_meanings": [
+      "two"
+    ],
+    "review_note": "Use the number two in its measure-word form."
+  },
+  {
+    "word_id": "new-hsk-1-0216",
+    "rank": 216,
+    "lemma": "零",
+    "reviewed_meanings": [
+      "zero"
+    ],
+    "review_note": "Use the number zero."
+  },
+  {
+    "word_id": "new-hsk-1-0217",
+    "rank": 217,
+    "lemma": "六",
+    "reviewed_meanings": [
+      "six"
+    ],
+    "review_note": "Use the number six."
+  },
+  {
+    "word_id": "new-hsk-1-0218",
+    "rank": 218,
+    "lemma": "楼",
+    "reviewed_meanings": [
+      "floor",
+      "storey"
+    ],
+    "review_note": "Use floor as the main beginner gloss for building levels."
+  },
+  {
+    "word_id": "new-hsk-1-0219",
+    "rank": 219,
+    "lemma": "楼上",
+    "reviewed_meanings": [
+      "upstairs"
+    ],
+    "review_note": "Use the location word upstairs."
+  },
+  {
+    "word_id": "new-hsk-1-0220",
+    "rank": 220,
+    "lemma": "楼下",
+    "reviewed_meanings": [
+      "downstairs"
+    ],
+    "review_note": "Use the location word downstairs."
+  },
+  {
+    "word_id": "new-hsk-1-0221",
+    "rank": 221,
+    "lemma": "路",
+    "reviewed_meanings": [
+      "road",
+      "way"
+    ],
+    "review_note": "Road is the strongest primary gloss."
+  },
+  {
+    "word_id": "new-hsk-1-0222",
+    "rank": 222,
+    "lemma": "路口",
+    "reviewed_meanings": [
+      "intersection"
+    ],
+    "review_note": "Use the noun intersection."
+  },
+  {
+    "word_id": "new-hsk-1-0223",
+    "rank": 223,
+    "lemma": "路上",
+    "reviewed_meanings": [
+      "on the road",
+      "on the way"
+    ],
+    "review_note": "Use the location or travel sense on the road or on the way."
+  },
+  {
+    "word_id": "new-hsk-1-0224",
+    "rank": 224,
+    "lemma": "妈妈",
+    "reviewed_meanings": [
+      "mom",
+      "mother"
+    ],
+    "review_note": "Mom is the clearest everyday gloss. The short form 妈 is a variant, not a separate meaning."
+  },
+  {
+    "word_id": "new-hsk-1-0225",
+    "rank": 225,
+    "lemma": "马路",
+    "reviewed_meanings": [
+      "road",
+      "street"
+    ],
+    "review_note": "Use road or street."
+  }
+]

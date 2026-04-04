@@ -1,0 +1,355 @@
+[
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0001",
+    "rank": 1,
+    "display_form": "爱心",
+    "lemma": "爱心",
+    "generation_form": "爱心",
+    "pronunciation": "àixīn",
+    "pos": "unknown",
+    "primary_gloss": "love",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0002",
+    "rank": 2,
+    "display_form": "安排",
+    "lemma": "安排",
+    "generation_form": "安排",
+    "pronunciation": "ānpái",
+    "pos": "unknown",
+    "primary_gloss": "arrange",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0003",
+    "rank": 3,
+    "display_form": "安装",
+    "lemma": "安装",
+    "generation_form": "安装",
+    "pronunciation": "ānzhuāng",
+    "pos": "unknown",
+    "primary_gloss": "install",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0004",
+    "rank": 4,
+    "display_form": "按",
+    "lemma": "按",
+    "generation_form": "按",
+    "pronunciation": "àn",
+    "pos": "unknown",
+    "primary_gloss": "press",
+    "secondary_glosses": [
+      "push",
+      "check",
+      "restrain"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0005",
+    "rank": 5,
+    "display_form": "按照",
+    "lemma": "按照",
+    "generation_form": "按照",
+    "pronunciation": "ànzhào",
+    "pos": "unknown",
+    "primary_gloss": "according to",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0006",
+    "rank": 6,
+    "display_form": "把（介）",
+    "lemma": "把",
+    "generation_form": "把",
+    "pronunciation": "bǎ",
+    "pos": "preposition",
+    "primary_gloss": "(particle marking the following noun as a direct object)",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as preposition."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0007",
+    "rank": 7,
+    "display_form": "把（量）",
+    "lemma": "把",
+    "generation_form": "把",
+    "pronunciation": "bǎ",
+    "pos": "measure word",
+    "primary_gloss": "(measure word)",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as measure word."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0008",
+    "rank": 8,
+    "display_form": "把握",
+    "lemma": "把握",
+    "generation_form": "把握",
+    "pronunciation": "bǎwò",
+    "pos": "unknown",
+    "primary_gloss": "grasp",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0009",
+    "rank": 9,
+    "display_form": "白（副）",
+    "lemma": "白",
+    "generation_form": "白",
+    "pronunciation": "bái",
+    "pos": "adverb",
+    "primary_gloss": "without results",
+    "secondary_glosses": [
+      "in vain",
+      "waste efforts"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0010",
+    "rank": 10,
+    "display_form": "白菜",
+    "lemma": "白菜",
+    "generation_form": "白菜",
+    "pronunciation": "bái cài",
+    "pos": "unknown",
+    "primary_gloss": "Chinese cabbage",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0011",
+    "rank": 11,
+    "display_form": "班级",
+    "lemma": "班级",
+    "generation_form": "班级",
+    "pronunciation": "bān jí",
+    "pos": "unknown",
+    "primary_gloss": "class",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0012",
+    "rank": 12,
+    "display_form": "搬",
+    "lemma": "搬",
+    "generation_form": "搬",
+    "pronunciation": "bān",
+    "pos": "unknown",
+    "primary_gloss": "turn",
+    "secondary_glosses": [
+      "move"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0013",
+    "rank": 13,
+    "display_form": "搬家",
+    "lemma": "搬家",
+    "generation_form": "搬家",
+    "pronunciation": "bān jiā",
+    "pos": "unknown",
+    "primary_gloss": "move",
+    "secondary_glosses": [
+      "move house"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0014",
+    "rank": 14,
+    "display_form": "板",
+    "lemma": "板",
+    "generation_form": "板",
+    "pronunciation": "bǎn",
+    "pos": "unknown",
+    "primary_gloss": "board",
+    "secondary_glosses": [
+      "plank",
+      "shutter"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0015",
+    "rank": 15,
+    "display_form": "办理",
+    "lemma": "办理",
+    "generation_form": "办理",
+    "pronunciation": "bànlǐ",
+    "pos": "unknown",
+    "primary_gloss": "handle",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0016",
+    "rank": 16,
+    "display_form": "保",
+    "lemma": "保",
+    "generation_form": "保",
+    "pronunciation": "bǎo defend;",
+    "pos": "unknown",
+    "primary_gloss": "protect",
+    "secondary_glosses": [
+      "keep",
+      "guarantee",
+      "ensure"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0017",
+    "rank": 17,
+    "display_form": "保安",
+    "lemma": "保安",
+    "generation_form": "保安",
+    "pronunciation": "bǎo ān",
+    "pos": "unknown",
+    "primary_gloss": "security guard",
+    "secondary_glosses": [
+      "public security",
+      "ensure safety"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0018",
+    "rank": 18,
+    "display_form": "保持",
+    "lemma": "保持",
+    "generation_form": "保持",
+    "pronunciation": "bǎochí",
+    "pos": "unknown",
+    "primary_gloss": "keep",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0019",
+    "rank": 19,
+    "display_form": "保存",
+    "lemma": "保存",
+    "generation_form": "保存",
+    "pronunciation": "bǎocún",
+    "pos": "unknown",
+    "primary_gloss": "Preservation",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0020",
+    "rank": 20,
+    "display_form": "保护",
+    "lemma": "保护",
+    "generation_form": "保护",
+    "pronunciation": "bǎohù",
+    "pos": "unknown",
+    "primary_gloss": "protect",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0021",
+    "rank": 21,
+    "display_form": "保留",
+    "lemma": "保留",
+    "generation_form": "保留",
+    "pronunciation": "bǎoliú",
+    "pos": "unknown",
+    "primary_gloss": "Retain",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0022",
+    "rank": 22,
+    "display_form": "保险",
+    "lemma": "保险",
+    "generation_form": "保险",
+    "pronunciation": "bǎoxiǎn",
+    "pos": "unknown",
+    "primary_gloss": "Insurance",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0023",
+    "rank": 23,
+    "display_form": "保证",
+    "lemma": "保证",
+    "generation_form": "保证",
+    "pronunciation": "bǎozhèng",
+    "pos": "unknown",
+    "primary_gloss": "ensure",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0024",
+    "rank": 24,
+    "display_form": "报（名）",
+    "lemma": "报",
+    "generation_form": "报",
+    "pronunciation": "bào",
+    "pos": "noun",
+    "primary_gloss": "newspaper",
+    "secondary_glosses": [
+      "periodical",
+      "journal",
+      "report",
+      "telegram"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0025",
+    "rank": 25,
+    "display_form": "报到",
+    "lemma": "报到",
+    "generation_form": "报到",
+    "pronunciation": "bàodào",
+    "pos": "unknown",
+    "primary_gloss": "register",
+    "secondary_glosses": [
+      "check in"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  }
+]

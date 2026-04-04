@@ -1,0 +1,237 @@
+[
+  {
+    "word_id": "new-hsk-1-0276",
+    "rank": 276,
+    "lemma": "女",
+    "reviewed_meanings": [
+      "female"
+    ],
+    "review_note": "Use the adjective female rather than the noun woman for the basic contrast with 男."
+  },
+  {
+    "word_id": "new-hsk-1-0277",
+    "rank": 277,
+    "lemma": "女儿",
+    "reviewed_meanings": [
+      "daughter"
+    ],
+    "review_note": "Use the family noun daughter."
+  },
+  {
+    "word_id": "new-hsk-1-0278",
+    "rank": 278,
+    "lemma": "女孩儿",
+    "reviewed_meanings": [
+      "girl"
+    ],
+    "review_note": "Use the noun girl."
+  },
+  {
+    "word_id": "new-hsk-1-0279",
+    "rank": 279,
+    "lemma": "女朋友",
+    "reviewed_meanings": [
+      "girlfriend"
+    ],
+    "review_note": "Use the noun girlfriend."
+  },
+  {
+    "word_id": "new-hsk-1-0280",
+    "rank": 280,
+    "lemma": "女人",
+    "reviewed_meanings": [
+      "woman"
+    ],
+    "review_note": "Use the noun woman."
+  },
+  {
+    "word_id": "new-hsk-1-0281",
+    "rank": 281,
+    "lemma": "女生",
+    "reviewed_meanings": [
+      "female student",
+      "girl"
+    ],
+    "review_note": "Female student is usually the clearest school-context gloss; girl is a useful secondary gloss."
+  },
+  {
+    "word_id": "new-hsk-1-0282",
+    "rank": 282,
+    "lemma": "旁边",
+    "reviewed_meanings": [
+      "beside",
+      "next to"
+    ],
+    "review_note": "Use beside or next to as the learner-facing location gloss."
+  },
+  {
+    "word_id": "new-hsk-1-0283",
+    "rank": 283,
+    "lemma": "跑",
+    "reviewed_meanings": [
+      "run"
+    ],
+    "review_note": "Use the verb run."
+  },
+  {
+    "word_id": "new-hsk-1-0284",
+    "rank": 284,
+    "lemma": "朋友",
+    "reviewed_meanings": [
+      "friend"
+    ],
+    "review_note": "Use the noun friend."
+  },
+  {
+    "word_id": "new-hsk-1-0285",
+    "rank": 285,
+    "lemma": "票",
+    "reviewed_meanings": [
+      "ticket"
+    ],
+    "review_note": "Use the noun ticket."
+  },
+  {
+    "word_id": "new-hsk-1-0286",
+    "rank": 286,
+    "lemma": "七",
+    "reviewed_meanings": [
+      "seven"
+    ],
+    "review_note": "Use the number seven."
+  },
+  {
+    "word_id": "new-hsk-1-0287",
+    "rank": 287,
+    "lemma": "起",
+    "reviewed_meanings": [
+      "get up",
+      "rise",
+      "start"
+    ],
+    "review_note": "Use get up or rise as the clearest beginner meanings; start is a weaker secondary sense."
+  },
+  {
+    "word_id": "new-hsk-1-0288",
+    "rank": 288,
+    "lemma": "起床",
+    "reviewed_meanings": [
+      "get up"
+    ],
+    "review_note": "Use the everyday verb get up."
+  },
+  {
+    "word_id": "new-hsk-1-0289",
+    "rank": 289,
+    "lemma": "起来",
+    "reviewed_meanings": [
+      "get up",
+      "stand up",
+      "rise"
+    ],
+    "review_note": "Use get up or stand up for beginner examples rather than abstract complement explanations."
+  },
+  {
+    "word_id": "new-hsk-1-0290",
+    "rank": 290,
+    "lemma": "汽车",
+    "reviewed_meanings": [
+      "car"
+    ],
+    "review_note": "Use the noun car."
+  },
+  {
+    "word_id": "new-hsk-1-0291",
+    "rank": 291,
+    "lemma": "前",
+    "reviewed_meanings": [
+      "front"
+    ],
+    "review_note": "Use the location noun front."
+  },
+  {
+    "word_id": "new-hsk-1-0292",
+    "rank": 292,
+    "lemma": "前边",
+    "reviewed_meanings": [
+      "in front",
+      "front"
+    ],
+    "review_note": "In front is the clearest primary gloss for learners."
+  },
+  {
+    "word_id": "new-hsk-1-0293",
+    "rank": 293,
+    "lemma": "前天",
+    "reviewed_meanings": [
+      "the day before yesterday"
+    ],
+    "review_note": "Use the time phrase the day before yesterday."
+  },
+  {
+    "word_id": "new-hsk-1-0294",
+    "rank": 294,
+    "lemma": "钱",
+    "reviewed_meanings": [
+      "money"
+    ],
+    "review_note": "Use the noun money."
+  },
+  {
+    "word_id": "new-hsk-1-0295",
+    "rank": 295,
+    "lemma": "钱包",
+    "reviewed_meanings": [
+      "wallet"
+    ],
+    "review_note": "Use the noun wallet."
+  },
+  {
+    "word_id": "new-hsk-1-0296",
+    "rank": 296,
+    "lemma": "请",
+    "reviewed_meanings": [
+      "please"
+    ],
+    "review_note": "For HSK 1, treat this mainly as the polite word please rather than forcing the invite sense."
+  },
+  {
+    "word_id": "new-hsk-1-0297",
+    "rank": 297,
+    "lemma": "请假",
+    "reviewed_meanings": [
+      "ask for leave",
+      "take leave"
+    ],
+    "review_note": "Ask for leave is the clearest primary gloss."
+  },
+  {
+    "word_id": "new-hsk-1-0298",
+    "rank": 298,
+    "lemma": "请进",
+    "reviewed_meanings": [
+      "please come in"
+    ],
+    "review_note": "Use the set polite phrase please come in."
+  },
+  {
+    "word_id": "new-hsk-1-0299",
+    "rank": 299,
+    "lemma": "请问",
+    "reviewed_meanings": [
+      "excuse me",
+      "may I ask"
+    ],
+    "review_note": "Excuse me is the clearest everyday gloss before asking a question."
+  },
+  {
+    "word_id": "new-hsk-1-0300",
+    "rank": 300,
+    "lemma": "请坐",
+    "reviewed_meanings": [
+      "please sit",
+      "please have a seat"
+    ],
+    "review_note": "Please sit is the clearest short gloss; please have a seat is a natural secondary gloss."
+  }
+]

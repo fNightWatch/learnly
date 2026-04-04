@@ -1,0 +1,352 @@
+[
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0726",
+    "rank": 726,
+    "display_form": "突出",
+    "lemma": "突出",
+    "generation_form": "突出",
+    "pronunciation": "tūchū",
+    "pos": "unknown",
+    "primary_gloss": "prominent",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0727",
+    "rank": 727,
+    "display_form": "突然",
+    "lemma": "突然",
+    "generation_form": "突然",
+    "pronunciation": "tūrán",
+    "pos": "unknown",
+    "primary_gloss": "suddenly",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0728",
+    "rank": 728,
+    "display_form": "图",
+    "lemma": "图",
+    "generation_form": "图",
+    "pronunciation": "tú picture;",
+    "pos": "unknown",
+    "primary_gloss": "chart",
+    "secondary_glosses": [
+      "drawing",
+      "scheme",
+      "intention"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0729",
+    "rank": 729,
+    "display_form": "图画",
+    "lemma": "图画",
+    "generation_form": "图画",
+    "pronunciation": "tú huà",
+    "pos": "unknown",
+    "primary_gloss": "drawing",
+    "secondary_glosses": [
+      "picture",
+      "painting"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0730",
+    "rank": 730,
+    "display_form": "土（名）",
+    "lemma": "土",
+    "generation_form": "土",
+    "pronunciation": "tǔ",
+    "pos": "noun",
+    "primary_gloss": "soil",
+    "secondary_glosses": [
+      "earth",
+      "land",
+      "ground"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0731",
+    "rank": 731,
+    "display_form": "团",
+    "lemma": "团",
+    "generation_form": "团",
+    "pronunciation": "tuán",
+    "pos": "unknown",
+    "primary_gloss": "group",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0732",
+    "rank": 732,
+    "display_form": "团结",
+    "lemma": "团结",
+    "generation_form": "团结",
+    "pronunciation": "tuánjié",
+    "pos": "unknown",
+    "primary_gloss": "Unite",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0733",
+    "rank": 733,
+    "display_form": "团体",
+    "lemma": "团体",
+    "generation_form": "团体",
+    "pronunciation": "tuántǐ",
+    "pos": "unknown",
+    "primary_gloss": "group",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0734",
+    "rank": 734,
+    "display_form": "推动",
+    "lemma": "推动",
+    "generation_form": "推动",
+    "pronunciation": "tuī dòng",
+    "pos": "unknown",
+    "primary_gloss": "promote",
+    "secondary_glosses": [
+      "push forward",
+      "give impetus to"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0735",
+    "rank": 735,
+    "display_form": "推广",
+    "lemma": "推广",
+    "generation_form": "推广",
+    "pronunciation": "tuīguǎng",
+    "pos": "unknown",
+    "primary_gloss": "Extension",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0736",
+    "rank": 736,
+    "display_form": "推进",
+    "lemma": "推进",
+    "generation_form": "推进",
+    "pronunciation": "tuī jìn advance;",
+    "pos": "unknown",
+    "primary_gloss": "carry forward",
+    "secondary_glosses": [
+      "push on",
+      "give impetus to"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0737",
+    "rank": 737,
+    "display_form": "推开",
+    "lemma": "推开",
+    "generation_form": "推开",
+    "pronunciation": "tuī kāi",
+    "pos": "unknown",
+    "primary_gloss": "push away",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0738",
+    "rank": 738,
+    "display_form": "退",
+    "lemma": "退",
+    "generation_form": "退",
+    "pronunciation": "tuì",
+    "pos": "unknown",
+    "primary_gloss": "retreat",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0739",
+    "rank": 739,
+    "display_form": "退出",
+    "lemma": "退出",
+    "generation_form": "退出",
+    "pronunciation": "tuì chū",
+    "pos": "unknown",
+    "primary_gloss": "drop out",
+    "secondary_glosses": [
+      "quit",
+      "withdraw"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0740",
+    "rank": 740,
+    "display_form": "退休",
+    "lemma": "退休",
+    "generation_form": "退休",
+    "pronunciation": "tuìxiū",
+    "pos": "unknown",
+    "primary_gloss": "retire",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0741",
+    "rank": 741,
+    "display_form": "外交",
+    "lemma": "外交",
+    "generation_form": "外交",
+    "pronunciation": "wàijiāo",
+    "pos": "unknown",
+    "primary_gloss": "diplomacy",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0742",
+    "rank": 742,
+    "display_form": "外面",
+    "lemma": "外面",
+    "generation_form": "外面",
+    "pronunciation": "wài miàn",
+    "pos": "unknown",
+    "primary_gloss": "outside",
+    "secondary_glosses": [
+      "outdoors",
+      "outward appearance"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0743",
+    "rank": 743,
+    "display_form": "外文",
+    "lemma": "外文",
+    "generation_form": "外文",
+    "pronunciation": "wài wén",
+    "pos": "unknown",
+    "primary_gloss": "foreign language",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0744",
+    "rank": 744,
+    "display_form": "完美",
+    "lemma": "完美",
+    "generation_form": "完美",
+    "pronunciation": "wánměi",
+    "pos": "unknown",
+    "primary_gloss": "perfect",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0745",
+    "rank": 745,
+    "display_form": "完善",
+    "lemma": "完善",
+    "generation_form": "完善",
+    "pronunciation": "wánshàn",
+    "pos": "unknown",
+    "primary_gloss": "perfect",
+    "secondary_glosses": [
+      "consummate"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0746",
+    "rank": 746,
+    "display_form": "完整",
+    "lemma": "完整",
+    "generation_form": "完整",
+    "pronunciation": "wánzhěng",
+    "pos": "unknown",
+    "primary_gloss": "complete",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0747",
+    "rank": 747,
+    "display_form": "玩具",
+    "lemma": "玩具",
+    "generation_form": "玩具",
+    "pronunciation": "wánjù",
+    "pos": "unknown",
+    "primary_gloss": "Toys",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0748",
+    "rank": 748,
+    "display_form": "往往",
+    "lemma": "往往",
+    "generation_form": "往往",
+    "pronunciation": "wǎngwǎng",
+    "pos": "unknown",
+    "primary_gloss": "Often",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0749",
+    "rank": 749,
+    "display_form": "危害",
+    "lemma": "危害",
+    "generation_form": "危害",
+    "pronunciation": "wēihài",
+    "pos": "unknown",
+    "primary_gloss": "Harm",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0750",
+    "rank": 750,
+    "display_form": "危险",
+    "lemma": "危险",
+    "generation_form": "危险",
+    "pronunciation": "wēixiǎn",
+    "pos": "unknown",
+    "primary_gloss": "danger",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  }
+]

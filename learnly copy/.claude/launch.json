@@ -1,0 +1,22 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "Next.js Dev Server",
+      "runtimeExecutable": "/bin/sh",
+      "runtimeArgs": ["-c", "cd /Users/moi/Desktop/business/learnly && /opt/homebrew/opt/node@22/bin/node /Users/moi/Desktop/business/learnly/node_modules/tsx/dist/cli.mjs /Users/moi/Desktop/business/learnly/scripts/seed-db.ts && /opt/homebrew/opt/node@22/bin/node /Users/moi/Desktop/business/learnly/node_modules/.bin/next dev"],
+      "port": 3000,
+      "autoPort": true,
+      "env": {
+        "PATH": "/opt/homebrew/opt/node@22/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin",
+        "NODE_PATH": "/Users/moi/Desktop/business/learnly/node_modules"
+      }
+    },
+    {
+      "name": "Drizzle Studio",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "db:studio"],
+      "port": 4983
+    }
+  ]
+}

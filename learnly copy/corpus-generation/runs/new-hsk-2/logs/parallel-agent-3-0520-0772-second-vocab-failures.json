@@ -1,0 +1,345 @@
+[
+  {
+    "line": 5,
+    "word_id": "new-hsk-2-0524",
+    "rank": 524,
+    "display_form": "疼",
+    "error": "new-hsk-2-0524: sentence uses words outside allowed New HSK level set: 她说牙疼。"
+  },
+  {
+    "line": 6,
+    "word_id": "new-hsk-2-0525",
+    "rank": 525,
+    "display_form": "提",
+    "error": "new-hsk-2-0525: sentence uses words outside allowed New HSK level set: 请把这个包提起来。"
+  },
+  {
+    "line": 15,
+    "word_id": "new-hsk-2-0534",
+    "rank": 534,
+    "display_form": "条",
+    "error": "new-hsk-2-0534: sentence uses words outside allowed New HSK level set: 他穿这条裤子。"
+  },
+  {
+    "line": 18,
+    "word_id": "new-hsk-2-0537",
+    "rank": 537,
+    "display_form": "听说",
+    "error": "new-hsk-2-0537: sentence uses words outside allowed New HSK level set: 老师听说这个消息。"
+  },
+  {
+    "line": 27,
+    "word_id": "new-hsk-2-0546",
+    "rank": 546,
+    "display_form": "同时",
+    "error": "new-hsk-2-0546: sentence uses words outside allowed New HSK level set: 我们同时开始。"
+  },
+  {
+    "line": 30,
+    "word_id": "new-hsk-2-0549",
+    "rank": 549,
+    "display_form": "头",
+    "error": "new-hsk-2-0549: sentence uses words outside allowed New HSK level set: 我抬头看天。"
+  },
+  {
+    "line": 31,
+    "word_id": "new-hsk-2-0550",
+    "rank": 550,
+    "display_form": "头",
+    "error": "new-hsk-2-0550: sentence uses words outside allowed New HSK level set: 我抬头看天。"
+  },
+  {
+    "line": 33,
+    "word_id": "new-hsk-2-0552",
+    "rank": 552,
+    "display_form": "图片",
+    "error": "new-hsk-2-0552: sentence uses words outside allowed New HSK level set: 我有这张图片。"
+  },
+  {
+    "line": 39,
+    "word_id": "new-hsk-2-0558",
+    "rank": 558,
+    "display_form": "完成",
+    "error": "new-hsk-2-0558: sentence uses words outside allowed New HSK level set: 我们完成了今天的任务。"
+  },
+  {
+    "line": 54,
+    "word_id": "new-hsk-2-0573",
+    "rank": 573,
+    "display_form": "味道",
+    "error": "new-hsk-2-0573: sentence uses words outside allowed New HSK level set: 汤的味道很特别。"
+  },
+  {
+    "line": 57,
+    "word_id": "new-hsk-2-0576",
+    "rank": 576,
+    "display_form": "闻",
+    "error": "new-hsk-2-0576: sentence uses words outside allowed New HSK level set: 你闻一下这个汤。"
+  },
+  {
+    "line": 58,
+    "word_id": "new-hsk-2-0577",
+    "rank": 577,
+    "display_form": "问路",
+    "error": "new-hsk-2-0577: sentence uses words outside allowed New HSK level set: 她向警察问路。"
+  },
+  {
+    "line": 68,
+    "word_id": "new-hsk-2-0587",
+    "rank": 587,
+    "display_form": "洗衣机",
+    "error": "new-hsk-2-0587: sentence uses words outside allowed New HSK level set: 这台洗衣机很大。"
+  },
+  {
+    "line": 74,
+    "word_id": "new-hsk-2-0593",
+    "rank": 593,
+    "display_form": "相同",
+    "error": "new-hsk-2-0593: sentence uses words outside allowed New HSK level set: 这两个答案相同。"
+  },
+  {
+    "line": 76,
+    "word_id": "new-hsk-2-0595",
+    "rank": 595,
+    "display_form": "响",
+    "error": "new-hsk-2-0595: sentence uses words outside allowed New HSK level set: 铃响了。"
+  },
+  {
+    "line": 81,
+    "word_id": "new-hsk-2-0600",
+    "rank": 600,
+    "display_form": "相机",
+    "error": "new-hsk-2-0600: sentence uses words outside allowed New HSK level set: 这台相机很新。"
+  },
+  {
+    "line": 83,
+    "word_id": "new-hsk-2-0602",
+    "rank": 602,
+    "display_form": "小",
+    "error": "new-hsk-2-0602: sentence uses words outside allowed New HSK level set: 小王来了。"
+  },
+  {
+    "line": 93,
+    "word_id": "new-hsk-2-0612",
+    "rank": 612,
+    "display_form": "鞋",
+    "error": "new-hsk-2-0612: sentence uses words outside allowed New HSK level set: 这双鞋很好看。"
+  },
+  {
+    "line": 102,
+    "word_id": "new-hsk-2-0621",
+    "rank": 621,
+    "display_form": "信用卡",
+    "error": "new-hsk-2-0621: sentence uses words outside allowed New HSK level set: 这张信用卡是新的。"
+  },
+  {
+    "line": 103,
+    "word_id": "new-hsk-2-0622",
+    "rank": 622,
+    "display_form": "星星",
+    "error": "new-hsk-2-0622: sentence uses words outside allowed New HSK level set: 天上有一颗星星。"
+  },
+  {
+    "line": 107,
+    "word_id": "new-hsk-2-0626",
+    "rank": 626,
+    "display_form": "姓",
+    "error": "new-hsk-2-0626: sentence uses words outside allowed New HSK level set: 我姓王。"
+  },
+  {
+    "line": 116,
+    "word_id": "new-hsk-2-0635",
+    "rank": 635,
+    "display_form": "眼睛",
+    "error": "new-hsk-2-0635: sentence uses words outside allowed New HSK level set: 我闭上眼睛。"
+  },
+  {
+    "line": 123,
+    "word_id": "new-hsk-2-0642",
+    "rank": 642,
+    "display_form": "药水",
+    "error": "new-hsk-2-0642: sentence uses words outside allowed New HSK level set: 这瓶药水很苦。"
+  },
+  {
+    "line": 131,
+    "word_id": "new-hsk-2-0650",
+    "rank": 650,
+    "display_form": "一路平安",
+    "error": "new-hsk-2-0650: sentence uses words outside allowed New HSK level set: 你走时，我们说一路平安。"
+  },
+  {
+    "line": 132,
+    "word_id": "new-hsk-2-0651",
+    "rank": 651,
+    "display_form": "一路顺风",
+    "error": "new-hsk-2-0651: sentence uses words outside allowed New HSK level set: 你去北京时，我们说一路顺风。"
+  },
+  {
+    "line": 137,
+    "word_id": "new-hsk-2-0656",
+    "rank": 656,
+    "display_form": "以外",
+    "error": "new-hsk-2-0656: sentence uses words outside allowed New HSK level set: 除了我以外，大家都去。"
+  },
+  {
+    "line": 139,
+    "word_id": "new-hsk-2-0658",
+    "rank": 658,
+    "display_form": "以下",
+    "error": "new-hsk-2-0658: sentence uses words outside allowed New HSK level set: 十以下的孩子免费。"
+  },
+  {
+    "line": 140,
+    "word_id": "new-hsk-2-0659",
+    "rank": 659,
+    "display_form": "椅子",
+    "error": "new-hsk-2-0659: sentence uses words outside allowed New HSK level set: 这把椅子很舒服。"
+  },
+  {
+    "line": 141,
+    "word_id": "new-hsk-2-0660",
+    "rank": 660,
+    "display_form": "一般",
+    "error": "new-hsk-2-0660: sentence uses words outside allowed New HSK level set: 我一般早上跑步。"
+  },
+  {
+    "line": 152,
+    "word_id": "new-hsk-2-0671",
+    "rank": 671,
+    "display_form": "音乐",
+    "error": "new-hsk-2-0671: sentence uses words outside allowed New HSK level set: 这首音乐很好听。"
+  },
+  {
+    "line": 155,
+    "word_id": "new-hsk-2-0674",
+    "rank": 674,
+    "display_form": "银行卡",
+    "error": "new-hsk-2-0674: sentence uses words outside allowed New HSK level set: 这张银行卡是新的。"
+  },
+  {
+    "line": 163,
+    "word_id": "new-hsk-2-0682",
+    "rank": 682,
+    "display_form": "游客",
+    "error": "new-hsk-2-0682: sentence uses words outside allowed New HSK level set: 游客在公园拍照。"
+  },
+  {
+    "line": 168,
+    "word_id": "new-hsk-2-0687",
+    "rank": 687,
+    "display_form": "有意思",
+    "error": "new-hsk-2-0687: sentence uses words outside allowed New HSK level set: 这个游戏很有意思。"
+  },
+  {
+    "line": 171,
+    "word_id": "new-hsk-2-0690",
+    "rank": 690,
+    "display_form": "语言",
+    "error": "new-hsk-2-0690: sentence uses words outside allowed New HSK level set: 汉语是一种语言。"
+  },
+  {
+    "line": 174,
+    "word_id": "new-hsk-2-0693",
+    "rank": 693,
+    "display_form": "院",
+    "error": "new-hsk-2-0693: sentence uses words outside allowed New HSK level set: 我在院里玩。"
+  },
+  {
+    "line": 176,
+    "word_id": "new-hsk-2-0695",
+    "rank": 695,
+    "display_form": "院子",
+    "error": "new-hsk-2-0695: sentence uses words outside allowed New HSK level set: 孩子在院子里玩。"
+  },
+  {
+    "line": 183,
+    "word_id": "new-hsk-2-0702",
+    "rank": 702,
+    "display_form": "运动",
+    "error": "new-hsk-2-0702: sentence uses words outside allowed New HSK level set: 每天运动很好。"
+  },
+  {
+    "line": 188,
+    "word_id": "new-hsk-2-0707",
+    "rank": 707,
+    "display_form": "早晨",
+    "error": "new-hsk-2-0707: sentence uses words outside allowed New HSK level set: 早晨我跑步。"
+  },
+  {
+    "line": 193,
+    "word_id": "new-hsk-2-0712",
+    "rank": 712,
+    "display_form": "占",
+    "error": "new-hsk-2-0712: sentence uses words outside allowed New HSK level set: 这个座位被他占了。"
+  },
+  {
+    "line": 195,
+    "word_id": "new-hsk-2-0714",
+    "rank": 714,
+    "display_form": "站住",
+    "error": "new-hsk-2-0714: sentence uses words outside allowed New HSK level set: 警察叫他站住。"
+  },
+  {
+    "line": 198,
+    "word_id": "new-hsk-2-0717",
+    "rank": 717,
+    "display_form": "找出",
+    "error": "new-hsk-2-0717: sentence uses words outside allowed New HSK level set: 请找出答案。"
+  },
+  {
+    "line": 200,
+    "word_id": "new-hsk-2-0719",
+    "rank": 719,
+    "display_form": "照片",
+    "error": "new-hsk-2-0719: sentence uses words outside allowed New HSK level set: 我看见这张照片。"
+  },
+  {
+    "line": 205,
+    "word_id": "new-hsk-2-0724",
+    "rank": 724,
+    "display_form": "真正",
+    "error": "new-hsk-2-0724: sentence uses words outside allowed New HSK level set: 我想要真正的答案。"
+  },
+  {
+    "line": 206,
+    "word_id": "new-hsk-2-0725",
+    "rank": 725,
+    "display_form": "正常",
+    "error": "new-hsk-2-0725: sentence uses words outside allowed New HSK level set: 今天一切正常。"
+  },
+  {
+    "line": 208,
+    "word_id": "new-hsk-2-0727",
+    "rank": 727,
+    "display_form": "正确",
+    "error": "new-hsk-2-0727: sentence uses words outside allowed New HSK level set: 你的答案正确。"
+  },
+  {
+    "line": 214,
+    "word_id": "new-hsk-2-0733",
+    "rank": 733,
+    "display_form": "纸",
+    "error": "new-hsk-2-0733: sentence uses words outside allowed New HSK level set: 我有一张纸。"
+  },
+  {
+    "line": 225,
+    "word_id": "new-hsk-2-0744",
+    "rank": 744,
+    "display_form": "周年",
+    "error": "new-hsk-2-0744: sentence uses words outside allowed New HSK level set: 今天是他们结婚周年。"
+  },
+  {
+    "line": 231,
+    "word_id": "new-hsk-2-0750",
+    "rank": 750,
+    "display_form": "准确",
+    "error": "new-hsk-2-0750: sentence uses words outside allowed New HSK level set: 你的答案很准确。"
+  },
+  {
+    "line": 243,
+    "word_id": "new-hsk-2-0762",
+    "rank": 762,
+    "display_form": "嘴",
+    "error": "new-hsk-2-0762: sentence uses words outside allowed New HSK level set: 他张开嘴。"
+  }
+]
