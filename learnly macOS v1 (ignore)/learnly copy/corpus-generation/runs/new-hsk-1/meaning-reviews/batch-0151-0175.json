@@ -1,0 +1,245 @@
+[
+  {
+    "word_id": "new-hsk-1-0151",
+    "rank": 151,
+    "lemma": "话",
+    "reviewed_meanings": [
+      "words",
+      "speech"
+    ],
+    "review_note": "Use the everyday noun meaning words or what someone says."
+  },
+  {
+    "word_id": "new-hsk-1-0152",
+    "rank": 152,
+    "lemma": "坏",
+    "reviewed_meanings": [
+      "bad",
+      "broken"
+    ],
+    "review_note": "Bad is the main meaning. Broken is also common for things that do not work."
+  },
+  {
+    "word_id": "new-hsk-1-0153",
+    "rank": 153,
+    "lemma": "还",
+    "reviewed_meanings": [
+      "return",
+      "give back"
+    ],
+    "review_note": "Use the verb return or give back for this pronunciation huán."
+  },
+  {
+    "word_id": "new-hsk-1-0154",
+    "rank": 154,
+    "lemma": "回",
+    "reviewed_meanings": [
+      "go back",
+      "return"
+    ],
+    "review_note": "Use the motion sense go back or return."
+  },
+  {
+    "word_id": "new-hsk-1-0155",
+    "rank": 155,
+    "lemma": "回答",
+    "reviewed_meanings": [
+      "answer",
+      "reply"
+    ],
+    "review_note": "Answer is the clearest primary beginner gloss."
+  },
+  {
+    "word_id": "new-hsk-1-0156",
+    "rank": 156,
+    "lemma": "回到",
+    "reviewed_meanings": [
+      "return to",
+      "go back to"
+    ],
+    "review_note": "Use the phrase return to or go back to a place."
+  },
+  {
+    "word_id": "new-hsk-1-0157",
+    "rank": 157,
+    "lemma": "回家",
+    "reviewed_meanings": [
+      "go home"
+    ],
+    "review_note": "Use the phrase go home."
+  },
+  {
+    "word_id": "new-hsk-1-0158",
+    "rank": 158,
+    "lemma": "回来",
+    "reviewed_meanings": [
+      "come back",
+      "return"
+    ],
+    "review_note": "Come back is the clearest primary gloss here."
+  },
+  {
+    "word_id": "new-hsk-1-0159",
+    "rank": 159,
+    "lemma": "回去",
+    "reviewed_meanings": [
+      "go back",
+      "go back there"
+    ],
+    "review_note": "Use the directional sense go back."
+  },
+  {
+    "word_id": "new-hsk-1-0160",
+    "rank": 160,
+    "lemma": "会",
+    "reviewed_meanings": [
+      "can",
+      "know how to"
+    ],
+    "review_note": "For this verb entry, use ability or know-how, not the noun meeting."
+  },
+  {
+    "word_id": "new-hsk-1-0161",
+    "rank": 161,
+    "lemma": "火车",
+    "reviewed_meanings": [
+      "train"
+    ],
+    "review_note": "Use the everyday noun train."
+  },
+  {
+    "word_id": "new-hsk-1-0162",
+    "rank": 162,
+    "lemma": "机场",
+    "reviewed_meanings": [
+      "airport"
+    ],
+    "review_note": "Use the noun airport."
+  },
+  {
+    "word_id": "new-hsk-1-0163",
+    "rank": 163,
+    "lemma": "机票",
+    "reviewed_meanings": [
+      "plane ticket",
+      "air ticket"
+    ],
+    "review_note": "Plane ticket is the clearest primary beginner gloss."
+  },
+  {
+    "word_id": "new-hsk-1-0164",
+    "rank": 164,
+    "lemma": "鸡蛋",
+    "reviewed_meanings": [
+      "egg"
+    ],
+    "review_note": "Use the noun egg."
+  },
+  {
+    "word_id": "new-hsk-1-0165",
+    "rank": 165,
+    "lemma": "几",
+    "reviewed_meanings": [
+      "how many",
+      "several"
+    ],
+    "review_note": "How many is the most important beginner use; several is a common secondary sense."
+  },
+  {
+    "word_id": "new-hsk-1-0166",
+    "rank": 166,
+    "lemma": "记",
+    "reviewed_meanings": [
+      "remember"
+    ],
+    "review_note": "Use the verb remember."
+  },
+  {
+    "word_id": "new-hsk-1-0167",
+    "rank": 167,
+    "lemma": "记得",
+    "reviewed_meanings": [
+      "remember",
+      "remember to"
+    ],
+    "review_note": "Remember is the core meaning, and remember to is a very common extension."
+  },
+  {
+    "word_id": "new-hsk-1-0168",
+    "rank": 168,
+    "lemma": "记住",
+    "reviewed_meanings": [
+      "remember",
+      "keep in mind"
+    ],
+    "review_note": "Use remember or keep in mind for this resultative form."
+  },
+  {
+    "word_id": "new-hsk-1-0169",
+    "rank": 169,
+    "lemma": "家",
+    "reviewed_meanings": [
+      "home",
+      "family"
+    ],
+    "review_note": "Home is the strongest primary meaning in HSK 1; family is a useful secondary sense."
+  },
+  {
+    "word_id": "new-hsk-1-0170",
+    "rank": 170,
+    "lemma": "家里",
+    "reviewed_meanings": [
+      "at home",
+      "in the house"
+    ],
+    "review_note": "Use the location meaning at home or in the house."
+  },
+  {
+    "word_id": "new-hsk-1-0171",
+    "rank": 171,
+    "lemma": "家人",
+    "reviewed_meanings": [
+      "family",
+      "family members"
+    ],
+    "review_note": "Use the noun family or family members."
+  },
+  {
+    "word_id": "new-hsk-1-0172",
+    "rank": 172,
+    "lemma": "间",
+    "reviewed_meanings": [
+      "measure word for rooms",
+      "between"
+    ],
+    "review_note": "The source marks this as a measure word, so prioritize the classifier sense for rooms or spaces. Use between only if it fits naturally and clearly."
+  },
+  {
+    "word_id": "new-hsk-1-0173",
+    "rank": 173,
+    "lemma": "见",
+    "reviewed_meanings": [
+      "see"
+    ],
+    "review_note": "Use the verb see as the primary HSK 1 meaning."
+  },
+  {
+    "word_id": "new-hsk-1-0174",
+    "rank": 174,
+    "lemma": "见面",
+    "reviewed_meanings": [
+      "meet",
+      "see each other"
+    ],
+    "review_note": "Meet is the clearest primary gloss."
+  },
+  {
+    "word_id": "new-hsk-1-0175",
+    "rank": 175,
+    "lemma": "教",
+    "reviewed_meanings": [
+      "teach"
+    ],
+    "review_note": "Use the verb teach."
+  }
+]

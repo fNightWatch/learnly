@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LanguageHack Study Screen Redesign 2</title>
+    <link rel="stylesheet" href="./study-screen-redesign-2.css" />
+  </head>
+  <body>
+    <main class="screen">
+      <header class="top">
+        <div class="timer-wrap">
+          <p class="timer">15:09</p>
+          <p class="timer-label">ELAPSED</p>
+        </div>
+
+        <div class="status-wrap">
+          <div class="due-wrap">
+            <div class="due-track"><span style="width: 24%"></span></div>
+            <p class="due-count">28 due</p>
+          </div>
+          <div class="header-actions">
+            <button class="pill btn-pause" type="button">Pause</button>
+            <button class="pill btn-end" type="button">End</button>
+          </div>
+        </div>
+      </header>
+
+      <section class="controls">
+        <div class="segmented mode-toggle">
+          <button class="active" type="button">HSK 2 → English</button>
+          <button type="button">English → HSK 2</button>
+        </div>
+
+        <div class="segmented speed-toggle" aria-label="Speed">
+          <button type="button">0.5×</button>
+          <button type="button">0.75×</button>
+          <button class="active" type="button">1×</button>
+          <button type="button">1.25×</button>
+          <button type="button">1.5×</button>
+          <button type="button">2×</button>
+        </div>
+      </section>
+
+      <section class="card-stage">
+        <p class="hanzi">不满</p>
+        <p class="pinyin">bù mǎn</p>
+
+        <div class="meanings" role="list" aria-label="Meanings">
+          <span role="listitem">dissatisfied</span>
+          <span role="listitem">unhappy</span>
+        </div>
+
+        <article class="example">
+          <p class="zh">顾客对这个服务很不满。</p>
+          <p class="en">The customer is very dissatisfied with this service.</p>
+        </article>
+      </section>
+
+      <section class="feedback">
+        <p>You forgot this word.</p>
+        <p>Take a moment to study it.</p>
+      </section>
+
+      <section class="actions">
+        <button class="primary" type="button">I'm done studying it</button>
+        <div class="secondary-row">
+          <button class="secondary" type="button">↑ Word</button>
+          <button class="secondary" type="button">↓ Sentence</button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

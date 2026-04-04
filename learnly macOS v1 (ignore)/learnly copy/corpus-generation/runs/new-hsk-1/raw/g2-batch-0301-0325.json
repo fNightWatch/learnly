@@ -1,0 +1,354 @@
+{
+  "results": [
+    {
+      "word_id": "new-hsk-1-0301",
+      "rank": 301,
+      "lemma": "球",
+      "examples": [
+        {
+          "slot": 3,
+          "meaning_en": "ball",
+          "sentence": "球在车上，不在地上。",
+          "translation": "The ball is in the car, not on the ground.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0302",
+      "rank": 302,
+      "lemma": "去",
+      "examples": [
+        {
+          "slot": 3,
+          "meaning_en": "go",
+          "sentence": "我今天下午去商场买书。",
+          "translation": "I'm going to the mall this afternoon to buy books.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0303",
+      "rank": 303,
+      "lemma": "去年",
+      "examples": [
+        {
+          "slot": 3,
+          "meaning_en": "last year",
+          "sentence": "去年我和家人去北京。",
+          "translation": "Last year I went to Beijing with my family.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0304",
+      "rank": 304,
+      "lemma": "热",
+      "examples": [
+        {
+          "slot": 3,
+          "meaning_en": "hot",
+          "sentence": "今天很热，我们喝水吧。",
+          "translation": "It's very hot today, so let's drink some water.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0305",
+      "rank": 305,
+      "lemma": "人",
+      "examples": [
+        {
+          "slot": 3,
+          "meaning_en": "person",
+          "sentence": "门口有一个人等你。",
+          "translation": "There is a person waiting for you at the door.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0306",
+      "rank": 306,
+      "lemma": "认识",
+      "examples": [
+        {
+          "slot": 3,
+          "meaning_en": "know",
+          "sentence": "我认识老师的女儿。",
+          "translation": "I know the teacher's daughter.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0307",
+      "rank": 307,
+      "lemma": "认真",
+      "examples": [
+        {
+          "slot": 3,
+          "meaning_en": "serious",
+          "sentence": "他上课很认真，不看手机。",
+          "translation": "He is very serious in class and doesn't look at his phone.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0308",
+      "rank": 308,
+      "lemma": "日",
+      "examples": [
+        {
+          "slot": 3,
+          "meaning_en": "day",
+          "sentence": "今天是星期日，我们去商场。",
+          "translation": "Today is Sunday, and we're going to the mall.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0309",
+      "rank": 309,
+      "lemma": "日期",
+      "examples": [
+        {
+          "slot": 3,
+          "meaning_en": "date",
+          "sentence": "请你写日期和名字。",
+          "translation": "Please write the date and your name.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0310",
+      "rank": 310,
+      "lemma": "肉",
+      "examples": [
+        {
+          "slot": 3,
+          "meaning_en": "meat",
+          "sentence": "我中午想吃米饭和肉。",
+          "translation": "I want to eat rice and meat at noon.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0311",
+      "rank": 311,
+      "lemma": "三",
+      "examples": [
+        {
+          "slot": 3,
+          "meaning_en": "three",
+          "sentence": "我买了三本书。",
+          "translation": "I bought three books.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0312",
+      "rank": 312,
+      "lemma": "山",
+      "examples": [
+        {
+          "slot": 3,
+          "meaning_en": "mountain",
+          "sentence": "北京西边有山吗？",
+          "translation": "Are there mountains to the west of Beijing?",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0313",
+      "rank": 313,
+      "lemma": "商场",
+      "examples": [
+        {
+          "slot": 3,
+          "meaning_en": "shopping mall",
+          "sentence": "我们星期天去商场买衣服。",
+          "translation": "We're going to the shopping mall on Sunday to buy clothes.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0314",
+      "rank": 314,
+      "lemma": "商店",
+      "examples": [
+        {
+          "slot": 3,
+          "meaning_en": "shop",
+          "sentence": "我在商店买水和面包。",
+          "translation": "I buy water and bread at the shop.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0315",
+      "rank": 315,
+      "lemma": "上",
+      "examples": [
+        {
+          "slot": 3,
+          "meaning_en": "on",
+          "sentence": "桌子上有书，不在地上。",
+          "translation": "The book is on the table, not on the ground.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0316",
+      "rank": 316,
+      "lemma": "上班",
+      "examples": [
+        {
+          "slot": 3,
+          "meaning_en": "go to work",
+          "sentence": "爸爸早上开车去上班。",
+          "translation": "Dad drives to work in the morning.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0317",
+      "rank": 317,
+      "lemma": "上边",
+      "examples": [
+        {
+          "slot": 3,
+          "meaning_en": "above",
+          "sentence": "名字在日期上边，不在下边。",
+          "translation": "The name is above the date, not below it.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0318",
+      "rank": 318,
+      "lemma": "上车",
+      "examples": [
+        {
+          "slot": 3,
+          "meaning_en": "get on",
+          "sentence": "我们到车站就上车。",
+          "translation": "We get on as soon as we arrive at the station.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0319",
+      "rank": 319,
+      "lemma": "上次",
+      "examples": [
+        {
+          "slot": 3,
+          "meaning_en": "last time",
+          "sentence": "上次我们在机场见面。",
+          "translation": "Last time we met at the airport.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0320",
+      "rank": 320,
+      "lemma": "上课",
+      "examples": [
+        {
+          "slot": 3,
+          "meaning_en": "attend class",
+          "sentence": "我们今天上午在学校上课。",
+          "translation": "We have class at school this morning.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0321",
+      "rank": 321,
+      "lemma": "上网",
+      "examples": [
+        {
+          "slot": 3,
+          "meaning_en": "go online",
+          "sentence": "我晚上用电脑上网。",
+          "translation": "I go online on the computer at night.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0322",
+      "rank": 322,
+      "lemma": "上午",
+      "examples": [
+        {
+          "slot": 3,
+          "meaning_en": "morning",
+          "sentence": "上午我和朋友去书店。",
+          "translation": "In the morning, my friend and I go to the bookstore.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0323",
+      "rank": 323,
+      "lemma": "上学",
+      "examples": [
+        {
+          "slot": 3,
+          "meaning_en": "go to school",
+          "sentence": "妹妹早上和我一起上学。",
+          "translation": "My younger sister goes to school with me in the morning.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0324",
+      "rank": 324,
+      "lemma": "少",
+      "examples": [
+        {
+          "slot": 3,
+          "meaning_en": "few",
+          "sentence": "这里人很少，我们坐这儿吧。",
+          "translation": "There are few people here, so let's sit here.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-1-0325",
+      "rank": 325,
+      "lemma": "谁",
+      "examples": [
+        {
+          "slot": 3,
+          "meaning_en": "who",
+          "sentence": "谁在门口叫你呢？",
+          "translation": "Who is calling you at the door?",
+          "difficulty": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,346 @@
+[
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0026",
+    "rank": 26,
+    "display_form": "变成",
+    "lemma": "变成",
+    "generation_form": "变成",
+    "pronunciation": "biàn chéng",
+    "pos": "unknown",
+    "primary_gloss": "become",
+    "secondary_glosses": [
+      "change into"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0027",
+    "rank": 27,
+    "display_form": "遍",
+    "lemma": "遍",
+    "generation_form": "遍",
+    "pronunciation": "biàn",
+    "pos": "unknown",
+    "primary_gloss": "Times",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0028",
+    "rank": 28,
+    "display_form": "表",
+    "lemma": "表",
+    "generation_form": "表",
+    "pronunciation": "biǎo",
+    "pos": "unknown",
+    "primary_gloss": "watch",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0029",
+    "rank": 29,
+    "display_form": "表示",
+    "lemma": "表示",
+    "generation_form": "表示",
+    "pronunciation": "biǎoshì",
+    "pos": "unknown",
+    "primary_gloss": "Express",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0030",
+    "rank": 30,
+    "display_form": "不错",
+    "lemma": "不错",
+    "generation_form": "不错",
+    "pronunciation": "bú cuò",
+    "pos": "unknown",
+    "primary_gloss": "not bad",
+    "secondary_glosses": [
+      "pretty good"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0031",
+    "rank": 31,
+    "display_form": "不但",
+    "lemma": "不但",
+    "generation_form": "不但",
+    "pronunciation": "bú dàn",
+    "pos": "unknown",
+    "primary_gloss": "not only",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0032",
+    "rank": 32,
+    "display_form": "不够",
+    "lemma": "不够",
+    "generation_form": "不够",
+    "pronunciation": "bú gòu",
+    "pos": "unknown",
+    "primary_gloss": "not enough",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0033",
+    "rank": 33,
+    "display_form": "不过",
+    "lemma": "不过",
+    "generation_form": "不过",
+    "pronunciation": "búguò",
+    "pos": "unknown",
+    "primary_gloss": "However",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0034",
+    "rank": 34,
+    "display_form": "不太",
+    "lemma": "不太",
+    "generation_form": "不太",
+    "pronunciation": "bú tài",
+    "pos": "unknown",
+    "primary_gloss": "not too",
+    "secondary_glosses": [
+      "not very much"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0035",
+    "rank": 35,
+    "display_form": "不要",
+    "lemma": "不要",
+    "generation_form": "不要",
+    "pronunciation": "bú yào",
+    "pos": "unknown",
+    "primary_gloss": "don't",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0036",
+    "rank": 36,
+    "display_form": "不好意思",
+    "lemma": "不好意思",
+    "generation_form": "不好意思",
+    "pronunciation": "bù hǎo yì sī",
+    "pos": "unknown",
+    "primary_gloss": "sorry",
+    "secondary_glosses": [
+      "feel embarrassed"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0037",
+    "rank": 37,
+    "display_form": "不久",
+    "lemma": "不久",
+    "generation_form": "不久",
+    "pronunciation": "bù jiǔ",
+    "pos": "unknown",
+    "primary_gloss": "soon",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0038",
+    "rank": 38,
+    "display_form": "不满",
+    "lemma": "不满",
+    "generation_form": "不满",
+    "pronunciation": "bù mǎn",
+    "pos": "unknown",
+    "primary_gloss": "dissatisfied",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0039",
+    "rank": 39,
+    "display_form": "不如",
+    "lemma": "不如",
+    "generation_form": "不如",
+    "pronunciation": "bùrú",
+    "pos": "unknown",
+    "primary_gloss": "not as good as",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0040",
+    "rank": 40,
+    "display_form": "不少",
+    "lemma": "不少",
+    "generation_form": "不少",
+    "pronunciation": "bù shǎo",
+    "pos": "unknown",
+    "primary_gloss": "not a few",
+    "secondary_glosses": [
+      "a lot"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0041",
+    "rank": 41,
+    "display_form": "不同",
+    "lemma": "不同",
+    "generation_form": "不同",
+    "pronunciation": "bù tóng",
+    "pos": "unknown",
+    "primary_gloss": "different",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0042",
+    "rank": 42,
+    "display_form": "不行",
+    "lemma": "不行",
+    "generation_form": "不行",
+    "pronunciation": "bù xíng",
+    "pos": "unknown",
+    "primary_gloss": "no way",
+    "secondary_glosses": [
+      "be out of the question"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0043",
+    "rank": 43,
+    "display_form": "不一定",
+    "lemma": "不一定",
+    "generation_form": "不一定",
+    "pronunciation": "bù yī dìng",
+    "pos": "unknown",
+    "primary_gloss": "not necessarily",
+    "secondary_glosses": [
+      "uncertain"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0044",
+    "rank": 44,
+    "display_form": "不一会儿",
+    "lemma": "不一会儿",
+    "generation_form": "不一会儿",
+    "pronunciation": "bù yī huìr",
+    "pos": "unknown",
+    "primary_gloss": "in a moment",
+    "secondary_glosses": [
+      "in a little while",
+      "soon"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0045",
+    "rank": 45,
+    "display_form": "部分",
+    "lemma": "部分",
+    "generation_form": "部分",
+    "pronunciation": "bùfen",
+    "pos": "unknown",
+    "primary_gloss": "Part",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0046",
+    "rank": 46,
+    "display_form": "才（副）",
+    "lemma": "才",
+    "generation_form": "才",
+    "pronunciation": "cái",
+    "pos": "adverb",
+    "primary_gloss": "only",
+    "secondary_glosses": [
+      "just"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0047",
+    "rank": 47,
+    "display_form": "菜单",
+    "lemma": "菜单",
+    "generation_form": "菜单",
+    "pronunciation": "càidān",
+    "pos": "unknown",
+    "primary_gloss": "menu",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0048",
+    "rank": 48,
+    "display_form": "参观",
+    "lemma": "参观",
+    "generation_form": "参观",
+    "pronunciation": "cānguān",
+    "pos": "unknown",
+    "primary_gloss": "visit",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0049",
+    "rank": 49,
+    "display_form": "参加",
+    "lemma": "参加",
+    "generation_form": "参加",
+    "pronunciation": "cānjiā",
+    "pos": "unknown",
+    "primary_gloss": "participate in",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0050",
+    "rank": 50,
+    "display_form": "草",
+    "lemma": "草",
+    "generation_form": "草",
+    "pronunciation": "cǎo",
+    "pos": "unknown",
+    "primary_gloss": "grass",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  }
+]

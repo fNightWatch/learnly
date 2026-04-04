@@ -1,0 +1,72 @@
+[
+  {
+    "line": 20,
+    "word_id": "new-hsk-2-0029",
+    "rank": 29,
+    "display_form": "表示",
+    "error": "new-hsk-2-0029: sentence uses words outside allowed New HSK level set: 这张地图表示学校在东边。"
+  },
+  {
+    "line": 53,
+    "word_id": "new-hsk-2-0062",
+    "rank": 62,
+    "display_form": "称¹",
+    "error": "new-hsk-2-0062: sentence uses words outside allowed New HSK level set: 大家都称他班长。"
+  },
+  {
+    "line": 116,
+    "word_id": "new-hsk-2-0125",
+    "rank": 125,
+    "display_form": "地铁",
+    "error": "new-hsk-2-0125: sentence uses words outside allowed New HSK level set: 爸爸每天坐地铁上班。"
+  },
+  {
+    "line": 150,
+    "word_id": "new-hsk-2-0159",
+    "rank": 159,
+    "display_form": "方法",
+    "error": "new-hsk-2-0159: sentence uses words outside allowed New HSK level set: 我们终于找到方法了。"
+  },
+  {
+    "line": 155,
+    "word_id": "new-hsk-2-0164",
+    "rank": 164,
+    "display_form": "分",
+    "error": "new-hsk-2-0164: sentence uses words outside allowed New HSK level set: 妈妈分蛋糕给大家。"
+  },
+  {
+    "line": 156,
+    "word_id": "new-hsk-2-0165",
+    "rank": 165,
+    "display_form": "分开",
+    "error": "new-hsk-2-0165: sentence uses words outside allowed New HSK level set: 请把这些词语分开写。"
+  },
+  {
+    "line": 158,
+    "word_id": "new-hsk-2-0167",
+    "rank": 167,
+    "display_form": "分钟",
+    "error": "new-hsk-2-0167: sentence uses words outside allowed New HSK level set: 电影开始五分钟了。"
+  },
+  {
+    "line": 159,
+    "word_id": "new-hsk-2-0168",
+    "rank": 168,
+    "display_form": "份",
+    "error": "new-hsk-2-0168: sentence uses words outside allowed New HSK level set: 老师给每个学生一份地图。"
+  },
+  {
+    "line": 179,
+    "word_id": "new-hsk-2-0188",
+    "rank": 188,
+    "display_form": "公共汽车",
+    "error": "new-hsk-2-0188: sentence uses words outside allowed New HSK level set: 爸爸每天坐公共汽车上班。"
+  },
+  {
+    "line": 190,
+    "word_id": "new-hsk-2-0199",
+    "rank": 199,
+    "display_form": "故意",
+    "error": "new-hsk-2-0199: sentence uses words outside allowed New HSK level set: 弟弟故意把门打开了。"
+  }
+]

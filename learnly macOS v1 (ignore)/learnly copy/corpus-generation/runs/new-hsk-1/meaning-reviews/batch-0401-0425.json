@@ -1,0 +1,235 @@
+[
+  {
+    "word_id": "new-hsk-1-0401",
+    "rank": 401,
+    "lemma": "小",
+    "reviewed_meanings": [
+      "small",
+      "little"
+    ],
+    "review_note": "Small is the clearest primary gloss; little is a useful secondary gloss."
+  },
+  {
+    "word_id": "new-hsk-1-0402",
+    "rank": 402,
+    "lemma": "小孩儿",
+    "reviewed_meanings": [
+      "child",
+      "kid"
+    ],
+    "review_note": "Child is the clearest primary gloss; kid is a natural secondary gloss."
+  },
+  {
+    "word_id": "new-hsk-1-0403",
+    "rank": 403,
+    "lemma": "小姐",
+    "reviewed_meanings": [
+      "Miss"
+    ],
+    "review_note": "Use the form of address Miss."
+  },
+  {
+    "word_id": "new-hsk-1-0404",
+    "rank": 404,
+    "lemma": "小朋友",
+    "reviewed_meanings": [
+      "child"
+    ],
+    "review_note": "Use the noun child."
+  },
+  {
+    "word_id": "new-hsk-1-0405",
+    "rank": 405,
+    "lemma": "小时",
+    "reviewed_meanings": [
+      "hour"
+    ],
+    "review_note": "Use the noun hour."
+  },
+  {
+    "word_id": "new-hsk-1-0406",
+    "rank": 406,
+    "lemma": "小学",
+    "reviewed_meanings": [
+      "primary school"
+    ],
+    "review_note": "Use the noun primary school."
+  },
+  {
+    "word_id": "new-hsk-1-0407",
+    "rank": 407,
+    "lemma": "小学生",
+    "reviewed_meanings": [
+      "primary school student"
+    ],
+    "review_note": "Use the noun primary school student."
+  },
+  {
+    "word_id": "new-hsk-1-0408",
+    "rank": 408,
+    "lemma": "笑",
+    "reviewed_meanings": [
+      "laugh",
+      "smile"
+    ],
+    "review_note": "Laugh is the clearest primary gloss; smile is a useful secondary gloss when natural."
+  },
+  {
+    "word_id": "new-hsk-1-0409",
+    "rank": 409,
+    "lemma": "写",
+    "reviewed_meanings": [
+      "write"
+    ],
+    "review_note": "Use the verb write."
+  },
+  {
+    "word_id": "new-hsk-1-0410",
+    "rank": 410,
+    "lemma": "谢谢",
+    "reviewed_meanings": [
+      "thank you"
+    ],
+    "review_note": "Use the phrase thank you."
+  },
+  {
+    "word_id": "new-hsk-1-0411",
+    "rank": 411,
+    "lemma": "新",
+    "reviewed_meanings": [
+      "new"
+    ],
+    "review_note": "Use the adjective new."
+  },
+  {
+    "word_id": "new-hsk-1-0412",
+    "rank": 412,
+    "lemma": "新年",
+    "reviewed_meanings": [
+      "New Year"
+    ],
+    "review_note": "Use the noun New Year."
+  },
+  {
+    "word_id": "new-hsk-1-0413",
+    "rank": 413,
+    "lemma": "星期",
+    "reviewed_meanings": [
+      "week"
+    ],
+    "review_note": "Use the noun week."
+  },
+  {
+    "word_id": "new-hsk-1-0414",
+    "rank": 414,
+    "lemma": "星期日",
+    "reviewed_meanings": [
+      "Sunday"
+    ],
+    "review_note": "Use the day name Sunday."
+  },
+  {
+    "word_id": "new-hsk-1-0415",
+    "rank": 415,
+    "lemma": "星期天",
+    "reviewed_meanings": [
+      "Sunday"
+    ],
+    "review_note": "Use the day name Sunday."
+  },
+  {
+    "word_id": "new-hsk-1-0416",
+    "rank": 416,
+    "lemma": "行",
+    "reviewed_meanings": [
+      "okay",
+      "all right"
+    ],
+    "review_note": "Okay is the clearest primary gloss in this beginner set; all right is a natural secondary gloss."
+  },
+  {
+    "word_id": "new-hsk-1-0417",
+    "rank": 417,
+    "lemma": "休息",
+    "reviewed_meanings": [
+      "rest"
+    ],
+    "review_note": "Use the verb rest."
+  },
+  {
+    "word_id": "new-hsk-1-0418",
+    "rank": 418,
+    "lemma": "学",
+    "reviewed_meanings": [
+      "learn"
+    ],
+    "review_note": "Use the verb learn."
+  },
+  {
+    "word_id": "new-hsk-1-0419",
+    "rank": 419,
+    "lemma": "学生",
+    "reviewed_meanings": [
+      "student"
+    ],
+    "review_note": "Use the noun student."
+  },
+  {
+    "word_id": "new-hsk-1-0420",
+    "rank": 420,
+    "lemma": "学习",
+    "reviewed_meanings": [
+      "study",
+      "learn"
+    ],
+    "review_note": "Study is the clearest primary gloss; learn is a useful secondary gloss."
+  },
+  {
+    "word_id": "new-hsk-1-0421",
+    "rank": 421,
+    "lemma": "学校",
+    "reviewed_meanings": [
+      "school"
+    ],
+    "review_note": "Use the noun school."
+  },
+  {
+    "word_id": "new-hsk-1-0422",
+    "rank": 422,
+    "lemma": "学院",
+    "reviewed_meanings": [
+      "college"
+    ],
+    "review_note": "Use the noun college."
+  },
+  {
+    "word_id": "new-hsk-1-0423",
+    "rank": 423,
+    "lemma": "要",
+    "reviewed_meanings": [
+      "want",
+      "need"
+    ],
+    "review_note": "Want is the clearest primary gloss for beginner examples; need is a useful secondary gloss when natural."
+  },
+  {
+    "word_id": "new-hsk-1-0424",
+    "rank": 424,
+    "lemma": "爷爷",
+    "reviewed_meanings": [
+      "grandpa",
+      "grandfather"
+    ],
+    "review_note": "Grandpa is the clearest everyday gloss."
+  },
+  {
+    "word_id": "new-hsk-1-0425",
+    "rank": 425,
+    "lemma": "也",
+    "reviewed_meanings": [
+      "also",
+      "too"
+    ],
+    "review_note": "Also is the clearest primary gloss; too is a natural secondary gloss."
+  }
+]

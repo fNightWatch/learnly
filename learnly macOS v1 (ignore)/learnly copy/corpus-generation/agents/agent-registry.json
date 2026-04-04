@@ -1,0 +1,29 @@
+{
+  "created_at": "2026-04-04T00:00:00Z",
+  "agents": [
+    {
+      "role": "generator-1",
+      "label": "Concrete Scenes Generator 1",
+      "prompt_file": "agents/generator-1-concrete-scenes.md",
+      "agent_id": "019d58c9-5252-7850-bc88-2b0983bf33d1",
+      "nickname": "Boyle",
+      "model": "gpt-5.4-mini"
+    },
+    {
+      "role": "generator-2",
+      "label": "Concrete Scenes Generator 2",
+      "prompt_file": "agents/generator-1-concrete-scenes.md",
+      "agent_id": "019d58c9-52e8-77f0-a9d0-f4ec79830015",
+      "nickname": "Beauvoir",
+      "model": "gpt-5.4-mini"
+    },
+    {
+      "role": "generator-3",
+      "label": "Concrete Scenes Generator 3",
+      "prompt_file": "agents/generator-1-concrete-scenes.md",
+      "agent_id": "019d58c9-53ab-7420-a976-0fb119cdd8bf",
+      "nickname": "Curie",
+      "model": "gpt-5.4-mini"
+    }
+  ]
+}

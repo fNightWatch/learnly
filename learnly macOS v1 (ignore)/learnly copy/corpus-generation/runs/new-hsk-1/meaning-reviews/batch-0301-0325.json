@@ -1,0 +1,238 @@
+[
+  {
+    "word_id": "new-hsk-1-0301",
+    "rank": 301,
+    "lemma": "球",
+    "reviewed_meanings": [
+      "ball"
+    ],
+    "review_note": "Use the noun ball."
+  },
+  {
+    "word_id": "new-hsk-1-0302",
+    "rank": 302,
+    "lemma": "去",
+    "reviewed_meanings": [
+      "go"
+    ],
+    "review_note": "Use the common verb go."
+  },
+  {
+    "word_id": "new-hsk-1-0303",
+    "rank": 303,
+    "lemma": "去年",
+    "reviewed_meanings": [
+      "last year"
+    ],
+    "review_note": "Use the time phrase last year."
+  },
+  {
+    "word_id": "new-hsk-1-0304",
+    "rank": 304,
+    "lemma": "热",
+    "reviewed_meanings": [
+      "hot"
+    ],
+    "review_note": "Use the adjective hot rather than the noun heat."
+  },
+  {
+    "word_id": "new-hsk-1-0305",
+    "rank": 305,
+    "lemma": "人",
+    "reviewed_meanings": [
+      "person",
+      "people"
+    ],
+    "review_note": "Person is the clearest basic gloss; people is a useful secondary gloss."
+  },
+  {
+    "word_id": "new-hsk-1-0306",
+    "rank": 306,
+    "lemma": "认识",
+    "reviewed_meanings": [
+      "know",
+      "recognize"
+    ],
+    "review_note": "Use know as the strongest learner-facing gloss; recognize is a useful secondary gloss."
+  },
+  {
+    "word_id": "new-hsk-1-0307",
+    "rank": 307,
+    "lemma": "认真",
+    "reviewed_meanings": [
+      "serious",
+      "careful"
+    ],
+    "review_note": "Serious is the clearest primary gloss for beginner examples."
+  },
+  {
+    "word_id": "new-hsk-1-0308",
+    "rank": 308,
+    "lemma": "日",
+    "reviewed_meanings": [
+      "day"
+    ],
+    "review_note": "Use the noun day for this basic written form."
+  },
+  {
+    "word_id": "new-hsk-1-0309",
+    "rank": 309,
+    "lemma": "日期",
+    "reviewed_meanings": [
+      "date"
+    ],
+    "review_note": "Use the noun date."
+  },
+  {
+    "word_id": "new-hsk-1-0310",
+    "rank": 310,
+    "lemma": "肉",
+    "reviewed_meanings": [
+      "meat"
+    ],
+    "review_note": "Use the noun meat."
+  },
+  {
+    "word_id": "new-hsk-1-0311",
+    "rank": 311,
+    "lemma": "三",
+    "reviewed_meanings": [
+      "three"
+    ],
+    "review_note": "Use the number three."
+  },
+  {
+    "word_id": "new-hsk-1-0312",
+    "rank": 312,
+    "lemma": "山",
+    "reviewed_meanings": [
+      "mountain"
+    ],
+    "review_note": "Use the noun mountain."
+  },
+  {
+    "word_id": "new-hsk-1-0313",
+    "rank": 313,
+    "lemma": "商场",
+    "reviewed_meanings": [
+      "shopping mall",
+      "mall"
+    ],
+    "review_note": "Shopping mall is the clearest primary gloss."
+  },
+  {
+    "word_id": "new-hsk-1-0314",
+    "rank": 314,
+    "lemma": "商店",
+    "reviewed_meanings": [
+      "shop",
+      "store"
+    ],
+    "review_note": "Shop is the simplest primary gloss; store is a natural secondary gloss."
+  },
+  {
+    "word_id": "new-hsk-1-0315",
+    "rank": 315,
+    "lemma": "上",
+    "reviewed_meanings": [
+      "on",
+      "above"
+    ],
+    "review_note": "Use on as the clearest basic gloss; above is a useful secondary sense in simple location examples."
+  },
+  {
+    "word_id": "new-hsk-1-0316",
+    "rank": 316,
+    "lemma": "上班",
+    "reviewed_meanings": [
+      "go to work"
+    ],
+    "review_note": "Use the everyday verb go to work."
+  },
+  {
+    "word_id": "new-hsk-1-0317",
+    "rank": 317,
+    "lemma": "上边",
+    "reviewed_meanings": [
+      "above",
+      "on top"
+    ],
+    "review_note": "Above is the clearest primary gloss."
+  },
+  {
+    "word_id": "new-hsk-1-0318",
+    "rank": 318,
+    "lemma": "上车",
+    "reviewed_meanings": [
+      "get on",
+      "board"
+    ],
+    "review_note": "Use get on for vehicles; board is a natural secondary gloss."
+  },
+  {
+    "word_id": "new-hsk-1-0319",
+    "rank": 319,
+    "lemma": "上次",
+    "reviewed_meanings": [
+      "last time"
+    ],
+    "review_note": "Use the time phrase last time."
+  },
+  {
+    "word_id": "new-hsk-1-0320",
+    "rank": 320,
+    "lemma": "上课",
+    "reviewed_meanings": [
+      "attend class",
+      "have class"
+    ],
+    "review_note": "Attend class is the clearest primary gloss."
+  },
+  {
+    "word_id": "new-hsk-1-0321",
+    "rank": 321,
+    "lemma": "上网",
+    "reviewed_meanings": [
+      "go online",
+      "use the internet"
+    ],
+    "review_note": "Go online is the clearest primary gloss."
+  },
+  {
+    "word_id": "new-hsk-1-0322",
+    "rank": 322,
+    "lemma": "上午",
+    "reviewed_meanings": [
+      "morning"
+    ],
+    "review_note": "Use the time word morning for the part of the day before noon."
+  },
+  {
+    "word_id": "new-hsk-1-0323",
+    "rank": 323,
+    "lemma": "上学",
+    "reviewed_meanings": [
+      "go to school"
+    ],
+    "review_note": "Use the everyday verb go to school."
+  },
+  {
+    "word_id": "new-hsk-1-0324",
+    "rank": 324,
+    "lemma": "少",
+    "reviewed_meanings": [
+      "few",
+      "little"
+    ],
+    "review_note": "Few is the clearest primary gloss; little is a useful secondary gloss."
+  },
+  {
+    "word_id": "new-hsk-1-0325",
+    "rank": 325,
+    "lemma": "谁",
+    "reviewed_meanings": [
+      "who"
+    ],
+    "review_note": "Use the question word who."
+  }
+]

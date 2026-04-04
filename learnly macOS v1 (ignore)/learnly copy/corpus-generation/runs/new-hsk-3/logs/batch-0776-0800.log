@@ -1,0 +1,46 @@
+2026-04-04T15:12:47.532795Z  WARN codex_core::project_doc: Project doc `/Users/moi/Desktop/business/learnly/corpus-generation/AGENTS.md` exceeds remaining budget (9567 bytes) - truncating.
+OpenAI Codex v0.118.0-alpha.2 (research preview)
+--------
+workdir: /Users/moi/Desktop/business/learnly/corpus-generation
+model: gpt-5.4
+provider: openai
+approval: never
+sandbox: danger-full-access
+reasoning effort: xhigh
+reasoning summaries: none
+session id: 019d590d-c3ad-7f62-8de3-f0f821cdf335
+--------
+user
+You are generator-3 producing a final JSONL file for the HSK3 corpus.
+
+Read these files:
+- standing rules: /Users/moi/Desktop/business/learnly/corpus-generation/corpus generation.md
+- orchestrator prompt: /Users/moi/Desktop/business/learnly/corpus-generation/ORCHESTRATOR_PROMPT.md
+- generator prompt: /Users/moi/Desktop/business/learnly/corpus-generation/agents/generator-1-concrete-scenes.md
+- batch manifest: /Users/moi/Desktop/business/learnly/corpus-generation/runs/new-hsk-3/batches/batch-0776-0800.json
+
+Write this output file exactly:
+- /Users/moi/Desktop/business/learnly/corpus-generation/runs/new-hsk-3/generated/generator-3/batch-0776-0800.jsonl
+
+Requirements:
+- Output ONLY valid JSONL, one final payload object per line.
+- Use the exact ingestion shape expected by orchestrator.py validate-jsonl / ingest-jsonl.
+- Use source = generator-3 for every example.
+- Each word must have exactly 3 examples and exactly 1 primary example.
+- Each example needs: id, meaning_en, sentence, translation, difficulty, source, is_primary.
+- The word object must preserve id, lang=zh, lemma, display_form, pos, rank, pronunciation.
+- The gloss block must include primary_gloss, secondary_glosses, notes.
+- Treat the source PDF English as a baseline only, and include important common meanings in easy learner-facing English.
+- Every Chinese sentence must use only New HSK 1 + New HSK 2 + New HSK 3 vocabulary.
+- HSK3 sentences should be only slightly harder than HSK2, not much harder.
+- Sentences must be concrete, native-sounding, visualizable, and easy for learners.
+- Do not use obscure meanings just to create variety.
+- Keep the most important meaning clearly represented in the 3 examples.
+- Validate the finished JSONL with:
+  python3 orchestrator.py --db-path corpus-hsk-3.sqlite validate-jsonl /Users/moi/Desktop/business/learnly/corpus-generation/runs/new-hsk-3/generated/generator-3/batch-0776-0800.jsonl
+- If validation fails, fix the file and revalidate before finishing.
+- When done, write only the JSONL file and no extra text.
+
+2026-04-04T15:12:47.572258Z  WARN codex_core::shell_snapshot: Failed to delete shell snapshot at "/Users/moi/.codex/shell_snapshots/019d590d-c3ad-7f62-8de3-f0f821cdf335.tmp-1775315567536420000": Os { code: 2, kind: NotFound, message: "No such file or directory" }
+ERROR: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 7:54 PM.
+ERROR: You've hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 7:54 PM.

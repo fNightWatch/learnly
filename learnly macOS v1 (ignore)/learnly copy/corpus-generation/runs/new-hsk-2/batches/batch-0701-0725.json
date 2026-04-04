@@ -1,0 +1,348 @@
+[
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0701",
+    "rank": 701,
+    "display_form": "云",
+    "lemma": "云",
+    "generation_form": "云",
+    "pronunciation": "yún",
+    "pos": "unknown",
+    "primary_gloss": "cloud",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0702",
+    "rank": 702,
+    "display_form": "运动",
+    "lemma": "运动",
+    "generation_form": "运动",
+    "pronunciation": "yùndòng",
+    "pos": "unknown",
+    "primary_gloss": "motion",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0703",
+    "rank": 703,
+    "display_form": "咱",
+    "lemma": "咱",
+    "generation_form": "咱",
+    "pronunciation": "zán",
+    "pos": "unknown",
+    "primary_gloss": "we",
+    "secondary_glosses": [
+      "us"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0704",
+    "rank": 704,
+    "display_form": "咱们",
+    "lemma": "咱们",
+    "generation_form": "咱们",
+    "pronunciation": "zánmen",
+    "pos": "unknown",
+    "primary_gloss": "We",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0705",
+    "rank": 705,
+    "display_form": "脏",
+    "lemma": "脏",
+    "generation_form": "脏",
+    "pronunciation": "zāng",
+    "pos": "unknown",
+    "primary_gloss": "dirty",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0706",
+    "rank": 706,
+    "display_form": "早餐",
+    "lemma": "早餐",
+    "generation_form": "早餐",
+    "pronunciation": "zǎo cān",
+    "pos": "unknown",
+    "primary_gloss": "breakfast",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0707",
+    "rank": 707,
+    "display_form": "早晨",
+    "lemma": "早晨",
+    "generation_form": "早晨",
+    "pronunciation": "zǎo chén",
+    "pos": "unknown",
+    "primary_gloss": "morning",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0708",
+    "rank": 708,
+    "display_form": "早就",
+    "lemma": "早就",
+    "generation_form": "早就",
+    "pronunciation": "zǎo jiù",
+    "pos": "unknown",
+    "primary_gloss": "long since",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0709",
+    "rank": 709,
+    "display_form": "怎么办",
+    "lemma": "怎么办",
+    "generation_form": "怎么办",
+    "pronunciation": "zěn me bàn",
+    "pos": "unknown",
+    "primary_gloss": "how to",
+    "secondary_glosses": [
+      "what to do"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0710",
+    "rank": 710,
+    "display_form": "怎么样",
+    "lemma": "怎么样",
+    "generation_form": "怎么样",
+    "pronunciation": "zěnmeyàng",
+    "pos": "unknown",
+    "primary_gloss": "How about",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0711",
+    "rank": 711,
+    "display_form": "怎样",
+    "lemma": "怎样",
+    "generation_form": "怎样",
+    "pronunciation": "zěn yàng",
+    "pos": "unknown",
+    "primary_gloss": "how",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0712",
+    "rank": 712,
+    "display_form": "占",
+    "lemma": "占",
+    "generation_form": "占",
+    "pronunciation": "zhàn",
+    "pos": "unknown",
+    "primary_gloss": "occupy",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0713",
+    "rank": 713,
+    "display_form": "站（动）",
+    "lemma": "站",
+    "generation_form": "站",
+    "pronunciation": "zhàn",
+    "pos": "verb",
+    "primary_gloss": "stand",
+    "secondary_glosses": [
+      "stop",
+      "halt"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0714",
+    "rank": 714,
+    "display_form": "站住",
+    "lemma": "站住",
+    "generation_form": "站住",
+    "pronunciation": "zhàn zhù",
+    "pos": "unknown",
+    "primary_gloss": "stop",
+    "secondary_glosses": [
+      "halt"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0715",
+    "rank": 715,
+    "display_form": "长",
+    "lemma": "长",
+    "generation_form": "长",
+    "pronunciation": "zhǎng",
+    "pos": "unknown",
+    "primary_gloss": "grow",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0716",
+    "rank": 716,
+    "display_form": "长大",
+    "lemma": "长大",
+    "generation_form": "长大",
+    "pronunciation": "zhǎng dà",
+    "pos": "unknown",
+    "primary_gloss": "grow up",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0717",
+    "rank": 717,
+    "display_form": "找出",
+    "lemma": "找出",
+    "generation_form": "找出",
+    "pronunciation": "zhǎo chū",
+    "pos": "unknown",
+    "primary_gloss": "find out",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0718",
+    "rank": 718,
+    "display_form": "照顾",
+    "lemma": "照顾",
+    "generation_form": "照顾",
+    "pronunciation": "zhàogù",
+    "pos": "unknown",
+    "primary_gloss": "look after",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0719",
+    "rank": 719,
+    "display_form": "照片",
+    "lemma": "照片",
+    "generation_form": "照片",
+    "pronunciation": "zhàopiàn",
+    "pos": "unknown",
+    "primary_gloss": "Photo",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0720",
+    "rank": 720,
+    "display_form": "照相",
+    "lemma": "照相",
+    "generation_form": "照相",
+    "pronunciation": "zhào xiàng",
+    "pos": "unknown",
+    "primary_gloss": "take a picture",
+    "secondary_glosses": [
+      "take a photograph"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0721",
+    "rank": 721,
+    "display_form": "这么",
+    "lemma": "这么",
+    "generation_form": "这么",
+    "pronunciation": "zhè me",
+    "pos": "unknown",
+    "primary_gloss": "so",
+    "secondary_glosses": [
+      "such",
+      "this way",
+      "like this"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0722",
+    "rank": 722,
+    "display_form": "这时候｜这时",
+    "lemma": "这时候",
+    "generation_form": "这时候",
+    "pronunciation": "zhè shí",
+    "pos": "unknown",
+    "primary_gloss": "at this moment",
+    "secondary_glosses": [
+      "at this time"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0723",
+    "rank": 723,
+    "display_form": "这样",
+    "lemma": "这样",
+    "generation_form": "这样",
+    "pronunciation": "zhè yàng",
+    "pos": "unknown",
+    "primary_gloss": "so",
+    "secondary_glosses": [
+      "such",
+      "like this",
+      "this way"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0724",
+    "rank": 724,
+    "display_form": "真正",
+    "lemma": "真正",
+    "generation_form": "真正",
+    "pronunciation": "zhēnzhèng",
+    "pos": "unknown",
+    "primary_gloss": "real",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0725",
+    "rank": 725,
+    "display_form": "正常",
+    "lemma": "正常",
+    "generation_form": "正常",
+    "pronunciation": "zhèngcháng",
+    "pos": "unknown",
+    "primary_gloss": "normal",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  }
+]

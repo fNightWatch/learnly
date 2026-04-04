@@ -1,0 +1,386 @@
+{
+  "results": [
+    {
+      "word_id": "new-hsk-2-0029",
+      "rank": 29,
+      "lemma": "表示",
+      "meanings": [
+        {
+          "meaning_en": "express",
+          "priority": 1
+        },
+        {
+          "meaning_en": "indicate",
+          "priority": 2
+        }
+      ],
+      "notes": "Common verb for saying or showing something clearly.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "express",
+          "sentence": "老师今天表示我们可以回家。",
+          "translation": "The teacher expressed that we could go home today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "express",
+          "sentence": "他今天表示可以去学校。",
+          "translation": "He said that he could go to school today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "indicate",
+          "sentence": "这个句子表示我们要回家。",
+          "translation": "This sentence indicates that we need to go home.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0062",
+      "rank": 62,
+      "lemma": "称¹",
+      "meanings": [
+        {
+          "meaning_en": "call",
+          "priority": 1
+        },
+        {
+          "meaning_en": "say",
+          "priority": 2
+        }
+      ],
+      "notes": "Common verb for calling someone by a name or title.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "call",
+          "sentence": "大家都称¹他是班长。",
+          "translation": "Everyone calls him the class monitor.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "call",
+          "sentence": "老师也称¹他是班长。",
+          "translation": "The teacher also calls him the class monitor.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "call",
+          "sentence": "学生都称¹他是班长。",
+          "translation": "The students all call him the class monitor.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0125",
+      "rank": 125,
+      "lemma": "地铁",
+      "meanings": [
+        {
+          "meaning_en": "subway",
+          "priority": 1
+        },
+        {
+          "meaning_en": "metro",
+          "priority": 2
+        }
+      ],
+      "notes": "Common word for underground train travel in the city.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "subway",
+          "sentence": "我今天坐地铁去学校。",
+          "translation": "I take the subway to school today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "subway",
+          "sentence": "他今天坐地铁回家。",
+          "translation": "He takes the subway home today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "metro",
+          "sentence": "我们今天坐地铁去车站。",
+          "translation": "We are taking the metro to the station today.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0159",
+      "rank": 159,
+      "lemma": "方法",
+      "meanings": [
+        {
+          "meaning_en": "method",
+          "priority": 1
+        },
+        {
+          "meaning_en": "way",
+          "priority": 2
+        }
+      ],
+      "notes": "Common word for a way or method for doing something.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "method",
+          "sentence": "老师今天告诉我们这个方法。",
+          "translation": "The teacher told us this method today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "method",
+          "sentence": "我今天在学校学这个方法。",
+          "translation": "I learned this method at school today.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "way",
+          "sentence": "这个方法在学校很有用。",
+          "translation": "This method is very useful at school.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0164",
+      "rank": 164,
+      "lemma": "分",
+      "meanings": [
+        {
+          "meaning_en": "divide",
+          "priority": 1
+        },
+        {
+          "meaning_en": "share out",
+          "priority": 2
+        }
+      ],
+      "notes": "Common verb for dividing or distributing something.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "divide",
+          "sentence": "老师今天分书给学生。",
+          "translation": "The teacher distributed books to the students today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "share out",
+          "sentence": "朋友今天分茶给大家。",
+          "translation": "My friend shared tea with everyone today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "divide",
+          "sentence": "老师在课堂分纸给学生。",
+          "translation": "The teacher handed out paper to the students in class.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0165",
+      "rank": 165,
+      "lemma": "分开",
+      "meanings": [
+        {
+          "meaning_en": "separate",
+          "priority": 1
+        },
+        {
+          "meaning_en": "split up",
+          "priority": 2
+        }
+      ],
+      "notes": "Common word for separating things into different parts.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "separate",
+          "sentence": "这些词语今天要分开写。",
+          "translation": "These words should be written separately today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "separate",
+          "sentence": "老师说这些词语要分开写。",
+          "translation": "The teacher said these words should be written separately.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "split up",
+          "sentence": "句子里的词语要分开写。",
+          "translation": "The words in the sentence should be written separately.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0167",
+      "rank": 167,
+      "lemma": "分钟",
+      "meanings": [
+        {
+          "meaning_en": "minute",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for a minute of time.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "minute",
+          "sentence": "我们看了五分钟电影。",
+          "translation": "We watched the movie for five minutes.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "minute",
+          "sentence": "老师让我们看五分钟电影。",
+          "translation": "The teacher had us watch a movie for five minutes.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "minute",
+          "sentence": "我们在家看了五分钟电影。",
+          "translation": "We watched the movie at home for five minutes.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0168",
+      "rank": 168,
+      "lemma": "份",
+      "meanings": [
+        {
+          "meaning_en": "portion",
+          "priority": 1
+        },
+        {
+          "meaning_en": "copy",
+          "priority": 2
+        }
+      ],
+      "notes": "Common measure word for a serving, portion, or copy.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "portion",
+          "sentence": "老师给学生一份饭。",
+          "translation": "The teacher gave the students one serving of rice.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "copy",
+          "sentence": "我今天拿到一份地图。",
+          "translation": "I got one copy of a map today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "portion",
+          "sentence": "朋友给我一份礼物。",
+          "translation": "My friend gave me one gift.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0188",
+      "rank": 188,
+      "lemma": "公共汽车",
+      "meanings": [
+        {
+          "meaning_en": "bus",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for a bus in everyday city travel.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "bus",
+          "sentence": "我今天坐公共汽车去学校。",
+          "translation": "I take the bus to school today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "bus",
+          "sentence": "他今天坐公共汽车回家。",
+          "translation": "He takes the bus home today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "bus",
+          "sentence": "我们今天坐公共汽车去车站。",
+          "translation": "We are taking the bus to the station today.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0199",
+      "rank": 199,
+      "lemma": "故意",
+      "meanings": [
+        {
+          "meaning_en": "deliberately",
+          "priority": 1
+        },
+        {
+          "meaning_en": "on purpose",
+          "priority": 2
+        }
+      ],
+      "notes": "Common adverb for doing something on purpose.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "deliberately",
+          "sentence": "弟弟今天故意打开门了。",
+          "translation": "My younger brother deliberately opened the door today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "on purpose",
+          "sentence": "他今天故意走得很慢。",
+          "translation": "He walked very slowly on purpose today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "deliberately",
+          "sentence": "孩子今天故意让大家笑。",
+          "translation": "The child deliberately made everyone laugh today.",
+          "difficulty": 2
+        }
+      ]
+    }
+  ]
+}

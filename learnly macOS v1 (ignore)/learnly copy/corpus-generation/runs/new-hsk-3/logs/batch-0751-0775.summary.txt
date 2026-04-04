@@ -1,0 +1,1 @@
+I’m writing the final JSONL artifact now from the validated payload list, then I’ll run the repo validator against the exact output path and only stop once it passes.

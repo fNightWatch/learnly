@@ -1,0 +1,345 @@
+[
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0151",
+    "rank": 151,
+    "display_form": "话",
+    "lemma": "话",
+    "generation_form": "话",
+    "pronunciation": "huà",
+    "pos": "unknown",
+    "primary_gloss": "word",
+    "secondary_glosses": [
+      "words"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0152",
+    "rank": 152,
+    "display_form": "坏",
+    "lemma": "坏",
+    "generation_form": "坏",
+    "pronunciation": "huài",
+    "pos": "unknown",
+    "primary_gloss": "bad",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0153",
+    "rank": 153,
+    "display_form": "还",
+    "lemma": "还",
+    "generation_form": "还",
+    "pronunciation": "huán",
+    "pos": "unknown",
+    "primary_gloss": "return",
+    "secondary_glosses": [
+      "pay back"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0154",
+    "rank": 154,
+    "display_form": "回（动）",
+    "lemma": "回",
+    "generation_form": "回",
+    "pronunciation": "huí",
+    "pos": "verb",
+    "primary_gloss": "go back",
+    "secondary_glosses": [
+      "return"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0155",
+    "rank": 155,
+    "display_form": "回答",
+    "lemma": "回答",
+    "generation_form": "回答",
+    "pronunciation": "huídá",
+    "pos": "unknown",
+    "primary_gloss": "Answer",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0156",
+    "rank": 156,
+    "display_form": "回到",
+    "lemma": "回到",
+    "generation_form": "回到",
+    "pronunciation": "huí dào",
+    "pos": "unknown",
+    "primary_gloss": "back to",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0157",
+    "rank": 157,
+    "display_form": "回家",
+    "lemma": "回家",
+    "generation_form": "回家",
+    "pronunciation": "huí jiā",
+    "pos": "unknown",
+    "primary_gloss": "go home",
+    "secondary_glosses": [
+      "return home"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0158",
+    "rank": 158,
+    "display_form": "回来",
+    "lemma": "回来",
+    "generation_form": "回来",
+    "pronunciation": "huí lái",
+    "pos": "unknown",
+    "primary_gloss": "come back",
+    "secondary_glosses": [
+      "return"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0159",
+    "rank": 159,
+    "display_form": "回去",
+    "lemma": "回去",
+    "generation_form": "回去",
+    "pronunciation": "huí qù",
+    "pos": "unknown",
+    "primary_gloss": "go back",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0160",
+    "rank": 160,
+    "display_form": "会（动）",
+    "lemma": "会",
+    "generation_form": "会",
+    "pronunciation": "huì",
+    "pos": "verb",
+    "primary_gloss": "can",
+    "secondary_glosses": [
+      "be able to"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0161",
+    "rank": 161,
+    "display_form": "火车",
+    "lemma": "火车",
+    "generation_form": "火车",
+    "pronunciation": "huǒ chē",
+    "pos": "unknown",
+    "primary_gloss": "train",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0162",
+    "rank": 162,
+    "display_form": "机场",
+    "lemma": "机场",
+    "generation_form": "机场",
+    "pronunciation": "jīchǎng",
+    "pos": "unknown",
+    "primary_gloss": "Airport",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0163",
+    "rank": 163,
+    "display_form": "机票",
+    "lemma": "机票",
+    "generation_form": "机票",
+    "pronunciation": "jī piào",
+    "pos": "unknown",
+    "primary_gloss": "air ticket",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0164",
+    "rank": 164,
+    "display_form": "鸡蛋",
+    "lemma": "鸡蛋",
+    "generation_form": "鸡蛋",
+    "pronunciation": "jīdàn",
+    "pos": "unknown",
+    "primary_gloss": "Egg",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0165",
+    "rank": 165,
+    "display_form": "几",
+    "lemma": "几",
+    "generation_form": "几",
+    "pronunciation": "jǐ",
+    "pos": "unknown",
+    "primary_gloss": "several",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0166",
+    "rank": 166,
+    "display_form": "记",
+    "lemma": "记",
+    "generation_form": "记",
+    "pronunciation": "jì",
+    "pos": "unknown",
+    "primary_gloss": "remember",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0167",
+    "rank": 167,
+    "display_form": "记得",
+    "lemma": "记得",
+    "generation_form": "记得",
+    "pronunciation": "jìdé",
+    "pos": "unknown",
+    "primary_gloss": "remember",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0168",
+    "rank": 168,
+    "display_form": "记住",
+    "lemma": "记住",
+    "generation_form": "记住",
+    "pronunciation": "jì zhù",
+    "pos": "unknown",
+    "primary_gloss": "remember",
+    "secondary_glosses": [
+      "keep in mind"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0169",
+    "rank": 169,
+    "display_form": "家",
+    "lemma": "家",
+    "generation_form": "家",
+    "pronunciation": "jiā",
+    "pos": "unknown",
+    "primary_gloss": "home",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0170",
+    "rank": 170,
+    "display_form": "家里",
+    "lemma": "家里",
+    "generation_form": "家里",
+    "pronunciation": "jiā lǐ",
+    "pos": "unknown",
+    "primary_gloss": "In the home",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0171",
+    "rank": 171,
+    "display_form": "家人",
+    "lemma": "家人",
+    "generation_form": "家人",
+    "pronunciation": "jiā rén",
+    "pos": "unknown",
+    "primary_gloss": "family",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0172",
+    "rank": 172,
+    "display_form": "间",
+    "lemma": "间",
+    "generation_form": "间",
+    "pronunciation": "jiān",
+    "pos": "measure word",
+    "primary_gloss": "between",
+    "secondary_glosses": [
+      "measure word for rooms"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0173",
+    "rank": 173,
+    "display_form": "见",
+    "lemma": "见",
+    "generation_form": "见",
+    "pronunciation": "jiàn",
+    "pos": "unknown",
+    "primary_gloss": "see",
+    "secondary_glosses": [
+      "meet"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0174",
+    "rank": 174,
+    "display_form": "见面",
+    "lemma": "见面",
+    "generation_form": "见面",
+    "pronunciation": "jiànmiàn",
+    "pos": "unknown",
+    "primary_gloss": "meet",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0175",
+    "rank": 175,
+    "display_form": "教",
+    "lemma": "教",
+    "generation_form": "教",
+    "pronunciation": "jiāo",
+    "pos": "unknown",
+    "primary_gloss": "teach",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  }
+]

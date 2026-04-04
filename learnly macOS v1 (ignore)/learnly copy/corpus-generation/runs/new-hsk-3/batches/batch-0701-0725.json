@@ -1,0 +1,358 @@
+[
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0701",
+    "rank": 701,
+    "display_form": "提问",
+    "lemma": "提问",
+    "generation_form": "提问",
+    "pronunciation": "tíwèn",
+    "pos": "unknown",
+    "primary_gloss": "Put questions to",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0702",
+    "rank": 702,
+    "display_form": "题目",
+    "lemma": "题目",
+    "generation_form": "题目",
+    "pronunciation": "tímù",
+    "pos": "unknown",
+    "primary_gloss": "subject",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0703",
+    "rank": 703,
+    "display_form": "体会",
+    "lemma": "体会",
+    "generation_form": "体会",
+    "pronunciation": "tǐhuì",
+    "pos": "unknown",
+    "primary_gloss": "Experience",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0704",
+    "rank": 704,
+    "display_form": "体现",
+    "lemma": "体现",
+    "generation_form": "体现",
+    "pronunciation": "tǐxiàn",
+    "pos": "unknown",
+    "primary_gloss": "Reflect",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0705",
+    "rank": 705,
+    "display_form": "体验",
+    "lemma": "体验",
+    "generation_form": "体验",
+    "pronunciation": "tǐyàn",
+    "pos": "unknown",
+    "primary_gloss": "experience",
+    "secondary_glosses": [
+      "taste"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0706",
+    "rank": 706,
+    "display_form": "天空",
+    "lemma": "天空",
+    "generation_form": "天空",
+    "pronunciation": "tiānkōng",
+    "pos": "unknown",
+    "primary_gloss": "sky",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0707",
+    "rank": 707,
+    "display_form": "甜",
+    "lemma": "甜",
+    "generation_form": "甜",
+    "pronunciation": "tián",
+    "pos": "unknown",
+    "primary_gloss": "sweet",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0708",
+    "rank": 708,
+    "display_form": "调",
+    "lemma": "调",
+    "generation_form": "调",
+    "pronunciation": "tiáo",
+    "pos": "unknown",
+    "primary_gloss": "suit well",
+    "secondary_glosses": [
+      "mix",
+      "adjust",
+      "fit in perfectly"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0709",
+    "rank": 709,
+    "display_form": "调整",
+    "lemma": "调整",
+    "generation_form": "调整",
+    "pronunciation": "tiáozhěng",
+    "pos": "unknown",
+    "primary_gloss": "adjustment",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0710",
+    "rank": 710,
+    "display_form": "跳",
+    "lemma": "跳",
+    "generation_form": "跳",
+    "pronunciation": "tiào",
+    "pos": "unknown",
+    "primary_gloss": "jump",
+    "secondary_glosses": [
+      "leap",
+      "skip",
+      "bounce"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0711",
+    "rank": 711,
+    "display_form": "跳高",
+    "lemma": "跳高",
+    "generation_form": "跳高",
+    "pronunciation": "tiào gāo",
+    "pos": "unknown",
+    "primary_gloss": "high jump",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0712",
+    "rank": 712,
+    "display_form": "跳舞",
+    "lemma": "跳舞",
+    "generation_form": "跳舞",
+    "pronunciation": "tiàowǔ",
+    "pos": "unknown",
+    "primary_gloss": "dance",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0713",
+    "rank": 713,
+    "display_form": "跳远",
+    "lemma": "跳远",
+    "generation_form": "跳远",
+    "pronunciation": "tiào yuǎn",
+    "pos": "unknown",
+    "primary_gloss": "long jump",
+    "secondary_glosses": [
+      "broad jump"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0714",
+    "rank": 714,
+    "display_form": "铁",
+    "lemma": "铁",
+    "generation_form": "铁",
+    "pronunciation": "tiě",
+    "pos": "unknown",
+    "primary_gloss": "iron",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0715",
+    "rank": 715,
+    "display_form": "铁路",
+    "lemma": "铁路",
+    "generation_form": "铁路",
+    "pronunciation": "tiě lù",
+    "pos": "unknown",
+    "primary_gloss": "railway",
+    "secondary_glosses": [
+      "railroad"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0716",
+    "rank": 716,
+    "display_form": "听力",
+    "lemma": "听力",
+    "generation_form": "听力",
+    "pronunciation": "tīng lì",
+    "pos": "unknown",
+    "primary_gloss": "hearing",
+    "secondary_glosses": [
+      "aural comprehension"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0717",
+    "rank": 717,
+    "display_form": "听众",
+    "lemma": "听众",
+    "generation_form": "听众",
+    "pronunciation": "tīng zhòng",
+    "pos": "unknown",
+    "primary_gloss": "audience",
+    "secondary_glosses": [
+      "listeners"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0718",
+    "rank": 718,
+    "display_form": "停止",
+    "lemma": "停止",
+    "generation_form": "停止",
+    "pronunciation": "tíng zhǐ stop;",
+    "pos": "unknown",
+    "primary_gloss": "cease",
+    "secondary_glosses": [
+      "suspend",
+      "call off",
+      "halt"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0719",
+    "rank": 719,
+    "display_form": "通常",
+    "lemma": "通常",
+    "generation_form": "通常",
+    "pronunciation": "tōngcháng",
+    "pos": "unknown",
+    "primary_gloss": "usually",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0720",
+    "rank": 720,
+    "display_form": "通信",
+    "lemma": "通信",
+    "generation_form": "通信",
+    "pronunciation": "tōng xìn",
+    "pos": "unknown",
+    "primary_gloss": "communicate",
+    "secondary_glosses": [
+      "correspond"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0721",
+    "rank": 721,
+    "display_form": "同意",
+    "lemma": "同意",
+    "generation_form": "同意",
+    "pronunciation": "tóngyì",
+    "pos": "unknown",
+    "primary_gloss": "Agree",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0722",
+    "rank": 722,
+    "display_form": "痛（形）",
+    "lemma": "痛",
+    "generation_form": "痛",
+    "pronunciation": "tòng",
+    "pos": "adjective",
+    "primary_gloss": "sore",
+    "secondary_glosses": [
+      "painful",
+      "sad"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0723",
+    "rank": 723,
+    "display_form": "痛苦",
+    "lemma": "痛苦",
+    "generation_form": "痛苦",
+    "pronunciation": "tòngkǔ",
+    "pos": "unknown",
+    "primary_gloss": "Pain",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0724",
+    "rank": 724,
+    "display_form": "头（形）",
+    "lemma": "头",
+    "generation_form": "头",
+    "pronunciation": "tóu",
+    "pos": "adjective",
+    "primary_gloss": "lead",
+    "secondary_glosses": [
+      "head"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0725",
+    "rank": 725,
+    "display_form": "头脑",
+    "lemma": "头脑",
+    "generation_form": "头脑",
+    "pronunciation": "tóu nǎo",
+    "pos": "unknown",
+    "primary_gloss": "mind",
+    "secondary_glosses": [
+      "brain"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  }
+]

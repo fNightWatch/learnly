@@ -1,0 +1,3774 @@
+{
+  "results": [
+    {
+      "word_id": "new-hsk-2-0308",
+      "rank": 308,
+      "lemma": "句子",
+      "meanings": [
+        {
+          "meaning_en": "sentence",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for a sentence.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "sentence",
+          "sentence": "老师今天问我的句子。",
+          "translation": "The teacher asked for my sentence today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "sentence",
+          "sentence": "我今天在学校学这个句子。",
+          "translation": "I studied this sentence at school today.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "sentence",
+          "sentence": "这个句子对我很重要。",
+          "translation": "This sentence is very important to me.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0309",
+      "rank": 309,
+      "lemma": "卡",
+      "meanings": [
+        {
+          "meaning_en": "card",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for a card used for payment or access.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "card",
+          "sentence": "今天桌子上有一个卡。",
+          "translation": "There is a card on the table today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "card",
+          "sentence": "我今天在学校看到卡。",
+          "translation": "I saw a card at school today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "card",
+          "sentence": "老师今天给我们看这个卡。",
+          "translation": "The teacher showed us this card today.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0310",
+      "rank": 310,
+      "lemma": "开机",
+      "meanings": [
+        {
+          "meaning_en": "turn on",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for starting up a computer or device.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "turn on",
+          "sentence": "我今天在学校开机了。",
+          "translation": "I was turn on at school today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "turn on",
+          "sentence": "老师今天在课堂上教我们开机。",
+          "translation": "The teacher had us turn on in class today.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "turn on",
+          "sentence": "他今天在家里常常开机。",
+          "translation": "He often turn ons at home today.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0311",
+      "rank": 311,
+      "lemma": "开心",
+      "meanings": [
+        {
+          "meaning_en": "happy",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for feeling happy or glad.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "happy",
+          "sentence": "今天这个孩子也很开心。",
+          "translation": "Today this child is also very happy.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "happy",
+          "sentence": "我觉得这个房间很开心。",
+          "translation": "I think this room is very happy.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "happy",
+          "sentence": "今天这个地方不太开心。",
+          "translation": "Today this place is not very happy.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0312",
+      "rank": 312,
+      "lemma": "开学",
+      "meanings": [
+        {
+          "meaning_en": "start school",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for the start of a school term.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "start school",
+          "sentence": "我今天在学校开学了。",
+          "translation": "I was start school at school today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "start school",
+          "sentence": "老师今天在课堂上教我们开学。",
+          "translation": "The teacher had us start school in class today.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "start school",
+          "sentence": "他今天在家里常常开学。",
+          "translation": "He often start schools at home today.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0313",
+      "rank": 313,
+      "lemma": "看法",
+      "meanings": [
+        {
+          "meaning_en": "opinion",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for a view or opinion.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "opinion",
+          "sentence": "老师今天问我的看法。",
+          "translation": "The teacher asked for my opinion today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "opinion",
+          "sentence": "我今天在学校学这个看法。",
+          "translation": "I studied this opinion at school today.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "opinion",
+          "sentence": "这个看法对我很重要。",
+          "translation": "This opinion is very important to me.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0314",
+      "rank": 314,
+      "lemma": "考生",
+      "meanings": [
+        {
+          "meaning_en": "test taker",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for someone taking an exam.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "test taker",
+          "sentence": "今天桌子上有一个考生。",
+          "translation": "There is a test taker on the table today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "test taker",
+          "sentence": "我今天在学校看到考生。",
+          "translation": "I saw a test taker at school today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "test taker",
+          "sentence": "老师今天给我们看这个考生。",
+          "translation": "The teacher showed us this test taker today.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0315",
+      "rank": 315,
+      "lemma": "靠",
+      "meanings": [
+        {
+          "meaning_en": "lean on",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for leaning on something or being near something.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "lean on",
+          "sentence": "我今天在学校靠了。",
+          "translation": "I was lean on at school today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "lean on",
+          "sentence": "老师今天在课堂上教我们靠。",
+          "translation": "The teacher had us lean on in class today.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "lean on",
+          "sentence": "他今天在家里常常靠。",
+          "translation": "He often lean ons at home today.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0316",
+      "rank": 316,
+      "lemma": "科",
+      "meanings": [
+        {
+          "meaning_en": "subject",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for a school subject or department.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "subject",
+          "sentence": "老师今天问我的科。",
+          "translation": "The teacher asked for my subject today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "subject",
+          "sentence": "我今天在学校学这个科。",
+          "translation": "I studied this subject at school today.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "subject",
+          "sentence": "这个科对我很重要。",
+          "translation": "This subject is very important to me.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0317",
+      "rank": 317,
+      "lemma": "科学",
+      "meanings": [
+        {
+          "meaning_en": "science",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for science.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "science",
+          "sentence": "老师今天问我的科学。",
+          "translation": "The teacher asked for my science today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "science",
+          "sentence": "我今天在学校学这个科学。",
+          "translation": "I studied this science at school today.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "science",
+          "sentence": "这个科学对我很重要。",
+          "translation": "This science is very important to me.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0318",
+      "rank": 318,
+      "lemma": "可爱",
+      "meanings": [
+        {
+          "meaning_en": "cute",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for something or someone cute.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "cute",
+          "sentence": "今天这个孩子也很可爱。",
+          "translation": "Today this child is also very cute.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "cute",
+          "sentence": "我觉得这个房间很可爱。",
+          "translation": "I think this room is very cute.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "cute",
+          "sentence": "今天这个地方不太可爱。",
+          "translation": "Today this place is not very cute.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0319",
+      "rank": 319,
+      "lemma": "可能",
+      "meanings": [
+        {
+          "meaning_en": "possibly",
+          "priority": 1
+        },
+        {
+          "meaning_en": "possible",
+          "priority": 2
+        }
+      ],
+      "notes": "Common word for something that may happen.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "possibly",
+          "sentence": "明天晚上可能下雨，我们不去公园。",
+          "translation": "It may rain tomorrow night, so we will not go to the park.",
+          "difficulty": 2
+        },
+        {
+          "slot": 2,
+          "meaning_en": "possibly",
+          "sentence": "他今天下午可能来学校。",
+          "translation": "He may come to school this afternoon.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "possible",
+          "sentence": "今天这个办法可能很好。",
+          "translation": "Today this method may be very good.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0320",
+      "rank": 320,
+      "lemma": "可怕",
+      "meanings": [
+        {
+          "meaning_en": "scary",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for something frightening.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "scary",
+          "sentence": "今天这个孩子也很可怕。",
+          "translation": "Today this child is also very scary.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "scary",
+          "sentence": "我觉得这个房间很可怕。",
+          "translation": "I think this room is very scary.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "scary",
+          "sentence": "今天这个地方不太可怕。",
+          "translation": "Today this place is not very scary.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0321",
+      "rank": 321,
+      "lemma": "可是",
+      "meanings": [
+        {
+          "meaning_en": "but",
+          "priority": 1
+        },
+        {
+          "meaning_en": "however",
+          "priority": 2
+        }
+      ],
+      "notes": "Common word used to show contrast.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "but",
+          "sentence": "我想去公园，可是下雨了。",
+          "translation": "I want to go to the park, but it is raining.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "but",
+          "sentence": "车站很近，可是我今天很忙。",
+          "translation": "The station is close, but I am very busy today.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "however",
+          "sentence": "他很想来，可是没有时间。",
+          "translation": "He really wants to come, however he has no time.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0322",
+      "rank": 322,
+      "lemma": "可以",
+      "meanings": [
+        {
+          "meaning_en": "can",
+          "priority": 1
+        },
+        {
+          "meaning_en": "okay",
+          "priority": 2
+        }
+      ],
+      "notes": "Common word for being allowed or able to do something.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "can",
+          "sentence": "我今天可以去学校上课。",
+          "translation": "I can go to school for class today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "can",
+          "sentence": "今天这个办法在学校可以用。",
+          "translation": "This method can be used at school today.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "okay",
+          "sentence": "你现在可以进来了。",
+          "translation": "You can come in now.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0323",
+      "rank": 323,
+      "lemma": "克",
+      "meanings": [
+        {
+          "meaning_en": "gram",
+          "priority": 1
+        }
+      ],
+      "notes": "Common measure word for weight.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "gram",
+          "sentence": "这块肉有五克。",
+          "translation": "This piece of meat weighs five grams.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "gram",
+          "sentence": "我买了十克茶。",
+          "translation": "I bought ten grams of tea.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "gram",
+          "sentence": "这块肉有二十克。",
+          "translation": "This piece of meat weighs twenty grams.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0324",
+      "rank": 324,
+      "lemma": "刻",
+      "meanings": [
+        {
+          "meaning_en": "a quarter of an hour",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for fifteen minutes past the hour.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "a quarter of an hour",
+          "sentence": "现在是八点一刻。",
+          "translation": "It is 8:15 now.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "a quarter of an hour",
+          "sentence": "我们八点一刻上课。",
+          "translation": "We have class at 8:15.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "a quarter of an hour",
+          "sentence": "老师今天只讲一刻。",
+          "translation": "The teacher will only talk for fifteen minutes today.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0325",
+      "rank": 325,
+      "lemma": "客人",
+      "meanings": [
+        {
+          "meaning_en": "guest",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for a guest or customer.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "guest",
+          "sentence": "今天桌子上有一个客人。",
+          "translation": "There is a guest on the table today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "guest",
+          "sentence": "我今天在学校看到客人。",
+          "translation": "I saw a guest at school today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "guest",
+          "sentence": "老师今天给我们看这个客人。",
+          "translation": "The teacher showed us this guest today.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0326",
+      "rank": 326,
+      "lemma": "课堂",
+      "meanings": [
+        {
+          "meaning_en": "classroom",
+          "priority": 1
+        },
+        {
+          "meaning_en": "class",
+          "priority": 2
+        }
+      ],
+      "notes": "Common word for a class period or classroom.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "classroom",
+          "sentence": "今天课堂里很安静，老师在讲句子。",
+          "translation": "The classroom is very quiet today, and the teacher is explaining sentences.",
+          "difficulty": 2
+        },
+        {
+          "slot": 2,
+          "meaning_en": "class",
+          "sentence": "老师在课堂上教句子。",
+          "translation": "The teacher teaches sentences in class.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "classroom",
+          "sentence": "同学们在课堂里写字。",
+          "translation": "The students write characters in the classroom.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0327",
+      "rank": 327,
+      "lemma": "空气",
+      "meanings": [
+        {
+          "meaning_en": "air",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for air.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "air",
+          "sentence": "今天桌子上有一个空气。",
+          "translation": "There is a air on the table today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "air",
+          "sentence": "我今天在学校看到空气。",
+          "translation": "I saw a air at school today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "air",
+          "sentence": "老师今天给我们看这个空气。",
+          "translation": "The teacher showed us this air today.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0328",
+      "rank": 328,
+      "lemma": "哭",
+      "meanings": [
+        {
+          "meaning_en": "cry",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for crying.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "cry",
+          "sentence": "我今天在学校哭了。",
+          "translation": "I was cry at school today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "cry",
+          "sentence": "老师今天在课堂上教我们哭。",
+          "translation": "The teacher had us cry in class today.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "cry",
+          "sentence": "他今天在家里常常哭。",
+          "translation": "He often crys at home today.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0329",
+      "rank": 329,
+      "lemma": "快餐",
+      "meanings": [
+        {
+          "meaning_en": "fast food",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for quick food or fast food.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "fast food",
+          "sentence": "今天桌子上有一个快餐。",
+          "translation": "There is a fast food on the table today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "fast food",
+          "sentence": "我今天在学校看到快餐。",
+          "translation": "I saw a fast food at school today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "fast food",
+          "sentence": "老师今天给我们看这个快餐。",
+          "translation": "The teacher showed us this fast food today.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0330",
+      "rank": 330,
+      "lemma": "快点儿",
+      "meanings": [
+        {
+          "meaning_en": "hurry up",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word used to tell someone to be faster.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "hurry up",
+          "sentence": "你快点儿，车要开了。",
+          "translation": "Hurry up, the car is about to leave.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "hurry up",
+          "sentence": "现在快点儿，我们要上课了。",
+          "translation": "Hurry up now, we are going to class.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "hurry up",
+          "sentence": "请先生快点儿来门口这里。",
+          "translation": "Please come to the door quickly, sir.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0331",
+      "rank": 331,
+      "lemma": "快乐",
+      "meanings": [
+        {
+          "meaning_en": "happy",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for happy or joyful.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "happy",
+          "sentence": "今天这个孩子也很快乐。",
+          "translation": "Today this child is also very happy.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "happy",
+          "sentence": "我觉得这个房间很快乐。",
+          "translation": "I think this room is very happy.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "happy",
+          "sentence": "今天这个地方不太快乐。",
+          "translation": "Today this place is not very happy.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0332",
+      "rank": 332,
+      "lemma": "快要",
+      "meanings": [
+        {
+          "meaning_en": "be about to",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for something that is almost happening.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "be about to",
+          "sentence": "现在天快要黑了，我们回家。",
+          "translation": "It is about to get dark now, so we are going home.",
+          "difficulty": 2
+        },
+        {
+          "slot": 2,
+          "meaning_en": "be about to",
+          "sentence": "我们快要到学校了。",
+          "translation": "We are about to reach school.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "be about to",
+          "sentence": "这辆车快要开了。",
+          "translation": "This car is about to leave.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0333",
+      "rank": 333,
+      "lemma": "筷子",
+      "meanings": [
+        {
+          "meaning_en": "chopsticks",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for chopsticks.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "chopsticks",
+          "sentence": "今天桌子上有一个筷子。",
+          "translation": "There is a chopsticks on the table today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "chopsticks",
+          "sentence": "我今天在学校看到筷子。",
+          "translation": "I saw a chopsticks at school today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "chopsticks",
+          "sentence": "老师今天给我们看这个筷子。",
+          "translation": "The teacher showed us this chopsticks today.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0334",
+      "rank": 334,
+      "lemma": "拉",
+      "meanings": [
+        {
+          "meaning_en": "pull",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for pulling something.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "pull",
+          "sentence": "我今天在学校拉了。",
+          "translation": "I was pull at school today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "pull",
+          "sentence": "老师今天在课堂上教我们拉。",
+          "translation": "The teacher had us pull in class today.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "pull",
+          "sentence": "他今天在家里常常拉。",
+          "translation": "He often pulls at home today.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0335",
+      "rank": 335,
+      "lemma": "来自",
+      "meanings": [
+        {
+          "meaning_en": "come from",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for where someone or something comes from.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "come from",
+          "sentence": "我现在来自中国。",
+          "translation": "I come from China and I am here now.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "come from",
+          "sentence": "今天我的朋友来自北方。",
+          "translation": "My friend comes from the north today.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "come from",
+          "sentence": "她来自南方，现在在这里。",
+          "translation": "She comes from the south, and she is here now.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0336",
+      "rank": 336,
+      "lemma": "蓝",
+      "meanings": [
+        {
+          "meaning_en": "blue",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for the color blue.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "blue",
+          "sentence": "今天这个孩子也很蓝。",
+          "translation": "Today this child is also very blue.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "blue",
+          "sentence": "我觉得这个房间很蓝。",
+          "translation": "I think this room is very blue.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "blue",
+          "sentence": "今天这个地方不太蓝。",
+          "translation": "Today this place is not very blue.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0337",
+      "rank": 337,
+      "lemma": "蓝色",
+      "meanings": [
+        {
+          "meaning_en": "blue",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for the color blue.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "blue",
+          "sentence": "今天这个孩子也很蓝色。",
+          "translation": "Today this child is also very blue.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "blue",
+          "sentence": "我觉得这个房间很蓝色。",
+          "translation": "I think this room is very blue.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "blue",
+          "sentence": "今天这个地方不太蓝色。",
+          "translation": "Today this place is not very blue.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0338",
+      "rank": 338,
+      "lemma": "篮球",
+      "meanings": [
+        {
+          "meaning_en": "basketball",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for basketball.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "basketball",
+          "sentence": "今天桌子上有一个篮球。",
+          "translation": "There is a basketball on the table today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "basketball",
+          "sentence": "我今天在学校看到篮球。",
+          "translation": "I saw a basketball at school today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "basketball",
+          "sentence": "老师今天给我们看这个篮球。",
+          "translation": "The teacher showed us this basketball today.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0339",
+      "rank": 339,
+      "lemma": "老",
+      "meanings": [
+        {
+          "meaning_en": "always",
+          "priority": 1
+        },
+        {
+          "meaning_en": "constantly",
+          "priority": 2
+        }
+      ],
+      "notes": "Common adverb meaning always or constantly.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "always",
+          "sentence": "他老是问问题。",
+          "translation": "He is always asking questions.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "always",
+          "sentence": "她老是看书。",
+          "translation": "She is always reading books.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "constantly",
+          "sentence": "你老是笑，我们都很开心。",
+          "translation": "You are constantly smiling, and we are all very happy.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0340",
+      "rank": 340,
+      "lemma": "老",
+      "meanings": [
+        {
+          "meaning_en": "prefix before a surname",
+          "priority": 1
+        }
+      ],
+      "notes": "Common prefix used before a surname or name.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "prefix before a surname",
+          "sentence": "老先生今天来学校。",
+          "translation": "The old gentleman came to school today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "prefix before a surname",
+          "sentence": "大家都叫他老先生。",
+          "translation": "Everyone calls him the old gentleman.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "prefix before a surname",
+          "sentence": "门口有一位老先生。",
+          "translation": "There is an old gentleman at the door.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0341",
+      "rank": 341,
+      "lemma": "老年",
+      "meanings": [
+        {
+          "meaning_en": "old age",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for old age or the elderly.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "old age",
+          "sentence": "老师今天问我的老年。",
+          "translation": "The teacher asked for my old age today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "old age",
+          "sentence": "我今天在学校学这个老年。",
+          "translation": "I studied this old age at school today.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "old age",
+          "sentence": "这个老年对我很重要。",
+          "translation": "This old age is very important to me.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0342",
+      "rank": 342,
+      "lemma": "老朋友",
+      "meanings": [
+        {
+          "meaning_en": "old friend",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for an old friend.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "old friend",
+          "sentence": "今天桌子上有一个老朋友。",
+          "translation": "There is a old friend on the table today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "old friend",
+          "sentence": "我今天在学校看到老朋友。",
+          "translation": "I saw a old friend at school today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "old friend",
+          "sentence": "老师今天给我们看这个老朋友。",
+          "translation": "The teacher showed us this old friend today.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0343",
+      "rank": 343,
+      "lemma": "老是",
+      "meanings": [
+        {
+          "meaning_en": "always",
+          "priority": 1
+        },
+        {
+          "meaning_en": "all the time",
+          "priority": 2
+        }
+      ],
+      "notes": "Common word for something that happens again and again.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "always",
+          "sentence": "他老是来学校。",
+          "translation": "He always comes to school.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "all the time",
+          "sentence": "弟弟老是看书。",
+          "translation": "My younger brother is always reading books.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "always",
+          "sentence": "她老是在家看书。",
+          "translation": "She is always reading books at home.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0344",
+      "rank": 344,
+      "lemma": "离",
+      "meanings": [
+        {
+          "meaning_en": "be away from",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for distance from one place to another.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "be away from",
+          "sentence": "车站离这里很近。",
+          "translation": "The station is very close to here.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "be away from",
+          "sentence": "我家离学校不远。",
+          "translation": "My home is not far from school.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "be away from",
+          "sentence": "这个饭店离公园很近。",
+          "translation": "This restaurant is very close to the park.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0345",
+      "rank": 345,
+      "lemma": "离开",
+      "meanings": [
+        {
+          "meaning_en": "leave",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for leaving a place.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "leave",
+          "sentence": "我今天在学校离开了。",
+          "translation": "I was leave at school today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "leave",
+          "sentence": "老师今天在课堂上教我们离开。",
+          "translation": "The teacher had us leave in class today.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "leave",
+          "sentence": "他今天在家里常常离开。",
+          "translation": "He often leaves at home today.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0346",
+      "rank": 346,
+      "lemma": "礼物",
+      "meanings": [
+        {
+          "meaning_en": "gift",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for a gift.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "gift",
+          "sentence": "今天桌子上有一个礼物。",
+          "translation": "There is a gift on the table today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "gift",
+          "sentence": "我今天在学校看到礼物。",
+          "translation": "I saw a gift at school today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "gift",
+          "sentence": "老师今天给我们看这个礼物。",
+          "translation": "The teacher showed us this gift today.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0347",
+      "rank": 347,
+      "lemma": "里头",
+      "meanings": [
+        {
+          "meaning_en": "inside",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for the inside of something.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "inside",
+          "sentence": "包里头有一个礼物。",
+          "translation": "There is a gift inside the bag.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "inside",
+          "sentence": "家里头很安静。",
+          "translation": "It is very quiet inside the house.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "inside",
+          "sentence": "桌子里头没有书。",
+          "translation": "There are no books inside the table.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0348",
+      "rank": 348,
+      "lemma": "理想",
+      "meanings": [
+        {
+          "meaning_en": "ideal",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for an ideal or a dream.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "ideal",
+          "sentence": "老师今天问我的理想。",
+          "translation": "The teacher asked for my ideal today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "ideal",
+          "sentence": "我今天在学校学这个理想。",
+          "translation": "I studied this ideal at school today.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "ideal",
+          "sentence": "这个理想对我很重要。",
+          "translation": "This ideal is very important to me.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0349",
+      "rank": 349,
+      "lemma": "例如",
+      "meanings": [
+        {
+          "meaning_en": "for example",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word used to introduce an example.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "for example",
+          "sentence": "例如，我今天喝牛奶。",
+          "translation": "For example, I drink milk today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "for example",
+          "sentence": "例如，老师今天教句子。",
+          "translation": "For example, the teacher teaches sentences today.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "for example",
+          "sentence": "例如，孩子在公园里很快乐。",
+          "translation": "For example, the child is very happy in the park.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0350",
+      "rank": 350,
+      "lemma": "例子",
+      "meanings": [
+        {
+          "meaning_en": "example",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for an example.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "example",
+          "sentence": "老师今天问我的例子。",
+          "translation": "The teacher asked for my example today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "example",
+          "sentence": "我今天在学校学这个例子。",
+          "translation": "I studied this example at school today.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "example",
+          "sentence": "这个例子对我很重要。",
+          "translation": "This example is very important to me.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0351",
+      "rank": 351,
+      "lemma": "脸",
+      "meanings": [
+        {
+          "meaning_en": "face",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for the face.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "face",
+          "sentence": "今天桌子上有一个脸。",
+          "translation": "There is a face on the table today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "face",
+          "sentence": "我今天在学校看到脸。",
+          "translation": "I saw a face at school today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "face",
+          "sentence": "老师今天给我们看这个脸。",
+          "translation": "The teacher showed us this face today.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0352",
+      "rank": 352,
+      "lemma": "练",
+      "meanings": [
+        {
+          "meaning_en": "practice",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for practicing or training.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "practice",
+          "sentence": "我今天在学校练了。",
+          "translation": "I was practice at school today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "practice",
+          "sentence": "老师今天在课堂上教我们练。",
+          "translation": "The teacher had us practice in class today.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "practice",
+          "sentence": "他今天在家里常常练。",
+          "translation": "He often practices at home today.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0353",
+      "rank": 353,
+      "lemma": "练习",
+      "meanings": [
+        {
+          "meaning_en": "practice",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for practice or exercises.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "practice",
+          "sentence": "我今天在学校练习句子。",
+          "translation": "I practiced sentences at school today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "practice",
+          "sentence": "老师让我们练习读书。",
+          "translation": "The teacher had us practice reading books.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "practice",
+          "sentence": "他在家里常常练习写字。",
+          "translation": "He often practices writing characters at home.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0354",
+      "rank": 354,
+      "lemma": "凉",
+      "meanings": [
+        {
+          "meaning_en": "cool",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for cool temperature.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "cool",
+          "sentence": "今天这个孩子也很凉。",
+          "translation": "Today this child is also very cool.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "cool",
+          "sentence": "我觉得这个房间很凉。",
+          "translation": "I think this room is very cool.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "cool",
+          "sentence": "今天这个地方不太凉。",
+          "translation": "Today this place is not very cool.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0355",
+      "rank": 355,
+      "lemma": "凉快",
+      "meanings": [
+        {
+          "meaning_en": "pleasantly cool",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for pleasantly cool weather or air.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "pleasantly cool",
+          "sentence": "今天这个孩子也很凉快。",
+          "translation": "Today this child is also very pleasantly cool.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "pleasantly cool",
+          "sentence": "我觉得这个房间很凉快。",
+          "translation": "I think this room is very pleasantly cool.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "pleasantly cool",
+          "sentence": "今天这个地方不太凉快。",
+          "translation": "Today this place is not very pleasantly cool.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0356",
+      "rank": 356,
+      "lemma": "两",
+      "meanings": [
+        {
+          "meaning_en": "a unit of weight (=50 grams)",
+          "priority": 1
+        }
+      ],
+      "notes": "Common measure word for a small weight unit.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "a unit of weight (=50 grams)",
+          "sentence": "我买了三两肉。",
+          "translation": "I bought three liang of meat.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "a unit of weight (=50 grams)",
+          "sentence": "这块肉有五两。",
+          "translation": "This piece of meat weighs five liang.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "a unit of weight (=50 grams)",
+          "sentence": "今天我只买了两米。",
+          "translation": "Today I only bought two meters.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0357",
+      "rank": 357,
+      "lemma": "亮",
+      "meanings": [
+        {
+          "meaning_en": "bright",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for bright light or color.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "bright",
+          "sentence": "今天这个孩子也很亮。",
+          "translation": "Today this child is also very bright.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "bright",
+          "sentence": "我觉得这个房间很亮。",
+          "translation": "I think this room is very bright.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "bright",
+          "sentence": "今天这个地方不太亮。",
+          "translation": "Today this place is not very bright.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0358",
+      "rank": 358,
+      "lemma": "辆",
+      "meanings": [
+        {
+          "meaning_en": "car (measure word)",
+          "priority": 1
+        }
+      ],
+      "notes": "Common measure word for cars and vehicles.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "car (measure word)",
+          "sentence": "我家有两辆车。",
+          "translation": "My family has two cars.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "car (measure word)",
+          "sentence": "门口停着一辆车。",
+          "translation": "A car is parked at the door.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "car (measure word)",
+          "sentence": "今天路边有三辆车。",
+          "translation": "Today there are three cars by the roadside.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0359",
+      "rank": 359,
+      "lemma": "零下",
+      "meanings": [
+        {
+          "meaning_en": "below zero",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for temperatures below zero.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "below zero",
+          "sentence": "今天零下五度。",
+          "translation": "It is five degrees below zero today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "below zero",
+          "sentence": "晚上这里零下三度。",
+          "translation": "It is three degrees below zero here at night.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "below zero",
+          "sentence": "北方冬天常常零下。",
+          "translation": "In the north, winter is often below zero.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0360",
+      "rank": 360,
+      "lemma": "留",
+      "meanings": [
+        {
+          "meaning_en": "stay",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for staying or keeping something.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "stay",
+          "sentence": "我今天在学校留了。",
+          "translation": "I was stay at school today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "stay",
+          "sentence": "老师今天在课堂上教我们留。",
+          "translation": "The teacher had us stay in class today.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "stay",
+          "sentence": "他今天在家里常常留。",
+          "translation": "He often stays at home today.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0361",
+      "rank": 361,
+      "lemma": "留下",
+      "meanings": [
+        {
+          "meaning_en": "stay behind",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for staying behind or remaining.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "stay behind",
+          "sentence": "我今天在学校留下了。",
+          "translation": "I was stay behind at school today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "stay behind",
+          "sentence": "老师今天在课堂上教我们留下。",
+          "translation": "The teacher had us stay behind in class today.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "stay behind",
+          "sentence": "他今天在家里常常留下。",
+          "translation": "He often stay behinds at home today.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0362",
+      "rank": 362,
+      "lemma": "留学生",
+      "meanings": [
+        {
+          "meaning_en": "student studying abroad",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for a student studying abroad.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "student studying abroad",
+          "sentence": "今天桌子上有一个留学生。",
+          "translation": "There is a student studying abroad on the table today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "student studying abroad",
+          "sentence": "我今天在学校看到留学生。",
+          "translation": "I saw a student studying abroad at school today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "student studying abroad",
+          "sentence": "老师今天给我们看这个留学生。",
+          "translation": "The teacher showed us this student studying abroad today.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0363",
+      "rank": 363,
+      "lemma": "流",
+      "meanings": [
+        {
+          "meaning_en": "flow",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for flowing or running.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "flow",
+          "sentence": "我今天在学校流了。",
+          "translation": "I was flow at school today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "flow",
+          "sentence": "老师今天在课堂上教我们流。",
+          "translation": "The teacher had us flow in class today.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "flow",
+          "sentence": "他今天在家里常常流。",
+          "translation": "He often flows at home today.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0364",
+      "rank": 364,
+      "lemma": "流利",
+      "meanings": [
+        {
+          "meaning_en": "fluent",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for speaking smoothly and fluently.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "fluent",
+          "sentence": "今天这个孩子也很流利。",
+          "translation": "Today this child is also very fluent.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "fluent",
+          "sentence": "我觉得这个房间很流利。",
+          "translation": "I think this room is very fluent.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "fluent",
+          "sentence": "今天这个地方不太流利。",
+          "translation": "Today this place is not very fluent.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0365",
+      "rank": 365,
+      "lemma": "流行",
+      "meanings": [
+        {
+          "meaning_en": "popular",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for something fashionable or popular.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "popular",
+          "sentence": "今天这个孩子也很流行。",
+          "translation": "Today this child is also very popular.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "popular",
+          "sentence": "我觉得这个房间很流行。",
+          "translation": "I think this room is very popular.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "popular",
+          "sentence": "今天这个地方不太流行。",
+          "translation": "Today this place is not very popular.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0366",
+      "rank": 366,
+      "lemma": "路边",
+      "meanings": [
+        {
+          "meaning_en": "roadside",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for the side of a road.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "roadside",
+          "sentence": "车停在路边。",
+          "translation": "The car is parked by the roadside.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "roadside",
+          "sentence": "孩子在路边看车。",
+          "translation": "The child watches cars by the roadside.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "roadside",
+          "sentence": "今天路边很安静。",
+          "translation": "Today the roadside is very quiet.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0367",
+      "rank": 367,
+      "lemma": "旅客",
+      "meanings": [
+        {
+          "meaning_en": "traveler",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for a traveler or passenger.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "traveler",
+          "sentence": "今天桌子上有一个旅客。",
+          "translation": "There is a traveler on the table today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "traveler",
+          "sentence": "我今天在学校看到旅客。",
+          "translation": "I saw a traveler at school today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "traveler",
+          "sentence": "老师今天给我们看这个旅客。",
+          "translation": "The teacher showed us this traveler today.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0368",
+      "rank": 368,
+      "lemma": "旅行",
+      "meanings": [
+        {
+          "meaning_en": "travel",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for traveling.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "travel",
+          "sentence": "我今天和朋友旅行。",
+          "translation": "I am traveling with a friend today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "travel",
+          "sentence": "我们今年去北方旅行。",
+          "translation": "We are traveling to the north this year.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "travel",
+          "sentence": "这个家庭喜欢旅行。",
+          "translation": "This family likes to travel.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0369",
+      "rank": 369,
+      "lemma": "旅游",
+      "meanings": [
+        {
+          "meaning_en": "tourism",
+          "priority": 1
+        },
+        {
+          "meaning_en": "travel",
+          "priority": 2
+        }
+      ],
+      "notes": "Common word for tourism or traveling for fun.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "travel",
+          "sentence": "我今天和朋友去旅游。",
+          "translation": "I am going traveling with a friend today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "tourism",
+          "sentence": "我们今天去这个地方旅游。",
+          "translation": "We are going to this place to travel today.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "travel",
+          "sentence": "老师也喜欢旅游。",
+          "translation": "The teacher also likes to travel.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0370",
+      "rank": 370,
+      "lemma": "绿",
+      "meanings": [
+        {
+          "meaning_en": "green",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for the color green.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "green",
+          "sentence": "今天这个孩子也很绿。",
+          "translation": "Today this child is also very green.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "green",
+          "sentence": "我觉得这个房间很绿。",
+          "translation": "I think this room is very green.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "green",
+          "sentence": "今天这个地方不太绿。",
+          "translation": "Today this place is not very green.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0371",
+      "rank": 371,
+      "lemma": "绿色",
+      "meanings": [
+        {
+          "meaning_en": "green",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for the color green.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "green",
+          "sentence": "今天这个孩子也很绿色。",
+          "translation": "Today this child is also very green.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "green",
+          "sentence": "我觉得这个房间很绿色。",
+          "translation": "I think this room is very green.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "green",
+          "sentence": "今天这个地方不太绿色。",
+          "translation": "Today this place is not very green.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0372",
+      "rank": 372,
+      "lemma": "卖",
+      "meanings": [
+        {
+          "meaning_en": "sell",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for selling something.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "sell",
+          "sentence": "我今天在学校卖了。",
+          "translation": "I was sell at school today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "sell",
+          "sentence": "老师今天在课堂上教我们卖。",
+          "translation": "The teacher had us sell in class today.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "sell",
+          "sentence": "他今天在家里常常卖。",
+          "translation": "He often sells at home today.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0373",
+      "rank": 373,
+      "lemma": "满",
+      "meanings": [
+        {
+          "meaning_en": "full",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for being full.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "full",
+          "sentence": "今天这个孩子也很满。",
+          "translation": "Today this child is also very full.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "full",
+          "sentence": "我觉得这个房间很满。",
+          "translation": "I think this room is very full.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "full",
+          "sentence": "今天这个地方不太满。",
+          "translation": "Today this place is not very full.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0374",
+      "rank": 374,
+      "lemma": "满意",
+      "meanings": [
+        {
+          "meaning_en": "satisfied",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for feeling satisfied.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "satisfied",
+          "sentence": "今天这个孩子也很满意。",
+          "translation": "Today this child is also very satisfied.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "satisfied",
+          "sentence": "我觉得这个房间很满意。",
+          "translation": "I think this room is very satisfied.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "satisfied",
+          "sentence": "今天这个地方不太满意。",
+          "translation": "Today this place is not very satisfied.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0375",
+      "rank": 375,
+      "lemma": "猫",
+      "meanings": [
+        {
+          "meaning_en": "cat",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for a cat.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "cat",
+          "sentence": "今天桌子上有一个猫。",
+          "translation": "There is a cat on the table today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "cat",
+          "sentence": "我今天在学校看到猫。",
+          "translation": "I saw a cat at school today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "cat",
+          "sentence": "老师今天给我们看这个猫。",
+          "translation": "The teacher showed us this cat today.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0376",
+      "rank": 376,
+      "lemma": "米",
+      "meanings": [
+        {
+          "meaning_en": "meter",
+          "priority": 1
+        }
+      ],
+      "notes": "Common measure word for length.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "meter",
+          "sentence": "这条路有一百米。",
+          "translation": "This road is one hundred meters long.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "meter",
+          "sentence": "学校离我家两百米。",
+          "translation": "School is two hundred meters from my home.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "meter",
+          "sentence": "这个房间有三米。",
+          "translation": "This room is three meters long.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0377",
+      "rank": 377,
+      "lemma": "面",
+      "meanings": [
+        {
+          "meaning_en": "measure word",
+          "priority": 1
+        }
+      ],
+      "notes": "Common measure word for flat things or sides.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "measure word",
+          "sentence": "今天这面墙很白。",
+          "translation": "This wall is very white today.",
+          "difficulty": 2
+        },
+        {
+          "slot": 2,
+          "meaning_en": "measure word",
+          "sentence": "今天那面墙很亮。",
+          "translation": "That wall is very bright today.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "measure word",
+          "sentence": "今天这面墙在门口。",
+          "translation": "This wall is at the door today.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0378",
+      "rank": 378,
+      "lemma": "面²",
+      "meanings": [
+        {
+          "meaning_en": "face",
+          "priority": 1
+        },
+        {
+          "meaning_en": "surface",
+          "priority": 2
+        },
+        {
+          "meaning_en": "side",
+          "priority": 3
+        },
+        {
+          "meaning_en": "flour",
+          "priority": 4
+        }
+      ],
+      "notes": "Common noun for a face, surface, side, or flour-related sense.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "face",
+          "sentence": "今天这面²很白，也很干净。",
+          "translation": "This face/surface is very white and clean today.",
+          "difficulty": 3
+        },
+        {
+          "slot": 2,
+          "meaning_en": "surface",
+          "sentence": "今天我在家里看见面²。",
+          "translation": "I saw the face/surface today at home.",
+          "difficulty": 3
+        },
+        {
+          "slot": 3,
+          "meaning_en": "flour",
+          "sentence": "今天这个面²很大，也很白。",
+          "translation": "This face/surface is very big and very white today.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0379",
+      "rank": 379,
+      "lemma": "面前",
+      "meanings": [
+        {
+          "meaning_en": "in front of",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for the space in front of someone or something.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "in front of",
+          "sentence": "老师面前有一本书。",
+          "translation": "There is a book in front of the teacher.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "in front of",
+          "sentence": "门口面前站着一个孩子。",
+          "translation": "A child is standing in front of the door.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "in front of",
+          "sentence": "今天礼物放在朋友面前。",
+          "translation": "The gift is in front of my friend today.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0380",
+      "rank": 380,
+      "lemma": "名",
+      "meanings": [
+        {
+          "meaning_en": "name",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for a name.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "name",
+          "sentence": "老师今天问我的名。",
+          "translation": "The teacher asked for my name today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "name",
+          "sentence": "我今天在学校学这个名。",
+          "translation": "I studied this name at school today.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "name",
+          "sentence": "这个名对我很重要。",
+          "translation": "This name is very important to me.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0381",
+      "rank": 381,
+      "lemma": "名称",
+      "meanings": [
+        {
+          "meaning_en": "name",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for a name or title.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "name",
+          "sentence": "老师今天问我的名称。",
+          "translation": "The teacher asked for my name today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "name",
+          "sentence": "我今天在学校学这个名称。",
+          "translation": "I studied this name at school today.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "name",
+          "sentence": "这个名称对我很重要。",
+          "translation": "This name is very important to me.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0382",
+      "rank": 382,
+      "lemma": "名单",
+      "meanings": [
+        {
+          "meaning_en": "list",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for a list of names.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "list",
+          "sentence": "老师今天问我的名单。",
+          "translation": "The teacher asked for my list today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "list",
+          "sentence": "我今天在学校学这个名单。",
+          "translation": "I studied this list at school today.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "list",
+          "sentence": "这个名单对我很重要。",
+          "translation": "This list is very important to me.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0383",
+      "rank": 383,
+      "lemma": "明星",
+      "meanings": [
+        {
+          "meaning_en": "star",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for a celebrity or star.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "star",
+          "sentence": "今天桌子上有一个明星。",
+          "translation": "There is a star on the table today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "star",
+          "sentence": "我今天在学校看到明星。",
+          "translation": "I saw a star at school today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "star",
+          "sentence": "老师今天给我们看这个明星。",
+          "translation": "The teacher showed us this star today.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0384",
+      "rank": 384,
+      "lemma": "目的",
+      "meanings": [
+        {
+          "meaning_en": "purpose",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for a purpose or goal.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "purpose",
+          "sentence": "老师今天问我的目的。",
+          "translation": "The teacher asked for my purpose today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "purpose",
+          "sentence": "我今天在学校学这个目的。",
+          "translation": "I studied this purpose at school today.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "purpose",
+          "sentence": "这个目的对我很重要。",
+          "translation": "This purpose is very important to me.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0385",
+      "rank": 385,
+      "lemma": "拿出",
+      "meanings": [
+        {
+          "meaning_en": "take out",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for taking something out.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "take out",
+          "sentence": "我今天在学校拿出了。",
+          "translation": "I was take out at school today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "take out",
+          "sentence": "老师今天在课堂上教我们拿出。",
+          "translation": "The teacher had us take out in class today.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "take out",
+          "sentence": "他今天在家里常常拿出。",
+          "translation": "He often take outs at home today.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0386",
+      "rank": 386,
+      "lemma": "拿到",
+      "meanings": [
+        {
+          "meaning_en": "get",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for getting or obtaining something.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "get",
+          "sentence": "我今天在学校拿到了。",
+          "translation": "I was get at school today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "get",
+          "sentence": "老师今天在课堂上教我们拿到。",
+          "translation": "The teacher had us get in class today.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "get",
+          "sentence": "他今天在家里常常拿到。",
+          "translation": "He often gets at home today.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0387",
+      "rank": 387,
+      "lemma": "那",
+      "meanings": [
+        {
+          "meaning_en": "then",
+          "priority": 1
+        },
+        {
+          "meaning_en": "in that case",
+          "priority": 2
+        }
+      ],
+      "notes": "Common conjunction used to move a conversation forward.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "then",
+          "sentence": "你今天不去，那我们明天去。",
+          "translation": "If you are not going today, then we will go tomorrow.",
+          "difficulty": 2
+        },
+        {
+          "slot": 2,
+          "meaning_en": "in that case",
+          "sentence": "如果你来，那我们就一起走。",
+          "translation": "If you come, then we will go together.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "then",
+          "sentence": "天气不好，那我们在家里休息。",
+          "translation": "The weather is bad, then we will rest at home.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0388",
+      "rank": 388,
+      "lemma": "那会儿",
+      "meanings": [
+        {
+          "meaning_en": "at that time",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for a past time period.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "at that time",
+          "sentence": "那会儿我还在学校。",
+          "translation": "At that time I was still at school.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "at that time",
+          "sentence": "那会儿天气很冷。",
+          "translation": "At that time the weather was very cold.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "at that time",
+          "sentence": "那会儿他常常看书。",
+          "translation": "At that time he often read books.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0389",
+      "rank": 389,
+      "lemma": "那么",
+      "meanings": [
+        {
+          "meaning_en": "so",
+          "priority": 1
+        },
+        {
+          "meaning_en": "like that",
+          "priority": 2
+        }
+      ],
+      "notes": "Common word used to connect a condition or explain a way to do something.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "so",
+          "sentence": "如果你累，那么先休息。",
+          "translation": "If you are tired, then rest first.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "like that",
+          "sentence": "今天这个办法那么好。",
+          "translation": "This method is that good today.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "so",
+          "sentence": "他那么忙，所以来得晚。",
+          "translation": "He is so busy, so he came late.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0390",
+      "rank": 390,
+      "lemma": "那时候",
+      "meanings": [
+        {
+          "meaning_en": "at that time",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for a past time in a story or memory.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "at that time",
+          "sentence": "那时候我在北方。",
+          "translation": "At that time I was in the north.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "at that time",
+          "sentence": "那时候天气很凉快。",
+          "translation": "At that time the weather was pleasantly cool.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "at that time",
+          "sentence": "那时候他常常去学校。",
+          "translation": "At that time he often went to school.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0391",
+      "rank": 391,
+      "lemma": "那样",
+      "meanings": [
+        {
+          "meaning_en": "like that",
+          "priority": 1
+        },
+        {
+          "meaning_en": "such",
+          "priority": 2
+        }
+      ],
+      "notes": "Common word for a way of doing or being something.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "like that",
+          "sentence": "不要那样看我。",
+          "translation": "Do not look at me like that.",
+          "difficulty": 2
+        },
+        {
+          "slot": 2,
+          "meaning_en": "like that",
+          "sentence": "这个颜色不是那样的蓝。",
+          "translation": "This color is not that kind of blue.",
+          "difficulty": 3
+        },
+        {
+          "slot": 3,
+          "meaning_en": "such",
+          "sentence": "那样的故事很可怕。",
+          "translation": "Such a story is very scary.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0392",
+      "rank": 392,
+      "lemma": "南方",
+      "meanings": [
+        {
+          "meaning_en": "south",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for the south.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "south",
+          "sentence": "我来自南方。",
+          "translation": "I come from the south.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "south",
+          "sentence": "今天我的朋友也来自南方。",
+          "translation": "My friend also comes from the south today.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "south",
+          "sentence": "这个孩子来自南方。",
+          "translation": "This child comes from the south.",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0393",
+      "rank": 393,
+      "lemma": "难过",
+      "meanings": [
+        {
+          "meaning_en": "sad",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for feeling sad or upset.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "sad",
+          "sentence": "今天这个孩子也很难过。",
+          "translation": "Today this child is also very sad.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "sad",
+          "sentence": "我觉得这个房间很难过。",
+          "translation": "I think this room is very sad.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "sad",
+          "sentence": "今天这个地方不太难过。",
+          "translation": "Today this place is not very sad.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0394",
+      "rank": 394,
+      "lemma": "难看",
+      "meanings": [
+        {
+          "meaning_en": "ugly",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for something ugly or unpleasant to look at.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "ugly",
+          "sentence": "今天这个孩子也很难看。",
+          "translation": "Today this child is also very ugly.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "ugly",
+          "sentence": "我觉得这个房间很难看。",
+          "translation": "I think this room is very ugly.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "ugly",
+          "sentence": "今天这个地方不太难看。",
+          "translation": "Today this place is not very ugly.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0395",
+      "rank": 395,
+      "lemma": "难受",
+      "meanings": [
+        {
+          "meaning_en": "uncomfortable",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for feeling unwell or uncomfortable.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "uncomfortable",
+          "sentence": "今天这个孩子也很难受。",
+          "translation": "Today this child is also very uncomfortable.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "uncomfortable",
+          "sentence": "我觉得这个房间很难受。",
+          "translation": "I think this room is very uncomfortable.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "uncomfortable",
+          "sentence": "今天这个地方不太难受。",
+          "translation": "Today this place is not very uncomfortable.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0396",
+      "rank": 396,
+      "lemma": "难题",
+      "meanings": [
+        {
+          "meaning_en": "difficult problem",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for a difficult problem or puzzle.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "difficult problem",
+          "sentence": "老师今天问我的难题。",
+          "translation": "The teacher asked for my difficult problem today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "difficult problem",
+          "sentence": "我今天在学校学这个难题。",
+          "translation": "I studied this difficult problem at school today.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "difficult problem",
+          "sentence": "这个难题对我很重要。",
+          "translation": "This difficult problem is very important to me.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0397",
+      "rank": 397,
+      "lemma": "难听",
+      "meanings": [
+        {
+          "meaning_en": "unpleasant to hear",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for sounds or words that are unpleasant to hear.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "unpleasant to hear",
+          "sentence": "今天这个孩子也很难听。",
+          "translation": "Today this child is also very unpleasant to hear.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "unpleasant to hear",
+          "sentence": "我觉得这个房间很难听。",
+          "translation": "I think this room is very unpleasant to hear.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "unpleasant to hear",
+          "sentence": "今天这个地方不太难听。",
+          "translation": "Today this place is not very unpleasant to hear.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0398",
+      "rank": 398,
+      "lemma": "能够",
+      "meanings": [
+        {
+          "meaning_en": "be able to",
+          "priority": 1
+        },
+        {
+          "meaning_en": "can",
+          "priority": 2
+        }
+      ],
+      "notes": "Common word for being able to do something.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "be able to",
+          "sentence": "我今天能够去学校。",
+          "translation": "I am able to go to school today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "can",
+          "sentence": "他能够流利地说中文。",
+          "translation": "He can speak Chinese fluently.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "be able to",
+          "sentence": "我们能够一起去北方。",
+          "translation": "We are able to go to the north together.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0399",
+      "rank": 399,
+      "lemma": "年级",
+      "meanings": [
+        {
+          "meaning_en": "grade",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for a school grade or year level.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "grade",
+          "sentence": "今天桌子上有一个年级。",
+          "translation": "There is a grade on the table today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "grade",
+          "sentence": "我今天在学校看到年级。",
+          "translation": "I saw a grade at school today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "grade",
+          "sentence": "老师今天给我们看这个年级。",
+          "translation": "The teacher showed us this grade today.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0400",
+      "rank": 400,
+      "lemma": "年轻",
+      "meanings": [
+        {
+          "meaning_en": "young",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for being young.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "young",
+          "sentence": "今天这个孩子也很年轻。",
+          "translation": "Today this child is also very young.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "young",
+          "sentence": "我觉得这个房间很年轻。",
+          "translation": "I think this room is very young.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "young",
+          "sentence": "今天这个地方不太年轻。",
+          "translation": "Today this place is not very young.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0401",
+      "rank": 401,
+      "lemma": "鸟",
+      "meanings": [
+        {
+          "meaning_en": "bird",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for a bird.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "bird",
+          "sentence": "今天桌子上有一个鸟。",
+          "translation": "There is a bird on the table today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "bird",
+          "sentence": "我今天在学校看到鸟。",
+          "translation": "I saw a bird at school today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "bird",
+          "sentence": "老师今天给我们看这个鸟。",
+          "translation": "The teacher showed us this bird today.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0402",
+      "rank": 402,
+      "lemma": "弄",
+      "meanings": [
+        {
+          "meaning_en": "do",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for doing, making, or getting something done.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "do",
+          "sentence": "我今天在学校弄了。",
+          "translation": "I was do at school today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "do",
+          "sentence": "老师今天在课堂上教我们弄。",
+          "translation": "The teacher had us do in class today.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "do",
+          "sentence": "他今天在家里常常弄。",
+          "translation": "He often dos at home today.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0403",
+      "rank": 403,
+      "lemma": "努力",
+      "meanings": [
+        {
+          "meaning_en": "strive",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for working hard and trying hard.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "strive",
+          "sentence": "我今天在学校努力学习。",
+          "translation": "I work hard studying at school today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "strive",
+          "sentence": "他为了考试一直努力。",
+          "translation": "He keeps trying hard for the exam.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "strive",
+          "sentence": "孩子们在课堂上很努力。",
+          "translation": "The children are very hardworking in class.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0404",
+      "rank": 404,
+      "lemma": "爬",
+      "meanings": [
+        {
+          "meaning_en": "climb",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for climbing or crawling.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "climb",
+          "sentence": "我今天在学校爬了。",
+          "translation": "I was climb at school today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "climb",
+          "sentence": "老师今天在课堂上教我们爬。",
+          "translation": "The teacher had us climb in class today.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "climb",
+          "sentence": "他今天在家里常常爬。",
+          "translation": "He often climbs at home today.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0405",
+      "rank": 405,
+      "lemma": "爬山",
+      "meanings": [
+        {
+          "meaning_en": "mountain climbing",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for mountain climbing.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "mountain climbing",
+          "sentence": "我们今天去爬山。",
+          "translation": "We are going mountain climbing today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "mountain climbing",
+          "sentence": "他和朋友常常爬山。",
+          "translation": "He often goes mountain climbing with friends.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "mountain climbing",
+          "sentence": "这个周末家人去爬山。",
+          "translation": "This weekend the family is going mountain climbing.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0406",
+      "rank": 406,
+      "lemma": "怕",
+      "meanings": [
+        {
+          "meaning_en": "be afraid",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for being afraid or scared.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "be afraid",
+          "sentence": "我今天在学校怕了。",
+          "translation": "I was be afraid at school today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "be afraid",
+          "sentence": "老师今天在课堂上教我们怕。",
+          "translation": "The teacher had us be afraid in class today.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "be afraid",
+          "sentence": "他今天在家里常常怕。",
+          "translation": "He often be afraids at home today.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0407",
+      "rank": 407,
+      "lemma": "排",
+      "meanings": [
+        {
+          "meaning_en": "row",
+          "priority": 1
+        },
+        {
+          "meaning_en": "line",
+          "priority": 2
+        }
+      ],
+      "notes": "Common word for a row or line.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "row",
+          "sentence": "前面有一排椅子。",
+          "translation": "There is a row of chairs in front.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "line",
+          "sentence": "树下有一排孩子。",
+          "translation": "There is a row of children under the trees.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "row",
+          "sentence": "桌子后面是一排书。",
+          "translation": "Behind the table is a row of books.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0408",
+      "rank": 408,
+      "lemma": "排队",
+      "meanings": [
+        {
+          "meaning_en": "queue",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for standing in line.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "queue",
+          "sentence": "我今天在学校排队了。",
+          "translation": "I was queue at school today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "queue",
+          "sentence": "老师今天在课堂上教我们排队。",
+          "translation": "The teacher had us queue in class today.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "queue",
+          "sentence": "他今天在家里常常排队。",
+          "translation": "He often queues at home today.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0409",
+      "rank": 409,
+      "lemma": "排球",
+      "meanings": [
+        {
+          "meaning_en": "volleyball",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for volleyball.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "volleyball",
+          "sentence": "今天桌子上有一个排球。",
+          "translation": "There is a volleyball on the table today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "volleyball",
+          "sentence": "我今天在学校看到排球。",
+          "translation": "I saw a volleyball at school today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "volleyball",
+          "sentence": "老师今天给我们看这个排球。",
+          "translation": "The teacher showed us this volleyball today.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0410",
+      "rank": 410,
+      "lemma": "碰",
+      "meanings": [
+        {
+          "meaning_en": "touch",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for touching or bumping into something.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "touch",
+          "sentence": "我今天在学校碰了。",
+          "translation": "I was touch at school today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "touch",
+          "sentence": "老师今天在课堂上教我们碰。",
+          "translation": "The teacher had us touch in class today.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "touch",
+          "sentence": "他今天在家里常常碰。",
+          "translation": "He often touchs at home today.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0411",
+      "rank": 411,
+      "lemma": "碰到",
+      "meanings": [
+        {
+          "meaning_en": "meet",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for meeting or running into someone or something.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "meet",
+          "sentence": "我今天在学校碰到了。",
+          "translation": "I was meet at school today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "meet",
+          "sentence": "老师今天在课堂上教我们碰到。",
+          "translation": "The teacher had us meet in class today.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "meet",
+          "sentence": "他今天在家里常常碰到。",
+          "translation": "He often meets at home today.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0412",
+      "rank": 412,
+      "lemma": "碰见",
+      "meanings": [
+        {
+          "meaning_en": "meet",
+          "priority": 1
+        }
+      ],
+      "notes": "Common word for meeting or running into someone or something.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "meet",
+          "sentence": "我今天在学校碰见了。",
+          "translation": "I was meet at school today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "meet",
+          "sentence": "老师今天在课堂上教我们碰见。",
+          "translation": "The teacher had us meet in class today.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "meet",
+          "sentence": "他今天在家里常常碰见。",
+          "translation": "He often meets at home today.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0413",
+      "rank": 413,
+      "lemma": "篇",
+      "meanings": [
+        {
+          "meaning_en": "piece",
+          "priority": 1
+        }
+      ],
+      "notes": "Common measure word for articles or written pieces.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "piece",
+          "sentence": "这篇句子很长。",
+          "translation": "This piece of text is very long.",
+          "difficulty": 2
+        },
+        {
+          "slot": 2,
+          "meaning_en": "piece",
+          "sentence": "老师今天看了一篇故事。",
+          "translation": "The teacher read a story today.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "piece",
+          "sentence": "我写了一篇例子。",
+          "translation": "I wrote an example piece.",
+          "difficulty": 2
+        }
+      ]
+    }
+  ]
+}

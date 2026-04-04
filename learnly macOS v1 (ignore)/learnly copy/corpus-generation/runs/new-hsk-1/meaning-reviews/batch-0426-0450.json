@@ -1,0 +1,232 @@
+[
+  {
+    "word_id": "new-hsk-1-0426",
+    "rank": 426,
+    "lemma": "页",
+    "reviewed_meanings": [
+      "page"
+    ],
+    "review_note": "Use the noun page."
+  },
+  {
+    "word_id": "new-hsk-1-0427",
+    "rank": 427,
+    "lemma": "一",
+    "reviewed_meanings": [
+      "one"
+    ],
+    "review_note": "Use the number one."
+  },
+  {
+    "word_id": "new-hsk-1-0428",
+    "rank": 428,
+    "lemma": "衣服",
+    "reviewed_meanings": [
+      "clothes"
+    ],
+    "review_note": "Use the noun clothes."
+  },
+  {
+    "word_id": "new-hsk-1-0429",
+    "rank": 429,
+    "lemma": "医生",
+    "reviewed_meanings": [
+      "doctor"
+    ],
+    "review_note": "Use the noun doctor."
+  },
+  {
+    "word_id": "new-hsk-1-0430",
+    "rank": 430,
+    "lemma": "医院",
+    "reviewed_meanings": [
+      "hospital"
+    ],
+    "review_note": "Use the noun hospital."
+  },
+  {
+    "word_id": "new-hsk-1-0431",
+    "rank": 431,
+    "lemma": "一半",
+    "reviewed_meanings": [
+      "half"
+    ],
+    "review_note": "Use the noun or quantity word half."
+  },
+  {
+    "word_id": "new-hsk-1-0432",
+    "rank": 432,
+    "lemma": "一会儿",
+    "reviewed_meanings": [
+      "a little while",
+      "in a moment"
+    ],
+    "review_note": "A little while is the clearest primary gloss; in a moment is a useful secondary gloss."
+  },
+  {
+    "word_id": "new-hsk-1-0433",
+    "rank": 433,
+    "lemma": "一块儿",
+    "reviewed_meanings": [
+      "together"
+    ],
+    "review_note": "Use the adverb together."
+  },
+  {
+    "word_id": "new-hsk-1-0434",
+    "rank": 434,
+    "lemma": "一下儿",
+    "reviewed_meanings": [
+      "a little bit",
+      "for a moment"
+    ],
+    "review_note": "A little bit is the clearest primary gloss; for a moment is a useful secondary gloss."
+  },
+  {
+    "word_id": "new-hsk-1-0435",
+    "rank": 435,
+    "lemma": "一样",
+    "reviewed_meanings": [
+      "the same"
+    ],
+    "review_note": "Use the phrase the same."
+  },
+  {
+    "word_id": "new-hsk-1-0436",
+    "rank": 436,
+    "lemma": "一边",
+    "reviewed_meanings": [
+      "one side",
+      "while"
+    ],
+    "review_note": "One side is the clearest literal gloss; while is a useful secondary sense when natural."
+  },
+  {
+    "word_id": "new-hsk-1-0437",
+    "rank": 437,
+    "lemma": "一点儿",
+    "reviewed_meanings": [
+      "a little bit"
+    ],
+    "review_note": "Use the quantity phrase a little bit."
+  },
+  {
+    "word_id": "new-hsk-1-0438",
+    "rank": 438,
+    "lemma": "一起",
+    "reviewed_meanings": [
+      "together"
+    ],
+    "review_note": "Use the adverb together."
+  },
+  {
+    "word_id": "new-hsk-1-0439",
+    "rank": 439,
+    "lemma": "一些",
+    "reviewed_meanings": [
+      "some"
+    ],
+    "review_note": "Use the quantity word some."
+  },
+  {
+    "word_id": "new-hsk-1-0440",
+    "rank": 440,
+    "lemma": "用",
+    "reviewed_meanings": [
+      "use"
+    ],
+    "review_note": "Use the verb use."
+  },
+  {
+    "word_id": "new-hsk-1-0441",
+    "rank": 441,
+    "lemma": "有",
+    "reviewed_meanings": [
+      "have",
+      "there is"
+    ],
+    "review_note": "Have is the clearest primary gloss; there is is a useful secondary sense."
+  },
+  {
+    "word_id": "new-hsk-1-0442",
+    "rank": 442,
+    "lemma": "有的",
+    "reviewed_meanings": [
+      "some"
+    ],
+    "review_note": "Use the pronoun some."
+  },
+  {
+    "word_id": "new-hsk-1-0443",
+    "rank": 443,
+    "lemma": "有名",
+    "reviewed_meanings": [
+      "famous"
+    ],
+    "review_note": "Use the adjective famous."
+  },
+  {
+    "word_id": "new-hsk-1-0444",
+    "rank": 444,
+    "lemma": "有时候",
+    "reviewed_meanings": [
+      "sometimes"
+    ],
+    "review_note": "Use the adverb sometimes."
+  },
+  {
+    "word_id": "new-hsk-1-0445",
+    "rank": 445,
+    "lemma": "有一些",
+    "reviewed_meanings": [
+      "some"
+    ],
+    "review_note": "Use the quantity phrase some."
+  },
+  {
+    "word_id": "new-hsk-1-0446",
+    "rank": 446,
+    "lemma": "有用",
+    "reviewed_meanings": [
+      "useful"
+    ],
+    "review_note": "Use the adjective useful."
+  },
+  {
+    "word_id": "new-hsk-1-0447",
+    "rank": 447,
+    "lemma": "右",
+    "reviewed_meanings": [
+      "right"
+    ],
+    "review_note": "Use the direction right."
+  },
+  {
+    "word_id": "new-hsk-1-0448",
+    "rank": 448,
+    "lemma": "右边",
+    "reviewed_meanings": [
+      "right side",
+      "right"
+    ],
+    "review_note": "Right side is the clearest learner-facing gloss."
+  },
+  {
+    "word_id": "new-hsk-1-0449",
+    "rank": 449,
+    "lemma": "雨",
+    "reviewed_meanings": [
+      "rain"
+    ],
+    "review_note": "Use the noun rain."
+  },
+  {
+    "word_id": "new-hsk-1-0450",
+    "rank": 450,
+    "lemma": "元",
+    "reviewed_meanings": [
+      "yuan"
+    ],
+    "review_note": "Use the money unit yuan, not the abstract gloss element."
+  }
+]

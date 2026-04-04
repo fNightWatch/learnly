@@ -1,0 +1,139 @@
+[
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0029",
+    "rank": 29,
+    "display_form": "表示",
+    "lemma": "表示",
+    "generation_form": "表示",
+    "pronunciation": "biǎoshì",
+    "pos": "unknown",
+    "primary_gloss": "Express",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0062",
+    "rank": 62,
+    "display_form": "称¹（动）",
+    "lemma": "称¹",
+    "generation_form": "称¹",
+    "pronunciation": "chēng",
+    "pos": "verb",
+    "primary_gloss": "call",
+    "secondary_glosses": [
+      "say"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0125",
+    "rank": 125,
+    "display_form": "地铁",
+    "lemma": "地铁",
+    "generation_form": "地铁",
+    "pronunciation": "dìtiě",
+    "pos": "unknown",
+    "primary_gloss": "metro",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0159",
+    "rank": 159,
+    "display_form": "方法",
+    "lemma": "方法",
+    "generation_form": "方法",
+    "pronunciation": "fāngfǎ",
+    "pos": "unknown",
+    "primary_gloss": "Method",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0164",
+    "rank": 164,
+    "display_form": "分（动）",
+    "lemma": "分",
+    "generation_form": "分",
+    "pronunciation": "fēn",
+    "pos": "verb",
+    "primary_gloss": "divide",
+    "secondary_glosses": [
+      "part",
+      "distribute"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0165",
+    "rank": 165,
+    "display_form": "分开",
+    "lemma": "分开",
+    "generation_form": "分开",
+    "pronunciation": "fēn kāi",
+    "pos": "unknown",
+    "primary_gloss": "separate",
+    "secondary_glosses": [
+      "part"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0167",
+    "rank": 167,
+    "display_form": "分钟",
+    "lemma": "分钟",
+    "generation_form": "分钟",
+    "pronunciation": "fēnzhōng",
+    "pos": "unknown",
+    "primary_gloss": "Minute",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0168",
+    "rank": 168,
+    "display_form": "份",
+    "lemma": "份",
+    "generation_form": "份",
+    "pronunciation": "fèn",
+    "pos": "unknown",
+    "primary_gloss": "share",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0188",
+    "rank": 188,
+    "display_form": "公共汽车",
+    "lemma": "公共汽车",
+    "generation_form": "公共汽车",
+    "pronunciation": "gōnggòngqìchē",
+    "pos": "unknown",
+    "primary_gloss": "Bus",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0199",
+    "rank": 199,
+    "display_form": "故意",
+    "lemma": "故意",
+    "generation_form": "故意",
+    "pronunciation": "gùyì",
+    "pos": "unknown",
+    "primary_gloss": "deliberately",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  }
+]

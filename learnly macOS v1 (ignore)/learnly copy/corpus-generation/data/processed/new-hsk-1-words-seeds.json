@@ -1,0 +1,4647 @@
+[
+  {
+    "rank": 1,
+    "display_form": "爱",
+    "pronunciation": "ài",
+    "pos": "unknown",
+    "primary_gloss": "love",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 2,
+    "display_form": "爱好",
+    "pronunciation": "ài hào",
+    "pos": "unknown",
+    "primary_gloss": "hobby",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 3,
+    "display_form": "八",
+    "pronunciation": "bā",
+    "pos": "numeral",
+    "primary_gloss": "eight",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 4,
+    "display_form": "爸爸 ｜ 爸",
+    "pronunciation": "bàba ｜ bà",
+    "pos": "unknown",
+    "primary_gloss": "dad",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 5,
+    "display_form": "吧",
+    "pronunciation": "ba",
+    "pos": "particle",
+    "primary_gloss": "(interjection particle)",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 6,
+    "display_form": "白（形）",
+    "pronunciation": "bái",
+    "pos": "adjective",
+    "primary_gloss": "white",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. The source marks this entry as adjective."
+  },
+  {
+    "rank": 7,
+    "display_form": "白天",
+    "pronunciation": "bái tiān",
+    "pos": "unknown",
+    "primary_gloss": "day",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 8,
+    "display_form": "百",
+    "pronunciation": "bǎi",
+    "pos": "numeral",
+    "primary_gloss": "hundred",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 9,
+    "display_form": "班",
+    "pronunciation": "bān",
+    "pos": "unknown",
+    "primary_gloss": "class",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 10,
+    "display_form": "半",
+    "pronunciation": "bàn",
+    "pos": "unknown",
+    "primary_gloss": "half",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 11,
+    "display_form": "半年",
+    "pronunciation": "bàn nián",
+    "pos": "unknown",
+    "primary_gloss": "half a year",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 12,
+    "display_form": "半天",
+    "pronunciation": "bàn tiān",
+    "pos": "unknown",
+    "primary_gloss": "half day",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 13,
+    "display_form": "帮",
+    "pronunciation": "bāng",
+    "pos": "unknown",
+    "primary_gloss": "help",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 14,
+    "display_form": "帮忙",
+    "pronunciation": "bāng máng",
+    "pos": "unknown",
+    "primary_gloss": "help",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 15,
+    "display_form": "包",
+    "pronunciation": "bāo",
+    "pos": "unknown",
+    "primary_gloss": "package",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 16,
+    "display_form": "包子",
+    "pronunciation": "bāo zi",
+    "pos": "unknown",
+    "primary_gloss": "bun",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 17,
+    "display_form": "杯",
+    "pronunciation": "bēi",
+    "pos": "unknown",
+    "primary_gloss": "cup",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 18,
+    "display_form": "杯子",
+    "pronunciation": "bēi zi",
+    "pos": "unknown",
+    "primary_gloss": "cup",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 19,
+    "display_form": "北",
+    "pronunciation": "běi",
+    "pos": "unknown",
+    "primary_gloss": "north",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 20,
+    "display_form": "北边",
+    "pronunciation": "běi biān",
+    "pos": "unknown",
+    "primary_gloss": "North side",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 21,
+    "display_form": "北京",
+    "pronunciation": "běi jīng",
+    "pos": "unknown",
+    "primary_gloss": "Beijing",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 22,
+    "display_form": "本（量）",
+    "pronunciation": "běn",
+    "pos": "measure word",
+    "primary_gloss": "(measure word for books or volumes)",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. The source marks this entry as measure word."
+  },
+  {
+    "rank": 23,
+    "display_form": "本子",
+    "pronunciation": "běn zi",
+    "pos": "unknown",
+    "primary_gloss": "book",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 24,
+    "display_form": "比",
+    "pronunciation": "bǐ",
+    "pos": "particle",
+    "primary_gloss": "particle used for comparison",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 25,
+    "display_form": "别（副）",
+    "pronunciation": "bié",
+    "pos": "adverb",
+    "primary_gloss": "Don't",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. The source marks this entry as adverb."
+  },
+  {
+    "rank": 26,
+    "display_form": "别的",
+    "pronunciation": "bié de",
+    "pos": "unknown",
+    "primary_gloss": "other",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 27,
+    "display_form": "别人",
+    "pronunciation": "bié·rén",
+    "pos": "unknown",
+    "primary_gloss": "other people",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 28,
+    "display_form": "病",
+    "pronunciation": "bìng",
+    "pos": "unknown",
+    "primary_gloss": "disease",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 29,
+    "display_form": "病人",
+    "pronunciation": "bìng rén",
+    "pos": "unknown",
+    "primary_gloss": "patient",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 30,
+    "display_form": "不大",
+    "pronunciation": "bú dà",
+    "pos": "unknown",
+    "primary_gloss": "not big",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 31,
+    "display_form": "不对",
+    "pronunciation": "bú duì",
+    "pos": "unknown",
+    "primary_gloss": "wrong",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 32,
+    "display_form": "不客气",
+    "pronunciation": "bú kè qì",
+    "pos": "unknown",
+    "primary_gloss": "You're welcome",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 33,
+    "display_form": "不用",
+    "pronunciation": "bú yòng",
+    "pos": "unknown",
+    "primary_gloss": "No need to",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 34,
+    "display_form": "不",
+    "pronunciation": "bù",
+    "pos": "unknown",
+    "primary_gloss": "No",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 35,
+    "display_form": "菜",
+    "pronunciation": "cài",
+    "pos": "unknown",
+    "primary_gloss": "dish",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 36,
+    "display_form": "茶",
+    "pronunciation": "chá",
+    "pos": "unknown",
+    "primary_gloss": "tea",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 37,
+    "display_form": "差",
+    "pronunciation": "chà",
+    "pos": "unknown",
+    "primary_gloss": "differ from",
+    "secondary_glosses": [
+      "bad",
+      "short of"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 38,
+    "display_form": "常",
+    "pronunciation": "cháng",
+    "pos": "unknown",
+    "primary_gloss": "often",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 39,
+    "display_form": "常常",
+    "pronunciation": "cháng cháng",
+    "pos": "unknown",
+    "primary_gloss": "often",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 40,
+    "display_form": "唱",
+    "pronunciation": "chàng",
+    "pos": "unknown",
+    "primary_gloss": "sing",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 41,
+    "display_form": "唱歌",
+    "pronunciation": "chàng gē",
+    "pos": "unknown",
+    "primary_gloss": "sing",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 42,
+    "display_form": "车",
+    "pronunciation": "chē",
+    "pos": "unknown",
+    "primary_gloss": "car",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 43,
+    "display_form": "车票",
+    "pronunciation": "chē piào",
+    "pos": "unknown",
+    "primary_gloss": "ticket",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 44,
+    "display_form": "车上",
+    "pronunciation": "chē shàng",
+    "pos": "unknown",
+    "primary_gloss": "in the car",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 45,
+    "display_form": "车站",
+    "pronunciation": "chē zhàn",
+    "pos": "unknown",
+    "primary_gloss": "station",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 46,
+    "display_form": "吃",
+    "pronunciation": "chī",
+    "pos": "unknown",
+    "primary_gloss": "eat",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 47,
+    "display_form": "吃饭",
+    "pronunciation": "chī fàn",
+    "pos": "unknown",
+    "primary_gloss": "have meal",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 48,
+    "display_form": "出",
+    "pronunciation": "chū",
+    "pos": "unknown",
+    "primary_gloss": "out",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 49,
+    "display_form": "出来",
+    "pronunciation": "chū lái",
+    "pos": "unknown",
+    "primary_gloss": "come",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 50,
+    "display_form": "出去",
+    "pronunciation": "chū qù",
+    "pos": "unknown",
+    "primary_gloss": "go out",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 51,
+    "display_form": "穿",
+    "pronunciation": "chuān",
+    "pos": "unknown",
+    "primary_gloss": "wear",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 52,
+    "display_form": "床",
+    "pronunciation": "chuáng",
+    "pos": "unknown",
+    "primary_gloss": "bed",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 53,
+    "display_form": "次（量）",
+    "pronunciation": "cì",
+    "pos": "measure word",
+    "primary_gloss": "(measure word for times",
+    "secondary_glosses": [
+      "frequency)"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. The source marks this entry as measure word."
+  },
+  {
+    "rank": 54,
+    "display_form": "从",
+    "pronunciation": "cóng",
+    "pos": "preposition",
+    "primary_gloss": "from",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 55,
+    "display_form": "错",
+    "pronunciation": "cuò",
+    "pos": "unknown",
+    "primary_gloss": "wrong",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 56,
+    "display_form": "打（动）",
+    "pronunciation": "dǎ",
+    "pos": "verb",
+    "primary_gloss": "hit",
+    "secondary_glosses": [
+      "take"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. The source marks this entry as verb."
+  },
+  {
+    "rank": 57,
+    "display_form": "打车",
+    "pronunciation": "dǎ chē",
+    "pos": "unknown",
+    "primary_gloss": "take a taxi",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 58,
+    "display_form": "打电话",
+    "pronunciation": "dǎ diàn huà",
+    "pos": "unknown",
+    "primary_gloss": "make a phonecall",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 59,
+    "display_form": "打开",
+    "pronunciation": "dǎ kāi",
+    "pos": "unknown",
+    "primary_gloss": "turn on",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 60,
+    "display_form": "打球",
+    "pronunciation": "dǎ qiú",
+    "pos": "unknown",
+    "primary_gloss": "play ball",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 61,
+    "display_form": "大",
+    "pronunciation": "dà",
+    "pos": "unknown",
+    "primary_gloss": "large",
+    "secondary_glosses": [
+      "big"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 62,
+    "display_form": "大学",
+    "pronunciation": "dà xué",
+    "pos": "unknown",
+    "primary_gloss": "university",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 63,
+    "display_form": "大学生",
+    "pronunciation": "dà xué shēng",
+    "pos": "unknown",
+    "primary_gloss": "university student",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 64,
+    "display_form": "到",
+    "pronunciation": "dào",
+    "pos": "unknown",
+    "primary_gloss": "reach",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 65,
+    "display_form": "得到",
+    "pronunciation": "dé dào",
+    "pos": "unknown",
+    "primary_gloss": "get",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 66,
+    "display_form": "地",
+    "pronunciation": "de",
+    "pos": "unknown",
+    "primary_gloss": "auxiliary word",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 67,
+    "display_form": "的",
+    "pronunciation": "de",
+    "pos": "unknown",
+    "primary_gloss": "(aux.)",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 68,
+    "display_form": "等（动）",
+    "pronunciation": "děng",
+    "pos": "verb",
+    "primary_gloss": "wait",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. The source marks this entry as verb."
+  },
+  {
+    "rank": 69,
+    "display_form": "地",
+    "pronunciation": "dì",
+    "pos": "unknown",
+    "primary_gloss": "ground",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 70,
+    "display_form": "地点",
+    "pronunciation": "dìdiǎn",
+    "pos": "unknown",
+    "primary_gloss": "location",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 71,
+    "display_form": "地方",
+    "pronunciation": "dìfang",
+    "pos": "unknown",
+    "primary_gloss": "local",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 72,
+    "display_form": "地上",
+    "pronunciation": "dì shàng",
+    "pos": "unknown",
+    "primary_gloss": "on the ground",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 73,
+    "display_form": "地图",
+    "pronunciation": "dìtú",
+    "pos": "unknown",
+    "primary_gloss": "Map",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 74,
+    "display_form": "弟弟 ｜ 弟",
+    "pronunciation": "dì di ｜ dì",
+    "pos": "unknown",
+    "primary_gloss": "younger brother",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 75,
+    "display_form": "第（第二）",
+    "pronunciation": "dì（dì èr）",
+    "pos": "unknown",
+    "primary_gloss": "auxiliary word for ordinal numbers (second )",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 76,
+    "display_form": "点",
+    "pronunciation": "diǎn",
+    "pos": "unknown",
+    "primary_gloss": "spot",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 77,
+    "display_form": "电",
+    "pronunciation": "diàn",
+    "pos": "unknown",
+    "primary_gloss": "electricity",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 78,
+    "display_form": "电话",
+    "pronunciation": "diàn huà",
+    "pos": "unknown",
+    "primary_gloss": "phone",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 79,
+    "display_form": "电脑",
+    "pronunciation": "diànnǎo",
+    "pos": "unknown",
+    "primary_gloss": "Computer",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 80,
+    "display_form": "电视",
+    "pronunciation": "diànshì",
+    "pos": "unknown",
+    "primary_gloss": "television",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 81,
+    "display_form": "电视机",
+    "pronunciation": "diàn shì jī",
+    "pos": "unknown",
+    "primary_gloss": "television",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 82,
+    "display_form": "电影",
+    "pronunciation": "diànyǐng",
+    "pos": "unknown",
+    "primary_gloss": "Film",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 83,
+    "display_form": "电影院",
+    "pronunciation": "diàn yǐng yuàn",
+    "pos": "unknown",
+    "primary_gloss": "cinema",
+    "secondary_glosses": [
+      "movie theater"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 84,
+    "display_form": "东",
+    "pronunciation": "dōng",
+    "pos": "unknown",
+    "primary_gloss": "east",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 85,
+    "display_form": "东边",
+    "pronunciation": "dōng biān",
+    "pos": "unknown",
+    "primary_gloss": "east side",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 86,
+    "display_form": "东西",
+    "pronunciation": "dōngxi",
+    "pos": "unknown",
+    "primary_gloss": "thing",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 87,
+    "display_form": "动",
+    "pronunciation": "dòng",
+    "pos": "unknown",
+    "primary_gloss": "move",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 88,
+    "display_form": "动作",
+    "pronunciation": "dòngzuò",
+    "pos": "unknown",
+    "primary_gloss": "action",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 89,
+    "display_form": "都",
+    "pronunciation": "dōu",
+    "pos": "unknown",
+    "primary_gloss": "all",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 90,
+    "display_form": "读",
+    "pronunciation": "dú",
+    "pos": "unknown",
+    "primary_gloss": "read",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 91,
+    "display_form": "读书",
+    "pronunciation": "dú shū",
+    "pos": "unknown",
+    "primary_gloss": "reading",
+    "secondary_glosses": [
+      "study"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 92,
+    "display_form": "对（形）",
+    "pronunciation": "duì",
+    "pos": "adjective",
+    "primary_gloss": "right",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. The source marks this entry as adjective."
+  },
+  {
+    "rank": 93,
+    "display_form": "对不起",
+    "pronunciation": "duìbuqǐ",
+    "pos": "unknown",
+    "primary_gloss": "I'm sorry.",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 94,
+    "display_form": "多（形、代）",
+    "pronunciation": "duō",
+    "pos": "unknown",
+    "primary_gloss": "many",
+    "secondary_glosses": [
+      "much",
+      "more"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 95,
+    "display_form": "多少",
+    "pronunciation": "duōshao",
+    "pos": "unknown",
+    "primary_gloss": "how much",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 96,
+    "display_form": "饿",
+    "pronunciation": "è",
+    "pos": "unknown",
+    "primary_gloss": "hungry",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 97,
+    "display_form": "儿子",
+    "pronunciation": "érzi",
+    "pos": "unknown",
+    "primary_gloss": "Son",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 98,
+    "display_form": "二",
+    "pronunciation": "èr",
+    "pos": "numeral",
+    "primary_gloss": "Two",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 99,
+    "display_form": "饭",
+    "pronunciation": "fàn",
+    "pos": "unknown",
+    "primary_gloss": "rice",
+    "secondary_glosses": [
+      "meal"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 100,
+    "display_form": "饭店",
+    "pronunciation": "fàndiàn",
+    "pos": "unknown",
+    "primary_gloss": "restaurant",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 101,
+    "display_form": "房间",
+    "pronunciation": "fángjiān",
+    "pos": "unknown",
+    "primary_gloss": "Room",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 102,
+    "display_form": "房子",
+    "pronunciation": "fáng zi",
+    "pos": "unknown",
+    "primary_gloss": "house",
+    "secondary_glosses": [
+      "building"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 103,
+    "display_form": "放",
+    "pronunciation": "fàng",
+    "pos": "unknown",
+    "primary_gloss": "discharge",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 104,
+    "display_form": "放假",
+    "pronunciation": "fàng jià",
+    "pos": "unknown",
+    "primary_gloss": "holiday",
+    "secondary_glosses": [
+      "have a holiday"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 105,
+    "display_form": "放学",
+    "pronunciation": "fàng xué",
+    "pos": "unknown",
+    "primary_gloss": "off school",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 106,
+    "display_form": "飞",
+    "pronunciation": "fēi",
+    "pos": "unknown",
+    "primary_gloss": "fly",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 107,
+    "display_form": "飞机",
+    "pronunciation": "fēijī",
+    "pos": "unknown",
+    "primary_gloss": "aircraft",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 108,
+    "display_form": "非常",
+    "pronunciation": "fēicháng",
+    "pos": "unknown",
+    "primary_gloss": "very",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 109,
+    "display_form": "分（名、量）",
+    "pronunciation": "fēn",
+    "pos": "measure word",
+    "primary_gloss": "minute",
+    "secondary_glosses": [
+      "point",
+      "part",
+      "(measure word)"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 110,
+    "display_form": "风",
+    "pronunciation": "fēng",
+    "pos": "unknown",
+    "primary_gloss": "wind",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 111,
+    "display_form": "干",
+    "pronunciation": "gān",
+    "pos": "unknown",
+    "primary_gloss": "dry",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 112,
+    "display_form": "干净",
+    "pronunciation": "gānjìng",
+    "pos": "unknown",
+    "primary_gloss": "clean",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 113,
+    "display_form": "干",
+    "pronunciation": "gàn",
+    "pos": "unknown",
+    "primary_gloss": "do",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 114,
+    "display_form": "干什么",
+    "pronunciation": "gàn shén me",
+    "pos": "unknown",
+    "primary_gloss": "What to do",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 115,
+    "display_form": "高",
+    "pronunciation": "gāo",
+    "pos": "unknown",
+    "primary_gloss": "high",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 116,
+    "display_form": "高兴",
+    "pronunciation": "gāoxìng",
+    "pos": "unknown",
+    "primary_gloss": "happy",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 117,
+    "display_form": "告诉",
+    "pronunciation": "gàosu",
+    "pos": "unknown",
+    "primary_gloss": "tell",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 118,
+    "display_form": "哥哥 ｜ 哥",
+    "pronunciation": "gē ge ｜ gē",
+    "pos": "unknown",
+    "primary_gloss": "elder brother",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 119,
+    "display_form": "歌",
+    "pronunciation": "gē",
+    "pos": "unknown",
+    "primary_gloss": "song",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 120,
+    "display_form": "个",
+    "pronunciation": "gè",
+    "pos": "unknown",
+    "primary_gloss": "individual",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 121,
+    "display_form": "给",
+    "pronunciation": "gěi",
+    "pos": "unknown",
+    "primary_gloss": "give",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 122,
+    "display_form": "跟",
+    "pronunciation": "gēn",
+    "pos": "preposition",
+    "primary_gloss": "with",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 123,
+    "display_form": "工人",
+    "pronunciation": "gōngrén",
+    "pos": "unknown",
+    "primary_gloss": "Worker",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 124,
+    "display_form": "工作",
+    "pronunciation": "gōngzuò",
+    "pos": "unknown",
+    "primary_gloss": "work",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 125,
+    "display_form": "关（动）",
+    "pronunciation": "guān",
+    "pos": "verb",
+    "primary_gloss": "shut",
+    "secondary_glosses": [
+      "close",
+      "turn off"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. The source marks this entry as verb."
+  },
+  {
+    "rank": 126,
+    "display_form": "关上",
+    "pronunciation": "guān shàng",
+    "pos": "unknown",
+    "primary_gloss": "close",
+    "secondary_glosses": [
+      "shut to",
+      "turn off"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 127,
+    "display_form": "贵",
+    "pronunciation": "guì",
+    "pos": "unknown",
+    "primary_gloss": "noble",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 128,
+    "display_form": "国",
+    "pronunciation": "guó",
+    "pos": "unknown",
+    "primary_gloss": "country",
+    "secondary_glosses": [
+      "state",
+      "nation"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 129,
+    "display_form": "国家",
+    "pronunciation": "guójiā",
+    "pos": "unknown",
+    "primary_gloss": "Country",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 130,
+    "display_form": "国外",
+    "pronunciation": "guó wài",
+    "pos": "unknown",
+    "primary_gloss": "foreign",
+    "secondary_glosses": [
+      "oversea",
+      "abroad"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 131,
+    "display_form": "过",
+    "pronunciation": "guò",
+    "pos": "unknown",
+    "primary_gloss": "pass",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 132,
+    "display_form": "还",
+    "pronunciation": "hái",
+    "pos": "unknown",
+    "primary_gloss": "also",
+    "secondary_glosses": [
+      "still",
+      "yet"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 133,
+    "display_form": "还是",
+    "pronunciation": "háishi",
+    "pos": "unknown",
+    "primary_gloss": "still",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 134,
+    "display_form": "还有",
+    "pronunciation": "hái yǒu",
+    "pos": "unknown",
+    "primary_gloss": "also",
+    "secondary_glosses": [
+      "in addition",
+      "besides"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 135,
+    "display_form": "孩子",
+    "pronunciation": "háizi",
+    "pos": "unknown",
+    "primary_gloss": "Children",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 136,
+    "display_form": "汉语",
+    "pronunciation": "hànyǔ",
+    "pos": "unknown",
+    "primary_gloss": "Chinese",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 137,
+    "display_form": "汉字",
+    "pronunciation": "hàn zì",
+    "pos": "unknown",
+    "primary_gloss": "Chinese character",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 138,
+    "display_form": "好（形）",
+    "pronunciation": "hǎo",
+    "pos": "adjective",
+    "primary_gloss": "good",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. The source marks this entry as adjective."
+  },
+  {
+    "rank": 139,
+    "display_form": "好吃",
+    "pronunciation": "hǎochī",
+    "pos": "unknown",
+    "primary_gloss": "Yummy",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 140,
+    "display_form": "好看",
+    "pronunciation": "hǎo kàn",
+    "pos": "unknown",
+    "primary_gloss": "good looking",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 141,
+    "display_form": "好听",
+    "pronunciation": "hǎo tīng",
+    "pos": "unknown",
+    "primary_gloss": "pleasant to hear",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 142,
+    "display_form": "好玩儿",
+    "pronunciation": "hǎo wánr",
+    "pos": "unknown",
+    "primary_gloss": "fun",
+    "secondary_glosses": [
+      "interesting"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 143,
+    "display_form": "号",
+    "pronunciation": "hào",
+    "pos": "unknown",
+    "primary_gloss": "Number/date",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 144,
+    "display_form": "喝",
+    "pronunciation": "hē",
+    "pos": "unknown",
+    "primary_gloss": "drink",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 145,
+    "display_form": "和",
+    "pronunciation": "hé",
+    "pos": "conjunction",
+    "primary_gloss": "and",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 146,
+    "display_form": "很",
+    "pronunciation": "hěn",
+    "pos": "unknown",
+    "primary_gloss": "very",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 147,
+    "display_form": "后",
+    "pronunciation": "hòu",
+    "pos": "unknown",
+    "primary_gloss": "back",
+    "secondary_glosses": [
+      "behind",
+      "after",
+      "later"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 148,
+    "display_form": "后边",
+    "pronunciation": "hòu biān",
+    "pos": "unknown",
+    "primary_gloss": "behind",
+    "secondary_glosses": [
+      "back"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 149,
+    "display_form": "后天",
+    "pronunciation": "hòu tiān",
+    "pos": "unknown",
+    "primary_gloss": "day after tomorrow",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 150,
+    "display_form": "花（名）",
+    "pronunciation": "huā",
+    "pos": "noun",
+    "primary_gloss": "flower",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. The source marks this entry as noun."
+  },
+  {
+    "rank": 151,
+    "display_form": "话",
+    "pronunciation": "huà",
+    "pos": "unknown",
+    "primary_gloss": "word",
+    "secondary_glosses": [
+      "words"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 152,
+    "display_form": "坏",
+    "pronunciation": "huài",
+    "pos": "unknown",
+    "primary_gloss": "bad",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 153,
+    "display_form": "还",
+    "pronunciation": "huán",
+    "pos": "unknown",
+    "primary_gloss": "return",
+    "secondary_glosses": [
+      "pay back"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 154,
+    "display_form": "回（动）",
+    "pronunciation": "huí",
+    "pos": "verb",
+    "primary_gloss": "go back",
+    "secondary_glosses": [
+      "return"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. The source marks this entry as verb."
+  },
+  {
+    "rank": 155,
+    "display_form": "回答",
+    "pronunciation": "huídá",
+    "pos": "unknown",
+    "primary_gloss": "Answer",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 156,
+    "display_form": "回到",
+    "pronunciation": "huí dào",
+    "pos": "unknown",
+    "primary_gloss": "back to",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 157,
+    "display_form": "回家",
+    "pronunciation": "huí jiā",
+    "pos": "unknown",
+    "primary_gloss": "go home",
+    "secondary_glosses": [
+      "return home"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 158,
+    "display_form": "回来",
+    "pronunciation": "huí lái",
+    "pos": "unknown",
+    "primary_gloss": "come back",
+    "secondary_glosses": [
+      "return"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 159,
+    "display_form": "回去",
+    "pronunciation": "huí qù",
+    "pos": "unknown",
+    "primary_gloss": "go back",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 160,
+    "display_form": "会（动）",
+    "pronunciation": "huì",
+    "pos": "verb",
+    "primary_gloss": "can",
+    "secondary_glosses": [
+      "be able to"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. The source marks this entry as verb."
+  },
+  {
+    "rank": 161,
+    "display_form": "火车",
+    "pronunciation": "huǒ chē",
+    "pos": "unknown",
+    "primary_gloss": "train",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 162,
+    "display_form": "机场",
+    "pronunciation": "jīchǎng",
+    "pos": "unknown",
+    "primary_gloss": "Airport",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 163,
+    "display_form": "机票",
+    "pronunciation": "jī piào",
+    "pos": "unknown",
+    "primary_gloss": "air ticket",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 164,
+    "display_form": "鸡蛋",
+    "pronunciation": "jīdàn",
+    "pos": "unknown",
+    "primary_gloss": "Egg",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 165,
+    "display_form": "几",
+    "pronunciation": "jǐ",
+    "pos": "unknown",
+    "primary_gloss": "several",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 166,
+    "display_form": "记",
+    "pronunciation": "jì",
+    "pos": "unknown",
+    "primary_gloss": "remember",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 167,
+    "display_form": "记得",
+    "pronunciation": "jìdé",
+    "pos": "unknown",
+    "primary_gloss": "remember",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 168,
+    "display_form": "记住",
+    "pronunciation": "jì zhù",
+    "pos": "unknown",
+    "primary_gloss": "remember",
+    "secondary_glosses": [
+      "keep in mind"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 169,
+    "display_form": "家",
+    "pronunciation": "jiā",
+    "pos": "unknown",
+    "primary_gloss": "home",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 170,
+    "display_form": "家里",
+    "pronunciation": "jiā lǐ",
+    "pos": "unknown",
+    "primary_gloss": "In the home",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 171,
+    "display_form": "家人",
+    "pronunciation": "jiā rén",
+    "pos": "unknown",
+    "primary_gloss": "family",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 172,
+    "display_form": "间",
+    "pronunciation": "jiān",
+    "pos": "measure word",
+    "primary_gloss": "between",
+    "secondary_glosses": [
+      "measure word for rooms"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 173,
+    "display_form": "见",
+    "pronunciation": "jiàn",
+    "pos": "unknown",
+    "primary_gloss": "see",
+    "secondary_glosses": [
+      "meet"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 174,
+    "display_form": "见面",
+    "pronunciation": "jiànmiàn",
+    "pos": "unknown",
+    "primary_gloss": "meet",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 175,
+    "display_form": "教",
+    "pronunciation": "jiāo",
+    "pos": "unknown",
+    "primary_gloss": "teach",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 176,
+    "display_form": "叫（动）",
+    "pronunciation": "jiào",
+    "pos": "verb",
+    "primary_gloss": "call",
+    "secondary_glosses": [
+      "be called"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. The source marks this entry as verb."
+  },
+  {
+    "rank": 177,
+    "display_form": "教学楼",
+    "pronunciation": "jiào xué lóu",
+    "pos": "unknown",
+    "primary_gloss": "teaching building",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 178,
+    "display_form": "姐姐 ｜ 姐",
+    "pronunciation": "jiě jie ｜ jiě",
+    "pos": "unknown",
+    "primary_gloss": "elder sister",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 179,
+    "display_form": "介绍",
+    "pronunciation": "jièshào",
+    "pos": "unknown",
+    "primary_gloss": "introduce",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 180,
+    "display_form": "今年",
+    "pronunciation": "jīn nián",
+    "pos": "unknown",
+    "primary_gloss": "this year",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 181,
+    "display_form": "今天",
+    "pronunciation": "jīntiān",
+    "pos": "unknown",
+    "primary_gloss": "Today",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 182,
+    "display_form": "进",
+    "pronunciation": "jìn",
+    "pos": "unknown",
+    "primary_gloss": "enter",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 183,
+    "display_form": "进来",
+    "pronunciation": "jìn lái",
+    "pos": "unknown",
+    "primary_gloss": "come in",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 184,
+    "display_form": "进去",
+    "pronunciation": "jìn qù",
+    "pos": "unknown",
+    "primary_gloss": "go in",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 185,
+    "display_form": "九",
+    "pronunciation": "jiǔ",
+    "pos": "numeral",
+    "primary_gloss": "Nine",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 186,
+    "display_form": "就",
+    "pronunciation": "jiù",
+    "pos": "unknown",
+    "primary_gloss": "as soon as",
+    "secondary_glosses": [
+      "right away",
+      "then"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 187,
+    "display_form": "觉得",
+    "pronunciation": "juéde",
+    "pos": "unknown",
+    "primary_gloss": "Think",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 188,
+    "display_form": "开",
+    "pronunciation": "kāi",
+    "pos": "unknown",
+    "primary_gloss": "open",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 189,
+    "display_form": "开车",
+    "pronunciation": "kāi chē",
+    "pos": "unknown",
+    "primary_gloss": "drive",
+    "secondary_glosses": [
+      "drive a car"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 190,
+    "display_form": "开会",
+    "pronunciation": "kāi huì",
+    "pos": "unknown",
+    "primary_gloss": "have a meeting",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 191,
+    "display_form": "开玩笑",
+    "pronunciation": "kāiwánxiào",
+    "pos": "unknown",
+    "primary_gloss": "Make fun of",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 192,
+    "display_form": "看",
+    "pronunciation": "kàn",
+    "pos": "unknown",
+    "primary_gloss": "see",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 193,
+    "display_form": "看病",
+    "pronunciation": "kàn bìng",
+    "pos": "unknown",
+    "primary_gloss": "see a doctor",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 194,
+    "display_form": "看到",
+    "pronunciation": "kàn dào",
+    "pos": "unknown",
+    "primary_gloss": "see",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 195,
+    "display_form": "看见",
+    "pronunciation": "kànjiàn",
+    "pos": "unknown",
+    "primary_gloss": "seeing",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 196,
+    "display_form": "考",
+    "pronunciation": "kǎo",
+    "pos": "unknown",
+    "primary_gloss": "test",
+    "secondary_glosses": [
+      "examine"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 197,
+    "display_form": "考试",
+    "pronunciation": "kǎoshì",
+    "pos": "unknown",
+    "primary_gloss": "Examination",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 198,
+    "display_form": "渴",
+    "pronunciation": "kě",
+    "pos": "unknown",
+    "primary_gloss": "thirsty",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 199,
+    "display_form": "课",
+    "pronunciation": "kè",
+    "pos": "unknown",
+    "primary_gloss": "course",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 200,
+    "display_form": "课本",
+    "pronunciation": "kè běn",
+    "pos": "unknown",
+    "primary_gloss": "textbook",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 201,
+    "display_form": "课文",
+    "pronunciation": "kè wén",
+    "pos": "unknown",
+    "primary_gloss": "text",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 202,
+    "display_form": "口",
+    "pronunciation": "kǒu",
+    "pos": "unknown",
+    "primary_gloss": "mouth",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 203,
+    "display_form": "块",
+    "pronunciation": "kuài",
+    "pos": "unknown",
+    "primary_gloss": "block",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 204,
+    "display_form": "快",
+    "pronunciation": "kuài",
+    "pos": "unknown",
+    "primary_gloss": "fast",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 205,
+    "display_form": "来",
+    "pronunciation": "lái",
+    "pos": "unknown",
+    "primary_gloss": "come",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 206,
+    "display_form": "来到",
+    "pronunciation": "lái dào",
+    "pos": "unknown",
+    "primary_gloss": "come",
+    "secondary_glosses": [
+      "arrive"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 207,
+    "display_form": "老（形）",
+    "pronunciation": "lǎo",
+    "pos": "adjective",
+    "primary_gloss": "old",
+    "secondary_glosses": [
+      "aged"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. The source marks this entry as adjective."
+  },
+  {
+    "rank": 208,
+    "display_form": "老人",
+    "pronunciation": "lǎo rén",
+    "pos": "unknown",
+    "primary_gloss": "old people",
+    "secondary_glosses": [
+      "the aged"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 209,
+    "display_form": "老师",
+    "pronunciation": "lǎoshī",
+    "pos": "unknown",
+    "primary_gloss": "Teacher",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 210,
+    "display_form": "了",
+    "pronunciation": "le",
+    "pos": "unknown",
+    "primary_gloss": "past tense marker",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 211,
+    "display_form": "累",
+    "pronunciation": "lèi",
+    "pos": "unknown",
+    "primary_gloss": "tired",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 212,
+    "display_form": "冷",
+    "pronunciation": "lěng",
+    "pos": "unknown",
+    "primary_gloss": "cold",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 213,
+    "display_form": "里",
+    "pronunciation": "lǐ",
+    "pos": "preposition",
+    "primary_gloss": "in",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 214,
+    "display_form": "里边",
+    "pronunciation": "lǐ biān",
+    "pos": "preposition",
+    "primary_gloss": "inside",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 215,
+    "display_form": "两（数）",
+    "pronunciation": "liǎng",
+    "pos": "numeral",
+    "primary_gloss": "two",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. The source marks this entry as numeral."
+  },
+  {
+    "rank": 216,
+    "display_form": "零 ｜ 〇",
+    "pronunciation": "líng ｜ líng",
+    "pos": "numeral",
+    "primary_gloss": "zero",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 217,
+    "display_form": "六",
+    "pronunciation": "liù",
+    "pos": "numeral",
+    "primary_gloss": "Six",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 218,
+    "display_form": "楼",
+    "pronunciation": "lóu",
+    "pos": "unknown",
+    "primary_gloss": "floor",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 219,
+    "display_form": "楼上",
+    "pronunciation": "lóu shàng",
+    "pos": "unknown",
+    "primary_gloss": "upstairs",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 220,
+    "display_form": "楼下",
+    "pronunciation": "lóu xià",
+    "pos": "unknown",
+    "primary_gloss": "downstairs",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 221,
+    "display_form": "路",
+    "pronunciation": "lù",
+    "pos": "unknown",
+    "primary_gloss": "road",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 222,
+    "display_form": "路口",
+    "pronunciation": "lù kǒu",
+    "pos": "unknown",
+    "primary_gloss": "intersection",
+    "secondary_glosses": [
+      "crossing"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 223,
+    "display_form": "路上",
+    "pronunciation": "lù shàng",
+    "pos": "unknown",
+    "primary_gloss": "on the road",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 224,
+    "display_form": "妈妈 ｜ 妈",
+    "pronunciation": "mā ma ｜ mā",
+    "pos": "unknown",
+    "primary_gloss": "mom",
+    "secondary_glosses": [
+      "mother"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 225,
+    "display_form": "马路",
+    "pronunciation": "mǎ lù",
+    "pos": "unknown",
+    "primary_gloss": "road",
+    "secondary_glosses": [
+      "street"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 226,
+    "display_form": "马上",
+    "pronunciation": "mǎshàng",
+    "pos": "unknown",
+    "primary_gloss": "Right off",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 227,
+    "display_form": "吗",
+    "pronunciation": "ma",
+    "pos": "unknown",
+    "primary_gloss": "auxiliary word",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 228,
+    "display_form": "买",
+    "pronunciation": "mǎi",
+    "pos": "unknown",
+    "primary_gloss": "buy",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 229,
+    "display_form": "慢",
+    "pronunciation": "màn",
+    "pos": "unknown",
+    "primary_gloss": "slow",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 230,
+    "display_form": "忙",
+    "pronunciation": "máng",
+    "pos": "unknown",
+    "primary_gloss": "busy",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 231,
+    "display_form": "毛（量）",
+    "pronunciation": "máo",
+    "pos": "measure word",
+    "primary_gloss": "a fractional unit of money in China (measure word)",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. The source marks this entry as measure word."
+  },
+  {
+    "rank": 232,
+    "display_form": "没",
+    "pronunciation": "méi",
+    "pos": "unknown",
+    "primary_gloss": "no",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 233,
+    "display_form": "没关系",
+    "pronunciation": "méiguānxi",
+    "pos": "unknown",
+    "primary_gloss": "No problem",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 234,
+    "display_form": "没什么",
+    "pronunciation": "méi shén me",
+    "pos": "unknown",
+    "primary_gloss": "It's nothing",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 235,
+    "display_form": "没事儿",
+    "pronunciation": "méi shìr",
+    "pos": "unknown",
+    "primary_gloss": "It's okay",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 236,
+    "display_form": "没有",
+    "pronunciation": "méi yǒu",
+    "pos": "unknown",
+    "primary_gloss": "have not",
+    "secondary_glosses": [
+      "no"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 237,
+    "display_form": "妹妹 ｜ 妹",
+    "pronunciation": "mèi mei ｜ mèi",
+    "pos": "unknown",
+    "primary_gloss": "younger sister",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 238,
+    "display_form": "门",
+    "pronunciation": "mén",
+    "pos": "unknown",
+    "primary_gloss": "door",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 239,
+    "display_form": "门口",
+    "pronunciation": "mén kǒu",
+    "pos": "unknown",
+    "primary_gloss": "doorway",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 240,
+    "display_form": "门票",
+    "pronunciation": "mén piào",
+    "pos": "unknown",
+    "primary_gloss": "tickets",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 241,
+    "display_form": "们（朋友们）",
+    "pronunciation": "men（péng yǒu men）",
+    "pos": "unknown",
+    "primary_gloss": "plural marker for pronouns and a few animate nouns (friends)",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 242,
+    "display_form": "米饭",
+    "pronunciation": "mǐfàn",
+    "pos": "unknown",
+    "primary_gloss": "Steamed Rice",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 243,
+    "display_form": "面包",
+    "pronunciation": "miànbāo",
+    "pos": "unknown",
+    "primary_gloss": "Bread",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 244,
+    "display_form": "面条儿",
+    "pronunciation": "miàn tiáor",
+    "pos": "unknown",
+    "primary_gloss": "noodles",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 245,
+    "display_form": "名字",
+    "pronunciation": "míngzi",
+    "pos": "unknown",
+    "primary_gloss": "Name",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 246,
+    "display_form": "明白",
+    "pronunciation": "míngbai",
+    "pos": "unknown",
+    "primary_gloss": "clear",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 247,
+    "display_form": "明年",
+    "pronunciation": "míng nián",
+    "pos": "unknown",
+    "primary_gloss": "next year",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 248,
+    "display_form": "明天",
+    "pronunciation": "míngtiān",
+    "pos": "unknown",
+    "primary_gloss": "Tomorrow",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 249,
+    "display_form": "拿",
+    "pronunciation": "ná",
+    "pos": "unknown",
+    "primary_gloss": "take",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 250,
+    "display_form": "哪",
+    "pronunciation": "nǎ",
+    "pos": "unknown",
+    "primary_gloss": "which",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 251,
+    "display_form": "哪里",
+    "pronunciation": "nǎ lǐ",
+    "pos": "unknown",
+    "primary_gloss": "where",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 252,
+    "display_form": "哪儿",
+    "pronunciation": "nǎr",
+    "pos": "unknown",
+    "primary_gloss": "where",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 253,
+    "display_form": "哪些",
+    "pronunciation": "nǎ xiē",
+    "pos": "unknown",
+    "primary_gloss": "which",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 254,
+    "display_form": "那（代）",
+    "pronunciation": "nà",
+    "pos": "pronoun",
+    "primary_gloss": "that",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. The source marks this entry as pronoun."
+  },
+  {
+    "rank": 255,
+    "display_form": "那边",
+    "pronunciation": "nà biān",
+    "pos": "unknown",
+    "primary_gloss": "there",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 256,
+    "display_form": "那里",
+    "pronunciation": "nà lǐ",
+    "pos": "unknown",
+    "primary_gloss": "there",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 257,
+    "display_form": "那儿",
+    "pronunciation": "nàr",
+    "pos": "unknown",
+    "primary_gloss": "there",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 258,
+    "display_form": "那些",
+    "pronunciation": "nà xiē",
+    "pos": "unknown",
+    "primary_gloss": "those",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 259,
+    "display_form": "奶",
+    "pronunciation": "nǎi",
+    "pos": "unknown",
+    "primary_gloss": "milk",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 260,
+    "display_form": "奶奶",
+    "pronunciation": "nǎinai",
+    "pos": "unknown",
+    "primary_gloss": "grandma",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 261,
+    "display_form": "男",
+    "pronunciation": "nán",
+    "pos": "unknown",
+    "primary_gloss": "Man",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 262,
+    "display_form": "男孩儿",
+    "pronunciation": "nán háir",
+    "pos": "unknown",
+    "primary_gloss": "boy",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 263,
+    "display_form": "男朋友",
+    "pronunciation": "nán péng yǒu",
+    "pos": "unknown",
+    "primary_gloss": "boyfriend",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 264,
+    "display_form": "男人",
+    "pronunciation": "nán ren",
+    "pos": "unknown",
+    "primary_gloss": "man",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 265,
+    "display_form": "男生",
+    "pronunciation": "nán shēng",
+    "pos": "unknown",
+    "primary_gloss": "boy",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 266,
+    "display_form": "南",
+    "pronunciation": "nán",
+    "pos": "unknown",
+    "primary_gloss": "south",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 267,
+    "display_form": "南边",
+    "pronunciation": "nán biān",
+    "pos": "unknown",
+    "primary_gloss": "south",
+    "secondary_glosses": [
+      "south side"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 268,
+    "display_form": "难",
+    "pronunciation": "nán",
+    "pos": "unknown",
+    "primary_gloss": "hard",
+    "secondary_glosses": [
+      "difficult"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 269,
+    "display_form": "呢",
+    "pronunciation": "ne",
+    "pos": "unknown",
+    "primary_gloss": "auxiliary word",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 270,
+    "display_form": "能",
+    "pronunciation": "néng",
+    "pos": "unknown",
+    "primary_gloss": "can",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 271,
+    "display_form": "你",
+    "pronunciation": "nǐ",
+    "pos": "pronoun",
+    "primary_gloss": "you",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 272,
+    "display_form": "你们",
+    "pronunciation": "nǐ men",
+    "pos": "pronoun",
+    "primary_gloss": "you",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 273,
+    "display_form": "年",
+    "pronunciation": "nián",
+    "pos": "unknown",
+    "primary_gloss": "year",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 274,
+    "display_form": "您",
+    "pronunciation": "nín",
+    "pos": "pronoun",
+    "primary_gloss": "you",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 275,
+    "display_form": "牛奶",
+    "pronunciation": "niúnǎi",
+    "pos": "unknown",
+    "primary_gloss": "milk",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 276,
+    "display_form": "女",
+    "pronunciation": "nǚ",
+    "pos": "unknown",
+    "primary_gloss": "woman",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 277,
+    "display_form": "女儿",
+    "pronunciation": "nǚ'ér",
+    "pos": "unknown",
+    "primary_gloss": "daughter",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 278,
+    "display_form": "女孩儿",
+    "pronunciation": "nǚ háir",
+    "pos": "unknown",
+    "primary_gloss": "girl",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 279,
+    "display_form": "女朋友",
+    "pronunciation": "nǚ péng yǒu",
+    "pos": "unknown",
+    "primary_gloss": "girlfriend",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 280,
+    "display_form": "女人",
+    "pronunciation": "nǚ ren",
+    "pos": "unknown",
+    "primary_gloss": "woman",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 281,
+    "display_form": "女生",
+    "pronunciation": "nǚ shēng",
+    "pos": "unknown",
+    "primary_gloss": "girl",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 282,
+    "display_form": "旁边",
+    "pronunciation": "pángbiān",
+    "pos": "unknown",
+    "primary_gloss": "Side",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 283,
+    "display_form": "跑",
+    "pronunciation": "pǎo",
+    "pos": "unknown",
+    "primary_gloss": "run",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 284,
+    "display_form": "朋友",
+    "pronunciation": "péngyou",
+    "pos": "unknown",
+    "primary_gloss": "Friend",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 285,
+    "display_form": "票",
+    "pronunciation": "piào",
+    "pos": "unknown",
+    "primary_gloss": "ticket",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 286,
+    "display_form": "七",
+    "pronunciation": "qī",
+    "pos": "numeral",
+    "primary_gloss": "Seven",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 287,
+    "display_form": "起",
+    "pronunciation": "qǐ",
+    "pos": "unknown",
+    "primary_gloss": "get up",
+    "secondary_glosses": [
+      "start",
+      "rise"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 288,
+    "display_form": "起床",
+    "pronunciation": "qǐchuáng",
+    "pos": "unknown",
+    "primary_gloss": "Get up",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 289,
+    "display_form": "起来",
+    "pronunciation": "qǐlái",
+    "pos": "unknown",
+    "primary_gloss": "get up",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 290,
+    "display_form": "汽车",
+    "pronunciation": "qì chē",
+    "pos": "unknown",
+    "primary_gloss": "car",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 291,
+    "display_form": "前",
+    "pronunciation": "qián",
+    "pos": "unknown",
+    "primary_gloss": "front",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 292,
+    "display_form": "前边",
+    "pronunciation": "qián biān",
+    "pos": "unknown",
+    "primary_gloss": "in front",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 293,
+    "display_form": "前天",
+    "pronunciation": "qián tiān",
+    "pos": "unknown",
+    "primary_gloss": "the day before yesterday",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 294,
+    "display_form": "钱",
+    "pronunciation": "qián",
+    "pos": "unknown",
+    "primary_gloss": "money",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 295,
+    "display_form": "钱包",
+    "pronunciation": "qián bāo",
+    "pos": "unknown",
+    "primary_gloss": "wallet",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 296,
+    "display_form": "请",
+    "pronunciation": "qǐng",
+    "pos": "unknown",
+    "primary_gloss": "please",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 297,
+    "display_form": "请假",
+    "pronunciation": "qǐngjià",
+    "pos": "unknown",
+    "primary_gloss": "ask for leave",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 298,
+    "display_form": "请进",
+    "pronunciation": "qǐng jìn",
+    "pos": "unknown",
+    "primary_gloss": "please come in",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 299,
+    "display_form": "请问",
+    "pronunciation": "qǐng wèn",
+    "pos": "unknown",
+    "primary_gloss": "excuse me",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 300,
+    "display_form": "请坐",
+    "pronunciation": "qǐng zuò",
+    "pos": "unknown",
+    "primary_gloss": "please have a seat",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 301,
+    "display_form": "球",
+    "pronunciation": "qiú",
+    "pos": "unknown",
+    "primary_gloss": "ball",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 302,
+    "display_form": "去",
+    "pronunciation": "qù",
+    "pos": "unknown",
+    "primary_gloss": "go",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 303,
+    "display_form": "去年",
+    "pronunciation": "qùnián",
+    "pos": "unknown",
+    "primary_gloss": "Last year",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 304,
+    "display_form": "热",
+    "pronunciation": "rè",
+    "pos": "unknown",
+    "primary_gloss": "heat",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 305,
+    "display_form": "人",
+    "pronunciation": "rén",
+    "pos": "unknown",
+    "primary_gloss": "people",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 306,
+    "display_form": "认识",
+    "pronunciation": "rènshi",
+    "pos": "unknown",
+    "primary_gloss": "know",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 307,
+    "display_form": "认真",
+    "pronunciation": "rènzhēn",
+    "pos": "unknown",
+    "primary_gloss": "earnest",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 308,
+    "display_form": "日",
+    "pronunciation": "rì",
+    "pos": "unknown",
+    "primary_gloss": "date",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 309,
+    "display_form": "日期",
+    "pronunciation": "rìqī",
+    "pos": "unknown",
+    "primary_gloss": "Date",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 310,
+    "display_form": "肉",
+    "pronunciation": "ròu",
+    "pos": "unknown",
+    "primary_gloss": "meat",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 311,
+    "display_form": "三",
+    "pronunciation": "sān",
+    "pos": "numeral",
+    "primary_gloss": "Three",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 312,
+    "display_form": "山",
+    "pronunciation": "shān",
+    "pos": "unknown",
+    "primary_gloss": "mountain",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 313,
+    "display_form": "商场",
+    "pronunciation": "shāng chǎng",
+    "pos": "unknown",
+    "primary_gloss": "mall",
+    "secondary_glosses": [
+      "shopping mall"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 314,
+    "display_form": "商店",
+    "pronunciation": "shāngdiàn",
+    "pos": "unknown",
+    "primary_gloss": "Shop",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 315,
+    "display_form": "上",
+    "pronunciation": "shàng",
+    "pos": "unknown",
+    "primary_gloss": "upper",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 316,
+    "display_form": "上班",
+    "pronunciation": "shàngbān",
+    "pos": "unknown",
+    "primary_gloss": "go to work",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 317,
+    "display_form": "上边",
+    "pronunciation": "shàng biān",
+    "pos": "unknown",
+    "primary_gloss": "above",
+    "secondary_glosses": [
+      "on"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 318,
+    "display_form": "上车",
+    "pronunciation": "shàng chē",
+    "pos": "unknown",
+    "primary_gloss": "get on",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 319,
+    "display_form": "上次",
+    "pronunciation": "shàng cì",
+    "pos": "unknown",
+    "primary_gloss": "last time",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 320,
+    "display_form": "上课",
+    "pronunciation": "shàng kè",
+    "pos": "unknown",
+    "primary_gloss": "attend class",
+    "secondary_glosses": [
+      "have a class"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 321,
+    "display_form": "上网",
+    "pronunciation": "shàngwǎng",
+    "pos": "unknown",
+    "primary_gloss": "Surf the Internet",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 322,
+    "display_form": "上午",
+    "pronunciation": "shàngwǔ",
+    "pos": "unknown",
+    "primary_gloss": "morning",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 323,
+    "display_form": "上学",
+    "pronunciation": "shàng xué",
+    "pos": "unknown",
+    "primary_gloss": "go to school",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 324,
+    "display_form": "少",
+    "pronunciation": "shǎo",
+    "pos": "unknown",
+    "primary_gloss": "less",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 325,
+    "display_form": "谁",
+    "pronunciation": "shéi",
+    "pos": "unknown",
+    "primary_gloss": "who",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 326,
+    "display_form": "身上",
+    "pronunciation": "shēn shàng",
+    "pos": "unknown",
+    "primary_gloss": "body",
+    "secondary_glosses": [
+      "on one's body"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 327,
+    "display_form": "身体",
+    "pronunciation": "shēntǐ",
+    "pos": "unknown",
+    "primary_gloss": "body",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 328,
+    "display_form": "什么",
+    "pronunciation": "shénme",
+    "pos": "unknown",
+    "primary_gloss": "What",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 329,
+    "display_form": "生病",
+    "pronunciation": "shēngbìng",
+    "pos": "unknown",
+    "primary_gloss": "Fall ill",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 330,
+    "display_form": "生气",
+    "pronunciation": "shēngqì",
+    "pos": "unknown",
+    "primary_gloss": "get angry",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 331,
+    "display_form": "生日",
+    "pronunciation": "shēngrì",
+    "pos": "unknown",
+    "primary_gloss": "Birthday",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 332,
+    "display_form": "十",
+    "pronunciation": "shí",
+    "pos": "numeral",
+    "primary_gloss": "Ten",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 333,
+    "display_form": "时候",
+    "pronunciation": "shíhou",
+    "pos": "unknown",
+    "primary_gloss": "time",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 334,
+    "display_form": "时间",
+    "pronunciation": "shíjiān",
+    "pos": "unknown",
+    "primary_gloss": "time",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 335,
+    "display_form": "事",
+    "pronunciation": "shì",
+    "pos": "unknown",
+    "primary_gloss": "thing",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 336,
+    "display_form": "试",
+    "pronunciation": "shì",
+    "pos": "unknown",
+    "primary_gloss": "try",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 337,
+    "display_form": "是",
+    "pronunciation": "shì",
+    "pos": "unknown",
+    "primary_gloss": "yes",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 338,
+    "display_form": "是不是",
+    "pronunciation": "shì bú shì",
+    "pos": "unknown",
+    "primary_gloss": "isn't it?",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 339,
+    "display_form": "手",
+    "pronunciation": "shǒu",
+    "pos": "unknown",
+    "primary_gloss": "hand",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 340,
+    "display_form": "手机",
+    "pronunciation": "shǒujī",
+    "pos": "unknown",
+    "primary_gloss": "Mobile phone",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 341,
+    "display_form": "书",
+    "pronunciation": "shū",
+    "pos": "unknown",
+    "primary_gloss": "book",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 342,
+    "display_form": "书包",
+    "pronunciation": "shū bāo",
+    "pos": "unknown",
+    "primary_gloss": "school bag",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 343,
+    "display_form": "书店",
+    "pronunciation": "shū diàn",
+    "pos": "unknown",
+    "primary_gloss": "bookstore",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 344,
+    "display_form": "树",
+    "pronunciation": "shù",
+    "pos": "unknown",
+    "primary_gloss": "tree",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 345,
+    "display_form": "水",
+    "pronunciation": "shuǐ",
+    "pos": "unknown",
+    "primary_gloss": "water",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 346,
+    "display_form": "水果",
+    "pronunciation": "shuǐguǒ",
+    "pos": "unknown",
+    "primary_gloss": "Fruits",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 347,
+    "display_form": "睡",
+    "pronunciation": "shuì",
+    "pos": "unknown",
+    "primary_gloss": "sleep",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 348,
+    "display_form": "睡觉",
+    "pronunciation": "shuìjiào",
+    "pos": "unknown",
+    "primary_gloss": "sleep",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 349,
+    "display_form": "说",
+    "pronunciation": "shuō",
+    "pos": "unknown",
+    "primary_gloss": "speak",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 350,
+    "display_form": "说话",
+    "pronunciation": "shuōhuà",
+    "pos": "unknown",
+    "primary_gloss": "talk",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 351,
+    "display_form": "四",
+    "pronunciation": "sì",
+    "pos": "numeral",
+    "primary_gloss": "Four",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 352,
+    "display_form": "送",
+    "pronunciation": "sòng",
+    "pos": "unknown",
+    "primary_gloss": "give",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 353,
+    "display_form": "岁",
+    "pronunciation": "suì",
+    "pos": "unknown",
+    "primary_gloss": "year",
+    "secondary_glosses": [
+      "age"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 354,
+    "display_form": "他",
+    "pronunciation": "tā",
+    "pos": "pronoun",
+    "primary_gloss": "he",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 355,
+    "display_form": "他们",
+    "pronunciation": "tā men",
+    "pos": "pronoun",
+    "primary_gloss": "they",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 356,
+    "display_form": "她",
+    "pronunciation": "tā",
+    "pos": "pronoun",
+    "primary_gloss": "she",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 357,
+    "display_form": "她们",
+    "pronunciation": "tā men",
+    "pos": "pronoun",
+    "primary_gloss": "they",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 358,
+    "display_form": "太",
+    "pronunciation": "tài",
+    "pos": "unknown",
+    "primary_gloss": "too",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 359,
+    "display_form": "天",
+    "pronunciation": "tiān",
+    "pos": "unknown",
+    "primary_gloss": "day",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 360,
+    "display_form": "天气",
+    "pronunciation": "tiānqì",
+    "pos": "unknown",
+    "primary_gloss": "weather",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 361,
+    "display_form": "听",
+    "pronunciation": "tīng",
+    "pos": "unknown",
+    "primary_gloss": "hear",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 362,
+    "display_form": "听到",
+    "pronunciation": "tīng dào",
+    "pos": "unknown",
+    "primary_gloss": "hear",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 363,
+    "display_form": "听见",
+    "pronunciation": "tīng jiàn",
+    "pos": "unknown",
+    "primary_gloss": "hear",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 364,
+    "display_form": "听写",
+    "pronunciation": "tīng xiě",
+    "pos": "unknown",
+    "primary_gloss": "dictation",
+    "secondary_glosses": [
+      "dictate"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 365,
+    "display_form": "同学",
+    "pronunciation": "tóngxué",
+    "pos": "unknown",
+    "primary_gloss": "Classmate",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 366,
+    "display_form": "图书馆",
+    "pronunciation": "túshūguǎn",
+    "pos": "unknown",
+    "primary_gloss": "Library",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 367,
+    "display_form": "外",
+    "pronunciation": "wài",
+    "pos": "unknown",
+    "primary_gloss": "abroad",
+    "secondary_glosses": [
+      "outside"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 368,
+    "display_form": "外边",
+    "pronunciation": "wài biān",
+    "pos": "unknown",
+    "primary_gloss": "outside",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 369,
+    "display_form": "外国",
+    "pronunciation": "wài guó",
+    "pos": "unknown",
+    "primary_gloss": "foreign country",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 370,
+    "display_form": "外语",
+    "pronunciation": "wài yǔ",
+    "pos": "unknown",
+    "primary_gloss": "foreign language",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 371,
+    "display_form": "玩儿",
+    "pronunciation": "wánr",
+    "pos": "unknown",
+    "primary_gloss": "play",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 372,
+    "display_form": "晚",
+    "pronunciation": "wǎn",
+    "pos": "unknown",
+    "primary_gloss": "late",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 373,
+    "display_form": "晚饭",
+    "pronunciation": "wǎn fàn",
+    "pos": "unknown",
+    "primary_gloss": "dinner",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 374,
+    "display_form": "晚上",
+    "pronunciation": "wǎnshang",
+    "pos": "unknown",
+    "primary_gloss": "Night",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 375,
+    "display_form": "网上",
+    "pronunciation": "wǎng shàng",
+    "pos": "unknown",
+    "primary_gloss": "online",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 376,
+    "display_form": "网友",
+    "pronunciation": "wǎng yǒu",
+    "pos": "unknown",
+    "primary_gloss": "net friend",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 377,
+    "display_form": "忘",
+    "pronunciation": "wàng",
+    "pos": "unknown",
+    "primary_gloss": "forget",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 378,
+    "display_form": "忘记",
+    "pronunciation": "wàngjì",
+    "pos": "unknown",
+    "primary_gloss": "forget",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 379,
+    "display_form": "问",
+    "pronunciation": "wèn",
+    "pos": "unknown",
+    "primary_gloss": "ask",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 380,
+    "display_form": "我",
+    "pronunciation": "wǒ",
+    "pos": "pronoun",
+    "primary_gloss": "I",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 381,
+    "display_form": "我们",
+    "pronunciation": "wǒmen",
+    "pos": "pronoun",
+    "primary_gloss": "We",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 382,
+    "display_form": "五",
+    "pronunciation": "wǔ",
+    "pos": "numeral",
+    "primary_gloss": "Five",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 383,
+    "display_form": "午饭",
+    "pronunciation": "wǔ fàn",
+    "pos": "unknown",
+    "primary_gloss": "lunch",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 384,
+    "display_form": "西",
+    "pronunciation": "xī",
+    "pos": "unknown",
+    "primary_gloss": "west",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 385,
+    "display_form": "西边",
+    "pronunciation": "xī biān",
+    "pos": "unknown",
+    "primary_gloss": "west",
+    "secondary_glosses": [
+      "west side"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 386,
+    "display_form": "洗",
+    "pronunciation": "xǐ",
+    "pos": "unknown",
+    "primary_gloss": "wash",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 387,
+    "display_form": "洗手间",
+    "pronunciation": "xǐshǒujiān",
+    "pos": "unknown",
+    "primary_gloss": "Restroom",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 388,
+    "display_form": "喜欢",
+    "pronunciation": "xǐhuan",
+    "pos": "unknown",
+    "primary_gloss": "like",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 389,
+    "display_form": "下（名、动）",
+    "pronunciation": "xià",
+    "pos": "unknown",
+    "primary_gloss": "below",
+    "secondary_glosses": [
+      "under",
+      "next",
+      "go down",
+      "get off"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 390,
+    "display_form": "下班",
+    "pronunciation": "xià bān",
+    "pos": "unknown",
+    "primary_gloss": "get off work",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 391,
+    "display_form": "下边",
+    "pronunciation": "xià biān",
+    "pos": "unknown",
+    "primary_gloss": "below",
+    "secondary_glosses": [
+      "under"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 392,
+    "display_form": "下车",
+    "pronunciation": "xià chē",
+    "pos": "unknown",
+    "primary_gloss": "get off",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 393,
+    "display_form": "下次",
+    "pronunciation": "xià cì",
+    "pos": "unknown",
+    "primary_gloss": "next time",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 394,
+    "display_form": "下课",
+    "pronunciation": "xià kè",
+    "pos": "unknown",
+    "primary_gloss": "finish class",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 395,
+    "display_form": "下午",
+    "pronunciation": "xiàwǔ",
+    "pos": "unknown",
+    "primary_gloss": "Afternoon",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 396,
+    "display_form": "下雨",
+    "pronunciation": "xiàyǔ",
+    "pos": "unknown",
+    "primary_gloss": "rain",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 397,
+    "display_form": "先",
+    "pronunciation": "xiān",
+    "pos": "unknown",
+    "primary_gloss": "before",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 398,
+    "display_form": "先生",
+    "pronunciation": "xiānsheng",
+    "pos": "unknown",
+    "primary_gloss": "Sir",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 399,
+    "display_form": "现在",
+    "pronunciation": "xiànzài",
+    "pos": "unknown",
+    "primary_gloss": "Now",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 400,
+    "display_form": "想",
+    "pronunciation": "xiǎng",
+    "pos": "unknown",
+    "primary_gloss": "think",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 401,
+    "display_form": "小",
+    "pronunciation": "xiǎo",
+    "pos": "unknown",
+    "primary_gloss": "Small",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 402,
+    "display_form": "小孩儿",
+    "pronunciation": "xiǎo háir",
+    "pos": "unknown",
+    "primary_gloss": "child",
+    "secondary_glosses": [
+      "kid"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 403,
+    "display_form": "小姐",
+    "pronunciation": "xiǎojiě",
+    "pos": "unknown",
+    "primary_gloss": "Miss",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 404,
+    "display_form": "小朋友",
+    "pronunciation": "xiǎo péng yǒu",
+    "pos": "unknown",
+    "primary_gloss": "child",
+    "secondary_glosses": [
+      "kid"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 405,
+    "display_form": "小时",
+    "pronunciation": "xiǎoshí",
+    "pos": "unknown",
+    "primary_gloss": "hour",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 406,
+    "display_form": "小学",
+    "pronunciation": "xiǎo xué",
+    "pos": "unknown",
+    "primary_gloss": "primary school",
+    "secondary_glosses": [
+      "elementary schoo"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 407,
+    "display_form": "小学生",
+    "pronunciation": "xiǎo xué shēng",
+    "pos": "unknown",
+    "primary_gloss": "elementary school student",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 408,
+    "display_form": "笑",
+    "pronunciation": "xiào",
+    "pos": "unknown",
+    "primary_gloss": "laugh",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 409,
+    "display_form": "写",
+    "pronunciation": "xiě",
+    "pos": "unknown",
+    "primary_gloss": "write",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 410,
+    "display_form": "谢谢",
+    "pronunciation": "xièxie",
+    "pos": "unknown",
+    "primary_gloss": "Thank you",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 411,
+    "display_form": "新",
+    "pronunciation": "xīn",
+    "pos": "unknown",
+    "primary_gloss": "new",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 412,
+    "display_form": "新年",
+    "pronunciation": "xīn nián",
+    "pos": "unknown",
+    "primary_gloss": "New Year",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 413,
+    "display_form": "星期",
+    "pronunciation": "xīngqī",
+    "pos": "unknown",
+    "primary_gloss": "week",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 414,
+    "display_form": "星期日",
+    "pronunciation": "xīng qī rì",
+    "pos": "unknown",
+    "primary_gloss": "Sunday",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 415,
+    "display_form": "星期天",
+    "pronunciation": "xīng qī tiān",
+    "pos": "unknown",
+    "primary_gloss": "Sunday",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 416,
+    "display_form": "行",
+    "pronunciation": "xíng",
+    "pos": "unknown",
+    "primary_gloss": "That's ok",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 417,
+    "display_form": "休息",
+    "pronunciation": "xiūxi",
+    "pos": "unknown",
+    "primary_gloss": "Rest",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 418,
+    "display_form": "学",
+    "pronunciation": "xué",
+    "pos": "unknown",
+    "primary_gloss": "learn",
+    "secondary_glosses": [
+      "study"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 419,
+    "display_form": "学生",
+    "pronunciation": "xuésheng",
+    "pos": "unknown",
+    "primary_gloss": "Student",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 420,
+    "display_form": "学习",
+    "pronunciation": "xuéxí",
+    "pos": "unknown",
+    "primary_gloss": "Study",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 421,
+    "display_form": "学校",
+    "pronunciation": "xuéxiào",
+    "pos": "unknown",
+    "primary_gloss": "School",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 422,
+    "display_form": "学院",
+    "pronunciation": "xué yuàn",
+    "pos": "unknown",
+    "primary_gloss": "college",
+    "secondary_glosses": [
+      "academy"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 423,
+    "display_form": "要（动）",
+    "pronunciation": "yào",
+    "pos": "verb",
+    "primary_gloss": "want",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. The source marks this entry as verb."
+  },
+  {
+    "rank": 424,
+    "display_form": "爷爷",
+    "pronunciation": "yéye",
+    "pos": "unknown",
+    "primary_gloss": "grandpa",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 425,
+    "display_form": "也",
+    "pronunciation": "yě",
+    "pos": "unknown",
+    "primary_gloss": "also",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 426,
+    "display_form": "页",
+    "pronunciation": "yè",
+    "pos": "unknown",
+    "primary_gloss": "page",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 427,
+    "display_form": "一",
+    "pronunciation": "yī",
+    "pos": "numeral",
+    "primary_gloss": "One",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 428,
+    "display_form": "衣服",
+    "pronunciation": "yīfu",
+    "pos": "unknown",
+    "primary_gloss": "clothes",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 429,
+    "display_form": "医生",
+    "pronunciation": "yīshēng",
+    "pos": "unknown",
+    "primary_gloss": "Doctor",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 430,
+    "display_form": "医院",
+    "pronunciation": "yīyuàn",
+    "pos": "unknown",
+    "primary_gloss": "Hospital",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 431,
+    "display_form": "一半",
+    "pronunciation": "yí bàn",
+    "pos": "unknown",
+    "primary_gloss": "half",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 432,
+    "display_form": "一会儿",
+    "pronunciation": "yíhuìr",
+    "pos": "unknown",
+    "primary_gloss": "A little while",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 433,
+    "display_form": "一块儿",
+    "pronunciation": "yí kuàir",
+    "pos": "unknown",
+    "primary_gloss": "together",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 434,
+    "display_form": "一下儿",
+    "pronunciation": "yí xiàr",
+    "pos": "unknown",
+    "primary_gloss": "a little bit",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 435,
+    "display_form": "一样",
+    "pronunciation": "yíyàng",
+    "pos": "unknown",
+    "primary_gloss": "equally",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 436,
+    "display_form": "一边",
+    "pronunciation": "yìbiān",
+    "pos": "unknown",
+    "primary_gloss": "One side",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 437,
+    "display_form": "一点儿",
+    "pronunciation": "yīdiǎnr",
+    "pos": "unknown",
+    "primary_gloss": "a little bit",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 438,
+    "display_form": "一起",
+    "pronunciation": "yìqǐ",
+    "pos": "unknown",
+    "primary_gloss": "together",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 439,
+    "display_form": "一些",
+    "pronunciation": "yì xiē",
+    "pos": "unknown",
+    "primary_gloss": "some",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 440,
+    "display_form": "用",
+    "pronunciation": "yòng",
+    "pos": "unknown",
+    "primary_gloss": "use",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 441,
+    "display_form": "有",
+    "pronunciation": "yǒu",
+    "pos": "unknown",
+    "primary_gloss": "have",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 442,
+    "display_form": "有的",
+    "pronunciation": "yǒu de",
+    "pos": "unknown",
+    "primary_gloss": "some",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 443,
+    "display_form": "有名",
+    "pronunciation": "yǒumíng",
+    "pos": "unknown",
+    "primary_gloss": "Famous",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 444,
+    "display_form": "有时候 ｜ 有时",
+    "pronunciation": "yǒu shí hòu ｜ yǒu s hí",
+    "pos": "unknown",
+    "primary_gloss": "sometimes",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 445,
+    "display_form": "有（一）些",
+    "pronunciation": "yǒu（yì）xiē",
+    "pos": "unknown",
+    "primary_gloss": "some",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 446,
+    "display_form": "有用",
+    "pronunciation": "yǒu yòng",
+    "pos": "unknown",
+    "primary_gloss": "useful",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 447,
+    "display_form": "右",
+    "pronunciation": "yòu",
+    "pos": "unknown",
+    "primary_gloss": "right",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 448,
+    "display_form": "右边",
+    "pronunciation": "yòubian",
+    "pos": "unknown",
+    "primary_gloss": "Right",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 449,
+    "display_form": "雨",
+    "pronunciation": "yǔ",
+    "pos": "unknown",
+    "primary_gloss": "rain",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 450,
+    "display_form": "元",
+    "pronunciation": "yuán",
+    "pos": "unknown",
+    "primary_gloss": "element",
+    "secondary_glosses": [
+      "Yuan"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 451,
+    "display_form": "远",
+    "pronunciation": "yuǎn",
+    "pos": "unknown",
+    "primary_gloss": "far",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 452,
+    "display_form": "月",
+    "pronunciation": "yuè",
+    "pos": "unknown",
+    "primary_gloss": "month",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 453,
+    "display_form": "再",
+    "pronunciation": "zài",
+    "pos": "unknown",
+    "primary_gloss": "again",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 454,
+    "display_form": "再见",
+    "pronunciation": "zàijiàn",
+    "pos": "unknown",
+    "primary_gloss": "Bye",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 455,
+    "display_form": "在",
+    "pronunciation": "zài",
+    "pos": "unknown",
+    "primary_gloss": "stay",
+    "secondary_glosses": [
+      "in process of"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 456,
+    "display_form": "在家",
+    "pronunciation": "zài jiā",
+    "pos": "unknown",
+    "primary_gloss": "at home",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 457,
+    "display_form": "早",
+    "pronunciation": "zǎo",
+    "pos": "unknown",
+    "primary_gloss": "early",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 458,
+    "display_form": "早饭",
+    "pronunciation": "zǎo fàn",
+    "pos": "unknown",
+    "primary_gloss": "breakfast",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 459,
+    "display_form": "早上",
+    "pronunciation": "zǎoshang",
+    "pos": "unknown",
+    "primary_gloss": "Morning",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 460,
+    "display_form": "怎么",
+    "pronunciation": "zěnme",
+    "pos": "unknown",
+    "primary_gloss": "How",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 461,
+    "display_form": "站（名）",
+    "pronunciation": "zhàn",
+    "pos": "noun",
+    "primary_gloss": "station",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. The source marks this entry as noun."
+  },
+  {
+    "rank": 462,
+    "display_form": "找",
+    "pronunciation": "zhǎo",
+    "pos": "unknown",
+    "primary_gloss": "look for",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 463,
+    "display_form": "找到",
+    "pronunciation": "zhǎo dào",
+    "pos": "unknown",
+    "primary_gloss": "find",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 464,
+    "display_form": "这",
+    "pronunciation": "zhè",
+    "pos": "unknown",
+    "primary_gloss": "Here (here)",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 465,
+    "display_form": "这边",
+    "pronunciation": "zhè biān",
+    "pos": "preposition",
+    "primary_gloss": "here",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 466,
+    "display_form": "这里",
+    "pronunciation": "zhè lǐ",
+    "pos": "preposition",
+    "primary_gloss": "here",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 467,
+    "display_form": "这儿",
+    "pronunciation": "zhèr",
+    "pos": "preposition",
+    "primary_gloss": "here",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 468,
+    "display_form": "这些",
+    "pronunciation": "zhè xiē",
+    "pos": "unknown",
+    "primary_gloss": "these",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 469,
+    "display_form": "着",
+    "pronunciation": "zhe",
+    "pos": "unknown",
+    "primary_gloss": "in process of",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 470,
+    "display_form": "真",
+    "pronunciation": "zhēn",
+    "pos": "unknown",
+    "primary_gloss": "really",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 471,
+    "display_form": "真的",
+    "pronunciation": "zhēn de",
+    "pos": "unknown",
+    "primary_gloss": "really",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 472,
+    "display_form": "正（副）",
+    "pronunciation": "zhèng",
+    "pos": "adverb",
+    "primary_gloss": "just",
+    "secondary_glosses": [
+      "exactly"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. The source marks this entry as adverb."
+  },
+  {
+    "rank": 473,
+    "display_form": "正在",
+    "pronunciation": "zhèngzài",
+    "pos": "unknown",
+    "primary_gloss": "in process of",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 474,
+    "display_form": "知道",
+    "pronunciation": "zhīdào",
+    "pos": "unknown",
+    "primary_gloss": "know",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 475,
+    "display_form": "知识",
+    "pronunciation": "zhīshi",
+    "pos": "unknown",
+    "primary_gloss": "knowledge",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 476,
+    "display_form": "中",
+    "pronunciation": "zhōng",
+    "pos": "unknown",
+    "primary_gloss": "middle",
+    "secondary_glosses": [
+      "in"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 477,
+    "display_form": "中国",
+    "pronunciation": "zhōngguó",
+    "pos": "unknown",
+    "primary_gloss": "China",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 478,
+    "display_form": "中间",
+    "pronunciation": "zhōngjiān",
+    "pos": "unknown",
+    "primary_gloss": "Middle",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 479,
+    "display_form": "中文",
+    "pronunciation": "zhōngwén",
+    "pos": "unknown",
+    "primary_gloss": "Chinese",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 480,
+    "display_form": "中午",
+    "pronunciation": "zhōngwǔ",
+    "pos": "unknown",
+    "primary_gloss": "Noon",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 481,
+    "display_form": "中学",
+    "pronunciation": "zhōng xué",
+    "pos": "unknown",
+    "primary_gloss": "middle school",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 482,
+    "display_form": "中学生",
+    "pronunciation": "zhōng xué shēng",
+    "pos": "unknown",
+    "primary_gloss": "middle School student",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 483,
+    "display_form": "重",
+    "pronunciation": "zhòng",
+    "pos": "unknown",
+    "primary_gloss": "heavy",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 484,
+    "display_form": "重要",
+    "pronunciation": "zhòngyào",
+    "pos": "unknown",
+    "primary_gloss": "important",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 485,
+    "display_form": "住",
+    "pronunciation": "zhù",
+    "pos": "unknown",
+    "primary_gloss": "live",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 486,
+    "display_form": "准备",
+    "pronunciation": "zhǔnbèi",
+    "pos": "unknown",
+    "primary_gloss": "Get ready",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 487,
+    "display_form": "桌子",
+    "pronunciation": "zhuōzi",
+    "pos": "unknown",
+    "primary_gloss": "Table",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 488,
+    "display_form": "字",
+    "pronunciation": "zì",
+    "pos": "unknown",
+    "primary_gloss": "word",
+    "secondary_glosses": [
+      "character"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 489,
+    "display_form": "子（桌子）",
+    "pronunciation": "zi（zhuō zi）",
+    "pos": "unknown",
+    "primary_gloss": "noun suffix (table)",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 490,
+    "display_form": "走",
+    "pronunciation": "zǒu",
+    "pos": "unknown",
+    "primary_gloss": "go",
+    "secondary_glosses": [
+      "walk"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 491,
+    "display_form": "走路",
+    "pronunciation": "zǒu lù",
+    "pos": "unknown",
+    "primary_gloss": "walk",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 492,
+    "display_form": "最",
+    "pronunciation": "zuì",
+    "pos": "unknown",
+    "primary_gloss": "most",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 493,
+    "display_form": "最好",
+    "pronunciation": "zuìhǎo",
+    "pos": "unknown",
+    "primary_gloss": "Best",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 494,
+    "display_form": "最后",
+    "pronunciation": "zuìhòu",
+    "pos": "unknown",
+    "primary_gloss": "Last",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 495,
+    "display_form": "昨天",
+    "pronunciation": "zuótiān",
+    "pos": "unknown",
+    "primary_gloss": "Yesterday",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 496,
+    "display_form": "左",
+    "pronunciation": "zuǒ",
+    "pos": "unknown",
+    "primary_gloss": "left",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 497,
+    "display_form": "左边",
+    "pronunciation": "zuǒbian",
+    "pos": "unknown",
+    "primary_gloss": "left",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 498,
+    "display_form": "坐",
+    "pronunciation": "zuò",
+    "pos": "unknown",
+    "primary_gloss": "sit",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 499,
+    "display_form": "坐下",
+    "pronunciation": "zuò xià",
+    "pos": "unknown",
+    "primary_gloss": "sit down",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "rank": 500,
+    "display_form": "做",
+    "pronunciation": "zuò",
+    "pos": "unknown",
+    "primary_gloss": "do",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  }
+]

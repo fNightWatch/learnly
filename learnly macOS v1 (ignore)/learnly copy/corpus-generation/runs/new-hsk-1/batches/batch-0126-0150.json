@@ -1,0 +1,350 @@
+[
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0126",
+    "rank": 126,
+    "display_form": "关上",
+    "lemma": "关上",
+    "generation_form": "关上",
+    "pronunciation": "guān shàng",
+    "pos": "unknown",
+    "primary_gloss": "close",
+    "secondary_glosses": [
+      "shut to",
+      "turn off"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0127",
+    "rank": 127,
+    "display_form": "贵",
+    "lemma": "贵",
+    "generation_form": "贵",
+    "pronunciation": "guì",
+    "pos": "unknown",
+    "primary_gloss": "noble",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0128",
+    "rank": 128,
+    "display_form": "国",
+    "lemma": "国",
+    "generation_form": "国",
+    "pronunciation": "guó",
+    "pos": "unknown",
+    "primary_gloss": "country",
+    "secondary_glosses": [
+      "state",
+      "nation"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0129",
+    "rank": 129,
+    "display_form": "国家",
+    "lemma": "国家",
+    "generation_form": "国家",
+    "pronunciation": "guójiā",
+    "pos": "unknown",
+    "primary_gloss": "Country",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0130",
+    "rank": 130,
+    "display_form": "国外",
+    "lemma": "国外",
+    "generation_form": "国外",
+    "pronunciation": "guó wài",
+    "pos": "unknown",
+    "primary_gloss": "foreign",
+    "secondary_glosses": [
+      "oversea",
+      "abroad"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0131",
+    "rank": 131,
+    "display_form": "过",
+    "lemma": "过",
+    "generation_form": "过",
+    "pronunciation": "guò",
+    "pos": "unknown",
+    "primary_gloss": "pass",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0132",
+    "rank": 132,
+    "display_form": "还",
+    "lemma": "还",
+    "generation_form": "还",
+    "pronunciation": "hái",
+    "pos": "unknown",
+    "primary_gloss": "also",
+    "secondary_glosses": [
+      "still",
+      "yet"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0133",
+    "rank": 133,
+    "display_form": "还是",
+    "lemma": "还是",
+    "generation_form": "还是",
+    "pronunciation": "háishi",
+    "pos": "unknown",
+    "primary_gloss": "still",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0134",
+    "rank": 134,
+    "display_form": "还有",
+    "lemma": "还有",
+    "generation_form": "还有",
+    "pronunciation": "hái yǒu",
+    "pos": "unknown",
+    "primary_gloss": "also",
+    "secondary_glosses": [
+      "in addition",
+      "besides"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0135",
+    "rank": 135,
+    "display_form": "孩子",
+    "lemma": "孩子",
+    "generation_form": "孩子",
+    "pronunciation": "háizi",
+    "pos": "unknown",
+    "primary_gloss": "Children",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0136",
+    "rank": 136,
+    "display_form": "汉语",
+    "lemma": "汉语",
+    "generation_form": "汉语",
+    "pronunciation": "hànyǔ",
+    "pos": "unknown",
+    "primary_gloss": "Chinese",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0137",
+    "rank": 137,
+    "display_form": "汉字",
+    "lemma": "汉字",
+    "generation_form": "汉字",
+    "pronunciation": "hàn zì",
+    "pos": "unknown",
+    "primary_gloss": "Chinese character",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0138",
+    "rank": 138,
+    "display_form": "好（形）",
+    "lemma": "好",
+    "generation_form": "好",
+    "pronunciation": "hǎo",
+    "pos": "adjective",
+    "primary_gloss": "good",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0139",
+    "rank": 139,
+    "display_form": "好吃",
+    "lemma": "好吃",
+    "generation_form": "好吃",
+    "pronunciation": "hǎochī",
+    "pos": "unknown",
+    "primary_gloss": "Yummy",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0140",
+    "rank": 140,
+    "display_form": "好看",
+    "lemma": "好看",
+    "generation_form": "好看",
+    "pronunciation": "hǎo kàn",
+    "pos": "unknown",
+    "primary_gloss": "good looking",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0141",
+    "rank": 141,
+    "display_form": "好听",
+    "lemma": "好听",
+    "generation_form": "好听",
+    "pronunciation": "hǎo tīng",
+    "pos": "unknown",
+    "primary_gloss": "pleasant to hear",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0142",
+    "rank": 142,
+    "display_form": "好玩儿",
+    "lemma": "好玩儿",
+    "generation_form": "好玩儿",
+    "pronunciation": "hǎo wánr",
+    "pos": "unknown",
+    "primary_gloss": "fun",
+    "secondary_glosses": [
+      "interesting"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0143",
+    "rank": 143,
+    "display_form": "号",
+    "lemma": "号",
+    "generation_form": "号",
+    "pronunciation": "hào",
+    "pos": "unknown",
+    "primary_gloss": "Number/date",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0144",
+    "rank": 144,
+    "display_form": "喝",
+    "lemma": "喝",
+    "generation_form": "喝",
+    "pronunciation": "hē",
+    "pos": "unknown",
+    "primary_gloss": "drink",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0145",
+    "rank": 145,
+    "display_form": "和",
+    "lemma": "和",
+    "generation_form": "和",
+    "pronunciation": "hé",
+    "pos": "conjunction",
+    "primary_gloss": "and",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0146",
+    "rank": 146,
+    "display_form": "很",
+    "lemma": "很",
+    "generation_form": "很",
+    "pronunciation": "hěn",
+    "pos": "unknown",
+    "primary_gloss": "very",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0147",
+    "rank": 147,
+    "display_form": "后",
+    "lemma": "后",
+    "generation_form": "后",
+    "pronunciation": "hòu",
+    "pos": "unknown",
+    "primary_gloss": "back",
+    "secondary_glosses": [
+      "behind",
+      "after",
+      "later"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0148",
+    "rank": 148,
+    "display_form": "后边",
+    "lemma": "后边",
+    "generation_form": "后边",
+    "pronunciation": "hòu biān",
+    "pos": "unknown",
+    "primary_gloss": "behind",
+    "secondary_glosses": [
+      "back"
+    ],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0149",
+    "rank": 149,
+    "display_form": "后天",
+    "lemma": "后天",
+    "generation_form": "后天",
+    "pronunciation": "hòu tiān",
+    "pos": "unknown",
+    "primary_gloss": "day after tomorrow",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-1-words",
+    "word_id": "new-hsk-1-0150",
+    "rank": 150,
+    "display_form": "花（名）",
+    "lemma": "花",
+    "generation_form": "花",
+    "pronunciation": "huā",
+    "pos": "noun",
+    "primary_gloss": "flower",
+    "secondary_glosses": [],
+    "notes": "Imported from the New HSK 1 PDF. The source marks this entry as noun."
+  }
+]

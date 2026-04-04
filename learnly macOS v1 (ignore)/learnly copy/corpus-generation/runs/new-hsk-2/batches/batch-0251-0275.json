@@ -1,0 +1,352 @@
+[
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0251",
+    "rank": 251,
+    "display_form": "级",
+    "lemma": "级",
+    "generation_form": "级",
+    "pronunciation": "jí",
+    "pos": "unknown",
+    "primary_gloss": "level",
+    "secondary_glosses": [
+      "rank",
+      "grade",
+      "degree",
+      "step"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0252",
+    "rank": 252,
+    "display_form": "急",
+    "lemma": "急",
+    "generation_form": "急",
+    "pronunciation": "jí",
+    "pos": "unknown",
+    "primary_gloss": "fast",
+    "secondary_glosses": [
+      "anxious",
+      "urgent",
+      "annoyed"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0253",
+    "rank": 253,
+    "display_form": "计划",
+    "lemma": "计划",
+    "generation_form": "计划",
+    "pronunciation": "jìhuà",
+    "pos": "unknown",
+    "primary_gloss": "plan",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0254",
+    "rank": 254,
+    "display_form": "计算机",
+    "lemma": "计算机",
+    "generation_form": "计算机",
+    "pronunciation": "jì suàn jī",
+    "pos": "unknown",
+    "primary_gloss": "computer",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0255",
+    "rank": 255,
+    "display_form": "加",
+    "lemma": "加",
+    "generation_form": "加",
+    "pronunciation": "jiā",
+    "pos": "unknown",
+    "primary_gloss": "add",
+    "secondary_glosses": [
+      "increase",
+      "put in"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0256",
+    "rank": 256,
+    "display_form": "加油",
+    "lemma": "加油",
+    "generation_form": "加油",
+    "pronunciation": "jiā yóu",
+    "pos": "unknown",
+    "primary_gloss": "oil",
+    "secondary_glosses": [
+      "refuel",
+      "make an all-out effort"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0257",
+    "rank": 257,
+    "display_form": "家（科学家）",
+    "lemma": "家",
+    "generation_form": "家",
+    "pronunciation": "jiā",
+    "pos": "unknown",
+    "primary_gloss": "noun suffix (scientist)",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0258",
+    "rank": 258,
+    "display_form": "家庭",
+    "lemma": "家庭",
+    "generation_form": "家庭",
+    "pronunciation": "jiātíng",
+    "pos": "unknown",
+    "primary_gloss": "Family",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0259",
+    "rank": 259,
+    "display_form": "家长",
+    "lemma": "家长",
+    "generation_form": "家长",
+    "pronunciation": "jiā zhǎng",
+    "pos": "unknown",
+    "primary_gloss": "parent",
+    "secondary_glosses": [
+      "the head of the family"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0260",
+    "rank": 260,
+    "display_form": "假",
+    "lemma": "假",
+    "generation_form": "假",
+    "pronunciation": "jiǎ",
+    "pos": "unknown",
+    "primary_gloss": "false",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0261",
+    "rank": 261,
+    "display_form": "假期",
+    "lemma": "假期",
+    "generation_form": "假期",
+    "pronunciation": "jià qī",
+    "pos": "unknown",
+    "primary_gloss": "holiday",
+    "secondary_glosses": [
+      "vacation"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0262",
+    "rank": 262,
+    "display_form": "检查",
+    "lemma": "检查",
+    "generation_form": "检查",
+    "pronunciation": "jiǎnchá",
+    "pos": "unknown",
+    "primary_gloss": "inspect",
+    "secondary_glosses": [
+      "check"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0263",
+    "rank": 263,
+    "display_form": "见到",
+    "lemma": "见到",
+    "generation_form": "见到",
+    "pronunciation": "jiàn dào",
+    "pos": "unknown",
+    "primary_gloss": "see",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0264",
+    "rank": 264,
+    "display_form": "见过",
+    "lemma": "见过",
+    "generation_form": "见过",
+    "pronunciation": "jiàn guò",
+    "pos": "unknown",
+    "primary_gloss": "seen",
+    "secondary_glosses": [
+      "have seen"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0265",
+    "rank": 265,
+    "display_form": "件",
+    "lemma": "件",
+    "generation_form": "件",
+    "pronunciation": "jiàn",
+    "pos": "unknown",
+    "primary_gloss": "piece",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0266",
+    "rank": 266,
+    "display_form": "健康",
+    "lemma": "健康",
+    "generation_form": "健康",
+    "pronunciation": "jiànkāng",
+    "pos": "unknown",
+    "primary_gloss": "Healthy",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0267",
+    "rank": 267,
+    "display_form": "讲",
+    "lemma": "讲",
+    "generation_form": "讲",
+    "pronunciation": "jiǎng",
+    "pos": "unknown",
+    "primary_gloss": "speak",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0268",
+    "rank": 268,
+    "display_form": "讲话",
+    "lemma": "讲话",
+    "generation_form": "讲话",
+    "pronunciation": "jiǎng huà",
+    "pos": "unknown",
+    "primary_gloss": "speak",
+    "secondary_glosses": [
+      "talk"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0269",
+    "rank": 269,
+    "display_form": "交",
+    "lemma": "交",
+    "generation_form": "交",
+    "pronunciation": "jiāo",
+    "pos": "unknown",
+    "primary_gloss": "hand over",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0270",
+    "rank": 270,
+    "display_form": "交给",
+    "lemma": "交给",
+    "generation_form": "交给",
+    "pronunciation": "jiāo gěi",
+    "pos": "unknown",
+    "primary_gloss": "hand over",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0271",
+    "rank": 271,
+    "display_form": "交朋友",
+    "lemma": "交朋友",
+    "generation_form": "交朋友",
+    "pronunciation": "jiāo péng yǒu",
+    "pos": "unknown",
+    "primary_gloss": "make friends",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0272",
+    "rank": 272,
+    "display_form": "交通",
+    "lemma": "交通",
+    "generation_form": "交通",
+    "pronunciation": "jiāotōng",
+    "pos": "unknown",
+    "primary_gloss": "traffic",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0273",
+    "rank": 273,
+    "display_form": "角",
+    "lemma": "角",
+    "generation_form": "角",
+    "pronunciation": "jiǎo",
+    "pos": "unknown",
+    "primary_gloss": "horn",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0274",
+    "rank": 274,
+    "display_form": "角度",
+    "lemma": "角度",
+    "generation_form": "角度",
+    "pronunciation": "jiǎodù",
+    "pos": "unknown",
+    "primary_gloss": "angle",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0275",
+    "rank": 275,
+    "display_form": "饺子",
+    "lemma": "饺子",
+    "generation_form": "饺子",
+    "pronunciation": "jiǎozi",
+    "pos": "unknown",
+    "primary_gloss": "Dumplings",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  }
+]

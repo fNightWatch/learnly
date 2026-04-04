@@ -1,0 +1,4082 @@
+{
+  "results": [
+    {
+      "word_id": "new-hsk-2-0414",
+      "rank": 414,
+      "lemma": "便宜",
+      "meanings": [
+        {
+          "meaning_en": "cheap",
+          "priority": 1
+        },
+        {
+          "meaning_en": "inexpensive",
+          "priority": 2
+        }
+      ],
+      "notes": "Used for things that cost little money.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "cheap",
+          "sentence": "这个书包很便宜，我想买。",
+          "translation": "This schoolbag is cheap, and I want to buy it.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "inexpensive",
+          "sentence": "超市的鸡蛋比商店便宜。",
+          "translation": "The eggs at the supermarket are cheaper than at the shop.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "cheap",
+          "sentence": "这家饭馆不贵，菜很便宜。",
+          "translation": "This restaurant is not expensive, and the dishes are cheap.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0415",
+      "rank": 415,
+      "lemma": "片",
+      "meanings": [
+        {
+          "meaning_en": "slice",
+          "priority": 1
+        },
+        {
+          "meaning_en": "piece",
+          "priority": 2
+        },
+        {
+          "meaning_en": "classifier for flat things",
+          "priority": 3
+        }
+      ],
+      "notes": "Often used for slices or thin flat pieces.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "slice",
+          "sentence": "我早上吃了两片面包。",
+          "translation": "I ate two slices of bread this morning.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "piece",
+          "sentence": "盘子里还有一片肉。",
+          "translation": "There is still a piece of meat on the plate.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "classifier for flat things",
+          "sentence": "学校后边有一片草地。",
+          "translation": "There is a stretch of grass behind the school.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0416",
+      "rank": 416,
+      "lemma": "漂亮",
+      "meanings": [
+        {
+          "meaning_en": "beautiful",
+          "priority": 1
+        },
+        {
+          "meaning_en": "pretty",
+          "priority": 2
+        }
+      ],
+      "notes": "Describes people or things that look beautiful or attractive.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "pretty",
+          "sentence": "姐姐今天穿得很漂亮。",
+          "translation": "My older sister looks very pretty today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "beautiful",
+          "sentence": "这个花园真漂亮，我们进去看看。",
+          "translation": "This garden is really beautiful. Let's go in and take a look.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "beautiful",
+          "sentence": "妈妈写的字很漂亮。",
+          "translation": "The characters Mom writes are very beautiful.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0417",
+      "rank": 417,
+      "lemma": "平",
+      "meanings": [
+        {
+          "meaning_en": "flat",
+          "priority": 1
+        },
+        {
+          "meaning_en": "level",
+          "priority": 2
+        }
+      ],
+      "notes": "Describes something flat or level, like a road or table.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "flat",
+          "sentence": "这条路很平，骑车方便。",
+          "translation": "This road is flat, so it is convenient for riding a bike.",
+          "difficulty": 2
+        },
+        {
+          "slot": 2,
+          "meaning_en": "level",
+          "sentence": "桌子有点儿不平，杯子会动。",
+          "translation": "The table is a little uneven, so the cup moves.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "flat",
+          "sentence": "这里的地很平，孩子们可以打球。",
+          "translation": "The ground here is flat, so the children can play ball.",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0418",
+      "rank": 418,
+      "lemma": "平安",
+      "meanings": [
+        {
+          "meaning_en": "safe and sound",
+          "priority": 1
+        },
+        {
+          "meaning_en": "safe",
+          "priority": 2
+        }
+      ],
+      "notes": "Often used when hoping someone arrives or returns safely.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "safe and sound",
+          "sentence": "爸爸晚上平安到家了。",
+          "translation": "Dad got home safe and sound in the evening.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "safe",
+          "sentence": "只要你平安回来就好。",
+          "translation": "As long as you come back safely, that's enough.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "safe",
+          "sentence": "妈妈说平安最重要。",
+          "translation": "Mom says being safe is the most important thing.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0419",
+      "rank": 419,
+      "lemma": "平常",
+      "meanings": [
+        {
+          "meaning_en": "usual",
+          "priority": 1
+        },
+        {
+          "meaning_en": "ordinary",
+          "priority": 2
+        }
+      ],
+      "notes": "Refers to what is usual or ordinary in daily life.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "usual",
+          "sentence": "我平常骑车去上班。",
+          "translation": "I usually ride a bike to work.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "ordinary",
+          "sentence": "这家小店平常人不多。",
+          "translation": "This small shop usually doesn't have many people.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "ordinary",
+          "sentence": "他穿得很平常，但是很干净。",
+          "translation": "He is dressed very plainly, but very neatly.",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0420",
+      "rank": 420,
+      "lemma": "平等",
+      "meanings": [
+        {
+          "meaning_en": "equal",
+          "priority": 1
+        },
+        {
+          "meaning_en": "equality",
+          "priority": 2
+        }
+      ],
+      "notes": "Used when talking about people being equal and treated fairly.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "equal",
+          "sentence": "爸爸说朋友之间要平等。",
+          "translation": "Dad says friends should be equal.",
+          "difficulty": 2
+        },
+        {
+          "slot": 2,
+          "meaning_en": "equality",
+          "sentence": "在家里，大家都应该平等。",
+          "translation": "At home, everyone should be equal.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "equal",
+          "sentence": "我觉得男和女应该平等。",
+          "translation": "I think men and women should be equal.",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0421",
+      "rank": 421,
+      "lemma": "平时",
+      "meanings": [
+        {
+          "meaning_en": "usually",
+          "priority": 1
+        },
+        {
+          "meaning_en": "in ordinary times",
+          "priority": 2
+        }
+      ],
+      "notes": "Means usually or in normal everyday times.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "usually",
+          "sentence": "平时我六点起床上学。",
+          "translation": "I usually get up at six and go to school.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "usually",
+          "sentence": "妈妈平时不太看电视。",
+          "translation": "Mom usually doesn't watch much TV.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "in ordinary times",
+          "sentence": "平时这条路很安静。",
+          "translation": "This road is very quiet in ordinary times.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0422",
+      "rank": 422,
+      "lemma": "瓶",
+      "meanings": [
+        {
+          "meaning_en": "bottle",
+          "priority": 1
+        },
+        {
+          "meaning_en": "classifier for bottles",
+          "priority": 2
+        }
+      ],
+      "notes": "Often used as a measure word for bottled drinks.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "classifier for bottles",
+          "sentence": "我买了两瓶牛奶回家。",
+          "translation": "I bought two bottles of milk to take home.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "bottle",
+          "sentence": "桌子上有一瓶水。",
+          "translation": "There is a bottle of water on the table.",
+          "difficulty": 1
+        },
+        {
+          "slot": 3,
+          "meaning_en": "classifier for bottles",
+          "sentence": "爸爸每天带一瓶茶上班。",
+          "translation": "Dad brings a bottle of tea to work every day.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0423",
+      "rank": 423,
+      "lemma": "瓶子",
+      "meanings": [
+        {
+          "meaning_en": "bottle",
+          "priority": 1
+        }
+      ],
+      "notes": "The noun for a bottle as an object.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "bottle",
+          "sentence": "这个瓶子里没有水了。",
+          "translation": "There is no water left in this bottle.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "bottle",
+          "sentence": "桌上那个白瓶子是我的。",
+          "translation": "That white bottle on the table is mine.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "bottle",
+          "sentence": "妈妈把空瓶子放在门口。",
+          "translation": "Mom put the empty bottle by the door.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0424",
+      "rank": 424,
+      "lemma": "普通",
+      "meanings": [
+        {
+          "meaning_en": "ordinary",
+          "priority": 1
+        },
+        {
+          "meaning_en": "common",
+          "priority": 2
+        },
+        {
+          "meaning_en": "regular",
+          "priority": 3
+        }
+      ],
+      "notes": "Describes something ordinary, common, or not special.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "ordinary",
+          "sentence": "这是一家很普通的饭馆。",
+          "translation": "This is a very ordinary restaurant.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "regular",
+          "sentence": "他穿着普通衣服来上班。",
+          "translation": "He came to work in regular clothes.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "common",
+          "sentence": "这个问题很普通，不太难。",
+          "translation": "This question is very common and not too hard.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0425",
+      "rank": 425,
+      "lemma": "普通话",
+      "meanings": [
+        {
+          "meaning_en": "Mandarin",
+          "priority": 1
+        }
+      ],
+      "notes": "The standard spoken form of Chinese used in school and public life.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "Mandarin",
+          "sentence": "老师上课都说普通话。",
+          "translation": "The teacher speaks Mandarin in class.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "Mandarin",
+          "sentence": "我想用普通话介绍自己。",
+          "translation": "I want to introduce myself in Mandarin.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "Mandarin",
+          "sentence": "妈妈的普通话说得很好。",
+          "translation": "Mom speaks Mandarin very well.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0426",
+      "rank": 426,
+      "lemma": "其他",
+      "meanings": [
+        {
+          "meaning_en": "other",
+          "priority": 1
+        },
+        {
+          "meaning_en": "the others",
+          "priority": 2
+        }
+      ],
+      "notes": "Used for other people or things besides the ones already mentioned.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "other",
+          "sentence": "我不想喝茶，想喝其他的。",
+          "translation": "I don't want tea; I want something else to drink.",
+          "difficulty": 2
+        },
+        {
+          "slot": 2,
+          "meaning_en": "the others",
+          "sentence": "这些书我都看了，其他呢？",
+          "translation": "I've read all these books. What about the others?",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "other",
+          "sentence": "这个房间满了，我们看其他房间吧。",
+          "translation": "This room is full, so let's look at the other rooms.",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0427",
+      "rank": 427,
+      "lemma": "其中",
+      "meanings": [
+        {
+          "meaning_en": "among them",
+          "priority": 1
+        },
+        {
+          "meaning_en": "one of them",
+          "priority": 2
+        }
+      ],
+      "notes": "Used when talking about one part of a larger group.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "one of them",
+          "sentence": "我买了三本书，其中一本是词典。",
+          "translation": "I bought three books, and one of them is a dictionary.",
+          "difficulty": 2
+        },
+        {
+          "slot": 2,
+          "meaning_en": "among them",
+          "sentence": "班里有很多同学，其中两个是国外来的。",
+          "translation": "There are many classmates in the class, and two of them are from abroad.",
+          "difficulty": 3
+        },
+        {
+          "slot": 3,
+          "meaning_en": "among them",
+          "sentence": "这些菜里，其中这个最好吃。",
+          "translation": "Among these dishes, this one tastes the best.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0428",
+      "rank": 428,
+      "lemma": "骑",
+      "meanings": [
+        {
+          "meaning_en": "ride",
+          "priority": 1
+        }
+      ],
+      "notes": "Used for riding a bike, horse, or similar vehicle or animal.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "ride",
+          "sentence": "爸爸每天骑车去公司。",
+          "translation": "Dad rides a bike to the company every day.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "ride",
+          "sentence": "姐姐骑车去地铁站。",
+          "translation": "My older sister rides a bike to the subway station.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "ride",
+          "sentence": "他骑得很快，我追不上。",
+          "translation": "He rides very fast, and I can't catch up.",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0429",
+      "rank": 429,
+      "lemma": "骑车",
+      "meanings": [
+        {
+          "meaning_en": "ride a bike",
+          "priority": 1
+        },
+        {
+          "meaning_en": "cycle",
+          "priority": 2
+        }
+      ],
+      "notes": "The everyday phrase for riding a bicycle.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "ride a bike",
+          "sentence": "我平时骑车去学校。",
+          "translation": "I usually ride a bike to school.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "cycle",
+          "sentence": "下雨的时候不能骑车。",
+          "translation": "You can't ride a bike when it rains.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "ride a bike",
+          "sentence": "爸爸骑车去超市买菜。",
+          "translation": "Dad rides a bike to the supermarket to buy vegetables.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0430",
+      "rank": 430,
+      "lemma": "起飞",
+      "meanings": [
+        {
+          "meaning_en": "take off",
+          "priority": 1
+        }
+      ],
+      "notes": "Used when a plane leaves the ground.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "take off",
+          "sentence": "飞机马上就要起飞了。",
+          "translation": "The plane is about to take off.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "take off",
+          "sentence": "起飞前请把手机关机。",
+          "translation": "Please turn off your phone before takeoff.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "take off",
+          "sentence": "我第一次看飞机起飞。",
+          "translation": "It's my first time watching a plane take off.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0431",
+      "rank": 431,
+      "lemma": "气",
+      "meanings": [
+        {
+          "meaning_en": "air",
+          "priority": 1
+        },
+        {
+          "meaning_en": "gas",
+          "priority": 2
+        },
+        {
+          "meaning_en": "breath",
+          "priority": 3
+        }
+      ],
+      "notes": "Can mean air, gas, or breath depending on the situation.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "breath",
+          "sentence": "我跑了一会儿，就没气了。",
+          "translation": "I ran for a while, and then I was out of breath.",
+          "difficulty": 2
+        },
+        {
+          "slot": 2,
+          "meaning_en": "gas",
+          "sentence": "打开瓶子以后，气都跑了。",
+          "translation": "After opening the bottle, all the gas was gone.",
+          "difficulty": 3
+        },
+        {
+          "slot": 3,
+          "meaning_en": "air",
+          "sentence": "早上的空气很新，我们出去吧。",
+          "translation": "The morning air is fresh, so let's go out.",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0432",
+      "rank": 432,
+      "lemma": "气温",
+      "meanings": [
+        {
+          "meaning_en": "temperature",
+          "priority": 1
+        },
+        {
+          "meaning_en": "air temperature",
+          "priority": 2
+        }
+      ],
+      "notes": "Used for the temperature of the weather outside.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "temperature",
+          "sentence": "今天气温比昨天低一点儿。",
+          "translation": "Today's temperature is a little lower than yesterday's.",
+          "difficulty": 2
+        },
+        {
+          "slot": 2,
+          "meaning_en": "air temperature",
+          "sentence": "冬天早上气温很低。",
+          "translation": "The air temperature is very low on winter mornings.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "temperature",
+          "sentence": "气温高的时候我想喝水。",
+          "translation": "When the temperature is high, I want to drink water.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0433",
+      "rank": 433,
+      "lemma": "千",
+      "meanings": [
+        {
+          "meaning_en": "thousand",
+          "priority": 1
+        }
+      ],
+      "notes": "The number word for one thousand.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "thousand",
+          "sentence": "这台计算机要五千元。",
+          "translation": "This computer costs five thousand yuan.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "thousand",
+          "sentence": "从这里到机场有一千米吗？",
+          "translation": "Is it one thousand meters from here to the airport?",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "thousand",
+          "sentence": "这个活动来了上千人。",
+          "translation": "More than a thousand people came to this event.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0434",
+      "rank": 434,
+      "lemma": "千克",
+      "meanings": [
+        {
+          "meaning_en": "kilogram",
+          "priority": 1
+        },
+        {
+          "meaning_en": "kilo",
+          "priority": 2
+        }
+      ],
+      "notes": "A measure word for weight equal to one kilogram.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "kilogram",
+          "sentence": "这只鸡有两千克。",
+          "translation": "This chicken weighs two kilograms.",
+          "difficulty": 2
+        },
+        {
+          "slot": 2,
+          "meaning_en": "kilo",
+          "sentence": "妈妈买了两千克鸡蛋。",
+          "translation": "Mom bought two kilos of eggs.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "kilogram",
+          "sentence": "这些肉一共两千克。",
+          "translation": "This meat weighs two kilograms in total.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0435",
+      "rank": 435,
+      "lemma": "前年",
+      "meanings": [
+        {
+          "meaning_en": "the year before last",
+          "priority": 1
+        }
+      ],
+      "notes": "Refers to two years ago.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "the year before last",
+          "sentence": "前年我们全家去过北京。",
+          "translation": "The year before last, our whole family went to Beijing.",
+          "difficulty": 2
+        },
+        {
+          "slot": 2,
+          "meaning_en": "the year before last",
+          "sentence": "爸爸前年开始在这里工作。",
+          "translation": "Dad started working here the year before last.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "the year before last",
+          "sentence": "我前年买了这块手表。",
+          "translation": "I bought this watch the year before last.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0436",
+      "rank": 436,
+      "lemma": "墙",
+      "meanings": [
+        {
+          "meaning_en": "wall",
+          "priority": 1
+        }
+      ],
+      "notes": "The noun for a wall in a room or building.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "wall",
+          "sentence": "墙上有一张中国地图。",
+          "translation": "There is a map of China on the wall.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "wall",
+          "sentence": "孩子把球打到墙上了。",
+          "translation": "The child hit the ball onto the wall.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "wall",
+          "sentence": "黑板在墙的中间。",
+          "translation": "The blackboard is in the middle of the wall.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0437",
+      "rank": 437,
+      "lemma": "青年",
+      "meanings": [
+        {
+          "meaning_en": "young person",
+          "priority": 1
+        },
+        {
+          "meaning_en": "youth",
+          "priority": 2
+        }
+      ],
+      "notes": "Usually refers to a young adult or young person.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "young person",
+          "sentence": "那个青年在地铁站工作。",
+          "translation": "That young man works at the subway station.",
+          "difficulty": 2
+        },
+        {
+          "slot": 2,
+          "meaning_en": "youth",
+          "sentence": "很多青年喜欢骑车上班。",
+          "translation": "Many young people like riding a bike to work.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "young person",
+          "sentence": "这个活动欢迎青年参加。",
+          "translation": "This event welcomes young people to join.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0438",
+      "rank": 438,
+      "lemma": "青少年",
+      "meanings": [
+        {
+          "meaning_en": "teenager",
+          "priority": 1
+        },
+        {
+          "meaning_en": "adolescent",
+          "priority": 2
+        }
+      ],
+      "notes": "Refers to teenagers or adolescents.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "teenager",
+          "sentence": "这个活动是给青少年的。",
+          "translation": "This activity is for teenagers.",
+          "difficulty": 2
+        },
+        {
+          "slot": 2,
+          "meaning_en": "teenager",
+          "sentence": "青少年要少看手机。",
+          "translation": "Teenagers should look at their phones less.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "adolescent",
+          "sentence": "很多青少年喜欢打球。",
+          "translation": "Many adolescents like playing ball.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0439",
+      "rank": 439,
+      "lemma": "轻",
+      "meanings": [
+        {
+          "meaning_en": "light",
+          "priority": 1
+        },
+        {
+          "meaning_en": "not heavy",
+          "priority": 2
+        }
+      ],
+      "notes": "Describes something that does not weigh much.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "light",
+          "sentence": "这个包很轻，我来拿吧。",
+          "translation": "This bag is light, so let me carry it.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "not heavy",
+          "sentence": "这件大衣看着大，其实很轻。",
+          "translation": "This coat looks big, but it is actually light.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "light",
+          "sentence": "这台计算机比那台轻。",
+          "translation": "This computer is lighter than that one.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0440",
+      "rank": 440,
+      "lemma": "清楚",
+      "meanings": [
+        {
+          "meaning_en": "clear",
+          "priority": 1
+        },
+        {
+          "meaning_en": "clearly",
+          "priority": 2
+        }
+      ],
+      "notes": "Describes something that is clear or understood clearly.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "clear",
+          "sentence": "老师写得很清楚。",
+          "translation": "The teacher writes very clearly.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "clearly",
+          "sentence": "我没听清楚你说的话。",
+          "translation": "I didn't hear clearly what you said.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "clear",
+          "sentence": "这张地图看得很清楚。",
+          "translation": "This map can be seen very clearly.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0441",
+      "rank": 441,
+      "lemma": "晴",
+      "meanings": [
+        {
+          "meaning_en": "sunny",
+          "priority": 1
+        },
+        {
+          "meaning_en": "clear",
+          "priority": 2
+        }
+      ],
+      "notes": "Used for sunny weather or a clear sky after rain.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "sunny",
+          "sentence": "上午还下雨，下午就晴了。",
+          "translation": "It was still raining in the morning, but it turned sunny in the afternoon.",
+          "difficulty": 2
+        },
+        {
+          "slot": 2,
+          "meaning_en": "sunny",
+          "sentence": "天晴的时候我想去海边。",
+          "translation": "When it is sunny, I want to go to the seaside.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "clear",
+          "sentence": "今天是晴天，我们出去吧。",
+          "translation": "It is sunny today, so let's go out.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0442",
+      "rank": 442,
+      "lemma": "晴天",
+      "meanings": [
+        {
+          "meaning_en": "sunny day",
+          "priority": 1
+        }
+      ],
+      "notes": "The noun for a day with sunny weather.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "sunny day",
+          "sentence": "晴天的时候衣服干得快。",
+          "translation": "Clothes dry quickly on sunny days.",
+          "difficulty": 2
+        },
+        {
+          "slot": 2,
+          "meaning_en": "sunny day",
+          "sentence": "明天如果是晴天，我们去公园。",
+          "translation": "If tomorrow is a sunny day, we'll go to the park.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "sunny day",
+          "sentence": "我喜欢在晴天走路上班。",
+          "translation": "I like walking to work on sunny days.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0443",
+      "rank": 443,
+      "lemma": "请客",
+      "meanings": [
+        {
+          "meaning_en": "treat",
+          "priority": 1
+        },
+        {
+          "meaning_en": "pay for others",
+          "priority": 2
+        }
+      ],
+      "notes": "Means to invite others to eat or do something and pay for them.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "treat",
+          "sentence": "今天考试以后我请客。",
+          "translation": "I'm treating everyone after the exam today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "pay for others",
+          "sentence": "这次是我请客，你别带钱。",
+          "translation": "This time I'm paying, so don't bring money.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "treat",
+          "sentence": "爸爸今天高兴，晚上请客吃饭。",
+          "translation": "Dad is happy today, so he is treating everyone to dinner tonight.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0444",
+      "rank": 444,
+      "lemma": "请求",
+      "meanings": [
+        {
+          "meaning_en": "request",
+          "priority": 1
+        },
+        {
+          "meaning_en": "ask",
+          "priority": 2
+        }
+      ],
+      "notes": "Can be a noun or verb for a formal or serious request.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "request",
+          "sentence": "他的请求很简单，只要一本词典。",
+          "translation": "His request is simple: he only wants one dictionary.",
+          "difficulty": 2
+        },
+        {
+          "slot": 2,
+          "meaning_en": "ask",
+          "sentence": "我想请求老师再说一次。",
+          "translation": "I want to ask the teacher to say it one more time.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "request",
+          "sentence": "我请求爸爸让我去海边。",
+          "translation": "I asked Dad to let me go to the seaside.",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0445",
+      "rank": 445,
+      "lemma": "秋天",
+      "meanings": [
+        {
+          "meaning_en": "autumn",
+          "priority": 1
+        },
+        {
+          "meaning_en": "fall",
+          "priority": 2
+        }
+      ],
+      "notes": "The season after summer and before winter.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "autumn",
+          "sentence": "秋天的风有点儿冷。",
+          "translation": "The wind in autumn is a little cold.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "fall",
+          "sentence": "我最喜欢秋天的晴天。",
+          "translation": "I like sunny autumn days the most.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "autumn",
+          "sentence": "秋天来了，树慢慢黄了。",
+          "translation": "Autumn has come, and the trees are slowly turning yellow.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0446",
+      "rank": 446,
+      "lemma": "求",
+      "meanings": [
+        {
+          "meaning_en": "ask",
+          "priority": 1
+        },
+        {
+          "meaning_en": "beg",
+          "priority": 2
+        },
+        {
+          "meaning_en": "seek",
+          "priority": 3
+        }
+      ],
+      "notes": "A verb for asking or begging for something seriously.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "ask",
+          "sentence": "他来这里求帮助。",
+          "translation": "He came here to ask for help.",
+          "difficulty": 2
+        },
+        {
+          "slot": 2,
+          "meaning_en": "beg",
+          "sentence": "妈妈求医生快看看孩子。",
+          "translation": "Mom begged the doctor to look at the child quickly.",
+          "difficulty": 3
+        },
+        {
+          "slot": 3,
+          "meaning_en": "seek",
+          "sentence": "我不想求人，但是没办法。",
+          "translation": "I don't want to ask others for help, but I have no choice.",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0447",
+      "rank": 447,
+      "lemma": "球场",
+      "meanings": [
+        {
+          "meaning_en": "court",
+          "priority": 1
+        },
+        {
+          "meaning_en": "playing field",
+          "priority": 2
+        }
+      ],
+      "notes": "The place where people play ball games.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "court",
+          "sentence": "学校后边有一个球场。",
+          "translation": "There is a ball court behind the school.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "playing field",
+          "sentence": "哥哥下午在球场打球。",
+          "translation": "My older brother plays ball on the field in the afternoon.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "court",
+          "sentence": "下雨以后球场上没人了。",
+          "translation": "After it rained, there was no one on the court.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0448",
+      "rank": 448,
+      "lemma": "球队",
+      "meanings": [
+        {
+          "meaning_en": "team",
+          "priority": 1
+        }
+      ],
+      "notes": "Usually refers to a sports team.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "team",
+          "sentence": "哥哥在学校球队里。",
+          "translation": "My older brother is on the school team.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "team",
+          "sentence": "这个球队去年得了第一。",
+          "translation": "This team won first place last year.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "team",
+          "sentence": "我们班很多同学都想进球队。",
+          "translation": "Many classmates in our class want to join the team.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0449",
+      "rank": 449,
+      "lemma": "球鞋",
+      "meanings": [
+        {
+          "meaning_en": "sneakers",
+          "priority": 1
+        },
+        {
+          "meaning_en": "sports shoes",
+          "priority": 2
+        }
+      ],
+      "notes": "Shoes worn for sports or ball games.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "sneakers",
+          "sentence": "我想买一双新球鞋。",
+          "translation": "I want to buy a new pair of sneakers.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "sports shoes",
+          "sentence": "哥哥的球鞋放在门口。",
+          "translation": "My older brother's sports shoes are by the door.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "sneakers",
+          "sentence": "这双球鞋很轻，跑起来快。",
+          "translation": "These sneakers are light, so they are fast to run in.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0450",
+      "rank": 450,
+      "lemma": "取",
+      "meanings": [
+        {
+          "meaning_en": "take",
+          "priority": 1
+        },
+        {
+          "meaning_en": "pick up",
+          "priority": 2
+        },
+        {
+          "meaning_en": "get",
+          "priority": 3
+        }
+      ],
+      "notes": "Often used for taking, getting, or picking something up.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "pick up",
+          "sentence": "我下班后去车站取票。",
+          "translation": "I'm going to the station to pick up the ticket after work.",
+          "difficulty": 2
+        },
+        {
+          "slot": 2,
+          "meaning_en": "take",
+          "sentence": "请你帮我取一下儿水。",
+          "translation": "Please help me get some water.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "get",
+          "sentence": "爸爸去书店取词典。",
+          "translation": "Dad is going to the bookstore to get the dictionary.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0451",
+      "rank": 451,
+      "lemma": "取得",
+      "meanings": [
+        {
+          "meaning_en": "obtain",
+          "priority": 1
+        },
+        {
+          "meaning_en": "gain",
+          "priority": 2
+        },
+        {
+          "meaning_en": "achieve",
+          "priority": 3
+        }
+      ],
+      "notes": "Used for obtaining or achieving a result.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "achieve",
+          "sentence": "姐姐这次考试取得了第一。",
+          "translation": "My older sister got first place on this exam.",
+          "difficulty": 2
+        },
+        {
+          "slot": 2,
+          "meaning_en": "gain",
+          "sentence": "我们球队取得了好成绩。",
+          "translation": "Our team achieved good results.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "obtain",
+          "sentence": "这个活动取得了好结果。",
+          "translation": "This activity got a good result.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0452",
+      "rank": 452,
+      "lemma": "全",
+      "meanings": [
+        {
+          "meaning_en": "whole",
+          "priority": 1
+        },
+        {
+          "meaning_en": "all",
+          "priority": 2
+        },
+        {
+          "meaning_en": "complete",
+          "priority": 3
+        }
+      ],
+      "notes": "Can mean whole or all of something.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "all",
+          "sentence": "这些菜我全想吃。",
+          "translation": "I want to eat all these dishes.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "whole",
+          "sentence": "今天全家都在家吃饭。",
+          "translation": "The whole family is eating at home today.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "complete",
+          "sentence": "这本书我全看完了。",
+          "translation": "I finished the whole book.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0453",
+      "rank": 453,
+      "lemma": "全部",
+      "meanings": [
+        {
+          "meaning_en": "all",
+          "priority": 1
+        },
+        {
+          "meaning_en": "the whole amount",
+          "priority": 2
+        }
+      ],
+      "notes": "Means all of something, without leaving any part out.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "all",
+          "sentence": "这些书我全部看完了。",
+          "translation": "I finished all these books.",
+          "difficulty": 2
+        },
+        {
+          "slot": 2,
+          "meaning_en": "the whole amount",
+          "sentence": "妈妈把钱全部放进包里。",
+          "translation": "Mom put all the money into the bag.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "all",
+          "sentence": "车上的人全部下去了。",
+          "translation": "All the people in the vehicle got off.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0454",
+      "rank": 454,
+      "lemma": "全国",
+      "meanings": [
+        {
+          "meaning_en": "nationwide",
+          "priority": 1
+        },
+        {
+          "meaning_en": "the whole country",
+          "priority": 2
+        }
+      ],
+      "notes": "Refers to the entire country or something across the country.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "the whole country",
+          "sentence": "这个消息全国都知道了。",
+          "translation": "The whole country knew this news.",
+          "difficulty": 2
+        },
+        {
+          "slot": 2,
+          "meaning_en": "nationwide",
+          "sentence": "全国很多地方都下雨。",
+          "translation": "It is raining in many places across the country.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "nationwide",
+          "sentence": "这家店在全国都有。",
+          "translation": "This shop has locations across the country.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0455",
+      "rank": 455,
+      "lemma": "全家",
+      "meanings": [
+        {
+          "meaning_en": "whole family",
+          "priority": 1
+        }
+      ],
+      "notes": "Refers to every member of a family together.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "whole family",
+          "sentence": "今天晚上全家一起吃饭。",
+          "translation": "The whole family is eating together tonight.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "whole family",
+          "sentence": "前年我们全家去过海边。",
+          "translation": "The year before last, our whole family went to the seaside.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "whole family",
+          "sentence": "全家都希望奶奶身体平安。",
+          "translation": "The whole family hopes Grandma stays safe and healthy.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0456",
+      "rank": 456,
+      "lemma": "全年",
+      "meanings": [
+        {
+          "meaning_en": "all year",
+          "priority": 1
+        },
+        {
+          "meaning_en": "throughout the year",
+          "priority": 2
+        }
+      ],
+      "notes": "Means the whole year or throughout the entire year.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "all year",
+          "sentence": "爸爸全年都很忙。",
+          "translation": "Dad is busy all year.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "throughout the year",
+          "sentence": "这里全年气温不太低。",
+          "translation": "The temperature here is not very low throughout the year.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "all year",
+          "sentence": "这个店全年都不关门。",
+          "translation": "This shop stays open all year.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0457",
+      "rank": 457,
+      "lemma": "全身",
+      "meanings": [
+        {
+          "meaning_en": "whole body",
+          "priority": 1
+        }
+      ],
+      "notes": "Refers to the whole body from head to toe.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "whole body",
+          "sentence": "下雨以后他全身都湿了。",
+          "translation": "After the rain, his whole body got wet.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "whole body",
+          "sentence": "我跑完以后全身都是汗。",
+          "translation": "After I finished running, my whole body was covered in sweat.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "whole body",
+          "sentence": "妈妈觉得全身不舒服。",
+          "translation": "Mom feels uncomfortable all over her body.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0458",
+      "rank": 458,
+      "lemma": "全体",
+      "meanings": [
+        {
+          "meaning_en": "all",
+          "priority": 1
+        },
+        {
+          "meaning_en": "the whole group",
+          "priority": 2
+        }
+      ],
+      "notes": "Used for all members of a group together.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "the whole group",
+          "sentence": "全体老师今天下午开会。",
+          "translation": "All the teachers are having a meeting this afternoon.",
+          "difficulty": 2
+        },
+        {
+          "slot": 2,
+          "meaning_en": "all",
+          "sentence": "学校欢迎全体家长参加。",
+          "translation": "The school welcomes all parents to take part.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "the whole group",
+          "sentence": "全体同学都看着黑板。",
+          "translation": "All the students are looking at the blackboard.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0459",
+      "rank": 459,
+      "lemma": "然后",
+      "meanings": [
+        {
+          "meaning_en": "then",
+          "priority": 1
+        },
+        {
+          "meaning_en": "after that",
+          "priority": 2
+        }
+      ],
+      "notes": "Used to show what happens next.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "then",
+          "sentence": "我先买菜，然后回家做饭。",
+          "translation": "I'll buy vegetables first, then go home and cook.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "after that",
+          "sentence": "爸爸下班以后先洗手，然后吃饭。",
+          "translation": "After work, Dad washes his hands first, and after that he eats.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "then",
+          "sentence": "我们先去公园，然后去饭馆。",
+          "translation": "We'll go to the park first, then go to the restaurant.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0460",
+      "rank": 460,
+      "lemma": "让",
+      "meanings": [
+        {
+          "meaning_en": "let",
+          "priority": 1
+        },
+        {
+          "meaning_en": "make",
+          "priority": 2
+        },
+        {
+          "meaning_en": "allow",
+          "priority": 3
+        }
+      ],
+      "notes": "Used for letting, allowing, or causing someone to do something.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "let",
+          "sentence": "妈妈让我先去写作业。",
+          "translation": "Mom told me to go do my homework first.",
+          "difficulty": 2
+        },
+        {
+          "slot": 2,
+          "meaning_en": "make",
+          "sentence": "这件事让爸爸很高兴。",
+          "translation": "This matter makes Dad very happy.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "allow",
+          "sentence": "请让老人先上车。",
+          "translation": "Please let the elderly person get on first.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0461",
+      "rank": 461,
+      "lemma": "热情",
+      "meanings": [
+        {
+          "meaning_en": "warm",
+          "priority": 1
+        },
+        {
+          "meaning_en": "enthusiastic",
+          "priority": 2
+        }
+      ],
+      "notes": "Describes people who are warm and enthusiastic toward others.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "enthusiastic",
+          "sentence": "姐姐对新同学很热情。",
+          "translation": "My older sister is very enthusiastic toward the new classmate.",
+          "difficulty": 2
+        },
+        {
+          "slot": 2,
+          "meaning_en": "warm",
+          "sentence": "这个地方的人都很热情。",
+          "translation": "The people in this place are all very warm.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "warm",
+          "sentence": "爸爸热情地欢迎朋友来家里。",
+          "translation": "Dad warmly welcomes his friends to the house.",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0462",
+      "rank": 462,
+      "lemma": "人口",
+      "meanings": [
+        {
+          "meaning_en": "population",
+          "priority": 1
+        }
+      ],
+      "notes": "Refers to the number of people living in a place.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "population",
+          "sentence": "这个市人口很多。",
+          "translation": "This city has a large population.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "population",
+          "sentence": "这个地方人口不多，很安静。",
+          "translation": "This place does not have a large population, and it is very quiet.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "population",
+          "sentence": "北京的人口比这个市多。",
+          "translation": "Beijing has a larger population than this city.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0463",
+      "rank": 463,
+      "lemma": "人们",
+      "meanings": [
+        {
+          "meaning_en": "people",
+          "priority": 1
+        }
+      ],
+      "notes": "A general word for people as a group.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "people",
+          "sentence": "人们都说这里很安全。",
+          "translation": "People all say this place is very safe.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "people",
+          "sentence": "下雨的时候，人们都跑得很快。",
+          "translation": "When it rains, people all run very fast.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "people",
+          "sentence": "人们喜欢在晴天出去玩儿。",
+          "translation": "People like going out to have fun on sunny days.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0464",
+      "rank": 464,
+      "lemma": "人数",
+      "meanings": [
+        {
+          "meaning_en": "number of people",
+          "priority": 1
+        },
+        {
+          "meaning_en": "headcount",
+          "priority": 2
+        }
+      ],
+      "notes": "Refers to how many people there are in a group or place.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "number of people",
+          "sentence": "今天活动人数不太多。",
+          "translation": "The number of people at today's activity is not very large.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "headcount",
+          "sentence": "这个班的人数是二十。",
+          "translation": "The headcount of this class is twenty.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "number of people",
+          "sentence": "我们要先看人数，再找地方。",
+          "translation": "We need to look at the number of people first, and then find a place.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0465",
+      "rank": 465,
+      "lemma": "认为",
+      "meanings": [
+        {
+          "meaning_en": "think",
+          "priority": 1
+        },
+        {
+          "meaning_en": "believe",
+          "priority": 2
+        },
+        {
+          "meaning_en": "consider",
+          "priority": 3
+        }
+      ],
+      "notes": "Used for what someone thinks or believes.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "think",
+          "sentence": "我认为这家饭馆不错。",
+          "translation": "I think this restaurant is pretty good.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "believe",
+          "sentence": "爸爸认为现在太晚了。",
+          "translation": "Dad believes it is too late now.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "consider",
+          "sentence": "老师认为这个办法很好。",
+          "translation": "The teacher considers this method very good.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0466",
+      "rank": 466,
+      "lemma": "日报",
+      "meanings": [
+        {
+          "meaning_en": "daily newspaper",
+          "priority": 1
+        }
+      ],
+      "notes": "A newspaper that is published every day.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "daily newspaper",
+          "sentence": "爸爸每天早上都看日报。",
+          "translation": "Dad reads the daily newspaper every morning.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "daily newspaper",
+          "sentence": "这份日报在桌子上。",
+          "translation": "This daily newspaper is on the table.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "daily newspaper",
+          "sentence": "我在图书馆看到今天的日报。",
+          "translation": "I saw today's daily newspaper in the library.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0467",
+      "rank": 467,
+      "lemma": "日子",
+      "meanings": [
+        {
+          "meaning_en": "day",
+          "priority": 1
+        },
+        {
+          "meaning_en": "days",
+          "priority": 2
+        },
+        {
+          "meaning_en": "life",
+          "priority": 3
+        }
+      ],
+      "notes": "Can mean a day or the way life is going.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "days",
+          "sentence": "这些日子妈妈很忙。",
+          "translation": "Mom has been very busy these days.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "day",
+          "sentence": "过年的日子大家都高兴。",
+          "translation": "People are all happy during the New Year days.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "life",
+          "sentence": "现在的日子比前年好。",
+          "translation": "Life now is better than it was the year before last.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0468",
+      "rank": 468,
+      "lemma": "如果",
+      "meanings": [
+        {
+          "meaning_en": "if",
+          "priority": 1
+        }
+      ],
+      "notes": "Used to introduce a condition.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "if",
+          "sentence": "如果明天晴天，我们去海边。",
+          "translation": "If tomorrow is sunny, we'll go to the seaside.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "if",
+          "sentence": "如果你不舒服，就早点回家。",
+          "translation": "If you don't feel well, go home early.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "if",
+          "sentence": "如果这件衣服便宜，我就买。",
+          "translation": "If this piece of clothing is cheap, I'll buy it.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0469",
+      "rank": 469,
+      "lemma": "入口",
+      "meanings": [
+        {
+          "meaning_en": "entrance",
+          "priority": 1
+        }
+      ],
+      "notes": "The place where people go in.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "entrance",
+          "sentence": "地铁站入口在那边。",
+          "translation": "The subway station entrance is over there.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "entrance",
+          "sentence": "请不要站在入口前边。",
+          "translation": "Please don't stand in front of the entrance.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "entrance",
+          "sentence": "商场入口有很多人。",
+          "translation": "There are many people at the mall entrance.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0470",
+      "rank": 470,
+      "lemma": "商量",
+      "meanings": [
+        {
+          "meaning_en": "discuss",
+          "priority": 1
+        },
+        {
+          "meaning_en": "talk over",
+          "priority": 2
+        }
+      ],
+      "notes": "Used when people discuss something together before deciding.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "discuss",
+          "sentence": "这件事我要和妈妈商量。",
+          "translation": "I need to discuss this matter with Mom.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "talk over",
+          "sentence": "我们先商量，再买票吧。",
+          "translation": "Let's talk it over first, and then buy the tickets.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "discuss",
+          "sentence": "爸爸正在和老师商量孩子的事。",
+          "translation": "Dad is discussing the child's situation with the teacher.",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0471",
+      "rank": 471,
+      "lemma": "商人",
+      "meanings": [
+        {
+          "meaning_en": "businessman",
+          "priority": 1
+        },
+        {
+          "meaning_en": "businessperson",
+          "priority": 2
+        }
+      ],
+      "notes": "A person who does business.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "businessman",
+          "sentence": "那个商人在北京开公司。",
+          "translation": "That businessman runs a company in Beijing.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "businessperson",
+          "sentence": "爸爸认识很多外国商人。",
+          "translation": "Dad knows many foreign businesspeople.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "businessman",
+          "sentence": "这个商人常去国外工作。",
+          "translation": "This businessman often goes abroad for work.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0472",
+      "rank": 472,
+      "lemma": "上周",
+      "meanings": [
+        {
+          "meaning_en": "last week",
+          "priority": 1
+        }
+      ],
+      "notes": "Refers to the week before this one.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "last week",
+          "sentence": "上周我们全家去了海边。",
+          "translation": "Last week our whole family went to the seaside.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "last week",
+          "sentence": "妈妈上周买了新球鞋。",
+          "translation": "Mom bought new sneakers last week.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "last week",
+          "sentence": "上周气温很低，也下雨。",
+          "translation": "Last week the temperature was low, and it rained too.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0473",
+      "rank": 473,
+      "lemma": "少数",
+      "meanings": [
+        {
+          "meaning_en": "small number",
+          "priority": 1
+        },
+        {
+          "meaning_en": "few",
+          "priority": 2
+        },
+        {
+          "meaning_en": "minority",
+          "priority": 3
+        }
+      ],
+      "notes": "Used for a small number of people or things.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "few",
+          "sentence": "少数同学今天没来上课。",
+          "translation": "A few classmates didn't come to class today.",
+          "difficulty": 2
+        },
+        {
+          "slot": 2,
+          "meaning_en": "small number",
+          "sentence": "这个地方只有少数商店。",
+          "translation": "This place has only a small number of shops.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "minority",
+          "sentence": "少数人喜欢冬天去海边。",
+          "translation": "A minority of people like going to the seaside in winter.",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0474",
+      "rank": 474,
+      "lemma": "少年",
+      "meanings": [
+        {
+          "meaning_en": "young person",
+          "priority": 1
+        },
+        {
+          "meaning_en": "boy",
+          "priority": 2
+        }
+      ],
+      "notes": "Usually refers to a boy or young person.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "young person",
+          "sentence": "那个少年每天骑车上学。",
+          "translation": "That young boy rides a bike to school every day.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "boy",
+          "sentence": "很多少年喜欢打球。",
+          "translation": "Many boys like playing ball.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "young person",
+          "sentence": "这个故事写的是一个少年。",
+          "translation": "This story is about a young boy.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0475",
+      "rank": 475,
+      "lemma": "身边",
+      "meanings": [
+        {
+          "meaning_en": "by one's side",
+          "priority": 1
+        },
+        {
+          "meaning_en": "near one",
+          "priority": 2
+        }
+      ],
+      "notes": "Refers to the area close to a person.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "by one's side",
+          "sentence": "妈妈一直在我身边。",
+          "translation": "Mom has been by my side the whole time.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "near one",
+          "sentence": "身边有朋友，我不怕。",
+          "translation": "With friends near me, I'm not afraid.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "by one's side",
+          "sentence": "爸爸把手机放在身边。",
+          "translation": "Dad put his phone by his side.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0476",
+      "rank": 476,
+      "lemma": "什么样",
+      "meanings": [
+        {
+          "meaning_en": "what kind",
+          "priority": 1
+        },
+        {
+          "meaning_en": "what sort",
+          "priority": 2
+        }
+      ],
+      "notes": "Used to ask about the type or appearance of something.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "what kind",
+          "sentence": "你想买什么样的球鞋？",
+          "translation": "What kind of sneakers do you want to buy?",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "what sort",
+          "sentence": "这是什么样的活动？",
+          "translation": "What sort of activity is this?",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "what kind",
+          "sentence": "你喜欢住在什么样的地方？",
+          "translation": "What kind of place do you like to live in?",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0477",
+      "rank": 477,
+      "lemma": "生",
+      "meanings": [
+        {
+          "meaning_en": "give birth",
+          "priority": 1
+        },
+        {
+          "meaning_en": "be born",
+          "priority": 2
+        }
+      ],
+      "notes": "This verb is used for giving birth or being born.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "give birth",
+          "sentence": "妈妈前年生了一个女儿。",
+          "translation": "Mom gave birth to a daughter the year before last.",
+          "difficulty": 2
+        },
+        {
+          "slot": 2,
+          "meaning_en": "be born",
+          "sentence": "这个孩子在北京生的。",
+          "translation": "This child was born in Beijing.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "give birth",
+          "sentence": "她上个月生了一个儿子。",
+          "translation": "She gave birth to a son last month.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0478",
+      "rank": 478,
+      "lemma": "生词",
+      "meanings": [
+        {
+          "meaning_en": "new word",
+          "priority": 1
+        }
+      ],
+      "notes": "A word that a learner has not learned before.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "new word",
+          "sentence": "课文里有很多生词。",
+          "translation": "There are many new words in the text.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "new word",
+          "sentence": "老师叫我们写下生词。",
+          "translation": "The teacher told us to write down the new words.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "new word",
+          "sentence": "我今天记住了三个生词。",
+          "translation": "I remembered three new words today.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0479",
+      "rank": 479,
+      "lemma": "生活",
+      "meanings": [
+        {
+          "meaning_en": "life",
+          "priority": 1
+        },
+        {
+          "meaning_en": "live",
+          "priority": 2
+        }
+      ],
+      "notes": "Can mean life as a noun or living as a verb.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "life",
+          "sentence": "我很喜欢现在的生活。",
+          "translation": "I like my life now very much.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "live",
+          "sentence": "爸爸在北京生活了很多年。",
+          "translation": "Dad has lived in Beijing for many years.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "life",
+          "sentence": "国外生活不一定很容易。",
+          "translation": "Life abroad is not necessarily easy.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0480",
+      "rank": 480,
+      "lemma": "声音",
+      "meanings": [
+        {
+          "meaning_en": "sound",
+          "priority": 1
+        },
+        {
+          "meaning_en": "voice",
+          "priority": 2
+        }
+      ],
+      "notes": "Used for sounds in general or a person's voice.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "sound",
+          "sentence": "我听见外边有声音。",
+          "translation": "I heard a sound outside.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "voice",
+          "sentence": "妈妈的声音很好听。",
+          "translation": "Mom's voice sounds very pleasant.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "sound",
+          "sentence": "这个电视声音太大了。",
+          "translation": "The sound on this TV is too loud.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0481",
+      "rank": 481,
+      "lemma": "省",
+      "meanings": [
+        {
+          "meaning_en": "province",
+          "priority": 1
+        }
+      ],
+      "notes": "A province is a large regional area within a country.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "province",
+          "sentence": "中国有很多省。",
+          "translation": "China has many provinces.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "province",
+          "sentence": "这个省冬天不太冷。",
+          "translation": "This province is not very cold in winter.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "province",
+          "sentence": "姐姐想去别的省工作。",
+          "translation": "My older sister wants to work in another province.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0482",
+      "rank": 482,
+      "lemma": "省",
+      "meanings": [
+        {
+          "meaning_en": "save",
+          "priority": 1
+        },
+        {
+          "meaning_en": "economize",
+          "priority": 2
+        }
+      ],
+      "notes": "This verb means to save money, time, or effort.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "save",
+          "sentence": "坐地铁比打车省钱。",
+          "translation": "Taking the subway saves more money than taking a taxi.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "save",
+          "sentence": "这个办法能省时间。",
+          "translation": "This method can save time.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "economize",
+          "sentence": "妈妈买菜很会省钱。",
+          "translation": "Mom is very good at saving money when buying vegetables.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0483",
+      "rank": 483,
+      "lemma": "十分",
+      "meanings": [
+        {
+          "meaning_en": "very",
+          "priority": 1
+        },
+        {
+          "meaning_en": "extremely",
+          "priority": 2
+        }
+      ],
+      "notes": "A formal way to say very or extremely.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "very",
+          "sentence": "我今天十分高兴。",
+          "translation": "I am very happy today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "extremely",
+          "sentence": "这个地方十分安静。",
+          "translation": "This place is extremely quiet.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "very",
+          "sentence": "这本书十分好看。",
+          "translation": "This book is very enjoyable to read.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0484",
+      "rank": 484,
+      "lemma": "实际",
+      "meanings": [
+        {
+          "meaning_en": "actual",
+          "priority": 1
+        },
+        {
+          "meaning_en": "real",
+          "priority": 2
+        },
+        {
+          "meaning_en": "practical",
+          "priority": 3
+        }
+      ],
+      "notes": "Used for what is real in practice, not just in words or plans.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "actual",
+          "sentence": "计划听起来不错，实际很难。",
+          "translation": "The plan sounds good, but in reality it is hard.",
+          "difficulty": 2
+        },
+        {
+          "slot": 2,
+          "meaning_en": "practical",
+          "sentence": "我们先看实际人数，再找地方。",
+          "translation": "Let's look at the actual number of people first, and then find a place.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "real",
+          "sentence": "这个地方看着远，实际不远。",
+          "translation": "This place looks far, but it is not actually far.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0485",
+      "rank": 485,
+      "lemma": "实习",
+      "meanings": [
+        {
+          "meaning_en": "internship",
+          "priority": 1
+        },
+        {
+          "meaning_en": "do an internship",
+          "priority": 2
+        }
+      ],
+      "notes": "Used for internship work or the period of working as an intern.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "do an internship",
+          "sentence": "姐姐明年要去公司实习。",
+          "translation": "My older sister is going to do an internship at a company next year.",
+          "difficulty": 2
+        },
+        {
+          "slot": 2,
+          "meaning_en": "internship",
+          "sentence": "她在医院实习三个月。",
+          "translation": "She is doing an internship at the hospital for three months.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "do an internship",
+          "sentence": "实习的时候要认真学习。",
+          "translation": "You need to study seriously during an internship.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0486",
+      "rank": 486,
+      "lemma": "实现",
+      "meanings": [
+        {
+          "meaning_en": "realize",
+          "priority": 1
+        },
+        {
+          "meaning_en": "achieve",
+          "priority": 2
+        },
+        {
+          "meaning_en": "make come true",
+          "priority": 3
+        }
+      ],
+      "notes": "Used when a plan, wish, or goal becomes real.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "realize",
+          "sentence": "姐姐想实现去国外学习的计划。",
+          "translation": "My older sister wants to carry out her plan to study abroad.",
+          "difficulty": 2
+        },
+        {
+          "slot": 2,
+          "meaning_en": "achieve",
+          "sentence": "这个计划不容易实现。",
+          "translation": "This plan is not easy to achieve.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "make come true",
+          "sentence": "爸爸终于实现了全家回国的计划。",
+          "translation": "Dad finally made the whole family's plan to return to the country come true.",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0487",
+      "rank": 487,
+      "lemma": "实在",
+      "meanings": [
+        {
+          "meaning_en": "really",
+          "priority": 1
+        },
+        {
+          "meaning_en": "truly",
+          "priority": 2
+        }
+      ],
+      "notes": "Often used to mean really or truly in speech.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "really",
+          "sentence": "这个书包实在太重了。",
+          "translation": "This schoolbag is really too heavy.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "truly",
+          "sentence": "我今天实在不想出门。",
+          "translation": "I truly don't want to go out today.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "really",
+          "sentence": "这家饭馆的菜实在便宜。",
+          "translation": "The food at this restaurant is really cheap.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0488",
+      "rank": 488,
+      "lemma": "实在",
+      "meanings": [
+        {
+          "meaning_en": "honest",
+          "priority": 1
+        },
+        {
+          "meaning_en": "reliable",
+          "priority": 2
+        }
+      ],
+      "notes": "This use describes a person as honest, sincere, and dependable.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "honest",
+          "sentence": "他是个很实在的人。",
+          "translation": "He is a very honest and dependable person.",
+          "difficulty": 2
+        },
+        {
+          "slot": 2,
+          "meaning_en": "reliable",
+          "sentence": "爸爸觉得这个商人很实在。",
+          "translation": "Dad thinks this businessman is very reliable.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "honest",
+          "sentence": "这个年轻人说话很实在。",
+          "translation": "This young person speaks in a very sincere way.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0489",
+      "rank": 489,
+      "lemma": "食物",
+      "meanings": [
+        {
+          "meaning_en": "food",
+          "priority": 1
+        }
+      ],
+      "notes": "A general word for food.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "food",
+          "sentence": "这些食物都很好吃。",
+          "translation": "All this food tastes very good.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "food",
+          "sentence": "医生说这种食物不能多吃。",
+          "translation": "The doctor said this kind of food should not be eaten too much.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "food",
+          "sentence": "超市里有很多新食物。",
+          "translation": "There is a lot of new food in the supermarket.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0490",
+      "rank": 490,
+      "lemma": "使用",
+      "meanings": [
+        {
+          "meaning_en": "use",
+          "priority": 1
+        }
+      ],
+      "notes": "A common verb meaning to use something.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "use",
+          "sentence": "这台计算机大家都能使用。",
+          "translation": "Everyone can use this computer.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "use",
+          "sentence": "这个地图太旧，不能使用了。",
+          "translation": "This map is too old and can't be used anymore.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "use",
+          "sentence": "老师让我们先学会使用词典。",
+          "translation": "The teacher wants us to first learn how to use a dictionary.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0491",
+      "rank": 491,
+      "lemma": "市",
+      "meanings": [
+        {
+          "meaning_en": "city",
+          "priority": 1
+        }
+      ],
+      "notes": "Refers to a city-level place or administrative city.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "city",
+          "sentence": "这个市的人口不太多。",
+          "translation": "This city does not have a very large population.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "city",
+          "sentence": "我妈妈在这个市工作。",
+          "translation": "My mom works in this city.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "city",
+          "sentence": "从北京到这个市很远。",
+          "translation": "It is far from Beijing to this city.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0492",
+      "rank": 492,
+      "lemma": "市长",
+      "meanings": [
+        {
+          "meaning_en": "mayor",
+          "priority": 1
+        }
+      ],
+      "notes": "The leader of a city government.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "mayor",
+          "sentence": "这个市长常坐公交车上班。",
+          "translation": "This mayor often takes the bus to work.",
+          "difficulty": 2
+        },
+        {
+          "slot": 2,
+          "meaning_en": "mayor",
+          "sentence": "市长今天来到这个学校。",
+          "translation": "The mayor came to this school today.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "mayor",
+          "sentence": "很多人都认识这个市长。",
+          "translation": "Many people know this mayor.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0493",
+      "rank": 493,
+      "lemma": "事情",
+      "meanings": [
+        {
+          "meaning_en": "thing",
+          "priority": 1
+        },
+        {
+          "meaning_en": "matter",
+          "priority": 2
+        }
+      ],
+      "notes": "A common word for a thing, matter, or situation.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "matter",
+          "sentence": "这件事情我要先商量。",
+          "translation": "I need to discuss this matter first.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "thing",
+          "sentence": "事情太多，我有点儿忙。",
+          "translation": "There are too many things to handle, so I'm a little busy.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "matter",
+          "sentence": "这不是小事情，要认真办。",
+          "translation": "This is not a small matter, so it needs to be handled carefully.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0494",
+      "rank": 494,
+      "lemma": "收",
+      "meanings": [
+        {
+          "meaning_en": "collect",
+          "priority": 1
+        },
+        {
+          "meaning_en": "receive",
+          "priority": 2
+        },
+        {
+          "meaning_en": "put away",
+          "priority": 3
+        }
+      ],
+      "notes": "Often used for collecting, receiving, or putting things away.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "put away",
+          "sentence": "下雨前妈妈把衣服收了。",
+          "translation": "Mom took the clothes in before it rained.",
+          "difficulty": 2
+        },
+        {
+          "slot": 2,
+          "meaning_en": "collect",
+          "sentence": "老师已经收了我们的作业。",
+          "translation": "The teacher has already collected our homework.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "put away",
+          "sentence": "奶奶把桌上的杯子收了。",
+          "translation": "Grandma put away the cups on the table.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0495",
+      "rank": 495,
+      "lemma": "收到",
+      "meanings": [
+        {
+          "meaning_en": "receive",
+          "priority": 1
+        },
+        {
+          "meaning_en": "get",
+          "priority": 2
+        }
+      ],
+      "notes": "Used when something arrives and you receive it.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "receive",
+          "sentence": "我昨天收到了你的短信。",
+          "translation": "I received your text message yesterday.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "get",
+          "sentence": "妈妈已经收到机票了。",
+          "translation": "Mom has already gotten the plane tickets.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "receive",
+          "sentence": "姐姐今天收到一份日报。",
+          "translation": "My older sister received a daily newspaper today.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0496",
+      "rank": 496,
+      "lemma": "收入",
+      "meanings": [
+        {
+          "meaning_en": "income",
+          "priority": 1
+        }
+      ],
+      "notes": "The money a person or family earns.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "income",
+          "sentence": "爸爸现在收入不错。",
+          "translation": "Dad's income is pretty good now.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "income",
+          "sentence": "这个工作收入不太高。",
+          "translation": "This job's income is not very high.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "income",
+          "sentence": "他们家的收入比前年高。",
+          "translation": "Their family's income is higher than it was the year before last.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0497",
+      "rank": 497,
+      "lemma": "手表",
+      "meanings": [
+        {
+          "meaning_en": "watch",
+          "priority": 1
+        },
+        {
+          "meaning_en": "wristwatch",
+          "priority": 2
+        }
+      ],
+      "notes": "A watch worn on the wrist.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "watch",
+          "sentence": "这块手表是爸爸送给我的。",
+          "translation": "This watch was given to me by Dad.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "wristwatch",
+          "sentence": "我的手表昨天掉在地上了。",
+          "translation": "My wristwatch fell on the floor yesterday.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "watch",
+          "sentence": "商店里的手表不太便宜。",
+          "translation": "The watches in the shop are not very cheap.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0498",
+      "rank": 498,
+      "lemma": "受到",
+      "meanings": [
+        {
+          "meaning_en": "receive",
+          "priority": 1
+        },
+        {
+          "meaning_en": "get",
+          "priority": 2
+        },
+        {
+          "meaning_en": "be affected by",
+          "priority": 3
+        }
+      ],
+      "notes": "Used when someone receives help, welcome, or some effect from something.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "receive",
+          "sentence": "我在学校受到了很多帮助。",
+          "translation": "I received a lot of help at school.",
+          "difficulty": 2
+        },
+        {
+          "slot": 2,
+          "meaning_en": "get",
+          "sentence": "这个活动受到了大家欢迎。",
+          "translation": "This activity was welcomed by everyone.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "receive",
+          "sentence": "她在国外受到了热情欢迎。",
+          "translation": "She received a warm welcome abroad.",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0499",
+      "rank": 499,
+      "lemma": "舒服",
+      "meanings": [
+        {
+          "meaning_en": "comfortable",
+          "priority": 1
+        },
+        {
+          "meaning_en": "feel well",
+          "priority": 2
+        }
+      ],
+      "notes": "Can describe comfort or feeling physically well.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "comfortable",
+          "sentence": "这个房间很安静，住着很舒服。",
+          "translation": "This room is very quiet, and it is comfortable to live in.",
+          "difficulty": 2
+        },
+        {
+          "slot": 2,
+          "meaning_en": "feel well",
+          "sentence": "我今天有点儿不舒服，想回家。",
+          "translation": "I feel a little unwell today and want to go home.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "comfortable",
+          "sentence": "这双球鞋穿着很舒服。",
+          "translation": "These sneakers are very comfortable to wear.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0500",
+      "rank": 500,
+      "lemma": "熟",
+      "meanings": [
+        {
+          "meaning_en": "cooked",
+          "priority": 1
+        },
+        {
+          "meaning_en": "familiar",
+          "priority": 2
+        },
+        {
+          "meaning_en": "ripe",
+          "priority": 3
+        }
+      ],
+      "notes": "Can mean cooked, familiar, or ripe depending on context.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "cooked",
+          "sentence": "这肉还没熟，不能吃。",
+          "translation": "This meat is not cooked yet, so it can't be eaten.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "familiar",
+          "sentence": "这个地方我很熟。",
+          "translation": "I am very familiar with this place.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "familiar",
+          "sentence": "我跟那个医生不太熟。",
+          "translation": "I'm not very familiar with that doctor.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0501",
+      "rank": 501,
+      "lemma": "数",
+      "meanings": [
+        {
+          "meaning_en": "count",
+          "priority": 1
+        }
+      ],
+      "notes": "The verb for counting numbers or objects.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "count",
+          "sentence": "妈妈在数桌上的钱。",
+          "translation": "Mom is counting the money on the table.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "count",
+          "sentence": "老师叫我们从一数到十。",
+          "translation": "The teacher told us to count from one to ten.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "count",
+          "sentence": "我数了三回，还是不对。",
+          "translation": "I counted three times, and it still wasn't right.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0502",
+      "rank": 502,
+      "lemma": "数字",
+      "meanings": [
+        {
+          "meaning_en": "number",
+          "priority": 1
+        },
+        {
+          "meaning_en": "digit",
+          "priority": 2
+        }
+      ],
+      "notes": "Refers to written numbers or digits.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "digit",
+          "sentence": "这个数字我写错了。",
+          "translation": "I wrote this digit wrong.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "number",
+          "sentence": "这几个数字不太难记。",
+          "translation": "These few numbers are not too hard to remember.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "number",
+          "sentence": "孩子正在学数字。",
+          "translation": "The child is learning numbers.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0503",
+      "rank": 503,
+      "lemma": "水平",
+      "meanings": [
+        {
+          "meaning_en": "level",
+          "priority": 1
+        },
+        {
+          "meaning_en": "standard",
+          "priority": 2
+        }
+      ],
+      "notes": "Used for someone's level or standard in a skill.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "level",
+          "sentence": "这个班的中文水平不错。",
+          "translation": "The Chinese level of this class is pretty good.",
+          "difficulty": 2
+        },
+        {
+          "slot": 2,
+          "meaning_en": "level",
+          "sentence": "我的打球水平不高。",
+          "translation": "My level in ball games is not high.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "standard",
+          "sentence": "老师说姐姐的水平很好。",
+          "translation": "The teacher said my older sister's standard is very good.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0504",
+      "rank": 504,
+      "lemma": "顺利",
+      "meanings": [
+        {
+          "meaning_en": "smoothly",
+          "priority": 1
+        },
+        {
+          "meaning_en": "successful",
+          "priority": 2
+        }
+      ],
+      "notes": "Describes something going smoothly and without trouble.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "smoothly",
+          "sentence": "爸爸今天回国很顺利。",
+          "translation": "Dad's return to the country went very smoothly today.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "successful",
+          "sentence": "这次活动很顺利，大家都高兴。",
+          "translation": "This activity went successfully, and everyone was happy.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "smoothly",
+          "sentence": "飞机顺利起飞了。",
+          "translation": "The plane took off smoothly.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0505",
+      "rank": 505,
+      "lemma": "说明",
+      "meanings": [
+        {
+          "meaning_en": "explain",
+          "priority": 1
+        },
+        {
+          "meaning_en": "show",
+          "priority": 2
+        }
+      ],
+      "notes": "Used for explaining something or showing what something means.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "explain",
+          "sentence": "请你说明这件事情。",
+          "translation": "Please explain this matter.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "explain",
+          "sentence": "老师说明了这个生词的意思。",
+          "translation": "The teacher explained the meaning of this new word.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "show",
+          "sentence": "这张图说明得很清楚。",
+          "translation": "This picture explains things very clearly.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0506",
+      "rank": 506,
+      "lemma": "司机",
+      "meanings": [
+        {
+          "meaning_en": "driver",
+          "priority": 1
+        }
+      ],
+      "notes": "A person whose job is driving.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "driver",
+          "sentence": "这个司机开车很慢。",
+          "translation": "This driver drives very slowly.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "driver",
+          "sentence": "爸爸和司机商量了很久。",
+          "translation": "Dad talked with the driver for a long time.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "driver",
+          "sentence": "司机把我们送到车站。",
+          "translation": "The driver took us to the station.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0507",
+      "rank": 507,
+      "lemma": "送到",
+      "meanings": [
+        {
+          "meaning_en": "deliver to",
+          "priority": 1
+        },
+        {
+          "meaning_en": "take to",
+          "priority": 2
+        }
+      ],
+      "notes": "Used for taking or sending something to a place.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "deliver to",
+          "sentence": "请把这本词典送到办公室。",
+          "translation": "Please deliver this dictionary to the office.",
+          "difficulty": 2
+        },
+        {
+          "slot": 2,
+          "meaning_en": "take to",
+          "sentence": "爸爸把我送到地铁站。",
+          "translation": "Dad took me to the subway station.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "deliver to",
+          "sentence": "这份日报下午送到家里。",
+          "translation": "This daily newspaper is delivered to the house in the afternoon.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0508",
+      "rank": 508,
+      "lemma": "送给",
+      "meanings": [
+        {
+          "meaning_en": "give to",
+          "priority": 1
+        }
+      ],
+      "notes": "Used when giving something to someone.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "give to",
+          "sentence": "这块手表是姐姐送给我的。",
+          "translation": "This watch was given to me by my older sister.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "give to",
+          "sentence": "我想把花送给妈妈。",
+          "translation": "I want to give the flowers to Mom.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "give to",
+          "sentence": "爸爸送给我一本新词典。",
+          "translation": "Dad gave me a new dictionary.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0509",
+      "rank": 509,
+      "lemma": "算",
+      "meanings": [
+        {
+          "meaning_en": "calculate",
+          "priority": 1
+        },
+        {
+          "meaning_en": "count",
+          "priority": 2
+        },
+        {
+          "meaning_en": "consider as",
+          "priority": 3
+        }
+      ],
+      "notes": "Can mean calculate, count, or treat something as counting.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "calculate",
+          "sentence": "我算了一下儿，这个店更便宜。",
+          "translation": "I did a quick calculation, and this shop is cheaper.",
+          "difficulty": 2
+        },
+        {
+          "slot": 2,
+          "meaning_en": "count",
+          "sentence": "这个问题不太难，我会算。",
+          "translation": "This problem is not too hard; I can calculate it.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "consider as",
+          "sentence": "这次不算，我们再来一回。",
+          "translation": "This time doesn't count; let's do it once more.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0510",
+      "rank": 510,
+      "lemma": "虽然",
+      "meanings": [
+        {
+          "meaning_en": "although",
+          "priority": 1
+        },
+        {
+          "meaning_en": "though",
+          "priority": 2
+        }
+      ],
+      "notes": "Used to introduce a contrast in a sentence.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "although",
+          "sentence": "虽然下雨，我们还是去了。",
+          "translation": "Although it rained, we still went.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "though",
+          "sentence": "虽然这家店小，但是很热情。",
+          "translation": "Though this shop is small, it is very welcoming.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "although",
+          "sentence": "虽然东西不多，但是够吃。",
+          "translation": "Although there isn't much food, it is enough to eat.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0511",
+      "rank": 511,
+      "lemma": "随便",
+      "meanings": [
+        {
+          "meaning_en": "as one likes",
+          "priority": 1
+        },
+        {
+          "meaning_en": "casually",
+          "priority": 2
+        }
+      ],
+      "notes": "Often means do as you like, or not in a careful or serious way.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "as one likes",
+          "sentence": "你想坐哪儿都随便。",
+          "translation": "You can sit wherever you like.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "as one likes",
+          "sentence": "晚饭吃什么都随便。",
+          "translation": "Anything is fine for dinner.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "casually",
+          "sentence": "别人的东西不能随便拿。",
+          "translation": "You can't casually take other people's things.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0512",
+      "rank": 512,
+      "lemma": "随时",
+      "meanings": [
+        {
+          "meaning_en": "at any time",
+          "priority": 1
+        }
+      ],
+      "notes": "Means any time whenever needed.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "at any time",
+          "sentence": "你有问题可以随时问我。",
+          "translation": "If you have questions, you can ask me at any time.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "at any time",
+          "sentence": "爸爸随时都能打电话给我。",
+          "translation": "Dad can call me at any time.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "at any time",
+          "sentence": "这家店随时欢迎顾客。",
+          "translation": "This shop welcomes customers at any time.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0513",
+      "rank": 513,
+      "lemma": "所以",
+      "meanings": [
+        {
+          "meaning_en": "so",
+          "priority": 1
+        },
+        {
+          "meaning_en": "therefore",
+          "priority": 2
+        }
+      ],
+      "notes": "Used to give a result or conclusion.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "so",
+          "sentence": "今天下雨，所以我没骑车。",
+          "translation": "It is raining today, so I didn't ride my bike.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "therefore",
+          "sentence": "他很认真，所以写得很好。",
+          "translation": "He is very careful, so he writes very well.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "so",
+          "sentence": "我不舒服，所以想早点回家。",
+          "translation": "I don't feel well, so I want to go home early.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0514",
+      "rank": 514,
+      "lemma": "所有",
+      "meanings": [
+        {
+          "meaning_en": "all",
+          "priority": 1
+        },
+        {
+          "meaning_en": "all of",
+          "priority": 2
+        }
+      ],
+      "notes": "Refers to every one of a group or every part of something.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "all",
+          "sentence": "所有同学都看着老师。",
+          "translation": "All the students are looking at the teacher.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "all of",
+          "sentence": "我把所有东西都放进包里。",
+          "translation": "I put all the things into the bag.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "all",
+          "sentence": "所有问题都写在这儿了。",
+          "translation": "All the questions are written here.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0515",
+      "rank": 515,
+      "lemma": "它",
+      "meanings": [
+        {
+          "meaning_en": "it",
+          "priority": 1
+        }
+      ],
+      "notes": "The pronoun used for animals or things.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "it",
+          "sentence": "这只狗很可爱，我喜欢它。",
+          "translation": "This dog is very cute, and I like it.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "it",
+          "sentence": "这个瓶子没有水，别拿它。",
+          "translation": "This bottle has no water, so don't take it.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "it",
+          "sentence": "我的手表掉了，你看见它吗？",
+          "translation": "My watch fell down. Did you see it?",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0516",
+      "rank": 516,
+      "lemma": "它们",
+      "meanings": [
+        {
+          "meaning_en": "they",
+          "priority": 1
+        },
+        {
+          "meaning_en": "them",
+          "priority": 2
+        }
+      ],
+      "notes": "The pronoun used for animals or things in the plural.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "them",
+          "sentence": "这些花很好看，我想买它们。",
+          "translation": "These flowers are beautiful, and I want to buy them.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "they",
+          "sentence": "这几本词典都在这儿，它们是新的。",
+          "translation": "These dictionaries are all here, and they are new.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "they",
+          "sentence": "那些狗在外边，它们一直跑。",
+          "translation": "Those dogs are outside, and they keep running.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0517",
+      "rank": 517,
+      "lemma": "太太",
+      "meanings": [
+        {
+          "meaning_en": "Mrs.",
+          "priority": 1
+        },
+        {
+          "meaning_en": "madam",
+          "priority": 2
+        }
+      ],
+      "notes": "A polite way to address or refer to a married woman.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "madam",
+          "sentence": "这位太太在商店买花。",
+          "translation": "This lady is buying flowers at the shop.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "madam",
+          "sentence": "老师请那位太太先坐下。",
+          "translation": "The teacher asked that lady to sit down first.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "madam",
+          "sentence": "那位太太在地铁站等人。",
+          "translation": "That lady is waiting for someone at the subway station.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0518",
+      "rank": 518,
+      "lemma": "太阳",
+      "meanings": [
+        {
+          "meaning_en": "sun",
+          "priority": 1
+        }
+      ],
+      "notes": "The sun in the sky.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "sun",
+          "sentence": "今天太阳出来了，外边很热。",
+          "translation": "The sun came out today, and it is hot outside.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "sun",
+          "sentence": "太阳下山以后有点儿冷。",
+          "translation": "It gets a little cold after the sun goes down.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "sun",
+          "sentence": "冬天有太阳的时候很舒服。",
+          "translation": "It feels very comfortable when the sun is out in winter.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "word_id": "new-hsk-2-0519",
+      "rank": 519,
+      "lemma": "态度",
+      "meanings": [
+        {
+          "meaning_en": "attitude",
+          "priority": 1
+        }
+      ],
+      "notes": "Refers to the way someone thinks about or treats something.",
+      "examples": [
+        {
+          "slot": 1,
+          "meaning_en": "attitude",
+          "sentence": "老师说学习态度很重要。",
+          "translation": "The teacher says that study attitude is very important.",
+          "difficulty": 1
+        },
+        {
+          "slot": 2,
+          "meaning_en": "attitude",
+          "sentence": "他的态度很好，大家都喜欢。",
+          "translation": "His attitude is very good, and everyone likes him.",
+          "difficulty": 2
+        },
+        {
+          "slot": 3,
+          "meaning_en": "attitude",
+          "sentence": "妈妈对工作的态度很认真。",
+          "translation": "Mom has a very serious attitude toward work.",
+          "difficulty": 2
+        }
+      ]
+    }
+  ]
+}

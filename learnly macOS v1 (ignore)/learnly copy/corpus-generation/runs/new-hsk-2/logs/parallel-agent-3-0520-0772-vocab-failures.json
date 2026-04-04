@@ -1,0 +1,919 @@
+[
+  {
+    "line": 2,
+    "word_id": "new-hsk-2-0521",
+    "rank": 521,
+    "display_form": "套",
+    "error": "new-hsk-2-0521: sentence uses words outside allowed New HSK level set: 妈妈把套放在桌子上。"
+  },
+  {
+    "line": 5,
+    "word_id": "new-hsk-2-0524",
+    "rank": 524,
+    "display_form": "疼",
+    "error": "new-hsk-2-0524: sentence uses words outside allowed New HSK level set: 妈妈把疼放在桌子上。"
+  },
+  {
+    "line": 6,
+    "word_id": "new-hsk-2-0525",
+    "rank": 525,
+    "display_form": "提",
+    "error": "new-hsk-2-0525: sentence uses words outside allowed New HSK level set: 他提着一袋菜回家。"
+  },
+  {
+    "line": 9,
+    "word_id": "new-hsk-2-0528",
+    "rank": 528,
+    "display_form": "提高",
+    "error": "new-hsk-2-0528: sentence uses words outside allowed New HSK level set: 运动可以提高身体的力量。"
+  },
+  {
+    "line": 12,
+    "word_id": "new-hsk-2-0531",
+    "rank": 531,
+    "display_form": "体育场",
+    "error": "new-hsk-2-0531: sentence uses words outside allowed New HSK level set: 妈妈把体育场放在桌子上。"
+  },
+  {
+    "line": 13,
+    "word_id": "new-hsk-2-0532",
+    "rank": 532,
+    "display_form": "体育馆",
+    "error": "new-hsk-2-0532: sentence uses words outside allowed New HSK level set: 妈妈把体育馆放在桌子上。"
+  },
+  {
+    "line": 14,
+    "word_id": "new-hsk-2-0533",
+    "rank": 533,
+    "display_form": "天上",
+    "error": "new-hsk-2-0533: sentence uses words outside allowed New HSK level set: 妈妈把天上放在桌子上。"
+  },
+  {
+    "line": 15,
+    "word_id": "new-hsk-2-0534",
+    "rank": 534,
+    "display_form": "条",
+    "error": "new-hsk-2-0534: sentence uses words outside allowed New HSK level set: 妈妈把条放在桌子上。"
+  },
+  {
+    "line": 18,
+    "word_id": "new-hsk-2-0537",
+    "rank": 537,
+    "display_form": "听说",
+    "error": "new-hsk-2-0537: sentence uses words outside allowed New HSK level set: 老师听说这个消息了。"
+  },
+  {
+    "line": 21,
+    "word_id": "new-hsk-2-0540",
+    "rank": 540,
+    "display_form": "停车场",
+    "error": "new-hsk-2-0540: sentence uses words outside allowed New HSK level set: 妈妈把停车场放在桌子上。"
+  },
+  {
+    "line": 27,
+    "word_id": "new-hsk-2-0546",
+    "rank": 546,
+    "display_form": "同时",
+    "error": "new-hsk-2-0546: sentence uses words outside allowed New HSK level set: 我们同时开始。"
+  },
+  {
+    "line": 28,
+    "word_id": "new-hsk-2-0547",
+    "rank": 547,
+    "display_form": "同事",
+    "error": "new-hsk-2-0547: sentence uses words outside allowed New HSK level set: 妈妈把同事放在桌子上。"
+  },
+  {
+    "line": 29,
+    "word_id": "new-hsk-2-0548",
+    "rank": 548,
+    "display_form": "同样",
+    "error": "new-hsk-2-0548: sentence uses words outside allowed New HSK level set: 妈妈把同样放在桌子上。"
+  },
+  {
+    "line": 30,
+    "word_id": "new-hsk-2-0549",
+    "rank": 549,
+    "display_form": "头",
+    "error": "new-hsk-2-0549: sentence uses words outside allowed New HSK level set: 妈妈把头放在桌子上。"
+  },
+  {
+    "line": 31,
+    "word_id": "new-hsk-2-0550",
+    "rank": 550,
+    "display_form": "头",
+    "error": "new-hsk-2-0550: sentence uses words outside allowed New HSK level set: 妈妈把头放在桌子上。"
+  },
+  {
+    "line": 32,
+    "word_id": "new-hsk-2-0551",
+    "rank": 551,
+    "display_form": "头发",
+    "error": "new-hsk-2-0551: sentence uses words outside allowed New HSK level set: 妈妈把头发放在桌子上。"
+  },
+  {
+    "line": 33,
+    "word_id": "new-hsk-2-0552",
+    "rank": 552,
+    "display_form": "图片",
+    "error": "new-hsk-2-0552: sentence uses words outside allowed New HSK level set: 我看见这张图片。"
+  },
+  {
+    "line": 35,
+    "word_id": "new-hsk-2-0554",
+    "rank": 554,
+    "display_form": "腿",
+    "error": "new-hsk-2-0554: sentence uses words outside allowed New HSK level set: 妈妈把腿放在桌子上。"
+  },
+  {
+    "line": 36,
+    "word_id": "new-hsk-2-0555",
+    "rank": 555,
+    "display_form": "外地",
+    "error": "new-hsk-2-0555: sentence uses words outside allowed New HSK level set: 妈妈把外地放在桌子上。"
+  },
+  {
+    "line": 39,
+    "word_id": "new-hsk-2-0558",
+    "rank": 558,
+    "display_form": "完成",
+    "error": "new-hsk-2-0558: sentence uses words outside allowed New HSK level set: 我们要完成今天的任务。"
+  },
+  {
+    "line": 41,
+    "word_id": "new-hsk-2-0560",
+    "rank": 560,
+    "display_form": "晚安",
+    "error": "new-hsk-2-0560: sentence uses words outside allowed New HSK level set: 妈妈把晚安放在桌子上。"
+  },
+  {
+    "line": 45,
+    "word_id": "new-hsk-2-0564",
+    "rank": 564,
+    "display_form": "碗",
+    "error": "new-hsk-2-0564: sentence uses words outside allowed New HSK level set: 妈妈把碗放在桌子上。"
+  },
+  {
+    "line": 46,
+    "word_id": "new-hsk-2-0565",
+    "rank": 565,
+    "display_form": "万",
+    "error": "new-hsk-2-0565: sentence uses words outside allowed New HSK level set: 妈妈把万放在桌子上。"
+  },
+  {
+    "line": 47,
+    "word_id": "new-hsk-2-0566",
+    "rank": 566,
+    "display_form": "网",
+    "error": "new-hsk-2-0566: sentence uses words outside allowed New HSK level set: 妈妈把网放在桌子上。"
+  },
+  {
+    "line": 48,
+    "word_id": "new-hsk-2-0567",
+    "rank": 567,
+    "display_form": "网球",
+    "error": "new-hsk-2-0567: sentence uses words outside allowed New HSK level set: 妈妈把网球放在桌子上。"
+  },
+  {
+    "line": 49,
+    "word_id": "new-hsk-2-0568",
+    "rank": 568,
+    "display_form": "网站",
+    "error": "new-hsk-2-0568: sentence uses words outside allowed New HSK level set: 妈妈把网站放在桌子上。"
+  },
+  {
+    "line": 54,
+    "word_id": "new-hsk-2-0573",
+    "rank": 573,
+    "display_form": "味道",
+    "error": "new-hsk-2-0573: sentence uses words outside allowed New HSK level set: 妈妈把味道放在桌子上。"
+  },
+  {
+    "line": 57,
+    "word_id": "new-hsk-2-0576",
+    "rank": 576,
+    "display_form": "闻",
+    "error": "new-hsk-2-0576: sentence uses words outside allowed New HSK level set: 我闻到花香。"
+  },
+  {
+    "line": 58,
+    "word_id": "new-hsk-2-0577",
+    "rank": 577,
+    "display_form": "问路",
+    "error": "new-hsk-2-0577: sentence uses words outside allowed New HSK level set: 他向警察问路。"
+  },
+  {
+    "line": 61,
+    "word_id": "new-hsk-2-0580",
+    "rank": 580,
+    "display_form": "午睡",
+    "error": "new-hsk-2-0580: sentence uses words outside allowed New HSK level set: 妈妈把午睡放在桌子上。"
+  },
+  {
+    "line": 62,
+    "word_id": "new-hsk-2-0581",
+    "rank": 581,
+    "display_form": "西北",
+    "error": "new-hsk-2-0581: sentence uses words outside allowed New HSK level set: 妈妈把西北放在桌子上。"
+  },
+  {
+    "line": 63,
+    "word_id": "new-hsk-2-0582",
+    "rank": 582,
+    "display_form": "西餐",
+    "error": "new-hsk-2-0582: sentence uses words outside allowed New HSK level set: 妈妈把西餐放在桌子上。"
+  },
+  {
+    "line": 64,
+    "word_id": "new-hsk-2-0583",
+    "rank": 583,
+    "display_form": "西方",
+    "error": "new-hsk-2-0583: sentence uses words outside allowed New HSK level set: 妈妈把西方放在桌子上。"
+  },
+  {
+    "line": 65,
+    "word_id": "new-hsk-2-0584",
+    "rank": 584,
+    "display_form": "西南",
+    "error": "new-hsk-2-0584: sentence uses words outside allowed New HSK level set: 妈妈把西南放在桌子上。"
+  },
+  {
+    "line": 66,
+    "word_id": "new-hsk-2-0585",
+    "rank": 585,
+    "display_form": "西医",
+    "error": "new-hsk-2-0585: sentence uses words outside allowed New HSK level set: 妈妈把西医放在桌子上。"
+  },
+  {
+    "line": 68,
+    "word_id": "new-hsk-2-0587",
+    "rank": 587,
+    "display_form": "洗衣机",
+    "error": "new-hsk-2-0587: sentence uses words outside allowed New HSK level set: 妈妈把洗衣机放在桌子上。"
+  },
+  {
+    "line": 72,
+    "word_id": "new-hsk-2-0591",
+    "rank": 591,
+    "display_form": "下周",
+    "error": "new-hsk-2-0591: sentence uses words outside allowed New HSK level set: 妈妈把下周放在桌子上。"
+  },
+  {
+    "line": 73,
+    "word_id": "new-hsk-2-0592",
+    "rank": 592,
+    "display_form": "夏天",
+    "error": "new-hsk-2-0592: sentence uses words outside allowed New HSK level set: 妈妈把夏天放在桌子上。"
+  },
+  {
+    "line": 74,
+    "word_id": "new-hsk-2-0593",
+    "rank": 593,
+    "display_form": "相同",
+    "error": "new-hsk-2-0593: sentence uses words outside allowed New HSK level set: 妈妈把相同放在桌子上。"
+  },
+  {
+    "line": 76,
+    "word_id": "new-hsk-2-0595",
+    "rank": 595,
+    "display_form": "响",
+    "error": "new-hsk-2-0595: sentence uses words outside allowed New HSK level set: 妈妈把响放在桌子上。"
+  },
+  {
+    "line": 81,
+    "word_id": "new-hsk-2-0600",
+    "rank": 600,
+    "display_form": "相机",
+    "error": "new-hsk-2-0600: sentence uses words outside allowed New HSK level set: 妈妈把相机放在桌子上。"
+  },
+  {
+    "line": 82,
+    "word_id": "new-hsk-2-0601",
+    "rank": 601,
+    "display_form": "像",
+    "error": "new-hsk-2-0601: sentence uses words outside allowed New HSK level set: 这朵云像一只羊。"
+  },
+  {
+    "line": 83,
+    "word_id": "new-hsk-2-0602",
+    "rank": 602,
+    "display_form": "小",
+    "error": "new-hsk-2-0602: sentence uses words outside allowed New HSK level set: 妈妈把小放在桌子上。"
+  },
+  {
+    "line": 85,
+    "word_id": "new-hsk-2-0604",
+    "rank": 604,
+    "display_form": "小时候",
+    "error": "new-hsk-2-0604: sentence uses words outside allowed New HSK level set: 妈妈把小时候放在桌子上。"
+  },
+  {
+    "line": 86,
+    "word_id": "new-hsk-2-0605",
+    "rank": 605,
+    "display_form": "小说",
+    "error": "new-hsk-2-0605: sentence uses words outside allowed New HSK level set: 妈妈把小说放在桌子上。"
+  },
+  {
+    "line": 88,
+    "word_id": "new-hsk-2-0607",
+    "rank": 607,
+    "display_form": "小组",
+    "error": "new-hsk-2-0607: sentence uses words outside allowed New HSK level set: 妈妈把小组放在桌子上。"
+  },
+  {
+    "line": 92,
+    "word_id": "new-hsk-2-0611",
+    "rank": 611,
+    "display_form": "笑话儿",
+    "error": "new-hsk-2-0611: sentence uses words outside allowed New HSK level set: 妈妈把笑话儿放在桌子上。"
+  },
+  {
+    "line": 93,
+    "word_id": "new-hsk-2-0612",
+    "rank": 612,
+    "display_form": "鞋",
+    "error": "new-hsk-2-0612: sentence uses words outside allowed New HSK level set: 妈妈把鞋放在桌子上。"
+  },
+  {
+    "line": 96,
+    "word_id": "new-hsk-2-0615",
+    "rank": 615,
+    "display_form": "心中",
+    "error": "new-hsk-2-0615: sentence uses words outside allowed New HSK level set: 她心中有一个梦想。"
+  },
+  {
+    "line": 98,
+    "word_id": "new-hsk-2-0617",
+    "rank": 617,
+    "display_form": "信",
+    "error": "new-hsk-2-0617: sentence uses words outside allowed New HSK level set: 妈妈把信放在桌子上。"
+  },
+  {
+    "line": 102,
+    "word_id": "new-hsk-2-0621",
+    "rank": 621,
+    "display_form": "信用卡",
+    "error": "new-hsk-2-0621: sentence uses words outside allowed New HSK level set: 妈妈把信用卡放在桌子上。"
+  },
+  {
+    "line": 103,
+    "word_id": "new-hsk-2-0622",
+    "rank": 622,
+    "display_form": "星星",
+    "error": "new-hsk-2-0622: sentence uses words outside allowed New HSK level set: 天上有一颗星星。"
+  },
+  {
+    "line": 105,
+    "word_id": "new-hsk-2-0624",
+    "rank": 624,
+    "display_form": "行人",
+    "error": "new-hsk-2-0624: sentence uses words outside allowed New HSK level set: 妈妈把行人放在桌子上。"
+  },
+  {
+    "line": 107,
+    "word_id": "new-hsk-2-0626",
+    "rank": 626,
+    "display_form": "姓",
+    "error": "new-hsk-2-0626: sentence uses words outside allowed New HSK level set: 妈妈把姓放在桌子上。"
+  },
+  {
+    "line": 108,
+    "word_id": "new-hsk-2-0627",
+    "rank": 627,
+    "display_form": "姓名",
+    "error": "new-hsk-2-0627: sentence uses words outside allowed New HSK level set: 妈妈把姓名放在桌子上。"
+  },
+  {
+    "line": 110,
+    "word_id": "new-hsk-2-0629",
+    "rank": 629,
+    "display_form": "许多",
+    "error": "new-hsk-2-0629: sentence uses words outside allowed New HSK level set: 妈妈把许多放在桌子上。"
+  },
+  {
+    "line": 112,
+    "word_id": "new-hsk-2-0631",
+    "rank": 631,
+    "display_form": "学期",
+    "error": "new-hsk-2-0631: sentence uses words outside allowed New HSK level set: 学期快结束了。"
+  },
+  {
+    "line": 113,
+    "word_id": "new-hsk-2-0632",
+    "rank": 632,
+    "display_form": "雪",
+    "error": "new-hsk-2-0632: sentence uses words outside allowed New HSK level set: 妈妈把雪放在桌子上。"
+  },
+  {
+    "line": 115,
+    "word_id": "new-hsk-2-0634",
+    "rank": 634,
+    "display_form": "眼",
+    "error": "new-hsk-2-0634: sentence uses words outside allowed New HSK level set: 妈妈把眼放在桌子上。"
+  },
+  {
+    "line": 116,
+    "word_id": "new-hsk-2-0635",
+    "rank": 635,
+    "display_form": "眼睛",
+    "error": "new-hsk-2-0635: sentence uses words outside allowed New HSK level set: 妈妈把眼睛放在桌子上。"
+  },
+  {
+    "line": 117,
+    "word_id": "new-hsk-2-0636",
+    "rank": 636,
+    "display_form": "养",
+    "error": "new-hsk-2-0636: sentence uses words outside allowed New HSK level set: 妈妈把养放在桌子上。"
+  },
+  {
+    "line": 120,
+    "word_id": "new-hsk-2-0639",
+    "rank": 639,
+    "display_form": "药",
+    "error": "new-hsk-2-0639: sentence uses words outside allowed New HSK level set: 妈妈把药放在桌子上。"
+  },
+  {
+    "line": 123,
+    "word_id": "new-hsk-2-0642",
+    "rank": 642,
+    "display_form": "药水",
+    "error": "new-hsk-2-0642: sentence uses words outside allowed New HSK level set: 这个药水很苦。"
+  },
+  {
+    "line": 125,
+    "word_id": "new-hsk-2-0644",
+    "rank": 644,
+    "display_form": "夜",
+    "error": "new-hsk-2-0644: sentence uses words outside allowed New HSK level set: 妈妈把夜放在桌子上。"
+  },
+  {
+    "line": 126,
+    "word_id": "new-hsk-2-0645",
+    "rank": 645,
+    "display_form": "夜里",
+    "error": "new-hsk-2-0645: sentence uses words outside allowed New HSK level set: 妈妈把夜里放在桌子上。"
+  },
+  {
+    "line": 128,
+    "word_id": "new-hsk-2-0647",
+    "rank": 647,
+    "display_form": "一定",
+    "error": "new-hsk-2-0647: sentence uses words outside allowed New HSK level set: 这个答案一定对。"
+  },
+  {
+    "line": 131,
+    "word_id": "new-hsk-2-0650",
+    "rank": 650,
+    "display_form": "一路平安",
+    "error": "new-hsk-2-0650: sentence uses words outside allowed New HSK level set: 妈妈把一路平安放在桌子上。"
+  },
+  {
+    "line": 132,
+    "word_id": "new-hsk-2-0651",
+    "rank": 651,
+    "display_form": "一路顺风",
+    "error": "new-hsk-2-0651: sentence uses words outside allowed New HSK level set: 妈妈把一路顺风放在桌子上。"
+  },
+  {
+    "line": 136,
+    "word_id": "new-hsk-2-0655",
+    "rank": 655,
+    "display_form": "以上",
+    "error": "new-hsk-2-0655: sentence uses words outside allowed New HSK level set: 妈妈把以上放在桌子上。"
+  },
+  {
+    "line": 137,
+    "word_id": "new-hsk-2-0656",
+    "rank": 656,
+    "display_form": "以外",
+    "error": "new-hsk-2-0656: sentence uses words outside allowed New HSK level set: 妈妈把以外放在桌子上。"
+  },
+  {
+    "line": 138,
+    "word_id": "new-hsk-2-0657",
+    "rank": 657,
+    "display_form": "以为",
+    "error": "new-hsk-2-0657: sentence uses words outside allowed New HSK level set: 妈妈把以为放在桌子上。"
+  },
+  {
+    "line": 139,
+    "word_id": "new-hsk-2-0658",
+    "rank": 658,
+    "display_form": "以下",
+    "error": "new-hsk-2-0658: sentence uses words outside allowed New HSK level set: 妈妈把以下放在桌子上。"
+  },
+  {
+    "line": 140,
+    "word_id": "new-hsk-2-0659",
+    "rank": 659,
+    "display_form": "椅子",
+    "error": "new-hsk-2-0659: sentence uses words outside allowed New HSK level set: 这把椅子很舒服。"
+  },
+  {
+    "line": 141,
+    "word_id": "new-hsk-2-0660",
+    "rank": 660,
+    "display_form": "一般",
+    "error": "new-hsk-2-0660: sentence uses words outside allowed New HSK level set: 我一般早上跑步。"
+  },
+  {
+    "line": 143,
+    "word_id": "new-hsk-2-0662",
+    "rank": 662,
+    "display_form": "一生",
+    "error": "new-hsk-2-0662: sentence uses words outside allowed New HSK level set: 这是他一生的梦想。"
+  },
+  {
+    "line": 145,
+    "word_id": "new-hsk-2-0664",
+    "rank": 664,
+    "display_form": "亿",
+    "error": "new-hsk-2-0664: sentence uses words outside allowed New HSK level set: 妈妈把亿放在桌子上。"
+  },
+  {
+    "line": 149,
+    "word_id": "new-hsk-2-0668",
+    "rank": 668,
+    "display_form": "阴",
+    "error": "new-hsk-2-0668: sentence uses words outside allowed New HSK level set: 妈妈把阴放在桌子上。"
+  },
+  {
+    "line": 150,
+    "word_id": "new-hsk-2-0669",
+    "rank": 669,
+    "display_form": "阴天",
+    "error": "new-hsk-2-0669: sentence uses words outside allowed New HSK level set: 妈妈把阴天放在桌子上。"
+  },
+  {
+    "line": 151,
+    "word_id": "new-hsk-2-0670",
+    "rank": 670,
+    "display_form": "音节",
+    "error": "new-hsk-2-0670: sentence uses words outside allowed New HSK level set: 妈妈把音节放在桌子上。"
+  },
+  {
+    "line": 152,
+    "word_id": "new-hsk-2-0671",
+    "rank": 671,
+    "display_form": "音乐",
+    "error": "new-hsk-2-0671: sentence uses words outside allowed New HSK level set: 这首音乐很好听。"
+  },
+  {
+    "line": 153,
+    "word_id": "new-hsk-2-0672",
+    "rank": 672,
+    "display_form": "音乐会",
+    "error": "new-hsk-2-0672: sentence uses words outside allowed New HSK level set: 妈妈把音乐会放在桌子上。"
+  },
+  {
+    "line": 155,
+    "word_id": "new-hsk-2-0674",
+    "rank": 674,
+    "display_form": "银行卡",
+    "error": "new-hsk-2-0674: sentence uses words outside allowed New HSK level set: 这张银行卡是新的。"
+  },
+  {
+    "line": 156,
+    "word_id": "new-hsk-2-0675",
+    "rank": 675,
+    "display_form": "应该",
+    "error": "new-hsk-2-0675: sentence uses words outside allowed New HSK level set: 妈妈把应该放在桌子上。"
+  },
+  {
+    "line": 157,
+    "word_id": "new-hsk-2-0676",
+    "rank": 676,
+    "display_form": "英文",
+    "error": "new-hsk-2-0676: sentence uses words outside allowed New HSK level set: 妈妈把英文放在桌子上。"
+  },
+  {
+    "line": 158,
+    "word_id": "new-hsk-2-0677",
+    "rank": 677,
+    "display_form": "英语",
+    "error": "new-hsk-2-0677: sentence uses words outside allowed New HSK level set: 妈妈把英语放在桌子上。"
+  },
+  {
+    "line": 161,
+    "word_id": "new-hsk-2-0680",
+    "rank": 680,
+    "display_form": "永远",
+    "error": "new-hsk-2-0680: sentence uses words outside allowed New HSK level set: 妈妈把永远放在桌子上。"
+  },
+  {
+    "line": 162,
+    "word_id": "new-hsk-2-0681",
+    "rank": 681,
+    "display_form": "油",
+    "error": "new-hsk-2-0681: sentence uses words outside allowed New HSK level set: 妈妈把油放在桌子上。"
+  },
+  {
+    "line": 163,
+    "word_id": "new-hsk-2-0682",
+    "rank": 682,
+    "display_form": "游客",
+    "error": "new-hsk-2-0682: sentence uses words outside allowed New HSK level set: 游客在公园拍照。"
+  },
+  {
+    "line": 168,
+    "word_id": "new-hsk-2-0687",
+    "rank": 687,
+    "display_form": "有意思",
+    "error": "new-hsk-2-0687: sentence uses words outside allowed New HSK level set: 和你聊天很有意思。"
+  },
+  {
+    "line": 171,
+    "word_id": "new-hsk-2-0690",
+    "rank": 690,
+    "display_form": "语言",
+    "error": "new-hsk-2-0690: sentence uses words outside allowed New HSK level set: 汉语是一种语言。"
+  },
+  {
+    "line": 172,
+    "word_id": "new-hsk-2-0691",
+    "rank": 691,
+    "display_form": "原来",
+    "error": "new-hsk-2-0691: sentence uses words outside allowed New HSK level set: 妈妈把原来放在桌子上。"
+  },
+  {
+    "line": 173,
+    "word_id": "new-hsk-2-0692",
+    "rank": 692,
+    "display_form": "原因",
+    "error": "new-hsk-2-0692: sentence uses words outside allowed New HSK level set: 天气冷是原因之一。"
+  },
+  {
+    "line": 174,
+    "word_id": "new-hsk-2-0693",
+    "rank": 693,
+    "display_form": "院",
+    "error": "new-hsk-2-0693: sentence uses words outside allowed New HSK level set: 妈妈把院放在桌子上。"
+  },
+  {
+    "line": 176,
+    "word_id": "new-hsk-2-0695",
+    "rank": 695,
+    "display_form": "院子",
+    "error": "new-hsk-2-0695: sentence uses words outside allowed New HSK level set: 孩子在院子里玩。"
+  },
+  {
+    "line": 182,
+    "word_id": "new-hsk-2-0701",
+    "rank": 701,
+    "display_form": "云",
+    "error": "new-hsk-2-0701: sentence uses words outside allowed New HSK level set: 云挡住了太阳。"
+  },
+  {
+    "line": 183,
+    "word_id": "new-hsk-2-0702",
+    "rank": 702,
+    "display_form": "运动",
+    "error": "new-hsk-2-0702: sentence uses words outside allowed New HSK level set: 每天运动对身体好。"
+  },
+  {
+    "line": 184,
+    "word_id": "new-hsk-2-0703",
+    "rank": 703,
+    "display_form": "咱",
+    "error": "new-hsk-2-0703: sentence uses words outside allowed New HSK level set: 妈妈把咱放在桌子上。"
+  },
+  {
+    "line": 185,
+    "word_id": "new-hsk-2-0704",
+    "rank": 704,
+    "display_form": "咱们",
+    "error": "new-hsk-2-0704: sentence uses words outside allowed New HSK level set: 妈妈把咱们放在桌子上。"
+  },
+  {
+    "line": 186,
+    "word_id": "new-hsk-2-0705",
+    "rank": 705,
+    "display_form": "脏",
+    "error": "new-hsk-2-0705: sentence uses words outside allowed New HSK level set: 妈妈把脏放在桌子上。"
+  },
+  {
+    "line": 188,
+    "word_id": "new-hsk-2-0707",
+    "rank": 707,
+    "display_form": "早晨",
+    "error": "new-hsk-2-0707: sentence uses words outside allowed New HSK level set: 妈妈把早晨放在桌子上。"
+  },
+  {
+    "line": 192,
+    "word_id": "new-hsk-2-0711",
+    "rank": 711,
+    "display_form": "怎样",
+    "error": "new-hsk-2-0711: sentence uses words outside allowed New HSK level set: 我们怎样开始？"
+  },
+  {
+    "line": 193,
+    "word_id": "new-hsk-2-0712",
+    "rank": 712,
+    "display_form": "占",
+    "error": "new-hsk-2-0712: sentence uses words outside allowed New HSK level set: 妈妈把占放在桌子上。"
+  },
+  {
+    "line": 195,
+    "word_id": "new-hsk-2-0714",
+    "rank": 714,
+    "display_form": "站住",
+    "error": "new-hsk-2-0714: sentence uses words outside allowed New HSK level set: 警察让他站住。"
+  },
+  {
+    "line": 198,
+    "word_id": "new-hsk-2-0717",
+    "rank": 717,
+    "display_form": "找出",
+    "error": "new-hsk-2-0717: sentence uses words outside allowed New HSK level set: 请找出答案。"
+  },
+  {
+    "line": 200,
+    "word_id": "new-hsk-2-0719",
+    "rank": 719,
+    "display_form": "照片",
+    "error": "new-hsk-2-0719: sentence uses words outside allowed New HSK level set: 我看见这张照片。"
+  },
+  {
+    "line": 205,
+    "word_id": "new-hsk-2-0724",
+    "rank": 724,
+    "display_form": "真正",
+    "error": "new-hsk-2-0724: sentence uses words outside allowed New HSK level set: 我想要真正的答案。"
+  },
+  {
+    "line": 206,
+    "word_id": "new-hsk-2-0725",
+    "rank": 725,
+    "display_form": "正常",
+    "error": "new-hsk-2-0725: sentence uses words outside allowed New HSK level set: 今天一切正常。"
+  },
+  {
+    "line": 208,
+    "word_id": "new-hsk-2-0727",
+    "rank": 727,
+    "display_form": "正确",
+    "error": "new-hsk-2-0727: sentence uses words outside allowed New HSK level set: 你的答案正确。"
+  },
+  {
+    "line": 214,
+    "word_id": "new-hsk-2-0733",
+    "rank": 733,
+    "display_form": "纸",
+    "error": "new-hsk-2-0733: sentence uses words outside allowed New HSK level set: 妈妈把纸放在桌子上。"
+  },
+  {
+    "line": 215,
+    "word_id": "new-hsk-2-0734",
+    "rank": 734,
+    "display_form": "中餐",
+    "error": "new-hsk-2-0734: sentence uses words outside allowed New HSK level set: 妈妈把中餐放在桌子上。"
+  },
+  {
+    "line": 216,
+    "word_id": "new-hsk-2-0735",
+    "rank": 735,
+    "display_form": "中级",
+    "error": "new-hsk-2-0735: sentence uses words outside allowed New HSK level set: 妈妈把中级放在桌子上。"
+  },
+  {
+    "line": 217,
+    "word_id": "new-hsk-2-0736",
+    "rank": 736,
+    "display_form": "中年",
+    "error": "new-hsk-2-0736: sentence uses words outside allowed New HSK level set: 妈妈把中年放在桌子上。"
+  },
+  {
+    "line": 218,
+    "word_id": "new-hsk-2-0737",
+    "rank": 737,
+    "display_form": "中小学",
+    "error": "new-hsk-2-0737: sentence uses words outside allowed New HSK level set: 妈妈把中小学放在桌子上。"
+  },
+  {
+    "line": 219,
+    "word_id": "new-hsk-2-0738",
+    "rank": 738,
+    "display_form": "中心",
+    "error": "new-hsk-2-0738: sentence uses words outside allowed New HSK level set: 妈妈把中心放在桌子上。"
+  },
+  {
+    "line": 220,
+    "word_id": "new-hsk-2-0739",
+    "rank": 739,
+    "display_form": "中医",
+    "error": "new-hsk-2-0739: sentence uses words outside allowed New HSK level set: 妈妈把中医放在桌子上。"
+  },
+  {
+    "line": 221,
+    "word_id": "new-hsk-2-0740",
+    "rank": 740,
+    "display_form": "重点",
+    "error": "new-hsk-2-0740: sentence uses words outside allowed New HSK level set: 妈妈把重点放在桌子上。"
+  },
+  {
+    "line": 225,
+    "word_id": "new-hsk-2-0744",
+    "rank": 744,
+    "display_form": "周年",
+    "error": "new-hsk-2-0744: sentence uses words outside allowed New HSK level set: 妈妈把周年放在桌子上。"
+  },
+  {
+    "line": 226,
+    "word_id": "new-hsk-2-0745",
+    "rank": 745,
+    "display_form": "主人",
+    "error": "new-hsk-2-0745: sentence uses words outside allowed New HSK level set: 妈妈把主人放在桌子上。"
+  },
+  {
+    "line": 228,
+    "word_id": "new-hsk-2-0747",
+    "rank": 747,
+    "display_form": "住房",
+    "error": "new-hsk-2-0747: sentence uses words outside allowed New HSK level set: 妈妈把住房放在桌子上。"
+  },
+  {
+    "line": 231,
+    "word_id": "new-hsk-2-0750",
+    "rank": 750,
+    "display_form": "准确",
+    "error": "new-hsk-2-0750: sentence uses words outside allowed New HSK level set: 你的答案很准确。"
+  },
+  {
+    "line": 236,
+    "word_id": "new-hsk-2-0755",
+    "rank": 755,
+    "display_form": "走过",
+    "error": "new-hsk-2-0755: sentence uses words outside allowed New HSK level set: 妈妈把走过放在桌子上。"
+  },
+  {
+    "line": 237,
+    "word_id": "new-hsk-2-0756",
+    "rank": 756,
+    "display_form": "走进",
+    "error": "new-hsk-2-0756: sentence uses words outside allowed New HSK level set: 妈妈把走进放在桌子上。"
+  },
+  {
+    "line": 240,
+    "word_id": "new-hsk-2-0759",
+    "rank": 759,
+    "display_form": "组",
+    "error": "new-hsk-2-0759: sentence uses words outside allowed New HSK level set: 妈妈把组放在桌子上。"
+  },
+  {
+    "line": 242,
+    "word_id": "new-hsk-2-0761",
+    "rank": 761,
+    "display_form": "组长",
+    "error": "new-hsk-2-0761: sentence uses words outside allowed New HSK level set: 妈妈把组长放在桌子上。"
+  },
+  {
+    "line": 243,
+    "word_id": "new-hsk-2-0762",
+    "rank": 762,
+    "display_form": "嘴",
+    "error": "new-hsk-2-0762: sentence uses words outside allowed New HSK level set: 妈妈把嘴放在桌子上。"
+  },
+  {
+    "line": 245,
+    "word_id": "new-hsk-2-0764",
+    "rank": 764,
+    "display_form": "作家",
+    "error": "new-hsk-2-0764: sentence uses words outside allowed New HSK level set: 妈妈把作家放在桌子上。"
+  },
+  {
+    "line": 246,
+    "word_id": "new-hsk-2-0765",
+    "rank": 765,
+    "display_form": "作文",
+    "error": "new-hsk-2-0765: sentence uses words outside allowed New HSK level set: 妈妈把作文放在桌子上。"
+  },
+  {
+    "line": 247,
+    "word_id": "new-hsk-2-0766",
+    "rank": 766,
+    "display_form": "作业",
+    "error": "new-hsk-2-0766: sentence uses words outside allowed New HSK level set: 妈妈把作业放在桌子上。"
+  },
+  {
+    "line": 249,
+    "word_id": "new-hsk-2-0768",
+    "rank": 768,
+    "display_form": "座",
+    "error": "new-hsk-2-0768: sentence uses words outside allowed New HSK level set: 妈妈把座放在桌子上。"
+  },
+  {
+    "line": 250,
+    "word_id": "new-hsk-2-0769",
+    "rank": 769,
+    "display_form": "座位",
+    "error": "new-hsk-2-0769: sentence uses words outside allowed New HSK level set: 妈妈把座位放在桌子上。"
+  },
+  {
+    "line": 252,
+    "word_id": "new-hsk-2-0771",
+    "rank": 771,
+    "display_form": "做法",
+    "error": "new-hsk-2-0771: sentence uses words outside allowed New HSK level set: 妈妈把做法放在桌子上。"
+  }
+]

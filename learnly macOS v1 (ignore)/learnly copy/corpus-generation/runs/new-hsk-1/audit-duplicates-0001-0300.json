@@ -1,0 +1,839 @@
+[
+  {
+    "word_id": "new-hsk-1-0018",
+    "rank": 18,
+    "lemma": "杯子",
+    "primary_gloss": "cup",
+    "pronunciation": "bēi zi",
+    "existing_examples": [
+      {
+        "id": "new-hsk-1-0018-ex1",
+        "sentence": "桌子上有一个杯子。",
+        "translation": "There is a cup on the table.",
+        "meaning_en": "cup"
+      },
+      {
+        "id": "new-hsk-1-0018-ex2",
+        "sentence": "妈妈买了两个白杯子。",
+        "translation": "Mom bought two white cups.",
+        "meaning_en": "cup"
+      },
+      {
+        "id": "new-hsk-1-0018-ex3",
+        "sentence": "桌子上有一个杯子。",
+        "translation": "There is a cup on the table.",
+        "meaning_en": "cup"
+      }
+    ]
+  },
+  {
+    "word_id": "new-hsk-1-0020",
+    "rank": 20,
+    "lemma": "北边",
+    "primary_gloss": "north side",
+    "pronunciation": "běi biān",
+    "existing_examples": [
+      {
+        "id": "new-hsk-1-0020-ex1",
+        "sentence": "学校北边有一个商店。",
+        "translation": "There is a shop on the north side of the school.",
+        "meaning_en": "north side"
+      },
+      {
+        "id": "new-hsk-1-0020-ex2",
+        "sentence": "我家在学校北边。",
+        "translation": "My home is north of the school.",
+        "meaning_en": "north side"
+      },
+      {
+        "id": "new-hsk-1-0020-ex3",
+        "sentence": "学校北边有一个商店。",
+        "translation": "There is a shop on the north side of the school.",
+        "meaning_en": "north side"
+      }
+    ]
+  },
+  {
+    "word_id": "new-hsk-1-0055",
+    "rank": 55,
+    "lemma": "错",
+    "primary_gloss": "wrong",
+    "pronunciation": "cuò",
+    "existing_examples": [
+      {
+        "id": "new-hsk-1-0055-ex1",
+        "sentence": "这个字写错了。",
+        "translation": "This character was written wrong.",
+        "meaning_en": "wrong"
+      },
+      {
+        "id": "new-hsk-1-0055-ex2",
+        "sentence": "我说错了，对不起。",
+        "translation": "I said it wrong. Sorry.",
+        "meaning_en": "mistaken"
+      },
+      {
+        "id": "new-hsk-1-0055-ex3",
+        "sentence": "这个字写错了。",
+        "translation": "This character was written wrong.",
+        "meaning_en": "wrong"
+      }
+    ]
+  },
+  {
+    "word_id": "new-hsk-1-0061",
+    "rank": 61,
+    "lemma": "大",
+    "primary_gloss": "big",
+    "pronunciation": "dà",
+    "existing_examples": [
+      {
+        "id": "new-hsk-1-0061-ex1",
+        "sentence": "这个房间很大，很干净。",
+        "translation": "This room is big and very clean.",
+        "meaning_en": "big"
+      },
+      {
+        "id": "new-hsk-1-0061-ex2",
+        "sentence": "爸爸的包比我的大。",
+        "translation": "Dad's bag is larger than mine.",
+        "meaning_en": "large"
+      },
+      {
+        "id": "new-hsk-1-0061-ex3",
+        "sentence": "这个房间很大，很干净。",
+        "translation": "This room is big and very clean.",
+        "meaning_en": "big"
+      }
+    ]
+  },
+  {
+    "word_id": "new-hsk-1-0085",
+    "rank": 85,
+    "lemma": "东边",
+    "primary_gloss": "east",
+    "pronunciation": "dōng biān",
+    "existing_examples": [
+      {
+        "id": "new-hsk-1-0085-ex1",
+        "sentence": "学校东边有一个商店。",
+        "translation": "There is a shop on the east side of the school.",
+        "meaning_en": "east side"
+      },
+      {
+        "id": "new-hsk-1-0085-ex2",
+        "sentence": "我家也在大学东边。",
+        "translation": "My home is also east of the university.",
+        "meaning_en": "east"
+      },
+      {
+        "id": "new-hsk-1-0085-ex3",
+        "sentence": "学校东边有一个商店。",
+        "translation": "There is a shop on the east side of the school.",
+        "meaning_en": "east side"
+      }
+    ]
+  },
+  {
+    "word_id": "new-hsk-1-0098",
+    "rank": 98,
+    "lemma": "二",
+    "primary_gloss": "two",
+    "pronunciation": "èr",
+    "existing_examples": [
+      {
+        "id": "new-hsk-1-0098-ex1",
+        "sentence": "今天是二月二号。",
+        "translation": "Today is February second.",
+        "meaning_en": "two"
+      },
+      {
+        "id": "new-hsk-1-0098-ex2",
+        "sentence": "二楼有一个饭店。",
+        "translation": "There is a restaurant on the second floor.",
+        "meaning_en": "two"
+      },
+      {
+        "id": "new-hsk-1-0098-ex3",
+        "sentence": "今天是二月二日。",
+        "translation": "Today is February second.",
+        "meaning_en": "two"
+      }
+    ]
+  },
+  {
+    "word_id": "new-hsk-1-0100",
+    "rank": 100,
+    "lemma": "饭店",
+    "primary_gloss": "restaurant",
+    "pronunciation": "fàndiàn",
+    "existing_examples": [
+      {
+        "id": "new-hsk-1-0100-ex1",
+        "sentence": "这家饭店的菜很好吃。",
+        "translation": "The food at this restaurant is very tasty.",
+        "meaning_en": "restaurant"
+      },
+      {
+        "id": "new-hsk-1-0100-ex2",
+        "sentence": "我们晚上去饭店吃饭。",
+        "translation": "We're going to a restaurant for dinner tonight.",
+        "meaning_en": "restaurant"
+      },
+      {
+        "id": "new-hsk-1-0100-ex3",
+        "sentence": "我们晚上去饭店吃饭。",
+        "translation": "We're going to a restaurant for dinner tonight.",
+        "meaning_en": "restaurant"
+      }
+    ]
+  },
+  {
+    "word_id": "new-hsk-1-0106",
+    "rank": 106,
+    "lemma": "飞",
+    "primary_gloss": "fly",
+    "pronunciation": "fēi",
+    "existing_examples": [
+      {
+        "id": "new-hsk-1-0106-ex1",
+        "sentence": "飞机飞到北京了。",
+        "translation": "The plane flew to Beijing.",
+        "meaning_en": "fly"
+      },
+      {
+        "id": "new-hsk-1-0106-ex2",
+        "sentence": "那个球飞出来了。",
+        "translation": "That ball flew out.",
+        "meaning_en": "fly"
+      },
+      {
+        "id": "new-hsk-1-0106-ex3",
+        "sentence": "飞机飞到北京了。",
+        "translation": "The plane flew to Beijing.",
+        "meaning_en": "fly"
+      }
+    ]
+  },
+  {
+    "word_id": "new-hsk-1-0117",
+    "rank": 117,
+    "lemma": "告诉",
+    "primary_gloss": "tell",
+    "pronunciation": "gàosu",
+    "existing_examples": [
+      {
+        "id": "new-hsk-1-0117-ex1",
+        "sentence": "妈妈告诉我明天放假。",
+        "translation": "Mom told me that tomorrow is a holiday.",
+        "meaning_en": "tell"
+      },
+      {
+        "id": "new-hsk-1-0117-ex2",
+        "sentence": "请你告诉我地点。",
+        "translation": "Please tell me the location.",
+        "meaning_en": "tell"
+      },
+      {
+        "id": "new-hsk-1-0117-ex3",
+        "sentence": "请你告诉我地点。",
+        "translation": "Please tell me the location.",
+        "meaning_en": "tell"
+      }
+    ]
+  },
+  {
+    "word_id": "new-hsk-1-0133",
+    "rank": 133,
+    "lemma": "还是",
+    "primary_gloss": "still",
+    "pronunciation": "háishi",
+    "existing_examples": [
+      {
+        "id": "new-hsk-1-0133-ex1",
+        "sentence": "现在还是很冷。",
+        "translation": "It is still very cold now.",
+        "meaning_en": "still"
+      },
+      {
+        "id": "new-hsk-1-0133-ex2",
+        "sentence": "你喝茶还是喝水？",
+        "translation": "Do you drink tea or water?",
+        "meaning_en": "or"
+      },
+      {
+        "id": "new-hsk-1-0133-ex3",
+        "sentence": "你喝茶还是水？",
+        "translation": "Do you drink tea or water?",
+        "meaning_en": "or"
+      }
+    ]
+  },
+  {
+    "word_id": "new-hsk-1-0135",
+    "rank": 135,
+    "lemma": "孩子",
+    "primary_gloss": "child",
+    "pronunciation": "háizi",
+    "existing_examples": [
+      {
+        "id": "new-hsk-1-0135-ex1",
+        "sentence": "那个孩子在路上跑。",
+        "translation": "That child is running on the road.",
+        "meaning_en": "child"
+      },
+      {
+        "id": "new-hsk-1-0135-ex2",
+        "sentence": "这个孩子很喜欢花。",
+        "translation": "This kid really likes flowers.",
+        "meaning_en": "kid"
+      },
+      {
+        "id": "new-hsk-1-0135-ex3",
+        "sentence": "那个孩子在路上跑。",
+        "translation": "That child is running on the road.",
+        "meaning_en": "child"
+      }
+    ]
+  },
+  {
+    "word_id": "new-hsk-1-0139",
+    "rank": 139,
+    "lemma": "好吃",
+    "primary_gloss": "delicious",
+    "pronunciation": "hǎochī",
+    "existing_examples": [
+      {
+        "id": "new-hsk-1-0139-ex1",
+        "sentence": "这个包子很好吃。",
+        "translation": "This bun is delicious.",
+        "meaning_en": "delicious"
+      },
+      {
+        "id": "new-hsk-1-0139-ex2",
+        "sentence": "妈妈做的菜真好吃。",
+        "translation": "The food Mom made is really tasty.",
+        "meaning_en": "tasty"
+      },
+      {
+        "id": "new-hsk-1-0139-ex3",
+        "sentence": "这个包子很好吃。",
+        "translation": "This bun is delicious.",
+        "meaning_en": "delicious"
+      }
+    ]
+  },
+  {
+    "word_id": "new-hsk-1-0140",
+    "rank": 140,
+    "lemma": "好看",
+    "primary_gloss": "good-looking",
+    "pronunciation": "hǎo kàn",
+    "existing_examples": [
+      {
+        "id": "new-hsk-1-0140-ex1",
+        "sentence": "姐姐今天很好看。",
+        "translation": "My older sister looks good today.",
+        "meaning_en": "good-looking"
+      },
+      {
+        "id": "new-hsk-1-0140-ex2",
+        "sentence": "这个电影很好看。",
+        "translation": "This movie is very good to watch.",
+        "meaning_en": "good to watch"
+      },
+      {
+        "id": "new-hsk-1-0140-ex3",
+        "sentence": "这个电影很好看。",
+        "translation": "This movie is very good.",
+        "meaning_en": "good to watch"
+      }
+    ]
+  },
+  {
+    "word_id": "new-hsk-1-0148",
+    "rank": 148,
+    "lemma": "后边",
+    "primary_gloss": "behind",
+    "pronunciation": "hòu biān",
+    "existing_examples": [
+      {
+        "id": "new-hsk-1-0148-ex1",
+        "sentence": "学校后边有一个商店。",
+        "translation": "There is a shop behind the school.",
+        "meaning_en": "behind"
+      },
+      {
+        "id": "new-hsk-1-0148-ex2",
+        "sentence": "我坐在爸爸后边。",
+        "translation": "I sit in back of Dad.",
+        "meaning_en": "in back of"
+      },
+      {
+        "id": "new-hsk-1-0148-ex3",
+        "sentence": "学校后边有一个商店。",
+        "translation": "There is a shop behind the school.",
+        "meaning_en": "behind"
+      }
+    ]
+  },
+  {
+    "word_id": "new-hsk-1-0151",
+    "rank": 151,
+    "lemma": "话",
+    "primary_gloss": "words",
+    "pronunciation": "huà",
+    "existing_examples": [
+      {
+        "id": "new-hsk-1-0151-ex1",
+        "sentence": "老师的话，我记住了。",
+        "translation": "I remembered what the teacher said.",
+        "meaning_en": "speech"
+      },
+      {
+        "id": "new-hsk-1-0151-ex2",
+        "sentence": "这些话我都记住了。",
+        "translation": "I remembered all these words.",
+        "meaning_en": "words"
+      },
+      {
+        "id": "new-hsk-1-0151-ex3",
+        "sentence": "老师的话，我记住了。",
+        "translation": "I remembered the teacher's words.",
+        "meaning_en": "words"
+      }
+    ]
+  },
+  {
+    "word_id": "new-hsk-1-0155",
+    "rank": 155,
+    "lemma": "回答",
+    "primary_gloss": "answer",
+    "pronunciation": "huídá",
+    "existing_examples": [
+      {
+        "id": "new-hsk-1-0155-ex1",
+        "sentence": "老师问我，我回答了。",
+        "translation": "The teacher asked me, and I answered.",
+        "meaning_en": "answer"
+      },
+      {
+        "id": "new-hsk-1-0155-ex2",
+        "sentence": "他没有回答我的话。",
+        "translation": "He didn't reply to what I said.",
+        "meaning_en": "reply"
+      },
+      {
+        "id": "new-hsk-1-0155-ex3",
+        "sentence": "老师问我，我回答了。",
+        "translation": "The teacher asked me, and I answered.",
+        "meaning_en": "answer"
+      }
+    ]
+  },
+  {
+    "word_id": "new-hsk-1-0159",
+    "rank": 159,
+    "lemma": "回去",
+    "primary_gloss": "go back",
+    "pronunciation": "huí qù",
+    "existing_examples": [
+      {
+        "id": "new-hsk-1-0159-ex1",
+        "sentence": "太晚了，我们回去吧。",
+        "translation": "It's too late, let's go back.",
+        "meaning_en": "go back"
+      },
+      {
+        "id": "new-hsk-1-0159-ex2",
+        "sentence": "下课后我回去看妈妈。",
+        "translation": "After class, I'll go back to see Mom.",
+        "meaning_en": "go back there"
+      },
+      {
+        "id": "new-hsk-1-0159-ex3",
+        "sentence": "太晚了，我们回去吧。",
+        "translation": "It's too late, let's go back.",
+        "meaning_en": "go back"
+      }
+    ]
+  },
+  {
+    "word_id": "new-hsk-1-0171",
+    "rank": 171,
+    "lemma": "家人",
+    "primary_gloss": "family",
+    "pronunciation": "jiā rén",
+    "existing_examples": [
+      {
+        "id": "new-hsk-1-0171-ex1",
+        "sentence": "我的家人都在北京。",
+        "translation": "My family is all in Beijing.",
+        "meaning_en": "family"
+      },
+      {
+        "id": "new-hsk-1-0171-ex2",
+        "sentence": "家人一起吃饭很高兴。",
+        "translation": "It's very nice when the family eats together.",
+        "meaning_en": "family members"
+      },
+      {
+        "id": "new-hsk-1-0171-ex3",
+        "sentence": "我的家人都在北京。",
+        "translation": "My family is all in Beijing.",
+        "meaning_en": "family"
+      }
+    ]
+  },
+  {
+    "word_id": "new-hsk-1-0176",
+    "rank": 176,
+    "lemma": "叫",
+    "primary_gloss": "be called",
+    "pronunciation": "jiào",
+    "existing_examples": [
+      {
+        "id": "new-hsk-1-0176-ex1",
+        "sentence": "这个国家叫中国，对吗？",
+        "translation": "This country is called China, right?",
+        "meaning_en": "be called"
+      },
+      {
+        "id": "new-hsk-1-0176-ex2",
+        "sentence": "妈妈叫我回家吃饭。",
+        "translation": "Mom calls me to come home and eat.",
+        "meaning_en": "call"
+      },
+      {
+        "id": "new-hsk-1-0176-ex3",
+        "sentence": "妈妈叫我回家吃饭。",
+        "translation": "Mom calls me home for dinner.",
+        "meaning_en": "call"
+      }
+    ]
+  },
+  {
+    "word_id": "new-hsk-1-0186",
+    "rank": 186,
+    "lemma": "就",
+    "primary_gloss": "then",
+    "pronunciation": "jiù",
+    "existing_examples": [
+      {
+        "id": "new-hsk-1-0186-ex1",
+        "sentence": "下课后我就回家。",
+        "translation": "After class, I then go home.",
+        "meaning_en": "then"
+      },
+      {
+        "id": "new-hsk-1-0186-ex2",
+        "sentence": "我到家就给妈妈打电话。",
+        "translation": "As soon as I get home, I call Mom.",
+        "meaning_en": "as soon as"
+      },
+      {
+        "id": "new-hsk-1-0186-ex3",
+        "sentence": "下课后我就回家。",
+        "translation": "After class, I go straight home.",
+        "meaning_en": "then"
+      }
+    ]
+  },
+  {
+    "word_id": "new-hsk-1-0193",
+    "rank": 193,
+    "lemma": "看病",
+    "primary_gloss": "see a doctor",
+    "pronunciation": "kàn bìng",
+    "existing_examples": [
+      {
+        "id": "new-hsk-1-0193-ex1",
+        "sentence": "妈妈今天去医院看病。",
+        "translation": "Mom is going to the hospital to see a doctor today.",
+        "meaning_en": "see a doctor"
+      },
+      {
+        "id": "new-hsk-1-0193-ex2",
+        "sentence": "弟弟生病了，要看病。",
+        "translation": "My younger brother is sick and needs to see a doctor.",
+        "meaning_en": "see a doctor"
+      },
+      {
+        "id": "new-hsk-1-0193-ex3",
+        "sentence": "妈妈今天去医院看病。",
+        "translation": "Mom is going to the hospital to see a doctor today.",
+        "meaning_en": "see a doctor"
+      }
+    ]
+  },
+  {
+    "word_id": "new-hsk-1-0199",
+    "rank": 199,
+    "lemma": "课",
+    "primary_gloss": "class",
+    "pronunciation": "kè",
+    "existing_examples": [
+      {
+        "id": "new-hsk-1-0199-ex1",
+        "sentence": "我们下午有汉语课。",
+        "translation": "We have Chinese class in the afternoon.",
+        "meaning_en": "class"
+      },
+      {
+        "id": "new-hsk-1-0199-ex2",
+        "sentence": "老师今天的课很好。",
+        "translation": "The teacher's lesson today is very good.",
+        "meaning_en": "lesson"
+      },
+      {
+        "id": "new-hsk-1-0199-ex3",
+        "sentence": "我们下午有汉语课。",
+        "translation": "We have Chinese class this afternoon.",
+        "meaning_en": "class"
+      }
+    ]
+  },
+  {
+    "word_id": "new-hsk-1-0200",
+    "rank": 200,
+    "lemma": "课本",
+    "primary_gloss": "textbook",
+    "pronunciation": "kè běn",
+    "existing_examples": [
+      {
+        "id": "new-hsk-1-0200-ex1",
+        "sentence": "我的课本在书包里。",
+        "translation": "My textbook is in my schoolbag.",
+        "meaning_en": "textbook"
+      },
+      {
+        "id": "new-hsk-1-0200-ex2",
+        "sentence": "姐姐买了两本课本。",
+        "translation": "My older sister bought two textbooks.",
+        "meaning_en": "textbook"
+      },
+      {
+        "id": "new-hsk-1-0200-ex3",
+        "sentence": "我的课本在书包里。",
+        "translation": "My textbook is in my schoolbag.",
+        "meaning_en": "textbook"
+      }
+    ]
+  },
+  {
+    "word_id": "new-hsk-1-0209",
+    "rank": 209,
+    "lemma": "老师",
+    "primary_gloss": "teacher",
+    "pronunciation": "lǎoshī",
+    "existing_examples": [
+      {
+        "id": "new-hsk-1-0209-ex1",
+        "sentence": "老师今天在教学楼上课。",
+        "translation": "The teacher is teaching in the classroom building today.",
+        "meaning_en": "teacher"
+      },
+      {
+        "id": "new-hsk-1-0209-ex2",
+        "sentence": "我很喜欢我们的老师。",
+        "translation": "I like our teacher very much.",
+        "meaning_en": "teacher"
+      },
+      {
+        "id": "new-hsk-1-0209-ex3",
+        "sentence": "今天老师在教学楼上课。",
+        "translation": "The teacher is teaching in the classroom building today.",
+        "meaning_en": "teacher"
+      }
+    ]
+  },
+  {
+    "word_id": "new-hsk-1-0212",
+    "rank": 212,
+    "lemma": "冷",
+    "primary_gloss": "cold",
+    "pronunciation": "lěng",
+    "existing_examples": [
+      {
+        "id": "new-hsk-1-0212-ex1",
+        "sentence": "今天很冷，你多穿一点儿。",
+        "translation": "It's very cold today, so wear a little more.",
+        "meaning_en": "cold"
+      },
+      {
+        "id": "new-hsk-1-0212-ex2",
+        "sentence": "外边很冷，别出去。",
+        "translation": "It's cold outside, so don't go out.",
+        "meaning_en": "cold"
+      },
+      {
+        "id": "new-hsk-1-0212-ex3",
+        "sentence": "外边很冷，别出去。",
+        "translation": "It's very cold outside, so don't go out.",
+        "meaning_en": "cold"
+      }
+    ]
+  },
+  {
+    "word_id": "new-hsk-1-0213",
+    "rank": 213,
+    "lemma": "里",
+    "primary_gloss": "in",
+    "pronunciation": "lǐ",
+    "existing_examples": [
+      {
+        "id": "new-hsk-1-0213-ex1",
+        "sentence": "书包里有两本书。",
+        "translation": "There are two books in the schoolbag.",
+        "meaning_en": "in"
+      },
+      {
+        "id": "new-hsk-1-0213-ex2",
+        "sentence": "我在房间里看书。",
+        "translation": "I'm reading inside the room.",
+        "meaning_en": "inside"
+      },
+      {
+        "id": "new-hsk-1-0213-ex3",
+        "sentence": "书包里有两本书。",
+        "translation": "There are two books in the schoolbag.",
+        "meaning_en": "in"
+      }
+    ]
+  },
+  {
+    "word_id": "new-hsk-1-0216",
+    "rank": 216,
+    "lemma": "零",
+    "primary_gloss": "zero",
+    "pronunciation": "líng",
+    "existing_examples": [
+      {
+        "id": "new-hsk-1-0216-ex1",
+        "sentence": "现在九点零五分。",
+        "translation": "It's 9:05 now.",
+        "meaning_en": "zero"
+      },
+      {
+        "id": "new-hsk-1-0216-ex2",
+        "sentence": "这个是零，不是六。",
+        "translation": "This is zero, not six.",
+        "meaning_en": "zero"
+      },
+      {
+        "id": "new-hsk-1-0216-ex3",
+        "sentence": "现在九点零五分。",
+        "translation": "It is 9:05 now.",
+        "meaning_en": "zero"
+      }
+    ]
+  },
+  {
+    "word_id": "new-hsk-1-0218",
+    "rank": 218,
+    "lemma": "楼",
+    "primary_gloss": "floor",
+    "pronunciation": "lóu",
+    "existing_examples": [
+      {
+        "id": "new-hsk-1-0218-ex1",
+        "sentence": "我在六楼上课。",
+        "translation": "I have class on the sixth floor.",
+        "meaning_en": "floor"
+      },
+      {
+        "id": "new-hsk-1-0218-ex2",
+        "sentence": "我家在二楼。",
+        "translation": "My home is on the second floor.",
+        "meaning_en": "floor"
+      },
+      {
+        "id": "new-hsk-1-0218-ex3",
+        "sentence": "我在六楼上课。",
+        "translation": "I have class on the sixth floor.",
+        "meaning_en": "floor"
+      }
+    ]
+  },
+  {
+    "word_id": "new-hsk-1-0219",
+    "rank": 219,
+    "lemma": "楼上",
+    "primary_gloss": "upstairs",
+    "pronunciation": "lóu shàng",
+    "existing_examples": [
+      {
+        "id": "new-hsk-1-0219-ex1",
+        "sentence": "姐姐在楼上看书。",
+        "translation": "My older sister is reading upstairs.",
+        "meaning_en": "upstairs"
+      },
+      {
+        "id": "new-hsk-1-0219-ex2",
+        "sentence": "楼上有人在开会。",
+        "translation": "Someone is having a meeting upstairs.",
+        "meaning_en": "upstairs"
+      },
+      {
+        "id": "new-hsk-1-0219-ex3",
+        "sentence": "姐姐在楼上看书。",
+        "translation": "My older sister is reading upstairs.",
+        "meaning_en": "upstairs"
+      }
+    ]
+  },
+  {
+    "word_id": "new-hsk-1-0222",
+    "rank": 222,
+    "lemma": "路口",
+    "primary_gloss": "intersection",
+    "pronunciation": "lù kǒu",
+    "existing_examples": [
+      {
+        "id": "new-hsk-1-0222-ex1",
+        "sentence": "我们在路口见面吧。",
+        "translation": "Let's meet at the intersection.",
+        "meaning_en": "intersection"
+      },
+      {
+        "id": "new-hsk-1-0222-ex2",
+        "sentence": "那个路口在学校东边。",
+        "translation": "That intersection is on the east side of the school.",
+        "meaning_en": "intersection"
+      },
+      {
+        "id": "new-hsk-1-0222-ex3",
+        "sentence": "我们在路口见面吧。",
+        "translation": "Let's meet at the intersection.",
+        "meaning_en": "intersection"
+      }
+    ]
+  },
+  {
+    "word_id": "new-hsk-1-0251",
+    "rank": 251,
+    "lemma": "哪里",
+    "primary_gloss": "where",
+    "pronunciation": "nǎ lǐ",
+    "existing_examples": [
+      {
+        "id": "new-hsk-1-0251-ex1",
+        "sentence": "你的书包放在哪里？",
+        "translation": "Where did you put your schoolbag?",
+        "meaning_en": "where"
+      },
+      {
+        "id": "new-hsk-1-0251-ex2",
+        "sentence": "你们想去哪里吃饭？",
+        "translation": "Where do you want to eat?",
+        "meaning_en": "where"
+      },
+      {
+        "id": "new-hsk-1-0251-ex3",
+        "sentence": "你的书包放在哪里了？",
+        "translation": "Where did you put your schoolbag?",
+        "meaning_en": "where"
+      }
+    ]
+  }
+]

@@ -1,0 +1,55 @@
+{
+  "word": {
+    "id": "new-hsk-1-0003",
+    "lang": "zh",
+    "lemma": "八",
+    "display_form": "八",
+    "pos": "numeral",
+    "rank": 3,
+    "pronunciation": "bā"
+  },
+  "glosses": {
+    "primary_gloss": "eight",
+    "secondary_glosses": [
+      "8"
+    ],
+    "notes": "Basic number eight. It often appears with classifiers such as `八个...` and in time expressions like `八点`."
+  },
+  "examples": [
+    {
+      "id": "new-hsk-1-0003-ex1",
+      "sentence": "桌上有八个红苹果。",
+      "difficulty": 1,
+      "source": "generator-3",
+      "is_primary": true
+    },
+    {
+      "id": "new-hsk-1-0003-ex2",
+      "sentence": "桌上放着八个红苹果。",
+      "difficulty": 2,
+      "source": "generator-5",
+      "is_primary": false
+    },
+    {
+      "id": "new-hsk-1-0003-ex3",
+      "sentence": "桌上摆着八个苹果。",
+      "difficulty": 2,
+      "source": "generator-1",
+      "is_primary": false
+    }
+  ],
+  "example_translations": [
+    {
+      "example_id": "new-hsk-1-0003-ex1",
+      "translation": "There are eight red apples on the table."
+    },
+    {
+      "example_id": "new-hsk-1-0003-ex2",
+      "translation": "Eight red apples are sitting on the table."
+    },
+    {
+      "example_id": "new-hsk-1-0003-ex3",
+      "translation": "Eight apples are laid out on the table."
+    }
+  ]
+}

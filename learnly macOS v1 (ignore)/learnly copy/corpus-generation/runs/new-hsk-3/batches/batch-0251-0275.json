@@ -1,0 +1,346 @@
+[
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0251",
+    "rank": 251,
+    "display_form": "功课",
+    "lemma": "功课",
+    "generation_form": "功课",
+    "pronunciation": "gōng kè homework;",
+    "pos": "unknown",
+    "primary_gloss": "schoolwork",
+    "secondary_glosses": [
+      "classwork"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0252",
+    "rank": 252,
+    "display_form": "功能",
+    "lemma": "功能",
+    "generation_form": "功能",
+    "pronunciation": "gōngnéng",
+    "pos": "unknown",
+    "primary_gloss": "function",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0253",
+    "rank": 253,
+    "display_form": "共同",
+    "lemma": "共同",
+    "generation_form": "共同",
+    "pronunciation": "gòngtóng",
+    "pos": "unknown",
+    "primary_gloss": "common",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0254",
+    "rank": 254,
+    "display_form": "共有",
+    "lemma": "共有",
+    "generation_form": "共有",
+    "pronunciation": "gòng yǒu have",
+    "pos": "unknown",
+    "primary_gloss": "altogether",
+    "secondary_glosses": [
+      "share",
+      "owned by all"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0255",
+    "rank": 255,
+    "display_form": "姑娘",
+    "lemma": "姑娘",
+    "generation_form": "姑娘",
+    "pronunciation": "gūniang",
+    "pos": "unknown",
+    "primary_gloss": "girl",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0256",
+    "rank": 256,
+    "display_form": "古",
+    "lemma": "古",
+    "generation_form": "古",
+    "pronunciation": "gǔ",
+    "pos": "unknown",
+    "primary_gloss": "ancient",
+    "secondary_glosses": [
+      "old"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0257",
+    "rank": 257,
+    "display_form": "古代",
+    "lemma": "古代",
+    "generation_form": "古代",
+    "pronunciation": "gǔdài",
+    "pos": "unknown",
+    "primary_gloss": "Ancient",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0258",
+    "rank": 258,
+    "display_form": "故乡",
+    "lemma": "故乡",
+    "generation_form": "故乡",
+    "pronunciation": "gùxiāng",
+    "pos": "unknown",
+    "primary_gloss": "Hometown",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0259",
+    "rank": 259,
+    "display_form": "挂",
+    "lemma": "挂",
+    "generation_form": "挂",
+    "pronunciation": "guà",
+    "pos": "unknown",
+    "primary_gloss": "hang",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0260",
+    "rank": 260,
+    "display_form": "关系",
+    "lemma": "关系",
+    "generation_form": "关系",
+    "pronunciation": "guānxì",
+    "pos": "unknown",
+    "primary_gloss": "relationship",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0261",
+    "rank": 261,
+    "display_form": "关注",
+    "lemma": "关注",
+    "generation_form": "关注",
+    "pronunciation": "guān zhù attention;",
+    "pos": "unknown",
+    "primary_gloss": "follow with interest",
+    "secondary_glosses": [
+      "pay close attention",
+      "show solicitude for"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0262",
+    "rank": 262,
+    "display_form": "观察",
+    "lemma": "观察",
+    "generation_form": "观察",
+    "pronunciation": "guānchá",
+    "pos": "unknown",
+    "primary_gloss": "observation",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0263",
+    "rank": 263,
+    "display_form": "观看",
+    "lemma": "观看",
+    "generation_form": "观看",
+    "pronunciation": "guān kàn",
+    "pos": "unknown",
+    "primary_gloss": "watch",
+    "secondary_glosses": [
+      "view"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0264",
+    "rank": 264,
+    "display_form": "观念",
+    "lemma": "观念",
+    "generation_form": "观念",
+    "pronunciation": "guānniàn",
+    "pos": "unknown",
+    "primary_gloss": "concept",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0265",
+    "rank": 265,
+    "display_form": "观众",
+    "lemma": "观众",
+    "generation_form": "观众",
+    "pronunciation": "guānzhòng",
+    "pos": "unknown",
+    "primary_gloss": "Audience",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0266",
+    "rank": 266,
+    "display_form": "管",
+    "lemma": "管",
+    "generation_form": "管",
+    "pronunciation": "guǎn control;",
+    "pos": "unknown",
+    "primary_gloss": "be in charge of",
+    "secondary_glosses": [
+      "manage",
+      "run"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0267",
+    "rank": 267,
+    "display_form": "管理",
+    "lemma": "管理",
+    "generation_form": "管理",
+    "pronunciation": "guǎnlǐ",
+    "pos": "unknown",
+    "primary_gloss": "Administration",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0268",
+    "rank": 268,
+    "display_form": "光",
+    "lemma": "光",
+    "generation_form": "光",
+    "pronunciation": "guāng",
+    "pos": "unknown",
+    "primary_gloss": "light",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0269",
+    "rank": 269,
+    "display_form": "光明",
+    "lemma": "光明",
+    "generation_form": "光明",
+    "pronunciation": "guāngmíng",
+    "pos": "unknown",
+    "primary_gloss": "light",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0270",
+    "rank": 270,
+    "display_form": "广播",
+    "lemma": "广播",
+    "generation_form": "广播",
+    "pronunciation": "guǎngbō",
+    "pos": "unknown",
+    "primary_gloss": "Radio broadcast",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0271",
+    "rank": 271,
+    "display_form": "广大",
+    "lemma": "广大",
+    "generation_form": "广大",
+    "pronunciation": "guǎngdà",
+    "pos": "unknown",
+    "primary_gloss": "Vast",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0272",
+    "rank": 272,
+    "display_form": "规定",
+    "lemma": "规定",
+    "generation_form": "规定",
+    "pronunciation": "guīdìng",
+    "pos": "unknown",
+    "primary_gloss": "Regulations",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0273",
+    "rank": 273,
+    "display_form": "规范",
+    "lemma": "规范",
+    "generation_form": "规范",
+    "pronunciation": "guīfàn",
+    "pos": "unknown",
+    "primary_gloss": "criterion",
+    "secondary_glosses": [
+      "rule"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0274",
+    "rank": 274,
+    "display_form": "国内",
+    "lemma": "国内",
+    "generation_form": "国内",
+    "pronunciation": "guó nèi",
+    "pos": "unknown",
+    "primary_gloss": "domestic",
+    "secondary_glosses": [
+      "internal"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0275",
+    "rank": 275,
+    "display_form": "国庆",
+    "lemma": "国庆",
+    "generation_form": "国庆",
+    "pronunciation": "guó qìng",
+    "pos": "unknown",
+    "primary_gloss": "National Day",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  }
+]

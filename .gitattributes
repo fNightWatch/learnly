@@ -1,2 +1,26 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+*.ts text eol=lf
+*.tsx text eol=lf
+*.js text eol=lf
+*.jsx text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.css text eol=lf
+*.sql text eol=lf
+*.sh text eol=lf
+*.py text eol=lf
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+
+# Treat binary assets explicitly so archive transfers and line-ending tools
+# never try to normalize them.
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.pdf binary
+*.m4a binary
+*.mp3 binary
+*.sqlite binary
+*.sqlite-shm binary
+*.sqlite-wal binary

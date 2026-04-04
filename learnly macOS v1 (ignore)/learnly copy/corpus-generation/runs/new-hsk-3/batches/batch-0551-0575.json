@@ -1,0 +1,354 @@
+[
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0551",
+    "rank": 551,
+    "display_form": "前后",
+    "lemma": "前后",
+    "generation_form": "前后",
+    "pronunciation": "qián hòu",
+    "pos": "unknown",
+    "primary_gloss": "front and back",
+    "secondary_glosses": [
+      "from start to finish",
+      "around"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0552",
+    "rank": 552,
+    "display_form": "前进",
+    "lemma": "前进",
+    "generation_form": "前进",
+    "pronunciation": "qián jìn",
+    "pos": "unknown",
+    "primary_gloss": "advance",
+    "secondary_glosses": [
+      "go forward",
+      "march"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0553",
+    "rank": 553,
+    "display_form": "前面",
+    "lemma": "前面",
+    "generation_form": "前面",
+    "pronunciation": "qiánmiàn",
+    "pos": "unknown",
+    "primary_gloss": "Front",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0554",
+    "rank": 554,
+    "display_form": "前往",
+    "lemma": "前往",
+    "generation_form": "前往",
+    "pronunciation": "qián wǎng",
+    "pos": "unknown",
+    "primary_gloss": "go to",
+    "secondary_glosses": [
+      "leave for",
+      "proceed"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0555",
+    "rank": 555,
+    "display_form": "强",
+    "lemma": "强",
+    "generation_form": "强",
+    "pronunciation": "qiáng",
+    "pos": "unknown",
+    "primary_gloss": "strong",
+    "secondary_glosses": [
+      "powerful",
+      "better"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0556",
+    "rank": 556,
+    "display_form": "强大",
+    "lemma": "强大",
+    "generation_form": "强大",
+    "pronunciation": "qiáng dà",
+    "pos": "unknown",
+    "primary_gloss": "powerful",
+    "secondary_glosses": [
+      "formidable",
+      "strong"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0557",
+    "rank": 557,
+    "display_form": "强调",
+    "lemma": "强调",
+    "generation_form": "强调",
+    "pronunciation": "qiángdiào",
+    "pos": "unknown",
+    "primary_gloss": "Emphasize",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0558",
+    "rank": 558,
+    "display_form": "强烈",
+    "lemma": "强烈",
+    "generation_form": "强烈",
+    "pronunciation": "qiángliè",
+    "pos": "unknown",
+    "primary_gloss": "strong",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0559",
+    "rank": 559,
+    "display_form": "桥",
+    "lemma": "桥",
+    "generation_form": "桥",
+    "pronunciation": "qiáo",
+    "pos": "unknown",
+    "primary_gloss": "Bridge",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0560",
+    "rank": 560,
+    "display_form": "巧",
+    "lemma": "巧",
+    "generation_form": "巧",
+    "pronunciation": "qiǎo",
+    "pos": "unknown",
+    "primary_gloss": "opportunely",
+    "secondary_glosses": [
+      "skilful",
+      "deceitful"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0561",
+    "rank": 561,
+    "display_form": "亲",
+    "lemma": "亲",
+    "generation_form": "亲",
+    "pronunciation": "qīn",
+    "pos": "unknown",
+    "primary_gloss": "dear",
+    "secondary_glosses": [
+      "close",
+      "intimate",
+      "relative"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0562",
+    "rank": 562,
+    "display_form": "亲切",
+    "lemma": "亲切",
+    "generation_form": "亲切",
+    "pronunciation": "qīnqiè",
+    "pos": "unknown",
+    "primary_gloss": "kind",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0563",
+    "rank": 563,
+    "display_form": "亲人",
+    "lemma": "亲人",
+    "generation_form": "亲人",
+    "pronunciation": "qīn rén",
+    "pos": "unknown",
+    "primary_gloss": "relative",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0564",
+    "rank": 564,
+    "display_form": "亲自",
+    "lemma": "亲自",
+    "generation_form": "亲自",
+    "pronunciation": "qīnzì",
+    "pos": "unknown",
+    "primary_gloss": "personally",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0565",
+    "rank": 565,
+    "display_form": "情感",
+    "lemma": "情感",
+    "generation_form": "情感",
+    "pronunciation": "qíng gǎn",
+    "pos": "unknown",
+    "primary_gloss": "feeling",
+    "secondary_glosses": [
+      "emotion"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0566",
+    "rank": 566,
+    "display_form": "情况",
+    "lemma": "情况",
+    "generation_form": "情况",
+    "pronunciation": "qíngkuàng",
+    "pos": "unknown",
+    "primary_gloss": "Situation",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0567",
+    "rank": 567,
+    "display_form": "请教",
+    "lemma": "请教",
+    "generation_form": "请教",
+    "pronunciation": "qǐngjiào",
+    "pos": "unknown",
+    "primary_gloss": "Consult",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0568",
+    "rank": 568,
+    "display_form": "庆祝",
+    "lemma": "庆祝",
+    "generation_form": "庆祝",
+    "pronunciation": "qìngzhù",
+    "pos": "unknown",
+    "primary_gloss": "Celebrate",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0569",
+    "rank": 569,
+    "display_form": "球迷",
+    "lemma": "球迷",
+    "generation_form": "球迷",
+    "pronunciation": "qiúmí",
+    "pos": "unknown",
+    "primary_gloss": "fans (ball game)",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0570",
+    "rank": 570,
+    "display_form": "区",
+    "lemma": "区",
+    "generation_form": "区",
+    "pronunciation": "qū",
+    "pos": "unknown",
+    "primary_gloss": "area",
+    "secondary_glosses": [
+      "district",
+      "region"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0571",
+    "rank": 571,
+    "display_form": "区别",
+    "lemma": "区别",
+    "generation_form": "区别",
+    "pronunciation": "qūbié",
+    "pos": "unknown",
+    "primary_gloss": "Difference",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0572",
+    "rank": 572,
+    "display_form": "取消",
+    "lemma": "取消",
+    "generation_form": "取消",
+    "pronunciation": "qǔxiāo",
+    "pos": "unknown",
+    "primary_gloss": "cancel",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0573",
+    "rank": 573,
+    "display_form": "去世",
+    "lemma": "去世",
+    "generation_form": "去世",
+    "pronunciation": "qùshì",
+    "pos": "unknown",
+    "primary_gloss": "Death",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0574",
+    "rank": 574,
+    "display_form": "全场",
+    "lemma": "全场",
+    "generation_form": "全场",
+    "pronunciation": "quán chǎng",
+    "pos": "unknown",
+    "primary_gloss": "the whole audience",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-3-words",
+    "word_id": "new-hsk-3-0575",
+    "rank": 575,
+    "display_form": "全面",
+    "lemma": "全面",
+    "generation_form": "全面",
+    "pronunciation": "quánmiàn",
+    "pos": "unknown",
+    "primary_gloss": "comprehensive",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  }
+]

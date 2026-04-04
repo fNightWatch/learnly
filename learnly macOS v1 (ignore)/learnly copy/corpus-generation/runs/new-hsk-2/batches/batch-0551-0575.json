@@ -1,0 +1,341 @@
+[
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0551",
+    "rank": 551,
+    "display_form": "头发",
+    "lemma": "头发",
+    "generation_form": "头发",
+    "pronunciation": "tóufa",
+    "pos": "unknown",
+    "primary_gloss": "Hair",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0552",
+    "rank": 552,
+    "display_form": "图片",
+    "lemma": "图片",
+    "generation_form": "图片",
+    "pronunciation": "tú piàn",
+    "pos": "unknown",
+    "primary_gloss": "picture",
+    "secondary_glosses": [
+      "photograph"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0553",
+    "rank": 553,
+    "display_form": "推",
+    "lemma": "推",
+    "generation_form": "推",
+    "pronunciation": "tuī",
+    "pos": "unknown",
+    "primary_gloss": "push",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0554",
+    "rank": 554,
+    "display_form": "腿",
+    "lemma": "腿",
+    "generation_form": "腿",
+    "pronunciation": "tuǐ",
+    "pos": "unknown",
+    "primary_gloss": "leg",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0555",
+    "rank": 555,
+    "display_form": "外地",
+    "lemma": "外地",
+    "generation_form": "外地",
+    "pronunciation": "wài dì",
+    "pos": "unknown",
+    "primary_gloss": "other places",
+    "secondary_glosses": [
+      "nonlocal"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0556",
+    "rank": 556,
+    "display_form": "外卖",
+    "lemma": "外卖",
+    "generation_form": "外卖",
+    "pronunciation": "wài mài",
+    "pos": "unknown",
+    "primary_gloss": "takeaway",
+    "secondary_glosses": [
+      "take out"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0557",
+    "rank": 557,
+    "display_form": "完",
+    "lemma": "完",
+    "generation_form": "完",
+    "pronunciation": "wán",
+    "pos": "unknown",
+    "primary_gloss": "finish",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0558",
+    "rank": 558,
+    "display_form": "完成",
+    "lemma": "完成",
+    "generation_form": "完成",
+    "pronunciation": "wánchéng",
+    "pos": "unknown",
+    "primary_gloss": "complete",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0559",
+    "rank": 559,
+    "display_form": "完全",
+    "lemma": "完全",
+    "generation_form": "完全",
+    "pronunciation": "wánquán",
+    "pos": "unknown",
+    "primary_gloss": "completely",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0560",
+    "rank": 560,
+    "display_form": "晚安",
+    "lemma": "晚安",
+    "generation_form": "晚安",
+    "pronunciation": "wǎn ān",
+    "pos": "unknown",
+    "primary_gloss": "good night",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0561",
+    "rank": 561,
+    "display_form": "晚报",
+    "lemma": "晚报",
+    "generation_form": "晚报",
+    "pronunciation": "wǎn bào",
+    "pos": "unknown",
+    "primary_gloss": "evening paper",
+    "secondary_glosses": [
+      "evening news"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0562",
+    "rank": 562,
+    "display_form": "晚餐",
+    "lemma": "晚餐",
+    "generation_form": "晚餐",
+    "pronunciation": "wǎn cān",
+    "pos": "unknown",
+    "primary_gloss": "dinner",
+    "secondary_glosses": [
+      "supper"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0563",
+    "rank": 563,
+    "display_form": "晚会",
+    "lemma": "晚会",
+    "generation_form": "晚会",
+    "pronunciation": "wǎn huì",
+    "pos": "unknown",
+    "primary_gloss": "evening party",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0564",
+    "rank": 564,
+    "display_form": "碗",
+    "lemma": "碗",
+    "generation_form": "碗",
+    "pronunciation": "wǎn",
+    "pos": "unknown",
+    "primary_gloss": "bowl",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0565",
+    "rank": 565,
+    "display_form": "万",
+    "lemma": "万",
+    "generation_form": "万",
+    "pronunciation": "wàn",
+    "pos": "unknown",
+    "primary_gloss": "ten thousand",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0566",
+    "rank": 566,
+    "display_form": "网",
+    "lemma": "网",
+    "generation_form": "网",
+    "pronunciation": "wǎng",
+    "pos": "unknown",
+    "primary_gloss": "net",
+    "secondary_glosses": [
+      "network"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0567",
+    "rank": 567,
+    "display_form": "网球",
+    "lemma": "网球",
+    "generation_form": "网球",
+    "pronunciation": "wǎngqiú",
+    "pos": "unknown",
+    "primary_gloss": "Tennis",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0568",
+    "rank": 568,
+    "display_form": "网站",
+    "lemma": "网站",
+    "generation_form": "网站",
+    "pronunciation": "wǎngzhàn",
+    "pos": "unknown",
+    "primary_gloss": "website",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0569",
+    "rank": 569,
+    "display_form": "往",
+    "lemma": "往",
+    "generation_form": "往",
+    "pronunciation": "wǎng",
+    "pos": "unknown",
+    "primary_gloss": "to",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0570",
+    "rank": 570,
+    "display_form": "为",
+    "lemma": "为",
+    "generation_form": "为",
+    "pronunciation": "wèi",
+    "pos": "unknown",
+    "primary_gloss": "by",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0571",
+    "rank": 571,
+    "display_form": "为什么",
+    "lemma": "为什么",
+    "generation_form": "为什么",
+    "pronunciation": "wèishénme",
+    "pos": "unknown",
+    "primary_gloss": "Why",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0572",
+    "rank": 572,
+    "display_form": "位",
+    "lemma": "位",
+    "generation_form": "位",
+    "pronunciation": "wèi",
+    "pos": "measure word",
+    "primary_gloss": "person (measure word)",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source gloss marks this entry as a measure word."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0573",
+    "rank": 573,
+    "display_form": "味道",
+    "lemma": "味道",
+    "generation_form": "味道",
+    "pronunciation": "wèidào",
+    "pos": "unknown",
+    "primary_gloss": "taste",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0574",
+    "rank": 574,
+    "display_form": "喂（叹）",
+    "lemma": "喂",
+    "generation_form": "喂",
+    "pronunciation": "wèi",
+    "pos": "interjection",
+    "primary_gloss": "hello",
+    "secondary_glosses": [
+      "hey"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as interjection."
+  },
+  {
+    "dataset_id": "new-hsk-2-words",
+    "word_id": "new-hsk-2-0575",
+    "rank": 575,
+    "display_form": "温度",
+    "lemma": "温度",
+    "generation_form": "温度",
+    "pronunciation": "wēndù",
+    "pos": "unknown",
+    "primary_gloss": "temperature",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  }
+]

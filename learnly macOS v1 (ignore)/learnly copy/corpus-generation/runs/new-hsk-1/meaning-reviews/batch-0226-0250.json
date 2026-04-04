@@ -1,0 +1,242 @@
+[
+  {
+    "word_id": "new-hsk-1-0226",
+    "rank": 226,
+    "lemma": "马上",
+    "reviewed_meanings": [
+      "right away",
+      "immediately",
+      "soon"
+    ],
+    "review_note": "Use right away or immediately as the clearest primary meanings. Soon is a common secondary timing sense."
+  },
+  {
+    "word_id": "new-hsk-1-0227",
+    "rank": 227,
+    "lemma": "吗",
+    "reviewed_meanings": [
+      "yes-no question particle"
+    ],
+    "review_note": "Treat this as the sentence-final question particle for yes-no questions, not as a lexical word."
+  },
+  {
+    "word_id": "new-hsk-1-0228",
+    "rank": 228,
+    "lemma": "买",
+    "reviewed_meanings": [
+      "buy"
+    ],
+    "review_note": "Use the verb buy."
+  },
+  {
+    "word_id": "new-hsk-1-0229",
+    "rank": 229,
+    "lemma": "慢",
+    "reviewed_meanings": [
+      "slow"
+    ],
+    "review_note": "Use the adjective slow."
+  },
+  {
+    "word_id": "new-hsk-1-0230",
+    "rank": 230,
+    "lemma": "忙",
+    "reviewed_meanings": [
+      "busy"
+    ],
+    "review_note": "Use the adjective busy."
+  },
+  {
+    "word_id": "new-hsk-1-0231",
+    "rank": 231,
+    "lemma": "毛",
+    "reviewed_meanings": [
+      "mao",
+      "ten cents"
+    ],
+    "review_note": "For HSK 1, keep this as the money unit mao, worth one tenth of a yuan; ten cents is a useful learner-facing gloss."
+  },
+  {
+    "word_id": "new-hsk-1-0232",
+    "rank": 232,
+    "lemma": "没",
+    "reviewed_meanings": [
+      "not",
+      "have not"
+    ],
+    "review_note": "Use this as a negator, especially for past or have-not contexts."
+  },
+  {
+    "word_id": "new-hsk-1-0233",
+    "rank": 233,
+    "lemma": "没关系",
+    "reviewed_meanings": [
+      "no problem",
+      "it's okay"
+    ],
+    "review_note": "Use this for reassuring someone after thanks, apologies, or small problems."
+  },
+  {
+    "word_id": "new-hsk-1-0234",
+    "rank": 234,
+    "lemma": "没什么",
+    "reviewed_meanings": [
+      "it's nothing",
+      "nothing much"
+    ],
+    "review_note": "Use this as a light reply meaning it's nothing or nothing much."
+  },
+  {
+    "word_id": "new-hsk-1-0235",
+    "rank": 235,
+    "lemma": "没事儿",
+    "reviewed_meanings": [
+      "it's okay",
+      "no problem"
+    ],
+    "review_note": "Use this for saying things are okay or there is no problem."
+  },
+  {
+    "word_id": "new-hsk-1-0236",
+    "rank": 236,
+    "lemma": "没有",
+    "reviewed_meanings": [
+      "do not have",
+      "there is not"
+    ],
+    "review_note": "Use this for not having something or for something not existing."
+  },
+  {
+    "word_id": "new-hsk-1-0237",
+    "rank": 237,
+    "lemma": "妹妹",
+    "reviewed_meanings": [
+      "younger sister",
+      "little sister"
+    ],
+    "review_note": "Younger sister is the clearest everyday gloss. The short form 妹 is a variant, not a separate meaning."
+  },
+  {
+    "word_id": "new-hsk-1-0238",
+    "rank": 238,
+    "lemma": "门",
+    "reviewed_meanings": [
+      "door"
+    ],
+    "review_note": "Use the noun door."
+  },
+  {
+    "word_id": "new-hsk-1-0239",
+    "rank": 239,
+    "lemma": "门口",
+    "reviewed_meanings": [
+      "doorway",
+      "entrance",
+      "door"
+    ],
+    "review_note": "Doorway or entrance are the clearest primary glosses."
+  },
+  {
+    "word_id": "new-hsk-1-0240",
+    "rank": 240,
+    "lemma": "门票",
+    "reviewed_meanings": [
+      "ticket",
+      "admission ticket"
+    ],
+    "review_note": "Do not leave this as plural tickets. Use ticket or admission ticket."
+  },
+  {
+    "word_id": "new-hsk-1-0241",
+    "rank": 241,
+    "lemma": "们",
+    "reviewed_meanings": [
+      "plural marker"
+    ],
+    "review_note": "Treat this as the plural suffix used with pronouns and some animate nouns, not as a standalone lexical noun meaning."
+  },
+  {
+    "word_id": "new-hsk-1-0242",
+    "rank": 242,
+    "lemma": "米饭",
+    "reviewed_meanings": [
+      "cooked rice",
+      "rice"
+    ],
+    "review_note": "Use cooked rice as the clearest primary gloss."
+  },
+  {
+    "word_id": "new-hsk-1-0243",
+    "rank": 243,
+    "lemma": "面包",
+    "reviewed_meanings": [
+      "bread"
+    ],
+    "review_note": "Use the noun bread."
+  },
+  {
+    "word_id": "new-hsk-1-0244",
+    "rank": 244,
+    "lemma": "面条儿",
+    "reviewed_meanings": [
+      "noodles"
+    ],
+    "review_note": "Use the noun noodles."
+  },
+  {
+    "word_id": "new-hsk-1-0245",
+    "rank": 245,
+    "lemma": "名字",
+    "reviewed_meanings": [
+      "name"
+    ],
+    "review_note": "Use the noun name."
+  },
+  {
+    "word_id": "new-hsk-1-0246",
+    "rank": 246,
+    "lemma": "明白",
+    "reviewed_meanings": [
+      "understand",
+      "clear"
+    ],
+    "review_note": "For HSK 1, prioritize the verb/adjective sense understand or be clear about something."
+  },
+  {
+    "word_id": "new-hsk-1-0247",
+    "rank": 247,
+    "lemma": "明年",
+    "reviewed_meanings": [
+      "next year"
+    ],
+    "review_note": "Use the time phrase next year."
+  },
+  {
+    "word_id": "new-hsk-1-0248",
+    "rank": 248,
+    "lemma": "明天",
+    "reviewed_meanings": [
+      "tomorrow"
+    ],
+    "review_note": "Use the time word tomorrow."
+  },
+  {
+    "word_id": "new-hsk-1-0249",
+    "rank": 249,
+    "lemma": "拿",
+    "reviewed_meanings": [
+      "take",
+      "hold"
+    ],
+    "review_note": "Take is the main meaning; hold is a useful secondary sense."
+  },
+  {
+    "word_id": "new-hsk-1-0250",
+    "rank": 250,
+    "lemma": "哪",
+    "reviewed_meanings": [
+      "which"
+    ],
+    "review_note": "Use the question word which."
+  }
+]

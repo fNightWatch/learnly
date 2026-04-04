@@ -1,0 +1,226 @@
+[
+  {
+    "line": 2,
+    "word_id": "new-hsk-2-0415",
+    "rank": 415,
+    "display_form": "片",
+    "error": "new-hsk-2-0415: sentence uses words outside allowed New HSK level set: 盘子里还有一片肉。"
+  },
+  {
+    "line": 7,
+    "word_id": "new-hsk-2-0420",
+    "rank": 420,
+    "display_form": "平等",
+    "error": "new-hsk-2-0420: sentence uses words outside allowed New HSK level set: 爸爸说朋友之间要平等。"
+  },
+  {
+    "line": 9,
+    "word_id": "new-hsk-2-0422",
+    "rank": 422,
+    "display_form": "瓶",
+    "error": "new-hsk-2-0422: sentence uses words outside allowed New HSK level set: 爸爸每天带一瓶茶上班。"
+  },
+  {
+    "line": 10,
+    "word_id": "new-hsk-2-0423",
+    "rank": 423,
+    "display_form": "瓶子",
+    "error": "new-hsk-2-0423: sentence uses words outside allowed New HSK level set: 桌上那个白瓶子是我的。"
+  },
+  {
+    "line": 15,
+    "word_id": "new-hsk-2-0428",
+    "rank": 428,
+    "display_form": "骑",
+    "error": "new-hsk-2-0428: sentence uses words outside allowed New HSK level set: 爸爸每天骑车去公司。"
+  },
+  {
+    "line": 17,
+    "word_id": "new-hsk-2-0430",
+    "rank": 430,
+    "display_form": "起飞",
+    "error": "new-hsk-2-0430: sentence uses words outside allowed New HSK level set: 起飞前请把手机关机。"
+  },
+  {
+    "line": 20,
+    "word_id": "new-hsk-2-0433",
+    "rank": 433,
+    "display_form": "千",
+    "error": "new-hsk-2-0433: sentence uses words outside allowed New HSK level set: 这台计算机要五千元。"
+  },
+  {
+    "line": 22,
+    "word_id": "new-hsk-2-0435",
+    "rank": 435,
+    "display_form": "前年",
+    "error": "new-hsk-2-0435: sentence uses words outside allowed New HSK level set: 爸爸前年开始在这里工作。"
+  },
+  {
+    "line": 23,
+    "word_id": "new-hsk-2-0436",
+    "rank": 436,
+    "display_form": "墙",
+    "error": "new-hsk-2-0436: sentence uses words outside allowed New HSK level set: 墙上有一张中国地图。"
+  },
+  {
+    "line": 26,
+    "word_id": "new-hsk-2-0439",
+    "rank": 439,
+    "display_form": "轻",
+    "error": "new-hsk-2-0439: sentence uses words outside allowed New HSK level set: 这件大衣看着大，其实很轻。"
+  },
+  {
+    "line": 27,
+    "word_id": "new-hsk-2-0440",
+    "rank": 440,
+    "display_form": "清楚",
+    "error": "new-hsk-2-0440: sentence uses words outside allowed New HSK level set: 这张地图看得很清楚。"
+  },
+  {
+    "line": 31,
+    "word_id": "new-hsk-2-0444",
+    "rank": 444,
+    "display_form": "请求",
+    "error": "new-hsk-2-0444: sentence uses words outside allowed New HSK level set: 他的请求很简单，只要一本词典。"
+  },
+  {
+    "line": 36,
+    "word_id": "new-hsk-2-0449",
+    "rank": 449,
+    "display_form": "球鞋",
+    "error": "new-hsk-2-0449: sentence uses words outside allowed New HSK level set: 我想买一双新球鞋。"
+  },
+  {
+    "line": 40,
+    "word_id": "new-hsk-2-0453",
+    "rank": 453,
+    "display_form": "全部",
+    "error": "new-hsk-2-0453: sentence uses words outside allowed New HSK level set: 妈妈把钱全部放进包里。"
+  },
+  {
+    "line": 41,
+    "word_id": "new-hsk-2-0454",
+    "rank": 454,
+    "display_form": "全国",
+    "error": "new-hsk-2-0454: sentence uses words outside allowed New HSK level set: 这个消息全国都知道了。"
+  },
+  {
+    "line": 42,
+    "word_id": "new-hsk-2-0455",
+    "rank": 455,
+    "display_form": "全家",
+    "error": "new-hsk-2-0455: sentence uses words outside allowed New HSK level set: 全家都希望奶奶身体平安。"
+  },
+  {
+    "line": 44,
+    "word_id": "new-hsk-2-0457",
+    "rank": 457,
+    "display_form": "全身",
+    "error": "new-hsk-2-0457: sentence uses words outside allowed New HSK level set: 下雨以后他全身都湿了。"
+  },
+  {
+    "line": 53,
+    "word_id": "new-hsk-2-0466",
+    "rank": 466,
+    "display_form": "日报",
+    "error": "new-hsk-2-0466: sentence uses words outside allowed New HSK level set: 爸爸每天早上都看日报。"
+  },
+  {
+    "line": 61,
+    "word_id": "new-hsk-2-0474",
+    "rank": 474,
+    "display_form": "少年",
+    "error": "new-hsk-2-0474: sentence uses words outside allowed New HSK level set: 那个少年每天骑车上学。"
+  },
+  {
+    "line": 62,
+    "word_id": "new-hsk-2-0475",
+    "rank": 475,
+    "display_form": "身边",
+    "error": "new-hsk-2-0475: sentence uses words outside allowed New HSK level set: 爸爸把手机放在身边。"
+  },
+  {
+    "line": 66,
+    "word_id": "new-hsk-2-0479",
+    "rank": 479,
+    "display_form": "生活",
+    "error": "new-hsk-2-0479: sentence uses words outside allowed New HSK level set: 国外生活不一定很容易。"
+  },
+  {
+    "line": 73,
+    "word_id": "new-hsk-2-0486",
+    "rank": 486,
+    "display_form": "实现",
+    "error": "new-hsk-2-0486: sentence uses words outside allowed New HSK level set: 这个计划不容易实现。"
+  },
+  {
+    "line": 76,
+    "word_id": "new-hsk-2-0489",
+    "rank": 489,
+    "display_form": "食物",
+    "error": "new-hsk-2-0489: sentence uses words outside allowed New HSK level set: 医生说这种食物不能多吃。"
+  },
+  {
+    "line": 77,
+    "word_id": "new-hsk-2-0490",
+    "rank": 490,
+    "display_form": "使用",
+    "error": "new-hsk-2-0490: sentence uses words outside allowed New HSK level set: 这台计算机大家都能使用。"
+  },
+  {
+    "line": 81,
+    "word_id": "new-hsk-2-0494",
+    "rank": 494,
+    "display_form": "收",
+    "error": "new-hsk-2-0494: sentence uses words outside allowed New HSK level set: 下雨前妈妈把衣服收了。"
+  },
+  {
+    "line": 86,
+    "word_id": "new-hsk-2-0499",
+    "rank": 499,
+    "display_form": "舒服",
+    "error": "new-hsk-2-0499: sentence uses words outside allowed New HSK level set: 这双球鞋穿着很舒服。"
+  },
+  {
+    "line": 88,
+    "word_id": "new-hsk-2-0501",
+    "rank": 501,
+    "display_form": "数",
+    "error": "new-hsk-2-0501: sentence uses words outside allowed New HSK level set: 妈妈在数桌上的钱。"
+  },
+  {
+    "line": 92,
+    "word_id": "new-hsk-2-0505",
+    "rank": 505,
+    "display_form": "说明",
+    "error": "new-hsk-2-0505: sentence uses words outside allowed New HSK level set: 这张图说明得很清楚。"
+  },
+  {
+    "line": 93,
+    "word_id": "new-hsk-2-0506",
+    "rank": 506,
+    "display_form": "司机",
+    "error": "new-hsk-2-0506: sentence uses words outside allowed New HSK level set: 爸爸和司机商量了很久。"
+  },
+  {
+    "line": 94,
+    "word_id": "new-hsk-2-0507",
+    "rank": 507,
+    "display_form": "送到",
+    "error": "new-hsk-2-0507: sentence uses words outside allowed New HSK level set: 请把这本词典送到办公室。"
+  },
+  {
+    "line": 95,
+    "word_id": "new-hsk-2-0508",
+    "rank": 508,
+    "display_form": "送给",
+    "error": "new-hsk-2-0508: sentence uses words outside allowed New HSK level set: 我想把花送给妈妈。"
+  },
+  {
+    "line": 101,
+    "word_id": "new-hsk-2-0514",
+    "rank": 514,
+    "display_form": "所有",
+    "error": "new-hsk-2-0514: sentence uses words outside allowed New HSK level set: 我把所有东西都放进包里。"
+  }
+]
