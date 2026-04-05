@@ -2,11 +2,20 @@
   "name": "learnly",
   "version": "0.1.0",
   "private": true,
+  "packageManager": "npm@11.9.0",
+  "engines": {
+    "node": ">=22 <25",
+    "npm": ">=10 <12"
+  },
   "scripts": {
+    "clean:artifacts": "node scripts/clean-artifacts.mjs",
+    "clean:runtime": "node scripts/clean-artifacts.mjs --with-next --with-state",
     "dev": "tsx scripts/seed-db.ts && next dev",
     "build": "next build",
     "start": "next start",
+    "doctor": "node scripts/doctor.mjs",
     "typecheck": "tsc --noEmit",
+    "verify": "node scripts/verify.mjs",
     "db:generate": "drizzle-kit generate",
     "db:push": "drizzle-kit push",
     "db:studio": "drizzle-kit studio"
