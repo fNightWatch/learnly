@@ -1,0 +1,11 @@
+HSK1 definition-layer review summary
+
+Total rows reviewed: 500
+Rows updated: 52
+Function-word rows updated: 43
+
+Key improvements:
+- Replaced weak or missing POS on the highest-value grammar layer: particles, negators, classifiers, suffixes, location words, and common structural patterns.
+- Tightened learner-facing glosses for core function words such as 吧, 比, 不, 给, 就, 了, 吗, 没, 再, 在, 着, and 正在.
+- Expanded important common meanings for polysemous high-frequency items such as 本, 对, 会, 间, 口, 门, 上, 下, 真, and 中.
+- Standardized notes to explain actual beginner use briefly and clearly without changing any sentence-example content.

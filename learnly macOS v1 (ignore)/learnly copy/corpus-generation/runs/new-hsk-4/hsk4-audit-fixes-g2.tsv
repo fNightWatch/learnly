@@ -1,0 +1,258 @@
+issue_type	word_id	example_id	rank	sentence	translation	details
+cross_word_duplicate_translation	new-hsk-4-0205	new-hsk-4-0205-ex1	205	这个风景很重要。	This scenery is very important.	new-hsk-4-0205::new-hsk-4-0205-ex1; new-hsk-4-0403::new-hsk-4-0403-ex1
+cross_word_duplicate_translation	new-hsk-4-0205	new-hsk-4-0205-ex2	205	老师解释了风景。	The teacher explained the scenery.	new-hsk-4-0205::new-hsk-4-0205-ex2; new-hsk-4-0403::new-hsk-4-0403-ex2
+cross_word_duplicate_translation	new-hsk-4-0205	new-hsk-4-0205-ex3	205	我在学习风景。	I am learning about the scenery.	new-hsk-4-0205::new-hsk-4-0205-ex3; new-hsk-4-0403::new-hsk-4-0403-ex3
+cross_word_duplicate_translation	new-hsk-4-0218	new-hsk-4-0218-ex1	218	我想改。	I want to to change.	new-hsk-4-0218::new-hsk-4-0218-ex1; new-hsk-4-0219::new-hsk-4-0219-ex1
+cross_word_duplicate_translation	new-hsk-4-0218	new-hsk-4-0218-ex2	218	请先改。	Please to change first.	new-hsk-4-0218::new-hsk-4-0218-ex2; new-hsk-4-0219::new-hsk-4-0219-ex2
+cross_word_duplicate_translation	new-hsk-4-0218	new-hsk-4-0218-ex3	218	我们一起改。	Let's to change together.	new-hsk-4-0218::new-hsk-4-0218-ex3; new-hsk-4-0219::new-hsk-4-0219-ex3
+cross_word_duplicate_translation	new-hsk-4-0219	new-hsk-4-0219-ex1	219	我想改变。	I want to to change.	new-hsk-4-0218::new-hsk-4-0218-ex1; new-hsk-4-0219::new-hsk-4-0219-ex1
+cross_word_duplicate_translation	new-hsk-4-0219	new-hsk-4-0219-ex2	219	请先改变。	Please to change first.	new-hsk-4-0218::new-hsk-4-0218-ex2; new-hsk-4-0219::new-hsk-4-0219-ex2
+cross_word_duplicate_translation	new-hsk-4-0219	new-hsk-4-0219-ex3	219	我们一起改变。	Let's to change together.	new-hsk-4-0218::new-hsk-4-0218-ex3; new-hsk-4-0219::new-hsk-4-0219-ex3
+cross_word_duplicate_translation	new-hsk-4-0226	new-hsk-4-0226-ex1	226	他赶紧来了。	He quickly came.	new-hsk-4-0226::new-hsk-4-0226-ex1; new-hsk-4-0228::new-hsk-4-0228-ex1
+cross_word_duplicate_translation	new-hsk-4-0226	new-hsk-4-0226-ex2	226	我赶紧知道了。	I now know quickly.	new-hsk-4-0226::new-hsk-4-0226-ex2; new-hsk-4-0228::new-hsk-4-0228-ex2
+cross_word_duplicate_translation	new-hsk-4-0226	new-hsk-4-0226-ex3	226	今天赶紧很重要。	Today quickly is very important.	new-hsk-4-0226::new-hsk-4-0226-ex3; new-hsk-4-0228::new-hsk-4-0228-ex3
+cross_word_duplicate_translation	new-hsk-4-0227	new-hsk-4-0227-ex1	227	我想感觉。	I want to feeling.	new-hsk-4-0227::new-hsk-4-0227-ex1; new-hsk-4-0232::new-hsk-4-0232-ex1
+cross_word_duplicate_translation	new-hsk-4-0227	new-hsk-4-0227-ex2	227	请先感觉。	Please feeling first.	new-hsk-4-0227::new-hsk-4-0227-ex2; new-hsk-4-0232::new-hsk-4-0232-ex2
+cross_word_duplicate_translation	new-hsk-4-0227	new-hsk-4-0227-ex3	227	我们一起感觉。	Let's feeling together.	new-hsk-4-0227::new-hsk-4-0227-ex3; new-hsk-4-0232::new-hsk-4-0232-ex3
+cross_word_duplicate_translation	new-hsk-4-0228	new-hsk-4-0228-ex1	228	他赶快来了。	He quickly came.	new-hsk-4-0226::new-hsk-4-0226-ex1; new-hsk-4-0228::new-hsk-4-0228-ex1
+cross_word_duplicate_translation	new-hsk-4-0228	new-hsk-4-0228-ex2	228	我赶快知道了。	I now know quickly.	new-hsk-4-0226::new-hsk-4-0226-ex2; new-hsk-4-0228::new-hsk-4-0228-ex2
+cross_word_duplicate_translation	new-hsk-4-0228	new-hsk-4-0228-ex3	228	今天赶快很重要。	Today quickly is very important.	new-hsk-4-0226::new-hsk-4-0226-ex3; new-hsk-4-0228::new-hsk-4-0228-ex3
+cross_word_duplicate_translation	new-hsk-4-0232	new-hsk-4-0232-ex1	232	我想感受。	I want to feeling.	new-hsk-4-0227::new-hsk-4-0227-ex1; new-hsk-4-0232::new-hsk-4-0232-ex1
+cross_word_duplicate_translation	new-hsk-4-0232	new-hsk-4-0232-ex2	232	请先感受。	Please feeling first.	new-hsk-4-0227::new-hsk-4-0227-ex2; new-hsk-4-0232::new-hsk-4-0232-ex2
+cross_word_duplicate_translation	new-hsk-4-0232	new-hsk-4-0232-ex3	232	我们一起感受。	Let's feeling together.	new-hsk-4-0227::new-hsk-4-0227-ex3; new-hsk-4-0232::new-hsk-4-0232-ex3
+cross_word_duplicate_translation	new-hsk-4-0244	new-hsk-4-0244-ex1	244	他各来了。	He each came.	new-hsk-4-0244::new-hsk-4-0244-ex1; new-hsk-4-0246::new-hsk-4-0246-ex1
+cross_word_duplicate_translation	new-hsk-4-0244	new-hsk-4-0244-ex2	244	我各知道了。	I now know each.	new-hsk-4-0244::new-hsk-4-0244-ex2; new-hsk-4-0246::new-hsk-4-0246-ex2
+cross_word_duplicate_translation	new-hsk-4-0244	new-hsk-4-0244-ex3	244	今天各很重要。	Today each is very important.	new-hsk-4-0244::new-hsk-4-0244-ex3; new-hsk-4-0246::new-hsk-4-0246-ex3
+cross_word_duplicate_translation	new-hsk-4-0246	new-hsk-4-0246-ex1	246	他各个来了。	He each came.	new-hsk-4-0244::new-hsk-4-0244-ex1; new-hsk-4-0246::new-hsk-4-0246-ex1
+cross_word_duplicate_translation	new-hsk-4-0246	new-hsk-4-0246-ex2	246	我各个知道了。	I now know each.	new-hsk-4-0244::new-hsk-4-0244-ex2; new-hsk-4-0246::new-hsk-4-0246-ex2
+cross_word_duplicate_translation	new-hsk-4-0246	new-hsk-4-0246-ex3	246	今天各个很重要。	Today each is very important.	new-hsk-4-0244::new-hsk-4-0244-ex3; new-hsk-4-0246::new-hsk-4-0246-ex3
+cross_word_duplicate_translation	new-hsk-4-0318	new-hsk-4-0318-ex1	318	我想获取。	I want to gain.	new-hsk-4-0318::new-hsk-4-0318-ex1; new-hsk-4-0875::new-hsk-4-0875-ex1
+cross_word_duplicate_translation	new-hsk-4-0318	new-hsk-4-0318-ex2	318	请先获取。	Please gain first.	new-hsk-4-0318::new-hsk-4-0318-ex2; new-hsk-4-0875::new-hsk-4-0875-ex2
+cross_word_duplicate_translation	new-hsk-4-0318	new-hsk-4-0318-ex3	318	我们一起获取。	Let's gain together.	new-hsk-4-0318::new-hsk-4-0318-ex3; new-hsk-4-0875::new-hsk-4-0875-ex3
+cross_word_duplicate_translation	new-hsk-4-0327	new-hsk-4-0327-ex1	327	他既来了。	He already came.	new-hsk-4-0327::new-hsk-4-0327-ex1; new-hsk-4-0866::new-hsk-4-0866-ex1
+cross_word_duplicate_translation	new-hsk-4-0327	new-hsk-4-0327-ex2	327	我既知道了。	I now know already.	new-hsk-4-0327::new-hsk-4-0327-ex2; new-hsk-4-0866::new-hsk-4-0866-ex2
+cross_word_duplicate_translation	new-hsk-4-0327	new-hsk-4-0327-ex3	327	今天既很重要。	Today already is very important.	new-hsk-4-0327::new-hsk-4-0327-ex3; new-hsk-4-0866::new-hsk-4-0866-ex3
+cross_word_duplicate_translation	new-hsk-4-0332	new-hsk-4-0332-ex1	332	请继续往下看。	Please continue reading below.	new-hsk-4-0332::new-hsk-4-0332-ex1; new-hsk-4-0381::new-hsk-4-0381-ex1
+cross_word_duplicate_translation	new-hsk-4-0341	new-hsk-4-0341-ex1	341	这个家乡很重要。	This hometown is very important.	new-hsk-4-0341::new-hsk-4-0341-ex1; new-hsk-4-0456::new-hsk-4-0456-ex1
+cross_word_duplicate_translation	new-hsk-4-0341	new-hsk-4-0341-ex2	341	老师解释了家乡。	The teacher explained the hometown.	new-hsk-4-0341::new-hsk-4-0341-ex2; new-hsk-4-0456::new-hsk-4-0456-ex2
+cross_word_duplicate_translation	new-hsk-4-0341	new-hsk-4-0341-ex3	341	我在学习家乡。	I am learning about the hometown.	new-hsk-4-0341::new-hsk-4-0341-ex3; new-hsk-4-0456::new-hsk-4-0456-ex3
+cross_word_duplicate_translation	new-hsk-4-0346	new-hsk-4-0346-ex1	346	这个价格很重要。	This price is very important.	new-hsk-4-0346::new-hsk-4-0346-ex1; new-hsk-4-0347::new-hsk-4-0347-ex1
+cross_word_duplicate_translation	new-hsk-4-0346	new-hsk-4-0346-ex2	346	老师解释了价格。	The teacher explained the price.	new-hsk-4-0346::new-hsk-4-0346-ex2; new-hsk-4-0347::new-hsk-4-0347-ex2
+cross_word_duplicate_translation	new-hsk-4-0346	new-hsk-4-0346-ex3	346	我在学习价格。	I am learning about the price.	new-hsk-4-0346::new-hsk-4-0346-ex3; new-hsk-4-0347::new-hsk-4-0347-ex3
+cross_word_duplicate_translation	new-hsk-4-0347	new-hsk-4-0347-ex1	347	这个价钱很重要。	This price is very important.	new-hsk-4-0346::new-hsk-4-0346-ex1; new-hsk-4-0347::new-hsk-4-0347-ex1
+cross_word_duplicate_translation	new-hsk-4-0347	new-hsk-4-0347-ex2	347	老师解释了价钱。	The teacher explained the price.	new-hsk-4-0346::new-hsk-4-0346-ex2; new-hsk-4-0347::new-hsk-4-0347-ex2
+cross_word_duplicate_translation	new-hsk-4-0347	new-hsk-4-0347-ex3	347	我在学习价钱。	I am learning about the price.	new-hsk-4-0346::new-hsk-4-0346-ex3; new-hsk-4-0347::new-hsk-4-0347-ex3
+cross_word_duplicate_sentence	new-hsk-4-0349	new-hsk-4-0349-ex1	349	老师让我们减少浪费。	The teacher told us to reduce waste.	new-hsk-4-0349::new-hsk-4-0349-ex1; new-hsk-4-0351::new-hsk-4-0351-ex1
+cross_word_duplicate_translation	new-hsk-4-0349	new-hsk-4-0349-ex1	349	老师让我们减少浪费。	The teacher told us to reduce waste.	new-hsk-4-0349::new-hsk-4-0349-ex1; new-hsk-4-0351::new-hsk-4-0351-ex1
+cross_word_duplicate_sentence	new-hsk-4-0349	new-hsk-4-0349-ex2	349	我想减少零食。	I want to cut down on snacks.	new-hsk-4-0349::new-hsk-4-0349-ex2; new-hsk-4-0351::new-hsk-4-0351-ex2
+cross_word_duplicate_translation	new-hsk-4-0349	new-hsk-4-0349-ex2	349	我想减少零食。	I want to cut down on snacks.	new-hsk-4-0349::new-hsk-4-0349-ex2; new-hsk-4-0351::new-hsk-4-0351-ex2
+cross_word_duplicate_sentence	new-hsk-4-0349	new-hsk-4-0349-ex3	349	我们应该减少作业。	We should decrease the amount of homework.	new-hsk-4-0349::new-hsk-4-0349-ex3; new-hsk-4-0351::new-hsk-4-0351-ex3
+cross_word_duplicate_translation	new-hsk-4-0349	new-hsk-4-0349-ex3	349	我们应该减少作业。	We should decrease the amount of homework.	new-hsk-4-0349::new-hsk-4-0349-ex3; new-hsk-4-0351::new-hsk-4-0351-ex3
+cross_word_duplicate_sentence	new-hsk-4-0351	new-hsk-4-0351-ex1	351	老师让我们减少浪费。	The teacher told us to reduce waste.	new-hsk-4-0349::new-hsk-4-0349-ex1; new-hsk-4-0351::new-hsk-4-0351-ex1
+cross_word_duplicate_translation	new-hsk-4-0351	new-hsk-4-0351-ex1	351	老师让我们减少浪费。	The teacher told us to reduce waste.	new-hsk-4-0349::new-hsk-4-0349-ex1; new-hsk-4-0351::new-hsk-4-0351-ex1
+cross_word_duplicate_sentence	new-hsk-4-0351	new-hsk-4-0351-ex2	351	我想减少零食。	I want to cut down on snacks.	new-hsk-4-0349::new-hsk-4-0349-ex2; new-hsk-4-0351::new-hsk-4-0351-ex2
+cross_word_duplicate_translation	new-hsk-4-0351	new-hsk-4-0351-ex2	351	我想减少零食。	I want to cut down on snacks.	new-hsk-4-0349::new-hsk-4-0349-ex2; new-hsk-4-0351::new-hsk-4-0351-ex2
+cross_word_duplicate_sentence	new-hsk-4-0351	new-hsk-4-0351-ex3	351	我们应该减少作业。	We should decrease the amount of homework.	new-hsk-4-0349::new-hsk-4-0349-ex3; new-hsk-4-0351::new-hsk-4-0351-ex3
+cross_word_duplicate_translation	new-hsk-4-0351	new-hsk-4-0351-ex3	351	我们应该减少作业。	We should decrease the amount of homework.	new-hsk-4-0349::new-hsk-4-0349-ex3; new-hsk-4-0351::new-hsk-4-0351-ex3
+missing_lemma	new-hsk-4-0378	new-hsk-4-0378-ex3	378	大家叫他老师。	Everyone calls him teacher.	Example does not visibly contain the target display form or any accepted variant.
+cross_word_duplicate_sentence	new-hsk-4-0380	new-hsk-4-0380-ex1	380	老师接受了我的建议。	The teacher accepted my suggestion.	new-hsk-4-0380::new-hsk-4-0380-ex1; new-hsk-4-0678::new-hsk-4-0678-ex1
+cross_word_duplicate_translation	new-hsk-4-0380	new-hsk-4-0380-ex1	380	老师接受了我的建议。	The teacher accepted my suggestion.	new-hsk-4-0380::new-hsk-4-0380-ex1; new-hsk-4-0678::new-hsk-4-0678-ex1
+cross_word_duplicate_sentence	new-hsk-4-0380	new-hsk-4-0380-ex2	380	我接受这个礼物。	I accept this gift.	new-hsk-4-0380::new-hsk-4-0380-ex2; new-hsk-4-0678::new-hsk-4-0678-ex2
+cross_word_duplicate_translation	new-hsk-4-0380	new-hsk-4-0380-ex2	380	我接受这个礼物。	I accept this gift.	new-hsk-4-0380::new-hsk-4-0380-ex2; new-hsk-4-0678::new-hsk-4-0678-ex2
+cross_word_duplicate_sentence	new-hsk-4-0380	new-hsk-4-0380-ex3	380	他接受了这个工作。	He accepted this job.	new-hsk-4-0380::new-hsk-4-0380-ex3; new-hsk-4-0678::new-hsk-4-0678-ex3
+cross_word_duplicate_translation	new-hsk-4-0380	new-hsk-4-0380-ex3	380	他接受了这个工作。	He accepted this job.	new-hsk-4-0380::new-hsk-4-0380-ex3; new-hsk-4-0678::new-hsk-4-0678-ex3
+cross_word_duplicate_translation	new-hsk-4-0381	new-hsk-4-0381-ex1	381	请接着往下看。	Please continue reading below.	new-hsk-4-0332::new-hsk-4-0332-ex1; new-hsk-4-0381::new-hsk-4-0381-ex1
+cross_word_duplicate_sentence	new-hsk-4-0386	new-hsk-4-0386-ex1	386	老师解释了这个问题。	The teacher explained this problem.	new-hsk-4-0386::new-hsk-4-0386-ex1; new-hsk-4-0700::new-hsk-4-0700-ex1
+cross_word_duplicate_translation	new-hsk-4-0386	new-hsk-4-0386-ex1	386	老师解释了这个问题。	The teacher explained this problem.	new-hsk-4-0386::new-hsk-4-0386-ex1; new-hsk-4-0700::new-hsk-4-0700-ex1
+cross_word_duplicate_sentence	new-hsk-4-0386	new-hsk-4-0386-ex2	386	你能再解释一次吗？	Can you explain it once more?	new-hsk-4-0386::new-hsk-4-0386-ex2; new-hsk-4-0700::new-hsk-4-0700-ex2
+cross_word_duplicate_translation	new-hsk-4-0386	new-hsk-4-0386-ex2	386	你能再解释一次吗？	Can you explain it once more?	new-hsk-4-0386::new-hsk-4-0386-ex2; new-hsk-4-0700::new-hsk-4-0700-ex2
+cross_word_duplicate_sentence	new-hsk-4-0386	new-hsk-4-0386-ex3	386	请你解释一下原因。	Please explain the reason.	new-hsk-4-0386::new-hsk-4-0386-ex3; new-hsk-4-0700::new-hsk-4-0700-ex3
+cross_word_duplicate_translation	new-hsk-4-0386	new-hsk-4-0386-ex3	386	请你解释一下原因。	Please explain the reason.	new-hsk-4-0386::new-hsk-4-0386-ex3; new-hsk-4-0700::new-hsk-4-0700-ex3
+cross_word_duplicate_sentence	new-hsk-4-0392	new-hsk-4-0392-ex1	392	请进入房间。	Please enter the room.	new-hsk-4-0392::new-hsk-4-0392-ex1; new-hsk-4-0622::new-hsk-4-0622-ex1; new-hsk-4-0624::new-hsk-4-0624-ex1
+cross_word_duplicate_translation	new-hsk-4-0392	new-hsk-4-0392-ex1	392	请进入房间。	Please enter the room.	new-hsk-4-0392::new-hsk-4-0392-ex1; new-hsk-4-0622::new-hsk-4-0622-ex1; new-hsk-4-0624::new-hsk-4-0624-ex1
+cross_word_duplicate_sentence	new-hsk-4-0392	new-hsk-4-0392-ex2	392	学生进入学校。	The student is admitted to the school.	new-hsk-4-0392::new-hsk-4-0392-ex2; new-hsk-4-0622::new-hsk-4-0622-ex2; new-hsk-4-0624::new-hsk-4-0624-ex2
+cross_word_duplicate_translation	new-hsk-4-0392	new-hsk-4-0392-ex3	392	我知道进入。	I know to enter.	new-hsk-4-0392::new-hsk-4-0392-ex3; new-hsk-4-0622::new-hsk-4-0622-ex3
+cross_word_duplicate_translation	new-hsk-4-0403	new-hsk-4-0403-ex1	403	这个景色很重要。	This scenery is very important.	new-hsk-4-0205::new-hsk-4-0205-ex1; new-hsk-4-0403::new-hsk-4-0403-ex1
+cross_word_duplicate_translation	new-hsk-4-0403	new-hsk-4-0403-ex2	403	老师解释了景色。	The teacher explained the scenery.	new-hsk-4-0205::new-hsk-4-0205-ex2; new-hsk-4-0403::new-hsk-4-0403-ex2
+cross_word_duplicate_translation	new-hsk-4-0403	new-hsk-4-0403-ex3	403	我在学习景色。	I am learning about the scenery.	new-hsk-4-0205::new-hsk-4-0205-ex3; new-hsk-4-0403::new-hsk-4-0403-ex3
+missing_lemma	new-hsk-4-0405	new-hsk-4-0405-ex1	405	我们比较一下两个办法。	Let's compare the two methods.	Example does not visibly contain the target display form or any accepted variant.
+missing_lemma	new-hsk-4-0405	new-hsk-4-0405-ex2	405	这两个计划很难比较。	These two plans are hard to compare.	Example does not visibly contain the target display form or any accepted variant.
+cross_word_duplicate_sentence	new-hsk-4-0407	new-hsk-4-0407-ex1	407	你究竟想说什么？	What on earth do you actually want to say?	new-hsk-4-0407::new-hsk-4-0407-ex1; new-hsk-4-0660::new-hsk-4-0660-ex1
+cross_word_duplicate_translation	new-hsk-4-0407	new-hsk-4-0407-ex1	407	你究竟想说什么？	What on earth do you actually want to say?	new-hsk-4-0407::new-hsk-4-0407-ex1; new-hsk-4-0660::new-hsk-4-0660-ex1
+cross_word_duplicate_sentence	new-hsk-4-0407	new-hsk-4-0407-ex2	407	这究竟是什么问题？	What on earth is this problem exactly?	new-hsk-4-0407::new-hsk-4-0407-ex2; new-hsk-4-0660::new-hsk-4-0660-ex2
+cross_word_duplicate_translation	new-hsk-4-0407	new-hsk-4-0407-ex2	407	这究竟是什么问题？	What on earth is this problem exactly?	new-hsk-4-0407::new-hsk-4-0407-ex2; new-hsk-4-0660::new-hsk-4-0660-ex2
+cross_word_duplicate_sentence	new-hsk-4-0407	new-hsk-4-0407-ex3	407	事情究竟怎么样了？	How did things actually turn out?	new-hsk-4-0407::new-hsk-4-0407-ex3; new-hsk-4-0660::new-hsk-4-0660-ex3
+cross_word_duplicate_translation	new-hsk-4-0407	new-hsk-4-0407-ex3	407	事情究竟怎么样了？	How did things actually turn out?	new-hsk-4-0407::new-hsk-4-0407-ex3; new-hsk-4-0660::new-hsk-4-0660-ex3
+cross_word_duplicate_translation	new-hsk-4-0410	new-hsk-4-0410-ex1	410	我想举办。	I want to to hold.	new-hsk-4-0410::new-hsk-4-0410-ex1; new-hsk-4-0412::new-hsk-4-0412-ex1
+cross_word_duplicate_translation	new-hsk-4-0410	new-hsk-4-0410-ex2	410	请先举办。	Please to hold first.	new-hsk-4-0410::new-hsk-4-0410-ex2; new-hsk-4-0412::new-hsk-4-0412-ex2
+cross_word_duplicate_translation	new-hsk-4-0410	new-hsk-4-0410-ex3	410	我们一起举办。	Let's to hold together.	new-hsk-4-0410::new-hsk-4-0410-ex3; new-hsk-4-0412::new-hsk-4-0412-ex3
+cross_word_duplicate_translation	new-hsk-4-0412	new-hsk-4-0412-ex1	412	我想举行。	I want to to hold.	new-hsk-4-0410::new-hsk-4-0410-ex1; new-hsk-4-0412::new-hsk-4-0412-ex1
+cross_word_duplicate_translation	new-hsk-4-0412	new-hsk-4-0412-ex2	412	请先举行。	Please to hold first.	new-hsk-4-0410::new-hsk-4-0410-ex2; new-hsk-4-0412::new-hsk-4-0412-ex2
+cross_word_duplicate_translation	new-hsk-4-0412	new-hsk-4-0412-ex3	412	我们一起举行。	Let's to hold together.	new-hsk-4-0410::new-hsk-4-0410-ex3; new-hsk-4-0412::new-hsk-4-0412-ex3
+cross_word_duplicate_translation	new-hsk-4-0427	new-hsk-4-0427-ex1	427	我想咳。	I want to to cough.	new-hsk-4-0427::new-hsk-4-0427-ex1; new-hsk-4-0428::new-hsk-4-0428-ex1
+cross_word_duplicate_translation	new-hsk-4-0427	new-hsk-4-0427-ex2	427	请先咳。	Please to cough first.	new-hsk-4-0427::new-hsk-4-0427-ex2; new-hsk-4-0428::new-hsk-4-0428-ex2
+cross_word_duplicate_translation	new-hsk-4-0427	new-hsk-4-0427-ex3	427	我们一起咳。	Let's to cough together.	new-hsk-4-0427::new-hsk-4-0427-ex3; new-hsk-4-0428::new-hsk-4-0428-ex3
+cross_word_duplicate_translation	new-hsk-4-0428	new-hsk-4-0428-ex1	428	我想咳嗽。	I want to to cough.	new-hsk-4-0427::new-hsk-4-0427-ex1; new-hsk-4-0428::new-hsk-4-0428-ex1
+cross_word_duplicate_translation	new-hsk-4-0428	new-hsk-4-0428-ex2	428	请先咳嗽。	Please to cough first.	new-hsk-4-0427::new-hsk-4-0427-ex2; new-hsk-4-0428::new-hsk-4-0428-ex2
+cross_word_duplicate_translation	new-hsk-4-0428	new-hsk-4-0428-ex3	428	我们一起咳嗽。	Let's to cough together.	new-hsk-4-0427::new-hsk-4-0427-ex3; new-hsk-4-0428::new-hsk-4-0428-ex3
+missing_lemma	new-hsk-4-0436	new-hsk-4-0436-ex1	436	你或者我去。	Either you or I will go.	Example does not visibly contain the target display form or any accepted variant.
+cross_word_duplicate_sentence	new-hsk-4-0436	new-hsk-4-0436-ex1	436	你或者我去。	Either you or I will go.	new-hsk-4-0436::new-hsk-4-0436-ex1; new-hsk-4-0492::new-hsk-4-0492-ex1; new-hsk-4-0670::new-hsk-4-0670-ex1
+cross_word_duplicate_translation	new-hsk-4-0436	new-hsk-4-0436-ex1	436	你或者我去。	Either you or I will go.	new-hsk-4-0436::new-hsk-4-0436-ex1; new-hsk-4-0492::new-hsk-4-0492-ex1; new-hsk-4-0670::new-hsk-4-0670-ex1
+missing_lemma	new-hsk-4-0436	new-hsk-4-0436-ex2	436	我们明天或者后天去。	We will go tomorrow or the day after tomorrow.	Example does not visibly contain the target display form or any accepted variant.
+cross_word_duplicate_sentence	new-hsk-4-0436	new-hsk-4-0436-ex2	436	我们明天或者后天去。	We will go tomorrow or the day after tomorrow.	new-hsk-4-0436::new-hsk-4-0436-ex2; new-hsk-4-0492::new-hsk-4-0492-ex2; new-hsk-4-0670::new-hsk-4-0670-ex2
+cross_word_duplicate_translation	new-hsk-4-0436	new-hsk-4-0436-ex2	436	我们明天或者后天去。	We will go tomorrow or the day after tomorrow.	new-hsk-4-0436::new-hsk-4-0436-ex2; new-hsk-4-0492::new-hsk-4-0492-ex2; new-hsk-4-0670::new-hsk-4-0670-ex2
+missing_lemma	new-hsk-4-0436	new-hsk-4-0436-ex3	436	你想喝茶或者咖啡？	Do you want tea or coffee?	Example does not visibly contain the target display form or any accepted variant.
+cross_word_duplicate_sentence	new-hsk-4-0436	new-hsk-4-0436-ex3	436	你想喝茶或者咖啡？	Do you want tea or coffee?	new-hsk-4-0436::new-hsk-4-0436-ex3; new-hsk-4-0492::new-hsk-4-0492-ex3; new-hsk-4-0670::new-hsk-4-0670-ex3
+cross_word_duplicate_translation	new-hsk-4-0436	new-hsk-4-0436-ex3	436	你想喝茶或者咖啡？	Do you want tea or coffee?	new-hsk-4-0436::new-hsk-4-0436-ex3; new-hsk-4-0492::new-hsk-4-0492-ex3; new-hsk-4-0670::new-hsk-4-0670-ex3
+cross_word_duplicate_translation	new-hsk-4-0456	new-hsk-4-0456-ex1	456	这个老家很重要。	This hometown is very important.	new-hsk-4-0341::new-hsk-4-0341-ex1; new-hsk-4-0456::new-hsk-4-0456-ex1
+cross_word_duplicate_translation	new-hsk-4-0456	new-hsk-4-0456-ex2	456	老师解释了老家。	The teacher explained the hometown.	new-hsk-4-0341::new-hsk-4-0341-ex2; new-hsk-4-0456::new-hsk-4-0456-ex2
+cross_word_duplicate_translation	new-hsk-4-0456	new-hsk-4-0456-ex3	456	我在学习老家。	I am learning about the hometown.	new-hsk-4-0341::new-hsk-4-0341-ex3; new-hsk-4-0456::new-hsk-4-0456-ex3
+missing_lemma	new-hsk-4-0492	new-hsk-4-0492-ex1	492	你或者我去。	Either you or I will go.	Example does not visibly contain the target display form or any accepted variant.
+cross_word_duplicate_sentence	new-hsk-4-0492	new-hsk-4-0492-ex1	492	你或者我去。	Either you or I will go.	new-hsk-4-0436::new-hsk-4-0436-ex1; new-hsk-4-0492::new-hsk-4-0492-ex1; new-hsk-4-0670::new-hsk-4-0670-ex1
+cross_word_duplicate_translation	new-hsk-4-0492	new-hsk-4-0492-ex1	492	你或者我去。	Either you or I will go.	new-hsk-4-0436::new-hsk-4-0436-ex1; new-hsk-4-0492::new-hsk-4-0492-ex1; new-hsk-4-0670::new-hsk-4-0670-ex1
+missing_lemma	new-hsk-4-0492	new-hsk-4-0492-ex2	492	我们明天或者后天去。	We will go tomorrow or the day after tomorrow.	Example does not visibly contain the target display form or any accepted variant.
+cross_word_duplicate_sentence	new-hsk-4-0492	new-hsk-4-0492-ex2	492	我们明天或者后天去。	We will go tomorrow or the day after tomorrow.	new-hsk-4-0436::new-hsk-4-0436-ex2; new-hsk-4-0492::new-hsk-4-0492-ex2; new-hsk-4-0670::new-hsk-4-0670-ex2
+cross_word_duplicate_translation	new-hsk-4-0492	new-hsk-4-0492-ex2	492	我们明天或者后天去。	We will go tomorrow or the day after tomorrow.	new-hsk-4-0436::new-hsk-4-0436-ex2; new-hsk-4-0492::new-hsk-4-0492-ex2; new-hsk-4-0670::new-hsk-4-0670-ex2
+missing_lemma	new-hsk-4-0492	new-hsk-4-0492-ex3	492	你想喝茶或者咖啡？	Do you want tea or coffee?	Example does not visibly contain the target display form or any accepted variant.
+cross_word_duplicate_sentence	new-hsk-4-0492	new-hsk-4-0492-ex3	492	你想喝茶或者咖啡？	Do you want tea or coffee?	new-hsk-4-0436::new-hsk-4-0436-ex3; new-hsk-4-0492::new-hsk-4-0492-ex3; new-hsk-4-0670::new-hsk-4-0670-ex3
+cross_word_duplicate_translation	new-hsk-4-0492	new-hsk-4-0492-ex3	492	你想喝茶或者咖啡？	Do you want tea or coffee?	new-hsk-4-0436::new-hsk-4-0436-ex3; new-hsk-4-0492::new-hsk-4-0492-ex3; new-hsk-4-0670::new-hsk-4-0670-ex3
+cross_word_duplicate_translation	new-hsk-4-0500	new-hsk-4-0500-ex1	500	这个书很美。	This 书 is very beautiful.	new-hsk-4-0500::new-hsk-4-0500-ex1; new-hsk-4-0501::new-hsk-4-0501-ex1; new-hsk-4-0503::new-hsk-4-0503-ex1
+cross_word_duplicate_translation	new-hsk-4-0500	new-hsk-4-0500-ex2	500	我觉得这个地方很美。	I think this place is very beautiful.	new-hsk-4-0500::new-hsk-4-0500-ex2; new-hsk-4-0501::new-hsk-4-0501-ex2; new-hsk-4-0503::new-hsk-4-0503-ex2
+cross_word_duplicate_translation	new-hsk-4-0500	new-hsk-4-0500-ex3	500	今天比昨天更美。	Today is beautifuler than yesterday.	new-hsk-4-0500::new-hsk-4-0500-ex3; new-hsk-4-0501::new-hsk-4-0501-ex3; new-hsk-4-0503::new-hsk-4-0503-ex3
+cross_word_duplicate_translation	new-hsk-4-0501	new-hsk-4-0501-ex1	501	这个书很美好。	This 书 is very beautiful.	new-hsk-4-0500::new-hsk-4-0500-ex1; new-hsk-4-0501::new-hsk-4-0501-ex1; new-hsk-4-0503::new-hsk-4-0503-ex1
+cross_word_duplicate_translation	new-hsk-4-0501	new-hsk-4-0501-ex2	501	我觉得这个地方很美好。	I think this place is very beautiful.	new-hsk-4-0500::new-hsk-4-0500-ex2; new-hsk-4-0501::new-hsk-4-0501-ex2; new-hsk-4-0503::new-hsk-4-0503-ex2
+cross_word_duplicate_translation	new-hsk-4-0501	new-hsk-4-0501-ex3	501	今天比昨天更美好。	Today is beautifuler than yesterday.	new-hsk-4-0500::new-hsk-4-0500-ex3; new-hsk-4-0501::new-hsk-4-0501-ex3; new-hsk-4-0503::new-hsk-4-0503-ex3
+cross_word_duplicate_translation	new-hsk-4-0503	new-hsk-4-0503-ex1	503	这个书很美丽。	This 书 is very beautiful.	new-hsk-4-0500::new-hsk-4-0500-ex1; new-hsk-4-0501::new-hsk-4-0501-ex1; new-hsk-4-0503::new-hsk-4-0503-ex1
+cross_word_duplicate_translation	new-hsk-4-0503	new-hsk-4-0503-ex2	503	我觉得这个地方很美丽。	I think this place is very beautiful.	new-hsk-4-0500::new-hsk-4-0500-ex2; new-hsk-4-0501::new-hsk-4-0501-ex2; new-hsk-4-0503::new-hsk-4-0503-ex2
+cross_word_duplicate_translation	new-hsk-4-0503	new-hsk-4-0503-ex3	503	今天比昨天更美丽。	Today is beautifuler than yesterday.	new-hsk-4-0500::new-hsk-4-0500-ex3; new-hsk-4-0501::new-hsk-4-0501-ex3; new-hsk-4-0503::new-hsk-4-0503-ex3
+cross_word_duplicate_translation	new-hsk-4-0506	new-hsk-4-0506-ex1	506	我想梦想。	I want to to dream.	new-hsk-4-0506::new-hsk-4-0506-ex1; new-hsk-4-0994::new-hsk-4-0994-ex1
+cross_word_duplicate_translation	new-hsk-4-0506	new-hsk-4-0506-ex2	506	请先梦想。	Please to dream first.	new-hsk-4-0506::new-hsk-4-0506-ex2; new-hsk-4-0994::new-hsk-4-0994-ex2
+cross_word_duplicate_translation	new-hsk-4-0506	new-hsk-4-0506-ex3	506	我们一起梦想。	Let's to dream together.	new-hsk-4-0506::new-hsk-4-0506-ex3; new-hsk-4-0994::new-hsk-4-0994-ex3
+cross_word_duplicate_translation	new-hsk-4-0603	new-hsk-4-0603-ex1	603	我想缺。	I want to to lack.	new-hsk-4-0603::new-hsk-4-0603-ex1; new-hsk-4-0605::new-hsk-4-0605-ex1
+cross_word_duplicate_translation	new-hsk-4-0603	new-hsk-4-0603-ex2	603	请先缺。	Please to lack first.	new-hsk-4-0603::new-hsk-4-0603-ex2; new-hsk-4-0605::new-hsk-4-0605-ex2
+cross_word_duplicate_translation	new-hsk-4-0603	new-hsk-4-0603-ex3	603	我们一起缺。	Let's to lack together.	new-hsk-4-0603::new-hsk-4-0603-ex3; new-hsk-4-0605::new-hsk-4-0605-ex3
+cross_word_duplicate_translation	new-hsk-4-0605	new-hsk-4-0605-ex1	605	我想缺少。	I want to to lack.	new-hsk-4-0603::new-hsk-4-0603-ex1; new-hsk-4-0605::new-hsk-4-0605-ex1
+cross_word_duplicate_translation	new-hsk-4-0605	new-hsk-4-0605-ex2	605	请先缺少。	Please to lack first.	new-hsk-4-0603::new-hsk-4-0603-ex2; new-hsk-4-0605::new-hsk-4-0605-ex2
+cross_word_duplicate_translation	new-hsk-4-0605	new-hsk-4-0605-ex3	605	我们一起缺少。	Let's to lack together.	new-hsk-4-0603::new-hsk-4-0603-ex3; new-hsk-4-0605::new-hsk-4-0605-ex3
+cross_word_duplicate_translation	new-hsk-4-0610	new-hsk-4-0610-ex1	610	这个人生很重要。	This life is very important.	new-hsk-4-0610::new-hsk-4-0610-ex1; new-hsk-4-0648::new-hsk-4-0648-ex1
+cross_word_duplicate_translation	new-hsk-4-0610	new-hsk-4-0610-ex2	610	老师解释了人生。	The teacher explained the life.	new-hsk-4-0610::new-hsk-4-0610-ex2; new-hsk-4-0648::new-hsk-4-0648-ex2
+cross_word_duplicate_translation	new-hsk-4-0610	new-hsk-4-0610-ex3	610	我在学习人生。	I am learning about the life.	new-hsk-4-0610::new-hsk-4-0610-ex3; new-hsk-4-0648::new-hsk-4-0648-ex3
+cross_word_duplicate_translation	new-hsk-4-0614	new-hsk-4-0614-ex2	614	这个任务很重要。	This task is very important.	new-hsk-4-0614::new-hsk-4-0614-ex2; new-hsk-4-0810::new-hsk-4-0810-ex1
+cross_word_duplicate_translation	new-hsk-4-0616	new-hsk-4-0616-ex1	616	他仍来了。	He still came.	new-hsk-4-0616::new-hsk-4-0616-ex1; new-hsk-4-0617::new-hsk-4-0617-ex1
+cross_word_duplicate_translation	new-hsk-4-0616	new-hsk-4-0616-ex2	616	我仍知道了。	I now know still.	new-hsk-4-0616::new-hsk-4-0616-ex2; new-hsk-4-0617::new-hsk-4-0617-ex2
+cross_word_duplicate_translation	new-hsk-4-0616	new-hsk-4-0616-ex3	616	今天仍很重要。	Today still is very important.	new-hsk-4-0616::new-hsk-4-0616-ex3; new-hsk-4-0617::new-hsk-4-0617-ex3
+cross_word_duplicate_translation	new-hsk-4-0617	new-hsk-4-0617-ex1	617	他仍然来了。	He still came.	new-hsk-4-0616::new-hsk-4-0616-ex1; new-hsk-4-0617::new-hsk-4-0617-ex1
+cross_word_duplicate_translation	new-hsk-4-0617	new-hsk-4-0617-ex2	617	我仍然知道了。	I now know still.	new-hsk-4-0616::new-hsk-4-0616-ex2; new-hsk-4-0617::new-hsk-4-0617-ex2
+cross_word_duplicate_translation	new-hsk-4-0617	new-hsk-4-0617-ex3	617	今天仍然很重要。	Today still is very important.	new-hsk-4-0616::new-hsk-4-0616-ex3; new-hsk-4-0617::new-hsk-4-0617-ex3
+cross_word_duplicate_sentence	new-hsk-4-0622	new-hsk-4-0622-ex1	622	请进入房间。	Please enter the room.	new-hsk-4-0392::new-hsk-4-0392-ex1; new-hsk-4-0622::new-hsk-4-0622-ex1; new-hsk-4-0624::new-hsk-4-0624-ex1
+cross_word_duplicate_translation	new-hsk-4-0622	new-hsk-4-0622-ex1	622	请进入房间。	Please enter the room.	new-hsk-4-0392::new-hsk-4-0392-ex1; new-hsk-4-0622::new-hsk-4-0622-ex1; new-hsk-4-0624::new-hsk-4-0624-ex1
+cross_word_duplicate_sentence	new-hsk-4-0622	new-hsk-4-0622-ex2	622	学生进入学校。	The students enter the school.	new-hsk-4-0392::new-hsk-4-0392-ex2; new-hsk-4-0622::new-hsk-4-0622-ex2; new-hsk-4-0624::new-hsk-4-0624-ex2
+cross_word_duplicate_translation	new-hsk-4-0622	new-hsk-4-0622-ex2	622	学生进入学校。	The students enter the school.	new-hsk-4-0622::new-hsk-4-0622-ex2; new-hsk-4-0624::new-hsk-4-0624-ex2
+cross_word_duplicate_translation	new-hsk-4-0622	new-hsk-4-0622-ex3	622	我知道入。	I know to enter.	new-hsk-4-0392::new-hsk-4-0392-ex3; new-hsk-4-0622::new-hsk-4-0622-ex3
+missing_lemma	new-hsk-4-0624	new-hsk-4-0624-ex1	624	请进入房间。	Please enter the room.	Example does not visibly contain the target display form or any accepted variant.
+cross_word_duplicate_sentence	new-hsk-4-0624	new-hsk-4-0624-ex1	624	请进入房间。	Please enter the room.	new-hsk-4-0392::new-hsk-4-0392-ex1; new-hsk-4-0622::new-hsk-4-0622-ex1; new-hsk-4-0624::new-hsk-4-0624-ex1
+cross_word_duplicate_translation	new-hsk-4-0624	new-hsk-4-0624-ex1	624	请进入房间。	Please enter the room.	new-hsk-4-0392::new-hsk-4-0392-ex1; new-hsk-4-0622::new-hsk-4-0622-ex1; new-hsk-4-0624::new-hsk-4-0624-ex1
+cross_word_duplicate_sentence	new-hsk-4-0624	new-hsk-4-0624-ex2	624	学生进入学校。	The students enter the school.	new-hsk-4-0392::new-hsk-4-0392-ex2; new-hsk-4-0622::new-hsk-4-0622-ex2; new-hsk-4-0624::new-hsk-4-0624-ex2
+cross_word_duplicate_translation	new-hsk-4-0624	new-hsk-4-0624-ex2	624	学生进入学校。	The students enter the school.	new-hsk-4-0622::new-hsk-4-0622-ex2; new-hsk-4-0624::new-hsk-4-0624-ex2
+cross_word_duplicate_translation	new-hsk-4-0633	new-hsk-4-0633-ex1	633	他稍来了。	He a little came.	new-hsk-4-0633::new-hsk-4-0633-ex1; new-hsk-4-0634::new-hsk-4-0634-ex1
+cross_word_duplicate_translation	new-hsk-4-0633	new-hsk-4-0633-ex2	633	我稍知道了。	I now know a little.	new-hsk-4-0633::new-hsk-4-0633-ex2; new-hsk-4-0634::new-hsk-4-0634-ex2
+cross_word_duplicate_translation	new-hsk-4-0633	new-hsk-4-0633-ex3	633	今天稍很重要。	Today a little is very important.	new-hsk-4-0633::new-hsk-4-0633-ex3; new-hsk-4-0634::new-hsk-4-0634-ex3
+cross_word_duplicate_translation	new-hsk-4-0634	new-hsk-4-0634-ex1	634	他稍微来了。	He a little came.	new-hsk-4-0633::new-hsk-4-0633-ex1; new-hsk-4-0634::new-hsk-4-0634-ex1
+cross_word_duplicate_translation	new-hsk-4-0634	new-hsk-4-0634-ex2	634	我稍微知道了。	I now know a little.	new-hsk-4-0633::new-hsk-4-0633-ex2; new-hsk-4-0634::new-hsk-4-0634-ex2
+cross_word_duplicate_translation	new-hsk-4-0634	new-hsk-4-0634-ex3	634	今天稍微很重要。	Today a little is very important.	new-hsk-4-0633::new-hsk-4-0633-ex3; new-hsk-4-0634::new-hsk-4-0634-ex3
+cross_word_duplicate_translation	new-hsk-4-0643	new-hsk-4-0643-ex1	643	这个身份证很重要。	This ID card is very important.	new-hsk-4-0643::new-hsk-4-0643-ex1; new-hsk-4-0934::new-hsk-4-0934-ex1
+cross_word_duplicate_translation	new-hsk-4-0643	new-hsk-4-0643-ex2	643	老师解释了身份证。	The teacher explained the ID card.	new-hsk-4-0643::new-hsk-4-0643-ex2; new-hsk-4-0934::new-hsk-4-0934-ex2
+cross_word_duplicate_translation	new-hsk-4-0643	new-hsk-4-0643-ex3	643	我在学习身份证。	I am learning about the ID card.	new-hsk-4-0643::new-hsk-4-0643-ex3; new-hsk-4-0934::new-hsk-4-0934-ex3
+cross_word_duplicate_translation	new-hsk-4-0648	new-hsk-4-0648-ex1	648	这个生命很重要。	This life is very important.	new-hsk-4-0610::new-hsk-4-0610-ex1; new-hsk-4-0648::new-hsk-4-0648-ex1
+cross_word_duplicate_translation	new-hsk-4-0648	new-hsk-4-0648-ex2	648	老师解释了生命。	The teacher explained the life.	new-hsk-4-0610::new-hsk-4-0610-ex2; new-hsk-4-0648::new-hsk-4-0648-ex2
+cross_word_duplicate_translation	new-hsk-4-0648	new-hsk-4-0648-ex3	648	我在学习生命。	I am learning about the life.	new-hsk-4-0610::new-hsk-4-0610-ex3; new-hsk-4-0648::new-hsk-4-0648-ex3
+cross_word_duplicate_translation	new-hsk-4-0654	new-hsk-4-0654-ex1	654	我想失去。	I want to to lose.	new-hsk-4-0654::new-hsk-4-0654-ex1; new-hsk-4-0687::new-hsk-4-0687-ex1
+cross_word_duplicate_translation	new-hsk-4-0654	new-hsk-4-0654-ex2	654	请先失去。	Please to lose first.	new-hsk-4-0654::new-hsk-4-0654-ex2; new-hsk-4-0687::new-hsk-4-0687-ex2
+cross_word_duplicate_translation	new-hsk-4-0654	new-hsk-4-0654-ex3	654	我们一起失去。	Let's to lose together.	new-hsk-4-0654::new-hsk-4-0654-ex3; new-hsk-4-0687::new-hsk-4-0687-ex3
+missing_lemma	new-hsk-4-0660	new-hsk-4-0660-ex1	660	你究竟想说什么？	What on earth do you actually want to say?	Example does not visibly contain the target display form or any accepted variant.
+cross_word_duplicate_sentence	new-hsk-4-0660	new-hsk-4-0660-ex1	660	你究竟想说什么？	What on earth do you actually want to say?	new-hsk-4-0407::new-hsk-4-0407-ex1; new-hsk-4-0660::new-hsk-4-0660-ex1
+cross_word_duplicate_translation	new-hsk-4-0660	new-hsk-4-0660-ex1	660	你究竟想说什么？	What on earth do you actually want to say?	new-hsk-4-0407::new-hsk-4-0407-ex1; new-hsk-4-0660::new-hsk-4-0660-ex1
+missing_lemma	new-hsk-4-0660	new-hsk-4-0660-ex2	660	这究竟是什么问题？	What on earth is this problem exactly?	Example does not visibly contain the target display form or any accepted variant.
+cross_word_duplicate_sentence	new-hsk-4-0660	new-hsk-4-0660-ex2	660	这究竟是什么问题？	What on earth is this problem exactly?	new-hsk-4-0407::new-hsk-4-0407-ex2; new-hsk-4-0660::new-hsk-4-0660-ex2
+cross_word_duplicate_translation	new-hsk-4-0660	new-hsk-4-0660-ex2	660	这究竟是什么问题？	What on earth is this problem exactly?	new-hsk-4-0407::new-hsk-4-0407-ex2; new-hsk-4-0660::new-hsk-4-0660-ex2
+missing_lemma	new-hsk-4-0660	new-hsk-4-0660-ex3	660	事情究竟怎么样了？	How did things actually turn out?	Example does not visibly contain the target display form or any accepted variant.
+cross_word_duplicate_sentence	new-hsk-4-0660	new-hsk-4-0660-ex3	660	事情究竟怎么样了？	How did things actually turn out?	new-hsk-4-0407::new-hsk-4-0407-ex3; new-hsk-4-0660::new-hsk-4-0660-ex3
+cross_word_duplicate_translation	new-hsk-4-0660	new-hsk-4-0660-ex3	660	事情究竟怎么样了？	How did things actually turn out?	new-hsk-4-0407::new-hsk-4-0407-ex3; new-hsk-4-0660::new-hsk-4-0660-ex3
+cross_word_duplicate_translation	new-hsk-4-0661	new-hsk-4-0661-ex1	661	这个食品很重要。	This food is very important.	new-hsk-4-0661::new-hsk-4-0661-ex1; new-hsk-4-0663::new-hsk-4-0663-ex1
+cross_word_duplicate_translation	new-hsk-4-0661	new-hsk-4-0661-ex2	661	老师解释了食品。	The teacher explained the food.	new-hsk-4-0661::new-hsk-4-0661-ex2; new-hsk-4-0663::new-hsk-4-0663-ex2
+cross_word_duplicate_translation	new-hsk-4-0661	new-hsk-4-0661-ex3	661	我在学习食品。	I am learning about the food.	new-hsk-4-0661::new-hsk-4-0661-ex3; new-hsk-4-0663::new-hsk-4-0663-ex3
+cross_word_duplicate_translation	new-hsk-4-0663	new-hsk-4-0663-ex1	663	这个食物很重要。	This food is very important.	new-hsk-4-0661::new-hsk-4-0661-ex1; new-hsk-4-0663::new-hsk-4-0663-ex1
+cross_word_duplicate_translation	new-hsk-4-0663	new-hsk-4-0663-ex2	663	老师解释了食物。	The teacher explained the food.	new-hsk-4-0661::new-hsk-4-0661-ex2; new-hsk-4-0663::new-hsk-4-0663-ex2
+cross_word_duplicate_translation	new-hsk-4-0663	new-hsk-4-0663-ex3	663	我在学习食物。	I am learning about the food.	new-hsk-4-0661::new-hsk-4-0661-ex3; new-hsk-4-0663::new-hsk-4-0663-ex3
+missing_lemma	new-hsk-4-0670	new-hsk-4-0670-ex1	670	你或者我去。	Either you or I will go.	Example does not visibly contain the target display form or any accepted variant.
+cross_word_duplicate_sentence	new-hsk-4-0670	new-hsk-4-0670-ex1	670	你或者我去。	Either you or I will go.	new-hsk-4-0436::new-hsk-4-0436-ex1; new-hsk-4-0492::new-hsk-4-0492-ex1; new-hsk-4-0670::new-hsk-4-0670-ex1
+cross_word_duplicate_translation	new-hsk-4-0670	new-hsk-4-0670-ex1	670	你或者我去。	Either you or I will go.	new-hsk-4-0436::new-hsk-4-0436-ex1; new-hsk-4-0492::new-hsk-4-0492-ex1; new-hsk-4-0670::new-hsk-4-0670-ex1
+missing_lemma	new-hsk-4-0670	new-hsk-4-0670-ex2	670	我们明天或者后天去。	We will go tomorrow or the day after tomorrow.	Example does not visibly contain the target display form or any accepted variant.
+cross_word_duplicate_sentence	new-hsk-4-0670	new-hsk-4-0670-ex2	670	我们明天或者后天去。	We will go tomorrow or the day after tomorrow.	new-hsk-4-0436::new-hsk-4-0436-ex2; new-hsk-4-0492::new-hsk-4-0492-ex2; new-hsk-4-0670::new-hsk-4-0670-ex2
+cross_word_duplicate_translation	new-hsk-4-0670	new-hsk-4-0670-ex2	670	我们明天或者后天去。	We will go tomorrow or the day after tomorrow.	new-hsk-4-0436::new-hsk-4-0436-ex2; new-hsk-4-0492::new-hsk-4-0492-ex2; new-hsk-4-0670::new-hsk-4-0670-ex2
+missing_lemma	new-hsk-4-0670	new-hsk-4-0670-ex3	670	你想喝茶或者咖啡？	Do you want tea or coffee?	Example does not visibly contain the target display form or any accepted variant.
+cross_word_duplicate_sentence	new-hsk-4-0670	new-hsk-4-0670-ex3	670	你想喝茶或者咖啡？	Do you want tea or coffee?	new-hsk-4-0436::new-hsk-4-0436-ex3; new-hsk-4-0492::new-hsk-4-0492-ex3; new-hsk-4-0670::new-hsk-4-0670-ex3
+cross_word_duplicate_translation	new-hsk-4-0670	new-hsk-4-0670-ex3	670	你想喝茶或者咖啡？	Do you want tea or coffee?	new-hsk-4-0436::new-hsk-4-0436-ex3; new-hsk-4-0492::new-hsk-4-0492-ex3; new-hsk-4-0670::new-hsk-4-0670-ex3
+missing_lemma	new-hsk-4-0678	new-hsk-4-0678-ex1	678	老师接受了我的建议。	The teacher accepted my suggestion.	Example does not visibly contain the target display form or any accepted variant.
+cross_word_duplicate_sentence	new-hsk-4-0678	new-hsk-4-0678-ex1	678	老师接受了我的建议。	The teacher accepted my suggestion.	new-hsk-4-0380::new-hsk-4-0380-ex1; new-hsk-4-0678::new-hsk-4-0678-ex1
+cross_word_duplicate_translation	new-hsk-4-0678	new-hsk-4-0678-ex1	678	老师接受了我的建议。	The teacher accepted my suggestion.	new-hsk-4-0380::new-hsk-4-0380-ex1; new-hsk-4-0678::new-hsk-4-0678-ex1
+missing_lemma	new-hsk-4-0678	new-hsk-4-0678-ex2	678	我接受这个礼物。	I accept this gift.	Example does not visibly contain the target display form or any accepted variant.
+cross_word_duplicate_sentence	new-hsk-4-0678	new-hsk-4-0678-ex2	678	我接受这个礼物。	I accept this gift.	new-hsk-4-0380::new-hsk-4-0380-ex2; new-hsk-4-0678::new-hsk-4-0678-ex2
+cross_word_duplicate_translation	new-hsk-4-0678	new-hsk-4-0678-ex2	678	我接受这个礼物。	I accept this gift.	new-hsk-4-0380::new-hsk-4-0380-ex2; new-hsk-4-0678::new-hsk-4-0678-ex2
+missing_lemma	new-hsk-4-0678	new-hsk-4-0678-ex3	678	他接受了这个工作。	He accepted this job.	Example does not visibly contain the target display form or any accepted variant.
+cross_word_duplicate_sentence	new-hsk-4-0678	new-hsk-4-0678-ex3	678	他接受了这个工作。	He accepted this job.	new-hsk-4-0380::new-hsk-4-0380-ex3; new-hsk-4-0678::new-hsk-4-0678-ex3
+cross_word_duplicate_translation	new-hsk-4-0678	new-hsk-4-0678-ex3	678	他接受了这个工作。	He accepted this job.	new-hsk-4-0380::new-hsk-4-0380-ex3; new-hsk-4-0678::new-hsk-4-0678-ex3
+cross_word_duplicate_translation	new-hsk-4-0687	new-hsk-4-0687-ex1	687	我想输。	I want to to lose.	new-hsk-4-0654::new-hsk-4-0654-ex1; new-hsk-4-0687::new-hsk-4-0687-ex1
+cross_word_duplicate_translation	new-hsk-4-0687	new-hsk-4-0687-ex2	687	请先输。	Please to lose first.	new-hsk-4-0654::new-hsk-4-0654-ex2; new-hsk-4-0687::new-hsk-4-0687-ex2
+cross_word_duplicate_translation	new-hsk-4-0687	new-hsk-4-0687-ex3	687	我们一起输。	Let's to lose together.	new-hsk-4-0654::new-hsk-4-0654-ex3; new-hsk-4-0687::new-hsk-4-0687-ex3
+missing_lemma	new-hsk-4-0700	new-hsk-4-0700-ex1	700	老师解释了这个问题。	The teacher explained this problem.	Example does not visibly contain the target display form or any accepted variant.
+cross_word_duplicate_sentence	new-hsk-4-0700	new-hsk-4-0700-ex1	700	老师解释了这个问题。	The teacher explained this problem.	new-hsk-4-0386::new-hsk-4-0386-ex1; new-hsk-4-0700::new-hsk-4-0700-ex1
+cross_word_duplicate_translation	new-hsk-4-0700	new-hsk-4-0700-ex1	700	老师解释了这个问题。	The teacher explained this problem.	new-hsk-4-0386::new-hsk-4-0386-ex1; new-hsk-4-0700::new-hsk-4-0700-ex1
+missing_lemma	new-hsk-4-0700	new-hsk-4-0700-ex2	700	你能再解释一次吗？	Can you explain it once more?	Example does not visibly contain the target display form or any accepted variant.
+cross_word_duplicate_sentence	new-hsk-4-0700	new-hsk-4-0700-ex2	700	你能再解释一次吗？	Can you explain it once more?	new-hsk-4-0386::new-hsk-4-0386-ex2; new-hsk-4-0700::new-hsk-4-0700-ex2
+cross_word_duplicate_translation	new-hsk-4-0700	new-hsk-4-0700-ex2	700	你能再解释一次吗？	Can you explain it once more?	new-hsk-4-0386::new-hsk-4-0386-ex2; new-hsk-4-0700::new-hsk-4-0700-ex2
+missing_lemma	new-hsk-4-0700	new-hsk-4-0700-ex3	700	请你解释一下原因。	Please explain the reason.	Example does not visibly contain the target display form or any accepted variant.
+cross_word_duplicate_sentence	new-hsk-4-0700	new-hsk-4-0700-ex3	700	请你解释一下原因。	Please explain the reason.	new-hsk-4-0386::new-hsk-4-0386-ex3; new-hsk-4-0700::new-hsk-4-0700-ex3
+cross_word_duplicate_translation	new-hsk-4-0700	new-hsk-4-0700-ex3	700	请你解释一下原因。	Please explain the reason.	new-hsk-4-0386::new-hsk-4-0386-ex3; new-hsk-4-0700::new-hsk-4-0700-ex3
+cross_word_duplicate_translation	new-hsk-4-0866	new-hsk-4-0866-ex1	866	他已来了。	He already came.	new-hsk-4-0327::new-hsk-4-0327-ex1; new-hsk-4-0866::new-hsk-4-0866-ex1
+cross_word_duplicate_translation	new-hsk-4-0866	new-hsk-4-0866-ex2	866	我已知道了。	I now know already.	new-hsk-4-0327::new-hsk-4-0327-ex2; new-hsk-4-0866::new-hsk-4-0866-ex2
+cross_word_duplicate_translation	new-hsk-4-0866	new-hsk-4-0866-ex3	866	今天已很重要。	Today already is very important.	new-hsk-4-0327::new-hsk-4-0327-ex3; new-hsk-4-0866::new-hsk-4-0866-ex3
+cross_word_duplicate_translation	new-hsk-4-0875	new-hsk-4-0875-ex1	875	我想赢得。	I want to gain.	new-hsk-4-0318::new-hsk-4-0318-ex1; new-hsk-4-0875::new-hsk-4-0875-ex1
+cross_word_duplicate_translation	new-hsk-4-0875	new-hsk-4-0875-ex2	875	请先赢得。	Please gain first.	new-hsk-4-0318::new-hsk-4-0318-ex2; new-hsk-4-0875::new-hsk-4-0875-ex2
+cross_word_duplicate_translation	new-hsk-4-0875	new-hsk-4-0875-ex3	875	我们一起赢得。	Let's gain together.	new-hsk-4-0318::new-hsk-4-0318-ex3; new-hsk-4-0875::new-hsk-4-0875-ex3
+cross_word_duplicate_translation	new-hsk-4-0879	new-hsk-4-0879-ex1	879	我想用来。	I want to to be used for.	new-hsk-4-0879::new-hsk-4-0879-ex1; new-hsk-4-0880::new-hsk-4-0880-ex1
+cross_word_duplicate_translation	new-hsk-4-0879	new-hsk-4-0879-ex2	879	请先用来。	Please to be used for first.	new-hsk-4-0879::new-hsk-4-0879-ex2; new-hsk-4-0880::new-hsk-4-0880-ex2
+cross_word_duplicate_translation	new-hsk-4-0879	new-hsk-4-0879-ex3	879	我们一起用来。	Let's to be used for together.	new-hsk-4-0879::new-hsk-4-0879-ex3; new-hsk-4-0880::new-hsk-4-0880-ex3
+cross_word_duplicate_translation	new-hsk-4-0880	new-hsk-4-0880-ex1	880	我想用于。	I want to to be used for.	new-hsk-4-0879::new-hsk-4-0879-ex1; new-hsk-4-0880::new-hsk-4-0880-ex1
+cross_word_duplicate_translation	new-hsk-4-0880	new-hsk-4-0880-ex2	880	请先用于。	Please to be used for first.	new-hsk-4-0879::new-hsk-4-0879-ex2; new-hsk-4-0880::new-hsk-4-0880-ex2
+cross_word_duplicate_translation	new-hsk-4-0880	new-hsk-4-0880-ex3	880	我们一起用于。	Let's to be used for together.	new-hsk-4-0879::new-hsk-4-0879-ex3; new-hsk-4-0880::new-hsk-4-0880-ex3
+cross_word_duplicate_translation	new-hsk-4-0890	new-hsk-4-0890-ex1	890	这个友情很重要。	This friendship is very important.	new-hsk-4-0890::new-hsk-4-0890-ex1; new-hsk-4-0893::new-hsk-4-0893-ex1
+cross_word_duplicate_translation	new-hsk-4-0890	new-hsk-4-0890-ex2	890	老师解释了友情。	The teacher explained the friendship.	new-hsk-4-0890::new-hsk-4-0890-ex2; new-hsk-4-0893::new-hsk-4-0893-ex2
+cross_word_duplicate_translation	new-hsk-4-0890	new-hsk-4-0890-ex3	890	我在学习友情。	I am learning about the friendship.	new-hsk-4-0890::new-hsk-4-0890-ex3; new-hsk-4-0893::new-hsk-4-0893-ex3
+cross_word_duplicate_translation	new-hsk-4-0893	new-hsk-4-0893-ex1	893	这个友谊很重要。	This friendship is very important.	new-hsk-4-0890::new-hsk-4-0890-ex1; new-hsk-4-0893::new-hsk-4-0893-ex1
+cross_word_duplicate_translation	new-hsk-4-0893	new-hsk-4-0893-ex2	893	老师解释了友谊。	The teacher explained the friendship.	new-hsk-4-0890::new-hsk-4-0890-ex2; new-hsk-4-0893::new-hsk-4-0893-ex2
+cross_word_duplicate_translation	new-hsk-4-0893	new-hsk-4-0893-ex3	893	我在学习友谊。	I am learning about the friendship.	new-hsk-4-0890::new-hsk-4-0890-ex3; new-hsk-4-0893::new-hsk-4-0893-ex3
+cross_word_duplicate_translation	new-hsk-4-0921	new-hsk-4-0921-ex1	921	我想增加。	I want to to increase.	new-hsk-4-0921::new-hsk-4-0921-ex1; new-hsk-4-0922::new-hsk-4-0922-ex1
+cross_word_duplicate_translation	new-hsk-4-0921	new-hsk-4-0921-ex2	921	请先增加。	Please to increase first.	new-hsk-4-0921::new-hsk-4-0921-ex2; new-hsk-4-0922::new-hsk-4-0922-ex2
+cross_word_duplicate_translation	new-hsk-4-0921	new-hsk-4-0921-ex3	921	我们一起增加。	Let's to increase together.	new-hsk-4-0921::new-hsk-4-0921-ex3; new-hsk-4-0922::new-hsk-4-0922-ex3
+cross_word_duplicate_translation	new-hsk-4-0922	new-hsk-4-0922-ex1	922	我想增长。	I want to to increase.	new-hsk-4-0921::new-hsk-4-0921-ex1; new-hsk-4-0922::new-hsk-4-0922-ex1
+cross_word_duplicate_translation	new-hsk-4-0922	new-hsk-4-0922-ex2	922	请先增长。	Please to increase first.	new-hsk-4-0921::new-hsk-4-0921-ex2; new-hsk-4-0922::new-hsk-4-0922-ex2
+cross_word_duplicate_translation	new-hsk-4-0922	new-hsk-4-0922-ex3	922	我们一起增长。	Let's to increase together.	new-hsk-4-0921::new-hsk-4-0921-ex3; new-hsk-4-0922::new-hsk-4-0922-ex3
+cross_word_duplicate_translation	new-hsk-4-0928	new-hsk-4-0928-ex1	928	这个书很整。	This 书 is very whole.	new-hsk-4-0928::new-hsk-4-0928-ex1; new-hsk-4-0929::new-hsk-4-0929-ex1
+cross_word_duplicate_translation	new-hsk-4-0928	new-hsk-4-0928-ex2	928	我觉得这个地方很整。	I think this place is very whole.	new-hsk-4-0928::new-hsk-4-0928-ex2; new-hsk-4-0929::new-hsk-4-0929-ex2
+cross_word_duplicate_translation	new-hsk-4-0928	new-hsk-4-0928-ex3	928	今天比昨天更整。	Today is wholeer than yesterday.	new-hsk-4-0928::new-hsk-4-0928-ex3; new-hsk-4-0929::new-hsk-4-0929-ex3
+cross_word_duplicate_translation	new-hsk-4-0929	new-hsk-4-0929-ex1	929	这个书很整个。	This 书 is very whole.	new-hsk-4-0928::new-hsk-4-0928-ex1; new-hsk-4-0929::new-hsk-4-0929-ex1
+cross_word_duplicate_translation	new-hsk-4-0929	new-hsk-4-0929-ex2	929	我觉得这个地方很整个。	I think this place is very whole.	new-hsk-4-0928::new-hsk-4-0928-ex2; new-hsk-4-0929::new-hsk-4-0929-ex2
+cross_word_duplicate_translation	new-hsk-4-0929	new-hsk-4-0929-ex3	929	今天比昨天更整个。	Today is wholeer than yesterday.	new-hsk-4-0928::new-hsk-4-0928-ex3; new-hsk-4-0929::new-hsk-4-0929-ex3
+cross_word_duplicate_translation	new-hsk-4-0934	new-hsk-4-0934-ex1	934	这个证件很重要。	This ID card is very important.	new-hsk-4-0643::new-hsk-4-0643-ex1; new-hsk-4-0934::new-hsk-4-0934-ex1
+cross_word_duplicate_translation	new-hsk-4-0934	new-hsk-4-0934-ex2	934	老师解释了证件。	The teacher explained the ID card.	new-hsk-4-0643::new-hsk-4-0643-ex2; new-hsk-4-0934::new-hsk-4-0934-ex2
+cross_word_duplicate_translation	new-hsk-4-0934	new-hsk-4-0934-ex3	934	我在学习证件。	I am learning about the ID card.	new-hsk-4-0643::new-hsk-4-0643-ex3; new-hsk-4-0934::new-hsk-4-0934-ex3
+cross_word_duplicate_translation	new-hsk-4-0946	new-hsk-4-0946-ex1	946	我想值。	I want to to be worth.	new-hsk-4-0946::new-hsk-4-0946-ex1; new-hsk-4-0947::new-hsk-4-0947-ex1
+cross_word_duplicate_translation	new-hsk-4-0946	new-hsk-4-0946-ex2	946	请先值。	Please to be worth first.	new-hsk-4-0946::new-hsk-4-0946-ex2; new-hsk-4-0947::new-hsk-4-0947-ex2
+cross_word_duplicate_translation	new-hsk-4-0946	new-hsk-4-0946-ex3	946	我们一起值。	Let's to be worth together.	new-hsk-4-0946::new-hsk-4-0946-ex3; new-hsk-4-0947::new-hsk-4-0947-ex3
+cross_word_duplicate_translation	new-hsk-4-0947	new-hsk-4-0947-ex1	947	我想值得。	I want to to be worth.	new-hsk-4-0946::new-hsk-4-0946-ex1; new-hsk-4-0947::new-hsk-4-0947-ex1
+cross_word_duplicate_translation	new-hsk-4-0947	new-hsk-4-0947-ex2	947	请先值得。	Please to be worth first.	new-hsk-4-0946::new-hsk-4-0946-ex2; new-hsk-4-0947::new-hsk-4-0947-ex2
+cross_word_duplicate_translation	new-hsk-4-0947	new-hsk-4-0947-ex3	947	我们一起值得。	Let's to be worth together.	new-hsk-4-0946::new-hsk-4-0946-ex3; new-hsk-4-0947::new-hsk-4-0947-ex3
+cross_word_duplicate_translation	new-hsk-4-0994	new-hsk-4-0994-ex1	994	我想做梦。	I want to to dream.	new-hsk-4-0506::new-hsk-4-0506-ex1; new-hsk-4-0994::new-hsk-4-0994-ex1
+cross_word_duplicate_translation	new-hsk-4-0994	new-hsk-4-0994-ex2	994	请先做梦。	Please to dream first.	new-hsk-4-0506::new-hsk-4-0506-ex2; new-hsk-4-0994::new-hsk-4-0994-ex2
+cross_word_duplicate_translation	new-hsk-4-0994	new-hsk-4-0994-ex3	994	我们一起做梦。	Let's to dream together.	new-hsk-4-0506::new-hsk-4-0506-ex3; new-hsk-4-0994::new-hsk-4-0994-ex3

@@ -1,0 +1,381 @@
+[
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0651",
+    "rank": 651,
+    "display_form": "剩",
+    "lemma": "剩",
+    "generation_form": "剩",
+    "pronunciation": "shèng",
+    "pos": "verb",
+    "primary_gloss": "to be left over",
+    "secondary_glosses": [
+      "to remain"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0652",
+    "rank": 652,
+    "display_form": "失败",
+    "lemma": "失败",
+    "generation_form": "失败",
+    "pronunciation": "shībài",
+    "pos": "verb, adjective",
+    "primary_gloss": "to fail",
+    "secondary_glosses": [
+      "failed",
+      "unsuccessful"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0653",
+    "rank": 653,
+    "display_form": "师傅",
+    "lemma": "师傅",
+    "generation_form": "师傅",
+    "pronunciation": "shīfu",
+    "pos": "noun",
+    "primary_gloss": "master",
+    "secondary_glosses": [
+      "skilled worker",
+      "respectful address for a tradesperson"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0654",
+    "rank": 654,
+    "display_form": "失去",
+    "lemma": "失去",
+    "generation_form": "失去",
+    "pronunciation": "shīqù",
+    "pos": "verb",
+    "primary_gloss": "to lose",
+    "secondary_glosses": [
+      "to be lost"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0655",
+    "rank": 655,
+    "display_form": "师生",
+    "lemma": "师生",
+    "generation_form": "师生",
+    "pronunciation": "shīshēng",
+    "pos": "noun",
+    "primary_gloss": "teacher and student",
+    "secondary_glosses": [
+      "teachers and students"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0656",
+    "rank": 656,
+    "display_form": "失望",
+    "lemma": "失望",
+    "generation_form": "失望",
+    "pronunciation": "shīwàng",
+    "pos": "verb, adjective",
+    "primary_gloss": "to be disappointed",
+    "secondary_glosses": [
+      "to lose hope",
+      "disappointed"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0657",
+    "rank": 657,
+    "display_form": "十分",
+    "lemma": "十分",
+    "generation_form": "十分",
+    "pronunciation": "shífēn",
+    "pos": "adverb",
+    "primary_gloss": "very",
+    "secondary_glosses": [
+      "extremely",
+      "fully"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0658",
+    "rank": 658,
+    "display_form": "实际",
+    "lemma": "实际",
+    "generation_form": "实际",
+    "pronunciation": "shíjì",
+    "pos": "noun, adjective",
+    "primary_gloss": "reality",
+    "secondary_glosses": [
+      "actuality",
+      "actual",
+      "practical"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0659",
+    "rank": 659,
+    "display_form": "时间表",
+    "lemma": "时间表",
+    "generation_form": "时间表",
+    "pronunciation": "shíjiānbiǎo",
+    "pos": "noun",
+    "primary_gloss": "schedule",
+    "secondary_glosses": [
+      "timetable"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0660",
+    "rank": 660,
+    "display_form": "实际上",
+    "lemma": "实际上",
+    "generation_form": "实际上",
+    "pronunciation": "shíjìshàng",
+    "pos": "adverb",
+    "primary_gloss": "actually",
+    "secondary_glosses": [
+      "in fact"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0661",
+    "rank": 661,
+    "display_form": "食品",
+    "lemma": "食品",
+    "generation_form": "食品",
+    "pronunciation": "shípǐn",
+    "pos": "noun",
+    "primary_gloss": "food",
+    "secondary_glosses": [
+      "provisions"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0662",
+    "rank": 662,
+    "display_form": "食堂",
+    "lemma": "食堂",
+    "generation_form": "食堂",
+    "pronunciation": "shítáng",
+    "pos": "noun",
+    "primary_gloss": "cafeteria",
+    "secondary_glosses": [
+      "dining hall"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0663",
+    "rank": 663,
+    "display_form": "食物",
+    "lemma": "食物",
+    "generation_form": "食物",
+    "pronunciation": "shíwù",
+    "pos": "noun",
+    "primary_gloss": "food",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0664",
+    "rank": 664,
+    "display_form": "实在",
+    "lemma": "实在",
+    "generation_form": "实在",
+    "pronunciation": "shízài",
+    "pos": "adjective, adverb",
+    "primary_gloss": "honest",
+    "secondary_glosses": [
+      "reliable",
+      "really",
+      "indeed"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective, adverb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0665",
+    "rank": 665,
+    "display_form": "十字路又",
+    "lemma": "十字路又",
+    "generation_form": "十字路又",
+    "pronunciation": "shízì lùkǒu",
+    "pos": "unknown",
+    "primary_gloss": "intersection",
+    "secondary_glosses": [
+      "crossroads"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0666",
+    "rank": 666,
+    "display_form": "使",
+    "lemma": "使",
+    "generation_form": "使",
+    "pronunciation": "shǐ",
+    "pos": "verb",
+    "primary_gloss": "to make",
+    "secondary_glosses": [
+      "to cause",
+      "to use"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0667",
+    "rank": 667,
+    "display_form": "使馆",
+    "lemma": "使馆",
+    "generation_form": "使馆",
+    "pronunciation": "shǐguǎn",
+    "pos": "noun",
+    "primary_gloss": "embassy",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0668",
+    "rank": 668,
+    "display_form": "使用",
+    "lemma": "使用",
+    "generation_form": "使用",
+    "pronunciation": "shǐyòng",
+    "pos": "verb",
+    "primary_gloss": "to use",
+    "secondary_glosses": [
+      "to employ"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0669",
+    "rank": 669,
+    "display_form": "市场",
+    "lemma": "市场",
+    "generation_form": "市场",
+    "pronunciation": "shìchǎng",
+    "pos": "noun",
+    "primary_gloss": "market",
+    "secondary_glosses": [
+      "marketplace"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0670",
+    "rank": 670,
+    "display_form": "是否",
+    "lemma": "是否",
+    "generation_form": "是否",
+    "pronunciation": "shìfǒu",
+    "pos": "adverb",
+    "primary_gloss": "whether or not",
+    "secondary_glosses": [
+      "if"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0671",
+    "rank": 671,
+    "display_form": "适合",
+    "lemma": "适合",
+    "generation_form": "适合",
+    "pronunciation": "shìhé",
+    "pos": "verb",
+    "primary_gloss": "to suit",
+    "secondary_glosses": [
+      "to fit",
+      "to be suitable"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0672",
+    "rank": 672,
+    "display_form": "世纪",
+    "lemma": "世纪",
+    "generation_form": "世纪",
+    "pronunciation": "shìjì",
+    "pos": "noun",
+    "primary_gloss": "century",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0673",
+    "rank": 673,
+    "display_form": "视频",
+    "lemma": "视频",
+    "generation_form": "视频",
+    "pronunciation": "shìpín",
+    "pos": "noun",
+    "primary_gloss": "video",
+    "secondary_glosses": [
+      "video clip"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0674",
+    "rank": 674,
+    "display_form": "市区",
+    "lemma": "市区",
+    "generation_form": "市区",
+    "pronunciation": "shìqū",
+    "pos": "noun",
+    "primary_gloss": "urban area",
+    "secondary_glosses": [
+      "city center"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0675",
+    "rank": 675,
+    "display_form": "试题",
+    "lemma": "试题",
+    "generation_form": "试题",
+    "pronunciation": "shìtí",
+    "pos": "noun",
+    "primary_gloss": "test questions",
+    "secondary_glosses": [
+      "exam paper"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  }
+]

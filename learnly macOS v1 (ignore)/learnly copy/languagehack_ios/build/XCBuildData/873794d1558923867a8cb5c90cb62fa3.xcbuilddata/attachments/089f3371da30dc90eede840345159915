@@ -1,0 +1,189 @@
+{
+  "" : {
+    "diagnostics" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/LanguageHackiOS-primary.dia",
+    "emit-module-dependencies" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/LanguageHackiOS-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/LanguageHackiOS-primary-emit-module.dia",
+    "pch" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/LanguageHackiOS-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/LanguageHackiOS-primary.swiftdeps"
+  },
+  "/Users/moi/Desktop/business/learnly/languagehack_ios/LanguageHackiOS/Sources/App/AppViewModel.swift" : {
+    "const-values" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/AppViewModel.swiftconstvalues",
+    "dependencies" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/AppViewModel.d",
+    "diagnostics" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/AppViewModel.dia",
+    "index-unit-output-path" : "/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/AppViewModel.o",
+    "llvm-bc" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/AppViewModel.bc",
+    "object" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/AppViewModel.o",
+    "swift-dependencies" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/AppViewModel.swiftdeps",
+    "swiftmodule" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/AppViewModel~partial.swiftmodule"
+  },
+  "/Users/moi/Desktop/business/learnly/languagehack_ios/LanguageHackiOS/Sources/App/LanguageHackiOSApp.swift" : {
+    "const-values" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/LanguageHackiOSApp.swiftconstvalues",
+    "dependencies" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/LanguageHackiOSApp.d",
+    "diagnostics" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/LanguageHackiOSApp.dia",
+    "index-unit-output-path" : "/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/LanguageHackiOSApp.o",
+    "llvm-bc" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/LanguageHackiOSApp.bc",
+    "object" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/LanguageHackiOSApp.o",
+    "swift-dependencies" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/LanguageHackiOSApp.swiftdeps",
+    "swiftmodule" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/LanguageHackiOSApp~partial.swiftmodule"
+  },
+  "/Users/moi/Desktop/business/learnly/languagehack_ios/LanguageHackiOS/Sources/App/RootShellView.swift" : {
+    "const-values" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/RootShellView.swiftconstvalues",
+    "dependencies" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/RootShellView.d",
+    "diagnostics" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/RootShellView.dia",
+    "index-unit-output-path" : "/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/RootShellView.o",
+    "llvm-bc" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/RootShellView.bc",
+    "object" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/RootShellView.o",
+    "swift-dependencies" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/RootShellView.swiftdeps",
+    "swiftmodule" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/RootShellView~partial.swiftmodule"
+  },
+  "/Users/moi/Desktop/business/learnly/languagehack_ios/LanguageHackiOS/Sources/App/StudyViewModel.swift" : {
+    "const-values" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/StudyViewModel.swiftconstvalues",
+    "dependencies" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/StudyViewModel.d",
+    "diagnostics" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/StudyViewModel.dia",
+    "index-unit-output-path" : "/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/StudyViewModel.o",
+    "llvm-bc" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/StudyViewModel.bc",
+    "object" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/StudyViewModel.o",
+    "swift-dependencies" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/StudyViewModel.swiftdeps",
+    "swiftmodule" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/StudyViewModel~partial.swiftmodule"
+  },
+  "/Users/moi/Desktop/business/learnly/languagehack_ios/LanguageHackiOS/Sources/App/WordsViewModel.swift" : {
+    "const-values" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/WordsViewModel.swiftconstvalues",
+    "dependencies" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/WordsViewModel.d",
+    "diagnostics" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/WordsViewModel.dia",
+    "index-unit-output-path" : "/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/WordsViewModel.o",
+    "llvm-bc" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/WordsViewModel.bc",
+    "object" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/WordsViewModel.o",
+    "swift-dependencies" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/WordsViewModel.swiftdeps",
+    "swiftmodule" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/WordsViewModel~partial.swiftmodule"
+  },
+  "/Users/moi/Desktop/business/learnly/languagehack_ios/LanguageHackiOS/Sources/Data/Ports.swift" : {
+    "const-values" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/Ports.swiftconstvalues",
+    "dependencies" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/Ports.d",
+    "diagnostics" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/Ports.dia",
+    "index-unit-output-path" : "/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/Ports.o",
+    "llvm-bc" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/Ports.bc",
+    "object" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/Ports.o",
+    "swift-dependencies" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/Ports.swiftdeps",
+    "swiftmodule" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/Ports~partial.swiftmodule"
+  },
+  "/Users/moi/Desktop/business/learnly/languagehack_ios/LanguageHackiOS/Sources/Data/SQLiteLearningRepository.swift" : {
+    "const-values" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/SQLiteLearningRepository.swiftconstvalues",
+    "dependencies" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/SQLiteLearningRepository.d",
+    "diagnostics" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/SQLiteLearningRepository.dia",
+    "index-unit-output-path" : "/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/SQLiteLearningRepository.o",
+    "llvm-bc" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/SQLiteLearningRepository.bc",
+    "object" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/SQLiteLearningRepository.o",
+    "swift-dependencies" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/SQLiteLearningRepository.swiftdeps",
+    "swiftmodule" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/SQLiteLearningRepository~partial.swiftmodule"
+  },
+  "/Users/moi/Desktop/business/learnly/languagehack_ios/LanguageHackiOS/Sources/Models/DomainModels.swift" : {
+    "const-values" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/DomainModels.swiftconstvalues",
+    "dependencies" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/DomainModels.d",
+    "diagnostics" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/DomainModels.dia",
+    "index-unit-output-path" : "/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/DomainModels.o",
+    "llvm-bc" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/DomainModels.bc",
+    "object" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/DomainModels.o",
+    "swift-dependencies" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/DomainModels.swiftdeps",
+    "swiftmodule" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/DomainModels~partial.swiftmodule"
+  },
+  "/Users/moi/Desktop/business/learnly/languagehack_ios/LanguageHackiOS/Sources/Services/AdaptiveSchedulerEngine.swift" : {
+    "const-values" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/AdaptiveSchedulerEngine.swiftconstvalues",
+    "dependencies" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/AdaptiveSchedulerEngine.d",
+    "diagnostics" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/AdaptiveSchedulerEngine.dia",
+    "index-unit-output-path" : "/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/AdaptiveSchedulerEngine.o",
+    "llvm-bc" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/AdaptiveSchedulerEngine.bc",
+    "object" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/AdaptiveSchedulerEngine.o",
+    "swift-dependencies" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/AdaptiveSchedulerEngine.swiftdeps",
+    "swiftmodule" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/AdaptiveSchedulerEngine~partial.swiftmodule"
+  },
+  "/Users/moi/Desktop/business/learnly/languagehack_ios/LanguageHackiOS/Sources/Services/HybridAudioProvider.swift" : {
+    "const-values" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/HybridAudioProvider.swiftconstvalues",
+    "dependencies" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/HybridAudioProvider.d",
+    "diagnostics" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/HybridAudioProvider.dia",
+    "index-unit-output-path" : "/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/HybridAudioProvider.o",
+    "llvm-bc" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/HybridAudioProvider.bc",
+    "object" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/HybridAudioProvider.o",
+    "swift-dependencies" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/HybridAudioProvider.swiftdeps",
+    "swiftmodule" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/HybridAudioProvider~partial.swiftmodule"
+  },
+  "/Users/moi/Desktop/business/learnly/languagehack_ios/LanguageHackiOS/Sources/Services/Support.swift" : {
+    "const-values" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/Support.swiftconstvalues",
+    "dependencies" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/Support.d",
+    "diagnostics" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/Support.dia",
+    "index-unit-output-path" : "/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/Support.o",
+    "llvm-bc" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/Support.bc",
+    "object" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/Support.o",
+    "swift-dependencies" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/Support.swiftdeps",
+    "swiftmodule" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/Support~partial.swiftmodule"
+  },
+  "/Users/moi/Desktop/business/learnly/languagehack_ios/LanguageHackiOS/Sources/Views/DashboardView.swift" : {
+    "const-values" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/DashboardView.swiftconstvalues",
+    "dependencies" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/DashboardView.d",
+    "diagnostics" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/DashboardView.dia",
+    "index-unit-output-path" : "/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/DashboardView.o",
+    "llvm-bc" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/DashboardView.bc",
+    "object" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/DashboardView.o",
+    "swift-dependencies" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/DashboardView.swiftdeps",
+    "swiftmodule" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/DashboardView~partial.swiftmodule"
+  },
+  "/Users/moi/Desktop/business/learnly/languagehack_ios/LanguageHackiOS/Sources/Views/ErrorBanner.swift" : {
+    "const-values" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/ErrorBanner.swiftconstvalues",
+    "dependencies" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/ErrorBanner.d",
+    "diagnostics" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/ErrorBanner.dia",
+    "index-unit-output-path" : "/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/ErrorBanner.o",
+    "llvm-bc" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/ErrorBanner.bc",
+    "object" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/ErrorBanner.o",
+    "swift-dependencies" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/ErrorBanner.swiftdeps",
+    "swiftmodule" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/ErrorBanner~partial.swiftmodule"
+  },
+  "/Users/moi/Desktop/business/learnly/languagehack_ios/LanguageHackiOS/Sources/Views/HardwareKeyboardBridge.swift" : {
+    "const-values" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/HardwareKeyboardBridge.swiftconstvalues",
+    "dependencies" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/HardwareKeyboardBridge.d",
+    "diagnostics" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/HardwareKeyboardBridge.dia",
+    "index-unit-output-path" : "/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/HardwareKeyboardBridge.o",
+    "llvm-bc" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/HardwareKeyboardBridge.bc",
+    "object" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/HardwareKeyboardBridge.o",
+    "swift-dependencies" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/HardwareKeyboardBridge.swiftdeps",
+    "swiftmodule" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/HardwareKeyboardBridge~partial.swiftmodule"
+  },
+  "/Users/moi/Desktop/business/learnly/languagehack_ios/LanguageHackiOS/Sources/Views/HomeView.swift" : {
+    "const-values" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/HomeView.swiftconstvalues",
+    "dependencies" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/HomeView.d",
+    "diagnostics" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/HomeView.dia",
+    "index-unit-output-path" : "/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/HomeView.o",
+    "llvm-bc" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/HomeView.bc",
+    "object" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/HomeView.o",
+    "swift-dependencies" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/HomeView.swiftdeps",
+    "swiftmodule" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/HomeView~partial.swiftmodule"
+  },
+  "/Users/moi/Desktop/business/learnly/languagehack_ios/LanguageHackiOS/Sources/Views/LiquidGlassStyle.swift" : {
+    "const-values" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/LiquidGlassStyle.swiftconstvalues",
+    "dependencies" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/LiquidGlassStyle.d",
+    "diagnostics" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/LiquidGlassStyle.dia",
+    "index-unit-output-path" : "/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/LiquidGlassStyle.o",
+    "llvm-bc" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/LiquidGlassStyle.bc",
+    "object" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/LiquidGlassStyle.o",
+    "swift-dependencies" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/LiquidGlassStyle.swiftdeps",
+    "swiftmodule" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/LiquidGlassStyle~partial.swiftmodule"
+  },
+  "/Users/moi/Desktop/business/learnly/languagehack_ios/LanguageHackiOS/Sources/Views/StudyView.swift" : {
+    "const-values" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/StudyView.swiftconstvalues",
+    "dependencies" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/StudyView.d",
+    "diagnostics" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/StudyView.dia",
+    "index-unit-output-path" : "/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/StudyView.o",
+    "llvm-bc" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/StudyView.bc",
+    "object" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/StudyView.o",
+    "swift-dependencies" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/StudyView.swiftdeps",
+    "swiftmodule" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/StudyView~partial.swiftmodule"
+  },
+  "/Users/moi/Desktop/business/learnly/languagehack_ios/LanguageHackiOS/Sources/Views/WordsView.swift" : {
+    "const-values" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/WordsView.swiftconstvalues",
+    "dependencies" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/WordsView.d",
+    "diagnostics" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/WordsView.dia",
+    "index-unit-output-path" : "/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/WordsView.o",
+    "llvm-bc" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/WordsView.bc",
+    "object" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/WordsView.o",
+    "swift-dependencies" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/WordsView.swiftdeps",
+    "swiftmodule" : "/Users/moi/Desktop/business/learnly/languagehack_ios/build/LanguageHackiOS.build/Debug-iphoneos/LanguageHackiOS.build/Objects-normal/arm64/WordsView~partial.swiftmodule"
+  }
+}

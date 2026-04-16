@@ -1,0 +1,385 @@
+[
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0551",
+    "rank": 551,
+    "display_form": "皮肤",
+    "lemma": "皮肤",
+    "generation_form": "皮肤",
+    "pronunciation": "pífū",
+    "pos": "noun",
+    "primary_gloss": "skin",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0552",
+    "rank": 552,
+    "display_form": "脾气",
+    "lemma": "脾气",
+    "generation_form": "脾气",
+    "pronunciation": "píqi",
+    "pos": "noun",
+    "primary_gloss": "temperament",
+    "secondary_glosses": [
+      "disposition",
+      "temper"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0553",
+    "rank": 553,
+    "display_form": "皮鞋",
+    "lemma": "皮鞋",
+    "generation_form": "皮鞋",
+    "pronunciation": "píxié",
+    "pos": "noun",
+    "primary_gloss": "leather shoes",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0554",
+    "rank": 554,
+    "display_form": "篇",
+    "lemma": "篇",
+    "generation_form": "篇",
+    "pronunciation": "piān",
+    "pos": "noun, measure word",
+    "primary_gloss": "measure word for essays",
+    "secondary_glosses": [
+      "articles",
+      "papers",
+      "piece",
+      "sheet"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, measure word."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0555",
+    "rank": 555,
+    "display_form": "片",
+    "lemma": "片",
+    "generation_form": "片",
+    "pronunciation": "piàn",
+    "pos": "noun, measure word",
+    "primary_gloss": "piece",
+    "secondary_glosses": [
+      "slice",
+      "area",
+      "measure word for flat objects"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, measure word."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0556",
+    "rank": 556,
+    "display_form": "乒乓球",
+    "lemma": "乒乓球",
+    "generation_form": "乒乓球",
+    "pronunciation": "pīngpāngqiú",
+    "pos": "noun",
+    "primary_gloss": "table tennis",
+    "secondary_glosses": [
+      "ping-pong"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0557",
+    "rank": 557,
+    "display_form": "平常",
+    "lemma": "平常",
+    "generation_form": "平常",
+    "pronunciation": "píngcháng",
+    "pos": "adjective, noun",
+    "primary_gloss": "ordinary",
+    "secondary_glosses": [
+      "usual",
+      "usually",
+      "ordinarily"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective, noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0558",
+    "rank": 558,
+    "display_form": "破",
+    "lemma": "破",
+    "generation_form": "破",
+    "pronunciation": "pò",
+    "pos": "verb, adjective",
+    "primary_gloss": "broken",
+    "secondary_glosses": [
+      "damaged",
+      "to break",
+      "to ruin"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0559",
+    "rank": 559,
+    "display_form": "葡萄",
+    "lemma": "葡萄",
+    "generation_form": "葡萄",
+    "pronunciation": "pútao",
+    "pos": "noun",
+    "primary_gloss": "grape",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0560",
+    "rank": 560,
+    "display_form": "葡萄酒",
+    "lemma": "葡萄酒",
+    "generation_form": "葡萄酒",
+    "pronunciation": "pútaojiǔ",
+    "pos": "noun",
+    "primary_gloss": "wine",
+    "secondary_glosses": [
+      "grape wine"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0561",
+    "rank": 561,
+    "display_form": "普遍",
+    "lemma": "普遍",
+    "generation_form": "普遍",
+    "pronunciation": "pǔbiàn",
+    "pos": "adjective",
+    "primary_gloss": "widespread",
+    "secondary_glosses": [
+      "universal",
+      "common"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0562",
+    "rank": 562,
+    "display_form": "普通",
+    "lemma": "普通",
+    "generation_form": "普通",
+    "pronunciation": "pǔtōng",
+    "pos": "adjective",
+    "primary_gloss": "ordinary",
+    "secondary_glosses": [
+      "common"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0563",
+    "rank": 563,
+    "display_form": "普通话",
+    "lemma": "普通话",
+    "generation_form": "普通话",
+    "pronunciation": "pǔtōnghuà",
+    "pos": "noun",
+    "primary_gloss": "Mandarin Chinese",
+    "secondary_glosses": [
+      "standard Chinese"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0564",
+    "rank": 564,
+    "display_form": "期",
+    "lemma": "期",
+    "generation_form": "期",
+    "pronunciation": "qī",
+    "pos": "measure word",
+    "primary_gloss": "period",
+    "secondary_glosses": [
+      "phase",
+      "measure word for issues",
+      "semesters",
+      "etc."
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as measure word."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0565",
+    "rank": 565,
+    "display_form": "期末",
+    "lemma": "期末",
+    "generation_form": "期末",
+    "pronunciation": "qīmò",
+    "pos": "noun",
+    "primary_gloss": "end of term",
+    "secondary_glosses": [
+      "end of semester"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0566",
+    "rank": 566,
+    "display_form": "期中",
+    "lemma": "期中",
+    "generation_form": "期中",
+    "pronunciation": "qīzhōng",
+    "pos": "noun",
+    "primary_gloss": "midterm",
+    "secondary_glosses": [
+      "middle of the term"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0567",
+    "rank": 567,
+    "display_form": "其次",
+    "lemma": "其次",
+    "generation_form": "其次",
+    "pronunciation": "qícì",
+    "pos": "pronoun",
+    "primary_gloss": "next",
+    "secondary_glosses": [
+      "secondly",
+      "then"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as pronoun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0568",
+    "rank": 568,
+    "display_form": "其中",
+    "lemma": "其中",
+    "generation_form": "其中",
+    "pronunciation": "qízhōng",
+    "pos": "noun",
+    "primary_gloss": "among them",
+    "secondary_glosses": [
+      "inside"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0569",
+    "rank": 569,
+    "display_form": "起到",
+    "lemma": "起到",
+    "generation_form": "起到",
+    "pronunciation": "qǐdào",
+    "pos": "verb",
+    "primary_gloss": "to play the role of",
+    "secondary_glosses": [
+      "to function as",
+      "to act as"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0570",
+    "rank": 570,
+    "display_form": "气",
+    "lemma": "气",
+    "generation_form": "气",
+    "pronunciation": "qì",
+    "pos": "noun, verb",
+    "primary_gloss": "air",
+    "secondary_glosses": [
+      "gas",
+      "breath",
+      "to anger",
+      "to make angry"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0571",
+    "rank": 571,
+    "display_form": "气候",
+    "lemma": "气候",
+    "generation_form": "气候",
+    "pronunciation": "qìhòu",
+    "pos": "noun",
+    "primary_gloss": "climate",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0572",
+    "rank": 572,
+    "display_form": "汽水",
+    "lemma": "汽水",
+    "generation_form": "汽水",
+    "pronunciation": "qìshuǐ",
+    "pos": "noun",
+    "primary_gloss": "soda",
+    "secondary_glosses": [
+      "soft drink"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0573",
+    "rank": 573,
+    "display_form": "气温",
+    "lemma": "气温",
+    "generation_form": "气温",
+    "pronunciation": "qìwēn",
+    "pos": "noun",
+    "primary_gloss": "air temperature",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0574",
+    "rank": 574,
+    "display_form": "千克",
+    "lemma": "千克",
+    "generation_form": "千克",
+    "pronunciation": "qiānkè",
+    "pos": "measure word",
+    "primary_gloss": "kilogram",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as measure word."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0575",
+    "rank": 575,
+    "display_form": "千万",
+    "lemma": "千万",
+    "generation_form": "千万",
+    "pronunciation": "qiānwàn",
+    "pos": "adverb",
+    "primary_gloss": "ten million",
+    "secondary_glosses": [
+      "by all means",
+      "absolutely"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  }
+]

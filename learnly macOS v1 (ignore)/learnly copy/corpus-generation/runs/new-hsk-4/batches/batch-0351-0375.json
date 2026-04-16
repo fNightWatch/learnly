@@ -1,0 +1,389 @@
+[
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0351",
+    "rank": 351,
+    "display_form": "减少",
+    "lemma": "减少",
+    "generation_form": "减少",
+    "pronunciation": "jiǎnshǎo",
+    "pos": "verb",
+    "primary_gloss": "to reduce",
+    "secondary_glosses": [
+      "to decrease",
+      "to cut down",
+      "to diminish"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0352",
+    "rank": 352,
+    "display_form": "健身",
+    "lemma": "健身",
+    "generation_form": "健身",
+    "pronunciation": "jiànshēn",
+    "pos": "verb",
+    "primary_gloss": "to exercise",
+    "secondary_glosses": [
+      "to work out",
+      "to keep fit",
+      "to engage in fitness activities"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0353",
+    "rank": 353,
+    "display_form": "健身房",
+    "lemma": "健身房",
+    "generation_form": "健身房",
+    "pronunciation": "jiànshēnfáng",
+    "pos": "noun",
+    "primary_gloss": "gym",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0354",
+    "rank": 354,
+    "display_form": "建议",
+    "lemma": "建议",
+    "generation_form": "建议",
+    "pronunciation": "jiànyì",
+    "pos": "verb, noun",
+    "primary_gloss": "to suggest",
+    "secondary_glosses": [
+      "to propose",
+      "to recommend",
+      "suggestion",
+      "proposal",
+      "recommendation"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0355",
+    "rank": 355,
+    "display_form": "江",
+    "lemma": "江",
+    "generation_form": "江",
+    "pronunciation": "jiāng",
+    "pos": "noun",
+    "primary_gloss": "river",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0356",
+    "rank": 356,
+    "display_form": "将",
+    "lemma": "将",
+    "generation_form": "将",
+    "pronunciation": "jiāng",
+    "pos": "preposition, adverb",
+    "primary_gloss": "with",
+    "secondary_glosses": [
+      "by (used to introduce the object of a verb",
+      "similar to 把)",
+      "will",
+      "shall",
+      "be about to"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as preposition, adverb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0357",
+    "rank": 357,
+    "display_form": "将来",
+    "lemma": "将来",
+    "generation_form": "将来",
+    "pronunciation": "jiānglái",
+    "pos": "noun",
+    "primary_gloss": "future",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0358",
+    "rank": 358,
+    "display_form": "将要",
+    "lemma": "将要",
+    "generation_form": "将要",
+    "pronunciation": "jiāngyào",
+    "pos": "adverb",
+    "primary_gloss": "will",
+    "secondary_glosses": [
+      "be going to",
+      "be about to"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0359",
+    "rank": 359,
+    "display_form": "奖",
+    "lemma": "奖",
+    "generation_form": "奖",
+    "pronunciation": "jiǎng",
+    "pos": "noun, verb",
+    "primary_gloss": "prize",
+    "secondary_glosses": [
+      "award",
+      "reward",
+      "to award",
+      "to reward",
+      "to praise"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0360",
+    "rank": 360,
+    "display_form": "奖金",
+    "lemma": "奖金",
+    "generation_form": "奖金",
+    "pronunciation": "jiǎngjīn",
+    "pos": "noun",
+    "primary_gloss": "bonus",
+    "secondary_glosses": [
+      "prize money",
+      "cash award"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0361",
+    "rank": 361,
+    "display_form": "奖学金",
+    "lemma": "奖学金",
+    "generation_form": "奖学金",
+    "pronunciation": "jiǎngxuéjīn",
+    "pos": "noun",
+    "primary_gloss": "scholarship",
+    "secondary_glosses": [
+      "fellowship"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0362",
+    "rank": 362,
+    "display_form": "降",
+    "lemma": "降",
+    "generation_form": "降",
+    "pronunciation": "jiàng",
+    "pos": "verb",
+    "primary_gloss": "to fall",
+    "secondary_glosses": [
+      "to drop",
+      "to descend",
+      "to lower"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0363",
+    "rank": 363,
+    "display_form": "降低",
+    "lemma": "降低",
+    "generation_form": "降低",
+    "pronunciation": "jiàngdī",
+    "pos": "verb",
+    "primary_gloss": "to reduce",
+    "secondary_glosses": [
+      "to lower",
+      "to bring down"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0364",
+    "rank": 364,
+    "display_form": "降价",
+    "lemma": "降价",
+    "generation_form": "降价",
+    "pronunciation": "jiàngjià",
+    "pos": "verb",
+    "primary_gloss": "to descend",
+    "secondary_glosses": [
+      "to land",
+      "to touch down"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0365",
+    "rank": 365,
+    "display_form": "降落",
+    "lemma": "降落",
+    "generation_form": "降落",
+    "pronunciation": "jiàngluò",
+    "pos": "verb",
+    "primary_gloss": "to descend",
+    "secondary_glosses": [
+      "to land",
+      "to touch down"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0366",
+    "rank": 366,
+    "display_form": "降温",
+    "lemma": "降温",
+    "generation_form": "降温",
+    "pronunciation": "jiàngwēn",
+    "pos": "verb",
+    "primary_gloss": "to cool down",
+    "secondary_glosses": [
+      "to lower the temperature"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0367",
+    "rank": 367,
+    "display_form": "交",
+    "lemma": "交",
+    "generation_form": "交",
+    "pronunciation": "jiāo",
+    "pos": "verb, noun",
+    "primary_gloss": "to hand in",
+    "secondary_glosses": [
+      "to submit",
+      "to meet",
+      "to cross",
+      "to make friends with",
+      "friend",
+      "acquaintance",
+      "relationship"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0368",
+    "rank": 368,
+    "display_form": "骄傲",
+    "lemma": "骄傲",
+    "generation_form": "骄傲",
+    "pronunciation": "jiāo’ào",
+    "pos": "adjective, noun",
+    "primary_gloss": "proud",
+    "secondary_glosses": [
+      "arrogant",
+      "conceited",
+      "pride",
+      "arrogance"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective, noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0369",
+    "rank": 369,
+    "display_form": "交警",
+    "lemma": "交警",
+    "generation_form": "交警",
+    "pronunciation": "jiāojǐng",
+    "pos": "noun",
+    "primary_gloss": "traffic police",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0370",
+    "rank": 370,
+    "display_form": "交流",
+    "lemma": "交流",
+    "generation_form": "交流",
+    "pronunciation": "jiāoliú",
+    "pos": "verb",
+    "primary_gloss": "communicate",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0371",
+    "rank": 371,
+    "display_form": "郊区",
+    "lemma": "郊区",
+    "generation_form": "郊区",
+    "pronunciation": "jiāoqū",
+    "pos": "noun",
+    "primary_gloss": "suburb",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0372",
+    "rank": 372,
+    "display_form": "交通",
+    "lemma": "交通",
+    "generation_form": "交通",
+    "pronunciation": "jiāotōng",
+    "pos": "noun",
+    "primary_gloss": "traffic",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0373",
+    "rank": 373,
+    "display_form": "教练",
+    "lemma": "教练",
+    "generation_form": "教练",
+    "pronunciation": "jiàoliàn",
+    "pos": "noun",
+    "primary_gloss": "coach",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0374",
+    "rank": 374,
+    "display_form": "教师",
+    "lemma": "教师",
+    "generation_form": "教师",
+    "pronunciation": "jiàoshī",
+    "pos": "noun",
+    "primary_gloss": "teacher",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0375",
+    "rank": 375,
+    "display_form": "教授",
+    "lemma": "教授",
+    "generation_form": "教授",
+    "pronunciation": "jiàoshòu",
+    "pos": "noun",
+    "primary_gloss": "professor",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  }
+]

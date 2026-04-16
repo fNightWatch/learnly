@@ -7,6 +7,13 @@
     "build": "next build",
     "start": "next start",
     "typecheck": "tsc --noEmit",
+    "test:e2e": "playwright test --project=chrome",
+    "test:e2e:headed": "playwright test --project=chrome --headed",
+    "test:e2e:safari": "playwright test tests/e2e/safari-sanity.spec.ts --project=webkit",
+    "test:e2e:all": "playwright test",
+    "qa:fixture": "tsx scripts/qa/demo-user-fixture.ts",
+    "qa:core-loop:capture": "tsx scripts/qa/core-loop-capture.ts",
+    "qa:core-loop": "tsx scripts/qa/run-core-loop-qa.ts",
     "db:generate": "drizzle-kit generate",
     "db:push": "drizzle-kit push",
     "db:studio": "drizzle-kit studio"
@@ -25,6 +32,7 @@
     "zod": "3.22.4"
   },
   "devDependencies": {
+    "@playwright/test": "^1.59.1",
     "@types/better-sqlite3": "^7.6.13",
     "@types/node": "20.11.30",
     "@types/react": "18.2.66",

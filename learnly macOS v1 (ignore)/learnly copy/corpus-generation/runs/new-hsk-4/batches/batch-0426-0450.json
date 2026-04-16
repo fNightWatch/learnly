@@ -1,0 +1,387 @@
+[
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0426",
+    "rank": 426,
+    "display_form": "科学",
+    "lemma": "科学",
+    "generation_form": "科学",
+    "pronunciation": "kēxué",
+    "pos": "noun, adjective",
+    "primary_gloss": "science",
+    "secondary_glosses": [
+      "scientific"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0427",
+    "rank": 427,
+    "display_form": "咳",
+    "lemma": "咳",
+    "generation_form": "咳",
+    "pronunciation": "ké",
+    "pos": "verb",
+    "primary_gloss": "to cough",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0428",
+    "rank": 428,
+    "display_form": "咳嗽",
+    "lemma": "咳嗽",
+    "generation_form": "咳嗽",
+    "pronunciation": "késou",
+    "pos": "verb",
+    "primary_gloss": "to cough",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0429",
+    "rank": 429,
+    "display_form": "可惜",
+    "lemma": "可惜",
+    "generation_form": "可惜",
+    "pronunciation": "kěxī",
+    "pos": "adjective",
+    "primary_gloss": "regrettable",
+    "secondary_glosses": [
+      "unfortunate",
+      "a pity"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0430",
+    "rank": 430,
+    "display_form": "克",
+    "lemma": "克",
+    "generation_form": "克",
+    "pronunciation": "kè",
+    "pos": "measure word",
+    "primary_gloss": "gram",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as measure word."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0431",
+    "rank": 431,
+    "display_form": "课程",
+    "lemma": "课程",
+    "generation_form": "课程",
+    "pronunciation": "kèchéng",
+    "pos": "noun",
+    "primary_gloss": "curriculum",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0432",
+    "rank": 432,
+    "display_form": "客气",
+    "lemma": "客气",
+    "generation_form": "客气",
+    "pronunciation": "kèqi",
+    "pos": "adjective, verb",
+    "primary_gloss": "polite",
+    "secondary_glosses": [
+      "courteous",
+      "to be polite",
+      "to say polite remarks"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective, verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0433",
+    "rank": 433,
+    "display_form": "课堂",
+    "lemma": "课堂",
+    "generation_form": "课堂",
+    "pronunciation": "kètáng",
+    "pos": "noun",
+    "primary_gloss": "classroom",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0434",
+    "rank": 434,
+    "display_form": "客厅",
+    "lemma": "客厅",
+    "generation_form": "客厅",
+    "pronunciation": "kètīng",
+    "pos": "noun",
+    "primary_gloss": "living room",
+    "secondary_glosses": [
+      "parlor"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0435",
+    "rank": 435,
+    "display_form": "肯定",
+    "lemma": "肯定",
+    "generation_form": "肯定",
+    "pronunciation": "kěndìng",
+    "pos": "verb, adjective, adverb",
+    "primary_gloss": "to be certain",
+    "secondary_glosses": [
+      "to be sure",
+      "to affirm",
+      "positive",
+      "affirmative",
+      "definite",
+      "surely",
+      "certainly",
+      "definitely"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, adjective, adverb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0436",
+    "rank": 436,
+    "display_form": "空",
+    "lemma": "空",
+    "generation_form": "空",
+    "pronunciation": "kōng",
+    "pos": "adjective, adverb",
+    "primary_gloss": "empty",
+    "secondary_glosses": [
+      "vacant",
+      "hollow",
+      "(in vain",
+      "for nothing)"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective, adverb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0437",
+    "rank": 437,
+    "display_form": "空气",
+    "lemma": "空气",
+    "generation_form": "空气",
+    "pronunciation": "kōngqì",
+    "pos": "noun",
+    "primary_gloss": "atmosphere",
+    "secondary_glosses": [
+      "air"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0438",
+    "rank": 438,
+    "display_form": "恐怕",
+    "lemma": "恐怕",
+    "generation_form": "恐怕",
+    "pronunciation": "kǒngpà",
+    "pos": "verb, adverb",
+    "primary_gloss": "to fear",
+    "secondary_glosses": [
+      "to be afraid",
+      "I'm afraid",
+      "perhaps",
+      "maybe"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, adverb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0439",
+    "rank": 439,
+    "display_form": "空",
+    "lemma": "空",
+    "generation_form": "空",
+    "pronunciation": "kòng",
+    "pos": "verb, adjective, noun",
+    "primary_gloss": "to leave empty",
+    "secondary_glosses": [
+      "to make time",
+      "to free up",
+      "empty",
+      "free",
+      "unoccupied",
+      "free time",
+      "empty space"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, adjective, noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0440",
+    "rank": 440,
+    "display_form": "又语",
+    "lemma": "又语",
+    "generation_form": "又语",
+    "pronunciation": "kǒuyǔ",
+    "pos": "noun",
+    "primary_gloss": "spoken language",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0441",
+    "rank": 441,
+    "display_form": "苦",
+    "lemma": "苦",
+    "generation_form": "苦",
+    "pronunciation": "kǔ",
+    "pos": "adjective",
+    "primary_gloss": "bitter",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0442",
+    "rank": 442,
+    "display_form": "快餐",
+    "lemma": "快餐",
+    "generation_form": "快餐",
+    "pronunciation": "kuàicān",
+    "pos": "noun",
+    "primary_gloss": "fast food",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0443",
+    "rank": 443,
+    "display_form": "快递",
+    "lemma": "快递",
+    "generation_form": "快递",
+    "pronunciation": "kuàidì",
+    "pos": "noun",
+    "primary_gloss": "express delivery",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0444",
+    "rank": 444,
+    "display_form": "快速",
+    "lemma": "快速",
+    "generation_form": "快速",
+    "pronunciation": "kuàisù",
+    "pos": "adjective",
+    "primary_gloss": "fast",
+    "secondary_glosses": [
+      "high-speed"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0445",
+    "rank": 445,
+    "display_form": "困",
+    "lemma": "困",
+    "generation_form": "困",
+    "pronunciation": "kùn",
+    "pos": "adjective, verb",
+    "primary_gloss": "sleepy",
+    "secondary_glosses": [
+      "tired",
+      "(to trap",
+      "to confine)"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective, verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0446",
+    "rank": 446,
+    "display_form": "困难",
+    "lemma": "困难",
+    "generation_form": "困难",
+    "pronunciation": "kùnnan",
+    "pos": "adjective, noun",
+    "primary_gloss": "difficult",
+    "secondary_glosses": [
+      "hard",
+      "difficulty",
+      "trouble"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective, noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0447",
+    "rank": 447,
+    "display_form": "拉",
+    "lemma": "拉",
+    "generation_form": "拉",
+    "pronunciation": "lā",
+    "pos": "verb",
+    "primary_gloss": "to pull",
+    "secondary_glosses": [
+      "to drag",
+      "to draw"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0448",
+    "rank": 448,
+    "display_form": "垃圾",
+    "lemma": "垃圾",
+    "generation_form": "垃圾",
+    "pronunciation": "lājī",
+    "pos": "noun",
+    "primary_gloss": "garbage",
+    "secondary_glosses": [
+      "trash",
+      "rubbish"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0449",
+    "rank": 449,
+    "display_form": "辣",
+    "lemma": "辣",
+    "generation_form": "辣",
+    "pronunciation": "là",
+    "pos": "adjective",
+    "primary_gloss": "hot",
+    "secondary_glosses": [
+      "spicy"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0450",
+    "rank": 450,
+    "display_form": "来不及",
+    "lemma": "来不及",
+    "generation_form": "来不及",
+    "pronunciation": "láibují",
+    "pos": "verb",
+    "primary_gloss": "there's not enough time",
+    "secondary_glosses": [
+      "it's too late"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  }
+]

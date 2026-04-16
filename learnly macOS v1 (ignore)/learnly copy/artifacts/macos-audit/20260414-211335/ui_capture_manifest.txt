@@ -1,0 +1,6 @@
+11_home_final.png
+12_dashboard_final.png
+13_study_setup_final.png
+17_words_final.png
+18_word_detail_final.png
+19_settings_final.png

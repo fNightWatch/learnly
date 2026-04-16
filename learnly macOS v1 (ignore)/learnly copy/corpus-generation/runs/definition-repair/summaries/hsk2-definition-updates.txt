@@ -1,0 +1,9 @@
+HSK2 definition-layer repair summary
+Total rows reviewed: 772
+Rows updated: 719
+Function-word rows updated: 89
+Key improvements:
+- Replaced the remaining unknown POS values with learner-usable parts of speech across the HSK2 definition patch scope.
+- Repaired grammar/function entries such as 必须, 不但, 当, 得, 的话, 所以, 因为, 为, 只要, and similar high-value glue words.
+- Cleaned several noisy or incomplete gloss layers, including rows flagged earlier like 或, 计划, 健康, 斤, 经常, and 就要.
+- Rewrote notes to be shorter and more learner-facing while keeping important common meanings visible.

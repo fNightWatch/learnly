@@ -1,0 +1,355 @@
+[
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0851",
+    "rank": 851,
+    "display_form": "演出",
+    "lemma": "演出",
+    "generation_form": "演出",
+    "pronunciation": "yǎnchū",
+    "pos": "verb",
+    "primary_gloss": "to perform",
+    "secondary_glosses": [
+      "to put on a show"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0852",
+    "rank": 852,
+    "display_form": "眼镜",
+    "lemma": "眼镜",
+    "generation_form": "眼镜",
+    "pronunciation": "yǎnjìng",
+    "pos": "noun",
+    "primary_gloss": "eyeglasses",
+    "secondary_glosses": [
+      "glasses"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0853",
+    "rank": 853,
+    "display_form": "眼前",
+    "lemma": "眼前",
+    "generation_form": "眼前",
+    "pronunciation": "yǎnqián",
+    "pos": "noun",
+    "primary_gloss": "before one's eyes",
+    "secondary_glosses": [
+      "at the moment"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0854",
+    "rank": 854,
+    "display_form": "演员",
+    "lemma": "演员",
+    "generation_form": "演员",
+    "pronunciation": "yǎnyuán",
+    "pos": "noun",
+    "primary_gloss": "actor",
+    "secondary_glosses": [
+      "performer"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0855",
+    "rank": 855,
+    "display_form": "阳光",
+    "lemma": "阳光",
+    "generation_form": "阳光",
+    "pronunciation": "yángguāng",
+    "pos": "noun",
+    "primary_gloss": "sunlight",
+    "secondary_glosses": [
+      "sunshine"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0856",
+    "rank": 856,
+    "display_form": "养成",
+    "lemma": "养成",
+    "generation_form": "养成",
+    "pronunciation": "yǎngchéng",
+    "pos": "verb",
+    "primary_gloss": "to develop",
+    "secondary_glosses": [
+      "to cultivate",
+      "to form"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0857",
+    "rank": 857,
+    "display_form": "样子",
+    "lemma": "样子",
+    "generation_form": "样子",
+    "pronunciation": "yàngzi",
+    "pos": "noun",
+    "primary_gloss": "appearance",
+    "secondary_glosses": [
+      "look",
+      "manner"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0858",
+    "rank": 858,
+    "display_form": "邀请",
+    "lemma": "邀请",
+    "generation_form": "邀请",
+    "pronunciation": "yāoqǐng",
+    "pos": "verb",
+    "primary_gloss": "to invite",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0859",
+    "rank": 859,
+    "display_form": "要是",
+    "lemma": "要是",
+    "generation_form": "要是",
+    "pronunciation": "yàoshi",
+    "pos": "conjunction",
+    "primary_gloss": "if",
+    "secondary_glosses": [
+      "suppose"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as conjunction."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0860",
+    "rank": 860,
+    "display_form": "钥匙",
+    "lemma": "钥匙",
+    "generation_form": "钥匙",
+    "pronunciation": "yàoshi",
+    "pos": "noun",
+    "primary_gloss": "key",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0861",
+    "rank": 861,
+    "display_form": "也许",
+    "lemma": "也许",
+    "generation_form": "也许",
+    "pronunciation": "yěxǔ",
+    "pos": "adverb",
+    "primary_gloss": "maybe",
+    "secondary_glosses": [
+      "perhaps"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0862",
+    "rank": 862,
+    "display_form": "夜",
+    "lemma": "夜",
+    "generation_form": "夜",
+    "pronunciation": "yè",
+    "pos": "noun, measure word",
+    "primary_gloss": "night",
+    "secondary_glosses": [
+      "measure word for segments of the night"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, measure word."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0863",
+    "rank": 863,
+    "display_form": "夜晚",
+    "lemma": "夜晚",
+    "generation_form": "夜晚",
+    "pronunciation": "yèwǎn",
+    "pos": "noun",
+    "primary_gloss": "night",
+    "secondary_glosses": [
+      "evening"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0864",
+    "rank": 864,
+    "display_form": "叶子",
+    "lemma": "叶子",
+    "generation_form": "叶子",
+    "pronunciation": "yèzi",
+    "pos": "noun",
+    "primary_gloss": "Leaf",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0865",
+    "rank": 865,
+    "display_form": "一切",
+    "lemma": "一切",
+    "generation_form": "一切",
+    "pronunciation": "yíqiè",
+    "pos": "pronoun",
+    "primary_gloss": "everything",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as pronoun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0866",
+    "rank": 866,
+    "display_form": "已",
+    "lemma": "已",
+    "generation_form": "已",
+    "pronunciation": "yǐ",
+    "pos": "adverb",
+    "primary_gloss": "already",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0867",
+    "rank": 867,
+    "display_form": "以内",
+    "lemma": "以内",
+    "generation_form": "以内",
+    "pronunciation": "yǐnèi",
+    "pos": "noun",
+    "primary_gloss": "within",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0868",
+    "rank": 868,
+    "display_form": "意见",
+    "lemma": "意见",
+    "generation_form": "意见",
+    "pronunciation": "yìjiàn",
+    "pos": "noun",
+    "primary_gloss": "opinion",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0869",
+    "rank": 869,
+    "display_form": "一生",
+    "lemma": "一生",
+    "generation_form": "一生",
+    "pronunciation": "yìshēng",
+    "pos": "noun",
+    "primary_gloss": "lifetime",
+    "secondary_glosses": [
+      "all one's life"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0870",
+    "rank": 870,
+    "display_form": "艺术",
+    "lemma": "艺术",
+    "generation_form": "艺术",
+    "pronunciation": "yìshù",
+    "pos": "noun",
+    "primary_gloss": "art",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0871",
+    "rank": 871,
+    "display_form": "因此",
+    "lemma": "因此",
+    "generation_form": "因此",
+    "pronunciation": "yīncǐ",
+    "pos": "conjunction",
+    "primary_gloss": "therefore",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as conjunction."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0872",
+    "rank": 872,
+    "display_form": "引起",
+    "lemma": "引起",
+    "generation_form": "引起",
+    "pronunciation": "yǐnqǐ",
+    "pos": "verb",
+    "primary_gloss": "cause",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0873",
+    "rank": 873,
+    "display_form": "印象",
+    "lemma": "印象",
+    "generation_form": "印象",
+    "pronunciation": "yìnxiàng",
+    "pos": "noun",
+    "primary_gloss": "impression",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0874",
+    "rank": 874,
+    "display_form": "赢",
+    "lemma": "赢",
+    "generation_form": "赢",
+    "pronunciation": "yíng",
+    "pos": "verb",
+    "primary_gloss": "win",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0875",
+    "rank": 875,
+    "display_form": "赢得",
+    "lemma": "赢得",
+    "generation_form": "赢得",
+    "pronunciation": "yíngdé",
+    "pos": "verb",
+    "primary_gloss": "gain",
+    "secondary_glosses": [
+      "win"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  }
+]

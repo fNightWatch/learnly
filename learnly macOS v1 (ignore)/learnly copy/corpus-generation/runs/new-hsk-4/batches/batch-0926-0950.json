@@ -1,0 +1,386 @@
+[
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0926",
+    "rank": 926,
+    "display_form": "者",
+    "lemma": "者",
+    "generation_form": "者",
+    "pronunciation": "zhě",
+    "pos": "auxiliary",
+    "primary_gloss": "suffix meaning person",
+    "secondary_glosses": [
+      "one who"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as auxiliary."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0927",
+    "rank": 927,
+    "display_form": "真正",
+    "lemma": "真正",
+    "generation_form": "真正",
+    "pronunciation": "zhēnzhèng",
+    "pos": "adjective, adverb",
+    "primary_gloss": "true",
+    "secondary_glosses": [
+      "genuine",
+      "truly",
+      "indeed"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective, adverb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0928",
+    "rank": 928,
+    "display_form": "整",
+    "lemma": "整",
+    "generation_form": "整",
+    "pronunciation": "zhěng",
+    "pos": "adjective",
+    "primary_gloss": "whole",
+    "secondary_glosses": [
+      "complete",
+      "entire"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0929",
+    "rank": 929,
+    "display_form": "整个",
+    "lemma": "整个",
+    "generation_form": "整个",
+    "pronunciation": "zhěnggè",
+    "pos": "adjective",
+    "primary_gloss": "whole",
+    "secondary_glosses": [
+      "entire",
+      "all"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0930",
+    "rank": 930,
+    "display_form": "整理",
+    "lemma": "整理",
+    "generation_form": "整理",
+    "pronunciation": "zhěnglǐ",
+    "pos": "verb",
+    "primary_gloss": "to arrange",
+    "secondary_glosses": [
+      "to put in order",
+      "to tidy up"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0931",
+    "rank": 931,
+    "display_form": "证",
+    "lemma": "证",
+    "generation_form": "证",
+    "pronunciation": "zhèng",
+    "pos": "noun",
+    "primary_gloss": "certificate",
+    "secondary_glosses": [
+      "proof",
+      "evidence"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0932",
+    "rank": 932,
+    "display_form": "正常",
+    "lemma": "正常",
+    "generation_form": "正常",
+    "pronunciation": "zhèngcháng",
+    "pos": "adjective",
+    "primary_gloss": "normal",
+    "secondary_glosses": [
+      "regular",
+      "proper"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0933",
+    "rank": 933,
+    "display_form": "正好",
+    "lemma": "正好",
+    "generation_form": "正好",
+    "pronunciation": "zhènghǎo",
+    "pos": "adjective, adverb",
+    "primary_gloss": "exactly right",
+    "secondary_glosses": [
+      "just in time",
+      "coincidentally"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective, adverb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0934",
+    "rank": 934,
+    "display_form": "证件",
+    "lemma": "证件",
+    "generation_form": "证件",
+    "pronunciation": "zhèngjiàn",
+    "pos": "noun",
+    "primary_gloss": "ID card",
+    "secondary_glosses": [
+      "credentials",
+      "identification papers"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0935",
+    "rank": 935,
+    "display_form": "证明",
+    "lemma": "证明",
+    "generation_form": "证明",
+    "pronunciation": "zhèngmíng",
+    "pos": "verb, noun",
+    "primary_gloss": "to prove",
+    "secondary_glosses": [
+      "to demonstrate",
+      "proof",
+      "certificate"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0936",
+    "rank": 936,
+    "display_form": "正确",
+    "lemma": "正确",
+    "generation_form": "正确",
+    "pronunciation": "zhèngquè",
+    "pos": "adjective",
+    "primary_gloss": "correct",
+    "secondary_glosses": [
+      "right",
+      "accurate"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0937",
+    "rank": 937,
+    "display_form": "正式",
+    "lemma": "正式",
+    "generation_form": "正式",
+    "pronunciation": "zhèngshì",
+    "pos": "adjective",
+    "primary_gloss": "formal",
+    "secondary_glosses": [
+      "official"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0938",
+    "rank": 938,
+    "display_form": "之",
+    "lemma": "之",
+    "generation_form": "之",
+    "pronunciation": "zhī",
+    "pos": "auxiliary",
+    "primary_gloss": "auxiliary word (classical)",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as auxiliary."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0939",
+    "rank": 939,
+    "display_form": "支持",
+    "lemma": "支持",
+    "generation_form": "支持",
+    "pronunciation": "zhīchí",
+    "pos": "verb",
+    "primary_gloss": "to support",
+    "secondary_glosses": [
+      "to back"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0940",
+    "rank": 940,
+    "display_form": "支付",
+    "lemma": "支付",
+    "generation_form": "支付",
+    "pronunciation": "zhīfù",
+    "pos": "verb",
+    "primary_gloss": "to pay (money)",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0941",
+    "rank": 941,
+    "display_form": "之后",
+    "lemma": "之后",
+    "generation_form": "之后",
+    "pronunciation": "zhīhòu",
+    "pos": "noun",
+    "primary_gloss": "after",
+    "secondary_glosses": [
+      "later",
+      "behind"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0942",
+    "rank": 942,
+    "display_form": "之间",
+    "lemma": "之间",
+    "generation_form": "之间",
+    "pronunciation": "zhījiān",
+    "pos": "noun",
+    "primary_gloss": "between",
+    "secondary_glosses": [
+      "among"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0943",
+    "rank": 943,
+    "display_form": "之前",
+    "lemma": "之前",
+    "generation_form": "之前",
+    "pronunciation": "zhīqián",
+    "pos": "noun",
+    "primary_gloss": "before",
+    "secondary_glosses": [
+      "prior to"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0944",
+    "rank": 944,
+    "display_form": "知识",
+    "lemma": "知识",
+    "generation_form": "知识",
+    "pronunciation": "zhīshi",
+    "pos": "noun",
+    "primary_gloss": "knowledge",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0945",
+    "rank": 945,
+    "display_form": "之中",
+    "lemma": "之中",
+    "generation_form": "之中",
+    "pronunciation": "zhīzhōng",
+    "pos": "noun",
+    "primary_gloss": "among",
+    "secondary_glosses": [
+      "inside"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0946",
+    "rank": 946,
+    "display_form": "值",
+    "lemma": "值",
+    "generation_form": "值",
+    "pronunciation": "zhí",
+    "pos": "verb, adjective",
+    "primary_gloss": "to be worth",
+    "secondary_glosses": [
+      "to be equal in value",
+      "valuable",
+      "worthwhile"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0947",
+    "rank": 947,
+    "display_form": "值得",
+    "lemma": "值得",
+    "generation_form": "值得",
+    "pronunciation": "zhídé",
+    "pos": "verb",
+    "primary_gloss": "to be worth",
+    "secondary_glosses": [
+      "to deserve"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0948",
+    "rank": 948,
+    "display_form": "直接",
+    "lemma": "直接",
+    "generation_form": "直接",
+    "pronunciation": "zhíjiē",
+    "pos": "adjective",
+    "primary_gloss": "direct",
+    "secondary_glosses": [
+      "straightforward"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0949",
+    "rank": 949,
+    "display_form": "植物",
+    "lemma": "植物",
+    "generation_form": "植物",
+    "pronunciation": "zhíwù",
+    "pos": "noun",
+    "primary_gloss": "plant",
+    "secondary_glosses": [
+      "vegetation"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0950",
+    "rank": 950,
+    "display_form": "职业",
+    "lemma": "职业",
+    "generation_form": "职业",
+    "pronunciation": "zhíyè",
+    "pos": "noun",
+    "primary_gloss": "occupation",
+    "secondary_glosses": [
+      "profession"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  }
+]

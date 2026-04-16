@@ -1,0 +1,361 @@
+[
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0226",
+    "rank": 226,
+    "display_form": "赶紧",
+    "lemma": "赶紧",
+    "generation_form": "赶紧",
+    "pronunciation": "gǎnjǐn",
+    "pos": "adverb",
+    "primary_gloss": "quickly",
+    "secondary_glosses": [
+      "promptly"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0227",
+    "rank": 227,
+    "display_form": "感觉",
+    "lemma": "感觉",
+    "generation_form": "感觉",
+    "pronunciation": "gǎnjué",
+    "pos": "noun, verb",
+    "primary_gloss": "feeling",
+    "secondary_glosses": [
+      "sense",
+      "to feel"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0228",
+    "rank": 228,
+    "display_form": "赶快",
+    "lemma": "赶快",
+    "generation_form": "赶快",
+    "pronunciation": "gǎnkuài",
+    "pos": "adverb",
+    "primary_gloss": "quickly",
+    "secondary_glosses": [
+      "at once"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0229",
+    "rank": 229,
+    "display_form": "感情",
+    "lemma": "感情",
+    "generation_form": "感情",
+    "pronunciation": "gǎnqíng",
+    "pos": "noun",
+    "primary_gloss": "emotion",
+    "secondary_glosses": [
+      "feeling"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0230",
+    "rank": 230,
+    "display_form": "感人",
+    "lemma": "感人",
+    "generation_form": "感人",
+    "pronunciation": "gǎnrén",
+    "pos": "adjective",
+    "primary_gloss": "touching",
+    "secondary_glosses": [
+      "moving"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0231",
+    "rank": 231,
+    "display_form": "赶上",
+    "lemma": "赶上",
+    "generation_form": "赶上",
+    "pronunciation": "gǎnshàng",
+    "pos": "verb",
+    "primary_gloss": "to catch up",
+    "secondary_glosses": [
+      "to keep up with"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0232",
+    "rank": 232,
+    "display_form": "感受",
+    "lemma": "感受",
+    "generation_form": "感受",
+    "pronunciation": "gǎnshòu",
+    "pos": "verb, noun",
+    "primary_gloss": "feeling",
+    "secondary_glosses": [
+      "experience",
+      "to feel"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0233",
+    "rank": 233,
+    "display_form": "感谢",
+    "lemma": "感谢",
+    "generation_form": "感谢",
+    "pronunciation": "gǎnxiè",
+    "pos": "verb",
+    "primary_gloss": "to thank",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0234",
+    "rank": 234,
+    "display_form": "干活儿",
+    "lemma": "干活儿",
+    "generation_form": "干活儿",
+    "pronunciation": "gànhuór",
+    "pos": "verb",
+    "primary_gloss": "to work",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0235",
+    "rank": 235,
+    "display_form": "钢琴",
+    "lemma": "钢琴",
+    "generation_form": "钢琴",
+    "pronunciation": "gāngqín",
+    "pos": "noun",
+    "primary_gloss": "piano",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0236",
+    "rank": 236,
+    "display_form": "高价",
+    "lemma": "高价",
+    "generation_form": "高价",
+    "pronunciation": "gāojià",
+    "pos": "noun",
+    "primary_gloss": "high price",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0237",
+    "rank": 237,
+    "display_form": "高考",
+    "lemma": "高考",
+    "generation_form": "高考",
+    "pronunciation": "gāokǎo",
+    "pos": "noun",
+    "primary_gloss": "Gaokao",
+    "secondary_glosses": [
+      "college entrance examination"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0238",
+    "rank": 238,
+    "display_form": "高速",
+    "lemma": "高速",
+    "generation_form": "高速",
+    "pronunciation": "gāosù",
+    "pos": "adjective",
+    "primary_gloss": "high speed",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0239",
+    "rank": 239,
+    "display_form": "高温",
+    "lemma": "高温",
+    "generation_form": "高温",
+    "pronunciation": "gāowēn",
+    "pos": "noun",
+    "primary_gloss": "high temperature",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0240",
+    "rank": 240,
+    "display_form": "高于",
+    "lemma": "高于",
+    "generation_form": "高于",
+    "pronunciation": "gāoyú",
+    "pos": "verb",
+    "primary_gloss": "higher than",
+    "secondary_glosses": [
+      "above"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0241",
+    "rank": 241,
+    "display_form": "胳膊",
+    "lemma": "胳膊",
+    "generation_form": "胳膊",
+    "pronunciation": "gēbo",
+    "pos": "noun",
+    "primary_gloss": "arm",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0242",
+    "rank": 242,
+    "display_form": "歌声",
+    "lemma": "歌声",
+    "generation_form": "歌声",
+    "pronunciation": "gēshēng",
+    "pos": "noun",
+    "primary_gloss": "sound of singing",
+    "secondary_glosses": [
+      "song"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0243",
+    "rank": 243,
+    "display_form": "歌手",
+    "lemma": "歌手",
+    "generation_form": "歌手",
+    "pronunciation": "gēshǒu",
+    "pos": "noun",
+    "primary_gloss": "singer",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0244",
+    "rank": 244,
+    "display_form": "各",
+    "lemma": "各",
+    "generation_form": "各",
+    "pronunciation": "gè",
+    "pos": "pronoun, adverb",
+    "primary_gloss": "each",
+    "secondary_glosses": [
+      "every",
+      "respectively"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as pronoun, adverb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0245",
+    "rank": 245,
+    "display_form": "各地",
+    "lemma": "各地",
+    "generation_form": "各地",
+    "pronunciation": "gèdì",
+    "pos": "noun",
+    "primary_gloss": "various places",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0246",
+    "rank": 246,
+    "display_form": "各个",
+    "lemma": "各个",
+    "generation_form": "各个",
+    "pronunciation": "gègè",
+    "pos": "pronoun, adverb",
+    "primary_gloss": "each",
+    "secondary_glosses": [
+      "every",
+      "one by one"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as pronoun, adverb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0247",
+    "rank": 247,
+    "display_form": "各位",
+    "lemma": "各位",
+    "generation_form": "各位",
+    "pronunciation": "gèwèi",
+    "pos": "pronoun",
+    "primary_gloss": "everyone",
+    "secondary_glosses": [
+      "all (respectful)"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as pronoun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0248",
+    "rank": 248,
+    "display_form": "各种",
+    "lemma": "各种",
+    "generation_form": "各种",
+    "pronunciation": "gèzhǒng",
+    "pos": "pronoun",
+    "primary_gloss": "various kinds",
+    "secondary_glosses": [
+      "all kinds"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as pronoun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0249",
+    "rank": 249,
+    "display_form": "更加",
+    "lemma": "更加",
+    "generation_form": "更加",
+    "pronunciation": "gèngjiā",
+    "pos": "adverb",
+    "primary_gloss": "more",
+    "secondary_glosses": [
+      "even more"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0250",
+    "rank": 250,
+    "display_form": "工厂",
+    "lemma": "工厂",
+    "generation_form": "工厂",
+    "pronunciation": "gōngchǎng",
+    "pos": "noun",
+    "primary_gloss": "factory",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  }
+]

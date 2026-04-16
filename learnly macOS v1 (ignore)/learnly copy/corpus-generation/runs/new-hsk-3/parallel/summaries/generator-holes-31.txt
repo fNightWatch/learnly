@@ -1,0 +1,10 @@
+HSK3 holes batch: generator-holes-31
+Status: complete
+Output JSONL: /Users/moi/Desktop/business/learnly/corpus-generation/runs/new-hsk-3/parallel/generated/generator-holes-31.jsonl
+Word count: 31
+Rank range: 272-461
+Examples per word: 3
+Primary examples per word: 1
+Schema: established JSONL schema
+Validation: passed
+Validator: python3 /Users/moi/Desktop/business/learnly/corpus-generation/orchestrator.py --db-path /Users/moi/Desktop/business/learnly/corpus-generation/corpus-hsk-3.sqlite validate-jsonl /Users/moi/Desktop/business/learnly/corpus-generation/runs/new-hsk-3/parallel/generated/generator-holes-31.jsonl

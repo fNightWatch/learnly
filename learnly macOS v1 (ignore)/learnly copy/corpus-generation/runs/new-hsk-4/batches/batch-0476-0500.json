@@ -1,0 +1,387 @@
+[
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0476",
+    "rank": 476,
+    "display_form": "零下",
+    "lemma": "零下",
+    "generation_form": "零下",
+    "pronunciation": "líng xià",
+    "pos": "unknown",
+    "primary_gloss": "below zero",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0477",
+    "rank": 477,
+    "display_form": "零花钱",
+    "lemma": "零花钱",
+    "generation_form": "零花钱",
+    "pronunciation": "línghuāqián",
+    "pos": "noun",
+    "primary_gloss": "pocket money",
+    "secondary_glosses": [
+      "spending money"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0478",
+    "rank": 478,
+    "display_form": "零钱",
+    "lemma": "零钱",
+    "generation_form": "零钱",
+    "pronunciation": "língqián",
+    "pos": "noun",
+    "primary_gloss": "change",
+    "secondary_glosses": [
+      "small denominations of money"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0479",
+    "rank": 479,
+    "display_form": "零食",
+    "lemma": "零食",
+    "generation_form": "零食",
+    "pronunciation": "língshí",
+    "pos": "noun",
+    "primary_gloss": "snacks",
+    "secondary_glosses": [
+      "between-meal nibbles"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0480",
+    "rank": 480,
+    "display_form": "另",
+    "lemma": "另",
+    "generation_form": "另",
+    "pronunciation": "lìng",
+    "pos": "pronoun, adverb",
+    "primary_gloss": "other",
+    "secondary_glosses": [
+      "another",
+      "(separately",
+      "otherwise)"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as pronoun, adverb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0481",
+    "rank": 481,
+    "display_form": "另外",
+    "lemma": "另外",
+    "generation_form": "另外",
+    "pronunciation": "lìngwài",
+    "pos": "pronoun, adverb, conjunction",
+    "primary_gloss": "other",
+    "secondary_glosses": [
+      "else",
+      "in addition",
+      "moreover",
+      "besides",
+      "furthermore"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as pronoun, adverb, conjunction."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0482",
+    "rank": 482,
+    "display_form": "留",
+    "lemma": "留",
+    "generation_form": "留",
+    "pronunciation": "liú",
+    "pos": "verb",
+    "primary_gloss": "to stay",
+    "secondary_glosses": [
+      "to remain",
+      "to keep"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0483",
+    "rank": 483,
+    "display_form": "流",
+    "lemma": "流",
+    "generation_form": "流",
+    "pronunciation": "liú",
+    "pos": "verb",
+    "primary_gloss": "to flow",
+    "secondary_glosses": [
+      "to circulate"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0484",
+    "rank": 484,
+    "display_form": "流利",
+    "lemma": "流利",
+    "generation_form": "流利",
+    "pronunciation": "liúlì",
+    "pos": "adjective",
+    "primary_gloss": "fluent",
+    "secondary_glosses": [
+      "smooth"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0485",
+    "rank": 485,
+    "display_form": "留下",
+    "lemma": "留下",
+    "generation_form": "留下",
+    "pronunciation": "liúxia",
+    "pos": "verb",
+    "primary_gloss": "to leave behind",
+    "secondary_glosses": [
+      "to remain"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0486",
+    "rank": 486,
+    "display_form": "流行",
+    "lemma": "流行",
+    "generation_form": "流行",
+    "pronunciation": "liúxíng",
+    "pos": "verb",
+    "primary_gloss": "to be popular",
+    "secondary_glosses": [
+      "to be in fashion",
+      "to spread"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0487",
+    "rank": 487,
+    "display_form": "路过",
+    "lemma": "路过",
+    "generation_form": "路过",
+    "pronunciation": "lùguò",
+    "pos": "verb",
+    "primary_gloss": "to pass by",
+    "secondary_glosses": [
+      "to go by"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0488",
+    "rank": 488,
+    "display_form": "旅馆",
+    "lemma": "旅馆",
+    "generation_form": "旅馆",
+    "pronunciation": "lǚguǎn",
+    "pos": "noun",
+    "primary_gloss": "hotel",
+    "secondary_glosses": [
+      "inn"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0489",
+    "rank": 489,
+    "display_form": "旅客",
+    "lemma": "旅客",
+    "generation_form": "旅客",
+    "pronunciation": "lǚkè",
+    "pos": "noun",
+    "primary_gloss": "traveler",
+    "secondary_glosses": [
+      "passenger"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0490",
+    "rank": 490,
+    "display_form": "旅行",
+    "lemma": "旅行",
+    "generation_form": "旅行",
+    "pronunciation": "lǚxíng",
+    "pos": "verb",
+    "primary_gloss": "to travel",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0491",
+    "rank": 491,
+    "display_form": "律师",
+    "lemma": "律师",
+    "generation_form": "律师",
+    "pronunciation": "lǜshī",
+    "pos": "noun",
+    "primary_gloss": "lawyer",
+    "secondary_glosses": [
+      "attorney"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0492",
+    "rank": 492,
+    "display_form": "乱",
+    "lemma": "乱",
+    "generation_form": "乱",
+    "pronunciation": "luàn",
+    "pos": "adjective, adverb",
+    "primary_gloss": "messy",
+    "secondary_glosses": [
+      "disorderly",
+      "arbitrarily",
+      "recklessly"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective, adverb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0493",
+    "rank": 493,
+    "display_form": "落",
+    "lemma": "落",
+    "generation_form": "落",
+    "pronunciation": "luò",
+    "pos": "verb",
+    "primary_gloss": "to fall",
+    "secondary_glosses": [
+      "to drop",
+      "to land"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0494",
+    "rank": 494,
+    "display_form": "麻烦",
+    "lemma": "麻烦",
+    "generation_form": "麻烦",
+    "pronunciation": "máfan",
+    "pos": "adjective, verb, noun",
+    "primary_gloss": "troublesome",
+    "secondary_glosses": [
+      "annoying",
+      "to trouble",
+      "to bother",
+      "trouble",
+      "inconvenience"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective, verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0495",
+    "rank": 495,
+    "display_form": "馒头",
+    "lemma": "馒头",
+    "generation_form": "馒头",
+    "pronunciation": "mántou",
+    "pos": "noun",
+    "primary_gloss": "steamed bun",
+    "secondary_glosses": [
+      "mantou"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0496",
+    "rank": 496,
+    "display_form": "满",
+    "lemma": "满",
+    "generation_form": "满",
+    "pronunciation": "mǎn",
+    "pos": "adjective, verb",
+    "primary_gloss": "full",
+    "secondary_glosses": [
+      "filled",
+      "to fill"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective, verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0497",
+    "rank": 497,
+    "display_form": "毛巾",
+    "lemma": "毛巾",
+    "generation_form": "毛巾",
+    "pronunciation": "máojīn",
+    "pos": "noun",
+    "primary_gloss": "towel",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0498",
+    "rank": 498,
+    "display_form": "毛衣",
+    "lemma": "毛衣",
+    "generation_form": "毛衣",
+    "pronunciation": "máoyī",
+    "pos": "noun",
+    "primary_gloss": "sweater",
+    "secondary_glosses": [
+      "woolen garment"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0499",
+    "rank": 499,
+    "display_form": "帽子",
+    "lemma": "帽子",
+    "generation_form": "帽子",
+    "pronunciation": "màozi",
+    "pos": "noun",
+    "primary_gloss": "hat",
+    "secondary_glosses": [
+      "cap"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0500",
+    "rank": 500,
+    "display_form": "美",
+    "lemma": "美",
+    "generation_form": "美",
+    "pronunciation": "měi",
+    "pos": "adjective",
+    "primary_gloss": "beautiful",
+    "secondary_glosses": [
+      "pretty"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  }
+]

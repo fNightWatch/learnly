@@ -1,0 +1,383 @@
+[
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0576",
+    "rank": 576,
+    "display_form": "签证",
+    "lemma": "签证",
+    "generation_form": "签证",
+    "pronunciation": "qiānzhèng",
+    "pos": "verb, noun",
+    "primary_gloss": "visa",
+    "secondary_glosses": [
+      "to issue a visa"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0577",
+    "rank": 577,
+    "display_form": "前方",
+    "lemma": "前方",
+    "generation_form": "前方",
+    "pronunciation": "qiánfāng",
+    "pos": "noun",
+    "primary_gloss": "ahead",
+    "secondary_glosses": [
+      "front"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0578",
+    "rank": 578,
+    "display_form": "前后",
+    "lemma": "前后",
+    "generation_form": "前后",
+    "pronunciation": "qiánhòu",
+    "pos": "noun",
+    "primary_gloss": "front and back",
+    "secondary_glosses": [
+      "around",
+      "about"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0579",
+    "rank": 579,
+    "display_form": "强",
+    "lemma": "强",
+    "generation_form": "强",
+    "pronunciation": "qiáng",
+    "pos": "adjective",
+    "primary_gloss": "strong",
+    "secondary_glosses": [
+      "powerful"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0580",
+    "rank": 580,
+    "display_form": "敲",
+    "lemma": "敲",
+    "generation_form": "敲",
+    "pronunciation": "qiāo",
+    "pos": "verb",
+    "primary_gloss": "to knock",
+    "secondary_glosses": [
+      "to tap",
+      "to strike"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0581",
+    "rank": 581,
+    "display_form": "桥",
+    "lemma": "桥",
+    "generation_form": "桥",
+    "pronunciation": "qiáo",
+    "pos": "noun",
+    "primary_gloss": "bridge",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0582",
+    "rank": 582,
+    "display_form": "巧",
+    "lemma": "巧",
+    "generation_form": "巧",
+    "pronunciation": "qiǎo",
+    "pos": "adjective",
+    "primary_gloss": "skillful",
+    "secondary_glosses": [
+      "clever",
+      "opportune"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0583",
+    "rank": 583,
+    "display_form": "巧克力",
+    "lemma": "巧克力",
+    "generation_form": "巧克力",
+    "pronunciation": "qiǎokèlì",
+    "pos": "noun",
+    "primary_gloss": "chocolate",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0584",
+    "rank": 584,
+    "display_form": "亲戚",
+    "lemma": "亲戚",
+    "generation_form": "亲戚",
+    "pronunciation": "qīnqi",
+    "pos": "noun",
+    "primary_gloss": "relative",
+    "secondary_glosses": [
+      "relative family member"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0585",
+    "rank": 585,
+    "display_form": "琴",
+    "lemma": "琴",
+    "generation_form": "琴",
+    "pronunciation": "qín",
+    "pos": "noun",
+    "primary_gloss": "musical instrument",
+    "secondary_glosses": [
+      "piano",
+      "etc."
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0586",
+    "rank": 586,
+    "display_form": "轻",
+    "lemma": "轻",
+    "generation_form": "轻",
+    "pronunciation": "qīng",
+    "pos": "adjective",
+    "primary_gloss": "light",
+    "secondary_glosses": [
+      "not heavy",
+      "gentle",
+      "easy"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0587",
+    "rank": 587,
+    "display_form": "青年",
+    "lemma": "青年",
+    "generation_form": "青年",
+    "pronunciation": "qīngnián",
+    "pos": "noun",
+    "primary_gloss": "youth",
+    "secondary_glosses": [
+      "young people"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0588",
+    "rank": 588,
+    "display_form": "轻松",
+    "lemma": "轻松",
+    "generation_form": "轻松",
+    "pronunciation": "qīngsōng",
+    "pos": "adjective",
+    "primary_gloss": "relaxed",
+    "secondary_glosses": [
+      "light",
+      "easy"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0589",
+    "rank": 589,
+    "display_form": "情况",
+    "lemma": "情况",
+    "generation_form": "情况",
+    "pronunciation": "qíngkuàng",
+    "pos": "noun",
+    "primary_gloss": "situation",
+    "secondary_glosses": [
+      "circumstance"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0590",
+    "rank": 590,
+    "display_form": "庆祝",
+    "lemma": "庆祝",
+    "generation_form": "庆祝",
+    "pronunciation": "qìngzhù",
+    "pos": "verb",
+    "primary_gloss": "to celebrate",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0591",
+    "rank": 591,
+    "display_form": "球队",
+    "lemma": "球队",
+    "generation_form": "球队",
+    "pronunciation": "qiúduì",
+    "pos": "noun",
+    "primary_gloss": "sports team",
+    "secondary_glosses": [
+      "ball team"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0592",
+    "rank": 592,
+    "display_form": "球迷",
+    "lemma": "球迷",
+    "generation_form": "球迷",
+    "pronunciation": "qiúmí",
+    "pos": "noun",
+    "primary_gloss": "fan",
+    "secondary_glosses": [
+      "sports enthusiast"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0593",
+    "rank": 593,
+    "display_form": "区",
+    "lemma": "区",
+    "generation_form": "区",
+    "pronunciation": "qū",
+    "pos": "noun",
+    "primary_gloss": "district",
+    "secondary_glosses": [
+      "area",
+      "region"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0594",
+    "rank": 594,
+    "display_form": "区别",
+    "lemma": "区别",
+    "generation_form": "区别",
+    "pronunciation": "qūbié",
+    "pos": "verb, noun",
+    "primary_gloss": "difference",
+    "secondary_glosses": [
+      "to distinguish",
+      "to differ"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0595",
+    "rank": 595,
+    "display_form": "取",
+    "lemma": "取",
+    "generation_form": "取",
+    "pronunciation": "qǔ",
+    "pos": "verb",
+    "primary_gloss": "to take",
+    "secondary_glosses": [
+      "to get",
+      "to obtain"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0596",
+    "rank": 596,
+    "display_form": "取得",
+    "lemma": "取得",
+    "generation_form": "取得",
+    "pronunciation": "qǔdé",
+    "pos": "verb",
+    "primary_gloss": "to obtain",
+    "secondary_glosses": [
+      "to gain"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0597",
+    "rank": 597,
+    "display_form": "取消",
+    "lemma": "取消",
+    "generation_form": "取消",
+    "pronunciation": "qǔxiāo",
+    "pos": "verb",
+    "primary_gloss": "to cancel",
+    "secondary_glosses": [
+      "to call off"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0598",
+    "rank": 598,
+    "display_form": "全",
+    "lemma": "全",
+    "generation_form": "全",
+    "pronunciation": "quán",
+    "pos": "adjective, adverb",
+    "primary_gloss": "whole",
+    "secondary_glosses": [
+      "entire",
+      "completely",
+      "entirely"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective, adverb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0599",
+    "rank": 599,
+    "display_form": "全部",
+    "lemma": "全部",
+    "generation_form": "全部",
+    "pronunciation": "quánbù",
+    "pos": "noun",
+    "primary_gloss": "all",
+    "secondary_glosses": [
+      "the whole thing"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0600",
+    "rank": 600,
+    "display_form": "全都",
+    "lemma": "全都",
+    "generation_form": "全都",
+    "pronunciation": "quándōu",
+    "pos": "adverb",
+    "primary_gloss": "all",
+    "secondary_glosses": [
+      "entirely"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  }
+]

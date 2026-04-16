@@ -1,0 +1,362 @@
+[
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0776",
+    "rank": 776,
+    "display_form": "闻",
+    "lemma": "闻",
+    "generation_form": "闻",
+    "pronunciation": "wén",
+    "pos": "verb",
+    "primary_gloss": "to smell",
+    "secondary_glosses": [
+      "to sniff"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0777",
+    "rank": 777,
+    "display_form": "文件",
+    "lemma": "文件",
+    "generation_form": "文件",
+    "pronunciation": "wénjiàn",
+    "pos": "noun",
+    "primary_gloss": "document",
+    "secondary_glosses": [
+      "file"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0778",
+    "rank": 778,
+    "display_form": "文章",
+    "lemma": "文章",
+    "generation_form": "文章",
+    "pronunciation": "wénzhāng",
+    "pos": "noun",
+    "primary_gloss": "essay",
+    "secondary_glosses": [
+      "article"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0779",
+    "rank": 779,
+    "display_form": "文字",
+    "lemma": "文字",
+    "generation_form": "文字",
+    "pronunciation": "wénzì",
+    "pos": "noun",
+    "primary_gloss": "writing",
+    "secondary_glosses": [
+      "character"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0780",
+    "rank": 780,
+    "display_form": "污染",
+    "lemma": "污染",
+    "generation_form": "污染",
+    "pronunciation": "wūrǎn",
+    "pos": "verb",
+    "primary_gloss": "contaminated",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0781",
+    "rank": 781,
+    "display_form": "无",
+    "lemma": "无",
+    "generation_form": "无",
+    "pronunciation": "wú",
+    "pos": "verb",
+    "primary_gloss": "to lack",
+    "secondary_glosses": [
+      "to not have"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0782",
+    "rank": 782,
+    "display_form": "无法",
+    "lemma": "无法",
+    "generation_form": "无法",
+    "pronunciation": "wúfǎ",
+    "pos": "verb",
+    "primary_gloss": "unable",
+    "secondary_glosses": [
+      "incapable"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0783",
+    "rank": 783,
+    "display_form": "无聊",
+    "lemma": "无聊",
+    "generation_form": "无聊",
+    "pronunciation": "wúliáo",
+    "pos": "adjective",
+    "primary_gloss": "boring",
+    "secondary_glosses": [
+      "dull"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0784",
+    "rank": 784,
+    "display_form": "无论",
+    "lemma": "无论",
+    "generation_form": "无论",
+    "pronunciation": "wúlùn",
+    "pos": "conjunction",
+    "primary_gloss": "no matter what",
+    "secondary_glosses": [
+      "regardless"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as conjunction."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0785",
+    "rank": 785,
+    "display_form": "午餐",
+    "lemma": "午餐",
+    "generation_form": "午餐",
+    "pronunciation": "wǔcān",
+    "pos": "noun",
+    "primary_gloss": "lunch",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0786",
+    "rank": 786,
+    "display_form": "误会",
+    "lemma": "误会",
+    "generation_form": "误会",
+    "pronunciation": "wùhuì",
+    "pos": "verb, noun",
+    "primary_gloss": "to misunderstand",
+    "secondary_glosses": [
+      "misunderstanding"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0787",
+    "rank": 787,
+    "display_form": "吸",
+    "lemma": "吸",
+    "generation_form": "吸",
+    "pronunciation": "xī",
+    "pos": "verb",
+    "primary_gloss": "to suck",
+    "secondary_glosses": [
+      "to inhale",
+      "to absorb"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0788",
+    "rank": 788,
+    "display_form": "西部",
+    "lemma": "西部",
+    "generation_form": "西部",
+    "pronunciation": "xībù",
+    "pos": "noun",
+    "primary_gloss": "western region",
+    "secondary_glosses": [
+      "west part"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0789",
+    "rank": 789,
+    "display_form": "西红柿",
+    "lemma": "西红柿",
+    "generation_form": "西红柿",
+    "pronunciation": "xīhóngshì",
+    "pos": "noun",
+    "primary_gloss": "tomato",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0790",
+    "rank": 790,
+    "display_form": "吸引",
+    "lemma": "吸引",
+    "generation_form": "吸引",
+    "pronunciation": "xīyǐn",
+    "pos": "verb",
+    "primary_gloss": "to attract",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0791",
+    "rank": 791,
+    "display_form": "细",
+    "lemma": "细",
+    "generation_form": "细",
+    "pronunciation": "xì",
+    "pos": "adjective",
+    "primary_gloss": "thin",
+    "secondary_glosses": [
+      "fine",
+      "detailed"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0792",
+    "rank": 792,
+    "display_form": "细心",
+    "lemma": "细心",
+    "generation_form": "细心",
+    "pronunciation": "xìxīn",
+    "pos": "adjective",
+    "primary_gloss": "careful",
+    "secondary_glosses": [
+      "attentive"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0793",
+    "rank": 793,
+    "display_form": "下降",
+    "lemma": "下降",
+    "generation_form": "下降",
+    "pronunciation": "xiàjiàng",
+    "pos": "verb",
+    "primary_gloss": "to decline",
+    "secondary_glosses": [
+      "to drop",
+      "to go down"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0794",
+    "rank": 794,
+    "display_form": "鲜",
+    "lemma": "鲜",
+    "generation_form": "鲜",
+    "pronunciation": "xiān",
+    "pos": "adjective",
+    "primary_gloss": "fresh",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0795",
+    "rank": 795,
+    "display_form": "鲜花",
+    "lemma": "鲜花",
+    "generation_form": "鲜花",
+    "pronunciation": "xiānhuā",
+    "pos": "noun",
+    "primary_gloss": "fresh flower",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0796",
+    "rank": 796,
+    "display_form": "咸",
+    "lemma": "咸",
+    "generation_form": "咸",
+    "pronunciation": "xián",
+    "pos": "adjective",
+    "primary_gloss": "salty",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0797",
+    "rank": 797,
+    "display_form": "现金",
+    "lemma": "现金",
+    "generation_form": "现金",
+    "pronunciation": "xiànjīn",
+    "pos": "noun",
+    "primary_gloss": "cash",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0798",
+    "rank": 798,
+    "display_form": "羡慕",
+    "lemma": "羡慕",
+    "generation_form": "羡慕",
+    "pronunciation": "xiànmù",
+    "pos": "verb",
+    "primary_gloss": "to envy",
+    "secondary_glosses": [
+      "to admire"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0799",
+    "rank": 799,
+    "display_form": "线上",
+    "lemma": "线上",
+    "generation_form": "线上",
+    "pronunciation": "xiànshàng",
+    "pos": "noun",
+    "primary_gloss": "online",
+    "secondary_glosses": [
+      "on the internet"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0800",
+    "rank": 800,
+    "display_form": "线下",
+    "lemma": "线下",
+    "generation_form": "线下",
+    "pronunciation": "xiànxià",
+    "pos": "noun",
+    "primary_gloss": "offline",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  }
+]

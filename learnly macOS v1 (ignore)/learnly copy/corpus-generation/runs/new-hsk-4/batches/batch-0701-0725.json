@@ -1,0 +1,381 @@
+[
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0701",
+    "rank": 701,
+    "display_form": "说明书",
+    "lemma": "说明书",
+    "generation_form": "说明书",
+    "pronunciation": "shuōmíngshū",
+    "pos": "noun",
+    "primary_gloss": "instruction manual",
+    "secondary_glosses": [
+      "user guide",
+      "explanatory booklet"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0702",
+    "rank": 702,
+    "display_form": "硕士",
+    "lemma": "硕士",
+    "generation_form": "硕士",
+    "pronunciation": "shuòshì",
+    "pos": "noun",
+    "primary_gloss": "master",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0703",
+    "rank": 703,
+    "display_form": "死",
+    "lemma": "死",
+    "generation_form": "死",
+    "pronunciation": "sǐ",
+    "pos": "verb, adjective, adverb",
+    "primary_gloss": "to die",
+    "secondary_glosses": [
+      "to be dead",
+      "dead",
+      "extreme",
+      "extremely",
+      "to death"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, adjective, adverb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0704",
+    "rank": 704,
+    "display_form": "速度",
+    "lemma": "速度",
+    "generation_form": "速度",
+    "pronunciation": "sùdù",
+    "pos": "noun",
+    "primary_gloss": "speed",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0705",
+    "rank": 705,
+    "display_form": "塑料",
+    "lemma": "塑料",
+    "generation_form": "塑料",
+    "pronunciation": "sùliào",
+    "pos": "noun",
+    "primary_gloss": "plastic",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0706",
+    "rank": 706,
+    "display_form": "酸",
+    "lemma": "酸",
+    "generation_form": "酸",
+    "pronunciation": "suān",
+    "pos": "adjective",
+    "primary_gloss": "sour",
+    "secondary_glosses": [
+      "tart"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0707",
+    "rank": 707,
+    "display_form": "酸奶",
+    "lemma": "酸奶",
+    "generation_form": "酸奶",
+    "pronunciation": "suānnǎi",
+    "pos": "noun",
+    "primary_gloss": "yogurt",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0708",
+    "rank": 708,
+    "display_form": "算",
+    "lemma": "算",
+    "generation_form": "算",
+    "pronunciation": "suàn",
+    "pos": "verb, adverb",
+    "primary_gloss": "to calculate",
+    "secondary_glosses": [
+      "to count",
+      "considered",
+      "at last"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, adverb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0709",
+    "rank": 709,
+    "display_form": "随便",
+    "lemma": "随便",
+    "generation_form": "随便",
+    "pronunciation": "suíbiàn",
+    "pos": "verb, adjective, conjunction",
+    "primary_gloss": "to do as one pleases",
+    "secondary_glosses": [
+      "casual",
+      "casual",
+      "informal",
+      "anyway",
+      "whatever"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, adjective, conjunction."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0710",
+    "rank": 710,
+    "display_form": "随着",
+    "lemma": "随着",
+    "generation_form": "随着",
+    "pronunciation": "suízhe",
+    "pos": "preposition",
+    "primary_gloss": "along with",
+    "secondary_glosses": [
+      "following"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as preposition."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0711",
+    "rank": 711,
+    "display_form": "孙女",
+    "lemma": "孙女",
+    "generation_form": "孙女",
+    "pronunciation": "sūnnǚ",
+    "pos": "noun",
+    "primary_gloss": "granddaughter",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0712",
+    "rank": 712,
+    "display_form": "孙子",
+    "lemma": "孙子",
+    "generation_form": "孙子",
+    "pronunciation": "sūnzi",
+    "pos": "noun",
+    "primary_gloss": "grandson",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0713",
+    "rank": 713,
+    "display_form": "所有",
+    "lemma": "所有",
+    "generation_form": "所有",
+    "pronunciation": "suǒyǒu",
+    "pos": "adjective, verb, noun",
+    "primary_gloss": "all",
+    "secondary_glosses": [
+      "every",
+      "(to possess",
+      "to own",
+      "possessions",
+      "belongings)"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective, verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0714",
+    "rank": 714,
+    "display_form": "台",
+    "lemma": "台",
+    "generation_form": "台",
+    "pronunciation": "tái",
+    "pos": "measure word, noun",
+    "primary_gloss": "measure word for machines",
+    "secondary_glosses": [
+      "vehicles",
+      "etc.",
+      "(platform",
+      "stage)"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as measure word, noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0715",
+    "rank": 715,
+    "display_form": "抬",
+    "lemma": "抬",
+    "generation_form": "抬",
+    "pronunciation": "tái",
+    "pos": "verb",
+    "primary_gloss": "to lift",
+    "secondary_glosses": [
+      "to raise"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0716",
+    "rank": 716,
+    "display_form": "抬头",
+    "lemma": "抬头",
+    "generation_form": "抬头",
+    "pronunciation": "táitóu",
+    "pos": "verb",
+    "primary_gloss": "to raise one's head",
+    "secondary_glosses": [
+      "to look up"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0717",
+    "rank": 717,
+    "display_form": "态度",
+    "lemma": "态度",
+    "generation_form": "态度",
+    "pronunciation": "tàidù",
+    "pos": "noun",
+    "primary_gloss": "attitude",
+    "secondary_glosses": [
+      "manner"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0718",
+    "rank": 718,
+    "display_form": "弹",
+    "lemma": "弹",
+    "generation_form": "弹",
+    "pronunciation": "tán",
+    "pos": "verb",
+    "primary_gloss": "to play",
+    "secondary_glosses": [
+      "to spring"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0719",
+    "rank": 719,
+    "display_form": "谈",
+    "lemma": "谈",
+    "generation_form": "谈",
+    "pronunciation": "tán",
+    "pos": "verb",
+    "primary_gloss": "to talk",
+    "secondary_glosses": [
+      "to discuss"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0720",
+    "rank": 720,
+    "display_form": "汤",
+    "lemma": "汤",
+    "generation_form": "汤",
+    "pronunciation": "tāng",
+    "pos": "noun",
+    "primary_gloss": "soup",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0721",
+    "rank": 721,
+    "display_form": "躺",
+    "lemma": "躺",
+    "generation_form": "躺",
+    "pronunciation": "tǎng",
+    "pos": "verb",
+    "primary_gloss": "to lie down",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0722",
+    "rank": 722,
+    "display_form": "趟",
+    "lemma": "趟",
+    "generation_form": "趟",
+    "pronunciation": "tàng",
+    "pos": "measure word",
+    "primary_gloss": "measure word for trips",
+    "secondary_glosses": [
+      "journeys"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as measure word."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0723",
+    "rank": 723,
+    "display_form": "讨论",
+    "lemma": "讨论",
+    "generation_form": "讨论",
+    "pronunciation": "tǎolùn",
+    "pos": "verb",
+    "primary_gloss": "to discuss",
+    "secondary_glosses": [
+      "to talk over"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0724",
+    "rank": 724,
+    "display_form": "讨厌",
+    "lemma": "讨厌",
+    "generation_form": "讨厌",
+    "pronunciation": "tǎoyàn",
+    "pos": "adjective, verb",
+    "primary_gloss": "disgusting",
+    "secondary_glosses": [
+      "annoying",
+      "to dislike",
+      "to loathe"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective, verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0725",
+    "rank": 725,
+    "display_form": "特点",
+    "lemma": "特点",
+    "generation_form": "特点",
+    "pronunciation": "tèdiǎn",
+    "pos": "noun",
+    "primary_gloss": "characteristic",
+    "secondary_glosses": [
+      "feature"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  }
+]

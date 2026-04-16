@@ -1,0 +1,11 @@
+HSK1 definition-layer pass 2 summary
+
+Total rows reviewed: 500
+Rows updated: 415
+Function-word rows updated: 101
+
+Key improvements:
+- Added explicit POS labels across the remaining unknown HSK1 rows, especially nouns, verbs, adjectives, time words, location words, classifiers, and question words.
+- Expanded gloss coverage on high-frequency beginner words whose earlier definitions were too narrow, such as 爱, 帮忙, 打, 快, 能, 想, 要, 花, 好, and 会.
+- Clarified learner-facing notes for quantity words, modal words, direction terms, and common fixed phrases without changing any example content.
+- Left pass 1 rows untouched and only added rows that still needed definition-layer repair.

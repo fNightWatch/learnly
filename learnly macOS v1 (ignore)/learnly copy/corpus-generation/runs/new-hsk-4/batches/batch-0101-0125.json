@@ -1,0 +1,369 @@
+[
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0101",
+    "rank": 101,
+    "display_form": "此外",
+    "lemma": "此外",
+    "generation_form": "此外",
+    "pronunciation": "cǐwài",
+    "pos": "conjunction",
+    "primary_gloss": "besides",
+    "secondary_glosses": [
+      "in addition",
+      "moreover"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as conjunction."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0102",
+    "rank": 102,
+    "display_form": "从此",
+    "lemma": "从此",
+    "generation_form": "从此",
+    "pronunciation": "cóngcǐ",
+    "pos": "adverb",
+    "primary_gloss": "from then on",
+    "secondary_glosses": [
+      "since then"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0103",
+    "rank": 103,
+    "display_form": "从来",
+    "lemma": "从来",
+    "generation_form": "从来",
+    "pronunciation": "cónglái",
+    "pos": "adverb",
+    "primary_gloss": "always",
+    "secondary_glosses": [
+      "at all times"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0104",
+    "rank": 104,
+    "display_form": "从中",
+    "lemma": "从中",
+    "generation_form": "从中",
+    "pronunciation": "cóngzhōng",
+    "pos": "adverb",
+    "primary_gloss": "from among",
+    "secondary_glosses": [
+      "from it"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0105",
+    "rank": 105,
+    "display_form": "粗",
+    "lemma": "粗",
+    "generation_form": "粗",
+    "pronunciation": "cū",
+    "pos": "adjective",
+    "primary_gloss": "coarse",
+    "secondary_glosses": [
+      "rough",
+      "thick"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0106",
+    "rank": 106,
+    "display_form": "粗心",
+    "lemma": "粗心",
+    "generation_form": "粗心",
+    "pronunciation": "cūxīn",
+    "pos": "adjective",
+    "primary_gloss": "careless",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0107",
+    "rank": 107,
+    "display_form": "村",
+    "lemma": "村",
+    "generation_form": "村",
+    "pronunciation": "cūn",
+    "pos": "noun",
+    "primary_gloss": "village",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0108",
+    "rank": 108,
+    "display_form": "存",
+    "lemma": "存",
+    "generation_form": "存",
+    "pronunciation": "cún",
+    "pos": "verb",
+    "primary_gloss": "to store",
+    "secondary_glosses": [
+      "to keep",
+      "to exist"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0109",
+    "rank": 109,
+    "display_form": "错过",
+    "lemma": "错过",
+    "generation_form": "错过",
+    "pronunciation": "cuòguò",
+    "pos": "verb",
+    "primary_gloss": "to miss",
+    "secondary_glosses": [
+      "to let slip"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0110",
+    "rank": 110,
+    "display_form": "错误",
+    "lemma": "错误",
+    "generation_form": "错误",
+    "pronunciation": "cuòwù",
+    "pos": "adjective, noun",
+    "primary_gloss": "wrong",
+    "secondary_glosses": [
+      "mistaken",
+      "mistake",
+      "error"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective, noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0111",
+    "rank": 111,
+    "display_form": "答应",
+    "lemma": "答应",
+    "generation_form": "答应",
+    "pronunciation": "dāying",
+    "pos": "verb",
+    "primary_gloss": "to agree",
+    "secondary_glosses": [
+      "to promise",
+      "to reply"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0112",
+    "rank": 112,
+    "display_form": "答",
+    "lemma": "答",
+    "generation_form": "答",
+    "pronunciation": "dá",
+    "pos": "verb",
+    "primary_gloss": "to answer",
+    "secondary_glosses": [
+      "to reply"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0113",
+    "rank": 113,
+    "display_form": "答案",
+    "lemma": "答案",
+    "generation_form": "答案",
+    "pronunciation": "dá’àn",
+    "pos": "noun",
+    "primary_gloss": "answer",
+    "secondary_glosses": [
+      "solution"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0114",
+    "rank": 114,
+    "display_form": "达到",
+    "lemma": "达到",
+    "generation_form": "达到",
+    "pronunciation": "dádào",
+    "pos": "verb",
+    "primary_gloss": "to reach",
+    "secondary_glosses": [
+      "to achieve"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0115",
+    "rank": 115,
+    "display_form": "打招呼",
+    "lemma": "打招呼",
+    "generation_form": "打招呼",
+    "pronunciation": "dǎ zhāohu",
+    "pos": "unknown",
+    "primary_gloss": "to greet",
+    "secondary_glosses": [
+      "to say hello"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0116",
+    "rank": 116,
+    "display_form": "打败",
+    "lemma": "打败",
+    "generation_form": "打败",
+    "pronunciation": "dǎbài",
+    "pos": "verb",
+    "primary_gloss": "to defeat",
+    "secondary_glosses": [
+      "to beat"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0117",
+    "rank": 117,
+    "display_form": "打工",
+    "lemma": "打工",
+    "generation_form": "打工",
+    "pronunciation": "dǎgōng",
+    "pos": "verb",
+    "primary_gloss": "to work a temporary job",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0118",
+    "rank": 118,
+    "display_form": "打扰",
+    "lemma": "打扰",
+    "generation_form": "打扰",
+    "pronunciation": "dǎrǎo",
+    "pos": "verb",
+    "primary_gloss": "to disturb",
+    "secondary_glosses": [
+      "to bother"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0119",
+    "rank": 119,
+    "display_form": "打印",
+    "lemma": "打印",
+    "generation_form": "打印",
+    "pronunciation": "dǎyìn",
+    "pos": "verb",
+    "primary_gloss": "to print",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0120",
+    "rank": 120,
+    "display_form": "打印机",
+    "lemma": "打印机",
+    "generation_form": "打印机",
+    "pronunciation": "dǎyìnjī",
+    "pos": "noun",
+    "primary_gloss": "printer",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0121",
+    "rank": 121,
+    "display_form": "打折",
+    "lemma": "打折",
+    "generation_form": "打折",
+    "pronunciation": "dǎzhé",
+    "pos": "verb",
+    "primary_gloss": "to give a discount",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0122",
+    "rank": 122,
+    "display_form": "打针",
+    "lemma": "打针",
+    "generation_form": "打针",
+    "pronunciation": "dǎzhēn",
+    "pos": "verb",
+    "primary_gloss": "to get an injection",
+    "secondary_glosses": [
+      "to receive a shot"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0123",
+    "rank": 123,
+    "display_form": "大巴",
+    "lemma": "大巴",
+    "generation_form": "大巴",
+    "pronunciation": "dàbā",
+    "pos": "noun",
+    "primary_gloss": "large bus",
+    "secondary_glosses": [
+      "coach"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0124",
+    "rank": 124,
+    "display_form": "大大",
+    "lemma": "大大",
+    "generation_form": "大大",
+    "pronunciation": "dàdà",
+    "pos": "adverb",
+    "primary_gloss": "greatly",
+    "secondary_glosses": [
+      "significantly"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0125",
+    "rank": 125,
+    "display_form": "大夫",
+    "lemma": "大夫",
+    "generation_form": "大夫",
+    "pronunciation": "dàifu",
+    "pos": "noun",
+    "primary_gloss": "doctor (medical)",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  }
+]

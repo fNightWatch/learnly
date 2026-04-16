@@ -1,0 +1,9 @@
+HSK2 definition updates pass 3
+
+Total rows reviewed: 9
+Rows updated: 9
+Function-word rows updated: 1
+
+Key improvements:
+- Rewrote the targeted notes into more natural learner-facing English without changing the live POS/gloss layer.
+- Removed robotic note phrasing on entries like 感动, 青少年, 人口, 人数, 上周, 市, 数, 数字, and 态度.

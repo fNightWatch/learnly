@@ -7,7 +7,7 @@ import sqlite3
 from pathlib import Path
 
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).absolute().parent
 DEFAULT_DB_PATH = ROOT / "corpus.sqlite"
 DB_PATH = DEFAULT_DB_PATH
 SCHEMA_PATH = ROOT / "schema.sql"
@@ -17,6 +17,19 @@ ANNOTATION_RE = re.compile(r"（[^）]*）")
 CHINESE_PUNCT_RE = re.compile(r"[，。！？；：、“”‘’（）《》〈〉【】—…·\s,.!?;:\"'()\[\]{}-]+")
 LEVEL_DATASET_RE = re.compile(r"^new-hsk-(\d+)-words$")
 WORD_ID_LEVEL_RE = re.compile(r"^new-hsk-(\d+)-\d{4}$")
+
+METRIC_FLOORS = {
+    "new-hsk-3-words": {
+        "avg_chars": 9.4,
+        "avg_difficulty": 2.0,
+        "max_share_len_le_8": 0.45,
+    },
+    "new-hsk-4-words": {
+        "avg_chars": 10.0,
+        "avg_difficulty": 2.1,
+        "max_share_len_le_8": 0.30,
+    },
+}
 
 
 def connect() -> sqlite3.Connection:
@@ -506,6 +519,7 @@ def merge_agent_batch(dataset_id: str, generator1_file: str, generator2_file: st
 
 
 def ingest_jsonl(jsonl_file: str) -> None:
+    validate_jsonl(jsonl_file)
     with Path(jsonl_file).open() as handle:
         for line in handle:
             line = line.strip()
@@ -519,42 +533,92 @@ def validate_jsonl(jsonl_file: str) -> None:
     path = Path(jsonl_file)
     count = 0
     seen_word_ids = set()
-    with path.open() as handle:
-        for line_number, line in enumerate(handle, start=1):
-            line = line.strip()
-            if not line:
-                continue
-            payload = json.loads(line)
-            word = payload["word"]
-            glosses = payload["glosses"]
-            examples = payload["examples"]
-            translations = payload["example_translations"]
+    sentence_lengths: list[int] = []
+    example_difficulties: list[int] = []
+    dataset_ids: set[str] = set()
+    with connect() as conn:
+        with path.open() as handle:
+            for line_number, line in enumerate(handle, start=1):
+                line = line.strip()
+                if not line:
+                    continue
+                payload = json.loads(line)
+                word = payload["word"]
+                glosses = payload["glosses"]
+                examples = payload["examples"]
+                translations = payload["example_translations"]
 
-            word_id = word["id"]
-            if word_id in seen_word_ids:
-                raise ValueError(f"{path}:{line_number}: duplicate word id {word_id}")
-            seen_word_ids.add(word_id)
+                word_id = word["id"]
+                dataset_id = dataset_id_for_word_id(word_id)
+                if dataset_id:
+                    dataset_ids.add(dataset_id)
+                if word_id in seen_word_ids:
+                    raise ValueError(f"{path}:{line_number}: duplicate word id {word_id}")
+                seen_word_ids.add(word_id)
 
-            if len(examples) != 3:
-                raise ValueError(f"{path}:{line_number}: expected 3 examples for {word_id}")
-            if len(translations) != 3:
-                raise ValueError(f"{path}:{line_number}: expected 3 translations for {word_id}")
-            if sum(1 for example in examples if example["is_primary"]) != 1:
-                raise ValueError(f"{path}:{line_number}: expected exactly one primary example for {word_id}")
+                if len(examples) != 3:
+                    raise ValueError(f"{path}:{line_number}: expected 3 examples for {word_id}")
+                if len(translations) != 3:
+                    raise ValueError(f"{path}:{line_number}: expected 3 translations for {word_id}")
+                if sum(1 for example in examples if example["is_primary"]) != 1:
+                    raise ValueError(f"{path}:{line_number}: expected exactly one primary example for {word_id}")
 
-            expected_example_ids = {f"{word_id}-ex1", f"{word_id}-ex2", f"{word_id}-ex3"}
-            actual_example_ids = {example["id"] for example in examples}
-            if actual_example_ids != expected_example_ids:
-                raise ValueError(f"{path}:{line_number}: bad example ids for {word_id}")
+                expected_example_ids = {f"{word_id}-ex1", f"{word_id}-ex2", f"{word_id}-ex3"}
+                actual_example_ids = {example["id"] for example in examples}
+                if actual_example_ids != expected_example_ids:
+                    raise ValueError(f"{path}:{line_number}: bad example ids for {word_id}")
 
-            actual_translation_ids = {item["example_id"] for item in translations}
-            if actual_translation_ids != expected_example_ids:
-                raise ValueError(f"{path}:{line_number}: translation ids do not match examples for {word_id}")
+                actual_translation_ids = {item["example_id"] for item in translations}
+                if actual_translation_ids != expected_example_ids:
+                    raise ValueError(f"{path}:{line_number}: translation ids do not match examples for {word_id}")
 
-            if "primary_gloss" not in glosses or "notes" not in glosses:
-                raise ValueError(f"{path}:{line_number}: incomplete gloss block for {word_id}")
+                if "primary_gloss" not in glosses or "notes" not in glosses:
+                    raise ValueError(f"{path}:{line_number}: incomplete gloss block for {word_id}")
 
-            count += 1
+                sentence_values = [example["sentence"] for example in examples]
+                if len(set(sentence_values)) != len(sentence_values):
+                    raise ValueError(f"{path}:{line_number}: duplicate Chinese sentences inside {word_id}")
+                sentence_lengths.extend(len(sentence) for sentence in sentence_values)
+                example_difficulties.extend(example["difficulty"] for example in examples)
+
+                translation_values = [item["translation"] for item in translations]
+                if len(set(translation_values)) != len(translation_values):
+                    raise ValueError(f"{path}:{line_number}: duplicate English translations inside {word_id}")
+
+                variants = display_form_variants(word["display_form"])
+                for example in examples:
+                    if not any(variant and variant in example["sentence"] for variant in variants):
+                        raise ValueError(
+                            f"{path}:{line_number}: {word_id}: example does not visibly contain the target display form or any accepted variant: {example['sentence']}"
+                        )
+
+                try:
+                    validate_payload_vocabulary(payload, conn)
+                except ValueError as exc:
+                    raise ValueError(f"{path}:{line_number}: {exc}") from exc
+
+                count += 1
+
+    if len(dataset_ids) == 1 and sentence_lengths and example_difficulties:
+        dataset_id = next(iter(dataset_ids))
+        floors = METRIC_FLOORS.get(dataset_id)
+        if floors:
+            avg_chars = sum(sentence_lengths) / len(sentence_lengths)
+            avg_difficulty = sum(example_difficulties) / len(example_difficulties)
+            share_len_le_8 = sum(1 for length in sentence_lengths if length <= 8) / len(sentence_lengths)
+
+            if avg_chars < floors["avg_chars"]:
+                raise ValueError(
+                    f"{path}: average sentence length {avg_chars:.2f} is below the {dataset_id} floor of {floors['avg_chars']:.2f}"
+                )
+            if avg_difficulty < floors["avg_difficulty"]:
+                raise ValueError(
+                    f"{path}: average difficulty {avg_difficulty:.2f} is below the {dataset_id} floor of {floors['avg_difficulty']:.2f}"
+                )
+            if share_len_le_8 > floors["max_share_len_le_8"]:
+                raise ValueError(
+                    f"{path}: share of sentences with length <= 8 is {share_len_le_8:.1%}, above the {dataset_id} cap of {floors['max_share_len_le_8']:.1%}"
+                )
 
     print(json.dumps({"file": str(path), "word_count": count}, ensure_ascii=False))
 
