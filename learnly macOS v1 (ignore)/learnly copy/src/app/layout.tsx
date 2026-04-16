@@ -9,9 +9,34 @@ const themeScript = `
       var resolved = saved === "dark" || saved === "light"
         ? saved
         : (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+      if (window.location.pathname === "/") {
+        resolved = "dark";
+      }
+      var savedPalette = localStorage.getItem("languagehack-palette");
+      var allowedPalettes = {
+        "classic": true,
+        "brume-menthe": true,
+        "mint-sea": true,
+        "lime-forest": true,
+        "violet-lime": true
+      };
+      var legacyPaletteMap = {
+        "brume": "brume-menthe",
+        "mint": "mint-sea",
+        "forest": "lime-forest",
+        "grid": "violet-lime"
+      };
+      var normalizedPalette = savedPalette && legacyPaletteMap[savedPalette]
+        ? legacyPaletteMap[savedPalette]
+        : savedPalette;
+      var resolvedPalette = normalizedPalette && allowedPalettes[normalizedPalette]
+        ? normalizedPalette
+        : "classic";
       document.documentElement.dataset.theme = resolved;
+      document.documentElement.dataset.palette = resolvedPalette;
     } catch (error) {
       document.documentElement.dataset.theme = "light";
+      document.documentElement.dataset.palette = "classic";
     }
   })();
 `;
@@ -29,7 +54,6 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         {/* Load Manrope async so it never blocks first paint */}

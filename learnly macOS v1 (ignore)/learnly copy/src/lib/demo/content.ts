@@ -1,6 +1,7 @@
 import { chineseHskCorpus } from "@/lib/demo/generated/chinese-hsk-corpus";
 import { chineseHsk1NewCorpus } from "@/lib/demo/generated/chinese-hsk1-new-corpus";
 import { chineseHsk2NewCorpus } from "@/lib/demo/generated/chinese-hsk2-new-corpus";
+import { chineseHsk3NewCorpus } from "@/lib/demo/generated/chinese-hsk3-new-corpus";
 import { frenchStarterCorpus } from "@/lib/demo/generated/french-starter-corpus";
 import { germanStarterCorpus } from "@/lib/demo/generated/german-starter-corpus";
 import { spanishFrequencyCorpus } from "@/lib/demo/generated/spanish-frequency-corpus";
@@ -54,6 +55,14 @@ export const demoLanguages: DemoLanguage[] = [
     descriptor: "New HSK Level 2 (772 words)",
     speakerLabel: "Mainland Mandarin",
     audioVoice: "Tingting"
+  },
+  {
+    code: "zh-hsk3",
+    name: "HSK 3",
+    nativeName: "HSK 三级",
+    descriptor: "New HSK Level 3 (325 words)",
+    speakerLabel: "Mainland Mandarin",
+    audioVoice: "Tingting"
   }
 ];
 
@@ -62,6 +71,7 @@ export const demoCorpus = [
   ...chineseHskCorpus,
   ...chineseHsk1NewCorpus,
   ...chineseHsk2NewCorpus,
+  ...chineseHsk3NewCorpus,
   ...frenchStarterCorpus,
   ...germanStarterCorpus
 ];

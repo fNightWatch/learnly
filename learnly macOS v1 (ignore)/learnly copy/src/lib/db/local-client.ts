@@ -8,6 +8,7 @@ const DB_DIRECTORY = path.join(process.cwd(), ".learnly");
 const DB_PATH = path.join(DB_DIRECTORY, "learnly.db");
 
 let db: ReturnType<typeof drizzle<typeof schema>> | null = null;
+let sqliteClient: Database.Database | null = null;
 
 export function getDb() {
   if (db) return db;
@@ -15,6 +16,7 @@ export function getDb() {
   mkdirSync(DB_DIRECTORY, { recursive: true });
 
   const sqlite = new Database(DB_PATH);
+  sqliteClient = sqlite;
   sqlite.pragma("journal_mode = WAL");
   sqlite.pragma("foreign_keys = ON");
 
@@ -66,6 +68,7 @@ export function getDb() {
       selected_language_codes TEXT NOT NULL DEFAULT '["es"]',
       dashboard_language_codes TEXT NOT NULL DEFAULT '["es"]',
       preferred_study_mode TEXT NOT NULL DEFAULT 'everyday',
+      chinese_review_flow TEXT NOT NULL DEFAULT 'four-click',
       updated_at TEXT NOT NULL
     );
 
@@ -115,6 +118,16 @@ export function getDb() {
     CREATE INDEX IF NOT EXISTS review_events_user_reviewed_idx ON review_events(user_id, reviewed_at);
   `);
 
+  const userSettingsColumns = sqlite
+    .prepare("PRAGMA table_info(user_settings)")
+    .all() as { name: string }[];
+  const hasChineseReviewFlow = userSettingsColumns.some((column) => column.name === "chinese_review_flow");
+  if (!hasChineseReviewFlow) {
+    sqlite.exec(
+      "ALTER TABLE user_settings ADD COLUMN chinese_review_flow TEXT NOT NULL DEFAULT 'four-click';"
+    );
+  }
+
   // Auto-seed corpus tables on first run
   const langCount = sqlite.prepare("SELECT COUNT(*) as count FROM corpus_languages").get() as { count: number };
   if (langCount.count === 0) {
@@ -156,4 +169,12 @@ export function getDb() {
   }
 
   return db;
+}
+
+export function getSqlite() {
+  if (!sqliteClient) {
+    getDb();
+  }
+
+  return sqliteClient!;
 }

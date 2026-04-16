@@ -1,6 +1,7 @@
-export type SupportedLanguageCode = "es" | "fr" | "de" | "zh" | "zh-hsk1" | "zh-hsk2";
+export type SupportedLanguageCode = "es" | "fr" | "de" | "zh" | "zh-hsk1" | "zh-hsk2" | "zh-hsk3";
 export type LexicalItemType = "lemma" | "phrase";
 export type StudyMode = "everyday" | "review-only" | "new-only";
+export type ChineseReviewFlow = "two-click" | "four-click";
 
 export type DemoLanguage = {
   code: SupportedLanguageCode;
@@ -52,6 +53,7 @@ export type LearnerSettings = {
   selectedLanguageCodes: SupportedLanguageCode[];
   dashboardLanguageCodes: SupportedLanguageCode[];
   preferredStudyMode: StudyMode;
+  chineseReviewFlow: ChineseReviewFlow;
   updatedAt: string;
 };
 
@@ -215,6 +217,7 @@ export type DashboardSnapshot = {
   dailyGoal: number;
   reviewsToday: number;
   introducedToday: number;
+  averageNewPerDay: number;
   totalReviews: number;
   streakDays: number;
   retentionScore: number;

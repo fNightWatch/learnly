@@ -6,7 +6,7 @@ import { DEMO_USER_ID } from "@/lib/demo/user";
 export const dynamic = "force-dynamic";
 
 const startSessionSchema = z.object({
-  languageCodes: z.array(z.enum(["es", "fr", "de", "zh", "zh-hsk1", "zh-hsk2"])).min(1).max(5).optional(),
+  languageCodes: z.array(z.enum(["es", "fr", "de", "zh", "zh-hsk1", "zh-hsk2", "zh-hsk3"])).min(1).max(7).optional(),
   mode: z.enum(["everyday", "review-only", "new-only"]).optional()
 });
 

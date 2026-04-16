@@ -1,30 +1,45 @@
 import { ReviewSession } from "@/components/review/review-session";
 import { SiteHeader } from "@/components/site/site-header";
-import { getDb } from "@/lib/db/local-client";
-import * as tables from "@/lib/db/sqlite-schema";
-import type { DemoLanguage, SupportedLanguageCode } from "@/lib/demo/types";
+import { getLanguageCatalog, getLearnerSettings } from "@/lib/demo/store";
+import { DEMO_USER_ID } from "@/lib/demo/user";
 
-function getLanguages(): DemoLanguage[] {
-  const db = getDb();
-  return db.select().from(tables.corpusLanguages).all().map(row => ({
-    code: row.code as SupportedLanguageCode,
-    name: row.name,
-    nativeName: row.nativeName,
-    descriptor: row.descriptor,
-    speakerLabel: row.speakerLabel,
-    audioVoice: row.audioVoice,
-    beta: row.beta === 1 ? true : undefined,
-  }));
-}
+type StudyPageProps = {
+  searchParams?: Record<string, string | string[] | undefined>;
+};
 
-export default function StudyPage() {
-  const availableLanguages = getLanguages();
+export default function StudyPage({ searchParams }: StudyPageProps) {
+  const settings = getLearnerSettings(DEMO_USER_ID);
+  const selectedLanguageSet = new Set(settings.selectedLanguageCodes);
+  const availableLanguages = getLanguageCatalog().filter((language) =>
+    selectedLanguageSet.has(language.code)
+  );
+  const completeParam = searchParams?.complete;
+  const newParam = searchParams?.new;
+  const showCompletionCta =
+    typeof completeParam === "string"
+      ? completeParam === "1"
+      : Array.isArray(completeParam)
+        ? completeParam.includes("1")
+        : false;
+  const hasNewParam =
+    typeof newParam === "string"
+      ? true
+      : Array.isArray(newParam)
+        ? newParam.length > 0
+        : false;
+  const reviewSessionKey = `${showCompletionCta ? "complete" : "study"}-${hasNewParam ? "new" : "base"}`;
 
   return (
     <div className="study-page">
-      <SiteHeader floating={false} showStudyCta={false} surface="study" />
+      <SiteHeader
+        floating={false}
+        showStudyCta={showCompletionCta}
+        ctaLabel="New session"
+        ctaHref="/study?new"
+        surface="study"
+      />
       <main className="shell pb-8 pt-2 sm:pt-3">
-        <ReviewSession availableLanguages={availableLanguages} />
+        <ReviewSession key={reviewSessionKey} availableLanguages={availableLanguages} />
       </main>
     </div>
   );

@@ -13,6 +13,7 @@ import {
 } from "date-fns";
 import { getCuratedLists } from "@/lib/demo/lists";
 import {
+  ChineseReviewFlow,
   DashboardSnapshot,
   DemoLexicalItem,
   DemoSession,
@@ -43,6 +44,7 @@ import {
   scheduleReview
 } from "@/lib/srs/scheduler";
 import { getDb } from "@/lib/db/local-client";
+import { ensureProgressBackup, getProgressCounts } from "@/lib/db/progress-protection";
 import * as tables from "@/lib/db/sqlite-schema";
 
 // ---------------------------------------------------------------------------
@@ -63,6 +65,7 @@ type LegacyDemoStore = {
 const DEFAULT_DAILY_GOAL = 10;
 const DEFAULT_LANGUAGE_CODES: SupportedLanguageCode[] = ["es"];
 const DEFAULT_STUDY_MODE: StudyMode = "everyday";
+const DEFAULT_CHINESE_REVIEW_FLOW: ChineseReviewFlow = "four-click";
 const REVIEW_SOFT_CAP = 100;
 const SESSION_FRESH_POOL = 100;
 const STORE_DIRECTORY = path.join(process.cwd(), ".learnly");
@@ -115,6 +118,10 @@ function getAllCorpusItems(): DemoLexicalItem[] {
 }
 
 function getCorpusItemsByLanguages(languageCodes: SupportedLanguageCode[]): DemoLexicalItem[] {
+  if (languageCodes.length === 0) {
+    return [];
+  }
+
   const db = getDb();
   return db.select().from(tables.corpusItems)
     .where(inArray(tables.corpusItems.languageCode, languageCodes))
@@ -144,6 +151,7 @@ function getDefaultSettings(now: Date): LearnerSettings {
     selectedLanguageCodes: DEFAULT_LANGUAGE_CODES,
     dashboardLanguageCodes: DEFAULT_LANGUAGE_CODES,
     preferredStudyMode: DEFAULT_STUDY_MODE,
+    chineseReviewFlow: DEFAULT_CHINESE_REVIEW_FLOW,
     updatedAt: now.toISOString()
   };
 }
@@ -160,11 +168,61 @@ function buildSeededState(
   };
 }
 
-function normalizeLanguageCodes(codes?: SupportedLanguageCode[]) {
+function normalizeLanguageCodes(
+  codes?: SupportedLanguageCode[],
+  options?: {
+    allowEmpty?: boolean;
+  }
+) {
   const supported = new Set(getAllLanguages().map((language) => language.code));
   const normalized = [...new Set((codes ?? DEFAULT_LANGUAGE_CODES).filter((code) => supported.has(code)))];
 
-  return (normalized.length > 0 ? normalized : DEFAULT_LANGUAGE_CODES) as SupportedLanguageCode[];
+  if (normalized.length > 0) {
+    return normalized as SupportedLanguageCode[];
+  }
+
+  if (options?.allowEmpty && Array.isArray(codes)) {
+    return [] as SupportedLanguageCode[];
+  }
+
+  return DEFAULT_LANGUAGE_CODES as SupportedLanguageCode[];
+}
+
+function getLanguagesByCodes(languageCodes: SupportedLanguageCode[]) {
+  const byCode = new Map(getAllLanguages().map((language) => [language.code, language]));
+  return languageCodes
+    .map((code) => byCode.get(code))
+    .filter((language): language is DemoLanguage => Boolean(language));
+}
+
+function normalizeStudyLanguageCodes(
+  codes: SupportedLanguageCode[] | undefined,
+  selectedLanguageCodes: SupportedLanguageCode[]
+) {
+  const normalized = normalizeLanguageCodes(codes ?? selectedLanguageCodes);
+  const selectedSet = new Set(selectedLanguageCodes);
+  const filtered = normalized.filter((code) => selectedSet.has(code));
+
+  return (filtered.length > 0 ? filtered : selectedLanguageCodes) as SupportedLanguageCode[];
+}
+
+function normalizeDashboardLanguageCodes(
+  codes: SupportedLanguageCode[] | undefined,
+  selectedLanguageCodes: SupportedLanguageCode[]
+) {
+  const normalized = normalizeLanguageCodes(codes, { allowEmpty: true });
+  if (normalized.length === 0) {
+    return [] as SupportedLanguageCode[];
+  }
+
+  const selectedSet = new Set(selectedLanguageCodes);
+  const filtered = normalized.filter((code) => selectedSet.has(code));
+
+  return (filtered.length > 0 ? filtered : selectedLanguageCodes) as SupportedLanguageCode[];
+}
+
+function normalizeChineseReviewFlow(value?: string): ChineseReviewFlow {
+  return value === "two-click" || value === "four-click" ? value : DEFAULT_CHINESE_REVIEW_FLOW;
 }
 
 function buildSeededUserStates(userId: string, items: DemoLexicalItem[], now: Date) {
@@ -264,6 +322,7 @@ function migrateFromJson(jsonPath: string) {
           normalizeLanguageCodes(settings.dashboardLanguageCodes ?? settings.selectedLanguageCodes)
         ),
         preferredStudyMode: settings.preferredStudyMode ?? DEFAULT_STUDY_MODE,
+        chineseReviewFlow: normalizeChineseReviewFlow((settings as LearnerSettings & { chineseReviewFlow?: string }).chineseReviewFlow),
         updatedAt: settings.updatedAt ?? now.toISOString(),
       }).onConflictDoNothing().run();
     }
@@ -357,6 +416,7 @@ function seedIfEmpty() {
     selectedLanguageCodes: JSON.stringify(defaults.selectedLanguageCodes),
     dashboardLanguageCodes: JSON.stringify(defaults.dashboardLanguageCodes),
     preferredStudyMode: defaults.preferredStudyMode,
+    chineseReviewFlow: defaults.chineseReviewFlow,
     updatedAt: defaults.updatedAt,
   }).run();
 
@@ -397,19 +457,30 @@ function getUserSettings(userId: string): LearnerSettings {
       selectedLanguageCodes: JSON.stringify(defaults.selectedLanguageCodes),
       dashboardLanguageCodes: JSON.stringify(defaults.dashboardLanguageCodes),
       preferredStudyMode: defaults.preferredStudyMode,
+      chineseReviewFlow: defaults.chineseReviewFlow,
       updatedAt: defaults.updatedAt,
     }).run();
+    ensureProgressBackup(userId, "settings-created");
     return defaults;
   }
 
+  ensureProgressBackup(userId, "settings-read");
+
+  const selectedLanguageCodes = normalizeLanguageCodes(JSON.parse(row.selectedLanguageCodes));
+  const dashboardLanguageCodes = normalizeDashboardLanguageCodes(
+    JSON.parse(row.dashboardLanguageCodes),
+    selectedLanguageCodes
+  );
+
   return {
     dailyGoal: row.dailyGoal,
-    selectedLanguageCodes: normalizeLanguageCodes(JSON.parse(row.selectedLanguageCodes)),
-    dashboardLanguageCodes: normalizeLanguageCodes(JSON.parse(row.dashboardLanguageCodes)),
+    selectedLanguageCodes,
+    dashboardLanguageCodes,
     preferredStudyMode:
       row.preferredStudyMode === "review-only" || row.preferredStudyMode === "new-only"
         ? row.preferredStudyMode as StudyMode
         : "everyday",
+    chineseReviewFlow: normalizeChineseReviewFlow(row.chineseReviewFlow),
     updatedAt: row.updatedAt,
   };
 }
@@ -710,11 +781,15 @@ function buildQueueSnapshot(
   dailyGoal: number,
   languageCodes: SupportedLanguageCode[],
   mode: StudyMode,
-  now: Date
+  now: Date,
+  options?: {
+    dueSoftCap?: number;
+  }
 ) {
   const allStates = getUserStates(userId);
   const states = filterStateMapByLanguages(allStates, languageCodes);
   const languageOrder = buildLanguageOrder(languageCodes);
+  const dueSoftCap = Math.max(1, options?.dueSoftCap ?? REVIEW_SOFT_CAP);
   const dueCandidates = Object.values(states)
     .filter((state) => isDueNow(state, now))
     .sort((left, right) => {
@@ -741,7 +816,7 @@ function buildQueueSnapshot(
       return (leftItem?.rank ?? 9999) - (rightItem?.rank ?? 9999);
     })
     .map((state) => state.itemId)
-    .slice(0, REVIEW_SOFT_CAP);
+    .slice(0, dueSoftCap);
 
   const freshCandidates = pickFreshItemsByLanguage(
     getItemsForLanguages(languageCodes).filter((item) => !states[item.id]),
@@ -752,7 +827,7 @@ function buildQueueSnapshot(
   const due = mode === "new-only" ? [] : dueCandidates;
   const fresh = mode === "review-only" ? [] : freshCandidates;
   const queue =
-    mode === "review-only" ? due : mode === "new-only" ? fresh : interleave(due, fresh);
+    mode === "review-only" ? due : mode === "new-only" ? fresh : [...due, ...fresh];
 
   return {
     due,
@@ -769,8 +844,11 @@ function buildReviewsDueSeries(
   now: Date
 ): ReviewsDueDatum[] {
   const states = filterStateMapByLanguages(getUserStates(userId), languageCodes);
-  const { due, queue } = buildQueueSnapshot(userId, dailyGoal, languageCodes, mode, now);
+  const { queue } = buildQueueSnapshot(userId, dailyGoal, languageCodes, mode, now, {
+    dueSoftCap: Number.MAX_SAFE_INTEGER
+  });
   const today = startOfDay(now);
+  const dueNowCount = Object.values(states).filter((state) => isDueNow(state, now)).length;
   const series = Array.from({ length: 30 }, (_, index) => {
     const day = addDays(today, index);
     const label = index === 0 ? "Today" : getShortWeekdayLabel(day);
@@ -782,7 +860,7 @@ function buildReviewsDueSeries(
     };
   });
 
-  series[0].value = due.length;
+  series[0].value = dueNowCount;
 
   Object.values(states).forEach((state) => {
     const offset = differenceInCalendarDays(startOfDay(new Date(state.dueAt)), today);
@@ -953,6 +1031,16 @@ function getIntroducedTodayCount(states: UserItemState[], now: Date) {
   return states.filter((state) => isSameDay(new Date(state.introducedAt), now)).length;
 }
 
+function getAverageNewWordsPerDay(states: UserItemState[], now: Date): number {
+  if (states.length === 0) return 0;
+  const earliest = states.reduce((min, s) => {
+    const d = new Date(s.introducedAt);
+    return d < min ? d : min;
+  }, new Date(states[0].introducedAt));
+  const days = Math.max(1, differenceInCalendarDays(now, earliest) + 1);
+  return Math.round((states.length / days) * 10) / 10;
+}
+
 function buildStudyPlan(
   userId: string,
   dailyGoal: number,
@@ -1020,19 +1108,32 @@ export function getLearnerSettings(userId: string) {
   return getUserSettings(userId);
 }
 
+export function getLanguageCatalog() {
+  return getAllLanguages();
+}
+
 export function updateLearnerSettings(
   userId: string,
-  updates: Partial<Pick<LearnerSettings, "dailyGoal" | "selectedLanguageCodes" | "dashboardLanguageCodes" | "preferredStudyMode">>
+  updates: Partial<Pick<LearnerSettings, "dailyGoal" | "selectedLanguageCodes" | "dashboardLanguageCodes" | "preferredStudyMode" | "chineseReviewFlow">>
 ) {
+  ensureProgressBackup(userId, "before-settings-update");
   const settings = getUserSettings(userId);
   const db = getDb();
+  const selectedLanguageCodes = normalizeLanguageCodes(
+    updates.selectedLanguageCodes ?? settings.selectedLanguageCodes
+  );
+  const dashboardLanguageCodes = normalizeDashboardLanguageCodes(
+    updates.dashboardLanguageCodes ?? settings.dashboardLanguageCodes,
+    selectedLanguageCodes
+  );
 
   const updated: LearnerSettings = {
     ...settings,
     dailyGoal: updates.dailyGoal ?? settings.dailyGoal,
-    selectedLanguageCodes: normalizeLanguageCodes(updates.selectedLanguageCodes ?? settings.selectedLanguageCodes),
-    dashboardLanguageCodes: normalizeLanguageCodes(updates.dashboardLanguageCodes ?? settings.dashboardLanguageCodes),
+    selectedLanguageCodes,
+    dashboardLanguageCodes,
     preferredStudyMode: updates.preferredStudyMode ?? settings.preferredStudyMode,
+    chineseReviewFlow: normalizeChineseReviewFlow(updates.chineseReviewFlow ?? settings.chineseReviewFlow),
     updatedAt: new Date().toISOString()
   };
 
@@ -1042,10 +1143,13 @@ export function updateLearnerSettings(
       selectedLanguageCodes: JSON.stringify(updated.selectedLanguageCodes),
       dashboardLanguageCodes: JSON.stringify(updated.dashboardLanguageCodes),
       preferredStudyMode: updated.preferredStudyMode,
+      chineseReviewFlow: updated.chineseReviewFlow,
       updatedAt: updated.updatedAt,
     })
     .where(eq(tables.userSettings.userId, userId))
     .run();
+
+  ensureProgressBackup(userId, "after-settings-update");
 
   return {
     settings: updated,
@@ -1064,7 +1168,10 @@ export function getStudyPlan(
   const settings = getUserSettings(userId);
   const now = new Date();
   const dailyGoal = options?.dailyGoal ?? settings.dailyGoal;
-  const languageCodes = normalizeLanguageCodes(options?.languageCodes ?? settings.selectedLanguageCodes);
+  const languageCodes = normalizeStudyLanguageCodes(
+    options?.languageCodes,
+    settings.selectedLanguageCodes
+  );
   const mode = options?.mode ?? settings.preferredStudyMode;
 
   return buildStudyPlan(userId, dailyGoal, languageCodes, mode, now);
@@ -1080,7 +1187,10 @@ export function startSession(
   const states = getUserStates(userId);
   const settings = getUserSettings(userId);
   const now = new Date();
-  const languageCodes = normalizeLanguageCodes(options?.languageCodes ?? settings.selectedLanguageCodes);
+  const languageCodes = normalizeStudyLanguageCodes(
+    options?.languageCodes,
+    settings.selectedLanguageCodes
+  );
   const mode = options?.mode ?? settings.preferredStudyMode;
   const insights = getSessionInsights(userId, languageCodes, now);
   const studyPlan = buildStudyPlan(userId, settings.dailyGoal, languageCodes, mode, now);
@@ -1171,7 +1281,11 @@ function buildDashboardSnapshot(
   languageCodeOverrides?: SupportedLanguageCode[]
 ): DashboardSnapshot {
   const settings = getUserSettings(userId);
-  const languageCodes = normalizeLanguageCodes(languageCodeOverrides ?? settings.dashboardLanguageCodes);
+  const selectedLanguageCodes = settings.selectedLanguageCodes;
+  const languageCodes = normalizeDashboardLanguageCodes(
+    languageCodeOverrides ?? settings.dashboardLanguageCodes,
+    selectedLanguageCodes
+  );
   const stateMap = filterStateMapByLanguages(getUserStates(userId), languageCodes);
   const states = Object.values(stateMap);
   const events = filterEventsByLanguages(getUserEvents(userId), languageCodes);
@@ -1197,7 +1311,7 @@ function buildDashboardSnapshot(
     .sort((left, right) => new Date(left.dueAt).getTime() - new Date(right.dueAt).getTime())[0];
 
   return {
-    availableLanguages: getAllLanguages(),
+    availableLanguages: getLanguagesByCodes(selectedLanguageCodes),
     activeLanguageCodes: languageCodes,
     preferredStudyMode: settings.preferredStudyMode,
     corpusSize: activeItems.length,
@@ -1210,6 +1324,7 @@ function buildDashboardSnapshot(
     dailyGoal: settings.dailyGoal,
     reviewsToday,
     introducedToday,
+    averageNewPerDay: getAverageNewWordsPerDay(states, now),
     totalReviews,
     streakDays: getStreakDays(states, events, now),
     retentionScore: getRetentionScore(states, now),
@@ -1274,6 +1389,7 @@ export function getRecentStudiedWords(
     .map(([itemId, state]) => {
       const item = getItem(itemId);
       if (!item) return null;
+      const retrievability = getRetrievability(state, now);
       return {
         itemId: item.id,
         languageCode: item.languageCode,
@@ -1287,7 +1403,7 @@ export function getRecentStudiedWords(
         nextDueLabel: formatNextDueLabel(state.dueAt, now),
         reps: state.reps,
         lapses: state.lapses,
-        retrievabilityPercent: Math.round(getRetrievability(state, now) * 100),
+        retrievabilityPercent: retrievability === null ? null : Math.round(retrievability * 100),
         isFocus: false,
         listTitles: []
       } as RankedListEntry;
@@ -1297,21 +1413,24 @@ export function getRecentStudiedWords(
 
 export function getLibrarySnapshot(userId: string): LibrarySnapshot {
   const now = new Date();
-  const dashboard = buildDashboardSnapshot(userId);
+  const settings = getUserSettings(userId);
+  const selectedLanguageCodes = settings.selectedLanguageCodes;
+  const activeItems = getItemsForLanguages(selectedLanguageCodes);
   const stateMap = filterStateMapByLanguages(
     getUserStates(userId),
-    dashboard.activeLanguageCodes
+    selectedLanguageCodes
   );
   const items = getRankedEntries(
     stateMap,
     null,
     now,
-    dashboard.activeLanguageCodes
+    selectedLanguageCodes
   );
 
   return {
-    coveragePercent: dashboard.coveragePercent,
-    dailyGoal: dashboard.dailyGoal,
+    coveragePercent:
+      activeItems.length === 0 ? 0 : Math.round((Object.keys(stateMap).length / activeItems.length) * 100),
+    dailyGoal: settings.dailyGoal,
     focusItem: null,
     items
   };
@@ -1372,16 +1491,16 @@ export function getListsSnapshot(userId: string): ListsSnapshot {
 export function getWordsSnapshot(userId: string): WordsSnapshot {
   const now = new Date();
   const settings = getUserSettings(userId);
-  const dashboard = buildDashboardSnapshot(userId);
+  const selectedLanguageCodes = settings.selectedLanguageCodes;
   const stateMap = filterStateMapByLanguages(
     getUserStates(userId),
-    dashboard.activeLanguageCodes
+    selectedLanguageCodes
   );
   const rankedEntries = getRankedEntries(
     stateMap,
     null,
     now,
-    dashboard.activeLanguageCodes
+    selectedLanguageCodes
   );
 
   const buildSection = (section: WordsSection) => section;
@@ -1427,14 +1546,14 @@ export function getWordsSnapshot(userId: string): WordsSnapshot {
 
   return {
     dailyGoal: settings.dailyGoal,
-    availableLanguages: getAllLanguages(),
-    activeLanguageCodes: dashboard.activeLanguageCodes,
-    preferredStudyMode: dashboard.preferredStudyMode,
+    availableLanguages: getLanguagesByCodes(selectedLanguageCodes),
+    activeLanguageCodes: selectedLanguageCodes,
+    preferredStudyMode: settings.preferredStudyMode,
     focusItem: null,
     studyPlan: buildStudyPlan(
       userId,
       settings.dailyGoal,
-      dashboard.activeLanguageCodes,
+      selectedLanguageCodes,
       settings.preferredStudyMode,
       now
     ),
@@ -1534,6 +1653,7 @@ export function submitReview(params: {
   const next = scheduleReview(current, rating, now);
 
   const db = getDb();
+  const beforeProgressCounts = getProgressCounts(userId);
 
   // Update session queue
   db.update(tables.sessions)
@@ -1586,6 +1706,20 @@ export function submitReview(params: {
     stateBefore: current.status,
     stateAfter: next.status,
   }).run();
+
+  const afterProgressCounts = getProgressCounts(userId);
+  if (
+    afterProgressCounts.itemStates < beforeProgressCounts.itemStates ||
+    afterProgressCounts.reviewEvents < beforeProgressCounts.reviewEvents
+  ) {
+    throw new Error(
+      [
+        "progress protection: review submission reduced learner progress counts",
+        `before=${JSON.stringify(beforeProgressCounts)}`,
+        `after=${JSON.stringify(afterProgressCounts)}`
+      ].join(" | ")
+    );
+  }
 
   // Re-read states after the write so downstream reads are fresh
   const updatedStates = getUserStates(userId);

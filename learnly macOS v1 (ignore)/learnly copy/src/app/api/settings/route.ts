@@ -1,19 +1,24 @@
 import { NextResponse } from "next/server";
 import { z } from "zod";
-import { getLearnerSettings, updateLearnerSettings } from "@/lib/demo/store";
+import { getLanguageCatalog, getLearnerSettings, updateLearnerSettings } from "@/lib/demo/store";
 import { DEMO_USER_ID } from "@/lib/demo/user";
 
 export const dynamic = "force-dynamic";
 
 const settingsSchema = z.object({
   dailyGoal: z.number().int().min(1).max(25).optional(),
-  selectedLanguageCodes: z.array(z.enum(["es", "fr", "de", "zh", "zh-hsk1", "zh-hsk2"])).min(1).max(5).optional(),
-  dashboardLanguageCodes: z.array(z.enum(["es", "fr", "de", "zh", "zh-hsk1", "zh-hsk2"])).min(1).max(5).optional(),
-  preferredStudyMode: z.enum(["everyday", "review-only", "new-only"]).optional()
+  selectedLanguageCodes: z.array(z.enum(["es", "fr", "de", "zh", "zh-hsk1", "zh-hsk2", "zh-hsk3"])).min(1).max(7).optional(),
+  dashboardLanguageCodes: z.array(z.enum(["es", "fr", "de", "zh", "zh-hsk1", "zh-hsk2", "zh-hsk3"])).max(7).optional(),
+  preferredStudyMode: z.enum(["everyday", "review-only", "new-only"]).optional(),
+  chineseReviewFlow: z.enum(["two-click", "four-click"]).optional()
 });
 
 export async function GET() {
-  return NextResponse.json(getLearnerSettings(DEMO_USER_ID));
+  const settings = getLearnerSettings(DEMO_USER_ID);
+  return NextResponse.json({
+    ...settings,
+    availableLanguages: getLanguageCatalog()
+  });
 }
 
 export async function PUT(request: Request) {

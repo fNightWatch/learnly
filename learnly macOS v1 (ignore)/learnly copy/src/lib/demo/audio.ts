@@ -34,7 +34,8 @@ const ELEVENLABS_LANGUAGE_CODES: Record<SupportedLanguageCode, string> = {
   de: "de",
   zh: "zh",
   "zh-hsk1": "zh",
-  "zh-hsk2": "zh"
+  "zh-hsk2": "zh",
+  "zh-hsk3": "zh"
 };
 
 const TERM_STABILITY = 0.75;
@@ -58,10 +59,7 @@ const FALLBACK_VOICES_BY_LANGUAGE: Record<SupportedLanguageCode, string[]> = {
   de: ["Anna"],
   zh: [
     "Tingting",
-    "Eddy (Chinese (China mainland))",
     "Flo (Chinese (China mainland))",
-    "Reed (Chinese (China mainland))",
-    "Rocko (Chinese (China mainland))",
     "Sandy (Chinese (China mainland))",
     "Shelley (Chinese (China mainland))",
     "Meijia",
@@ -69,10 +67,7 @@ const FALLBACK_VOICES_BY_LANGUAGE: Record<SupportedLanguageCode, string[]> = {
   ],
   "zh-hsk1": [
     "Tingting",
-    "Eddy (Chinese (China mainland))",
     "Flo (Chinese (China mainland))",
-    "Reed (Chinese (China mainland))",
-    "Rocko (Chinese (China mainland))",
     "Sandy (Chinese (China mainland))",
     "Shelley (Chinese (China mainland))",
     "Meijia",
@@ -80,10 +75,15 @@ const FALLBACK_VOICES_BY_LANGUAGE: Record<SupportedLanguageCode, string[]> = {
   ],
   "zh-hsk2": [
     "Tingting",
-    "Eddy (Chinese (China mainland))",
     "Flo (Chinese (China mainland))",
-    "Reed (Chinese (China mainland))",
-    "Rocko (Chinese (China mainland))",
+    "Sandy (Chinese (China mainland))",
+    "Shelley (Chinese (China mainland))",
+    "Meijia",
+    "Sinji"
+  ],
+  "zh-hsk3": [
+    "Tingting",
+    "Flo (Chinese (China mainland))",
     "Sandy (Chinese (China mainland))",
     "Shelley (Chinese (China mainland))",
     "Meijia",
@@ -264,7 +264,8 @@ function resolveMacOsVoice(languageCode: SupportedLanguageCode, preferredVoice: 
     de: ["de"],
     zh: ["zh", "cmn"],
     "zh-hsk1": ["zh", "cmn"],
-    "zh-hsk2": ["zh", "cmn"]
+    "zh-hsk2": ["zh", "cmn"],
+    "zh-hsk3": ["zh", "cmn"]
   };
 
   const preferredLocalesByLanguage: Record<SupportedLanguageCode, string[]> = {
@@ -273,7 +274,8 @@ function resolveMacOsVoice(languageCode: SupportedLanguageCode, preferredVoice: 
     de: ["de_"],
     zh: ["zh_cn", "cmn", "zh_tw", "zh_hk"],
     "zh-hsk1": ["zh_cn", "cmn", "zh_tw", "zh_hk"],
-    "zh-hsk2": ["zh_cn", "cmn", "zh_tw", "zh_hk"]
+    "zh-hsk2": ["zh_cn", "cmn", "zh_tw", "zh_hk"],
+    "zh-hsk3": ["zh_cn", "cmn", "zh_tw", "zh_hk"]
   };
 
   const localeMatch =
