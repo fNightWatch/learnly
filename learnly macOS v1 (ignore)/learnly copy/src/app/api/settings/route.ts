@@ -9,6 +9,7 @@ const settingsSchema = z.object({
   dailyGoal: z.number().int().min(1).max(25).optional(),
   selectedLanguageCodes: z.array(z.enum(["es", "fr", "de", "zh", "zh-hsk1", "zh-hsk2", "zh-hsk3"])).min(1).max(7).optional(),
   dashboardLanguageCodes: z.array(z.enum(["es", "fr", "de", "zh", "zh-hsk1", "zh-hsk2", "zh-hsk3"])).max(7).optional(),
+  dashboardRangeDays: z.union([z.literal(7), z.literal(30)]).optional(),
   preferredStudyMode: z.enum(["everyday", "review-only", "new-only"]).optional(),
   chineseReviewFlow: z.enum(["two-click", "four-click"]).optional()
 });

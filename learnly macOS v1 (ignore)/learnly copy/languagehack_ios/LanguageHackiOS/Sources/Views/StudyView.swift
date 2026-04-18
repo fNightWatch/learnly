@@ -1,4 +1,5 @@
 import SwiftUI
+import UIKit
 
 @available(iOS 26.0, *)
 struct StudyView: View {
@@ -9,6 +10,7 @@ struct StudyView: View {
   @Environment(\.colorScheme) private var colorScheme
   @State private var direction = "Auto"
   @State private var speed = "1×"
+  private let isPhoneDevice = UIDevice.current.userInterfaceIdiom == .phone
 
   var body: some View {
     GeometryReader { proxy in
@@ -17,29 +19,11 @@ struct StudyView: View {
       ZStack {
         studyPageBackdrop
 
-        VStack(spacing: metrics.verticalGap) {
-          if model.activeSession == nil {
-            setupCard(metrics)
-              .padding(.top, metrics.setupTopPadding)
-          } else {
-            studyTopCluster(metrics)
-
-            Spacer(minLength: metrics.contentTopSpacer)
-
-            if let card = model.card {
-              stageContent(card, metrics: metrics)
-            } else {
-              completionView(metrics)
-            }
-
-            Spacer(minLength: metrics.contentBottomSpacer)
-
-            if let card = model.card {
-              actionDock(for: card, metrics: metrics)
-            }
-          }
+        if isPhoneDevice {
+          mobileStudyLayout(metrics)
+        } else {
+          desktopStudyLayout(metrics)
         }
-        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
 
         if model.showPauseOverlay {
           pauseOverlay
@@ -60,18 +44,104 @@ struct StudyView: View {
       }
     }
     .overlay(alignment: .topLeading) {
-      HardwareKeyboardBridge { command in
-        handleHardwareKeyboardCommand(command)
+      if !isPhoneDevice {
+        HardwareKeyboardBridge { command in
+          handleHardwareKeyboardCommand(command)
+        }
+        .frame(width: 1, height: 1)
+        .opacity(0.001)
       }
-      .frame(width: 1, height: 1)
-      .opacity(0.001)
     }
     .onAppear {
-      model.installKeyboardMonitor()
+      if !isPhoneDevice {
+        model.installKeyboardMonitor()
+      }
     }
     .onDisappear {
-      model.uninstallKeyboardMonitor()
+      if !isPhoneDevice {
+        model.uninstallKeyboardMonitor()
+      }
     }
+  }
+
+  private func desktopStudyLayout(_ metrics: StudyAdaptiveMetrics) -> some View {
+    VStack(spacing: metrics.verticalGap) {
+      if model.activeSession == nil {
+        setupCard(metrics)
+          .padding(.top, metrics.setupTopPadding)
+      } else {
+        studyTopCluster(metrics)
+
+        Spacer(minLength: metrics.contentTopSpacer)
+
+        if let card = model.card {
+          stageContent(card, metrics: metrics)
+        } else {
+          completionView(metrics)
+        }
+
+        Spacer(minLength: metrics.contentBottomSpacer)
+
+        if let card = model.card {
+          actionDock(for: card, metrics: metrics, showKeyboardGlyphs: true)
+        }
+      }
+    }
+    .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
+  }
+
+  private func mobileStudyLayout(_ metrics: StudyAdaptiveMetrics) -> some View {
+    Group {
+      if model.activeSession == nil {
+        ScrollView {
+          setupCard(metrics)
+            .frame(maxWidth: .infinity)
+            .padding(.horizontal, 12)
+            .padding(.top, 8)
+            .padding(.bottom, 24)
+        }
+        .scrollIndicators(.hidden)
+      } else if let card = model.card {
+        VStack(spacing: 8) {
+          studyTopCluster(metrics)
+            .padding(.horizontal, 12)
+            .padding(.top, 4)
+
+          ScrollView {
+            stageContent(card, metrics: metrics)
+              .frame(maxWidth: .infinity)
+              .padding(.horizontal, 12)
+              .padding(.top, 6)
+              .padding(.bottom, 220)
+          }
+          .scrollIndicators(.hidden)
+        }
+        .safeAreaInset(edge: .bottom) {
+          actionDock(for: card, metrics: metrics, showKeyboardGlyphs: false)
+            .padding(.horizontal, 12)
+            .padding(.top, 8)
+            .background(
+              Group {
+                if colorScheme == .dark {
+                  WebParityPalette.panelDark.opacity(0.94)
+                } else {
+                  WebParityPalette.paperLight.opacity(0.98)
+                }
+              }
+              .ignoresSafeArea(edges: .bottom)
+            )
+        }
+      } else {
+        ScrollView {
+          completionView(metrics)
+            .padding(.horizontal, 12)
+            .padding(.top, 8)
+            .padding(.bottom, 28)
+        }
+        .scrollIndicators(.hidden)
+      }
+    }
+    .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
   }
 
   private var studyPageBackdrop: some View {
@@ -202,9 +272,9 @@ struct StudyView: View {
     selected: Bool,
     action: @escaping () -> Void
   ) -> some View {
-    let selectedFill = colorScheme == .dark ? Color.white.opacity(0.92) : Color(red: 0.08, green: 0.08, blue: 0.10)
+    let selectedFill = WebParityPalette.blueDark
     let selectedText = colorScheme == .dark ? Color.black : Color.white
-    let unselectedText = colorScheme == .dark ? Color.glassTextPrimary.opacity(0.82) : Color.glassTextSecondary
+    let unselectedText = Color.glassTextSecondary
 
     return Button(action: action) {
       Text(title)
@@ -220,7 +290,7 @@ struct StudyView: View {
               Capsule(style: .continuous)
                 .strokeBorder(
                   selected
-                    ? (colorScheme == .dark ? Color.black.opacity(0.18) : Color.white.opacity(0.18))
+                    ? WebParityPalette.blueDark.opacity(0.98)
                     : Color.clear,
                   lineWidth: 0.8
                 )
@@ -496,7 +566,7 @@ struct StudyView: View {
     .contentShape(RoundedRectangle(cornerRadius: cornerRadius, style: .continuous))
     .disabled(model.isSentenceTranslationRevealed)
     .accessibilityLabel(model.isSentenceTranslationRevealed ? "Sentence translation revealed" : "Reveal sentence translation")
-    .accessibilityHint("Tap or press Shift to reveal")
+    .accessibilityHint(isPhoneDevice ? "Tap to reveal" : "Tap or press Shift to reveal")
   }
 
   private func translationTapeOverlay(revealed: Bool, metrics: StudyAdaptiveMetrics) -> some View {
@@ -516,7 +586,7 @@ struct StudyView: View {
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .leading)
         .blur(radius: 0.9)
 
-        Text("tap or press shift")
+        Text(isPhoneDevice ? "tap to reveal" : "tap or press shift")
           .font(.system(size: max(11, metrics.audioFont - 1), weight: .medium, design: .rounded))
           .tracking(0.25)
           .padding(.horizontal, 10)
@@ -538,7 +608,11 @@ struct StudyView: View {
     .allowsHitTesting(false)
   }
 
-  private func actionDock(for card: SessionCardPayload, metrics: StudyAdaptiveMetrics) -> some View {
+  private func actionDock(
+    for card: SessionCardPayload,
+    metrics: StudyAdaptiveMetrics,
+    showKeyboardGlyphs: Bool
+  ) -> some View {
     VStack(spacing: metrics.actionDockSpacing) {
       Text(stagePrompt(for: card))
         .font(.system(size: metrics.promptQuestionFont, weight: .medium, design: .rounded))
@@ -573,21 +647,21 @@ struct StudyView: View {
 
       ViewThatFits(in: .horizontal) {
         HStack(spacing: 10) {
-          audioButton(title: "↑ Word", metrics: metrics) {
+          audioButton(title: showKeyboardGlyphs ? "↑ Word" : "Word", metrics: metrics) {
             model.playTermAudio()
           }
 
-          audioButton(title: "↓ Sentence", metrics: metrics) {
+          audioButton(title: showKeyboardGlyphs ? "↓ Sentence" : "Sentence", metrics: metrics) {
             model.playSentenceAudio()
           }
         }
 
         VStack(spacing: 8) {
-          audioButton(title: "↑ Word", metrics: metrics) {
+          audioButton(title: showKeyboardGlyphs ? "↑ Word" : "Word", metrics: metrics) {
             model.playTermAudio()
           }
 
-          audioButton(title: "↓ Sentence", metrics: metrics) {
+          audioButton(title: showKeyboardGlyphs ? "↓ Sentence" : "Sentence", metrics: metrics) {
             model.playSentenceAudio()
           }
         }
@@ -695,24 +769,27 @@ struct StudyView: View {
     suffix: String?,
     metrics: StudyAdaptiveMetrics
   ) -> some View {
-    VStack(alignment: .leading, spacing: 8) {
+    let primary = colorScheme == .dark ? Color.black : Color.white
+    let secondary = primary.opacity(colorScheme == .dark ? 0.78 : 0.9)
+
+    return VStack(alignment: .leading, spacing: 8) {
       Text(title)
         .font(.system(size: 12, weight: .medium, design: .rounded))
         .textCase(.uppercase)
         .tracking(4)
-        .foregroundStyle(Color.white.opacity(0.9))
+        .foregroundStyle(secondary)
 
       HStack(alignment: .lastTextBaseline, spacing: 6) {
         Text(value)
           .font(.system(size: metrics.completionValueFont, weight: .medium, design: .monospaced))
           .kerning(-0.6)
-          .foregroundStyle(Color.white)
+          .foregroundStyle(primary)
         if let suffix {
           Text(suffix)
             .font(.system(size: 16, weight: .medium, design: .rounded))
             .textCase(.uppercase)
             .tracking(2)
-            .foregroundStyle(Color.white.opacity(0.9))
+            .foregroundStyle(secondary)
         }
       }
     }
@@ -730,12 +807,15 @@ struct StudyView: View {
     dueByLanguage: [LanguageCode: Int],
     metrics: StudyAdaptiveMetrics
   ) -> some View {
-    VStack(alignment: .leading, spacing: 10) {
+    let primary = colorScheme == .dark ? Color.black : Color.white
+    let secondary = primary.opacity(colorScheme == .dark ? 0.78 : 0.9)
+
+    return VStack(alignment: .leading, spacing: 10) {
       Text("Still due by language")
         .font(.system(size: 12, weight: .medium, design: .rounded))
         .textCase(.uppercase)
         .tracking(4)
-        .foregroundStyle(Color.white.opacity(0.9))
+        .foregroundStyle(secondary)
 
       FlowLayout(
         items: dueLanguageChips(combined: combined, dueByLanguage: dueByLanguage),
@@ -744,26 +824,26 @@ struct StudyView: View {
         HStack(spacing: 10) {
           Text(item.title)
             .font(.system(size: 16, weight: .medium, design: .rounded))
-            .foregroundStyle(Color.white.opacity(0.98))
+            .foregroundStyle(primary)
 
           Text("\(item.count)")
             .font(.system(size: 15, weight: .semibold, design: .rounded))
-            .foregroundStyle(Color.white)
+            .foregroundStyle(primary)
             .padding(.horizontal, 12)
             .padding(.vertical, 5)
             .background(
               Capsule(style: .continuous)
-                .fill(WebParityPalette.blue.opacity(0.78))
+                .fill(colorScheme == .dark ? Color.white.opacity(0.24) : WebParityPalette.blue.opacity(0.78))
             )
         }
         .padding(.horizontal, 14)
         .padding(.vertical, 8)
         .background(
           Capsule(style: .continuous)
-            .fill(Color.white.opacity(0.08))
+            .fill(colorScheme == .dark ? Color.white.opacity(0.16) : Color.white.opacity(0.08))
             .overlay(
               Capsule(style: .continuous)
-                .strokeBorder(Color.white.opacity(0.26), lineWidth: 1)
+                .strokeBorder(colorScheme == .dark ? Color.white.opacity(0.24) : Color.white.opacity(0.26), lineWidth: 1)
             )
         )
       }
@@ -822,24 +902,26 @@ struct StudyView: View {
         )
         .foregroundStyle(filledButtonTextColor)
 
-        Text("Press P or use Resume")
-          .font(.system(size: 14, weight: .medium, design: .rounded))
-          .glassTextSecondary()
+        if !isPhoneDevice {
+          Text("Press P or use Resume")
+            .font(.system(size: 14, weight: .medium, design: .rounded))
+            .glassTextSecondary()
 
-        Spacer(minLength: 8)
+          Spacer(minLength: 8)
 
-        Text("P")
-          .font(.system(size: 12, weight: .semibold, design: .rounded))
-          .glassTextPrimary()
-          .padding(.horizontal, 10)
-          .padding(.vertical, 6)
-          .readableSurface(
-            tier: .none,
-            role: .control,
-            cornerRadius: 999,
-            tint: .clear,
-            padding: 0
-          )
+          Text("P")
+            .font(.system(size: 12, weight: .semibold, design: .rounded))
+            .glassTextPrimary()
+            .padding(.horizontal, 10)
+            .padding(.vertical, 6)
+            .readableSurface(
+              tier: .none,
+              role: .control,
+              cornerRadius: 999,
+              tint: .clear,
+              padding: 0
+            )
+        }
       }
       .readableSurface(
         tier: .subtle,
@@ -848,9 +930,9 @@ struct StudyView: View {
         tint: WebParityPalette.blue.opacity(0.05),
         padding: 12
       )
-      .frame(maxWidth: 540)
+      .frame(maxWidth: isPhoneDevice ? .infinity : 540)
       .padding(.top, 26)
-      .padding(.horizontal, 20)
+      .padding(.horizontal, isPhoneDevice ? 12 : 20)
     }
     .transition(.opacity)
   }
@@ -950,8 +1032,9 @@ struct StudyView: View {
     let selected = model.selectedLanguageCodes.contains(language.code)
     let baseFill = colorScheme == .dark ? WebParityPalette.panelDark.opacity(0.86) : Color.white.opacity(0.72)
     let baseStroke = (colorScheme == .dark ? WebParityPalette.lineDark : WebParityPalette.lineLight).opacity(colorScheme == .dark ? 0.62 : 0.78)
-    let selectedFill = WebParityPalette.accent.opacity(colorScheme == .dark ? 0.24 : 0.10)
+    let selectedFill = WebParityPalette.accent
     let selectedStroke = WebParityPalette.accent.opacity(0.94)
+    let selectedText = colorScheme == .dark ? Color.black : Color.white
 
     return Button {
       if selected {
@@ -964,7 +1047,7 @@ struct StudyView: View {
     } label: {
       Text(language.name)
         .font(.system(size: 15, weight: .semibold, design: .rounded))
-        .foregroundStyle(selected ? WebParityPalette.accent : Color.glassTextPrimary)
+        .foregroundStyle(selected ? selectedText : Color.glassTextPrimary)
         .lineLimit(1)
         .frame(minWidth: metrics.languageChipMinWidth)
         .fixedSize(horizontal: true, vertical: false)

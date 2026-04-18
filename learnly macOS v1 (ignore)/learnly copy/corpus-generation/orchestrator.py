@@ -17,6 +17,7 @@ ANNOTATION_RE = re.compile(r"（[^）]*）")
 CHINESE_PUNCT_RE = re.compile(r"[，。！？；：、“”‘’（）《》〈〉【】—…·\s,.!?;:\"'()\[\]{}-]+")
 LEVEL_DATASET_RE = re.compile(r"^new-hsk-(\d+)-words$")
 WORD_ID_LEVEL_RE = re.compile(r"^new-hsk-(\d+)-\d{4}$")
+TRAILING_SENSE_DIGIT_RE = re.compile(r"^([\u3400-\u9fff]+)\d+$")
 
 METRIC_FLOORS = {
     "new-hsk-3-words": {
@@ -28,6 +29,11 @@ METRIC_FLOORS = {
         "avg_chars": 10.0,
         "avg_difficulty": 2.1,
         "max_share_len_le_8": 0.30,
+    },
+    "new-hsk-5-words": {
+        "avg_chars": 10.8,
+        "avg_difficulty": 2.2,
+        "max_share_len_le_8": 0.20,
     },
 }
 
@@ -266,8 +272,15 @@ def display_form_variants(display_form: str) -> list[str]:
     variants = []
     for part in ALT_SEPARATOR_RE.split(display_form.strip()):
         cleaned = ANNOTATION_RE.sub("", part).strip()
-        if cleaned and cleaned not in variants:
-            variants.append(cleaned)
+        if not cleaned:
+            continue
+        match = TRAILING_SENSE_DIGIT_RE.match(cleaned)
+        candidates = [cleaned]
+        if match:
+            candidates = [match.group(1), cleaned]
+        for candidate in candidates:
+            if candidate and candidate not in variants:
+                variants.append(candidate)
     return variants or [display_form.strip()]
 
 
@@ -579,6 +592,11 @@ def validate_jsonl(jsonl_file: str) -> None:
                 if len(set(sentence_values)) != len(sentence_values):
                     raise ValueError(f"{path}:{line_number}: duplicate Chinese sentences inside {word_id}")
                 sentence_lengths.extend(len(sentence) for sentence in sentence_values)
+                for example in examples:
+                    if example["difficulty"] not in {1, 2, 3}:
+                        raise ValueError(
+                            f"{path}:{line_number}: {word_id}: difficulty must be 1, 2, or 3, got {example['difficulty']}"
+                        )
                 example_difficulties.extend(example["difficulty"] for example in examples)
 
                 translation_values = [item["translation"] for item in translations]

@@ -67,6 +67,7 @@ export function getDb() {
       daily_goal INTEGER NOT NULL DEFAULT 10,
       selected_language_codes TEXT NOT NULL DEFAULT '["es"]',
       dashboard_language_codes TEXT NOT NULL DEFAULT '["es"]',
+      dashboard_range_days INTEGER NOT NULL DEFAULT 30,
       preferred_study_mode TEXT NOT NULL DEFAULT 'everyday',
       chinese_review_flow TEXT NOT NULL DEFAULT 'four-click',
       updated_at TEXT NOT NULL
@@ -125,6 +126,12 @@ export function getDb() {
   if (!hasChineseReviewFlow) {
     sqlite.exec(
       "ALTER TABLE user_settings ADD COLUMN chinese_review_flow TEXT NOT NULL DEFAULT 'four-click';"
+    );
+  }
+  const hasDashboardRangeDays = userSettingsColumns.some((column) => column.name === "dashboard_range_days");
+  if (!hasDashboardRangeDays) {
+    sqlite.exec(
+      "ALTER TABLE user_settings ADD COLUMN dashboard_range_days INTEGER NOT NULL DEFAULT 30;"
     );
   }
 

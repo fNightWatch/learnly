@@ -107,6 +107,46 @@ test.describe("core loop study", () => {
     guards.detach();
   });
 
+  test("study answer state opens the Chinese sentence preview from interactive tokens", async ({ page }) => {
+    const guards = attachBrowserGuards(page);
+    await preparePageWithFixture(page, "fresh", {
+      selectedLanguages: ["zh-hsk1"],
+      dashboardLanguages: ["zh-hsk1"],
+      chineseReviewFlow: "two-click",
+      direction: "es-to-en",
+    });
+
+    await gotoAndWait(page, "/study?new");
+    await page.getByRole("button", { name: "Start Study" }).click();
+    await page.getByRole("button", { name: /I think I know/i }).click();
+
+    const previewToken = page.locator('button[aria-haspopup="dialog"]').first();
+    await expect(previewToken).toBeVisible();
+    await previewToken.hover();
+    await expect(page.getByText(/HSK [123]/).first()).toBeVisible();
+
+    await guards.expectHealthy();
+    guards.detach();
+  });
+
+  test("word detail preview can learn a Chinese sentence token and then suppress the CTA", async ({ page }) => {
+    const guards = attachBrowserGuards(page);
+    await preparePageWithFixture(page, "fresh", {
+      selectedLanguages: ["zh-hsk1"],
+      dashboardLanguages: ["zh-hsk1"],
+    });
+
+    await gotoAndWait(page, "/words/new-hsk-1-0001");
+    await page.getByRole("button", { name: "妈妈" }).click();
+    await expect(page.getByRole("button", { name: "Learn" })).toBeVisible();
+    await page.getByRole("button", { name: "Learn" }).click();
+    await expect(page.getByRole("button", { name: "Learn" })).toHaveCount(0);
+    await expect(page.getByText("Learning")).toBeVisible();
+
+    await guards.expectHealthy();
+    guards.detach();
+  });
+
   test("refresh restore keeps the same in-progress study card and direction", async ({ page }) => {
     const guards = attachBrowserGuards(page);
     const fixture = await preparePageWithFixture(page, "in-progress", {
@@ -121,6 +161,27 @@ test.describe("core loop study", () => {
     await page.reload({ waitUntil: "domcontentloaded" });
     await page.waitForLoadState("networkidle");
     await expect(page.getByText(fixture.session?.currentCard?.primaryGloss ?? "")).toBeVisible();
+
+    await guards.expectHealthy();
+    guards.detach();
+  });
+
+  test("mobile word detail opens the Chinese sentence preview in a compact bottom sheet", async ({ page }) => {
+    await page.setViewportSize(MOBILE_VIEWPORT);
+    const guards = attachBrowserGuards(page);
+    await preparePageWithFixture(page, "fresh", {
+      selectedLanguages: ["zh-hsk1"],
+      dashboardLanguages: ["zh-hsk1"],
+    });
+
+    await gotoAndWait(page, "/words/new-hsk-1-0001");
+    await page.getByRole("button", { name: "妈妈" }).click();
+    const learnButton = page.getByRole("button", { name: "Learn" });
+    await expect(learnButton).toBeVisible();
+
+    const learnBox = await learnButton.boundingBox();
+    expect(learnBox, "mobile preview CTA should have a box").not.toBeNull();
+    expect(learnBox?.y ?? 0).toBeGreaterThan(MOBILE_VIEWPORT.height / 2);
 
     await guards.expectHealthy();
     guards.detach();

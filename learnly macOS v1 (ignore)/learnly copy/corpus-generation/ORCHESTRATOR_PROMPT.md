@@ -73,6 +73,8 @@ Process words in rank order, in reusable batches. For each word:
 - If a gloss choice is uncertain, prefer a simpler official-style gloss plus a stronger note.
 - Collect the most important English meanings in importance order.
 - For New HSK 2, New HSK 3, and New HSK 4, review every word beyond the PDF baseline and include the major common senses before sending the word to the workers.
+- For New HSK 5, review every word beyond the PDF baseline and include the major common senses before sending the word to the workers.
+- Treat POS, primary gloss, secondary glosses, and notes as first-class deliverables for every level, with especially careful learner-facing notes for grammar particles and function words.
 - Prefer 3 examples that cover 3 different common meanings when the word actually has that many useful meanings.
 - If the word has only 1 or 2 important meanings, reuse the strongest meaning rather than forcing a rare or unnatural sense.
 - Store the English meaning taught by each example alongside that example.
@@ -82,9 +84,11 @@ Process words in rank order, in reusable batches. For each word:
 - For HSK 2, every token in every sentence must come from the combined New HSK 1 and New HSK 2 source lists.
 - For HSK 3, every token in every sentence must come from the combined New HSK 1, New HSK 2, and New HSK 3 source lists.
 - For HSK 4, every token in every sentence must come from the combined New HSK 1, New HSK 2, New HSK 3, and New HSK 4 source lists.
+- For HSK 5, every token in every sentence must come from the combined New HSK 1, New HSK 2, New HSK 3, New HSK 4, and New HSK 5 source lists.
 - For HSK 2, target slightly richer sentences than HSK 1: usually 6-14 Chinese words, still concrete and easy to picture, with only modestly more detail or clause structure.
 - For HSK 3, target only slightly richer sentences than HSK 2: usually 7-16 Chinese words, still concrete and easy to picture, with just a small step up in detail or clause structure and no abstract or advanced vocabulary outside the allowed HSK 1+2+3 set.
 - For HSK 4, target only slightly richer sentences than HSK 3: usually 8-17 Chinese words, still concrete and easy to picture, with just a small step up in detail or clause structure and no abstract or advanced vocabulary outside the allowed HSK 1+2+3+4 set.
+- For HSK 5, target only slightly richer sentences than HSK 4: usually 9-19 Chinese words, still concrete and easy to picture, with just a small step up in detail or clause structure and no abstract or advanced vocabulary outside the allowed HSK 1+2+3+4+5 set.
 
 ### Step 1: Fetch the source row
 
@@ -189,6 +193,7 @@ Final output must match the existing ingestion shape:
   - New HSK 2: slightly richer beginner sentences, usually 6-14 Chinese words, HSK 1 plus HSK 2 vocabulary only
   - New HSK 3: only slightly richer than HSK 2, usually 7-16 Chinese words, HSK 1 plus HSK 2 plus HSK 3 vocabulary only
   - New HSK 4: only slightly richer than HSK 3, usually 8-17 Chinese words, HSK 1 plus HSK 2 plus HSK 3 plus HSK 4 vocabulary only
+  - New HSK 5: only slightly richer than HSK 4, usually 9-19 Chinese words, HSK 1 plus HSK 2 plus HSK 3 plus HSK 4 plus HSK 5 vocabulary only
 
 ## Quality bar
 

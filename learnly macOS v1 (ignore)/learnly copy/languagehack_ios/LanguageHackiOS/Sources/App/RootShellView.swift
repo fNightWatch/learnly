@@ -1,4 +1,5 @@
 import SwiftUI
+import UIKit
 
 @available(iOS 26.0, *)
 struct RootShellView: View {
@@ -6,6 +7,7 @@ struct RootShellView: View {
   @State private var showsSettings = false
   @AppStorage("languagehack.ios.theme") private var themePreference = "system"
   @Environment(\.colorScheme) private var colorScheme
+  private let isPhoneDevice = UIDevice.current.userInterfaceIdiom == .phone
 
   private var shouldShowHeaderStudyCTA: Bool {
     model.selectedSection != .study
@@ -13,21 +15,30 @@ struct RootShellView: View {
 
   var body: some View {
     GeometryReader { proxy in
-      let metrics = ShellAdaptiveMetrics(size: proxy.size)
+      let metrics = ShellAdaptiveMetrics(size: proxy.size, isPhone: isPhoneDevice)
 
       ZStack {
         GradientBackdrop(section: model.selectedSection)
 
-        VStack(spacing: metrics.stackSpacing) {
-          webParityHeader(metrics)
-            .padding(.top, metrics.headerTopPadding)
-
+        if metrics.usePhoneBottomBar {
           pageContent(metrics)
+            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
+            .padding(.top, metrics.phoneTopPadding)
+            .safeAreaInset(edge: .bottom) {
+              phoneBottomBar(metrics)
+            }
+        } else {
+          VStack(spacing: metrics.stackSpacing) {
+            webParityHeader(metrics)
+              .padding(.top, metrics.headerTopPadding)
+
+            pageContent(metrics)
+          }
+          .frame(maxWidth: metrics.contentMaxWidth)
+          .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
+          .padding(.horizontal, metrics.horizontalPadding)
+          .padding(.bottom, metrics.bottomPadding)
         }
-        .frame(maxWidth: metrics.contentMaxWidth)
-        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
-        .padding(.horizontal, metrics.horizontalPadding)
-        .padding(.bottom, metrics.bottomPadding)
 
         if let error = model.loadError {
           VStack {
@@ -44,9 +55,9 @@ struct RootShellView: View {
         }
       }
     }
-    .preferredColorScheme(preferredColorScheme)
-    .sheet(isPresented: $showsSettings) {
-      SettingsSheet(model: model)
+    .fullScreenCover(isPresented: $showsSettings) {
+      SettingsSheet(model: model, themePreference: $themePreference)
+        .ignoresSafeArea()
     }
     .task {
       model.bootstrap()
@@ -229,23 +240,6 @@ struct RootShellView: View {
       tint: .clear,
       padding: 0
     )
-
-    Button {
-      toggleTheme()
-    } label: {
-      Image(systemName: themeIcon)
-        .font(.system(size: metrics.themeIconFont, weight: .semibold))
-    }
-    .buttonStyle(.plain)
-    .frame(width: metrics.headerIconSize, height: metrics.headerIconSize)
-    .contentShape(Circle())
-    .readableSurface(
-      tier: .interactive,
-      role: .control,
-      cornerRadius: 999,
-      tint: .clear,
-      padding: 0
-    )
   }
 
   private func navPill(for section: AppSection, title: String, metrics: ShellAdaptiveMetrics) -> some View {
@@ -283,6 +277,7 @@ struct RootShellView: View {
       HomeView(dashboard: model.dashboard) {
         model.startStudyFromAnywhere()
       }
+      .padding(.horizontal, metrics.sectionHorizontalPadding)
 
     case .dashboard:
       DashboardView(
@@ -295,9 +290,11 @@ struct RootShellView: View {
           model.toggleAllDashboardLanguages()
         }
       )
+      .padding(.horizontal, metrics.sectionHorizontalPadding)
 
     case .words:
       WordsView(model: model.wordsVM)
+        .padding(.horizontal, metrics.sectionHorizontalPadding)
 
     case .study:
       StudyView(model: model.studyVM, onProgress: {
@@ -311,66 +308,124 @@ struct RootShellView: View {
     }
   }
 
-  private var preferredColorScheme: ColorScheme? {
-    switch themePreference {
-    case "light":
-      return .light
-    case "dark":
-      return .dark
-    default:
-      return nil
+  private func phoneBottomBar(_ metrics: ShellAdaptiveMetrics) -> some View {
+    HStack(spacing: 8) {
+      phoneNavItem(for: .home, metrics: metrics)
+      phoneNavItem(for: .dashboard, metrics: metrics)
+      phoneNavItem(for: .study, metrics: metrics)
+      phoneNavItem(for: .words, metrics: metrics)
+
+      Button {
+        showsSettings = true
+      } label: {
+        Image(systemName: "gearshape")
+          .font(.system(size: 15, weight: .semibold))
+          .foregroundStyle(Color.glassTextPrimary)
+          .frame(width: 34, height: 34)
+          .background(
+            Circle()
+              .fill(colorScheme == .dark ? WebParityPalette.panelDark.opacity(0.86) : Color.white.opacity(0.82))
+              .overlay(
+                Circle()
+                  .strokeBorder(
+                    (colorScheme == .dark ? WebParityPalette.lineDark : WebParityPalette.lineLight).opacity(0.62),
+                    lineWidth: 1
+                  )
+              )
+          )
+      }
+      .buttonStyle(.plain)
+      .contentShape(Circle())
+      .padding(.leading, 2)
     }
+    .padding(.horizontal, 8)
+    .padding(.vertical, 8)
+    .readableSurface(
+      tier: .interactive,
+      role: .control,
+      cornerRadius: 26,
+      tint: .white.opacity(0.03),
+      padding: 0
+    )
+    .padding(.horizontal, 10)
+    .padding(.bottom, 6)
   }
 
-  private var themeIcon: String {
-    switch themePreference {
-    case "dark":
-      return "sun.max"
-    case "light":
-      return "moon"
-    default:
-      return "circle.lefthalf.filled"
+  private func phoneNavItem(for section: AppSection, metrics: ShellAdaptiveMetrics) -> some View {
+    let selected = model.selectedSection == section
+    let selectedText = colorScheme == .dark ? Color.black : Color.white
+    let selectedFill = WebParityPalette.accent
+    let inactiveFill = colorScheme == .dark ? WebParityPalette.panelDark.opacity(0.84) : Color.white.opacity(0.86)
+    let inactiveStroke = (colorScheme == .dark ? WebParityPalette.lineDark : WebParityPalette.lineLight).opacity(0.62)
+
+    return Button {
+      model.selectSection(section)
+    } label: {
+      VStack(spacing: 2) {
+        Image(systemName: section.icon)
+          .font(.system(size: 13, weight: .semibold))
+        Text(section.title)
+          .font(.system(size: 11, weight: .semibold, design: .rounded))
+          .lineLimit(1)
+      }
+      .foregroundStyle(selected ? selectedText : Color.glassTextPrimary)
+      .frame(maxWidth: .infinity)
+      .padding(.horizontal, 8)
+      .padding(.vertical, 6)
+      .background(
+        Capsule(style: .continuous)
+          .fill(selected ? selectedFill : inactiveFill)
+          .overlay(
+            Capsule(style: .continuous)
+              .strokeBorder(selected ? selectedFill.opacity(0.98) : inactiveStroke, lineWidth: 1)
+          )
+      )
     }
+    .buttonStyle(.plain)
+    .contentShape(Capsule(style: .continuous))
   }
 
-  private func toggleTheme() {
-    switch themePreference {
-    case "system":
-      themePreference = "dark"
-    case "dark":
-      themePreference = "light"
-    case "light":
-      themePreference = "system"
-    default:
-      themePreference = "system"
-    }
-  }
 }
 
 @available(iOS 26.0, *)
 private struct ShellAdaptiveMetrics {
   let size: CGSize
+  let isPhone: Bool
 
+  var usePhoneBottomBar: Bool { isPhone }
+  var usePhoneFullscreenShell: Bool { isPhone }
   var useWideHeader: Bool { size.width >= 1120 }
   var isNarrow: Bool { size.width < 980 }
   var isVeryNarrow: Bool { size.width < 760 }
   var isShort: Bool { size.height < 760 }
+  var sectionHorizontalPadding: CGFloat { usePhoneBottomBar ? 12 : 0 }
+  var phoneTopPadding: CGFloat { 0 }
 
-  var horizontalPadding: CGFloat { isVeryNarrow ? 12 : LayoutTokens.pageHorizontal }
-  var bottomPadding: CGFloat { isShort ? 10 : 16 }
-  var headerTopPadding: CGFloat { isShort ? 8 : LayoutTokens.headerTop }
-  var stackSpacing: CGFloat { isShort ? 10 : 12 }
-  var contentMaxWidth: CGFloat { min(LayoutTokens.maxPageWidth, max(680, size.width - horizontalPadding * 2)) }
+  var horizontalPadding: CGFloat {
+    if usePhoneFullscreenShell { return 0 }
+    return isVeryNarrow ? 12 : LayoutTokens.pageHorizontal
+  }
+  var bottomPadding: CGFloat { usePhoneFullscreenShell ? 0 : (isShort ? 10 : 16) }
+  var headerTopPadding: CGFloat { usePhoneFullscreenShell ? 0 : (isShort ? 8 : LayoutTokens.headerTop) }
+  var stackSpacing: CGFloat { usePhoneFullscreenShell ? 8 : (isShort ? 10 : 12) }
+  var contentMaxWidth: CGFloat {
+    if usePhoneFullscreenShell { return .infinity }
+    return min(LayoutTokens.maxPageWidth, max(680, size.width - horizontalPadding * 2))
+  }
 
-  var headerPadding: CGFloat { isVeryNarrow ? 12 : 16 }
-  var headerCornerRadius: CGFloat { isVeryNarrow ? 26 : 34 }
+  var headerPadding: CGFloat {
+    if usePhoneFullscreenShell { return 12 }
+    return isVeryNarrow ? 12 : 16
+  }
+  var headerCornerRadius: CGFloat {
+    if usePhoneFullscreenShell { return 0 }
+    return isVeryNarrow ? 26 : 34
+  }
   var headerInnerSpacing: CGFloat { isVeryNarrow ? 7 : 9 }
 
   var brandFontSize: CGFloat { isVeryNarrow ? 26 : (isNarrow ? 30 : 56 * 0.58) }
   var headerIconSize: CGFloat { isVeryNarrow ? 50 : 62 }
   var settingsIconFont: CGFloat { isVeryNarrow ? 16 : 18 }
-  var themeIconFont: CGFloat { isVeryNarrow ? 18 : 20 }
-
   var navSpacing: CGFloat { isVeryNarrow ? 8 : 10 }
   var navFontSize: CGFloat { isVeryNarrow ? 14 : 16 }
   var navMinWidth: CGFloat { isVeryNarrow ? 84 : 96 }
@@ -383,8 +438,10 @@ private struct ShellAdaptiveMetrics {
 @available(iOS 26.0, *)
 struct SettingsSheet: View {
   @ObservedObject var model: AppViewModel
+  @Binding var themePreference: String
   @Environment(\.dismiss) private var dismiss
   @Environment(\.colorScheme) private var colorScheme
+  private let isPhoneDevice = UIDevice.current.userInterfaceIdiom == .phone
 
   private let languageColumns = [
     GridItem(.adaptive(minimum: 190), spacing: 10, alignment: .leading)
@@ -398,19 +455,22 @@ struct SettingsSheet: View {
         ScrollView {
           VStack(alignment: .leading, spacing: 14) {
             headerSection
+            themeSection
             dailyGoalSection
             preferredModeSection
             chineseFlowSection
             studyLanguagesSection
             footerActions
           }
-          .frame(maxWidth: 720, alignment: .leading)
-          .padding(.horizontal, 24)
-          .padding(.vertical, 20)
+          .frame(maxWidth: isPhoneDevice ? .infinity : 720, alignment: .leading)
+          .padding(.horizontal, isPhoneDevice ? 16 : 24)
+          .padding(.top, isPhoneDevice ? 12 : 20)
+          .padding(.bottom, isPhoneDevice ? 32 : 20)
         }
       }
     }
-    .frame(minWidth: 660, minHeight: 560)
+    .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
+    .frame(minWidth: isPhoneDevice ? 0 : 660, minHeight: isPhoneDevice ? 0 : 560)
   }
 
   private var headerSection: some View {
@@ -453,6 +513,39 @@ struct SettingsSheet: View {
         tint: .white.opacity(0.03),
         padding: 6
       )
+    }
+  }
+
+  private var themeSection: some View {
+    sectionShell(
+      title: "Theme",
+      subtitle: "System follows your device appearance automatically."
+    ) {
+      ViewThatFits(in: .horizontal) {
+        HStack(spacing: 8) {
+          themePill(title: "System", key: "system")
+          themePill(title: "Light", key: "light")
+          themePill(title: "Dark", key: "dark")
+        }
+
+        VStack(spacing: 8) {
+          HStack(spacing: 8) {
+            themePill(title: "System", key: "system")
+            themePill(title: "Light", key: "light")
+          }
+          themePill(title: "Dark", key: "dark")
+            .frame(maxWidth: .infinity, alignment: .leading)
+        }
+      }
+    }
+  }
+
+  private func themePill(title: String, key: String) -> some View {
+    segmentedPill(
+      title: title,
+      selected: themePreference == key
+    ) {
+      themePreference = key
     }
   }
 
@@ -570,6 +663,8 @@ struct SettingsSheet: View {
     Button(action: action) {
       Text(title)
         .font(.system(size: 15, weight: .semibold, design: .rounded))
+        .lineLimit(1)
+        .minimumScaleFactor(0.85)
         .foregroundStyle(selected ? (colorScheme == .dark ? Color.black : Color.white) : Color.glassTextPrimary)
         .frame(maxWidth: .infinity)
         .padding(.vertical, 9)

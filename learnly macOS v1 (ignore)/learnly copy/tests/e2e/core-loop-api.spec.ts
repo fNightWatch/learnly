@@ -91,6 +91,96 @@ test.describe("core loop api", () => {
     expect(nextJson.nextCard?.itemId).toBe(reviewed.nextCard?.itemId);
   });
 
+  test("Chinese sessions include preview tokens and learn route is idempotent while injecting into the active queue", async ({ request }) => {
+    loadCoreLoopFixture("fresh", {
+      selectedLanguages: ["zh-hsk1"],
+      dashboardLanguages: ["zh-hsk1"],
+      chineseReviewFlow: "two-click",
+    });
+
+    const start = await request.post("/api/session/start", {
+      data: {
+        languageCodes: ["zh-hsk1"],
+        mode: "everyday",
+      },
+    });
+    expect(start.ok()).toBeTruthy();
+    const started = (await start.json()) as {
+      sessionId: string;
+      firstCard: {
+        itemId: string;
+        exampleTokens?: Array<{ matched: boolean; text: string }>;
+      } | null;
+    };
+
+    expect(started.firstCard).not.toBeNull();
+    expect(started.firstCard?.exampleTokens).toBeTruthy();
+    expect(started.firstCard?.exampleTokens?.some((token) => token.matched)).toBeTruthy();
+
+    const learnTargetId = "new-hsk-1-0100";
+    const firstLearn = await request.post(`/api/item/${learnTargetId}/learn`, {
+      data: {
+        sessionId: started.sessionId,
+      },
+    });
+    expect(firstLearn.ok()).toBeTruthy();
+    const firstLearnJson = (await firstLearn.json()) as {
+      itemId: string;
+      introduced: boolean;
+      sessionInjected: boolean;
+      status: string;
+    };
+    expect(firstLearnJson).toEqual({
+      itemId: learnTargetId,
+      introduced: true,
+      sessionInjected: true,
+      status: "new",
+    });
+
+    const secondLearn = await request.post(`/api/item/${learnTargetId}/learn`, {
+      data: {
+        sessionId: started.sessionId,
+      },
+    });
+    expect(secondLearn.ok()).toBeTruthy();
+    const secondLearnJson = (await secondLearn.json()) as {
+      introduced: boolean;
+      sessionInjected: boolean;
+      status: string;
+    };
+    expect(secondLearnJson.introduced).toBe(false);
+    expect(secondLearnJson.sessionInjected).toBe(false);
+    expect(secondLearnJson.status).toBe("new");
+
+    const review = await request.post("/api/reviews", {
+      data: {
+        sessionId: started.sessionId,
+        itemId: started.firstCard!.itemId,
+        rating: 3,
+        elapsedMs: 900,
+      },
+    });
+    expect(review.ok()).toBeTruthy();
+    const reviewed = (await review.json()) as {
+      nextCard: { itemId: string } | null;
+    };
+    expect(reviewed.nextCard?.itemId).toBe(learnTargetId);
+
+    const nonChineseStart = await request.post("/api/session/start", {
+      data: {
+        languageCodes: ["es"],
+        mode: "everyday",
+      },
+    });
+    expect(nonChineseStart.ok()).toBeTruthy();
+    const nonChineseJson = (await nonChineseStart.json()) as {
+      firstCard: {
+        exampleTokens?: unknown;
+      } | null;
+    };
+    expect(nonChineseJson.firstCard?.exampleTokens).toBeUndefined();
+  });
+
   test("audio endpoints return playable payloads for standard and Chinese cards", async ({ request }) => {
     const standardFixture = loadCoreLoopFixture("recovery", {
       selectedLanguages: ["es"],

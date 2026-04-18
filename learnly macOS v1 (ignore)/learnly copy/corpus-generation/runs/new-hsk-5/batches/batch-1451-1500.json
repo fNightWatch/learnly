@@ -1,0 +1,710 @@
+[
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1451",
+    "rank": 1451,
+    "display_form": "早晚",
+    "lemma": "早晚",
+    "generation_form": "早晚",
+    "pronunciation": "zǎowǎn",
+    "pos": "noun, adverb",
+    "primary_gloss": "morning and evening",
+    "secondary_glosses": [
+      "sooner or later"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, adverb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1452",
+    "rank": 1452,
+    "display_form": "早已",
+    "lemma": "早已",
+    "generation_form": "早已",
+    "pronunciation": "zǎoyǐ",
+    "pos": "adverb",
+    "primary_gloss": "long ago",
+    "secondary_glosses": [
+      "already"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1453",
+    "rank": 1453,
+    "display_form": "造",
+    "lemma": "造",
+    "generation_form": "造",
+    "pronunciation": "zào",
+    "pos": "verb",
+    "primary_gloss": "to make",
+    "secondary_glosses": [
+      "to build"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1454",
+    "rank": 1454,
+    "display_form": "造成",
+    "lemma": "造成",
+    "generation_form": "造成",
+    "pronunciation": "zàochéng",
+    "pos": "verb",
+    "primary_gloss": "to cause",
+    "secondary_glosses": [
+      "to bring about"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1455",
+    "rank": 1455,
+    "display_form": "增",
+    "lemma": "增",
+    "generation_form": "增",
+    "pronunciation": "zēng",
+    "pos": "verb",
+    "primary_gloss": "to increase",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1456",
+    "rank": 1456,
+    "display_form": "增进",
+    "lemma": "增进",
+    "generation_form": "增进",
+    "pronunciation": "zēngjìn",
+    "pos": "verb",
+    "primary_gloss": "to enhance",
+    "secondary_glosses": [
+      "to promote"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1457",
+    "rank": 1457,
+    "display_form": "增强",
+    "lemma": "增强",
+    "generation_form": "增强",
+    "pronunciation": "zēngqiáng",
+    "pos": "verb",
+    "primary_gloss": "to strengthen",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1458",
+    "rank": 1458,
+    "display_form": "赠",
+    "lemma": "赠",
+    "generation_form": "赠",
+    "pronunciation": "zèng",
+    "pos": "verb",
+    "primary_gloss": "to give as a gift",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1459",
+    "rank": 1459,
+    "display_form": "赠送",
+    "lemma": "赠送",
+    "generation_form": "赠送",
+    "pronunciation": "zèngsòng",
+    "pos": "verb",
+    "primary_gloss": "to present",
+    "secondary_glosses": [
+      "to give as a gift"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1460",
+    "rank": 1460,
+    "display_form": "炸",
+    "lemma": "炸",
+    "generation_form": "炸",
+    "pronunciation": "zhá",
+    "pos": "verb",
+    "primary_gloss": "to fry",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1461",
+    "rank": 1461,
+    "display_form": "摘",
+    "lemma": "摘",
+    "generation_form": "摘",
+    "pronunciation": "zhāi",
+    "pos": "verb",
+    "primary_gloss": "to pick",
+    "secondary_glosses": [
+      "to pluck"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1462",
+    "rank": 1462,
+    "display_form": "窄",
+    "lemma": "窄",
+    "generation_form": "窄",
+    "pronunciation": "zhǎi",
+    "pos": "adjective",
+    "primary_gloss": "narrow",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1463",
+    "rank": 1463,
+    "display_form": "展出",
+    "lemma": "展出",
+    "generation_form": "展出",
+    "pronunciation": "zhǎnchū",
+    "pos": "verb",
+    "primary_gloss": "to exhibit",
+    "secondary_glosses": [
+      "to display"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1464",
+    "rank": 1464,
+    "display_form": "展开",
+    "lemma": "展开",
+    "generation_form": "展开",
+    "pronunciation": "zhǎnkāi",
+    "pos": "verb",
+    "primary_gloss": "to unfold",
+    "secondary_glosses": [
+      "to spread out"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1465",
+    "rank": 1465,
+    "display_form": "展览",
+    "lemma": "展览",
+    "generation_form": "展览",
+    "pronunciation": "zhǎnlǎn",
+    "pos": "verb",
+    "primary_gloss": "to exhibit",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1466",
+    "rank": 1466,
+    "display_form": "展示",
+    "lemma": "展示",
+    "generation_form": "展示",
+    "pronunciation": "zhǎnshì",
+    "pos": "verb",
+    "primary_gloss": "to show",
+    "secondary_glosses": [
+      "to display"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1467",
+    "rank": 1467,
+    "display_form": "展现",
+    "lemma": "展现",
+    "generation_form": "展现",
+    "pronunciation": "zhǎnxiàn",
+    "pos": "verb",
+    "primary_gloss": "to reveal",
+    "secondary_glosses": [
+      "to appear"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1468",
+    "rank": 1468,
+    "display_form": "占",
+    "lemma": "占",
+    "generation_form": "占",
+    "pronunciation": "zhàn",
+    "pos": "verb",
+    "primary_gloss": "to account for",
+    "secondary_glosses": [
+      "to occupy"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1469",
+    "rank": 1469,
+    "display_form": "站台",
+    "lemma": "站台",
+    "generation_form": "站台",
+    "pronunciation": "zhàntái",
+    "pos": "noun",
+    "primary_gloss": "platform",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1470",
+    "rank": 1470,
+    "display_form": "占线",
+    "lemma": "占线",
+    "generation_form": "占线",
+    "pronunciation": "zhànxiàn",
+    "pos": "verb",
+    "primary_gloss": "busy phone line",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1471",
+    "rank": 1471,
+    "display_form": "涨",
+    "lemma": "涨",
+    "generation_form": "涨",
+    "pronunciation": "zhǎng",
+    "pos": "verb",
+    "primary_gloss": "to rise",
+    "secondary_glosses": [
+      "to increase"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1472",
+    "rank": 1472,
+    "display_form": "涨价",
+    "lemma": "涨价",
+    "generation_form": "涨价",
+    "pronunciation": "zhǎngjià",
+    "pos": "verb",
+    "primary_gloss": "to increase in price",
+    "secondary_glosses": [
+      "to raise prices"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1473",
+    "rank": 1473,
+    "display_form": "掌声",
+    "lemma": "掌声",
+    "generation_form": "掌声",
+    "pronunciation": "zhǎngshēng",
+    "pos": "noun",
+    "primary_gloss": "applause",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1474",
+    "rank": 1474,
+    "display_form": "掌握",
+    "lemma": "掌握",
+    "generation_form": "掌握",
+    "pronunciation": "zhǎngwò",
+    "pos": "verb",
+    "primary_gloss": "to grasp",
+    "secondary_glosses": [
+      "to master"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1475",
+    "rank": 1475,
+    "display_form": "账号",
+    "lemma": "账号",
+    "generation_form": "账号",
+    "pronunciation": "zhànghào",
+    "pos": "noun",
+    "primary_gloss": "account number",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1476",
+    "rank": 1476,
+    "display_form": "账户",
+    "lemma": "账户",
+    "generation_form": "账户",
+    "pronunciation": "zhànghù",
+    "pos": "noun",
+    "primary_gloss": "account",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1477",
+    "rank": 1477,
+    "display_form": "着凉",
+    "lemma": "着凉",
+    "generation_form": "着凉",
+    "pronunciation": "zháoliáng",
+    "pos": "verb",
+    "primary_gloss": "to catch cold",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1478",
+    "rank": 1478,
+    "display_form": "召开",
+    "lemma": "召开",
+    "generation_form": "召开",
+    "pronunciation": "zhàokāi",
+    "pos": "verb",
+    "primary_gloss": "to convene",
+    "secondary_glosses": [
+      "to hold (a meeting)"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1479",
+    "rank": 1479,
+    "display_form": "折扣",
+    "lemma": "折扣",
+    "generation_form": "折扣",
+    "pronunciation": "zhékòu",
+    "pos": "noun",
+    "primary_gloss": "discount",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1480",
+    "rank": 1480,
+    "display_form": "哲学",
+    "lemma": "哲学",
+    "generation_form": "哲学",
+    "pronunciation": "zhéxué",
+    "pos": "noun",
+    "primary_gloss": "philosophy",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1481",
+    "rank": 1481,
+    "display_form": "真诚",
+    "lemma": "真诚",
+    "generation_form": "真诚",
+    "pronunciation": "zhēnchéng",
+    "pos": "adjective",
+    "primary_gloss": "sincere",
+    "secondary_glosses": [
+      "genuine"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1482",
+    "rank": 1482,
+    "display_form": "针对",
+    "lemma": "针对",
+    "generation_form": "针对",
+    "pronunciation": "zhēnduì",
+    "pos": "verb",
+    "primary_gloss": "to target",
+    "secondary_glosses": [
+      "to aim at"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1483",
+    "rank": 1483,
+    "display_form": "珍贵",
+    "lemma": "珍贵",
+    "generation_form": "珍贵",
+    "pronunciation": "zhēnguì",
+    "pos": "adjective",
+    "primary_gloss": "precious",
+    "secondary_glosses": [
+      "valuable"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1484",
+    "rank": 1484,
+    "display_form": "真实",
+    "lemma": "真实",
+    "generation_form": "真实",
+    "pronunciation": "zhēnshí",
+    "pos": "adjective",
+    "primary_gloss": "true",
+    "secondary_glosses": [
+      "real"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1485",
+    "rank": 1485,
+    "display_form": "珍惜",
+    "lemma": "珍惜",
+    "generation_form": "珍惜",
+    "pronunciation": "zhēnxī",
+    "pos": "verb",
+    "primary_gloss": "to cherish",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1486",
+    "rank": 1486,
+    "display_form": "诊断",
+    "lemma": "诊断",
+    "generation_form": "诊断",
+    "pronunciation": "zhěnduàn",
+    "pos": "verb",
+    "primary_gloss": "to diagnose",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1487",
+    "rank": 1487,
+    "display_form": "阵",
+    "lemma": "阵",
+    "generation_form": "阵",
+    "pronunciation": "zhèn",
+    "pos": "measure word",
+    "primary_gloss": "measure word for bursts",
+    "secondary_glosses": [
+      "periods"
+    ],
+    "notes": "Imported from the source PDF. The source gloss marks this entry as a measure word."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1488",
+    "rank": 1488,
+    "display_form": "争",
+    "lemma": "争",
+    "generation_form": "争",
+    "pronunciation": "zhēng",
+    "pos": "verb",
+    "primary_gloss": "to contend",
+    "secondary_glosses": [
+      "to compete"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1489",
+    "rank": 1489,
+    "display_form": "争取",
+    "lemma": "争取",
+    "generation_form": "争取",
+    "pronunciation": "zhēngqǔ",
+    "pos": "verb",
+    "primary_gloss": "to strive for",
+    "secondary_glosses": [
+      "to win over"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1490",
+    "rank": 1490,
+    "display_form": "整齐",
+    "lemma": "整齐",
+    "generation_form": "整齐",
+    "pronunciation": "zhěngqí",
+    "pos": "adjective",
+    "primary_gloss": "neat",
+    "secondary_glosses": [
+      "orderly"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1491",
+    "rank": 1491,
+    "display_form": "整体",
+    "lemma": "整体",
+    "generation_form": "整体",
+    "pronunciation": "zhěngtǐ",
+    "pos": "noun",
+    "primary_gloss": "whole",
+    "secondary_glosses": [
+      "entirety"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1492",
+    "rank": 1492,
+    "display_form": "整整",
+    "lemma": "整整",
+    "generation_form": "整整",
+    "pronunciation": "zhěngzhěng",
+    "pos": "adverb",
+    "primary_gloss": "whole",
+    "secondary_glosses": [
+      "full"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1493",
+    "rank": 1493,
+    "display_form": "挣",
+    "lemma": "挣",
+    "generation_form": "挣",
+    "pronunciation": "zhèng",
+    "pos": "verb",
+    "primary_gloss": "to earn",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1494",
+    "rank": 1494,
+    "display_form": "政府",
+    "lemma": "政府",
+    "generation_form": "政府",
+    "pronunciation": "zhèngfǔ",
+    "pos": "noun",
+    "primary_gloss": "government",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1495",
+    "rank": 1495,
+    "display_form": "证据",
+    "lemma": "证据",
+    "generation_form": "证据",
+    "pronunciation": "zhèngjù",
+    "pos": "noun",
+    "primary_gloss": "evidence",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1496",
+    "rank": 1496,
+    "display_form": "正如",
+    "lemma": "正如",
+    "generation_form": "正如",
+    "pronunciation": "zhèngrú",
+    "pos": "verb",
+    "primary_gloss": "just like",
+    "secondary_glosses": [
+      "as"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1497",
+    "rank": 1497,
+    "display_form": "证书",
+    "lemma": "证书",
+    "generation_form": "证书",
+    "pronunciation": "zhèngshū",
+    "pos": "noun",
+    "primary_gloss": "certificate",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1498",
+    "rank": 1498,
+    "display_form": "政治",
+    "lemma": "政治",
+    "generation_form": "政治",
+    "pronunciation": "zhèngzhì",
+    "pos": "noun",
+    "primary_gloss": "politics",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1499",
+    "rank": 1499,
+    "display_form": "支",
+    "lemma": "支",
+    "generation_form": "支",
+    "pronunciation": "zhī",
+    "pos": "measure word",
+    "primary_gloss": "measure word for long",
+    "secondary_glosses": [
+      "slender objects"
+    ],
+    "notes": "Imported from the source PDF. The source gloss marks this entry as a measure word."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1500",
+    "rank": 1500,
+    "display_form": "知名",
+    "lemma": "知名",
+    "generation_form": "知名",
+    "pronunciation": "zhīmíng",
+    "pos": "adjective",
+    "primary_gloss": "well-known",
+    "secondary_glosses": [
+      "famous"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  }
+]

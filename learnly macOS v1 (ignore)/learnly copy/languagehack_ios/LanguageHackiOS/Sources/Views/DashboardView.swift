@@ -1,4 +1,5 @@
 import SwiftUI
+import UIKit
 
 @available(iOS 26.0, *)
 struct DashboardView: View {
@@ -10,6 +11,7 @@ struct DashboardView: View {
   @State private var range = 30
   @State private var hoveredVocabularyIndex: Int?
   @Environment(\.colorScheme) private var colorScheme
+  private let isPhoneDevice = UIDevice.current.userInterfaceIdiom == .phone
 
   private static let vocabularyDateFormatter: DateFormatter = {
     let formatter = DateFormatter()
@@ -50,9 +52,13 @@ struct DashboardView: View {
   }
 
   private func topPanels(_ snapshot: DashboardSnapshot) -> some View {
+    if isPhoneDevice {
+      return AnyView(mobileTopPanels(snapshot))
+    }
+
     let leftColumnWidth: CGFloat = 430
 
-    return ViewThatFits(in: .horizontal) {
+    return AnyView(ViewThatFits(in: .horizontal) {
       HStack(alignment: .top, spacing: 12) {
         VStack(spacing: 10) {
           todayHeroCard(snapshot)
@@ -75,6 +81,23 @@ struct DashboardView: View {
         }
         languagesCard(snapshot)
       }
+    })
+  }
+
+  private func mobileTopPanels(_ snapshot: DashboardSnapshot) -> some View {
+    VStack(spacing: 12) {
+      HStack(alignment: .top, spacing: 10) {
+        todayHeroCard(snapshot)
+          .frame(maxWidth: .infinity)
+
+        VStack(spacing: 10) {
+          miniTodayStat(title: "Reviewed", value: "\(snapshot.reviewsToday)")
+          miniTodayStat(title: "New words", value: "\(snapshot.introducedToday)")
+        }
+        .frame(maxWidth: .infinity)
+      }
+
+      languagesCard(snapshot)
     }
   }
 
@@ -800,7 +823,14 @@ struct DashboardView: View {
         .padding(.vertical, 9)
         .background(
           Capsule()
-            .fill(selected ? (colorScheme == .dark ? WebParityPalette.blueDark : Color.black.opacity(0.9)) : Color.clear)
+            .fill(selected ? WebParityPalette.blueDark : Color.clear)
+            .overlay(
+              Capsule()
+                .strokeBorder(
+                  selected ? WebParityPalette.blueDark.opacity(0.98) : Color.clear,
+                  lineWidth: 1
+                )
+            )
         )
     }
     .contentShape(Capsule(style: .continuous))

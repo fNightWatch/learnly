@@ -20,8 +20,8 @@ targets:
     deploymentTarget: "26.0"
     sources:
       - path: LanguageHackiOS/Sources
-    resources:
       - path: LanguageHackiOS/Resources
+        buildPhase: resources
     settings:
       base:
         GENERATE_INFOPLIST_FILE: YES

@@ -1,16 +1,22 @@
 import SwiftUI
+import UIKit
 
 @available(iOS 26.0, *)
 struct WordsView: View {
   @ObservedObject var model: WordsViewModel
   @Environment(\.colorScheme) private var colorScheme
+  @State private var showsPhoneDetail = false
+  private let isPhoneDevice = UIDevice.current.userInterfaceIdiom == .phone
 
   var body: some View {
     GeometryReader { proxy in
       let metrics = WordsAdaptiveMetrics(size: proxy.size)
 
       ZStack {
-        if metrics.useVerticalFallback {
+        if isPhoneDevice {
+          sidebar
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+        } else if metrics.useVerticalFallback {
           VStack(spacing: 10) {
             sidebar
               .frame(maxWidth: .infinity)
@@ -52,10 +58,31 @@ struct WordsView: View {
     .onAppear {
       model.reload()
     }
+    .fullScreenCover(isPresented: $showsPhoneDetail) {
+      ZStack {
+        GradientBackdrop(section: .words)
+        VStack(spacing: 0) {
+          HStack {
+            Spacer()
+            Button("Done") {
+              showsPhoneDetail = false
+            }
+            .studyActionProminent(tint: WebParityPalette.accent)
+            .contentShape(Capsule(style: .continuous))
+          }
+          .padding(.horizontal, 12)
+          .padding(.top, 8)
+
+          detail
+            .padding(.top, 8)
+        }
+      }
+    }
   }
 
+  @ViewBuilder
   private var sidebar: some View {
-    VStack(alignment: .leading, spacing: 10) {
+    let content = VStack(alignment: .leading, spacing: 10) {
       Text("Studied words")
         .font(.system(size: 22, weight: .semibold, design: .rounded))
         .glassTextPrimary()
@@ -87,6 +114,9 @@ struct WordsView: View {
 
             Button {
               model.selectWord(row.itemId)
+              if isPhoneDevice {
+                showsPhoneDetail = true
+              }
             } label: {
               VStack(alignment: .leading, spacing: 4) {
                 Text(row.displayForm)
@@ -116,13 +146,21 @@ struct WordsView: View {
       }
       .scrollEdgeEffectStyle(.soft, for: .all)
     }
-    .readableSurface(
-      tier: .subtle,
-      role: .text,
-      cornerRadius: 24,
-      tint: WebParityPalette.blue.opacity(0.10),
-      padding: 14
-    )
+
+    if isPhoneDevice {
+      content
+        .padding(.horizontal, 12)
+        .padding(.top, 8)
+    } else {
+      content
+        .readableSurface(
+          tier: .subtle,
+          role: .text,
+          cornerRadius: 24,
+          tint: WebParityPalette.blue.opacity(0.10),
+          padding: 14
+        )
+    }
   }
 
   @ViewBuilder

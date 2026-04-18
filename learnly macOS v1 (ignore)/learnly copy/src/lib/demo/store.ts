@@ -14,6 +14,7 @@ import {
 import { getCuratedLists } from "@/lib/demo/lists";
 import {
   ChineseReviewFlow,
+  DashboardRangeDays,
   DashboardSnapshot,
   DemoLexicalItem,
   DemoSession,
@@ -36,6 +37,7 @@ import {
   WordsSection,
   WordsSnapshot
 } from "@/lib/demo/types";
+import { buildChineseSentenceTokenPreviews, isHskSentencePreviewLanguage } from "@/lib/demo/chinese-sentence-preview";
 import { DEMO_USER_ID } from "@/lib/demo/user";
 import {
   createInitialState,
@@ -64,6 +66,7 @@ type LegacyDemoStore = {
 // ---------------------------------------------------------------------------
 const DEFAULT_DAILY_GOAL = 10;
 const DEFAULT_LANGUAGE_CODES: SupportedLanguageCode[] = ["es"];
+const DEFAULT_DASHBOARD_RANGE_DAYS: DashboardRangeDays = 30;
 const DEFAULT_STUDY_MODE: StudyMode = "everyday";
 const DEFAULT_CHINESE_REVIEW_FLOW: ChineseReviewFlow = "four-click";
 const REVIEW_SOFT_CAP = 100;
@@ -150,6 +153,7 @@ function getDefaultSettings(now: Date): LearnerSettings {
     dailyGoal: DEFAULT_DAILY_GOAL,
     selectedLanguageCodes: DEFAULT_LANGUAGE_CODES,
     dashboardLanguageCodes: DEFAULT_LANGUAGE_CODES,
+    dashboardRangeDays: DEFAULT_DASHBOARD_RANGE_DAYS,
     preferredStudyMode: DEFAULT_STUDY_MODE,
     chineseReviewFlow: DEFAULT_CHINESE_REVIEW_FLOW,
     updatedAt: now.toISOString()
@@ -223,6 +227,10 @@ function normalizeDashboardLanguageCodes(
 
 function normalizeChineseReviewFlow(value?: string): ChineseReviewFlow {
   return value === "two-click" || value === "four-click" ? value : DEFAULT_CHINESE_REVIEW_FLOW;
+}
+
+function normalizeDashboardRangeDays(value?: number | null): DashboardRangeDays {
+  return value === 7 ? 7 : DEFAULT_DASHBOARD_RANGE_DAYS;
 }
 
 function buildSeededUserStates(userId: string, items: DemoLexicalItem[], now: Date) {
@@ -321,6 +329,9 @@ function migrateFromJson(jsonPath: string) {
         dashboardLanguageCodes: JSON.stringify(
           normalizeLanguageCodes(settings.dashboardLanguageCodes ?? settings.selectedLanguageCodes)
         ),
+        dashboardRangeDays: normalizeDashboardRangeDays(
+          (settings as LearnerSettings & { dashboardRangeDays?: number }).dashboardRangeDays
+        ),
         preferredStudyMode: settings.preferredStudyMode ?? DEFAULT_STUDY_MODE,
         chineseReviewFlow: normalizeChineseReviewFlow((settings as LearnerSettings & { chineseReviewFlow?: string }).chineseReviewFlow),
         updatedAt: settings.updatedAt ?? now.toISOString(),
@@ -415,6 +426,7 @@ function seedIfEmpty() {
     dailyGoal: defaults.dailyGoal,
     selectedLanguageCodes: JSON.stringify(defaults.selectedLanguageCodes),
     dashboardLanguageCodes: JSON.stringify(defaults.dashboardLanguageCodes),
+    dashboardRangeDays: defaults.dashboardRangeDays,
     preferredStudyMode: defaults.preferredStudyMode,
     chineseReviewFlow: defaults.chineseReviewFlow,
     updatedAt: defaults.updatedAt,
@@ -456,6 +468,7 @@ function getUserSettings(userId: string): LearnerSettings {
       dailyGoal: defaults.dailyGoal,
       selectedLanguageCodes: JSON.stringify(defaults.selectedLanguageCodes),
       dashboardLanguageCodes: JSON.stringify(defaults.dashboardLanguageCodes),
+      dashboardRangeDays: defaults.dashboardRangeDays,
       preferredStudyMode: defaults.preferredStudyMode,
       chineseReviewFlow: defaults.chineseReviewFlow,
       updatedAt: defaults.updatedAt,
@@ -476,6 +489,7 @@ function getUserSettings(userId: string): LearnerSettings {
     dailyGoal: row.dailyGoal,
     selectedLanguageCodes,
     dashboardLanguageCodes,
+    dashboardRangeDays: normalizeDashboardRangeDays(row.dashboardRangeDays),
     preferredStudyMode:
       row.preferredStudyMode === "review-only" || row.preferredStudyMode === "new-only"
         ? row.preferredStudyMode as StudyMode
@@ -554,12 +568,131 @@ function getSession(sessionId: string): DemoSession | null {
   };
 }
 
+function writeUserItemState(state: UserItemState) {
+  const db = getDb();
+
+  db.insert(tables.userItemStates).values({
+    userId: state.userId,
+    itemId: state.itemId,
+    status: state.status,
+    dueAt: state.dueAt,
+    stability: state.stability,
+    difficulty: state.difficulty,
+    scheduledDays: state.scheduledDays,
+    learningSteps: state.learningSteps,
+    lapses: state.lapses,
+    reps: state.reps,
+    lastRating: state.lastRating,
+    introducedAt: state.introducedAt,
+    lastReviewedAt: state.lastReviewedAt,
+  }).onConflictDoUpdate({
+    target: [tables.userItemStates.userId, tables.userItemStates.itemId],
+    set: {
+      status: state.status,
+      dueAt: state.dueAt,
+      stability: state.stability,
+      difficulty: state.difficulty,
+      scheduledDays: state.scheduledDays,
+      learningSteps: state.learningSteps,
+      lapses: state.lapses,
+      reps: state.reps,
+      lastRating: state.lastRating,
+      introducedAt: state.introducedAt,
+      lastReviewedAt: state.lastReviewedAt,
+    }
+  }).run();
+}
+
+function writeSessionQueue(params: {
+  sessionId: string;
+  queue: string[];
+  dueCount?: number;
+  newCount?: number;
+}) {
+  const { sessionId, queue, dueCount, newCount } = params;
+  const db = getDb();
+  db.update(tables.sessions)
+    .set({
+      queue: JSON.stringify(queue),
+      ...(typeof dueCount === "number" ? { dueCount } : {}),
+      ...(typeof newCount === "number" ? { newCount } : {}),
+    })
+    .where(eq(tables.sessions.id, sessionId))
+    .run();
+}
+
+function buildExampleTokens(
+  sentence: string,
+  languageCode: SupportedLanguageCode,
+  stateMap: Record<string, UserItemState>
+) {
+  return buildChineseSentenceTokenPreviews({
+    sentence,
+    languageCode,
+    stateMap,
+  });
+}
+
 // ---------------------------------------------------------------------------
 // Pure helpers (unchanged business logic)
 // ---------------------------------------------------------------------------
 
 function buildLanguageOrder(languageCodes: SupportedLanguageCode[]) {
   return new Map(languageCodes.map((code, index) => [code, index]));
+}
+
+const HSK_LEVEL_CODE_PATTERN = /^zh-hsk(\d+)$/;
+const HSK_ITEM_ID_PATTERN = /^new-hsk-(\d+)-(\d+)$/;
+
+function getHskLevel(code: SupportedLanguageCode) {
+  const match = code.match(HSK_LEVEL_CODE_PATTERN);
+  if (!match) {
+    return null;
+  }
+
+  const level = Number.parseInt(match[1], 10);
+  return Number.isFinite(level) ? level : null;
+}
+
+function getItemIntroductionOrder(item: DemoLexicalItem) {
+  const hskMatch = item.id.match(HSK_ITEM_ID_PATTERN);
+  if (hskMatch) {
+    const numericId = Number.parseInt(hskMatch[2], 10);
+    if (Number.isFinite(numericId)) {
+      return numericId;
+    }
+  }
+
+  return item.rank;
+}
+
+function shouldUseSequentialHskFreshOrder(languageCodes: SupportedLanguageCode[]) {
+  return languageCodes.length > 1 && languageCodes.every((code) => getHskLevel(code) !== null);
+}
+
+function compareSequentialFreshItems(
+  left: DemoLexicalItem,
+  right: DemoLexicalItem,
+  languageCodes: SupportedLanguageCode[]
+) {
+  const order = buildLanguageOrder(languageCodes);
+  const leftHskLevel = getHskLevel(left.languageCode);
+  const rightHskLevel = getHskLevel(right.languageCode);
+
+  if (leftHskLevel !== null && rightHskLevel !== null && leftHskLevel !== rightHskLevel) {
+    return leftHskLevel - rightHskLevel;
+  }
+
+  if (left.languageCode !== right.languageCode) {
+    return (order.get(left.languageCode) ?? 999) - (order.get(right.languageCode) ?? 999);
+  }
+
+  const introductionDelta = getItemIntroductionOrder(left) - getItemIntroductionOrder(right);
+  if (introductionDelta !== 0) {
+    return introductionDelta;
+  }
+
+  return left.rank - right.rank;
 }
 
 function sortItemsByLanguageOrder(items: DemoLexicalItem[], languageCodes: SupportedLanguageCode[]) {
@@ -583,6 +716,13 @@ function filterItemsByLanguageCodes(items: DemoLexicalItem[], languageCodes: Sup
 function pickFreshItemsByLanguage(items: DemoLexicalItem[], limit: number, languageCodes: SupportedLanguageCode[]) {
   if (limit <= 0) {
     return [];
+  }
+
+  if (shouldUseSequentialHskFreshOrder(languageCodes)) {
+    return items
+      .slice()
+      .sort((left, right) => compareSequentialFreshItems(left, right, languageCodes))
+      .slice(0, limit);
   }
 
   const buckets = languageCodes.map((code) =>
@@ -728,10 +868,13 @@ function toCard(
   item: DemoLexicalItem,
   userId: string,
   current: UserItemState | null,
-  now: Date
+  now: Date,
+  stateMap?: Record<string, UserItemState>
 ): SessionCardPayload {
   const state = current ?? createInitialState(userId, item.id, now);
   const cycled = getCycledExample(item.id, state.reps);
+  const example = cycled?.sentence ?? item.example;
+  const previewStateMap = stateMap ?? getUserStates(userId);
 
   return {
     itemId: item.id,
@@ -742,13 +885,14 @@ function toCard(
     primaryGloss: item.primaryGloss,
     pos: item.pos,
     rank: item.rank,
-    example: cycled?.sentence ?? item.example,
+    example,
     translation: cycled?.translation ?? item.translation,
     pronunciation: item.pronunciation,
     exampleIndex: cycled?.index,
     secondaryGlosses: item.secondaryGlosses,
     notes: item.notes,
-    ratingPreviews: getRatingPreviews(state, now)
+    ratingPreviews: getRatingPreviews(state, now),
+    exampleTokens: buildExampleTokens(example, item.languageCode, previewStateMap)
   };
 }
 
@@ -1114,7 +1258,7 @@ export function getLanguageCatalog() {
 
 export function updateLearnerSettings(
   userId: string,
-  updates: Partial<Pick<LearnerSettings, "dailyGoal" | "selectedLanguageCodes" | "dashboardLanguageCodes" | "preferredStudyMode" | "chineseReviewFlow">>
+  updates: Partial<Pick<LearnerSettings, "dailyGoal" | "selectedLanguageCodes" | "dashboardLanguageCodes" | "dashboardRangeDays" | "preferredStudyMode" | "chineseReviewFlow">>
 ) {
   ensureProgressBackup(userId, "before-settings-update");
   const settings = getUserSettings(userId);
@@ -1132,6 +1276,7 @@ export function updateLearnerSettings(
     dailyGoal: updates.dailyGoal ?? settings.dailyGoal,
     selectedLanguageCodes,
     dashboardLanguageCodes,
+    dashboardRangeDays: normalizeDashboardRangeDays(updates.dashboardRangeDays ?? settings.dashboardRangeDays),
     preferredStudyMode: updates.preferredStudyMode ?? settings.preferredStudyMode,
     chineseReviewFlow: normalizeChineseReviewFlow(updates.chineseReviewFlow ?? settings.chineseReviewFlow),
     updatedAt: new Date().toISOString()
@@ -1142,6 +1287,7 @@ export function updateLearnerSettings(
       dailyGoal: updated.dailyGoal,
       selectedLanguageCodes: JSON.stringify(updated.selectedLanguageCodes),
       dashboardLanguageCodes: JSON.stringify(updated.dashboardLanguageCodes),
+      dashboardRangeDays: updated.dashboardRangeDays,
       preferredStudyMode: updated.preferredStudyMode,
       chineseReviewFlow: updated.chineseReviewFlow,
       updatedAt: updated.updatedAt,
@@ -1230,7 +1376,7 @@ export function startSession(
     insights,
     studyPlan,
     firstCard: session.queue[0]
-      ? toCard(getItem(session.queue[0])!, userId, states[session.queue[0]] ?? null, now)
+      ? toCard(getItem(session.queue[0])!, userId, states[session.queue[0]] ?? null, now, states)
       : null
   };
 }
@@ -1244,7 +1390,7 @@ export function resumeSession(sessionId: string) {
   const firstItemId = session.queue[0] ?? null;
   const states = getUserStates(session.userId);
   const firstItem = firstItemId ? getItem(firstItemId) : null;
-  const firstCard = firstItem ? toCard(firstItem, session.userId, states[firstItemId!] ?? null, now) : null;
+  const firstCard = firstItem ? toCard(firstItem, session.userId, states[firstItemId!] ?? null, now, states) : null;
   const insights = getSessionInsights(session.userId, session.languageCodes, now);
 
   return {
@@ -1273,7 +1419,7 @@ export function getNextCard(sessionId: string) {
 
   const item = getItem(itemId);
   const states = getUserStates(session.userId);
-  return item ? toCard(item, session.userId, states[itemId] ?? null, new Date()) : null;
+  return item ? toCard(item, session.userId, states[itemId] ?? null, new Date(), states) : null;
 }
 
 function buildDashboardSnapshot(
@@ -1313,6 +1459,7 @@ function buildDashboardSnapshot(
   return {
     availableLanguages: getLanguagesByCodes(selectedLanguageCodes),
     activeLanguageCodes: languageCodes,
+    dashboardRangeDays: settings.dashboardRangeDays,
     preferredStudyMode: settings.preferredStudyMode,
     corpusSize: activeItems.length,
     exampleCoveragePercent,
@@ -1370,7 +1517,7 @@ export function getSiteSnapshot(userId: string) {
 
   return {
     dashboard,
-    featuredCard: item && state ? toCard(item, userId, state, now) : null
+    featuredCard: item && state ? toCard(item, userId, state, now, stateMap) : null
   };
 }
 
@@ -1601,7 +1748,11 @@ export function getWordSnapshot(userId: string, itemId: string): WordDetailSnaps
     .where(eq(tables.corpusItemExamples.itemId, itemId))
     .orderBy(asc(tables.corpusItemExamples.sortOrder))
     .all()
-    .map(r => ({ sentence: r.sentence, translation: r.translation }));
+    .map((r) => ({
+      sentence: r.sentence,
+      translation: r.translation,
+      tokens: buildExampleTokens(r.sentence, item.languageCode, stateMap),
+    }));
 
   return {
     item: rankedItem,
@@ -1623,7 +1774,82 @@ export function getWordSnapshot(userId: string, itemId: string): WordDetailSnaps
 
 export function getItemById(itemId: string) {
   const item = getItem(itemId);
-  return item ? toCard(item, DEMO_USER_ID, null, new Date()) : null;
+  const stateMap = getUserStates(DEMO_USER_ID);
+  return item ? toCard(item, DEMO_USER_ID, stateMap[itemId] ?? null, new Date(), stateMap) : null;
+}
+
+export function learnPreviewItem(params: {
+  userId: string;
+  itemId: string;
+  sessionId?: string | null;
+}) {
+  const { userId, itemId, sessionId } = params;
+  const item = getItem(itemId);
+  if (!item) {
+    throw new Error("Item not found");
+  }
+
+  if (!isHskSentencePreviewLanguage(item.languageCode)) {
+    throw new Error("Item is not eligible for Chinese sentence preview learning");
+  }
+
+  const now = new Date();
+  const stateMap = getUserStates(userId);
+  const existingState = stateMap[itemId];
+  const beforeProgressCounts = getProgressCounts(userId);
+  let currentState = existingState ?? null;
+  let introduced = false;
+
+  if (!currentState) {
+    currentState = createInitialState(userId, itemId, now);
+    writeUserItemState(currentState);
+    introduced = true;
+  }
+
+  if (!currentState) {
+    throw new Error("Could not initialize learner state");
+  }
+
+  const ensuredState = currentState;
+
+  let sessionInjected = false;
+  if (sessionId) {
+    const session = getSession(sessionId);
+    if (session && session.userId === userId) {
+      const alreadyQueued = session.queue.includes(itemId);
+      if (!alreadyQueued) {
+        const injectedQueue =
+          session.queue.length === 0
+            ? [itemId]
+            : [session.queue[0], itemId, ...session.queue.slice(1)];
+        writeSessionQueue({
+          sessionId: session.id,
+          queue: injectedQueue,
+          dueCount: session.dueCount,
+          newCount: session.newCount + (introduced ? 1 : 0),
+        });
+        sessionInjected = true;
+      }
+    }
+  }
+
+  const afterProgressCounts = getProgressCounts(userId);
+  if (afterProgressCounts.itemStates < beforeProgressCounts.itemStates) {
+    throw new Error(
+      [
+        "progress protection: learning preview item reduced learner progress counts",
+        `before=${JSON.stringify(beforeProgressCounts)}`,
+        `after=${JSON.stringify(afterProgressCounts)}`
+      ].join(" | ")
+    );
+  }
+
+  return {
+    itemId,
+    introduced,
+    sessionInjected,
+    status: ensuredState.status,
+  };
 }
 
 export function submitReview(params: {
@@ -1741,7 +1967,8 @@ export function submitReview(params: {
           getItem(updatedSession.queue[0])!,
           userId,
           updatedStates[updatedSession.queue[0]] ?? null,
-          now
+          now,
+          updatedStates
         )
       : null
   };

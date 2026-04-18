@@ -1,0 +1,722 @@
+[
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0601",
+    "rank": 601,
+    "display_form": "结构",
+    "lemma": "结构",
+    "generation_form": "结构",
+    "pronunciation": "jiégòu",
+    "pos": "noun",
+    "primary_gloss": "structure",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0602",
+    "rank": 602,
+    "display_form": "结合",
+    "lemma": "结合",
+    "generation_form": "结合",
+    "pronunciation": "jiéhé",
+    "pos": "verb",
+    "primary_gloss": "to combine",
+    "secondary_glosses": [
+      "to unite"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0603",
+    "rank": 603,
+    "display_form": "结论",
+    "lemma": "结论",
+    "generation_form": "结论",
+    "pronunciation": "jiélùn",
+    "pos": "noun",
+    "primary_gloss": "conclusion",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0604",
+    "rank": 604,
+    "display_form": "节省",
+    "lemma": "节省",
+    "generation_form": "节省",
+    "pronunciation": "jiéshěng",
+    "pos": "verb",
+    "primary_gloss": "to save",
+    "secondary_glosses": [
+      "to economize"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0605",
+    "rank": 605,
+    "display_form": "届",
+    "lemma": "届",
+    "generation_form": "届",
+    "pronunciation": "jiè",
+    "pos": "measure word",
+    "primary_gloss": "measure word for sessions",
+    "secondary_glosses": [
+      "terms"
+    ],
+    "notes": "Imported from the source PDF. The source gloss marks this entry as a measure word."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0606",
+    "rank": 606,
+    "display_form": "今日",
+    "lemma": "今日",
+    "generation_form": "今日",
+    "pronunciation": "jīnrì",
+    "pos": "noun",
+    "primary_gloss": "today",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0607",
+    "rank": 607,
+    "display_form": "紧",
+    "lemma": "紧",
+    "generation_form": "紧",
+    "pronunciation": "jǐn",
+    "pos": "adjective, verb",
+    "primary_gloss": "tight",
+    "secondary_glosses": [
+      "to tighten"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective, verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0608",
+    "rank": 608,
+    "display_form": "紧急",
+    "lemma": "紧急",
+    "generation_form": "紧急",
+    "pronunciation": "jǐnjí",
+    "pos": "adjective",
+    "primary_gloss": "urgent",
+    "secondary_glosses": [
+      "critical"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0609",
+    "rank": 609,
+    "display_form": "尽快",
+    "lemma": "尽快",
+    "generation_form": "尽快",
+    "pronunciation": "jǐnkuài",
+    "pos": "adverb",
+    "primary_gloss": "as soon as possible",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0610",
+    "rank": 610,
+    "display_form": "尽量",
+    "lemma": "尽量",
+    "generation_form": "尽量",
+    "pronunciation": "jǐnliàng",
+    "pos": "adverb",
+    "primary_gloss": "to the best of one's ability",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0611",
+    "rank": 611,
+    "display_form": "紧密",
+    "lemma": "紧密",
+    "generation_form": "紧密",
+    "pronunciation": "jǐnmì",
+    "pos": "adjective",
+    "primary_gloss": "close",
+    "secondary_glosses": [
+      "tight"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0612",
+    "rank": 612,
+    "display_form": "谨慎",
+    "lemma": "谨慎",
+    "generation_form": "谨慎",
+    "pronunciation": "jǐnshèn",
+    "pos": "adjective",
+    "primary_gloss": "cautious",
+    "secondary_glosses": [
+      "prudent"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0613",
+    "rank": 613,
+    "display_form": "进步",
+    "lemma": "进步",
+    "generation_form": "进步",
+    "pronunciation": "jìnbù",
+    "pos": "verb, adjective",
+    "primary_gloss": "to advance",
+    "secondary_glosses": [
+      "to improve",
+      "progress",
+      "improvement"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0614",
+    "rank": 614,
+    "display_form": "近代",
+    "lemma": "近代",
+    "generation_form": "近代",
+    "pronunciation": "jìndài",
+    "pos": "noun",
+    "primary_gloss": "modern times",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0615",
+    "rank": 615,
+    "display_form": "进又",
+    "lemma": "进又",
+    "generation_form": "进又",
+    "pronunciation": "jìnkǒu",
+    "pos": "verb",
+    "primary_gloss": "to import",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0616",
+    "rank": 616,
+    "display_form": "尽力",
+    "lemma": "尽力",
+    "generation_form": "尽力",
+    "pronunciation": "jìnlì",
+    "pos": "verb",
+    "primary_gloss": "to do one's best",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0617",
+    "rank": 617,
+    "display_form": "近年来",
+    "lemma": "近年来",
+    "generation_form": "近年来",
+    "pronunciation": "jìnnián lái",
+    "pos": "unknown",
+    "primary_gloss": "in recent years",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0618",
+    "rank": 618,
+    "display_form": "近期",
+    "lemma": "近期",
+    "generation_form": "近期",
+    "pronunciation": "jìnqī",
+    "pos": "noun",
+    "primary_gloss": "recent period",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0619",
+    "rank": 619,
+    "display_form": "近日",
+    "lemma": "近日",
+    "generation_form": "近日",
+    "pronunciation": "jìnrì",
+    "pos": "noun",
+    "primary_gloss": "recently",
+    "secondary_glosses": [
+      "in recent days"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0620",
+    "rank": 620,
+    "display_form": "进一步",
+    "lemma": "进一步",
+    "generation_form": "进一步",
+    "pronunciation": "jìnyíbù",
+    "pos": "adverb",
+    "primary_gloss": "further",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0621",
+    "rank": 621,
+    "display_form": "经典",
+    "lemma": "经典",
+    "generation_form": "经典",
+    "pronunciation": "jīngdiǎn",
+    "pos": "noun, adjective",
+    "primary_gloss": "classic",
+    "secondary_glosses": [
+      "classical"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0622",
+    "rank": 622,
+    "display_form": "精力",
+    "lemma": "精力",
+    "generation_form": "精力",
+    "pronunciation": "jīnglì",
+    "pos": "noun",
+    "primary_gloss": "energy",
+    "secondary_glosses": [
+      "vigor"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0623",
+    "rank": 623,
+    "display_form": "精神",
+    "lemma": "精神",
+    "generation_form": "精神",
+    "pronunciation": "jīngshen",
+    "pos": "noun, adjective",
+    "primary_gloss": "spirit",
+    "secondary_glosses": [
+      "mind",
+      "mental",
+      "lively"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0624",
+    "rank": 624,
+    "display_form": "惊喜",
+    "lemma": "惊喜",
+    "generation_form": "惊喜",
+    "pronunciation": "jīngxǐ",
+    "pos": "adjective",
+    "primary_gloss": "pleasant surprise",
+    "secondary_glosses": [
+      "delight"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0625",
+    "rank": 625,
+    "display_form": "经营",
+    "lemma": "经营",
+    "generation_form": "经营",
+    "pronunciation": "jīngyíng",
+    "pos": "verb",
+    "primary_gloss": "to manage",
+    "secondary_glosses": [
+      "to operate"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0626",
+    "rank": 626,
+    "display_form": "静",
+    "lemma": "静",
+    "generation_form": "静",
+    "pronunciation": "jìng",
+    "pos": "adjective, verb",
+    "primary_gloss": "quiet",
+    "secondary_glosses": [
+      "still",
+      "to become quiet"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective, verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0627",
+    "rank": 627,
+    "display_form": "酒吧",
+    "lemma": "酒吧",
+    "generation_form": "酒吧",
+    "pronunciation": "jiǔbā",
+    "pos": "noun",
+    "primary_gloss": "bar",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0628",
+    "rank": 628,
+    "display_form": "久远",
+    "lemma": "久远",
+    "generation_form": "久远",
+    "pronunciation": "jiǔyuǎn",
+    "pos": "adjective",
+    "primary_gloss": "long",
+    "secondary_glosses": [
+      "remote",
+      "far-reaching"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0629",
+    "rank": 629,
+    "display_form": "救",
+    "lemma": "救",
+    "generation_form": "救",
+    "pronunciation": "jiù",
+    "pos": "verb",
+    "primary_gloss": "to save",
+    "secondary_glosses": [
+      "to rescue"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0630",
+    "rank": 630,
+    "display_form": "救护车",
+    "lemma": "救护车",
+    "generation_form": "救护车",
+    "pronunciation": "jiùhùchē",
+    "pos": "noun",
+    "primary_gloss": "ambulance",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0631",
+    "rank": 631,
+    "display_form": "就业",
+    "lemma": "就业",
+    "generation_form": "就业",
+    "pronunciation": "jiùyè",
+    "pos": "verb",
+    "primary_gloss": "to get a job",
+    "secondary_glosses": [
+      "to be employed"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0632",
+    "rank": 632,
+    "display_form": "居民",
+    "lemma": "居民",
+    "generation_form": "居民",
+    "pronunciation": "jūmín",
+    "pos": "noun",
+    "primary_gloss": "resident",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0633",
+    "rank": 633,
+    "display_form": "居然",
+    "lemma": "居然",
+    "generation_form": "居然",
+    "pronunciation": "jūrán",
+    "pos": "adverb",
+    "primary_gloss": "unexpectedly",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0634",
+    "rank": 634,
+    "display_form": "居住",
+    "lemma": "居住",
+    "generation_form": "居住",
+    "pronunciation": "jūzhù",
+    "pos": "verb",
+    "primary_gloss": "to live",
+    "secondary_glosses": [
+      "to reside"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0635",
+    "rank": 635,
+    "display_form": "橘子",
+    "lemma": "橘子",
+    "generation_form": "橘子",
+    "pronunciation": "júzi",
+    "pos": "noun",
+    "primary_gloss": "orange",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0636",
+    "rank": 636,
+    "display_form": "据",
+    "lemma": "据",
+    "generation_form": "据",
+    "pronunciation": "jù",
+    "pos": "preposition",
+    "primary_gloss": "according to",
+    "secondary_glosses": [
+      "based on"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as preposition."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0637",
+    "rank": 637,
+    "display_form": "距",
+    "lemma": "距",
+    "generation_form": "距",
+    "pronunciation": "jù",
+    "pos": "verb",
+    "primary_gloss": "to be apart from",
+    "secondary_glosses": [
+      "to distance"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0638",
+    "rank": 638,
+    "display_form": "具备",
+    "lemma": "具备",
+    "generation_form": "具备",
+    "pronunciation": "jùbèi",
+    "pos": "verb",
+    "primary_gloss": "to possess",
+    "secondary_glosses": [
+      "to have"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0639",
+    "rank": 639,
+    "display_form": "剧场",
+    "lemma": "剧场",
+    "generation_form": "剧场",
+    "pronunciation": "jùchǎng",
+    "pos": "noun",
+    "primary_gloss": "theater",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0640",
+    "rank": 640,
+    "display_form": "巨大",
+    "lemma": "巨大",
+    "generation_form": "巨大",
+    "pronunciation": "jùdà",
+    "pos": "adjective",
+    "primary_gloss": "huge",
+    "secondary_glosses": [
+      "enormous"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0641",
+    "rank": 641,
+    "display_form": "据说",
+    "lemma": "据说",
+    "generation_form": "据说",
+    "pronunciation": "jùshuō",
+    "pos": "verb",
+    "primary_gloss": "it is said",
+    "secondary_glosses": [
+      "reportedly"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0642",
+    "rank": 642,
+    "display_form": "具体",
+    "lemma": "具体",
+    "generation_form": "具体",
+    "pronunciation": "jùtǐ",
+    "pos": "adjective, verb",
+    "primary_gloss": "concrete",
+    "secondary_glosses": [
+      "specific",
+      "to embody"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective, verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0643",
+    "rank": 643,
+    "display_form": "具有",
+    "lemma": "具有",
+    "generation_form": "具有",
+    "pronunciation": "jùyǒu",
+    "pos": "verb",
+    "primary_gloss": "to have",
+    "secondary_glosses": [
+      "to possess"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0644",
+    "rank": 644,
+    "display_form": "捐",
+    "lemma": "捐",
+    "generation_form": "捐",
+    "pronunciation": "juān",
+    "pos": "verb",
+    "primary_gloss": "to donate",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0645",
+    "rank": 645,
+    "display_form": "绝对",
+    "lemma": "绝对",
+    "generation_form": "绝对",
+    "pronunciation": "juéduì",
+    "pos": "adjective, adverb",
+    "primary_gloss": "absolute",
+    "secondary_glosses": [
+      "absolutely"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective, adverb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0646",
+    "rank": 646,
+    "display_form": "决赛",
+    "lemma": "决赛",
+    "generation_form": "决赛",
+    "pronunciation": "juésài",
+    "pos": "verb, noun",
+    "primary_gloss": "to compete in a final",
+    "secondary_glosses": [
+      "final match"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0647",
+    "rank": 647,
+    "display_form": "角色",
+    "lemma": "角色",
+    "generation_form": "角色",
+    "pronunciation": "juésè",
+    "pos": "noun",
+    "primary_gloss": "role",
+    "secondary_glosses": [
+      "character"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0648",
+    "rank": 648,
+    "display_form": "决心",
+    "lemma": "决心",
+    "generation_form": "决心",
+    "pronunciation": "juéxīn",
+    "pos": "noun, verb",
+    "primary_gloss": "determination",
+    "secondary_glosses": [
+      "resolve",
+      "to be determined"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0649",
+    "rank": 649,
+    "display_form": "开发",
+    "lemma": "开发",
+    "generation_form": "开发",
+    "pronunciation": "kāifā",
+    "pos": "verb",
+    "primary_gloss": "to develop",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0650",
+    "rank": 650,
+    "display_form": "开放",
+    "lemma": "开放",
+    "generation_form": "开放",
+    "pronunciation": "kāifàng",
+    "pos": "verb, adjective",
+    "primary_gloss": "to open",
+    "secondary_glosses": [
+      "open"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, adjective."
+  }
+]

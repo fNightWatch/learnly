@@ -1,0 +1,1 @@
+Wrote `batch-0851-0860.jsonl` for `new-hsk-5-0851` through `new-hsk-5-0860` and validated it successfully with `orchestrator.py validate-jsonl` against `corpus-hsk-5.sqlite` (`word_count: 10`).

@@ -4,6 +4,7 @@ import { useEffect, useRef, useState, type ReactNode } from "react";
 import { useRouter } from "next/navigation";
 import { buildAudioUrl } from "@/lib/demo/audio-source";
 import { SettingsOverlay } from "@/components/settings/settings-overlay";
+import { ChineseSentencePreview } from "@/components/words/chinese-sentence-preview";
 import type {
   ChineseReviewFlow,
   DemoLanguage,
@@ -144,6 +145,9 @@ const directionOptions: Array<{ id: Direction; label: string }> = [
   { id: "es-to-en", label: "Target → English" },
   { id: "en-to-es", label: "English → Target" }
 ];
+
+const positiveDecisionClass =
+  "rounded-[18px] bg-clay px-4 py-3 text-center text-white dark:text-black transition-[transform,opacity,box-shadow] hover:-translate-y-0.5 hover:opacity-90 hover:shadow-[0_12px_28px_rgb(var(--color-clay)/0.22)]";
 
 function resolveAutoDirection(counter: number): "es-to-en" | "en-to-es" {
   return counter % 3 === 2 ? "en-to-es" : "es-to-en";
@@ -1303,7 +1307,7 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
     return (
       <div className="flex justify-center px-4 py-2">
         <div className="w-full max-w-lg">
-          <div className="rounded-[32px] border border-line/70 dark:border-line/52 bg-panel/84 dark:bg-[linear-gradient(180deg,rgba(15,18,24,0.98),rgba(8,10,14,0.94))] p-6 shadow-[0_20px_60px_rgba(30,18,10,0.07)] dark:shadow-[inset_0_1px_0_rgba(255,255,255,0.04),0_8px_24px_rgba(0,0,0,0.32)] sm:p-8">
+          <div className="study-header-shell rounded-[32px] p-6 sm:p-8">
             {/* Header */}
             <div className="text-center">
               <div className="text-[11px] uppercase tracking-[0.2em] text-ink/38">Study session</div>
@@ -1327,7 +1331,7 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
                           onClick={() => toggleLanguage(language.code)}
                           className={`rounded-full border px-3.5 py-2 text-sm font-semibold transition-[transform,opacity,box-shadow] ${
                             active
-                              ? "border-clay/35 bg-clay/12 text-clay shadow-[0_16px_36px_rgba(202,114,76,0.12)]"
+                              ? "border-[rgb(255_153_28/0.62)] bg-[#FF991C] text-white dark:text-black shadow-[inset_0_1px_0_rgba(255,255,255,0.36)] hover:brightness-[0.98]"
                               : "border-line/70 bg-paper/68 text-ink/60 hover:border-clay/28 hover:text-clay"
                           }`}
                         >
@@ -1351,7 +1355,7 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
                           onClick={() => setStudyMode(option.id)}
                           className={`rounded-full px-4 py-1.5 text-[13px] font-semibold transition-[transform,opacity,box-shadow] ${
                             active
-                              ? "bg-night text-white dark:bg-white dark:text-night shadow-[0_10px_24px_rgba(23,18,16,0.14)]"
+                              ? "bg-[rgb(var(--color-gold))] text-white dark:text-black"
                               : "text-ink/55"
                           }`}
                         >
@@ -1375,7 +1379,7 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
                         onClick={() => setTimeMode(mode)}
                         className={`rounded-full px-4 py-1.5 text-[13px] font-semibold transition-[transform,opacity,box-shadow] ${
                           timeMode === mode
-                            ? "bg-night text-white dark:bg-white dark:text-night shadow-[0_10px_24px_rgba(23,18,16,0.14)]"
+                            ? "bg-[rgb(var(--color-gold))] text-white dark:text-black"
                             : "text-ink/55"
                         }`}
                       >
@@ -1395,7 +1399,10 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
                         max={60}
                         value={timerMinutes}
                         onChange={(e) => setTimerMinutes(Number(e.target.value))}
-                        className="mt-3 w-full accent-[rgb(var(--color-pine))]"
+                        className="timer-range mt-3 w-full"
+                        style={{
+                          ["--fill" as string]: `${((timerMinutes - 1) / 59) * 100}%`
+                        }}
                       />
                       <div className="mt-1 flex justify-between text-[10px] uppercase tracking-[0.18em] text-ink/38">
                         <span>1 min</span>
@@ -1453,7 +1460,7 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
     return (
       <div className="flex justify-center px-4 py-2">
         <div className="w-full max-w-lg">
-          <div className="rounded-[34px] border border-line/70 dark:border-line/52 bg-panel/86 dark:bg-[linear-gradient(180deg,rgba(15,18,24,0.98),rgba(8,10,14,0.94))] p-6 shadow-[0_24px_64px_rgba(30,18,10,0.08)] dark:shadow-[inset_0_1px_0_rgba(255,255,255,0.04),0_10px_26px_rgba(0,0,0,0.34)] sm:p-8">
+          <div className="rounded-[34px] border border-line/65 bg-[linear-gradient(180deg,rgba(255,255,255,0.64),rgba(255,255,255,0.46))] p-6 shadow-[0_24px_64px_rgba(30,18,10,0.08)] dark:border-line/65 dark:bg-[linear-gradient(180deg,rgba(255,255,255,0.08),rgba(255,255,255,0.02))] dark:shadow-[0_10px_26px_rgba(0,0,0,0.34)] sm:p-8">
             {/* Stats */}
             <div className="grid grid-cols-2 gap-3 sm:gap-3.5">
               <div className={blueMetricCardClass}>
@@ -1793,7 +1800,21 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
                       compactRecoveryLayout ? "mt-4 sm:mt-5" : "mt-6 sm:mt-8"
                     }`}
                   >
-                    <div className="text-2xl leading-9 sm:text-3xl sm:leading-10">{card.example}</div>
+                    <div className="text-2xl leading-9 sm:text-3xl sm:leading-10">
+                      {card.exampleTokens ? (
+                        <ChineseSentencePreview
+                          tokens={card.exampleTokens}
+                          sessionId={sessionId}
+                          onLearned={(result) => {
+                            if (result.sessionInjected) {
+                              setRemainingCount((count) => count + 1);
+                            }
+                          }}
+                        />
+                      ) : (
+                        card.example
+                      )}
+                    </div>
                     <button
                       type="button"
                       onClick={() => !translationRevealed && setTranslationRevealed(true)}
@@ -1902,7 +1923,7 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
                                 ? confirmChinesePronunciation(true)
                                 : void confirmChineseDefinition(true)
                             }
-                            className="rounded-[18px] bg-clay px-4 py-3 text-center text-white dark:text-black transition-[transform,opacity,box-shadow] hover:-translate-y-0.5 hover:opacity-90 hover:shadow-[0_12px_28px_rgb(var(--color-clay)/0.22)]"
+                            className={positiveDecisionClass}
                           >
                             <span className="mt-1 block text-2xl font-semibold tracking-[-0.03em]">Yes →</span>
                           </button>
@@ -1961,13 +1982,13 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
                       >
                         <span className="block text-2xl font-semibold tracking-[-0.03em]">← No</span>
                       </button>
-                      <button
-                        type="button"
-                        onClick={() => void submitReview(3)}
-                        className="rounded-[18px] bg-clay px-4 py-3 text-center text-white dark:text-black transition-[transform,opacity,box-shadow] hover:-translate-y-0.5 hover:opacity-90 hover:shadow-[0_12px_28px_rgb(var(--color-clay)/0.22)]"
-                      >
-                        <span className="block text-2xl font-semibold tracking-[-0.03em]">Yes →</span>
-                      </button>
+                    <button
+                      type="button"
+                      onClick={() => void submitReview(3)}
+                      className={positiveDecisionClass}
+                    >
+                      <span className="block text-2xl font-semibold tracking-[-0.03em]">Yes →</span>
+                    </button>
                     </div>
                   </div>
                 )

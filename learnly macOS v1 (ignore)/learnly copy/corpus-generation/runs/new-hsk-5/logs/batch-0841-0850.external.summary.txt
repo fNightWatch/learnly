@@ -1,0 +1,1 @@
+Wrote `batch-0841-0850.jsonl` to `/Users/moi/Desktop/business/learnly/corpus-generation/runs/new-hsk-5/generated/subagent-26/batch-0841-0850.jsonl` and validated it successfully against `corpus-hsk-5.sqlite` (`word_count: 10`).

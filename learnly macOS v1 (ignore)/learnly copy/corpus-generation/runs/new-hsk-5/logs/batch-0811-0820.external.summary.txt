@@ -1,0 +1,1 @@
+Wrote `/Users/moi/Desktop/business/learnly/corpus-generation/runs/new-hsk-5/generated/subagent-22/batch-0811-0820.jsonl` and validated it successfully with `orchestrator.py validate-jsonl` against `corpus-hsk-5.sqlite` for 10 words.

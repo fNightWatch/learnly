@@ -4,6 +4,7 @@ import { SiteHeader } from "@/components/site/site-header";
 import { getWordSnapshot } from "@/lib/demo/store";
 import { DEMO_USER_ID } from "@/lib/demo/user";
 import { WordAudioButton } from "@/components/words/word-audio-button";
+import { ChineseSentencePreview } from "@/components/words/chinese-sentence-preview";
 
 export const dynamic = "force-dynamic";
 
@@ -81,7 +82,9 @@ export default function WordDetailPage({ params }: { params: { id: string } }) {
                 <div className="mt-4 space-y-6">
                   {snapshot.examples.map((ex, i) => (
                     <div key={i} className={i > 0 ? "border-t border-line/40 pt-6" : ""}>
-                      <div className="text-3xl leading-[1.2] tracking-[-0.04em] text-ink/92">{ex.sentence}</div>
+                      <div className="text-3xl leading-[1.2] tracking-[-0.04em] text-ink/92">
+                        {ex.tokens ? <ChineseSentencePreview tokens={ex.tokens} /> : ex.sentence}
+                      </div>
                       <div className="mt-3 text-lg text-ink/58">{ex.translation}</div>
                     </div>
                   ))}

@@ -1,0 +1,1 @@
+Wrote `/Users/moi/Desktop/business/learnly/corpus-generation/runs/new-hsk-5/generated/subagent-25/batch-0831-0840.jsonl` with 10 validated HSK5 rows. `validate-jsonl` passed cleanly on the final file.

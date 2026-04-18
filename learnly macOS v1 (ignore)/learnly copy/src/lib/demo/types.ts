@@ -2,6 +2,7 @@ export type SupportedLanguageCode = "es" | "fr" | "de" | "zh" | "zh-hsk1" | "zh-
 export type LexicalItemType = "lemma" | "phrase";
 export type StudyMode = "everyday" | "review-only" | "new-only";
 export type ChineseReviewFlow = "two-click" | "four-click";
+export type DashboardRangeDays = 7 | 30;
 
 export type DemoLanguage = {
   code: SupportedLanguageCode;
@@ -52,6 +53,7 @@ export type LearnerSettings = {
   dailyGoal: number;
   selectedLanguageCodes: SupportedLanguageCode[];
   dashboardLanguageCodes: SupportedLanguageCode[];
+  dashboardRangeDays: DashboardRangeDays;
   preferredStudyMode: StudyMode;
   chineseReviewFlow: ChineseReviewFlow;
   updatedAt: string;
@@ -163,6 +165,24 @@ export type WordsSnapshot = {
   sections: WordsSection[];
 };
 
+export type SentenceTokenSense = {
+  itemId: string;
+  languageCode: SupportedLanguageCode;
+  pronunciation?: string;
+  primaryGloss: string;
+  glosses: string[];
+  notes?: string;
+};
+
+export type SentenceTokenPreview = {
+  text: string;
+  matched: boolean;
+  pronunciation?: string;
+  senses?: SentenceTokenSense[];
+  learnItemId?: string;
+  alreadyLearning?: boolean;
+};
+
 export type WordDetailSnapshot = {
   item: RankedListEntry;
   lemma: string;
@@ -177,7 +197,7 @@ export type WordDetailSnapshot = {
   retrievabilityPercent: number | null;
   ratingPreviews: RatingPreview[];
   relatedWords: RankedListEntry[];
-  examples: { sentence: string; translation: string }[];
+  examples: { sentence: string; translation: string; tokens?: SentenceTokenPreview[] }[];
 };
 
 export type ReviewEvent = {
@@ -206,6 +226,7 @@ export type DemoSession = {
 export type DashboardSnapshot = {
   availableLanguages: DemoLanguage[];
   activeLanguageCodes: SupportedLanguageCode[];
+  dashboardRangeDays: DashboardRangeDays;
   preferredStudyMode: StudyMode;
   corpusSize: number;
   exampleCoveragePercent: number;
@@ -253,4 +274,5 @@ export type SessionCardPayload = {
   notes?: string;
   ratingPreviews: RatingPreview[];
   exampleIndex?: number;
+  exampleTokens?: SentenceTokenPreview[];
 };

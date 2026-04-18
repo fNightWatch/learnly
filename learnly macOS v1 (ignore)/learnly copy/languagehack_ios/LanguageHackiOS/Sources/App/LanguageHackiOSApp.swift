@@ -4,6 +4,7 @@ import SwiftUI
 @available(iOS 26.0, *)
 struct LanguageHackiOSApp: App {
   @StateObject private var viewModel: AppViewModel
+  @AppStorage("languagehack.ios.theme") private var themePreference = "system"
 
   init() {
     let scheduler = AdaptiveSchedulerEngine()
@@ -30,6 +31,18 @@ struct LanguageHackiOSApp: App {
   var body: some Scene {
     WindowGroup {
       RootShellView(model: viewModel)
+        .preferredColorScheme(preferredColorScheme)
+    }
+  }
+
+  private var preferredColorScheme: ColorScheme? {
+    switch themePreference.lowercased() {
+    case "light":
+      return .light
+    case "dark":
+      return .dark
+    default:
+      return nil
     }
   }
 }

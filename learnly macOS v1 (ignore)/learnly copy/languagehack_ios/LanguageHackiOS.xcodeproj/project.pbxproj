@@ -10,6 +10,7 @@
 		00BFF4F0FD71976D0F59EDB2 /* WordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A7A67FCA9B36F4373F5A94 /* WordsView.swift */; };
 		0D4D282E62AD209F35960894 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AD2F8D054A453CE3573D3D /* AppViewModel.swift */; };
 		2F15882938376BA9AEEFD37A /* DomainModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE95E15D028A171F22D79C2 /* DomainModels.swift */; };
+		373C301131386A5A0C2F2831 /* learnly-seed.db in Resources */ = {isa = PBXBuildFile; fileRef = 935A259F9071D0669834B2D2 /* learnly-seed.db */; };
 		3DB2C35383611D08ECCC9BC4 /* Ports.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F6E86968F539EF75529A1C /* Ports.swift */; };
 		3E3F0EA12BC9B2DC8A750464 /* RootShellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A423177C23EE9708574B0F59 /* RootShellView.swift */; };
 		41A4B46B84C63CCC850145FE /* HardwareKeyboardBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1976A692AD388F2E49CAEECF /* HardwareKeyboardBridge.swift */; };
@@ -18,6 +19,7 @@
 		66326E9AA3DAB1AD86E5A6EF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B89A4868701D37DA0EBAEF1 /* HomeView.swift */; };
 		78F99D5B706B29CEB6542606 /* LanguageHackiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F3B2DA06CA14A94FB437D5 /* LanguageHackiOSUITests.swift */; };
 		7D7638AC0FD6156DC615EAD3 /* AdaptiveSchedulerEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = E625431BB7D5913C6E097687 /* AdaptiveSchedulerEngine.swift */; };
+		9C44FE47038BBCA6DD441B03 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1AB751A245CA04A75130A4 /* test.swift */; };
 		AE4F9AB4B0249A2B68DD8867 /* SQLiteLearningRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30F1D08CC7F3EE523D671CD /* SQLiteLearningRepository.swift */; };
 		C009CBFD7729A98A5A5D9090 /* HybridAudioProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A01A023B325DBCE3DC679B0 /* HybridAudioProvider.swift */; };
 		C084A9104FE39F833E55C387 /* StudyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49F8378FA0D5EEE9C2839E2 /* StudyView.swift */; };
@@ -25,6 +27,7 @@
 		D611280E34CFE51F1BE417C1 /* LiquidGlassStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87ADA130277DE2911F0D37B /* LiquidGlassStyle.swift */; };
 		D8A2855B2062D2D2CACD3FEC /* LanguageHackiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEC87C6B88AB8AB015648C2 /* LanguageHackiOSTests.swift */; };
 		DF4EB321CBA4AAF7900C7562 /* Support.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5C0D9B53D446535ADA4361 /* Support.swift */; };
+		E36DCF953BAE19C0B19ED4A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28B074C26F17B7F6167A20C9 /* Assets.xcassets */; };
 		E479FC722FF74C12DC838E98 /* LanguageHackiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE7E17DA648D74415EA0777 /* LanguageHackiOSApp.swift */; };
 		E8E995E7600CB39C09EF4516 /* ErrorBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2A96255B1F26E4C3944100 /* ErrorBanner.swift */; };
 /* End PBXBuildFile section */
@@ -53,12 +56,14 @@
 		1B89A4868701D37DA0EBAEF1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		1CB422B0D43CF0968A3BB03C /* WordsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsViewModel.swift; sourceTree = "<group>"; };
 		1FEC87C6B88AB8AB015648C2 /* LanguageHackiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageHackiOSTests.swift; sourceTree = "<group>"; };
+		28B074C26F17B7F6167A20C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35FE1DDE2EADF2025525D130 /* LanguageHackiOSTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = LanguageHackiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A01A023B325DBCE3DC679B0 /* HybridAudioProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HybridAudioProvider.swift; sourceTree = "<group>"; };
 		6E2A96255B1F26E4C3944100 /* ErrorBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorBanner.swift; sourceTree = "<group>"; };
 		772382B2402974E490020D3C /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		8BE95E15D028A171F22D79C2 /* DomainModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainModels.swift; sourceTree = "<group>"; };
 		8DE7E17DA648D74415EA0777 /* LanguageHackiOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageHackiOSApp.swift; sourceTree = "<group>"; };
+		935A259F9071D0669834B2D2 /* learnly-seed.db */ = {isa = PBXFileReference; path = "learnly-seed.db"; sourceTree = "<group>"; };
 		9A05F1B09CBDC877AEEDCE90 /* LanguageHackiOSUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = LanguageHackiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A423177C23EE9708574B0F59 /* RootShellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootShellView.swift; sourceTree = "<group>"; };
 		A49F8378FA0D5EEE9C2839E2 /* StudyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyView.swift; sourceTree = "<group>"; };
@@ -70,6 +75,7 @@
 		E625431BB7D5913C6E097687 /* AdaptiveSchedulerEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptiveSchedulerEngine.swift; sourceTree = "<group>"; };
 		E8A7A67FCA9B36F4373F5A94 /* WordsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsView.swift; sourceTree = "<group>"; };
 		E9F3B2DA06CA14A94FB437D5 /* LanguageHackiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageHackiOSUITests.swift; sourceTree = "<group>"; };
+		EF1AB751A245CA04A75130A4 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -103,6 +109,7 @@
 				E625431BB7D5913C6E097687 /* AdaptiveSchedulerEngine.swift */,
 				6A01A023B325DBCE3DC679B0 /* HybridAudioProvider.swift */,
 				CB5C0D9B53D446535ADA4361 /* Support.swift */,
+				EF1AB751A245CA04A75130A4 /* test.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -136,9 +143,18 @@
 			children = (
 				3E83FEEC7589CD23F98ABF91 /* LanguageHackiOSTests */,
 				28191E17EC588B38DBF191B8 /* LanguageHackiOSUITests */,
+				DB16B9BF54BE4B4C9C776D57 /* Resources */,
 				F456C2457372A7A0018F8468 /* Sources */,
 				784A896AF28CE6DAA37BB036 /* Products */,
 			);
+			sourceTree = "<group>";
+		};
+		AEF19F640D1A1ED7FD3B0B6D /* Seed */ = {
+			isa = PBXGroup;
+			children = (
+				935A259F9071D0669834B2D2 /* learnly-seed.db */,
+			);
+			path = Seed;
 			sourceTree = "<group>";
 		};
 		C86FBA9856400C551376752F /* Data */ = {
@@ -160,6 +176,16 @@
 				1CB422B0D43CF0968A3BB03C /* WordsViewModel.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		DB16B9BF54BE4B4C9C776D57 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AEF19F640D1A1ED7FD3B0B6D /* Seed */,
+				28B074C26F17B7F6167A20C9 /* Assets.xcassets */,
+			);
+			name = Resources;
+			path = LanguageHackiOS/Resources;
 			sourceTree = "<group>";
 		};
 		F456C2457372A7A0018F8468 /* Sources */ = {
@@ -201,6 +227,7 @@
 			buildConfigurationList = A7114B632ECB21ABDB3A3B54 /* Build configuration list for PBXNativeTarget "LanguageHackiOS" */;
 			buildPhases = (
 				A24446E5A1AB13669AA7A38E /* Sources */,
+				4012C02C13889EDB10E1784A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -276,6 +303,18 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		4012C02C13889EDB10E1784A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E36DCF953BAE19C0B19ED4A5 /* Assets.xcassets in Resources */,
+				373C301131386A5A0C2F2831 /* learnly-seed.db in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A24446E5A1AB13669AA7A38E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -299,6 +338,7 @@
 				DF4EB321CBA4AAF7900C7562 /* Support.swift in Sources */,
 				00BFF4F0FD71976D0F59EDB2 /* WordsView.swift in Sources */,
 				5595EE44C1C4D06058877F93 /* WordsViewModel.swift in Sources */,
+				9C44FE47038BBCA6DD441B03 /* test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

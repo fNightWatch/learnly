@@ -1,0 +1,746 @@
+[
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0001",
+    "rank": 1,
+    "display_form": "哎",
+    "lemma": "哎",
+    "generation_form": "哎",
+    "pronunciation": "āi",
+    "pos": "interjection",
+    "primary_gloss": "hey",
+    "secondary_glosses": [
+      "oh"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as interjection."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0002",
+    "rank": 2,
+    "display_form": "哎呀",
+    "lemma": "哎呀",
+    "generation_form": "哎呀",
+    "pronunciation": "āiyā",
+    "pos": "interjection",
+    "primary_gloss": "oh my",
+    "secondary_glosses": [
+      "ah"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as interjection."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0003",
+    "rank": 3,
+    "display_form": "唉",
+    "lemma": "唉",
+    "generation_form": "唉",
+    "pronunciation": "ài",
+    "pos": "interjection",
+    "primary_gloss": "alas",
+    "secondary_glosses": [
+      "oh"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as interjection."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0004",
+    "rank": 4,
+    "display_form": "爱护",
+    "lemma": "爱护",
+    "generation_form": "爱护",
+    "pronunciation": "àihù",
+    "pos": "verb",
+    "primary_gloss": "to cherish",
+    "secondary_glosses": [
+      "to take good care of"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0005",
+    "rank": 5,
+    "display_form": "安",
+    "lemma": "安",
+    "generation_form": "安",
+    "pronunciation": "ān",
+    "pos": "adjective, verb",
+    "primary_gloss": "peaceful",
+    "secondary_glosses": [
+      "calm",
+      "to pacify",
+      "to comfort"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective, verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0006",
+    "rank": 6,
+    "display_form": "安全带",
+    "lemma": "安全带",
+    "generation_form": "安全带",
+    "pronunciation": "ānquándài",
+    "pos": "noun",
+    "primary_gloss": "seatbelt",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0007",
+    "rank": 7,
+    "display_form": "安慰",
+    "lemma": "安慰",
+    "generation_form": "安慰",
+    "pronunciation": "ānwèi",
+    "pos": "verb, adjective",
+    "primary_gloss": "to comfort",
+    "secondary_glosses": [
+      "to console",
+      "comforting"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0008",
+    "rank": 8,
+    "display_form": "安装",
+    "lemma": "安装",
+    "generation_form": "安装",
+    "pronunciation": "ānzhuāng",
+    "pos": "verb",
+    "primary_gloss": "to install",
+    "secondary_glosses": [
+      "to set up"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0009",
+    "rank": 9,
+    "display_form": "暗",
+    "lemma": "暗",
+    "generation_form": "暗",
+    "pronunciation": "àn",
+    "pos": "adjective",
+    "primary_gloss": "dark",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0010",
+    "rank": 10,
+    "display_form": "熬夜",
+    "lemma": "熬夜",
+    "generation_form": "熬夜",
+    "pronunciation": "áoyè",
+    "pos": "verb",
+    "primary_gloss": "to stay up late",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0011",
+    "rank": 11,
+    "display_form": "把握",
+    "lemma": "把握",
+    "generation_form": "把握",
+    "pronunciation": "bǎwò",
+    "pos": "verb, noun",
+    "primary_gloss": "to grasp",
+    "secondary_glosses": [
+      "to hold",
+      "certainty"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0012",
+    "rank": 12,
+    "display_form": "白",
+    "lemma": "白",
+    "generation_form": "白",
+    "pronunciation": "bái",
+    "pos": "adjective, adverb",
+    "primary_gloss": "white",
+    "secondary_glosses": [
+      "in vain",
+      "for nothing"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective, adverb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0013",
+    "rank": 13,
+    "display_form": "半夜",
+    "lemma": "半夜",
+    "generation_form": "半夜",
+    "pronunciation": "bànyè",
+    "pos": "number- classifier, noun",
+    "primary_gloss": "midnight",
+    "secondary_glosses": [
+      "the middle of the night"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as number- classifier, noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0014",
+    "rank": 14,
+    "display_form": "傍晚",
+    "lemma": "傍晚",
+    "generation_form": "傍晚",
+    "pronunciation": "bàngwǎn",
+    "pos": "noun",
+    "primary_gloss": "evening",
+    "secondary_glosses": [
+      "dusk"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0015",
+    "rank": 15,
+    "display_form": "包裹",
+    "lemma": "包裹",
+    "generation_form": "包裹",
+    "pronunciation": "bāoguǒ",
+    "pos": "verb, noun",
+    "primary_gloss": "to wrap",
+    "secondary_glosses": [
+      "parcel",
+      "package"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0016",
+    "rank": 16,
+    "display_form": "包含",
+    "lemma": "包含",
+    "generation_form": "包含",
+    "pronunciation": "bāohán",
+    "pos": "verb",
+    "primary_gloss": "to contain",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0017",
+    "rank": 17,
+    "display_form": "包括",
+    "lemma": "包括",
+    "generation_form": "包括",
+    "pronunciation": "bāokuò",
+    "pos": "verb",
+    "primary_gloss": "to include",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0018",
+    "rank": 18,
+    "display_form": "包装",
+    "lemma": "包装",
+    "generation_form": "包装",
+    "pronunciation": "bāozhuāng",
+    "pos": "verb, noun",
+    "primary_gloss": "to pack",
+    "secondary_glosses": [
+      "to package",
+      "packaging"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0019",
+    "rank": 19,
+    "display_form": "薄",
+    "lemma": "薄",
+    "generation_form": "薄",
+    "pronunciation": "báo",
+    "pos": "adjective",
+    "primary_gloss": "thin",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0020",
+    "rank": 20,
+    "display_form": "宝",
+    "lemma": "宝",
+    "generation_form": "宝",
+    "pronunciation": "bǎo",
+    "pos": "noun",
+    "primary_gloss": "treasure",
+    "secondary_glosses": [
+      "precious"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0021",
+    "rank": 21,
+    "display_form": "保",
+    "lemma": "保",
+    "generation_form": "保",
+    "pronunciation": "bǎo",
+    "pos": "verb, noun",
+    "primary_gloss": "to protect",
+    "secondary_glosses": [
+      "to safeguard",
+      "guardian"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0022",
+    "rank": 22,
+    "display_form": "保安",
+    "lemma": "保安",
+    "generation_form": "保安",
+    "pronunciation": "bǎo’ān",
+    "pos": "verb, noun",
+    "primary_gloss": "to ensure safety",
+    "secondary_glosses": [
+      "security guard"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0023",
+    "rank": 23,
+    "display_form": "宝贝",
+    "lemma": "宝贝",
+    "generation_form": "宝贝",
+    "pronunciation": "bǎobèi",
+    "pos": "noun",
+    "primary_gloss": "treasure",
+    "secondary_glosses": [
+      "baby"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0024",
+    "rank": 24,
+    "display_form": "保持",
+    "lemma": "保持",
+    "generation_form": "保持",
+    "pronunciation": "bǎochí",
+    "pos": "verb",
+    "primary_gloss": "to keep",
+    "secondary_glosses": [
+      "to maintain"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0025",
+    "rank": 25,
+    "display_form": "保存",
+    "lemma": "保存",
+    "generation_form": "保存",
+    "pronunciation": "bǎocún",
+    "pos": "verb",
+    "primary_gloss": "to preserve",
+    "secondary_glosses": [
+      "to save"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0026",
+    "rank": 26,
+    "display_form": "宝贵",
+    "lemma": "宝贵",
+    "generation_form": "宝贵",
+    "pronunciation": "bǎoguì",
+    "pos": "adjective",
+    "primary_gloss": "precious",
+    "secondary_glosses": [
+      "valuable"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0027",
+    "rank": 27,
+    "display_form": "保留",
+    "lemma": "保留",
+    "generation_form": "保留",
+    "pronunciation": "bǎoliú",
+    "pos": "verb",
+    "primary_gloss": "to retain",
+    "secondary_glosses": [
+      "to keep"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0028",
+    "rank": 28,
+    "display_form": "保险",
+    "lemma": "保险",
+    "generation_form": "保险",
+    "pronunciation": "bǎoxiǎn",
+    "pos": "noun, adjective",
+    "primary_gloss": "insurance",
+    "secondary_glosses": [
+      "safe",
+      "secure"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0029",
+    "rank": 29,
+    "display_form": "保质期",
+    "lemma": "保质期",
+    "generation_form": "保质期",
+    "pronunciation": "bǎozhìqī",
+    "pos": "noun",
+    "primary_gloss": "shelf life",
+    "secondary_glosses": [
+      "expiration date"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0030",
+    "rank": 30,
+    "display_form": "报到",
+    "lemma": "报到",
+    "generation_form": "报到",
+    "pronunciation": "bàodào",
+    "pos": "verb",
+    "primary_gloss": "to report for duty",
+    "secondary_glosses": [
+      "to check in"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0031",
+    "rank": 31,
+    "display_form": "报道",
+    "lemma": "报道",
+    "generation_form": "报道",
+    "pronunciation": "bàodào",
+    "pos": "verb, noun",
+    "primary_gloss": "to report news",
+    "secondary_glosses": [
+      "news report"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0032",
+    "rank": 32,
+    "display_form": "报告",
+    "lemma": "报告",
+    "generation_form": "报告",
+    "pronunciation": "bàogào",
+    "pos": "verb, noun",
+    "primary_gloss": "to report",
+    "secondary_glosses": [
+      "report"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0033",
+    "rank": 33,
+    "display_form": "报警",
+    "lemma": "报警",
+    "generation_form": "报警",
+    "pronunciation": "bàojǐng",
+    "pos": "verb",
+    "primary_gloss": "to report to the police",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0034",
+    "rank": 34,
+    "display_form": "暴雨",
+    "lemma": "暴雨",
+    "generation_form": "暴雨",
+    "pronunciation": "bàoyǔ",
+    "pos": "noun",
+    "primary_gloss": "torrential rain",
+    "secondary_glosses": [
+      "rainstorm"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0035",
+    "rank": 35,
+    "display_form": "抱怨",
+    "lemma": "抱怨",
+    "generation_form": "抱怨",
+    "pronunciation": "bàoyuàn",
+    "pos": "verb",
+    "primary_gloss": "to complain",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0036",
+    "rank": 36,
+    "display_form": "背",
+    "lemma": "背",
+    "generation_form": "背",
+    "pronunciation": "bèi",
+    "pos": "noun, verb, adjective",
+    "primary_gloss": "back",
+    "secondary_glosses": [
+      "the back of the body",
+      "to carry on the back",
+      "to bear",
+      "to recite from memory",
+      "out-of-the-way",
+      "remote"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, verb, adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0037",
+    "rank": 37,
+    "display_form": "背后",
+    "lemma": "背后",
+    "generation_form": "背后",
+    "pronunciation": "bèihòu",
+    "pos": "noun",
+    "primary_gloss": "behind",
+    "secondary_glosses": [
+      "at the back"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0038",
+    "rank": 38,
+    "display_form": "背景",
+    "lemma": "背景",
+    "generation_form": "背景",
+    "pronunciation": "bèijǐng",
+    "pos": "noun",
+    "primary_gloss": "background",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0039",
+    "rank": 39,
+    "display_form": "被子",
+    "lemma": "被子",
+    "generation_form": "被子",
+    "pronunciation": "bèizi",
+    "pos": "noun",
+    "primary_gloss": "blanket",
+    "secondary_glosses": [
+      "quilt"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0040",
+    "rank": 40,
+    "display_form": "本",
+    "lemma": "本",
+    "generation_form": "本",
+    "pronunciation": "běn",
+    "pos": "adverb, pronoun",
+    "primary_gloss": "originally",
+    "secondary_glosses": [
+      "this",
+      "current"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb, pronoun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0041",
+    "rank": 41,
+    "display_form": "本地",
+    "lemma": "本地",
+    "generation_form": "本地",
+    "pronunciation": "běndì",
+    "pos": "noun",
+    "primary_gloss": "local area",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0042",
+    "rank": 42,
+    "display_form": "本领",
+    "lemma": "本领",
+    "generation_form": "本领",
+    "pronunciation": "běnlǐng",
+    "pos": "noun",
+    "primary_gloss": "skill",
+    "secondary_glosses": [
+      "ability"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0043",
+    "rank": 43,
+    "display_form": "本人",
+    "lemma": "本人",
+    "generation_form": "本人",
+    "pronunciation": "běnrén",
+    "pos": "pronoun",
+    "primary_gloss": "oneself",
+    "secondary_glosses": [
+      "I"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as pronoun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0044",
+    "rank": 44,
+    "display_form": "本质",
+    "lemma": "本质",
+    "generation_form": "本质",
+    "pronunciation": "běnzhì",
+    "pos": "noun",
+    "primary_gloss": "essence",
+    "secondary_glosses": [
+      "nature"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0045",
+    "rank": 45,
+    "display_form": "彼此",
+    "lemma": "彼此",
+    "generation_form": "彼此",
+    "pronunciation": "bǐcǐ",
+    "pos": "pronoun",
+    "primary_gloss": "each other",
+    "secondary_glosses": [
+      "one another"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as pronoun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0046",
+    "rank": 46,
+    "display_form": "比分",
+    "lemma": "比分",
+    "generation_form": "比分",
+    "pronunciation": "bǐfēn",
+    "pos": "noun",
+    "primary_gloss": "score",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0047",
+    "rank": 47,
+    "display_form": "比例",
+    "lemma": "比例",
+    "generation_form": "比例",
+    "pronunciation": "bǐlì",
+    "pos": "noun",
+    "primary_gloss": "proportion",
+    "secondary_glosses": [
+      "ratio"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0048",
+    "rank": 48,
+    "display_form": "比喻",
+    "lemma": "比喻",
+    "generation_form": "比喻",
+    "pronunciation": "bǐyù",
+    "pos": "verb, noun",
+    "primary_gloss": "to compare to",
+    "secondary_glosses": [
+      "metaphor",
+      "analogy"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0049",
+    "rank": 49,
+    "display_form": "必",
+    "lemma": "必",
+    "generation_form": "必",
+    "pronunciation": "bì",
+    "pos": "adverb",
+    "primary_gloss": "certainly",
+    "secondary_glosses": [
+      "necessarily"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0050",
+    "rank": 50,
+    "display_form": "毕竟",
+    "lemma": "毕竟",
+    "generation_form": "毕竟",
+    "pronunciation": "bìjìng",
+    "pos": "adverb",
+    "primary_gloss": "after all",
+    "secondary_glosses": [
+      "after all"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  }
+]

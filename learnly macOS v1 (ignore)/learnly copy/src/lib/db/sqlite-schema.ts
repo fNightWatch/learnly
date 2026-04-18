@@ -51,6 +51,7 @@ export const userSettings = sqliteTable("user_settings", {
   dailyGoal: integer("daily_goal").notNull().default(10),
   selectedLanguageCodes: text("selected_language_codes").notNull().default('["es"]'), // JSON array
   dashboardLanguageCodes: text("dashboard_language_codes").notNull().default('["es"]'), // JSON array
+  dashboardRangeDays: integer("dashboard_range_days").notNull().default(30),
   preferredStudyMode: text("preferred_study_mode").notNull().default("everyday"),
   chineseReviewFlow: text("chinese_review_flow").notNull().default("four-click"),
   updatedAt: text("updated_at").notNull(),

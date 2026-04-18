@@ -1,0 +1,702 @@
+[
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1251",
+    "rank": 1251,
+    "display_form": "相关",
+    "lemma": "相关",
+    "generation_form": "相关",
+    "pronunciation": "xiāngguān",
+    "pos": "verb",
+    "primary_gloss": "to be related",
+    "secondary_glosses": [
+      "to be correlated"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1252",
+    "rank": 1252,
+    "display_form": "相似",
+    "lemma": "相似",
+    "generation_form": "相似",
+    "pronunciation": "xiāngsì",
+    "pos": "adjective",
+    "primary_gloss": "similar",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1253",
+    "rank": 1253,
+    "display_form": "想念",
+    "lemma": "想念",
+    "generation_form": "想念",
+    "pronunciation": "xiǎngniàn",
+    "pos": "verb",
+    "primary_gloss": "to miss",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1254",
+    "rank": 1254,
+    "display_form": "响声",
+    "lemma": "响声",
+    "generation_form": "响声",
+    "pronunciation": "xiǎngshēng",
+    "pos": "noun",
+    "primary_gloss": "sound",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1255",
+    "rank": 1255,
+    "display_form": "享受",
+    "lemma": "享受",
+    "generation_form": "享受",
+    "pronunciation": "xiǎngshòu",
+    "pos": "verb",
+    "primary_gloss": "to enjoy",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1256",
+    "rank": 1256,
+    "display_form": "想象",
+    "lemma": "想象",
+    "generation_form": "想象",
+    "pronunciation": "xiǎngxiàng",
+    "pos": "verb",
+    "primary_gloss": "to imagine",
+    "secondary_glosses": [
+      "to picture"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1257",
+    "rank": 1257,
+    "display_form": "相册",
+    "lemma": "相册",
+    "generation_form": "相册",
+    "pronunciation": "xiàngcè",
+    "pos": "noun",
+    "primary_gloss": "photo album",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1258",
+    "rank": 1258,
+    "display_form": "项目",
+    "lemma": "项目",
+    "generation_form": "项目",
+    "pronunciation": "xiàngmù",
+    "pos": "noun",
+    "primary_gloss": "project",
+    "secondary_glosses": [
+      "item"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1259",
+    "rank": 1259,
+    "display_form": "橡皮",
+    "lemma": "橡皮",
+    "generation_form": "橡皮",
+    "pronunciation": "xiàngpí",
+    "pos": "noun",
+    "primary_gloss": "eraser",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1260",
+    "rank": 1260,
+    "display_form": "向上",
+    "lemma": "向上",
+    "generation_form": "向上",
+    "pronunciation": "xiàngshàng",
+    "pos": "verb",
+    "primary_gloss": "upward",
+    "secondary_glosses": [
+      "to go up"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1261",
+    "rank": 1261,
+    "display_form": "象征",
+    "lemma": "象征",
+    "generation_form": "象征",
+    "pronunciation": "xiàngzhēng",
+    "pos": "verb, noun",
+    "primary_gloss": "to symbolize",
+    "secondary_glosses": [
+      "symbol",
+      "emblem"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1262",
+    "rank": 1262,
+    "display_form": "消费",
+    "lemma": "消费",
+    "generation_form": "消费",
+    "pronunciation": "xiāofèi",
+    "pos": "verb",
+    "primary_gloss": "to consume",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1263",
+    "rank": 1263,
+    "display_form": "消费者",
+    "lemma": "消费者",
+    "generation_form": "消费者",
+    "pronunciation": "xiāofèizhě",
+    "pos": "noun",
+    "primary_gloss": "consumer",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1264",
+    "rank": 1264,
+    "display_form": "消化",
+    "lemma": "消化",
+    "generation_form": "消化",
+    "pronunciation": "xiāohuà",
+    "pos": "verb",
+    "primary_gloss": "to digest",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1265",
+    "rank": 1265,
+    "display_form": "消极",
+    "lemma": "消极",
+    "generation_form": "消极",
+    "pronunciation": "xiāojí",
+    "pos": "adjective",
+    "primary_gloss": "negative",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1266",
+    "rank": 1266,
+    "display_form": "销量",
+    "lemma": "销量",
+    "generation_form": "销量",
+    "pronunciation": "xiāoliàng",
+    "pos": "noun",
+    "primary_gloss": "sales volume",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1267",
+    "rank": 1267,
+    "display_form": "消失",
+    "lemma": "消失",
+    "generation_form": "消失",
+    "pronunciation": "xiāoshī",
+    "pos": "verb",
+    "primary_gloss": "to disappear",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1268",
+    "rank": 1268,
+    "display_form": "销售",
+    "lemma": "销售",
+    "generation_form": "销售",
+    "pronunciation": "xiāoshòu",
+    "pos": "verb",
+    "primary_gloss": "to sell",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1269",
+    "rank": 1269,
+    "display_form": "小姐",
+    "lemma": "小姐",
+    "generation_form": "小姐",
+    "pronunciation": "xiǎojiě",
+    "pos": "noun",
+    "primary_gloss": "Miss",
+    "secondary_glosses": [
+      "young lady"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1270",
+    "rank": 1270,
+    "display_form": "小型",
+    "lemma": "小型",
+    "generation_form": "小型",
+    "pronunciation": "xiǎoxíng",
+    "pos": "adjective",
+    "primary_gloss": "small-scale",
+    "secondary_glosses": [
+      "compact"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1271",
+    "rank": 1271,
+    "display_form": "小于",
+    "lemma": "小于",
+    "generation_form": "小于",
+    "pronunciation": "xiǎoyú",
+    "pos": "verb",
+    "primary_gloss": "to be less than",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1272",
+    "rank": 1272,
+    "display_form": "效率",
+    "lemma": "效率",
+    "generation_form": "效率",
+    "pronunciation": "xiàolǜ",
+    "pos": "noun",
+    "primary_gloss": "efficiency",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1273",
+    "rank": 1273,
+    "display_form": "斜",
+    "lemma": "斜",
+    "generation_form": "斜",
+    "pronunciation": "xié",
+    "pos": "adjective, verb",
+    "primary_gloss": "slanted",
+    "secondary_glosses": [
+      "to tilt"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective, verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1274",
+    "rank": 1274,
+    "display_form": "协议",
+    "lemma": "协议",
+    "generation_form": "协议",
+    "pronunciation": "xiéyì",
+    "pos": "verb, noun",
+    "primary_gloss": "to agree",
+    "secondary_glosses": [
+      "agreement"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1275",
+    "rank": 1275,
+    "display_form": "写作",
+    "lemma": "写作",
+    "generation_form": "写作",
+    "pronunciation": "xiězuò",
+    "pos": "verb",
+    "primary_gloss": "to write",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1276",
+    "rank": 1276,
+    "display_form": "新郎",
+    "lemma": "新郎",
+    "generation_form": "新郎",
+    "pronunciation": "xīnláng",
+    "pos": "noun",
+    "primary_gloss": "bridegroom",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1277",
+    "rank": 1277,
+    "display_form": "心理",
+    "lemma": "心理",
+    "generation_form": "心理",
+    "pronunciation": "xīnlǐ",
+    "pos": "noun",
+    "primary_gloss": "psychology",
+    "secondary_glosses": [
+      "mentality"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1278",
+    "rank": 1278,
+    "display_form": "新娘",
+    "lemma": "新娘",
+    "generation_form": "新娘",
+    "pronunciation": "xīnniáng",
+    "pos": "noun",
+    "primary_gloss": "bride",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1279",
+    "rank": 1279,
+    "display_form": "新人",
+    "lemma": "新人",
+    "generation_form": "新人",
+    "pronunciation": "xīnrén",
+    "pos": "noun",
+    "primary_gloss": "newcomer",
+    "secondary_glosses": [
+      "new person"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1280",
+    "rank": 1280,
+    "display_form": "欣赏",
+    "lemma": "欣赏",
+    "generation_form": "欣赏",
+    "pronunciation": "xīnshǎng",
+    "pos": "verb",
+    "primary_gloss": "to appreciate",
+    "secondary_glosses": [
+      "to enjoy"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1281",
+    "rank": 1281,
+    "display_form": "心态",
+    "lemma": "心态",
+    "generation_form": "心态",
+    "pronunciation": "xīntài",
+    "pos": "noun",
+    "primary_gloss": "attitude",
+    "secondary_glosses": [
+      "mindset"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1282",
+    "rank": 1282,
+    "display_form": "新型",
+    "lemma": "新型",
+    "generation_form": "新型",
+    "pronunciation": "xīnxíng",
+    "pos": "adjective",
+    "primary_gloss": "new type",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1283",
+    "rank": 1283,
+    "display_form": "信封",
+    "lemma": "信封",
+    "generation_form": "信封",
+    "pronunciation": "xìnfēng",
+    "pos": "noun",
+    "primary_gloss": "envelope",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1284",
+    "rank": 1284,
+    "display_form": "信任",
+    "lemma": "信任",
+    "generation_form": "信任",
+    "pronunciation": "xìnrèn",
+    "pos": "verb",
+    "primary_gloss": "to trust",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1285",
+    "rank": 1285,
+    "display_form": "信用",
+    "lemma": "信用",
+    "generation_form": "信用",
+    "pronunciation": "xìnyòng",
+    "pos": "noun",
+    "primary_gloss": "trustworthiness",
+    "secondary_glosses": [
+      "credit"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1286",
+    "rank": 1286,
+    "display_form": "行程",
+    "lemma": "行程",
+    "generation_form": "行程",
+    "pronunciation": "xíngchéng",
+    "pos": "noun",
+    "primary_gloss": "itinerary",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1287",
+    "rank": 1287,
+    "display_form": "形成",
+    "lemma": "形成",
+    "generation_form": "形成",
+    "pronunciation": "xíngchéng",
+    "pos": "verb",
+    "primary_gloss": "to form",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1288",
+    "rank": 1288,
+    "display_form": "行动",
+    "lemma": "行动",
+    "generation_form": "行动",
+    "pronunciation": "xíngdòng",
+    "pos": "verb, noun",
+    "primary_gloss": "to take action",
+    "secondary_glosses": [
+      "action",
+      "movement"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1289",
+    "rank": 1289,
+    "display_form": "行人",
+    "lemma": "行人",
+    "generation_form": "行人",
+    "pronunciation": "xíngrén",
+    "pos": "noun",
+    "primary_gloss": "pedestrian",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1290",
+    "rank": 1290,
+    "display_form": "形容",
+    "lemma": "形容",
+    "generation_form": "形容",
+    "pronunciation": "xíngróng",
+    "pos": "verb",
+    "primary_gloss": "to describe",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1291",
+    "rank": 1291,
+    "display_form": "形式",
+    "lemma": "形式",
+    "generation_form": "形式",
+    "pronunciation": "xíngshì",
+    "pos": "noun",
+    "primary_gloss": "form",
+    "secondary_glosses": [
+      "shape"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1292",
+    "rank": 1292,
+    "display_form": "形势",
+    "lemma": "形势",
+    "generation_form": "形势",
+    "pronunciation": "xíngshì",
+    "pos": "noun",
+    "primary_gloss": "situation",
+    "secondary_glosses": [
+      "circumstances"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1293",
+    "rank": 1293,
+    "display_form": "行驶",
+    "lemma": "行驶",
+    "generation_form": "行驶",
+    "pronunciation": "xíngshǐ",
+    "pos": "verb",
+    "primary_gloss": "to travel",
+    "secondary_glosses": [
+      "to drive"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1294",
+    "rank": 1294,
+    "display_form": "行为",
+    "lemma": "行为",
+    "generation_form": "行为",
+    "pronunciation": "xíngwéi",
+    "pos": "noun",
+    "primary_gloss": "behavior",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1295",
+    "rank": 1295,
+    "display_form": "形象",
+    "lemma": "形象",
+    "generation_form": "形象",
+    "pronunciation": "xíngxiàng",
+    "pos": "noun, adjective",
+    "primary_gloss": "image",
+    "secondary_glosses": [
+      "figure",
+      "image"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1296",
+    "rank": 1296,
+    "display_form": "形状",
+    "lemma": "形状",
+    "generation_form": "形状",
+    "pronunciation": "xíngzhuàng",
+    "pos": "noun",
+    "primary_gloss": "shape",
+    "secondary_glosses": [
+      "form"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1297",
+    "rank": 1297,
+    "display_form": "行走",
+    "lemma": "行走",
+    "generation_form": "行走",
+    "pronunciation": "xíngzǒu",
+    "pos": "verb",
+    "primary_gloss": "to walk",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1298",
+    "rank": 1298,
+    "display_form": "幸运",
+    "lemma": "幸运",
+    "generation_form": "幸运",
+    "pronunciation": "xìngyùn",
+    "pos": "noun, adjective",
+    "primary_gloss": "luck",
+    "secondary_glosses": [
+      "lucky",
+      "fortunate"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1299",
+    "rank": 1299,
+    "display_form": "性质",
+    "lemma": "性质",
+    "generation_form": "性质",
+    "pronunciation": "xìngzhì",
+    "pos": "noun",
+    "primary_gloss": "nature",
+    "secondary_glosses": [
+      "characteristic"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1300",
+    "rank": 1300,
+    "display_form": "修改",
+    "lemma": "修改",
+    "generation_form": "修改",
+    "pronunciation": "xiūgǎi",
+    "pos": "verb",
+    "primary_gloss": "to modify",
+    "secondary_glosses": [
+      "to correct"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  }
+]
