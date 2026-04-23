@@ -27,8 +27,20 @@ export default function V2WordDetailPage({ params }: { params: { id: string } })
             <div className="mt-3 text-xl v2-on-dark-muted">{snapshot.item.primaryGloss}</div>
 
             <div className="mt-6 flex flex-wrap gap-3">
-              <V2AudioButton itemId={snapshot.item.itemId} mode="term" label="Play word" />
-              <V2AudioButton itemId={snapshot.item.itemId} mode="example" label="Play sentence" />
+              <V2AudioButton
+                itemId={snapshot.item.itemId}
+                mode="term"
+                label="Play word"
+                fallbackText={snapshot.item.displayForm}
+                languageCode={snapshot.item.languageCode}
+              />
+              <V2AudioButton
+                itemId={snapshot.item.itemId}
+                mode="example"
+                label="Play sentence"
+                fallbackText={snapshot.examples[0]?.sentence ?? snapshot.item.example}
+                languageCode={snapshot.item.languageCode}
+              />
             </div>
 
             <div className="mt-6 flex flex-wrap gap-3">

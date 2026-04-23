@@ -2,6 +2,7 @@
 
 import argparse
 import subprocess
+import sys
 from pathlib import Path
 
 
@@ -11,6 +12,7 @@ DB_PATH = ROOT / "corpus-hsk-3.sqlite"
 DATASET_ID = "new-hsk-3-words"
 RUN_ROOT = ROOT / "runs" / "new-hsk-3"
 BATCH_DIR = RUN_ROOT / "batches"
+PYTHON = sys.executable or "python"
 
 
 def run(cmd: list[str]) -> None:
@@ -24,7 +26,7 @@ def batch_stem(start_rank: int, end_rank: int) -> str:
 def prepare_batches(batch_size: int) -> None:
     coverage = subprocess.run(
         [
-            "python3",
+            PYTHON,
             str(ORCHESTRATOR),
             "--db-path",
             str(DB_PATH),
@@ -46,7 +48,7 @@ def prepare_batches(batch_size: int) -> None:
         output_file = BATCH_DIR / f"{batch_stem(start_rank, end_rank)}.json"
         run(
             [
-                "python3",
+                PYTHON,
                 str(ORCHESTRATOR),
                 "--db-path",
                 str(DB_PATH),
@@ -67,7 +69,7 @@ def prepare_batches(batch_size: int) -> None:
 def audit_dataset(audit_name: str, notes: str) -> None:
     run(
         [
-            "python3",
+            PYTHON,
             str(ORCHESTRATOR),
             "--db-path",
             str(DB_PATH),
@@ -104,7 +106,7 @@ def main() -> None:
     elif args.command == "coverage":
         run(
             [
-                "python3",
+                PYTHON,
                 str(ORCHESTRATOR),
                 "--db-path",
                 str(DB_PATH),

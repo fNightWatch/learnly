@@ -12,6 +12,7 @@ JOBS_DIR = ROOT / "runs" / "new-hsk-1" / "jobs"
 GEN1_DIR = ROOT / "runs" / "new-hsk-1" / "generated" / "generator-1"
 GEN2_DIR = ROOT / "runs" / "new-hsk-1" / "generated" / "generator-2"
 LOG_DIR = ROOT / "runs" / "new-hsk-1" / "logs"
+PYTHON = sys.executable or "python"
 
 
 BATCHES = [
@@ -114,15 +115,15 @@ def run_cmd(cmd: list[str]) -> subprocess.CompletedProcess[str]:
 
 
 def validate_and_ingest(output_path: Path) -> None:
-    run_cmd(["python3", "orchestrator.py", "validate-jsonl", str(output_path)])
-    run_cmd(["python3", "orchestrator.py", "ingest-jsonl", str(output_path)])
+    run_cmd([PYTHON, "orchestrator.py", "validate-jsonl", str(output_path)])
+    run_cmd([PYTHON, "orchestrator.py", "ingest-jsonl", str(output_path)])
 
 
 def batch_is_ready(output_path: Path) -> bool:
     if not output_path.exists():
         return False
     try:
-        run_cmd(["python3", "orchestrator.py", "validate-jsonl", str(output_path)])
+        run_cmd([PYTHON, "orchestrator.py", "validate-jsonl", str(output_path)])
     except subprocess.CalledProcessError:
         return False
     return True
@@ -190,7 +191,7 @@ def main() -> None:
             validate_and_ingest(output_path)
             print(f"Validated and ingested {output_path.name}", flush=True)
 
-        coverage = run_cmd(["python3", "orchestrator.py", "coverage", "--dataset-id", "new-hsk-1-words"])
+        coverage = run_cmd([PYTHON, "orchestrator.py", "coverage", "--dataset-id", "new-hsk-1-words"])
         print(coverage.stdout.strip(), flush=True)
 
 

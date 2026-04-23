@@ -4,7 +4,6 @@ import { SiteHeader } from "@/components/site/site-header";
 import { getWordSnapshot } from "@/lib/demo/store";
 import { DEMO_USER_ID } from "@/lib/demo/user";
 import { WordAudioButton } from "@/components/words/word-audio-button";
-import { ChineseSentencePreview } from "@/components/words/chinese-sentence-preview";
 
 export const dynamic = "force-dynamic";
 
@@ -30,8 +29,20 @@ export default function WordDetailPage({ params }: { params: { id: string } }) {
               <h1 className="mt-4 text-5xl tracking-[-0.05em] text-ink">{snapshot.item.displayForm}</h1>
               <div className="mt-3 text-xl text-ink/62">{snapshot.item.primaryGloss}</div>
               <div className="mt-5 flex flex-wrap gap-3">
-                <WordAudioButton itemId={snapshot.item.itemId} mode="term" label="Play word" />
-                <WordAudioButton itemId={snapshot.item.itemId} mode="example" label="Play sentence" />
+                <WordAudioButton
+                  itemId={snapshot.item.itemId}
+                  mode="term"
+                  label="Play word"
+                  fallbackText={snapshot.item.displayForm}
+                  languageCode={snapshot.item.languageCode}
+                />
+                <WordAudioButton
+                  itemId={snapshot.item.itemId}
+                  mode="example"
+                  label="Play sentence"
+                  fallbackText={snapshot.examples[0]?.sentence ?? snapshot.item.example}
+                  languageCode={snapshot.item.languageCode}
+                />
               </div>
               <div className="mt-5 flex flex-wrap gap-3">
                 <Link href="/words" className="button-secondary">
@@ -82,9 +93,7 @@ export default function WordDetailPage({ params }: { params: { id: string } }) {
                 <div className="mt-4 space-y-6">
                   {snapshot.examples.map((ex, i) => (
                     <div key={i} className={i > 0 ? "border-t border-line/40 pt-6" : ""}>
-                      <div className="text-3xl leading-[1.2] tracking-[-0.04em] text-ink/92">
-                        {ex.tokens ? <ChineseSentencePreview tokens={ex.tokens} /> : ex.sentence}
-                      </div>
+                      <div className="text-3xl leading-[1.2] tracking-[-0.04em] text-ink/92">{ex.sentence}</div>
                       <div className="mt-3 text-lg text-ink/58">{ex.translation}</div>
                     </div>
                   ))}

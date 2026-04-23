@@ -1,6 +1,0 @@
-Completed ranks: 716, 717, 718, 719, 720, 721, 722, 723, 724, 725, 726, 727, 728, 729, 730, 731, 732, 733, 734, 735, 736, 737, 738, 739, 740, 741, 742, 743, 744, 745, 746, 747, 748, 749, 750, 751, 752, 753, 754, 755, 756, 757, 758, 759, 760, 761, 762, 763, 764, 765, 766, 767, 768, 769, 770, 771, 772, 773, 774, 775, 776, 777, 778, 779, 780
-Validation: PASS
-Validation command: python3 /Users/moi/Desktop/business/learnly/corpus-generation/orchestrator.py --db-path /Users/moi/Desktop/business/learnly/corpus-generation/corpus-hsk-3.sqlite validate-jsonl /Users/moi/Desktop/business/learnly/corpus-generation/runs/new-hsk-3/parallel/generated/generator-07.jsonl
-Validator output: {"file": "/Users/moi/Desktop/business/learnly/corpus-generation/runs/new-hsk-3/parallel/generated/generator-07.jsonl", "word_count": 65}
-Lexicon sweep: 0 failing rows in full-file vocabulary check.
-Latest repairs: normalized annotated display forms to plain visible headwords for `痛`, `头`, `土`, and both `为` rows; rewrote the awkward English lines for `外文`, `完整`, and `下去`; rewrote `new-hsk-3-0751` with natural written verbal `为` uses via `化为`; then revalidated the full file successfully.

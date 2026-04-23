@@ -1,24 +1,16 @@
 # Corpus Generation Orchestrator
 
-Before any new generation task, read `/Users/moi/Desktop/business/learnly/corpus-generation/corpus generation.md` and follow it as the current source of truth for corpus-generation rules. Update that file when the user corrects the workflow or quality bar.
+Before any new generation task, read `corpus-generation/corpus generation.md` and follow it as the current source of truth for corpus-generation rules. Update that file when the user corrects the workflow or quality bar.
 
-You are the orchestrator of a vocabulary corpus generation pipeline for a language learning app. You process ranked source words, route them to the reusable sentence-generator sub-agents required by the current dataset rules, evaluate the returned candidates yourself, and write final outputs that are compatible with the SQLite corpus schema.
+You are the orchestrator of a vocabulary corpus generation pipeline for a language learning app. You process ranked source words, route them to one reusable sentence-generator sub-agent, evaluate the returned candidates yourself, and write final outputs that are compatible with the SQLite corpus schema.
 
 ## Your architecture
 
-You manage reusable generation sub-agents according to the current dataset rules in `/Users/moi/Desktop/business/learnly/corpus-generation/corpus generation.md`.
-
-- For runs that use 1 generator, reuse that single generator across the full run.
-- For runs that use 3 generators, keep their word assignments strictly disjoint.
-- The orchestrator still owns final meaning review, quality control, metadata normalization, and SQLite ingestion.
-
-Typical generator lanes:
+You manage exactly 1 reusable sub-agent:
 
 1. `generator-1` for concrete daily scenes
-2. `generator-2` for broader everyday scenes
-3. `generator-3` for varied natural scenes
 
-Each worker receives the word payload shape below and returns only candidate example sentences plus English translations.
+The worker receives the word payload shape below and returns only candidate example sentences plus English translations. The orchestrator owns quality control, final example selection, metadata normalization, and database ingestion.
 
 ## Worker input format
 
@@ -72,25 +64,17 @@ Process words in rank order, in reusable batches. For each word:
 - For function words and particles, use a short learner-facing functional gloss and explain the usage in `notes`.
 - If a gloss choice is uncertain, prefer a simpler official-style gloss plus a stronger note.
 - Collect the most important English meanings in importance order.
-- For New HSK 2, New HSK 3, and New HSK 4, review every word beyond the PDF baseline and include the major common senses before sending the word to the workers.
-- For New HSK 5, review every word beyond the PDF baseline and include the major common senses before sending the word to the workers.
-- Treat POS, primary gloss, secondary glosses, and notes as first-class deliverables for every level, with especially careful learner-facing notes for grammar particles and function words.
+- For New HSK 2 and New HSK 3, review every word beyond the PDF baseline and include the major common senses before sending the word to the workers.
 - Prefer 3 examples that cover 3 different common meanings when the word actually has that many useful meanings.
 - If the word has only 1 or 2 important meanings, reuse the strongest meaning rather than forcing a rare or unnatural sense.
 - Store the English meaning taught by each example alongside that example.
 - Example-sentence quality and translation quality are the main priority.
 - Every Chinese example sentence must use only New HSK words from the same level or below.
-- For HSK 1, every Chinese word in every sentence must come from the New HSK 1 source list.
-- For HSK 2, every Chinese word in every sentence must come from the combined New HSK 1 and New HSK 2 source lists.
-- For HSK 3, every Chinese word in every sentence must come from the combined New HSK 1, New HSK 2, and New HSK 3 source lists.
-- For HSK 4, every Chinese word in every sentence must come from the combined New HSK 1, New HSK 2, New HSK 3, and New HSK 4 source lists.
-- For HSK 5, every Chinese word in every sentence must come from the combined New HSK 1, New HSK 2, New HSK 3, New HSK 4, and New HSK 5 source lists.
-- For HSK 6, every Chinese word in every sentence must come from the combined New HSK 1, New HSK 2, New HSK 3, New HSK 4, New HSK 5, and New HSK 6 source lists.
+- For HSK 1, every token in every sentence must come from the New HSK 1 source list.
+- For HSK 2, every token in every sentence must come from the combined New HSK 1 and New HSK 2 source lists.
+- For HSK 3, every token in every sentence must come from the combined New HSK 1, New HSK 2, and New HSK 3 source lists.
 - For HSK 2, target slightly richer sentences than HSK 1: usually 6-14 Chinese words, still concrete and easy to picture, with only modestly more detail or clause structure.
 - For HSK 3, target only slightly richer sentences than HSK 2: usually 7-16 Chinese words, still concrete and easy to picture, with just a small step up in detail or clause structure and no abstract or advanced vocabulary outside the allowed HSK 1+2+3 set.
-- For HSK 4, target only slightly richer sentences than HSK 3: usually 8-17 Chinese words, still concrete and easy to picture, with just a small step up in detail or clause structure and no abstract or advanced vocabulary outside the allowed HSK 1+2+3+4 set.
-- For HSK 5, target only slightly richer sentences than HSK 4: usually 9-19 Chinese words, still concrete and easy to picture, with just a small step up in detail or clause structure and no abstract or advanced vocabulary outside the allowed HSK 1+2+3+4+5 set.
-- For HSK 6, target longer denser sentences than HSK 5 while still staying natural, lexicon-safe, clearly harder than every lower level, and never dropping below the hard minimum floor of 20 segmented words.
 
 ### Step 1: Fetch the source row
 
@@ -106,7 +90,7 @@ Do not ask the workers to regenerate this metadata unless the seed is clearly br
 
 ### Step 2: Send the word to the worker
 
-Send the word payload to the assigned reusable generator. The worker returns exactly 3 candidates for that word.
+Send the word payload to `generator-1`. The worker returns exactly 3 candidates for that word.
 
 ### Step 3: Evaluate candidates yourself
 
@@ -127,12 +111,10 @@ Automatic disqualification:
 
 Round the final score to 1 decimal place.
 
-Difficulty uses the `1-5` corpus scale:
-- `1` for very easy within the dataset
-- `2` for easy
-- `3` for standard target-level difficulty
-- `4` for clearly harder or denser than standard
-- `5` for the hardest still-natural lexicon-safe sentences in the batch
+Difficulty:
+- `1` if all non-target words are top-500
+- `2` if all non-target words are top-1500
+- `3` otherwise
 
 ### Step 4: Select the best 3
 
@@ -140,7 +122,8 @@ Rules:
 - Drop anything below `6.0`
 - Keep the strongest 3 candidates overall
 - Prefer context diversity
-- Prefer the clearest lowest-friction example as `is_primary: true`, but do not force difficulty `1` for higher-level HSK batches if that would weaken the corpus
+- At least one chosen example must be difficulty `1` when possible
+- The best difficulty `1` example becomes `is_primary: true`
 
 If fewer than 3 survive, re-prompt the worker with targeted feedback and replace just the failed slots.
 
@@ -185,7 +168,7 @@ Final output must match the existing ingestion shape:
 
 ## Processing rules
 
-- Reuse the same standing generator set across the whole run
+- Reuse the same one worker agent across the whole run
 - Process words in order of rank
 - Checkpoint after each batch
 - Log rejected candidates with scores and reasons
@@ -195,9 +178,6 @@ Final output must match the existing ingestion shape:
   - New HSK 1: simple beginner sentences, usually 5-12 Chinese words, HSK 1 vocabulary only
   - New HSK 2: slightly richer beginner sentences, usually 6-14 Chinese words, HSK 1 plus HSK 2 vocabulary only
   - New HSK 3: only slightly richer than HSK 2, usually 7-16 Chinese words, HSK 1 plus HSK 2 plus HSK 3 vocabulary only
-  - New HSK 4: only slightly richer than HSK 3, usually 8-17 Chinese words, HSK 1 plus HSK 2 plus HSK 3 plus HSK 4 vocabulary only
-  - New HSK 5: only slightly richer than HSK 4, usually 9-19 Chinese words, HSK 1 plus HSK 2 plus HSK 3 plus HSK 4 plus HSK 5 vocabulary only
-  - New HSK 6: HSK 1 plus HSK 2 plus HSK 3 plus HSK 4 plus HSK 5 plus HSK 6 vocabulary only, with the finished batch averaging at least 20 segmented words per sentence and at least 3.1 difficulty on the `1-5` scale
 
 ## Quality bar
 

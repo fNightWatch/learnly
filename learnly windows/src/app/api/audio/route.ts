@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { getGeneratedAudio } from "@/lib/demo/audio";
+import { LocalAudioUnavailableError, getGeneratedAudio } from "@/lib/demo/audio";
 
 export const runtime = "nodejs";
 
@@ -24,6 +24,16 @@ export async function GET(request: NextRequest) {
       }
     });
   } catch (error) {
+    if (error instanceof LocalAudioUnavailableError) {
+      return NextResponse.json(
+        {
+          error: error.message,
+          fallback: "browser-speech-synthesis"
+        },
+        { status: 501 }
+      );
+    }
+
     return NextResponse.json({ error: "Could not generate audio." }, { status: 500 });
   }
 }

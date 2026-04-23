@@ -57,16 +57,8 @@ export function ThemeToggle() {
       aria-label={`Switch to ${theme === "light" ? "dark" : "light"} mode`}
     >
       {theme === "light" ? (
-        <svg
-          viewBox="0 0 24 24"
-          className="h-5 w-5 fill-none stroke-current stroke-[1.9]"
-          aria-hidden="true"
-        >
-          <path
-            d="M20.2 14.9A8.7 8.7 0 1 1 9.1 3.8a6.8 6.8 0 1 0 11.1 11.1Z"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
+        <svg viewBox="0 0 24 24" className="h-5 w-5 fill-none stroke-current stroke-[1.8]">
+          <path d="M20 15.2A7.8 7.8 0 1 1 8.8 4 8.8 8.8 0 0 0 20 15.2Z" />
         </svg>
       ) : (
         <svg viewBox="0 0 24 24" className="h-5 w-5 fill-none stroke-current stroke-[1.8]">

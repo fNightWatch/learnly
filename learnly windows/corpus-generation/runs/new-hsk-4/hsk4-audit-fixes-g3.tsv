@@ -1,6 +1,0 @@
-issue_type	word_id	example_id	rank	sentence	translation	details
-cross_word_duplicate_translation	new-hsk-4-0739	new-hsk-4-0739-ex2	739	雨停了。	The rain stopped.	new-hsk-4-0739::new-hsk-4-0739-ex2; new-hsk-4-0742::new-hsk-4-0742-ex1
-missing_lemma	new-hsk-4-0740	new-hsk-4-0740-ex2	740	我把车停在门口。	I parked the car by the door.	Example does not visibly contain the target display form or any accepted variant.
-cross_word_duplicate_translation	new-hsk-4-0742	new-hsk-4-0742-ex1	742	雨停止了。	The rain stopped.	new-hsk-4-0739::new-hsk-4-0739-ex2; new-hsk-4-0742::new-hsk-4-0742-ex1
-missing_lemma	new-hsk-4-0746	new-hsk-4-0746-ex2	746	他小时候的生活很简单。	His life as a child was very simple.	Example does not visibly contain the target display form or any accepted variant.
-cross_word_duplicate_translation	new-hsk-4-0810	new-hsk-4-0810-ex1	810	这项工作很重要。	This task is very important.	new-hsk-4-0614::new-hsk-4-0614-ex2; new-hsk-4-0810::new-hsk-4-0810-ex1

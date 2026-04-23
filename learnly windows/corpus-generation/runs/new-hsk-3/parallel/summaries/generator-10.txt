@@ -1,5 +1,0 @@
-Completed ranks: 910, 911, 912, 913, 914, 915, 916, 917, 918, 919, 920, 921, 922, 923, 924, 925, 926, 927, 928, 929, 930, 931, 932, 933, 934, 935, 936, 937, 938, 939, 940, 941, 942, 943, 944, 945, 946, 947, 948, 949, 950, 951, 952, 953, 954, 955, 956, 957, 958, 959, 960, 961, 962, 963, 964, 965, 966, 967, 968, 969, 970, 971, 972, 973
-Validation: PASS
-Validation command: python3 /Users/moi/Desktop/business/learnly/corpus-generation/orchestrator.py --db-path /Users/moi/Desktop/business/learnly/corpus-generation/corpus-hsk-3.sqlite validate-jsonl /Users/moi/Desktop/business/learnly/corpus-generation/runs/new-hsk-3/parallel/generated/generator-10.jsonl
-Validator output: {"file": "/Users/moi/Desktop/business/learnly/corpus-generation/runs/new-hsk-3/parallel/generated/generator-10.jsonl", "word_count": 64}
-Latest repair: replaced the awkward `指` ex1 sentence with a more idiomatic verb use and smoothed `足够` ex1 English, then reran validator successfully.

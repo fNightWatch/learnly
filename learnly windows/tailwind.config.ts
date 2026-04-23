@@ -20,9 +20,6 @@ const config: Config = {
       },
       boxShadow: {
         card: "0 20px 50px rgba(32, 25, 20, 0.08)"
-      },
-      screens: {
-        short: { raw: "(max-height: 700px)" }
       }
     }
   },

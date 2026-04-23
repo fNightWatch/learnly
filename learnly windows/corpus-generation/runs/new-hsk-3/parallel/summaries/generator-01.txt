@@ -1,5 +1,0 @@
-Completed ranks: 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 273, 274, 301, 302, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 319, 320, 321, 322, 323, 324, 325, 351, 352, 353, 354, 356, 357, 359, 360, 361, 362, 363, 364, 365
-Validation: PASS
-Validation command: python3 orchestrator.py --db-path corpus-hsk-3.sqlite validate-jsonl /Users/moi/Desktop/business/learnly/corpus-generation/runs/new-hsk-3/parallel/generated/generator-01.jsonl
-Validator output: {"file": "/Users/moi/Desktop/business/learnly/corpus-generation/runs/new-hsk-3/parallel/generated/generator-01.jsonl", "word_count": 58}
-Latest repair: revised new-hsk-3-0301 (化) and revalidated successfully.

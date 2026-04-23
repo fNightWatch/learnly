@@ -1,12 +1,9 @@
 "use client";
 
-import { startTransition, useEffect, useRef, useState, type ReactNode } from "react";
-import { useRouter } from "next/navigation";
+import Link from "next/link";
+import { useEffect, useRef, useState } from "react";
 import { buildAudioUrl } from "@/lib/demo/audio-source";
-import { SettingsOverlay } from "@/components/settings/settings-overlay";
-import { ChineseSentencePreview } from "@/components/words/chinese-sentence-preview";
 import type {
-  ChineseReviewFlow,
   DemoLanguage,
   SessionCardPayload,
   StudyMode,
@@ -15,7 +12,6 @@ import type {
 
 // --- Session persistence (survives page refresh) ---
 const SESSION_STORAGE_KEY = "learnly-active-session";
-const COMPLETE_STORAGE_KEY = "learnly-last-complete-session";
 
 type PersistedSession = {
   sessionId: string;
@@ -24,12 +20,6 @@ type PersistedSession = {
   /** Epoch ms when the studying phase started */
   studyingStartedAt: number;
   cardsReviewed: number;
-  /** Tracks auto-direction rotation so refresh resumes the same card mode */
-  autoDirectionCounter?: number;
-  /** Effective direction of the currently visible card */
-  currentDirection?: "es-to-en" | "en-to-es";
-  /** Item id for the currently visible card */
-  currentCardItemId?: string | null;
 };
 
 function saveActiveSession(data: PersistedSession) {
@@ -46,22 +36,6 @@ function loadActiveSession(): PersistedSession | null {
 
 function clearActiveSession() {
   try { sessionStorage.removeItem(SESSION_STORAGE_KEY); } catch { /* noop */ }
-}
-
-function saveCompletedSession(data: PersistedCompletion) {
-  try { sessionStorage.setItem(COMPLETE_STORAGE_KEY, JSON.stringify(data)); } catch { /* noop */ }
-}
-
-function loadCompletedSession(): PersistedCompletion | null {
-  try {
-    const raw = sessionStorage.getItem(COMPLETE_STORAGE_KEY);
-    if (!raw) return null;
-    return JSON.parse(raw) as PersistedCompletion;
-  } catch { return null; }
-}
-
-function clearCompletedSession() {
-  try { sessionStorage.removeItem(COMPLETE_STORAGE_KEY); } catch { /* noop */ }
 }
 
 type SessionPayload = {
@@ -81,13 +55,6 @@ type SessionPayload = {
   firstCard: SessionCardPayload | null;
 };
 
-type PersistedCompletion = {
-  elapsedSeconds: number;
-  cardsReviewed: number;
-  insights: SessionPayload["insights"] | null;
-  completedAt: number;
-};
-
 type ReviewResponse = {
   remainingCount: number;
   insights: {
@@ -100,7 +67,7 @@ type ReviewResponse = {
   nextCard: SessionCardPayload | null;
 };
 
-type Direction = "es-to-en" | "en-to-es" | "auto";
+type Direction = "es-to-en" | "en-to-es";
 type BinaryRating = 1 | 3;
 type AudioMode = "term" | "example";
 type AudioSpeed = "0.5" | "0.75" | "1" | "1.25" | "1.5" | "2";
@@ -126,7 +93,7 @@ const studyModes: Array<{ id: StudyMode; label: string; description: string }> =
   {
     id: "everyday",
     label: "Everyday",
-    description: "Finish every due card first, then move into new words."
+    description: "Due cards first, then a few fresh introductions."
   },
   {
     id: "review-only",
@@ -141,17 +108,9 @@ const studyModes: Array<{ id: StudyMode; label: string; description: string }> =
 ];
 
 const directionOptions: Array<{ id: Direction; label: string }> = [
-  { id: "auto", label: "Auto" },
   { id: "es-to-en", label: "Target → English" },
   { id: "en-to-es", label: "English → Target" }
 ];
-
-const positiveDecisionClass =
-  "rounded-[18px] bg-clay px-4 py-3 text-center text-white dark:text-black transition-[transform,opacity,box-shadow] hover:-translate-y-0.5 hover:opacity-90 hover:shadow-[0_12px_28px_rgb(var(--color-clay)/0.22)]";
-
-function resolveAutoDirection(counter: number): "es-to-en" | "en-to-es" {
-  return counter % 3 === 2 ? "en-to-es" : "es-to-en";
-}
 
 function getPreferredVoice(voices: SpeechSynthesisVoice[], languageCode: SupportedLanguageCode) {
   const languagePrefixes: Record<SupportedLanguageCode, string[]> = {
@@ -160,17 +119,15 @@ function getPreferredVoice(voices: SpeechSynthesisVoice[], languageCode: Support
     de: ["de"],
     zh: ["zh", "cmn"],
     "zh-hsk1": ["zh", "cmn"],
-    "zh-hsk2": ["zh", "cmn"],
-    "zh-hsk3": ["zh", "cmn"]
+    "zh-hsk2": ["zh", "cmn"]
   };
   const preferredNames: Record<SupportedLanguageCode, RegExp> = {
     es: /monica|mónica|paulina|jorge|helena|google español/i,
     fr: /thomas|amelie|amélie|aurelie|aurélie/i,
     de: /anna|markus|petra/i,
-    zh: /tingting|ting-ting|meijia|mei-jia|sinji|sin-ji|li-mu|yu-shu|google 中文|flo|sandy|shelley|zh/i,
-    "zh-hsk1": /tingting|ting-ting|meijia|mei-jia|sinji|sin-ji|li-mu|yu-shu|google 中文|flo|sandy|shelley|zh/i,
-    "zh-hsk2": /tingting|ting-ting|meijia|mei-jia|sinji|sin-ji|li-mu|yu-shu|google 中文|flo|sandy|shelley|zh/i,
-    "zh-hsk3": /tingting|ting-ting|meijia|mei-jia|sinji|sin-ji|li-mu|yu-shu|google 中文|flo|sandy|shelley|zh/i
+    zh: /tingting|ting-ting|meijia|mei-jia|sinji|sin-ji|li-mu|yu-shu|google 中文|eddy|flo|reed|rocko|sandy|shelley|grandma|grandpa|zh/i,
+    "zh-hsk1": /tingting|ting-ting|meijia|mei-jia|sinji|sin-ji|li-mu|yu-shu|google 中文|eddy|flo|reed|rocko|sandy|shelley|grandma|grandpa|zh/i,
+    "zh-hsk2": /tingting|ting-ting|meijia|mei-jia|sinji|sin-ji|li-mu|yu-shu|google 中文|eddy|flo|reed|rocko|sandy|shelley|grandma|grandpa|zh/i
   };
   const matching = voices.filter((voice) =>
     languagePrefixes[languageCode].some((prefix) => voice.lang.toLowerCase().startsWith(prefix))
@@ -190,7 +147,6 @@ function getSpeechSynthesisLang(languageCode: SupportedLanguageCode) {
     case "zh":
     case "zh-hsk1":
     case "zh-hsk2":
-    case "zh-hsk3":
       return "zh-CN";
     default:
       return "en-US";
@@ -201,43 +157,15 @@ function StudyRecoveryPanel({
   title,
   body,
   actionLabel,
-  onAction,
-  compact = false,
-  compactSideActions
+  onAction
 }: {
   title: string;
   body: string;
   actionLabel: string;
   onAction: () => void;
-  compact?: boolean;
-  compactSideActions?: ReactNode;
 }) {
-  if (compact) {
-    return (
-      <div className="space-y-1.5">
-        <div className="text-center text-[15px] text-ink/86 whitespace-nowrap overflow-hidden text-ellipsis">
-          {title} <span className="text-ink/58">{body}</span>
-        </div>
-        <div className={`grid items-stretch gap-2 ${compactSideActions ? "grid-cols-[minmax(0,1fr)_124px]" : ""}`}>
-          <button
-            type="button"
-            onClick={onAction}
-            className="flex h-[88px] items-center justify-center rounded-[20px] border border-[rgb(var(--color-gold)/0.45)] bg-[rgb(var(--color-gold))] px-5 py-3 text-center text-[24px] font-semibold tracking-[-0.04em] whitespace-nowrap text-white dark:text-black shadow-[0_12px_24px_rgb(var(--color-gold)/0.24)] transition-[transform,opacity,box-shadow] hover:-translate-y-0.5 hover:bg-[rgb(var(--color-gold))]"
-          >
-            {actionLabel}
-          </button>
-          {compactSideActions ? (
-            <div className="grid h-[88px] w-[124px] grid-rows-2 gap-2">
-              {compactSideActions}
-            </div>
-          ) : null}
-        </div>
-      </div>
-    );
-  }
-
   return (
-    <div className="space-y-3">
+    <div className="space-y-5">
       <div className="text-center">
         <div className="text-lg tracking-[-0.04em] text-ink/88">{title}</div>
         <div className="mt-2 text-lg leading-6 text-ink/56">{body}</div>
@@ -245,7 +173,7 @@ function StudyRecoveryPanel({
       <button
         type="button"
         onClick={onAction}
-        className="w-full rounded-[26px] border border-[rgb(var(--color-gold)/0.45)] bg-[rgb(var(--color-gold))] px-6 py-6 text-center text-2xl font-semibold tracking-[-0.04em] text-white dark:text-black shadow-[0_18px_40px_rgb(var(--color-gold)/0.28)] transition-[transform,opacity,box-shadow] hover:-translate-y-0.5 hover:bg-[rgb(var(--color-gold))]"
+        className="min-h-[84px] w-full rounded-[26px] border border-[rgb(var(--color-pine)/0.2)] bg-[rgb(var(--color-pine)/0.9)] px-6 py-6 text-center text-2xl font-semibold tracking-[-0.04em] text-white dark:text-black shadow-[0_18px_40px_rgba(108,128,117,0.2)] transition-[transform,opacity,box-shadow] hover:-translate-y-0.5 hover:bg-[rgb(var(--color-pine)/0.96)]"
       >
         {actionLabel}
       </button>
@@ -260,7 +188,6 @@ function formatTime(totalSeconds: number): string {
 }
 
 export function ReviewSession({ availableLanguages }: { availableLanguages: DemoLanguage[] }) {
-  const router = useRouter();
 
   // --- Phase / time state ---
   const [phase, setPhase] = useState<StudyPhase>("setup");
@@ -301,31 +228,16 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
   const [startTime, setStartTime] = useState<number>(Date.now());
   const [summary, setSummary] = useState<{ dueCount: number; newCount: number } | null>(null);
   const [insights, setInsights] = useState<SessionPayload["insights"] | null>(null);
-  const [direction, setDirection] = useState<Direction>("auto");
-  const autoCountRef = useRef(0);
+  const [direction, setDirection] = useState<Direction>("es-to-en");
   const [languageCodes, setLanguageCodes] = useState<SupportedLanguageCode[]>(["es"]);
   const [studyMode, setStudyMode] = useState<StudyMode>("everyday");
-  const [chineseReviewFlow, setChineseReviewFlow] = useState<ChineseReviewFlow>("four-click");
   const [studyCardStep, setStudyCardStep] = useState<number | null>(null);
-  const [compactRecoveryLayout, setCompactRecoveryLayout] = useState(false);
   const [translationRevealed, setTranslationRevealed] = useState(false);
   const [voices, setVoices] = useState<SpeechSynthesisVoice[]>([]);
   const [audioSpeed, setAudioSpeed] = useState<AudioSpeed>("1");
   const [cardsReviewedThisSession, setCardsReviewedThisSession] = useState(0);
   const [paused, setPaused] = useState(false);
-  const [settingsOpen, setSettingsOpen] = useState(false);
-  const [directionExpanded, setDirectionExpanded] = useState(false);
-  const [speedExpanded, setSpeedExpanded] = useState(false);
-  const resumeDirectionOverrideRef = useRef<"es-to-en" | "en-to-es" | null>(null);
-  const cardStartedAtElapsedSecondsRef = useRef(0);
-  const nextCardPerfStartRef = useRef<number | null>(null);
   const audioRef = useRef<HTMLAudioElement | null>(null);
-  const preloadedAudioRef = useRef<Map<string, HTMLAudioElement>>(new Map());
-  const compactRecoveryLayoutRef = useRef(false);
-  const compactEnteredViewportHeightRef = useRef<number | null>(null);
-  const contentScrollRef = useRef<HTMLDivElement | null>(null);
-  const examplePanelRef = useRef<HTMLDivElement | null>(null);
-  const actionDockRef = useRef<HTMLDivElement | null>(null);
 
   // --- Persist time preferences ---
   useEffect(() => {
@@ -344,6 +256,10 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
       setDirection(savedDirection);
     }
 
+    const savedSpeed = window.localStorage.getItem("learnly-audio-speed");
+    if (savedSpeed && AUDIO_SPEED_RATES[savedSpeed as AudioSpeed] !== undefined) {
+      setAudioSpeed(savedSpeed as AudioSpeed);
+    }
   }, []);
 
   useEffect(() => {
@@ -359,19 +275,7 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
     setChinesePronunciationKnown(false);
     setStandardGuessChoice(null);
     setStudyCardStep(null);
-    resumeDirectionOverrideRef.current = null;
   }, [direction]);
-
-  // --- Per-language audio speed ---
-  useEffect(() => {
-    if (!card?.languageCode) return;
-    const saved = window.localStorage.getItem(`learnly-audio-speed-${card.languageCode}`);
-    if (saved && AUDIO_SPEED_RATES[saved as AudioSpeed] !== undefined) {
-      setAudioSpeed(saved as AudioSpeed);
-    } else {
-      setAudioSpeed("1");
-    }
-  }, [card?.languageCode]);
 
   // --- Voice synthesis setup ---
   useEffect(() => {
@@ -393,9 +297,13 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
   // --- Audio helpers ---
   const stopAudio = () => {
     if (audioRef.current) {
+      const objectUrl = audioRef.current.dataset.objectUrl;
       audioRef.current.pause();
       audioRef.current.currentTime = 0;
       audioRef.current = null;
+      if (objectUrl) {
+        URL.revokeObjectURL(objectUrl);
+      }
     }
 
     if (typeof window !== "undefined" && "speechSynthesis" in window) {
@@ -405,15 +313,7 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
 
   useEffect(() => stopAudio, []);
 
-  const setCompletionRoute = (complete: boolean) => {
-    router.replace(complete ? "/study?complete=1" : "/study", { scroll: false });
-  };
-
-  const resetCardFlow = (options?: {
-    preserveAutoDirectionCounter?: boolean;
-    preserveDirectionOverride?: boolean;
-    cardStartElapsedSeconds?: number;
-  }) => {
+  const resetCardFlow = () => {
     setRevealed(false);
     setChineseStage("pronunciation-guess");
     setChinesePronunciationKnown(null);
@@ -423,64 +323,33 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
     setStudyCardStep(null);
     setTranslationRevealed(false);
     setStartTime(Date.now());
-    cardStartedAtElapsedSecondsRef.current = options?.cardStartElapsedSeconds ?? elapsedSeconds;
-    if (!options?.preserveDirectionOverride) {
-      resumeDirectionOverrideRef.current = null;
-    }
-    if (!options?.preserveAutoDirectionCounter) {
-      autoCountRef.current += 1;
-    }
   };
 
-  // Resolve "auto" direction to an actual direction, alternating each card
-  const effectiveDirection: "es-to-en" | "en-to-es" =
-    direction === "auto"
-      ? resumeDirectionOverrideRef.current ?? resolveAutoDirection(autoCountRef.current)
-      : direction;
-
-  // --- Audio preload (ready-to-play elements, not just HTTP cache) ---
+  // --- Audio prewarm ---
   useEffect(() => {
-    if (!card || typeof window === "undefined") return;
-    const map = preloadedAudioRef.current;
-    map.forEach((a) => { a.src = ""; });
-    map.clear();
-    const sources = [
-      { key: "term", url: buildAudioUrl(card.itemId, "term") },
-      { key: "example", url: buildAudioUrl(card.itemId, "example", card.exampleIndex) }
-    ];
-    for (const { key, url } of sources) {
-      const audio = new Audio();
-      audio.preload = "auto";
-      audio.src = url;
-      map.set(key, audio);
+    if (!card || typeof window === "undefined") {
+      return;
     }
-    return () => { map.forEach((a) => { a.src = ""; }); map.clear(); };
+
+    const sources = [
+      buildAudioUrl(card.itemId, "term"),
+      buildAudioUrl(card.itemId, "example", card.exampleIndex)
+    ];
+
+    sources.forEach((source) => {
+      fetch(source, { cache: "force-cache" }).catch(() => {
+        // Keep the study flow moving even if audio prewarm fails.
+      });
+    });
   }, [card?.itemId]);
 
   // --- Auto-play word audio on card change ---
   useEffect(() => {
     if (!card || typeof window === "undefined" || phase !== "studying") return;
     // Skip auto-play for Chinese cards in Target→English (pronunciation quiz)
-    if (card.languageCode.startsWith("zh") && effectiveDirection === "es-to-en") return;
-    // Skip auto-play in English→Target mode — audio should only play after a button press
-    if (effectiveDirection === "en-to-es") return;
+    if (card.languageCode.startsWith("zh") && direction === "es-to-en") return;
     void playAudio("term");
   }, [card?.itemId]);
-
-  useEffect(() => {
-    if (phase !== "studying" || !card || typeof window === "undefined") {
-      return;
-    }
-
-    const startedAt = nextCardPerfStartRef.current;
-    if (startedAt === null) {
-      return;
-    }
-
-    const latencyMs = performance.now() - startedAt;
-    console.info(`[perf] study.next-card-visible-ms=${latencyMs.toFixed(2)} item=${card.itemId}`);
-    nextCardPerfStartRef.current = null;
-  }, [card?.itemId, phase]);
 
   // --- Session API ---
   const startConfiguredSession = async (
@@ -513,7 +382,7 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
       setRemainingCount(data.remainingCount);
       setSummary({ dueCount: data.dueCount, newCount: data.newCount });
       setInsights(data.insights);
-      resetCardFlow({ cardStartElapsedSeconds: 0 });
+      resetCardFlow();
 
       // Persist so session survives page refresh
       saveActiveSession({
@@ -522,9 +391,6 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
         timerMinutes,
         studyingStartedAt: Date.now(),
         cardsReviewed: 0,
-        autoDirectionCounter: autoCountRef.current,
-        currentDirection: direction === "auto" ? resolveAutoDirection(autoCountRef.current) : direction,
-        currentCardItemId: data.firstCard?.itemId ?? null
       });
     } catch (bootError) {
       setError(bootError instanceof Error ? bootError.message : "Could not start session.");
@@ -537,33 +403,14 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
   useEffect(() => {
     const boot = async () => {
       try {
-        // If ?new is in the URL, always start fresh (user clicked "Start Study")
-        const isNewSession = typeof window !== "undefined" && window.location.search.includes("new");
-        if (isNewSession) {
-          clearActiveSession();
-          clearCompletedSession();
-          // Clean the URL without reloading
-          window.history.replaceState({}, "", window.location.pathname);
-        }
-
         // Check for an active session to resume
-        const persisted = !isNewSession ? loadActiveSession() : null;
+        const persisted = loadActiveSession();
         if (persisted) {
           const resumeResponse = await fetch(`/api/session/${persisted.sessionId}/resume`);
           if (resumeResponse.ok) {
             const data: SessionPayload = await resumeResponse.json();
             // Only resume if there are cards left
             if (data.firstCard && data.remainingCount > 0) {
-              const restoredAutoCounter =
-                typeof persisted.autoDirectionCounter === "number"
-                  ? persisted.autoDirectionCounter
-                  : persisted.cardsReviewed + 1;
-              autoCountRef.current = restoredAutoCounter;
-              resumeDirectionOverrideRef.current =
-                persisted.currentDirection &&
-                (persisted.currentCardItemId === undefined || persisted.currentCardItemId === data.firstCard.itemId)
-                  ? persisted.currentDirection
-                  : null;
               const elapsedSinceStart = Math.floor((Date.now() - persisted.studyingStartedAt) / 1000);
               setSessionId(data.sessionId);
               setCard(data.firstCard);
@@ -577,11 +424,7 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
               setElapsedSeconds(elapsedSinceStart);
               setCardsReviewedThisSession(persisted.cardsReviewed);
               setPhase("studying");
-              resetCardFlow({
-                preserveAutoDirectionCounter: true,
-                preserveDirectionOverride: true,
-                cardStartElapsedSeconds: elapsedSinceStart
-              });
+              resetCardFlow();
               setSettingsLoading(false);
               return;
             }
@@ -590,21 +433,8 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
           clearActiveSession();
         }
 
-        const persistedComplete = !isNewSession ? loadCompletedSession() : null;
-        if (persistedComplete) {
-          setElapsedSeconds(persistedComplete.elapsedSeconds);
-          setCardsReviewedThisSession(persistedComplete.cardsReviewed);
-          setInsights(persistedComplete.insights);
-          setPhase("complete");
-          setSettingsLoading(false);
-          return;
-        }
-        if (typeof window !== "undefined" && window.location.search.includes("complete=1")) {
-          window.history.replaceState({}, "", window.location.pathname);
-        }
-
         // Normal boot: load settings for setup screen
-        const settingsResponse = await fetch("/api/settings", { cache: "no-store" });
+        const settingsResponse = await fetch("/api/settings");
         if (!settingsResponse.ok) {
           throw new Error("Could not load study settings.");
         }
@@ -612,12 +442,10 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
         const settings: {
           selectedLanguageCodes: SupportedLanguageCode[];
           preferredStudyMode: StudyMode;
-          chineseReviewFlow?: ChineseReviewFlow;
         } = await settingsResponse.json();
 
         setLanguageCodes(settings.selectedLanguageCodes);
         setStudyMode(settings.preferredStudyMode);
-        setChineseReviewFlow(settings.chineseReviewFlow === "two-click" ? "two-click" : "four-click");
       } catch (settingsError) {
         setError(settingsError instanceof Error ? settingsError.message : "Could not load study settings.");
       } finally {
@@ -627,39 +455,6 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
 
     void boot();
   }, []);
-
-  useEffect(() => {
-    if (settingsOpen || typeof window === "undefined") return;
-
-    const syncChineseFlow = async () => {
-      try {
-        const response = await fetch("/api/settings", { cache: "no-store" });
-        if (!response.ok) return;
-        const settings: { chineseReviewFlow?: ChineseReviewFlow } = await response.json();
-        setChineseReviewFlow(settings.chineseReviewFlow === "two-click" ? "two-click" : "four-click");
-      } catch {
-        // Keep current runtime value if sync fails.
-      }
-    };
-
-    void syncChineseFlow();
-  }, [settingsOpen]);
-
-  useEffect(() => {
-    if (phase !== "studying" || !sessionId || !card) return;
-    const persisted = loadActiveSession();
-    if (!persisted || persisted.sessionId !== sessionId) return;
-
-    saveActiveSession({
-      ...persisted,
-      autoDirectionCounter: autoCountRef.current,
-      currentDirection:
-        direction === "auto"
-          ? resumeDirectionOverrideRef.current ?? resolveAutoDirection(autoCountRef.current)
-          : direction,
-      currentCardItemId: card.itemId
-    });
-  }, [phase, sessionId, card?.itemId, direction]);
 
   const persistSessionPreferences = async (
     nextLanguageCodes: SupportedLanguageCode[],
@@ -692,7 +487,7 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
 
   // --- Timer / Stopwatch ---
   useEffect(() => {
-    if (phase !== "studying" || paused || settingsOpen) {
+    if (phase !== "studying" || paused) {
       if (timerRef.current) {
         clearInterval(timerRef.current);
         timerRef.current = null;
@@ -710,7 +505,7 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
         timerRef.current = null;
       }
     };
-  }, [phase, paused, settingsOpen]);
+  }, [phase, paused]);
 
   // Check timer expiry
   useEffect(() => {
@@ -721,8 +516,13 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
     }
   }, [elapsedSeconds, phase, timeMode, timerMinutes, timerExpired]);
 
-  // When timer expires, we wait until the user finishes the current card.
-  // The submitReview function checks timerExpired and ends the session after submission.
+  // When timer expires and card flow completes (next card loaded or no card), go to complete
+  useEffect(() => {
+    if (timerExpired && !loading) {
+      clearActiveSession();
+      setPhase("complete");
+    }
+  }, [timerExpired, loading]);
 
   const getDisplayTime = (): string => {
     if (timeMode === "stopwatch") {
@@ -732,28 +532,13 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
     return formatTime(remaining);
   };
 
-  const persistCompletedSessionToServer = async (targetSessionId: string, totalElapsedMs: number) => {
-    try {
-      await fetch(`/api/session/${targetSessionId}/complete`, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json"
-        },
-        body: JSON.stringify({ elapsedMs: totalElapsedMs })
-      });
-    } catch {
-      // Keep local completion state even if the server write fails.
-    }
-  };
-
   // --- Start study handler ---
   const handleStartStudy = async () => {
-    clearCompletedSession();
-    setCompletionRoute(false);
-    // Persist preferences in background so session start never feels delayed.
-    void persistSessionPreferences(languageCodes, studyMode).catch(() => {
+    try {
+      await persistSessionPreferences(languageCodes, studyMode);
+    } catch {
       // Non-blocking — we still start the session
-    });
+    }
     setElapsedSeconds(0);
     setTimerExpired(false);
     setCardsReviewedThisSession(0);
@@ -784,9 +569,7 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
 
   const selectAudioSpeed = (speed: AudioSpeed) => {
     setAudioSpeed(speed);
-    if (card?.languageCode) {
-      window.localStorage.setItem(`learnly-audio-speed-${card.languageCode}`, speed);
-    }
+    window.localStorage.setItem("learnly-audio-speed", speed);
   };
 
   const playAudio = async (mode: AudioMode) => {
@@ -796,21 +579,37 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
 
     stopAudio();
 
-    const preloaded = preloadedAudioRef.current.get(mode);
-    let audio: HTMLAudioElement;
-    if (preloaded && preloaded.readyState >= 2) {
-      audio = preloaded;
-      preloadedAudioRef.current.delete(mode);
-    } else {
-      audio = new Audio(buildAudioUrl(card.itemId, mode, mode === "example" ? card.exampleIndex : undefined));
+    const source = buildAudioUrl(card.itemId, mode, mode === "example" ? card.exampleIndex : undefined);
+    let audioSource = source;
+
+    try {
+      const response = await fetch(source, { cache: "force-cache" });
+      if (response.ok) {
+        const blob = await response.blob();
+        if (blob.type.startsWith("audio/")) {
+          audioSource = URL.createObjectURL(blob);
+        }
+      }
+    } catch {
+      // Fall back to browser speech below.
     }
+
+    if (audioSource === source) {
+      playFallbackSpeech(mode === "example" ? card.example : card.displayForm, card.languageCode);
+      return;
+    }
+
+    const audio = new Audio(audioSource);
+    audio.dataset.objectUrl = audioSource;
     audio.playbackRate = AUDIO_SPEED_RATES[audioSpeed];
-    audio.currentTime = 0;
     audioRef.current = audio;
+    audio.addEventListener("ended", () => URL.revokeObjectURL(audioSource), { once: true });
+    audio.addEventListener("error", () => URL.revokeObjectURL(audioSource), { once: true });
 
     try {
       await audio.play();
-    } catch (error) {
+    } catch {
+      URL.revokeObjectURL(audioSource);
       playFallbackSpeech(mode === "example" ? card.example : card.displayForm, card.languageCode);
     }
   };
@@ -823,22 +622,12 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
     await playAudio("example");
   };
 
-  const shouldPlayWordOnFirstDecision = () => {
-    if (!card) return false;
-    if (effectiveDirection === "en-to-es") return true;
-    return card.languageCode.startsWith("zh") && chineseReviewFlow === "two-click" && effectiveDirection === "es-to-en";
-  };
-
   // --- Card flow logic ---
   const advanceStandardGuess = (choice: GuessChoice) => {
     setStandardGuessChoice(choice);
     setRevealed(true);
     if (choice === "dont-know") {
       setStudyCardStep(1);
-    }
-    // Keep first-decision audio parity for English→Target and Chinese 2-click Target→English.
-    if (shouldPlayWordOnFirstDecision()) {
-      void playAudio("term");
     }
   };
 
@@ -880,23 +669,17 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
     }
 
     setError(null);
-    const requestStartedAt = typeof window !== "undefined" ? performance.now() : null;
-    const idempotencyKey = `${sessionId}:${card.itemId}:${rating}:${startTime}`;
-    const cardElapsedMs = Math.max(0, (elapsedSeconds - cardStartedAtElapsedSecondsRef.current) * 1000);
-    const totalSessionElapsedMs = Math.max(0, elapsedSeconds * 1000);
 
     const response = await fetch("/api/reviews", {
       method: "POST",
       headers: {
-        "Content-Type": "application/json",
-        "x-idempotency-key": idempotencyKey
+        "Content-Type": "application/json"
       },
       body: JSON.stringify({
         sessionId,
         itemId: card.itemId,
         rating,
-        elapsedMs: cardElapsedMs,
-        sessionElapsedMs: totalSessionElapsedMs
+        elapsedMs: Date.now() - startTime
       })
     });
 
@@ -905,31 +688,22 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
       return;
     }
 
-    const serverResponseMs = response.headers.get("x-response-time-ms");
     const data: ReviewResponse = await response.json();
-    if (requestStartedAt !== null) {
-      const clientMs = performance.now() - requestStartedAt;
-      console.info(
-        `[perf] study.review-submit-ms=${clientMs.toFixed(2)} server-ms=${serverResponseMs ?? "n/a"}`
-      );
-    }
-    const nextCardsReviewed = cardsReviewedThisSession + 1;
-    setCardsReviewedThisSession(nextCardsReviewed);
+    setCardsReviewedThisSession((prev) => {
+      const next = prev + 1;
+      // Update persisted session with new review count
+      const persisted = loadActiveSession();
+      if (persisted) saveActiveSession({ ...persisted, cardsReviewed: next });
+      return next;
+    });
 
     if (!data.nextCard) {
       // No more cards
       setCard(null);
       setRemainingCount(0);
       setInsights(data.insights);
-      saveCompletedSession({
-        elapsedSeconds,
-        cardsReviewed: nextCardsReviewed,
-        insights: data.insights,
-        completedAt: Date.now()
-      });
       clearActiveSession();
       setPhase("complete");
-      setCompletionRoute(true);
       return;
     }
 
@@ -938,40 +712,15 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
       setCard(null);
       setRemainingCount(data.remainingCount);
       setInsights(data.insights);
-      saveCompletedSession({
-        elapsedSeconds,
-        cardsReviewed: nextCardsReviewed,
-        insights: data.insights,
-        completedAt: Date.now()
-      });
       clearActiveSession();
       setPhase("complete");
-      setCompletionRoute(true);
-      void persistCompletedSessionToServer(sessionId, totalSessionElapsedMs);
       return;
     }
 
-    if (typeof window !== "undefined") {
-      nextCardPerfStartRef.current = performance.now();
-    }
     setCard(data.nextCard);
     setRemainingCount(data.remainingCount);
-    startTransition(() => {
-      setInsights(data.insights);
-    });
+    setInsights(data.insights);
     resetCardFlow();
-
-    // Keep resume behavior stable: persist both review count and auto-direction rotation.
-    const persisted = loadActiveSession();
-    if (persisted) {
-      saveActiveSession({
-        ...persisted,
-        cardsReviewed: nextCardsReviewed,
-        autoDirectionCounter: autoCountRef.current,
-        currentDirection: direction === "auto" ? resolveAutoDirection(autoCountRef.current) : direction,
-        currentCardItemId: data.nextCard.itemId
-      });
-    }
   };
 
   // --- Keyboard shortcuts (only active during studying phase) ---
@@ -987,16 +736,10 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
         return;
       }
 
-      if (event.key === "s" || event.key === "S") {
-        event.preventDefault();
-        setSettingsOpen((prev) => !prev);
-        return;
-      }
-
-      if (paused || settingsOpen) return;
+      if (paused) return;
 
       const isChineseCard = card.languageCode.startsWith("zh");
-      const useChineseFlow = isChineseCard && chineseReviewFlow === "four-click" && effectiveDirection === "es-to-en";
+      const useChineseFlow = isChineseCard && direction === "es-to-en";
       const isNewCard = card.isNew;
 
       if (event.key === "Shift") {
@@ -1139,16 +882,11 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
             event.preventDefault();
             setRevealed(true);
             setStudyCardStep(1);
-            if (shouldPlayWordOnFirstDecision()) void playWordAudio();
           }
           if (event.code === "ArrowRight") {
             event.preventDefault();
             setRevealed(true);
-            if (shouldPlayWordOnFirstDecision()) {
-              void playWordAudio();
-            } else {
-              void submitReview(3);
-            }
+            void submitReview(3);
           }
           return;
         }
@@ -1159,16 +897,6 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
             void submitReview(1);
           }
           return;
-        }
-
-        // New card revealed with confirm step (en-to-es "I know" path)
-        if (event.code === "ArrowLeft") {
-          event.preventDefault();
-          setStudyCardStep(1);
-        }
-        if (event.code === "ArrowRight") {
-          event.preventDefault();
-          void submitReview(3);
         }
         return;
       }
@@ -1207,11 +935,11 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
 
     window.addEventListener("keydown", handle);
     return () => window.removeEventListener("keydown", handle);
-  }, [card, chinesePronunciationKnown, chineseReviewFlow, chineseStage, direction, loading, revealed, sessionId, startTime, studyCardStep, voices, audioSpeed, phase, translationRevealed, paused]);
+  }, [card, chinesePronunciationKnown, chineseStage, direction, loading, revealed, sessionId, startTime, studyCardStep, voices, audioSpeed, phase, translationRevealed, paused]);
 
   // --- Derived state ---
   const isChineseCard = card?.languageCode.startsWith("zh") ?? false;
-  const useChineseFlow = isChineseCard && chineseReviewFlow === "four-click" && effectiveDirection === "es-to-en";
+  const useChineseFlow = isChineseCard && direction === "es-to-en";
   const isNewCard = card?.isNew ?? false;
   const canPlayWordAudio =
     !card ? false : !(useChineseFlow && chineseStage === "pronunciation-guess");
@@ -1222,142 +950,11 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
   const chineseStudyStepActive =
     (chineseStage === "pronunciation-confirm" && pronunciationGuessChoice === "dont-know") ||
     (chineseStage === "definition-confirm" && definitionGuessChoice === "dont-know");
-  const showingRecoveryPanel = useChineseFlow
-    ? chineseStudyStepActive || studyCardStep === 1
-    : Boolean(revealed && studyCardStep === 1);
-  const prompt = effectiveDirection === "es-to-en" ? card?.displayForm : card?.primaryGloss;
+  const prompt = direction === "es-to-en" ? card?.displayForm : card?.primaryGloss;
   const promptLabel =
-    effectiveDirection === "es-to-en"
+    direction === "es-to-en"
       ? `${availableLanguages.find((language) => language.code === card?.languageCode)?.name ?? "Target"} prompt`
       : "English prompt";
-  const activeStudyPrompt = (() => {
-    if (!card || showingRecoveryPanel) return null;
-
-    if (useChineseFlow) {
-      if (chineseStage === "pronunciation-guess") return "Do you think you know the pronunciation?";
-      if (chineseStage === "pronunciation-confirm") {
-        return pronunciationGuessChoice === "dont-know" ? "Study the pronunciation once." : "Did you know the pronunciation?";
-      }
-      if (chineseStage === "definition-guess") return "What is the definition of this word?";
-      if (chineseStage === "definition-confirm") {
-        return definitionGuessChoice === "dont-know" ? null : "Did you know the definition?";
-      }
-      return null;
-    }
-
-    if (isNewCard) {
-      if (!revealed) return "Do you know this word?";
-      if (studyCardStep === 1) return null;
-      return "Did you know it?";
-    }
-
-    if (!revealed) return "Do you think you know it?";
-    if (studyCardStep === 1) return null;
-    return "Did you know it?";
-  })();
-  const shouldCenterMainContent = !compactRecoveryLayout;
-
-  useEffect(() => {
-    compactRecoveryLayoutRef.current = compactRecoveryLayout;
-  }, [compactRecoveryLayout]);
-
-  useEffect(() => {
-    if (typeof window === "undefined" || !showingRecoveryPanel) {
-      compactRecoveryLayoutRef.current = false;
-      compactEnteredViewportHeightRef.current = null;
-      setCompactRecoveryLayout(false);
-      return;
-    }
-
-    let rafId = 0;
-
-    const evaluateRecoveryLayout = () => {
-      const scrollEl = contentScrollRef.current;
-      const exampleEl = examplePanelRef.current;
-      const actionEl = actionDockRef.current;
-      const viewportHeight = window.innerHeight;
-
-      const contentOverflows = Boolean(scrollEl && scrollEl.scrollHeight > scrollEl.clientHeight + 2);
-      let exampleTopClipped = false;
-      let exampleDockGap = Number.POSITIVE_INFINITY;
-      if (exampleEl && actionEl) {
-        const exampleRect = exampleEl.getBoundingClientRect();
-        const actionRect = actionEl.getBoundingClientRect();
-        exampleTopClipped = exampleRect.top < 8;
-        exampleDockGap = actionRect.top - exampleRect.bottom;
-      }
-
-      const current = compactRecoveryLayoutRef.current;
-      const shouldEnterCompact = contentOverflows || exampleTopClipped || exampleDockGap < 12;
-
-      if (!current) {
-        if (shouldEnterCompact) {
-          compactRecoveryLayoutRef.current = true;
-          compactEnteredViewportHeightRef.current = viewportHeight;
-          setCompactRecoveryLayout(true);
-        }
-        return;
-      }
-
-      // Exit only after clear height recovery to avoid oscillation while dragging around the boundary.
-      const enteredAt = compactEnteredViewportHeightRef.current ?? viewportHeight;
-      const hasRecoveredHeight = viewportHeight >= enteredAt + 72;
-      const hasSafeSpacing = !contentOverflows && !exampleTopClipped && exampleDockGap > 36;
-      if (hasRecoveredHeight && hasSafeSpacing) {
-        compactRecoveryLayoutRef.current = false;
-        compactEnteredViewportHeightRef.current = null;
-        setCompactRecoveryLayout(false);
-      }
-    };
-
-    const scheduleEvaluate = () => {
-      if (rafId) return;
-      rafId = window.requestAnimationFrame(() => {
-        rafId = 0;
-        evaluateRecoveryLayout();
-      });
-    };
-
-    scheduleEvaluate();
-    window.addEventListener("resize", scheduleEvaluate);
-    window.addEventListener("orientationchange", scheduleEvaluate);
-    return () => {
-      if (rafId) {
-        window.cancelAnimationFrame(rafId);
-      }
-      window.removeEventListener("resize", scheduleEvaluate);
-      window.removeEventListener("orientationchange", scheduleEvaluate);
-    };
-  }, [showingRecoveryPanel, card?.itemId, translationRevealed, revealed, studyCardStep, chineseStudyStepActive]);
-
-  const compactRecoverySideActions = (
-    <>
-      <button
-        type="button"
-        onClick={() => void playWordAudio()}
-        disabled={!canPlayWordAudio}
-        className={`h-[43px] rounded-[14px] border border-line/70 bg-paper/76 px-3 py-2 text-sm font-semibold transition-[transform,opacity,box-shadow] ${
-          canPlayWordAudio
-            ? "text-ink/68 hover:border-clay/35 hover:text-clay"
-            : "cursor-not-allowed text-ink/34 opacity-60"
-        }`}
-      >
-        ↑ Word
-      </button>
-      <button
-        type="button"
-        onClick={() => void playSentenceAudio()}
-        disabled={!canPlaySentenceAudio}
-        className={`h-[43px] rounded-[14px] border border-line/70 bg-paper/76 px-3 py-2 text-sm font-semibold transition-[transform,opacity,box-shadow] ${
-          canPlaySentenceAudio
-            ? "text-ink/68 hover:border-clay/35 hover:text-clay"
-            : "cursor-not-allowed text-ink/34 opacity-60"
-        }`}
-      >
-        ↓ Sentence
-      </button>
-    </>
-  );
 
   // =====================================================================
   // PHASE 1: SETUP SCREEN
@@ -1366,7 +963,7 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
     return (
       <div className="flex justify-center px-4 py-2">
         <div className="w-full max-w-lg">
-          <div className="study-header-shell rounded-[32px] p-6 sm:p-8">
+          <div className="rounded-[32px] border border-line/70 dark:border-line/52 bg-panel/84 dark:bg-[linear-gradient(180deg,rgba(15,18,24,0.98),rgba(8,10,14,0.94))] p-6 shadow-[0_20px_60px_rgba(30,18,10,0.07)] dark:shadow-[inset_0_1px_0_rgba(255,255,255,0.04),0_8px_24px_rgba(0,0,0,0.32)] sm:p-8">
             {/* Header */}
             <div className="text-center">
               <div className="text-[11px] uppercase tracking-[0.2em] text-ink/38">Study session</div>
@@ -1390,7 +987,7 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
                           onClick={() => toggleLanguage(language.code)}
                           className={`rounded-full border px-3.5 py-2 text-sm font-semibold transition-[transform,opacity,box-shadow] ${
                             active
-                              ? "border-[rgb(255_153_28/0.62)] bg-[#FF991C] text-white dark:text-black shadow-[inset_0_1px_0_rgba(255,255,255,0.36)] hover:brightness-[0.98]"
+                              ? "border-clay/35 bg-clay/12 text-clay shadow-[0_16px_36px_rgba(202,114,76,0.12)]"
                               : "border-line/70 bg-paper/68 text-ink/60 hover:border-clay/28 hover:text-clay"
                           }`}
                         >
@@ -1414,7 +1011,7 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
                           onClick={() => setStudyMode(option.id)}
                           className={`rounded-full px-4 py-1.5 text-[13px] font-semibold transition-[transform,opacity,box-shadow] ${
                             active
-                              ? "bg-[rgb(var(--color-gold))] text-white dark:text-black"
+                              ? "bg-night text-white dark:bg-white dark:text-night shadow-[0_10px_24px_rgba(23,18,16,0.14)]"
                               : "text-ink/55"
                           }`}
                         >
@@ -1438,7 +1035,7 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
                         onClick={() => setTimeMode(mode)}
                         className={`rounded-full px-4 py-1.5 text-[13px] font-semibold transition-[transform,opacity,box-shadow] ${
                           timeMode === mode
-                            ? "bg-[rgb(var(--color-gold))] text-white dark:text-black"
+                            ? "bg-night text-white dark:bg-white dark:text-night shadow-[0_10px_24px_rgba(23,18,16,0.14)]"
                             : "text-ink/55"
                         }`}
                       >
@@ -1458,10 +1055,7 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
                         max={60}
                         value={timerMinutes}
                         onChange={(e) => setTimerMinutes(Number(e.target.value))}
-                        className="timer-range mt-3 w-full"
-                        style={{
-                          ["--fill" as string]: `${((timerMinutes - 1) / 59) * 100}%`
-                        }}
+                        className="mt-3 w-full accent-[rgb(var(--color-pine))]"
                       />
                       <div className="mt-1 flex justify-between text-[10px] uppercase tracking-[0.18em] text-ink/38">
                         <span>1 min</span>
@@ -1487,7 +1081,7 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
                 <button
                   type="button"
                   onClick={() => void handleStartStudy()}
-                  className="mt-8 w-full rounded-[26px] border border-[rgb(var(--color-clay)/0.2)] dark:border-[rgb(var(--color-accent)/0.58)] bg-[rgb(var(--color-clay)/0.92)] dark:bg-[rgb(var(--color-accent))] px-6 py-5 text-center text-2xl font-semibold tracking-[-0.04em] text-white dark:text-black shadow-[0_18px_40px_rgba(202,114,76,0.25)] dark:shadow-[inset_0_1px_0_rgba(255,255,255,0.18),inset_0_-1px_0_rgba(0,0,0,0.24),0_16px_30px_rgba(0,0,0,0.28)] transition-[transform,opacity,box-shadow,filter] hover:-translate-y-0.5 hover:brightness-95"
+                  className="mt-8 w-full rounded-[26px] border border-[rgb(var(--color-clay)/0.2)] dark:border-[rgb(var(--color-accent)/0.58)] bg-[rgb(var(--color-clay)/0.92)] dark:bg-[rgb(var(--color-accent))] px-6 py-5 text-center text-2xl font-semibold tracking-[-0.04em] text-white dark:text-black shadow-[0_18px_40px_rgba(202,114,76,0.25)] dark:shadow-[inset_0_1px_0_rgba(255,223,186,0.2),inset_0_-1px_0_rgba(124,63,0,0.3),0_16px_30px_rgba(0,0,0,0.28)] transition-[transform,opacity,box-shadow] hover:-translate-y-0.5 hover:bg-[rgb(var(--color-clay)/0.98)] dark:hover:bg-[rgb(247,145,10)]"
                 >
                   Start Study
                 </button>
@@ -1503,95 +1097,91 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
   // PHASE 3: COMPLETE SCREEN
   // =====================================================================
   if (phase === "complete") {
-    const dueByLanguage = insights?.dueByLanguage ?? {};
-    const combinedDue = availableLanguages.reduce((sum, language) => sum + (dueByLanguage[language.code] ?? 0), 0);
-    const reviewedToday = insights?.reviewsToday ?? 0;
-    const newWordsToday = insights?.newWordsToday ?? 0;
-    const streakDays = insights?.streakDays ?? 0;
-    const retentionScore = insights?.retentionScore ?? 0;
-    const blueMetricCardClass =
-      "complete-filled complete-blue-metric min-h-[110px] rounded-[22px] px-4 py-3.5";
-    const dueChipClass =
-      "complete-due-chip inline-flex w-full min-h-[42px] items-center justify-between gap-3 rounded-[14px] border px-3.5 py-2";
-    const dueCountBadgeClass =
-      "complete-due-count inline-flex min-w-[2.1rem] items-center justify-center rounded-full px-2 text-sm font-semibold tabular-nums text-white dark:text-black";
-
+    const isTimerFinish = timerExpired;
     return (
       <div className="flex justify-center px-4 py-2">
         <div className="w-full max-w-lg">
-          <div className="rounded-[34px] border border-line/65 bg-[linear-gradient(180deg,rgba(255,255,255,0.64),rgba(255,255,255,0.46))] p-6 shadow-[0_24px_64px_rgba(30,18,10,0.08)] dark:border-line/65 dark:bg-[linear-gradient(180deg,rgba(255,255,255,0.08),rgba(255,255,255,0.02))] dark:shadow-[0_10px_26px_rgba(0,0,0,0.34)] sm:p-8">
-            {/* Stats */}
-            <div className="grid grid-cols-2 gap-3 sm:gap-3.5">
-              <div className={blueMetricCardClass}>
-                <div className="text-[10px] uppercase tracking-[0.2em] text-white dark:text-black">Cards reviewed this session</div>
-                <div className="mt-2 text-[44px] leading-none tracking-[-0.06em] text-white dark:text-black">{cardsReviewedThisSession}</div>
-              </div>
+          <div className="rounded-[32px] border border-line/70 dark:border-line/52 bg-panel/84 dark:bg-[linear-gradient(180deg,rgba(15,18,24,0.98),rgba(8,10,14,0.94))] p-6 shadow-[0_20px_60px_rgba(30,18,10,0.07)] dark:shadow-[inset_0_1px_0_rgba(255,255,255,0.04),0_8px_24px_rgba(0,0,0,0.32)] sm:p-8">
+            <h2 className="text-4xl tracking-[-0.04em]">
+              Great focus session!
+            </h2>
 
-              <div className={blueMetricCardClass}>
-                <div className="text-[10px] uppercase tracking-[0.2em] text-white dark:text-black">Time studied</div>
-                <div className="mt-2 font-mono text-[44px] leading-none tabular-nums tracking-[-0.06em] text-white dark:text-black">
+            {/* Stats */}
+            <div className="mt-6 grid grid-cols-2 gap-3">
+              <div className="rounded-[18px] bg-pine px-4 py-4">
+                <div className="text-[10px] uppercase tracking-[0.18em] text-white/70 dark:text-black/50">Time studied</div>
+                <div className="mt-2 font-mono text-4xl tabular-nums tracking-[-0.04em] text-white dark:text-black">
                   {formatTime(elapsedSeconds)}
                 </div>
               </div>
-
-              <div className={blueMetricCardClass}>
-                <div className="text-[10px] uppercase tracking-[0.2em] text-white dark:text-black">Reviewed today</div>
-                <div className="mt-2 flex items-end gap-1.5">
-                  <div className="text-[40px] leading-none tracking-[-0.06em] text-white dark:text-black">{reviewedToday}</div>
-                  <div className="pb-1 text-[11px] uppercase tracking-[0.16em] text-white dark:text-black">today</div>
-                </div>
+              <div className="rounded-[18px] bg-pine px-4 py-4">
+                <div className="text-[10px] uppercase tracking-[0.18em] text-white/70 dark:text-black/50">Cards reviewed</div>
+                <div className="mt-2 text-4xl tracking-[-0.04em] text-white dark:text-black">{cardsReviewedThisSession}</div>
               </div>
-
-              <div className={blueMetricCardClass}>
-                <div className="text-[10px] uppercase tracking-[0.2em] text-white dark:text-black">New words today</div>
-                <div className="mt-2 flex items-end gap-1.5">
-                  <div className="text-[40px] leading-none tracking-[-0.06em] text-white dark:text-black">{newWordsToday}</div>
-                  <div className="pb-1 text-[11px] uppercase tracking-[0.16em] text-white dark:text-black">today</div>
-                </div>
+              <div className="rounded-[18px] bg-pine px-4 py-4">
+                <div className="text-[10px] uppercase tracking-[0.18em] text-white/70 dark:text-black/50">Still due</div>
+                <div className="mt-2 text-4xl tracking-[-0.04em] text-white dark:text-black">{remainingCount}</div>
               </div>
-
-              <div className={blueMetricCardClass}>
-                <div className="text-[10px] uppercase tracking-[0.2em] text-white dark:text-black">Current streak</div>
-                <div className="mt-2 flex items-end gap-1.5">
-                  <div className="text-[40px] leading-none tracking-[-0.06em] text-white dark:text-black">{streakDays}</div>
-                  <div className="pb-1 text-[11px] uppercase tracking-[0.16em] text-white dark:text-black">
-                    {streakDays === 1 ? "day" : "days"}
+              {insights ? (
+                <>
+                  <div className="rounded-[18px] bg-pine px-4 py-4">
+                    <div className="text-[10px] uppercase tracking-[0.18em] text-white/70 dark:text-black/50">Reviewed today</div>
+                    <div className="mt-2 text-4xl tracking-[-0.04em] text-white dark:text-black">{insights.reviewsToday}</div>
                   </div>
-                </div>
-              </div>
-
-              <div className={blueMetricCardClass}>
-                <div className="text-[10px] uppercase tracking-[0.2em] text-white dark:text-black">Retention</div>
-                <div className="mt-2 flex items-end gap-1.5">
-                  <div className="text-[40px] leading-none tracking-[-0.06em] text-white dark:text-black">{retentionScore}</div>
-                  <div className="pb-1 text-[11px] uppercase tracking-[0.16em] text-white dark:text-black">%</div>
-                </div>
-              </div>
-
-              <div className="complete-filled complete-blue-block col-span-2 rounded-[24px] px-4 py-4 sm:px-5 sm:py-5">
-                <div className="flex flex-wrap items-start justify-between gap-3">
-                  <div>
-                    <div className="text-[10px] uppercase tracking-[0.2em] text-white dark:text-black">Still due by language</div>
+                  <div className="rounded-[18px] bg-pine px-4 py-4">
+                    <div className="text-[10px] uppercase tracking-[0.18em] text-white/70 dark:text-black/50">New words today</div>
+                    <div className="mt-2 text-4xl tracking-[-0.04em] text-white dark:text-black">{insights.newWordsToday}</div>
                   </div>
-                </div>
-                <div className="mt-3 grid grid-cols-1 gap-2.5 sm:grid-cols-2">
-                  <div className={dueChipClass}>
-                    <span className="text-[15px] font-semibold tracking-[-0.01em] text-white dark:text-black">Combined</span>
-                    <span className={dueCountBadgeClass}>{combinedDue}</span>
-                  </div>
-                  {availableLanguages.map((language) => {
-                    const due = dueByLanguage[language.code] ?? 0;
-                    return (
-                      <div key={language.code} className={dueChipClass}>
-                        <span className="text-[15px] font-semibold tracking-[-0.01em] text-white dark:text-black">{language.name}</span>
-                        <span className={dueCountBadgeClass}>{due}</span>
+                  {insights.dueByLanguage && Object.keys(insights.dueByLanguage).length > 0 && (
+                    <div className="col-span-2 rounded-[18px] bg-pine px-4 py-4">
+                      <div className="text-[10px] uppercase tracking-[0.18em] text-white/70 dark:text-black/50">Still due by language</div>
+                      <div className="mt-3 flex flex-wrap gap-2">
+                        {languageCodes.map((code) => {
+                          const lang = availableLanguages.find((l) => l.code === code);
+                          const due = insights.dueByLanguage[code] ?? 0;
+                          return (
+                            <div
+                              key={code}
+                              className="flex items-center gap-2 rounded-full border border-white/20 dark:border-black/20 bg-white/10 dark:bg-black/10 px-3 py-1.5"
+                            >
+                              <span className="text-sm font-semibold text-white dark:text-black">
+                                {lang?.name ?? code}
+                              </span>
+                              <span className="rounded-full bg-white/20 dark:bg-black/15 px-2 py-0.5 text-xs font-bold tabular-nums text-white dark:text-black">
+                                {due}
+                              </span>
+                            </div>
+                          );
+                        })}
                       </div>
-                    );
-                  })}
-                </div>
-              </div>
+                    </div>
+                  )}
+                </>
+              ) : null}
             </div>
 
+            <div className="mt-6 flex flex-wrap gap-3">
+              <Link href="/dashboard" className="button-primary">
+                Back to dashboard
+              </Link>
+              <button
+                type="button"
+                onClick={() => {
+                  clearActiveSession();
+                  setPhase("setup");
+                  setError(null);
+                  setCard(null);
+                  setSessionId(null);
+                  setSummary(null);
+                  setTimerExpired(false);
+                  setElapsedSeconds(0);
+                  setCardsReviewedThisSession(0);
+                }}
+                className="rounded-full bg-clay px-6 py-3 text-sm font-semibold text-white dark:text-black shadow-[0_14px_36px_rgba(202,114,76,0.25)] transition-[transform,opacity,box-shadow] hover:-translate-y-0.5 hover:opacity-90"
+              >
+                New session
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -1602,7 +1192,7 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
   // PHASE 2: STUDY SCREEN (Active Session)
   // =====================================================================
   return (
-    <div className="fixed inset-0 z-50 flex flex-col overflow-hidden bg-[var(--page-top)]">
+    <div className="fixed inset-x-0 top-0 z-50 flex h-[100dvh] flex-col overflow-hidden bg-[var(--page-top)]">
       {/* ---- Compact top bar ---- */}
       <div className="shrink-0 bg-paper/54 px-4 py-4 sm:px-6 sm:py-5">
        <div className="mx-auto max-w-2xl">
@@ -1612,7 +1202,7 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
             <div
               className={`font-mono text-2xl tabular-nums tracking-[-0.02em] sm:text-3xl ${
                 timeMode === "timer" && timerMinutes * 60 - elapsedSeconds <= 60
-                  ? "text-[#F56762]"
+                  ? "text-red-500"
                   : "text-ink/88"
               }`}
             >
@@ -1627,140 +1217,75 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
                 ? Object.values(insights.dueByLanguage).reduce((sum, n) => sum + n, 0)
                 : remainingCount;
               return (
-                <div className="rounded-full bg-[rgb(var(--color-gold))] px-3 py-1.5 text-sm font-semibold tabular-nums text-white dark:text-black sm:px-4 sm:py-2">
+                <div className="rounded-full bg-gold px-3 py-1.5 text-sm font-semibold tabular-nums text-white dark:text-black sm:px-4 sm:py-2">
                   {sessionDue} cards left
                 </div>
               );
             })()}
             <button
               type="button"
-              onClick={() => setSettingsOpen(true)}
-              className="flex h-8 w-8 items-center justify-center rounded-full bg-[rgb(var(--color-gold))] text-white dark:text-black transition-[transform,opacity,box-shadow] hover:opacity-90 sm:h-9 sm:w-9"
-              title="Settings"
-            >
-              <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.325.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 0 1 1.37.49l1.296 2.247a1.125 1.125 0 0 1-.26 1.431l-1.003.827c-.293.241-.438.613-.43.992a7.723 7.723 0 0 1 0 .255c-.008.378.137.75.43.991l1.004.827c.424.35.534.955.26 1.43l-1.298 2.247a1.125 1.125 0 0 1-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.47 6.47 0 0 1-.22.128c-.331.183-.581.495-.644.869l-.213 1.281c-.09.543-.56.941-1.11.941h-2.594c-.55 0-1.019-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 0 1-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 0 1-1.369-.49l-1.297-2.247a1.125 1.125 0 0 1 .26-1.431l1.004-.827c.292-.24.437-.613.43-.991a6.932 6.932 0 0 1 0-.255c.007-.38-.138-.751-.43-.992l-1.004-.827a1.125 1.125 0 0 1-.26-1.43l1.297-2.247a1.125 1.125 0 0 1 1.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.086.22-.128.332-.183.582-.495.644-.869l.214-1.28Z" />
-                <path strokeLinecap="round" strokeLinejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-              </svg>
-            </button>
-            <button
-              type="button"
               onClick={() => setPaused((prev) => !prev)}
-              className="rounded-full bg-[rgb(var(--color-gold))] px-3 py-1.5 text-sm font-semibold text-white dark:text-black transition-[transform,opacity,box-shadow] hover:opacity-90 sm:px-3.5 sm:py-2"
+              className="rounded-full bg-gold px-3 py-1.5 text-sm font-semibold text-white dark:text-black transition-[transform,opacity,box-shadow] hover:opacity-90 sm:px-3.5 sm:py-2"
             >
               {paused ? "Resume" : "Pause"}
             </button>
             <button
               type="button"
-              onClick={() => {
-                if (sessionId) {
-                  void persistCompletedSessionToServer(sessionId, Math.max(0, elapsedSeconds * 1000));
-                }
-                saveCompletedSession({
-                  elapsedSeconds,
-                  cardsReviewed: cardsReviewedThisSession,
-                  insights,
-                  completedAt: Date.now()
-                });
-                clearActiveSession();
-                setPhase("complete");
-                setCompletionRoute(true);
-              }}
-              className="rounded-full bg-[#F56762] px-3 py-1.5 text-sm font-semibold text-white dark:text-black transition-[transform,opacity,box-shadow] hover:opacity-90 sm:px-4 sm:py-2"
+              onClick={() => { clearActiveSession(); setPhase("complete"); }}
+              className="rounded-full bg-[rgb(221,82,76)] px-3 py-1.5 text-sm font-semibold text-white dark:text-black transition-[transform,opacity,box-shadow] hover:opacity-90 sm:px-4 sm:py-2"
             >
               End
             </button>
           </div>
         </div>
 
-        {/* Direction + speed controls — collapsible pills */}
-        <div className="mt-3 flex flex-wrap items-center justify-end gap-2">
+        {/* Audio controls + direction toggle */}
+        <div className="mt-3 flex flex-wrap items-center justify-between gap-2">
           {/* Direction toggle */}
-          <div
-            className="relative"
-            onMouseEnter={() => {
-              setDirectionExpanded(true);
-              setSpeedExpanded(false);
-            }}
-            onMouseLeave={() => setDirectionExpanded(false)}
-          >
-            {directionExpanded ? (
-              <div className="inline-flex rounded-full border border-line/70 bg-paper/76 p-1">
-                {directionOptions.map((option) => {
-                  const langName = card ? (availableLanguages.find((l) => l.code === card.languageCode)?.name ?? "Target") : "Target";
-                  const label = option.id === "auto" ? "Auto" : option.id === "es-to-en" ? `${langName} → En` : `En → ${langName}`;
-                  return (
-                    <button
-                      key={option.id}
-                      type="button"
-                      onClick={() => { setDirection(option.id); setDirectionExpanded(false); }}
-                      className={`rounded-full px-3 py-1.5 text-[12px] font-semibold transition-all ${
-                        direction === option.id
-                          ? "bg-night text-white dark:bg-white dark:text-night shadow-[0_10px_24px_rgba(23,18,16,0.14)]"
-                          : "text-ink/55 hover:text-ink"
-                      }`}
-                    >
-                      {label}
-                    </button>
-                  );
-                })}
-              </div>
-            ) : (
-              <button
-                type="button"
-                onClick={() => setDirectionExpanded((prev) => !prev)}
-                className="rounded-full border border-line/70 bg-paper/76 px-3.5 py-2 text-[12px] font-semibold text-ink/70 transition-all hover:border-clay/30 hover:text-clay"
-              >
-                {(() => {
-                  const langName = card ? (availableLanguages.find((l) => l.code === card.languageCode)?.name ?? "Target") : "Target";
-                  return direction === "auto" ? "Auto" : direction === "es-to-en" ? `${langName} → En` : `En → ${langName}`;
-                })()}
-              </button>
-            )}
+          <div className="inline-flex rounded-full border border-line/70 bg-paper/76 p-1">
+            {directionOptions.map((option) => {
+              const langName = card ? (availableLanguages.find((l) => l.code === card.languageCode)?.name ?? "Target") : "Target";
+              const label = option.id === "es-to-en" ? `${langName} → English` : `English → ${langName}`;
+              return (
+                <button
+                  key={option.id}
+                  type="button"
+                  onClick={() => setDirection(option.id)}
+                  className={`rounded-full px-3.5 py-1.5 text-[13px] font-semibold transition-[transform,opacity,box-shadow] ${
+                    direction === option.id
+                      ? "bg-night text-white dark:bg-white dark:text-night shadow-[0_10px_24px_rgba(23,18,16,0.14)]"
+                      : "text-ink/55"
+                  }`}
+                >
+                  {label}
+                </button>
+              );
+            })}
           </div>
 
-          {/* Speed toggle */}
-          <div
-            className="relative"
-            onMouseEnter={() => {
-              setSpeedExpanded(true);
-              setDirectionExpanded(false);
-            }}
-            onMouseLeave={() => setSpeedExpanded(false)}
-          >
-            {speedExpanded ? (
-              <div className="inline-flex items-center gap-0.5 rounded-full border border-line/70 bg-paper/50 p-0.5">
-                {AUDIO_SPEEDS.map((s) => (
-                  <button
-                    key={s.key}
-                    type="button"
-                    onClick={() => { selectAudioSpeed(s.key); setSpeedExpanded(false); }}
-                    className={`rounded-full px-1.5 py-1 text-[10px] font-semibold transition-all ${
-                      audioSpeed === s.key
-                        ? "bg-[rgb(var(--color-gold))] text-white dark:text-black shadow-sm"
-                        : "text-ink/58 hover:text-gold"
-                    }`}
-                  >
-                    {s.label}
-                  </button>
-                ))}
-              </div>
-            ) : (
-              <button
-                type="button"
-                onClick={() => setSpeedExpanded((prev) => !prev)}
-                className="rounded-full border border-line/70 bg-paper/50 px-3 py-1.5 text-[11px] font-semibold text-gold transition-all hover:border-gold/30"
-              >
-                {AUDIO_SPEEDS.find((s) => s.key === audioSpeed)?.label ?? "1×"}
-              </button>
-            )}
+          {/* Audio controls */}
+          <div className="flex items-center gap-1.5">
+            <div className="flex items-center gap-0.5 rounded-full border border-line/70 bg-paper/50 p-0.5">
+              {AUDIO_SPEEDS.map((s) => (
+                <button
+                  key={s.key}
+                  type="button"
+                  onClick={() => selectAudioSpeed(s.key)}
+                  className={`rounded-full px-1.5 py-1 text-[10px] font-semibold transition-[transform,opacity,box-shadow] ${
+                    audioSpeed === s.key
+                      ? "bg-clay text-white dark:text-black shadow-sm"
+                      : "text-ink/58 hover:text-clay"
+                  }`}
+                  title={`Audio speed: ${s.label}`}
+                >
+                  {s.label}
+                </button>
+              ))}
+            </div>
           </div>
         </div>
        </div>
       </div>
-
-      {/* ---- Settings overlay ---- */}
-      <SettingsOverlay open={settingsOpen} onClose={() => setSettingsOpen(false)} />
 
       {/* ---- Pause overlay ---- */}
       {paused && (
@@ -1773,11 +1298,7 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
             <button
               type="button"
               onClick={() => setPaused(false)}
-              className="mt-8 rounded-full px-10 py-3.5 text-base font-semibold text-white dark:text-black transition-[transform,opacity,box-shadow,filter] hover:-translate-y-0.5 hover:brightness-95"
-              style={{
-                backgroundColor: "rgb(var(--color-accent))",
-                boxShadow: "0 14px 36px rgb(var(--color-accent) / 0.3)"
-              }}
+              className="mt-8 rounded-full bg-[#FF991C] px-10 py-3.5 text-base font-semibold text-white shadow-[0_14px_36px_rgba(255,153,28,0.3)] transition-[transform,opacity,box-shadow] hover:-translate-y-0.5 hover:opacity-90"
             >
               Resume
             </button>
@@ -1787,7 +1308,7 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
       )}
 
       {/* ---- Main study area ---- */}
-      <div className="mx-auto flex min-h-0 w-full max-w-2xl flex-1 flex-col px-2 pt-3 short:pt-1 pb-0 sm:px-3 sm:pt-6 sm:pb-0">
+      <div className="mx-auto flex min-h-0 w-full max-w-2xl flex-1 flex-col px-2 pt-6 pb-0 sm:px-3 sm:pt-10 sm:pb-0">
         {loading ? <p className="text-sm text-ink/60">Building your study queue...</p> : null}
 
         {error ? (
@@ -1797,30 +1318,17 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
         {!loading && card ? (
           <article className="flex min-h-0 flex-1 flex-col overflow-hidden">
             {/* Card content — scrollable if answer is long */}
-            <div
-              ref={contentScrollRef}
-              className={`flex min-h-0 flex-1 flex-col items-center overflow-y-auto overscroll-contain ${
-                compactRecoveryLayout ? "px-3 pt-1 pb-2 sm:px-4 sm:pt-2 sm:pb-3" : "p-4 sm:p-5"
-              }`}
-            >
-             <div
-               className={`flex min-h-full w-full flex-col items-center ${
-                 shouldCenterMainContent
-                   ? "justify-center"
-                   : compactRecoveryLayout
-                     ? "my-auto -translate-y-3 sm:-translate-y-4"
-                     : "my-auto"
-               }`}
-             >
+            <div className="flex flex-1 flex-col items-center overflow-y-auto overscroll-contain p-4 sm:p-5">
+             <div className="my-auto flex w-full flex-col items-center">
               {/* Section 1: Word + pronunciation */}
               <div className="flex w-full flex-col items-center text-center">
                 <div>
-                  {!useChineseFlow && effectiveDirection === "en-to-es" && (
+                  {!useChineseFlow && direction === "en-to-es" && (
                     <div className="mb-2 text-xs uppercase tracking-[0.22em] text-ink/35">
                       {availableLanguages.find((l) => l.code === card.languageCode)?.name ?? "Language"}
                     </div>
                   )}
-                  <div className="max-w-3xl pt-1 text-6xl leading-[1.12] tracking-[-0.05em] sm:text-7xl">
+                  <div className="max-w-3xl text-6xl tracking-[-0.05em] sm:text-7xl">
                     {useChineseFlow ? card.displayForm : prompt}
                   </div>
                   {showChinesePronunciation ? (
@@ -1840,7 +1348,7 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
               {showingAnswer ? (
                 <div className="w-full max-w-lg">
                   {/* Section 2: Translations */}
-                  <div className={`text-center ${compactRecoveryLayout ? "mt-5 sm:mt-6" : "mt-8 sm:mt-10"}`}>
+                  <div className="mt-8 text-center sm:mt-10">
                     {useChineseFlow ? (
                       <div className="flex flex-wrap justify-center gap-x-5 gap-y-2 text-3xl tracking-[-0.04em]">
                         <span>{card.primaryGloss}</span>
@@ -1848,7 +1356,7 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
                           <span key={gloss}>{gloss}</span>
                         ))}
                       </div>
-                    ) : effectiveDirection === "es-to-en" ? (
+                    ) : direction === "es-to-en" ? (
                       <div className="text-3xl tracking-[-0.04em]">{card.primaryGloss}</div>
                     ) : (
                       <div className="text-4xl tracking-[-0.05em]">{card.displayForm}</div>
@@ -1856,27 +1364,8 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
                   </div>
 
                   {/* Section 3: Example sentence */}
-                  <div
-                    ref={examplePanelRef}
-                    className={`rounded-[24px] border border-line/70 bg-panel/76 p-5 ${
-                      compactRecoveryLayout ? "mt-4 sm:mt-5" : "mt-6 sm:mt-8"
-                    }`}
-                  >
-                    <div className="text-2xl leading-9 sm:text-3xl sm:leading-10">
-                      {card.exampleTokens ? (
-                        <ChineseSentencePreview
-                          tokens={card.exampleTokens}
-                          sessionId={sessionId}
-                          onLearned={(result) => {
-                            if (result.sessionInjected) {
-                              setRemainingCount((count) => count + 1);
-                            }
-                          }}
-                        />
-                      ) : (
-                        card.example
-                      )}
-                    </div>
+                  <div className="mt-6 rounded-[24px] border border-line/70 bg-panel/76 p-5 sm:mt-8">
+                    <div className="text-2xl leading-9 sm:text-3xl sm:leading-10">{card.example}</div>
                     <button
                       type="button"
                       onClick={() => !translationRevealed && setTranslationRevealed(true)}
@@ -1901,40 +1390,39 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
                           transition: "opacity 0.4s ease-out, transform 0.4s ease-out",
                         }}
                       >
-                        <span className="rounded-full bg-paper/90 px-3 py-1 text-xs font-medium tracking-wide text-ink/50">tap or press shift</span>
+                        <span className="rounded-full bg-paper/90 px-3 py-1 text-xs font-medium tracking-wide text-ink/50">tap to reveal</span>
                       </span>
                     </button>
                   </div>
                 </div>
               ) : null}
-
              </div>
             </div>
 
             {/* Rating buttons — pinned to bottom */}
-            <div
-              ref={actionDockRef}
-              className={`shrink-0 ${
-                compactRecoveryLayout
-                  ? "px-3 pt-1 pb-[max(0.75rem,env(safe-area-inset-bottom))] sm:px-4 sm:pt-2 sm:pb-[max(1.25rem,env(safe-area-inset-bottom))]"
-                  : "p-3 pb-[max(0.75rem,env(safe-area-inset-bottom))] sm:px-4 sm:pt-4 sm:pb-[max(1.5rem,env(safe-area-inset-bottom))]"
-              }`}
-            >
-              {activeStudyPrompt ? (
-                <div className="mb-3 text-center text-lg tracking-[-0.04em] text-ink/88">
-                  {activeStudyPrompt}
-                </div>
-              ) : null}
+            <div className="shrink-0 p-3 pb-[max(0.75rem,env(safe-area-inset-bottom))] sm:px-4 sm:pt-4 sm:pb-[max(1.5rem,env(safe-area-inset-bottom))]">
               {useChineseFlow ? (
                 <div className="space-y-4">
+                  {studyCardStep !== 1 && (
+                    <div className="text-center text-lg tracking-[-0.04em] text-ink/88">
+                      {chineseStage === "pronunciation-guess" && "Did you know this pronunciation?"}
+                      {chineseStage === "pronunciation-confirm" &&
+                        (pronunciationGuessChoice === "dont-know"
+                          ? "Study the pronunciation once."
+                          : "Did you know the pronunciation?")}
+                      {chineseStage === "definition-guess" && "What is the definition of this word?"}
+                      {chineseStage === "definition-confirm" &&
+                        (definitionGuessChoice === "dont-know"
+                          ? ""
+                          : "Did you know the definition?")}
+                    </div>
+                  )}
                   {(chineseStudyStepActive || studyCardStep === 1) ? (
                     <StudyRecoveryPanel
                       title="You forgot this word."
                       body="Take a moment to study it."
                       actionLabel="I'm done studying it"
                       onAction={() => void submitReview(1)}
-                      compact={compactRecoveryLayout}
-                      compactSideActions={compactRecoveryLayout ? compactRecoverySideActions : undefined}
                     />
                   ) : (
                     <div className="grid grid-cols-2 gap-2">
@@ -1947,7 +1435,7 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
                                 ? advanceChinesePronunciationGuess("dont-know")
                                 : advanceChineseDefinitionGuess("dont-know")
                             }
-                            className="rounded-[18px] bg-[rgb(var(--color-gold))] px-4 py-3 text-center text-white dark:text-black transition-[transform,opacity,box-shadow] hover:-translate-y-0.5 hover:opacity-90 hover:shadow-[0_12px_28px_rgb(var(--color-gold)/0.2)]"
+                            className="rounded-[18px] bg-gold px-4 py-3 text-center text-white dark:text-black transition-[transform,opacity,box-shadow] hover:-translate-y-0.5 hover:opacity-90 hover:shadow-[0_12px_28px_rgba(166,145,112,0.08)]"
                           >
                             <span className="mt-1 block text-xl font-semibold tracking-[-0.03em]">← I don&apos;t know</span>
                           </button>
@@ -1958,7 +1446,7 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
                                 ? advanceChinesePronunciationGuess("think-know")
                                 : advanceChineseDefinitionGuess("think-know")
                             }
-                            className="rounded-[18px] bg-clay px-4 py-3 text-center text-white dark:text-black transition-[transform,opacity,box-shadow] hover:-translate-y-0.5 hover:opacity-90 hover:shadow-[0_12px_28px_rgb(var(--color-clay)/0.22)]"
+                            className="rounded-[18px] bg-clay px-4 py-3 text-center text-white dark:text-black transition-[transform,opacity,box-shadow] hover:-translate-y-0.5 hover:opacity-90 hover:shadow-[0_12px_28px_rgba(198,124,92,0.14)]"
                           >
                             <span className="mt-1 block text-xl font-semibold tracking-[-0.03em]">I think I know →</span>
                           </button>
@@ -1974,7 +1462,7 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
                               }
                               setStudyCardStep(1);
                             }}
-                            className="rounded-[18px] bg-[rgb(var(--color-gold))] px-4 py-3 text-center text-white dark:text-black transition-[transform,opacity,box-shadow] hover:-translate-y-0.5 hover:opacity-90 hover:shadow-[0_12px_28px_rgb(var(--color-gold)/0.2)]"
+                            className="rounded-[18px] bg-gold px-4 py-3 text-center text-white dark:text-black transition-[transform,opacity,box-shadow] hover:-translate-y-0.5 hover:opacity-90 hover:shadow-[0_12px_28px_rgba(166,145,112,0.08)]"
                           >
                             <span className="mt-1 block text-2xl font-semibold tracking-[-0.03em]">← No</span>
                           </button>
@@ -1985,7 +1473,7 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
                                 ? confirmChinesePronunciation(true)
                                 : void confirmChineseDefinition(true)
                             }
-                            className={positiveDecisionClass}
+                            className="rounded-[18px] bg-clay px-4 py-3 text-center text-white dark:text-black transition-[transform,opacity,box-shadow] hover:-translate-y-0.5 hover:opacity-90 hover:shadow-[0_12px_28px_rgba(198,124,92,0.14)]"
                           >
                             <span className="mt-1 block text-2xl font-semibold tracking-[-0.03em]">Yes →</span>
                           </button>
@@ -1997,29 +1485,19 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
               ) : isNewCard ? (
                 !revealed ? (
                   <div className="space-y-4">
+                    <div className="text-center text-lg tracking-[-0.04em] text-ink/88">Do you know this word?</div>
                     <div className="grid grid-cols-2 gap-2">
                       <button
                         type="button"
-                        onClick={() => {
-                          setRevealed(true);
-                          setStudyCardStep(1);
-                          if (shouldPlayWordOnFirstDecision()) void playAudio("term");
-                        }}
-                        className="rounded-[18px] bg-[rgb(var(--color-gold))] px-4 py-3 text-center text-white dark:text-black transition-[transform,opacity,box-shadow] hover:-translate-y-0.5 hover:opacity-90 hover:shadow-[0_12px_28px_rgb(var(--color-gold)/0.2)]"
+                        onClick={() => { setRevealed(true); setStudyCardStep(1); }}
+                        className="rounded-[18px] bg-gold px-4 py-3 text-center text-white dark:text-black transition-[transform,opacity,box-shadow] hover:-translate-y-0.5 hover:opacity-90 hover:shadow-[0_12px_28px_rgba(166,145,112,0.08)]"
                       >
                         <span className="mt-1 block text-xl font-semibold tracking-[-0.03em]">← Don&apos;t know</span>
                       </button>
                       <button
                         type="button"
-                        onClick={() => {
-                          setRevealed(true);
-                          if (shouldPlayWordOnFirstDecision()) {
-                            void playAudio("term");
-                          } else {
-                            void submitReview(3);
-                          }
-                        }}
-                        className="rounded-[18px] bg-clay px-4 py-3 text-center text-white dark:text-black transition-[transform,opacity,box-shadow] hover:-translate-y-0.5 hover:opacity-90 hover:shadow-[0_12px_28px_rgb(var(--color-clay)/0.22)]"
+                        onClick={() => { setRevealed(true); void submitReview(3); }}
+                        className="rounded-[18px] bg-clay px-4 py-3 text-center text-white dark:text-black transition-[transform,opacity,box-shadow] hover:-translate-y-0.5 hover:opacity-90 hover:shadow-[0_12px_28px_rgba(198,124,92,0.14)]"
                       >
                         <span className="mt-1 block text-xl font-semibold tracking-[-0.03em]">I know →</span>
                       </button>
@@ -2031,43 +1509,23 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
                     body="Take a moment to study it."
                     actionLabel="I'm done studying it"
                     onAction={() => void submitReview(1)}
-                    compact={compactRecoveryLayout}
-                    compactSideActions={compactRecoveryLayout ? compactRecoverySideActions : undefined}
                   />
-                ) : (
-                  <div className="space-y-4">
-                    <div className="grid grid-cols-2 gap-2">
-                      <button
-                        type="button"
-                        onClick={() => setStudyCardStep(1)}
-                        className="rounded-[18px] bg-[rgb(var(--color-gold))] px-4 py-3 text-center text-white dark:text-black transition-[transform,opacity,box-shadow] hover:-translate-y-0.5 hover:opacity-90 hover:shadow-[0_12px_28px_rgb(var(--color-gold)/0.2)]"
-                      >
-                        <span className="block text-2xl font-semibold tracking-[-0.03em]">← No</span>
-                      </button>
-                    <button
-                      type="button"
-                      onClick={() => void submitReview(3)}
-                      className={positiveDecisionClass}
-                    >
-                      <span className="block text-2xl font-semibold tracking-[-0.03em]">Yes →</span>
-                    </button>
-                    </div>
-                  </div>
-                )
+                ) : null
               ) : !revealed ? (
                 <div className="space-y-4">
+                  <div className="text-center text-lg tracking-[-0.04em] text-ink/88">Do you think you know it?</div>
                   <div className="grid grid-cols-2 gap-2">
                     <button
                       type="button"
                       onClick={() => advanceStandardGuess("dont-know")}
-                      className="rounded-[18px] bg-[rgb(var(--color-gold))] px-4 py-3 text-center text-white dark:text-black transition-[transform,opacity,box-shadow] hover:-translate-y-0.5 hover:opacity-90 hover:shadow-[0_12px_28px_rgb(var(--color-gold)/0.2)]"
+                      className="rounded-[18px] bg-gold px-4 py-3 text-center text-white dark:text-black transition-[transform,opacity,box-shadow] hover:-translate-y-0.5 hover:opacity-90 hover:shadow-[0_12px_28px_rgba(166,145,112,0.08)]"
                     >
                       <span className="mt-1 block text-xl font-semibold tracking-[-0.03em]">← I don&apos;t know</span>
                     </button>
                     <button
                       type="button"
                       onClick={() => advanceStandardGuess("think-know")}
-                      className="rounded-[18px] bg-clay px-4 py-3 text-center text-white dark:text-black transition-[transform,opacity,box-shadow] hover:-translate-y-0.5 hover:opacity-90 hover:shadow-[0_12px_28px_rgb(var(--color-clay)/0.22)]"
+                      className="rounded-[18px] bg-clay px-4 py-3 text-center text-white dark:text-black transition-[transform,opacity,box-shadow] hover:-translate-y-0.5 hover:opacity-90 hover:shadow-[0_12px_28px_rgba(198,124,92,0.14)]"
                     >
                       <span className="mt-1 block text-xl font-semibold tracking-[-0.03em]">I think I know →</span>
                     </button>
@@ -2079,11 +1537,10 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
                   body="Take a moment to study it."
                   actionLabel="I'm done studying it"
                   onAction={() => void submitReview(1)}
-                  compact={compactRecoveryLayout}
-                  compactSideActions={compactRecoveryLayout ? compactRecoverySideActions : undefined}
                 />
               ) : (
                 <div className="space-y-4">
+                  <div className="text-center text-lg tracking-[-0.04em] text-ink/88">Did you know it?</div>
                   <div className="grid grid-cols-2 gap-2">
                     {[
                       {
@@ -2091,14 +1548,14 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
                         hint: "",
                         rating: 1 as BinaryRating,
                         tone:
-                          "bg-[rgb(var(--color-gold))] text-white dark:text-black hover:-translate-y-0.5 hover:opacity-90 hover:shadow-[0_12px_28px_rgb(var(--color-gold)/0.2)] transition-[transform,opacity,box-shadow]"
+                          "bg-gold text-white dark:text-black hover:-translate-y-0.5 hover:opacity-90 hover:shadow-[0_12px_28px_rgba(166,145,112,0.08)] transition-[transform,opacity,box-shadow]"
                       },
                       {
                         label: "Yes →",
                         hint: "",
                         rating: 3 as BinaryRating,
                         tone:
-                          "bg-clay text-white dark:text-black hover:-translate-y-0.5 hover:opacity-90 hover:shadow-[0_12px_28px_rgb(var(--color-clay)/0.22)] transition-[transform,opacity,box-shadow]"
+                          "bg-clay text-white dark:text-black hover:-translate-y-0.5 hover:opacity-90 hover:shadow-[0_12px_28px_rgba(198,124,92,0.14)] transition-[transform,opacity,box-shadow]"
                       }
                     ].map((option) => (
                       <button
@@ -2115,12 +1572,12 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
               )}
 
               {/* Audio buttons — always visible */}
-              <div className={`mt-3 short:mt-2 grid grid-cols-2 gap-2 ${compactRecoveryLayout ? "hidden" : ""}`}>
+              <div className="mt-3 grid grid-cols-2 gap-2">
                 <button
                   type="button"
                   onClick={() => void playWordAudio()}
                   disabled={!canPlayWordAudio}
-                  className={`rounded-[20px] border border-line/70 bg-paper/76 px-4 py-4 short:py-2.5 text-base short:text-sm font-semibold transition-[transform,opacity,box-shadow] ${
+                  className={`rounded-[20px] border border-line/70 bg-paper/76 px-4 py-4 text-base font-semibold transition-[transform,opacity,box-shadow] ${
                     canPlayWordAudio
                       ? "text-ink/68 hover:border-clay/35 hover:text-clay"
                       : "cursor-not-allowed text-ink/34 opacity-60"
@@ -2132,7 +1589,7 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
                   type="button"
                   onClick={() => void playSentenceAudio()}
                   disabled={!canPlaySentenceAudio}
-                  className={`rounded-[20px] border border-line/70 bg-paper/76 px-4 py-4 short:py-2.5 text-base short:text-sm font-semibold transition-[transform,opacity,box-shadow] ${
+                  className={`rounded-[20px] border border-line/70 bg-paper/76 px-4 py-4 text-base font-semibold transition-[transform,opacity,box-shadow] ${
                     canPlaySentenceAudio
                       ? "text-ink/68 hover:border-clay/35 hover:text-clay"
                       : "cursor-not-allowed text-ink/34 opacity-60"

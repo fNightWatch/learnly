@@ -2,32 +2,25 @@
 
 import argparse
 import json
-import os
 import re
-import unicodedata
 from pathlib import Path
 
 import pdfplumber
 
 
-ROOT = Path(os.path.dirname(os.path.dirname(__file__)))
+ROOT = Path(__file__).resolve().parent.parent
 
 RANK_X_MAX = 150
 CHINESE_X_MAX = 230
 PINYIN_X_MAX = 330
-LEVEL4_RANK_X_MAX = 80
-LEVEL4_CHINESE_X_MAX = 150
-LEVEL4_PINYIN_X_MAX = 240
-LEVEL4_POS_X_MAX = 360
 CONTENT_TOP_MIN = 70
 CONTENT_TOP_MAX = 780
-ROW_TOP_TOLERANCE = 2.5
+ROW_TOP_TOLERANCE = 1.5
 
 ANNOTATION_RE = re.compile(r"（([^）]+)）")
 LEADING_RANK_RE = re.compile(r"^(\d+)(.*)$")
 CHINESE_CHAR_RE = re.compile(r"[\u3400-\u9fff]")
 FOOTNOTE_RE = re.compile(r"[¹²³⁴⁵⁶⁷⁸⁹⁰]")
-WHITESPACE_RE = re.compile(r"\s+")
 POS_MAP = {
     "形": "adjective",
     "动": "verb",
@@ -41,72 +34,6 @@ POS_MAP = {
     "叹": "interjection",
     "数": "numeral",
 }
-ENGLISH_POS_MAP = {
-    "adjective": "adjective",
-    "adverb": "adverb",
-    "classifier": "measure word",
-    "conjunction": "conjunction",
-    "interjection": "interjection",
-    "measure word": "measure word",
-    "noun": "noun",
-    "numeral": "numeral",
-    "particle": "particle",
-    "preposition": "preposition",
-    "pronoun": "pronoun",
-    "verb": "verb",
-}
-DISPLAY_FORM_FIXUPS = {
-    "劳verb": "劳动",
-}
-
-
-def normalize_text(text: str) -> str:
-    return unicodedata.normalize("NFKC", text).strip()
-
-
-def normalize_display_form(display_form: str) -> str:
-    cleaned = ANNOTATION_RE.sub("", normalize_text(display_form))
-    cleaned = WHITESPACE_RE.sub("", cleaned)
-    return DISPLAY_FORM_FIXUPS.get(cleaned, cleaned)
-
-
-def normalize_pronunciation(pronunciation: str) -> str:
-    cleaned = normalize_text(pronunciation)
-    cleaned = re.sub(r"\s*-\s*", "-", cleaned)
-    return WHITESPACE_RE.sub(" ", cleaned).strip(" ;,")
-
-
-def contains_latin(text: str) -> bool:
-    for char in text:
-        if "LATIN" in unicodedata.name(char, ""):
-            return True
-    return False
-
-
-def normalize_chinese_pos(pos_text: str) -> tuple[str, str] | None:
-    cleaned = normalize_text(pos_text).replace(" ", "")
-    if not cleaned:
-        return None
-
-    parts = [part for part in re.split(r"[、,;/]", cleaned) if part]
-    if not parts or any(part not in POS_MAP for part in parts):
-        return None
-
-    normalized_parts = []
-    for part in parts:
-        mapped = POS_MAP[part]
-        if mapped not in normalized_parts:
-            normalized_parts.append(mapped)
-
-    normalized = ", ".join(normalized_parts)
-    return (
-        normalized,
-        f"Imported from the source PDF. The source marks this entry as {normalized}.",
-    )
-
-
-def looks_like_chinese_pos_label(text: str) -> bool:
-    return normalize_chinese_pos(text) is not None
 
 
 def group_words_into_lines(page_words: list[dict]) -> list[list[dict]]:
@@ -115,8 +42,6 @@ def group_words_into_lines(page_words: list[dict]) -> list[list[dict]]:
         for word in page_words
         if CONTENT_TOP_MIN <= word["top"] <= CONTENT_TOP_MAX
     ]
-    for word in content_words:
-        word["text"] = normalize_text(word["text"])
     content_words.sort(key=lambda item: (item["top"], item["x0"]))
 
     lines: list[list[dict]] = []
@@ -138,64 +63,6 @@ def group_words_into_lines(page_words: list[dict]) -> list[list[dict]]:
     return lines
 
 
-def uses_level4_layout(page_words: list[dict]) -> bool:
-    header_tokens = {
-        normalize_text(word["text"]).upper()
-        for word in page_words
-        if word["top"] <= 140
-    }
-    if {"PART", "SPEECH", "TRANSLATION"}.issubset(header_tokens):
-        return True
-
-    pos_hits = 0
-    for word in page_words:
-        raw_text = normalize_text(word["text"])
-        text = raw_text.lower()
-        if not (240 <= word["x0"] <= 360):
-            continue
-        if any(label in text for label in ENGLISH_POS_MAP) or looks_like_chinese_pos_label(raw_text):
-            pos_hits += 1
-            if pos_hits >= 3:
-                return True
-    return False
-
-
-def split_line_by_layout(line: list[dict], has_pos_column: bool) -> tuple[list[str], list[str], list[str], list[str], list[str]]:
-    rank_parts: list[str] = []
-    chinese_parts: list[str] = []
-    pinyin_parts: list[str] = []
-    pos_parts: list[str] = []
-    english_parts: list[str] = []
-
-    for token in line:
-        text = normalize_text(token["text"])
-        if not text:
-            continue
-        x0 = token["x0"]
-        if has_pos_column:
-            if x0 < LEVEL4_RANK_X_MAX:
-                rank_parts.append(text)
-            elif x0 < LEVEL4_CHINESE_X_MAX:
-                chinese_parts.append(text)
-            elif x0 < LEVEL4_PINYIN_X_MAX:
-                pinyin_parts.append(text)
-            elif x0 < LEVEL4_POS_X_MAX:
-                pos_parts.append(text)
-            else:
-                english_parts.append(text)
-        else:
-            if x0 < RANK_X_MAX:
-                rank_parts.append(text)
-            elif x0 < CHINESE_X_MAX:
-                chinese_parts.append(text)
-            elif x0 < PINYIN_X_MAX:
-                pinyin_parts.append(text)
-            else:
-                english_parts.append(text)
-
-    return rank_parts, chinese_parts, pinyin_parts, pos_parts, english_parts
-
-
 def parse_english_glosses(english: str) -> tuple[str, list[str]]:
     cleaned = re.sub(r"\s+", " ", english).strip(" ;,")
     parts = [part.strip() for part in re.split(r"\s*[;,]\s*", cleaned) if part.strip()]
@@ -204,35 +71,7 @@ def parse_english_glosses(english: str) -> tuple[str, list[str]]:
     return parts[0], parts[1:]
 
 
-def normalize_english_pos(pos_text: str) -> tuple[str, str] | None:
-    cleaned = normalize_text(pos_text)
-    cleaned = cleaned.replace("、", ", ")
-    cleaned = re.sub(r"\s+", " ", cleaned).strip(" ;,")
-    if not cleaned:
-        return None
-
-    parts = [part.strip(" ()") for part in re.split(r"[;,]", cleaned) if part.strip(" ()")]
-    normalized_parts = []
-    for part in parts:
-        lowered = part.lower()
-        mapped = ENGLISH_POS_MAP.get(lowered, lowered)
-        if mapped not in normalized_parts:
-            normalized_parts.append(mapped)
-
-    normalized = ", ".join(normalized_parts) if normalized_parts else "unknown"
-    return (
-        normalized,
-        f"Imported from the source PDF. The source marks this entry as {normalized}.",
-    )
-
-
-def parse_pos(display_form: str, primary_gloss: str, pos_text: str = "") -> tuple[str, str]:
-    chinese_pos = normalize_chinese_pos(pos_text)
-    if chinese_pos:
-        return chinese_pos
-    english_pos = normalize_english_pos(pos_text)
-    if english_pos:
-        return english_pos
+def parse_pos(display_form: str, primary_gloss: str) -> tuple[str, str]:
     match = ANNOTATION_RE.search(display_form)
     if match:
         code = match.group(1)
@@ -249,26 +88,6 @@ def parse_pos(display_form: str, primary_gloss: str, pos_text: str = "") -> tupl
     )
 
 
-def validate_output_rows(rows: list[dict]) -> None:
-    malformed = []
-    for row in rows:
-        display_form = row["display_form"]
-        pronunciation = row["pronunciation"]
-        if not display_form:
-            malformed.append((row["rank"], "empty display_form"))
-            continue
-        if contains_latin(display_form):
-            malformed.append((row["rank"], f"display_form still contains pinyin or Latin text: {display_form}"))
-        if not pronunciation:
-            malformed.append((row["rank"], "missing pronunciation"))
-        elif looks_like_chinese_pos_label(pronunciation):
-            malformed.append((row["rank"], f"pronunciation still looks like a POS label: {pronunciation}"))
-
-    if malformed:
-        preview = ", ".join(f"{rank} ({reason})" for rank, reason in malformed[:12])
-        raise ValueError(f"Malformed extracted rows detected: {preview}")
-
-
 def extract_rows(pdf_path: Path) -> list[dict]:
     rows: list[dict] = []
     current: dict | None = None
@@ -276,17 +95,29 @@ def extract_rows(pdf_path: Path) -> list[dict]:
     with pdfplumber.open(str(pdf_path)) as pdf:
         for page in pdf.pages:
             words = page.extract_words(use_text_flow=False)
-            has_pos_column = uses_level4_layout(words)
             for line in group_words_into_lines(words):
-                rank_parts, chinese_parts, pinyin_parts, pos_parts, english_parts = split_line_by_layout(
-                    line,
-                    has_pos_column,
-                )
+                rank_parts: list[str] = []
+                chinese_parts: list[str] = []
+                pinyin_parts: list[str] = []
+                english_parts: list[str] = []
+
+                for token in line:
+                    text = token["text"].strip()
+                    if not text:
+                        continue
+                    x0 = token["x0"]
+                    if x0 < RANK_X_MAX:
+                        rank_parts.append(text)
+                    elif x0 < CHINESE_X_MAX:
+                        chinese_parts.append(text)
+                    elif x0 < PINYIN_X_MAX:
+                        pinyin_parts.append(text)
+                    else:
+                        english_parts.append(text)
 
                 rank_text = "".join(rank_parts)
-                chinese_text = normalize_text("".join(chinese_parts))
+                chinese_text = "".join(chinese_parts)
                 pinyin_text = " ".join(pinyin_parts).strip()
-                pos_text = " ".join(pos_parts).strip()
                 english_text = " ".join(english_parts).strip()
 
                 rank_number = ""
@@ -306,18 +137,12 @@ def extract_rows(pdf_path: Path) -> list[dict]:
                         "rank": int(rank_number),
                         "display_form": chinese_text,
                         "pronunciation": pinyin_text,
-                        "pos_text": pos_text,
                         "english": english_text,
                     }
                     continue
 
-                if current and not rank_text and not chinese_text:
-                    if pinyin_text:
-                        current["pronunciation"] = f"{current['pronunciation']} {pinyin_text}".strip()
-                    if pos_text:
-                        current["pos_text"] = f"{current['pos_text']} {pos_text}".strip()
-                    if english_text:
-                        current["english"] = f"{current['english']} {english_text}".strip()
+                if current and not rank_text and not chinese_text and not pinyin_text and english_text:
+                    current["english"] = f"{current['english']} {english_text}".strip()
 
         if current:
             rows.append(current)
@@ -330,19 +155,18 @@ def extract_rows(pdf_path: Path) -> list[dict]:
     output_rows = []
     for row in rows:
         primary_gloss, secondary_glosses = parse_english_glosses(row["english"])
-        pos, notes = parse_pos(row["display_form"], primary_gloss, row.get("pos_text", ""))
+        pos, notes = parse_pos(row["display_form"], primary_gloss)
         output_rows.append(
             {
                 "rank": row["rank"],
-                "display_form": normalize_display_form(row["display_form"]),
-                "pronunciation": normalize_pronunciation(row["pronunciation"]),
+                "display_form": row["display_form"],
+                "pronunciation": row["pronunciation"],
                 "pos": pos,
                 "primary_gloss": primary_gloss,
                 "secondary_glosses": secondary_glosses,
                 "notes": notes,
             }
         )
-    validate_output_rows(output_rows)
     return output_rows
 
 

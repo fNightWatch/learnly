@@ -17,8 +17,8 @@ export function OnboardingForm() {
     const loadData = async () => {
       try {
         const [settingsResponse, ...planResponses] = await Promise.all([
-          fetch("/api/settings", { cache: "no-store" }),
-          ...dailyOptions.map((option) => fetch(`/api/plan?dailyGoal=${option}`, { cache: "no-store" }))
+          fetch("/api/settings"),
+          ...dailyOptions.map((option) => fetch(`/api/plan?dailyGoal=${option}`))
         ]);
 
         if (!settingsResponse.ok || planResponses.some((response) => !response.ok)) {

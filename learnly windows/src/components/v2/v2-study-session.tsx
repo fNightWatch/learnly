@@ -118,9 +118,13 @@ export function V2StudySession() {
 
   const stopAudio = () => {
     if (audioRef.current) {
+      const objectUrl = audioRef.current.dataset.objectUrl;
       audioRef.current.pause();
       audioRef.current.currentTime = 0;
       audioRef.current = null;
+      if (objectUrl) {
+        URL.revokeObjectURL(objectUrl);
+      }
     }
 
     if (typeof window !== "undefined" && "speechSynthesis" in window) {
@@ -163,13 +167,36 @@ export function V2StudySession() {
 
     const mode = revealed ? "example" : "term";
     const source = buildAudioUrl(card.itemId, mode, mode === "example" ? card.exampleIndex : undefined);
-    const audio = new Audio(source);
+    let audioSource = source;
+
+    try {
+      const response = await fetch(source, { cache: "force-cache" });
+      if (response.ok) {
+        const blob = await response.blob();
+        if (blob.type.startsWith("audio/")) {
+          audioSource = URL.createObjectURL(blob);
+        }
+      }
+    } catch {
+      // Fall back to browser speech below.
+    }
+
+    if (audioSource === source) {
+      playFallbackSpeech(revealed ? card.example : card.displayForm);
+      return;
+    }
+
+    const audio = new Audio(audioSource);
+    audio.dataset.objectUrl = audioSource;
     audio.playbackRate = AUDIO_SPEED_RATES[audioSpeed];
     audioRef.current = audio;
+    audio.addEventListener("ended", () => URL.revokeObjectURL(audioSource), { once: true });
+    audio.addEventListener("error", () => URL.revokeObjectURL(audioSource), { once: true });
 
     try {
       await audio.play();
-    } catch (audioError) {
+    } catch {
+      URL.revokeObjectURL(audioSource);
       playFallbackSpeech(revealed ? card.example : card.displayForm);
     }
   };

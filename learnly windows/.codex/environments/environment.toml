@@ -6,25 +6,9 @@ name = "learnly"
 script = ""
 
 [[actions]]
-name = "Run Web"
+name = "Run"
 icon = "run"
 command = '''
 cd /Users/moi/Desktop/business/learnly
 npm run dev
-'''
-
-[[actions]]
-name = "Run macOS"
-icon = "run"
-command = '''
-cd /Users/moi/Desktop/business/learnly
-./script/build_and_run_macos.sh
-'''
-
-[[actions]]
-name = "Run iOS"
-icon = "run"
-command = '''
-cd /Users/moi/Desktop/business/learnly
-./script/build_and_run_ios.sh
 '''
