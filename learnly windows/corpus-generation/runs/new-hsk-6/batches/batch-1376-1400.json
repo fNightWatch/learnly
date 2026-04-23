@@ -1,0 +1,351 @@
+[
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1376",
+    "rank": 1376,
+    "display_form": "委托",
+    "lemma": "委托",
+    "generation_form": "委托",
+    "pronunciation": "wěituō",
+    "pos": "verb",
+    "primary_gloss": "to entrust",
+    "secondary_glosses": [
+      "to commission"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1377",
+    "rank": 1377,
+    "display_form": "未",
+    "lemma": "未",
+    "generation_form": "未",
+    "pronunciation": "wèi",
+    "pos": "adverb",
+    "primary_gloss": "not yet",
+    "secondary_glosses": [
+      "not"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1378",
+    "rank": 1378,
+    "display_form": "未必",
+    "lemma": "未必",
+    "generation_form": "未必",
+    "pronunciation": "wèibì",
+    "pos": "adverb",
+    "primary_gloss": "not necessarily",
+    "secondary_glosses": [
+      "may not"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1379",
+    "rank": 1379,
+    "display_form": "未成年人",
+    "lemma": "未成年人",
+    "generation_form": "未成年人",
+    "pronunciation": "wèichéngniánrén",
+    "pos": "noun",
+    "primary_gloss": "minor",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1380",
+    "rank": 1380,
+    "display_form": "为此",
+    "lemma": "为此",
+    "generation_form": "为此",
+    "pronunciation": "wèicǐ",
+    "pos": "conjunction",
+    "primary_gloss": "for this reason",
+    "secondary_glosses": [
+      "therefore"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as conjunction."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1381",
+    "rank": 1381,
+    "display_form": "为何",
+    "lemma": "为何",
+    "generation_form": "为何",
+    "pronunciation": "wèihé",
+    "pos": "adverb",
+    "primary_gloss": "why",
+    "secondary_glosses": [
+      "for what reason"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1382",
+    "rank": 1382,
+    "display_form": "味觉",
+    "lemma": "味觉",
+    "generation_form": "味觉",
+    "pronunciation": "wèijué",
+    "pos": "noun",
+    "primary_gloss": "sense of taste",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1383",
+    "rank": 1383,
+    "display_form": "胃又",
+    "lemma": "胃又",
+    "generation_form": "胃又",
+    "pronunciation": "wèikǒu",
+    "pos": "noun",
+    "primary_gloss": "appetite",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1384",
+    "rank": 1384,
+    "display_form": "温和",
+    "lemma": "温和",
+    "generation_form": "温和",
+    "pronunciation": "wēnhé",
+    "pos": "adjective",
+    "primary_gloss": "mild",
+    "secondary_glosses": [
+      "gentle"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1385",
+    "rank": 1385,
+    "display_form": "温柔",
+    "lemma": "温柔",
+    "generation_form": "温柔",
+    "pronunciation": "wēnróu",
+    "pos": "adjective",
+    "primary_gloss": "gentle",
+    "secondary_glosses": [
+      "tender"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1386",
+    "rank": 1386,
+    "display_form": "文档",
+    "lemma": "文档",
+    "generation_form": "文档",
+    "pronunciation": "wéndàng",
+    "pos": "noun",
+    "primary_gloss": "document",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1387",
+    "rank": 1387,
+    "display_form": "文具",
+    "lemma": "文具",
+    "generation_form": "文具",
+    "pronunciation": "wénjù",
+    "pos": "noun",
+    "primary_gloss": "stationery",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1388",
+    "rank": 1388,
+    "display_form": "文科",
+    "lemma": "文科",
+    "generation_form": "文科",
+    "pronunciation": "wénkē",
+    "pos": "noun",
+    "primary_gloss": "liberal arts",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1389",
+    "rank": 1389,
+    "display_form": "文明",
+    "lemma": "文明",
+    "generation_form": "文明",
+    "pronunciation": "wénmíng",
+    "pos": "noun, adjective",
+    "primary_gloss": "civilization",
+    "secondary_glosses": [
+      "civilized"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1390",
+    "rank": 1390,
+    "display_form": "闻名",
+    "lemma": "闻名",
+    "generation_form": "闻名",
+    "pronunciation": "wénmíng",
+    "pos": "verb",
+    "primary_gloss": "famous",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1391",
+    "rank": 1391,
+    "display_form": "文物",
+    "lemma": "文物",
+    "generation_form": "文物",
+    "pronunciation": "wénwù",
+    "pos": "noun",
+    "primary_gloss": "cultural relic",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1392",
+    "rank": 1392,
+    "display_form": "文献",
+    "lemma": "文献",
+    "generation_form": "文献",
+    "pronunciation": "wénxiàn",
+    "pos": "noun",
+    "primary_gloss": "document",
+    "secondary_glosses": [
+      "literature"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1393",
+    "rank": 1393,
+    "display_form": "文艺",
+    "lemma": "文艺",
+    "generation_form": "文艺",
+    "pronunciation": "wényì",
+    "pos": "noun",
+    "primary_gloss": "literature and art",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1394",
+    "rank": 1394,
+    "display_form": "乌龟",
+    "lemma": "乌龟",
+    "generation_form": "乌龟",
+    "pronunciation": "wūguī",
+    "pos": "noun",
+    "primary_gloss": "tortoise",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1395",
+    "rank": 1395,
+    "display_form": "污水",
+    "lemma": "污水",
+    "generation_form": "污水",
+    "pronunciation": "wūshuǐ",
+    "pos": "noun",
+    "primary_gloss": "sewage",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1396",
+    "rank": 1396,
+    "display_form": "无所谓",
+    "lemma": "无所谓",
+    "generation_form": "无所谓",
+    "pronunciation": "wúsuǒwèi",
+    "pos": "verb",
+    "primary_gloss": "to be indifferent",
+    "secondary_glosses": [
+      "not to matter"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1397",
+    "rank": 1397,
+    "display_form": "无疑",
+    "lemma": "无疑",
+    "generation_form": "无疑",
+    "pronunciation": "wúyí",
+    "pos": "verb",
+    "primary_gloss": "undoubtedly",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1398",
+    "rank": 1398,
+    "display_form": "武器",
+    "lemma": "武器",
+    "generation_form": "武器",
+    "pronunciation": "wǔqì",
+    "pos": "noun",
+    "primary_gloss": "weapon",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1399",
+    "rank": 1399,
+    "display_form": "误",
+    "lemma": "误",
+    "generation_form": "误",
+    "pronunciation": "wù",
+    "pos": "verb",
+    "primary_gloss": "to mistake",
+    "secondary_glosses": [
+      "to misunderstand"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1400",
+    "rank": 1400,
+    "display_form": "误解",
+    "lemma": "误解",
+    "generation_form": "误解",
+    "pronunciation": "wùjiě",
+    "pos": "verb, noun",
+    "primary_gloss": "to misunderstand",
+    "secondary_glosses": [
+      "misunderstanding"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  }
+]

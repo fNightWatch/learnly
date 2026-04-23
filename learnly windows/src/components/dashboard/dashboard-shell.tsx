@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import type { FocusEvent, KeyboardEvent } from "react";
 import type {
+  DashboardRangeDays,
   DashboardSnapshot,
   ReviewsDueDatum,
   StudyConsistencyDatum,
@@ -11,7 +12,7 @@ import type {
   VocabularyGrowthDatum
 } from "@/lib/demo/types";
 
-const ranges = [7, 30] as const;
+const ranges: readonly DashboardRangeDays[] = [7, 30];
 
 function getLanguageSelectionKey(languageCodes: SupportedLanguageCode[]) {
   return languageCodes.join("|");
@@ -21,8 +22,8 @@ function RangeSelect({
   value,
   onChange
 }: {
-  value: number;
-  onChange: (value: number) => void;
+  value: DashboardRangeDays;
+  onChange: (value: DashboardRangeDays) => void;
 }) {
   return (
     <div className="inline-flex rounded-full border border-line/70 bg-paper/74 p-1">
@@ -33,7 +34,7 @@ function RangeSelect({
           onClick={() => onChange(range)}
           className={`rounded-full px-3.5 py-2 text-sm font-semibold transition-[transform,opacity,box-shadow] ${
             value === range
-              ? "bg-night text-white dark:bg-white dark:text-night shadow-[0_10px_24px_rgba(23,18,16,0.16)]"
+              ? "bg-[rgb(var(--color-gold))] text-white dark:text-black"
               : "text-ink/55 hover:text-clay"
           }`}
         >
@@ -44,12 +45,33 @@ function RangeSelect({
   );
 }
 
-function shouldShowLabel(range: number, index: number, total: number) {
+function shouldShowLabel(range: DashboardRangeDays, index: number, total: number) {
   if (range <= 7) {
     return true;
   }
 
   return index === 0 || index === total - 1 || index % 3 === 0;
+}
+
+function getReviewsAxisLabel(index: number) {
+  return `${index + 1}d`;
+}
+
+function formatStudyDuration(totalMs: number | null | undefined) {
+  if (typeof totalMs !== "number" || !Number.isFinite(totalMs)) {
+    return "00:00";
+  }
+
+  const totalSeconds = Math.max(0, Math.round(totalMs / 1000));
+  const hours = Math.floor(totalSeconds / 3600);
+  const minutes = Math.floor((totalSeconds % 3600) / 60);
+  const seconds = totalSeconds % 60;
+
+  if (hours > 0) {
+    return `${hours}:${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
+  }
+
+  return `${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
 }
 
 function getGrowthPointLabel(entry: VocabularyGrowthDatum, index: number, total: number) {
@@ -88,7 +110,7 @@ function getGrowthAxisLabel(entry: VocabularyGrowthDatum, index: number, total: 
   return `${daysBack}d`;
 }
 
-function shouldShowGrowthLabel(range: number, index: number, total: number) {
+function shouldShowGrowthLabel(range: DashboardRangeDays, index: number, total: number) {
   if (range <= 7) {
     return true;
   }
@@ -101,47 +123,74 @@ function ReviewsDueChart({
   range
 }: {
   data: ReviewsDueDatum[];
-  range: number;
+  range: DashboardRangeDays;
 }) {
   const visible = data.slice(0, range);
-  const maxValue = Math.max(...visible.map((entry) => entry.value), 1);
+  const rawMax = Math.max(...visible.map((entry) => entry.value), 1);
+  const axisStep = rawMax <= 8 ? 2 : rawMax <= 24 ? 4 : rawMax <= 80 ? 10 : rawMax <= 200 ? 20 : 50;
+  const axisMax = Math.max(axisStep, Math.ceil(rawMax / axisStep) * axisStep);
+  const plotHeight = range <= 7 ? 122 : 138;
+  const labelReserve = 24;
+  const chartHeight = plotHeight + labelReserve;
 
   return (
     <div className="mt-5">
-      <div className="relative">
-        <div className="pointer-events-none absolute inset-0 bottom-10 flex flex-col justify-between">
-          {Array.from({ length: 4 }).map((_, index) => (
+      <div className="relative rounded-[14px]">
+        <div
+          className="pointer-events-none absolute inset-0 flex flex-col justify-between pb-10"
+          style={{ paddingTop: `${labelReserve}px` }}
+        >
+          {Array.from({ length: 3 }).map((_, index) => (
             <div key={index} className="border-t border-line/40" />
           ))}
         </div>
-        <div className="relative flex h-[144px] items-end gap-1.5 border-b border-line/70 pb-2 sm:h-[184px]">
+        <div className="relative flex items-end gap-1.5 border-b border-line/70 pb-2 px-1">
           {visible.map((entry, index) => {
-            const height = entry.value === 0 ? 5 : Math.max(12, (entry.value / maxValue) * 140);
+            const rawHeight = entry.value === 0 ? 0 : (entry.value / axisMax) * plotHeight;
+            const barHeight = entry.value === 0 ? 3 : Math.max(2, rawHeight);
+            const labelBottom = Math.min(barHeight + 6, plotHeight + 4);
+            const isFirst = index === 0;
+            const isLast = index === visible.length - 1;
+            const needsEdgeInset = (isFirst || isLast) && String(entry.value).length >= 3;
+            const labelPositionClass = needsEdgeInset
+              ? isFirst
+                ? "left-2 text-left"
+                : "right-2 text-right"
+              : "left-1/2 -translate-x-1/2 text-center";
 
             return (
-              <div key={`${entry.label}-${index}`} className="flex min-w-0 flex-1 flex-col items-center justify-end gap-2">
-                <div className="text-[11px] font-medium text-ink/50 sm:text-sm">{entry.value > 0 ? entry.value : ""}</div>
-                <div
-                  className="w-full rounded-t-[10px]"
-                  style={{
-                    height,
-                    backgroundColor:
-                      entry.value === 0
-                        ? "rgb(var(--color-mist) / 0.5)"
-                        : index === 0
-                          ? "rgb(var(--color-gold) / 0.96)"
-                          : "rgb(var(--color-clay) / 0.86)"
-                  }}
-                />
+              <div key={`${entry.label}-${index}`} className="flex min-w-0 flex-1 items-end">
+                <div className="relative flex w-full items-end" style={{ height: `${chartHeight}px` }}>
+                  {entry.value > 0 ? (
+                    <div
+                      className={`pointer-events-none absolute z-[1] text-[11px] font-medium text-ink/54 sm:text-sm ${labelPositionClass}`}
+                      style={{ bottom: `${labelBottom}px` }}
+                    >
+                      {entry.value}
+                    </div>
+                  ) : null}
+                  <div
+                    className="w-full rounded-t-[10px]"
+                    style={{
+                      height: `${barHeight}px`,
+                      backgroundColor:
+                        entry.value === 0
+                          ? "rgb(var(--color-mist) / 0.5)"
+                          : index === 0
+                            ? "rgb(var(--color-gold))"
+                            : "rgb(var(--color-clay) / 0.86)"
+                    }}
+                  />
+                </div>
               </div>
             );
           })}
         </div>
       </div>
-      <div className="mt-3 flex gap-1.5 border-b border-line/70 pb-4 text-[11px] text-ink/48 sm:text-sm">
+      <div className="mt-3 flex gap-1.5 border-b border-line/70 pb-4 text-[11px] text-ink/48 sm:text-sm px-1">
         {visible.map((entry, index) => (
           <div key={`${entry.shortLabel}-${index}`} className="min-w-0 flex-1 text-center">
-            {shouldShowLabel(range, index, visible.length) ? entry.shortLabel : ""}
+            {shouldShowLabel(range, index, visible.length) ? getReviewsAxisLabel(index) : ""}
           </div>
         ))}
       </div>
@@ -154,7 +203,7 @@ function VocabularyGrowthChart({
   range
 }: {
   data: VocabularyGrowthDatum[];
-  range: number;
+  range: DashboardRangeDays;
 }) {
   const visible = data.slice(data.length - range);
   const maxLearned = Math.max(...visible.map((entry) => entry.learning + entry.solid), 1);
@@ -222,10 +271,16 @@ function VocabularyGrowthChart({
         </div>
 
         <div className="relative mt-5">
-          <div className="pointer-events-none absolute inset-0 bottom-10 flex flex-col justify-between">
-            {Array.from({ length: 4 }).map((_, index) => (
-              <div key={index} className="border-t border-line/40" />
-            ))}
+          <div className="pointer-events-none absolute inset-0 bottom-10">
+            {Array.from({ length: 3 }).map((_, index) =>
+              index === 2 ? null : (
+                <div
+                  key={index}
+                  className="absolute left-0 right-0 border-t border-line/40"
+                  style={{ top: `${(index / 2) * 100}%` }}
+                />
+              )
+            )}
           </div>
           <div
             className="relative flex h-[220px] items-end gap-1.5 border-b border-line/70 pb-2 sm:h-[260px] sm:gap-2"
@@ -264,7 +319,7 @@ function VocabularyGrowthChart({
                         className="absolute inset-x-0 top-0"
                         style={{
                           height: `${(entry.learning / learned) * 100}%`,
-                          backgroundColor: "rgb(var(--color-gold) / 0.82)"
+                          backgroundColor: "rgb(var(--color-gold))"
                         }}
                       />
                     ) : null}
@@ -273,40 +328,14 @@ function VocabularyGrowthChart({
               );
             })}
           </div>
-          <div className="relative mt-3 h-8 text-[11px] text-ink/48 sm:text-sm">
-            {visible.map((entry, index) => {
-              if (!shouldShowGrowthLabel(range, index, visible.length)) {
-                return null;
-              }
-
-              const label = getGrowthAxisLabel(entry, index, visible.length);
-
-              if (index === 0) {
-                return (
-                  <div key={`${entry.shortLabel}-${index}`} className="absolute left-0 top-0 whitespace-nowrap text-left">
-                    {label}
-                  </div>
-                );
-              }
-
-              if (index === visible.length - 1) {
-                return (
-                  <div key={`${entry.shortLabel}-${index}`} className="absolute right-0 top-0 whitespace-nowrap text-right">
-                    {label}
-                  </div>
-                );
-              }
-
-              return (
-                <div
-                  key={`${entry.shortLabel}-${index}`}
-                  className="absolute top-0 -translate-x-1/2 whitespace-nowrap text-center"
-                  style={{ left: `${((index + 0.5) / Math.max(visible.length, 1)) * 100}%` }}
-                >
-                  {label}
-                </div>
-              );
-            })}
+          <div className="mt-3 flex gap-1.5 text-[11px] text-ink/48 sm:gap-2 sm:text-sm">
+            {visible.map((entry, index) => (
+              <div key={`${entry.shortLabel}-${index}`} className="min-w-0 flex-1 text-center">
+                {shouldShowGrowthLabel(range, index, visible.length)
+                  ? getGrowthAxisLabel(entry, index, visible.length)
+                  : ""}
+              </div>
+            ))}
           </div>
         </div>
       </div>
@@ -316,15 +345,19 @@ function VocabularyGrowthChart({
 
 function ConsistencyGrid({ data }: { data: StudyConsistencyDatum[] }) {
   return (
-    <div className="grid grid-cols-7 gap-1.5">
+    <div className="grid grid-cols-7 gap-x-2 gap-y-2 sm:gap-x-2.5 sm:gap-y-2.5">
       {data.map((entry, index) => (
         <div
           key={`${entry.label}-${index}`}
           title={entry.label}
-          className={`h-3.5 w-3.5 rounded-full ${
-            entry.active ? "bg-clay border-0" : "border border-line/70 bg-mist/56"
-          } ${entry.isToday ? "ring-2 ring-clay/20" : ""}`}
-        />
+          className={`inline-flex h-5 w-5 items-center justify-center rounded-full border transition-[background-color,border-color,box-shadow] sm:h-5.5 sm:w-5.5 ${
+            entry.active
+              ? "border-[rgb(var(--color-clay)/0.58)] bg-[rgb(var(--color-clay)/0.92)] shadow-[0_1px_6px_rgb(var(--color-clay)/0.28)] text-white dark:text-black"
+              : "border-[rgb(var(--color-line)/0.68)] bg-[rgb(var(--color-paper)/0.56)] dark:border-[rgb(255_255_255/0.2)] dark:bg-[rgb(255_255_255/0.08)]"
+          } ${entry.isToday ? "ring-2 ring-clay/35 dark:ring-clay/55" : ""}`}
+        >
+          {entry.active ? <span className="text-[11px] font-semibold leading-none sm:text-xs">✓</span> : null}
+        </div>
       ))}
     </div>
   );
@@ -336,26 +369,50 @@ function TodayCard({
   dashboard: DashboardSnapshot;
 }) {
   return (
-    <section
-      className="card relative min-w-0 overflow-hidden px-4 py-3.5 backdrop-blur-none sm:px-5 sm:py-4"
-    >
-      <div className="relative">
-        <div className="text-[11px] uppercase tracking-[0.22em] text-ink/40">Today</div>
-        <div className="mt-2 text-lg tracking-[-0.04em] text-ink/90 sm:text-xl">
-          {dashboard.studyPlan.totalCards} cards ready today
+    <section className="relative min-w-0 overflow-hidden">
+      <div className="dashboard-today-hero h-full min-h-[104px] rounded-[20px] border px-4 py-2.5 sm:min-h-[116px] sm:px-4 sm:py-3">
+        <div>
+          <div className="text-[10px] uppercase tracking-[0.24em] text-white/70 dark:text-black/55">Today</div>
+          <div className="mt-1 text-[44px] font-semibold leading-none tracking-[-0.07em] text-white dark:text-black sm:text-[50px]">
+            {dashboard.dueCount}
+          </div>
         </div>
-        <div className="mt-3 grid grid-cols-3 gap-2 sm:gap-3">
-          <div className="rounded-[18px] border border-line/70 bg-panel/84 px-3 py-2.5">
-            <div className="text-[10px] uppercase tracking-[0.18em] text-ink/38">Reviewed</div>
-            <div className="mt-2 text-2xl tracking-[-0.04em] text-ink/90">{dashboard.reviewsToday}</div>
+        <div className="mt-1 text-[1.15rem] font-medium leading-none tracking-[-0.04em] text-white/95 dark:text-black/85 sm:text-[1.24rem]">
+          cards due today
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function TodayMiniStack({ dashboard }: { dashboard: DashboardSnapshot }) {
+  const studiedToday = formatStudyDuration(dashboard.timeStudiedTodayMs);
+
+  return (
+    <section className="min-w-0">
+      <div className="grid h-full gap-1.5 sm:min-h-[116px] sm:gap-2">
+        <div className="grid gap-1.5 sm:grid-cols-2 sm:gap-2">
+          <div className="dashboard-today-mini flex flex-col justify-center rounded-[14px] border px-3 py-2">
+            <div className="text-[10px] uppercase tracking-[0.18em] text-ink/38 dark:text-white/82">Reviewed</div>
+            <div className="mt-0.5 flex items-end gap-1.5">
+              <div className="text-[25px] leading-none tracking-[-0.05em] text-ink/92 dark:text-white sm:text-[27px]">{dashboard.reviewsToday}</div>
+              <div className="pb-[2px] text-[10px] uppercase tracking-[0.14em] text-ink/42 dark:text-white/88 sm:text-[11px]">today</div>
+            </div>
           </div>
-          <div className="rounded-[18px] border border-line/70 bg-panel/84 px-3 py-2.5">
-            <div className="text-[10px] uppercase tracking-[0.18em] text-ink/38">New words</div>
-            <div className="mt-2 text-2xl tracking-[-0.04em] text-ink/90">{dashboard.introducedToday}</div>
+
+          <div className="dashboard-today-mini flex flex-col justify-center rounded-[14px] border px-3 py-2">
+            <div className="text-[10px] uppercase tracking-[0.18em] text-ink/38 dark:text-white/82">New words</div>
+            <div className="mt-0.5 flex items-end gap-1.5">
+              <div className="text-[25px] leading-none tracking-[-0.05em] text-ink/92 dark:text-white sm:text-[27px]">{dashboard.introducedToday}</div>
+              <div className="pb-[2px] text-[10px] uppercase tracking-[0.14em] text-ink/42 dark:text-white/88 sm:text-[11px]">today</div>
+            </div>
           </div>
-          <div className="rounded-[18px] border border-line/70 bg-panel/84 px-3 py-2.5">
-            <div className="text-[10px] uppercase tracking-[0.18em] text-ink/38">Still due</div>
-            <div className="mt-2 text-2xl tracking-[-0.04em] text-ink/90">{dashboard.dueCount}</div>
+        </div>
+
+        <div className="dashboard-today-mini flex flex-col gap-1 rounded-[14px] border px-3 py-2 sm:flex-row sm:items-end sm:justify-between sm:gap-3">
+          <div className="text-[10px] uppercase tracking-[0.18em] text-ink/38 dark:text-white/82">Time studied</div>
+          <div className="text-[23px] leading-none tracking-[-0.06em] tabular-nums text-ink/92 dark:text-white sm:text-[26px]">
+            {studiedToday}
           </div>
         </div>
       </div>
@@ -366,58 +423,62 @@ function TodayCard({
 function QueueCard({
   dashboard,
   saveError,
-  onToggleLanguage
+  onToggleLanguage,
+  onActivateAll
 }: {
   dashboard: DashboardSnapshot;
   saveError: string | null;
   onToggleLanguage: (code: SupportedLanguageCode) => void;
+  onActivateAll: () => void;
 }) {
+  const allActive = dashboard.activeLanguageCodes.length === dashboard.availableLanguages.length;
+  const activeChipClass =
+    "border-[rgb(255_153_28/0.62)] bg-[#FF991C] text-white dark:text-black shadow-[inset_0_1px_0_rgba(255,255,255,0.36)] hover:brightness-[0.98]";
+  const inactiveChipClass =
+    "border-line/70 bg-paper/68 text-ink/60 hover:border-clay/24 hover:bg-clay/6 hover:text-ink/78";
+
   return (
-    <section className="card min-w-0 p-4 sm:p-4">
-      <div className="flex items-center justify-between gap-3">
-        <div>
-          <div className="text-[11px] uppercase tracking-[0.18em] text-ink/38">Languages</div>
-          <div className="mt-2 text-base leading-6 tracking-[-0.04em] text-ink/92 sm:text-xl">Choose what to show today</div>
-        </div>
-      </div>
-
-      <div className="mt-4">
-        <div className="text-[11px] uppercase tracking-[0.18em] text-ink/35">Study languages</div>
-        <div className="mt-2.5 flex flex-wrap gap-2">
-          {dashboard.availableLanguages.map((language) => {
-            const active = dashboard.activeLanguageCodes.includes(language.code);
-
-            return (
-              <button
-                key={language.code}
-                type="button"
-                onClick={() => onToggleLanguage(language.code)}
-                className={`rounded-full border px-3 py-1.5 text-xs font-semibold transition-[transform,opacity,box-shadow] ${
-                  active
-                    ? "border-clay/30 bg-clay/10 text-ink/82"
-                    : "border-line/70 bg-paper/68 text-ink/60 hover:border-clay/24 hover:bg-clay/6 hover:text-ink/78"
-                }`}
-              >
-                {language.name}
-              </button>
-            );
-          })}
-        </div>
-      </div>
-
-      <div className="mt-3 grid grid-cols-2 gap-2">
-        {[
-          { label: "Due first", value: dashboard.studyPlan.dueNow },
-          { label: "Entering today", value: dashboard.studyPlan.newCards }
-        ].map((stat) => (
-          <div key={stat.label} className="rounded-[18px] border border-line/70 bg-paper/72 px-3 py-2.5">
-            <div className="text-[10px] uppercase tracking-[0.18em] text-ink/38">{stat.label}</div>
-            <div className="mt-2 text-2xl tracking-[-0.04em] text-ink/90">{stat.value}</div>
+    <section className="min-w-0 h-full">
+      <div className="h-full min-h-[104px] rounded-[18px] border border-line/65 bg-[linear-gradient(180deg,rgba(255,255,255,0.64),rgba(255,255,255,0.46))] px-3 py-2.5 shadow-[inset_0_1px_0_rgba(255,255,255,0.4)] dark:bg-[linear-gradient(180deg,rgba(255,255,255,0.08),rgba(255,255,255,0.02))] sm:min-h-[116px] sm:px-3.5 sm:py-3">
+        <div className="flex items-center justify-between gap-3">
+          <div>
+            <div className="text-[10px] uppercase tracking-[0.18em] text-ink/38">Languages</div>
+            <div className="mt-0.5 text-[0.98rem] leading-5 tracking-[-0.04em] text-ink/92 sm:text-[1.02rem]">Choose what to show today</div>
           </div>
-        ))}
-      </div>
+          <button
+            type="button"
+            onClick={onActivateAll}
+            className={`rounded-full border px-2.5 py-1 text-[10px] font-semibold uppercase tracking-[0.16em] transition-[transform,opacity,box-shadow] ${
+              allActive ? activeChipClass : inactiveChipClass
+            }`}
+          >
+            All
+          </button>
+        </div>
 
-      {saveError ? <div className="mt-4 text-xs text-red-600">{saveError}</div> : null}
+        <div className="mt-1.5">
+          <div className="flex flex-wrap gap-1">
+            {dashboard.availableLanguages.map((language) => {
+              const active = dashboard.activeLanguageCodes.includes(language.code);
+
+              return (
+                <button
+                  key={language.code}
+                  type="button"
+                  onClick={() => onToggleLanguage(language.code)}
+                  className={`rounded-full border px-2.5 py-1 text-[0.92rem] font-semibold transition-[transform,opacity,box-shadow] ${
+                    active ? activeChipClass : inactiveChipClass
+                  }`}
+                >
+                  {language.name}
+                </button>
+              );
+            })}
+          </div>
+        </div>
+
+        {saveError ? <div className="mt-3 text-xs text-red-600">{saveError}</div> : null}
+      </div>
     </section>
   );
 }
@@ -429,31 +490,21 @@ function ReviewsSection({
   activeLanguageLabels
 }: {
   dashboard: DashboardSnapshot;
-  range: number;
-  onRangeChange: (value: number) => void;
+  range: DashboardRangeDays;
+  onRangeChange: (value: DashboardRangeDays) => void;
   activeLanguageLabels: string;
 }) {
   return (
-    <section className="card p-4 sm:p-5">
-      <div className="flex flex-wrap items-start justify-between gap-4">
+    <section>
+      <div className="rounded-[20px] border border-line/65 bg-[linear-gradient(180deg,rgba(255,255,255,0.64),rgba(255,255,255,0.46))] px-4 py-4 shadow-[inset_0_1px_0_rgba(255,255,255,0.4)] dark:bg-[linear-gradient(180deg,rgba(255,255,255,0.08),rgba(255,255,255,0.02))] sm:px-5 sm:py-5">
         <div>
-          <div className="text-[28px] font-semibold tracking-[-0.05em] text-ink/92 sm:text-[30px]">Reviews Due</div>
+          <div className="flex flex-wrap items-center justify-between gap-3">
+            <div className="text-[28px] font-semibold tracking-[-0.05em] text-ink/92 sm:text-[30px]">Reviews Due</div>
+            <RangeSelect value={range} onChange={onRangeChange} />
+          </div>
           <div className="mt-1 text-sm text-ink/48">Projected workload across {activeLanguageLabels}.</div>
         </div>
-        <RangeSelect value={range} onChange={onRangeChange} />
-      </div>
-      <ReviewsDueChart data={dashboard.reviewsDueSeries} range={range} />
-      <div className="grid gap-4 pt-4 sm:grid-cols-3">
-        {[
-          { label: "Due today", value: dashboard.dueCount },
-          { label: "New words today", value: dashboard.studyPlan.newCards },
-          { label: "Next window", value: dashboard.nextDueLabel }
-        ].map((stat) => (
-          <div key={stat.label}>
-            <div className="text-[11px] uppercase tracking-[0.18em] text-ink/35">{stat.label}</div>
-            <div className="mt-2 text-2xl text-ink/88">{stat.value}</div>
-          </div>
-        ))}
+        <ReviewsDueChart data={dashboard.reviewsDueSeries} range={range} />
       </div>
     </section>
   );
@@ -464,78 +515,91 @@ function VocabularySection({
   range
 }: {
   dashboard: DashboardSnapshot;
-  range: number;
+  range: DashboardRangeDays;
 }) {
   return (
-    <section className="card p-4 sm:p-5">
-      <div className="flex flex-wrap items-start justify-between gap-4">
-        <div>
-          <div className="text-[28px] font-semibold tracking-[-0.05em] text-ink/92 sm:text-[30px]">Vocabulary Growth</div>
-          <div className="mt-1 text-sm text-ink/48">How introductions are becoming durable active vocabulary.</div>
-        </div>
-        <div className="flex flex-wrap items-center gap-3 text-xs text-ink/46">
-          <span className="rounded-full border border-line/70 bg-paper/66 px-3 py-1.5 text-[11px] uppercase tracking-[0.18em] text-ink/44">
-            {range}-day view
-          </span>
-          <span className="inline-flex items-center gap-2">
-            <span
-              className="h-2.5 w-2.5 rounded-full"
-              style={{ backgroundColor: "rgb(var(--color-pine) / 0.92)" }}
-            />
-            strong
-          </span>
-          <span className="inline-flex items-center gap-2">
-            <span
-              className="h-2.5 w-2.5 rounded-full"
-              style={{ backgroundColor: "rgb(var(--color-gold) / 0.82)" }}
-            />
-            learning
-          </span>
-        </div>
-      </div>
-      <VocabularyGrowthChart data={dashboard.vocabularyGrowthSeries} range={range} />
-      <div className="grid gap-4 border-t border-line/70 pt-4 sm:grid-cols-3">
-        {[
-          { label: "Active words", value: dashboard.activeWords },
-          { label: "Coverage", value: `${dashboard.coveragePercent}%` },
-          { label: "Lifetime reviews", value: dashboard.totalReviews }
-        ].map((stat) => (
-          <div key={stat.label}>
-            <div className="text-[11px] uppercase tracking-[0.18em] text-ink/35">{stat.label}</div>
-            <div className="mt-2 text-2xl text-ink/88">{stat.value}</div>
+    <section>
+      <div className="rounded-[20px] border border-line/65 bg-[linear-gradient(180deg,rgba(255,255,255,0.64),rgba(255,255,255,0.46))] px-4 py-4 shadow-[inset_0_1px_0_rgba(255,255,255,0.4)] dark:bg-[linear-gradient(180deg,rgba(255,255,255,0.08),rgba(255,255,255,0.02))] sm:px-5 sm:py-5">
+        <div className="flex flex-wrap items-start justify-between gap-4">
+          <div>
+            <div className="text-[28px] font-semibold tracking-[-0.05em] text-ink/92 sm:text-[30px]">Vocabulary Growth</div>
+            <div className="mt-1 text-sm text-ink/48">How introductions are becoming durable active vocabulary.</div>
           </div>
-        ))}
+          <div className="flex flex-wrap items-center gap-3 text-xs text-ink/46">
+            <span className="rounded-full border border-line/70 bg-paper/66 px-3 py-1.5 text-[11px] uppercase tracking-[0.18em] text-ink/44">
+              {range}-day view
+            </span>
+            <span className="inline-flex items-center gap-2">
+              <span
+                className="h-2.5 w-2.5 rounded-full"
+                style={{ backgroundColor: "rgb(var(--color-pine) / 0.92)" }}
+              />
+              strong
+            </span>
+            <span className="inline-flex items-center gap-2">
+              <span
+                className="h-2.5 w-2.5 rounded-full"
+                style={{ backgroundColor: "rgb(var(--color-gold))" }}
+              />
+              learning
+            </span>
+          </div>
+        </div>
+        <VocabularyGrowthChart data={dashboard.vocabularyGrowthSeries} range={range} />
+        <div className="mt-2.5">
+          <div className="flex gap-2 overflow-x-auto pb-1">
+            {[
+              { label: "Active words", value: dashboard.activeWords, unit: null },
+              { label: "Learning rate", value: dashboard.averageNewPerDay, unit: "words/day" },
+              { label: "Lifetime reviews", value: dashboard.totalReviews, unit: null }
+            ].map((stat) => (
+              <div
+                key={stat.label}
+                className="min-w-[170px] flex-1 rounded-[12px] border border-line/65 bg-[linear-gradient(180deg,rgba(255,255,255,0.62),rgba(255,255,255,0.42))] px-3 py-2 shadow-[inset_0_1px_0_rgba(255,255,255,0.38)] dark:bg-[linear-gradient(180deg,rgba(255,255,255,0.07),rgba(255,255,255,0.02))]"
+              >
+                <div className="text-[9px] uppercase tracking-[0.15em] text-ink/36">{stat.label}</div>
+                <div className="mt-1 flex items-end gap-1">
+                  <div className="text-[1.15rem] leading-none tracking-[-0.03em] text-ink/90">{stat.value}</div>
+                  {stat.unit && <div className="pb-[1px] text-[9px] uppercase tracking-[0.12em] text-ink/45">{stat.unit}</div>}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
     </section>
   );
 }
 
 function StreakCard({ dashboard }: { dashboard: DashboardSnapshot }) {
+  const weekdayLabels = ["Su", "Mo", "Tu", "We", "Th", "Fr", "Sa"];
+
   return (
-    <section className="card p-4 sm:p-5">
-      <div className="flex items-start justify-between gap-3">
-        <div>
-          <div className="text-[11px] uppercase tracking-[0.18em] text-ink/38">Streak</div>
-          <div className="mt-2 text-5xl tracking-[-0.06em] text-ink/92">{dashboard.streakDays}</div>
-          <div className="mt-1 text-sm text-ink/55">
-            {dashboard.streakDays === 1 ? "study day" : "study days"}
+    <section>
+      <div className="rounded-[20px] border border-line/65 bg-[linear-gradient(180deg,rgba(255,255,255,0.64),rgba(255,255,255,0.46))] px-4 py-3.5 shadow-[inset_0_1px_0_rgba(255,255,255,0.4)] dark:bg-[linear-gradient(180deg,rgba(255,255,255,0.08),rgba(255,255,255,0.02))] sm:px-5 sm:py-4">
+        <div className="grid gap-3 lg:grid-cols-[minmax(0,250px)_minmax(0,1fr)] lg:items-stretch">
+          <div className="rounded-[16px] border border-[rgb(255_153_28/0.62)] bg-[#FF991C] px-4 py-3 shadow-[inset_0_1px_0_rgba(255,255,255,0.36)] dark:border-[rgb(255_153_28/0.72)] dark:bg-[#FF991C]">
+            <div className="text-[11px] uppercase tracking-[0.2em] text-white dark:text-black">Streak</div>
+            <div className="mt-2 inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/22 ring-1 ring-white/45 dark:bg-black/14 dark:ring-black/28">
+              <span className="text-[1.1rem] leading-none text-white dark:text-black">🔥</span>
+            </div>
+            <div className="mt-2.5 flex items-end gap-2">
+              <div className="text-[58px] leading-none tracking-[-0.07em] text-white dark:text-black">{dashboard.streakDays}</div>
+              <div className="pb-2 text-[1.05rem] tracking-[-0.02em] text-white dark:text-black">
+                {dashboard.streakDays === 1 ? "day streak" : "days streak"}
+              </div>
+            </div>
           </div>
-        </div>
-        <div className="rounded-full border border-line/70 bg-paper/72 px-3 py-1.5 text-[10px] uppercase tracking-[0.18em] text-ink/48">
-          {dashboard.retentionScore}% retention
-        </div>
-      </div>
-      <div className="mt-4">
-        <ConsistencyGrid data={dashboard.consistencySeries} />
-      </div>
-      <div className="mt-4 grid grid-cols-2 gap-3 border-t border-line/70 pt-4">
-        <div>
-          <div className="text-[11px] uppercase tracking-[0.18em] text-ink/35">Reviewed today</div>
-          <div className="mt-1 text-2xl text-ink/88">{dashboard.reviewsToday}</div>
-        </div>
-        <div>
-          <div className="text-[11px] uppercase tracking-[0.18em] text-ink/35">Next window</div>
-          <div className="mt-1 text-2xl text-ink/88">{dashboard.nextDueLabel}</div>
+
+          <div className="min-w-0 rounded-[16px] border border-line/65 bg-[linear-gradient(180deg,rgba(255,255,255,0.62),rgba(255,255,255,0.44))] px-3 py-3 shadow-[inset_0_1px_0_rgba(255,255,255,0.36)] dark:border-[rgb(255_255_255/0.14)] dark:bg-[linear-gradient(180deg,rgba(255,255,255,0.08),rgba(255,255,255,0.04))] sm:px-4">
+            <div className="mb-2 text-[10px] uppercase tracking-[0.18em] text-ink/42 dark:text-white/74">Last 5 weeks</div>
+            <div className="mb-2 grid grid-cols-7 gap-x-2 text-center text-[10px] font-medium uppercase tracking-[0.12em] text-ink/42 dark:text-white/70 sm:gap-x-2.5">
+              {weekdayLabels.map((label) => (
+                <div key={label}>{label}</div>
+              ))}
+            </div>
+            <ConsistencyGrid data={dashboard.consistencySeries} />
+          </div>
         </div>
       </div>
     </section>
@@ -544,19 +608,24 @@ function StreakCard({ dashboard }: { dashboard: DashboardSnapshot }) {
 
 function CorpusCard({ dashboard }: { dashboard: DashboardSnapshot }) {
   return (
-    <section className="card p-4 sm:p-5">
-      <div className="text-[11px] uppercase tracking-[0.18em] text-ink/38">Corpus</div>
-      <div className="mt-4 space-y-4">
-        {[
-          { label: "Ranked words", value: dashboard.corpusSize },
-          { label: "Examples", value: `${dashboard.exampleCoveragePercent}%` },
-          { label: "Audio coverage", value: `${dashboard.audioCoveragePercent}%` }
-        ].map((stat) => (
-          <div key={stat.label} className="flex items-end justify-between gap-4 border-b border-line/55 pb-3 last:border-b-0 last:pb-0">
-            <div className="text-sm text-ink/56">{stat.label}</div>
-            <div className="text-2xl tracking-[-0.05em] text-ink/92">{stat.value}</div>
-          </div>
-        ))}
+    <section>
+      <div className="rounded-[20px] border border-line/65 bg-[linear-gradient(180deg,rgba(255,255,255,0.64),rgba(255,255,255,0.46))] px-4 py-3.5 shadow-[inset_0_1px_0_rgba(255,255,255,0.4)] dark:bg-[linear-gradient(180deg,rgba(255,255,255,0.08),rgba(255,255,255,0.02))] sm:px-5 sm:py-4">
+        <div className="text-[11px] uppercase tracking-[0.18em] text-ink/38">Corpus</div>
+        <div className="mt-2.5 flex items-stretch gap-2.5 overflow-x-auto pb-1 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+          {[
+            { label: "Ranked words", value: dashboard.corpusSize },
+            { label: "Examples", value: `${dashboard.exampleCoveragePercent}%` },
+            { label: "Audio coverage", value: `${dashboard.audioCoveragePercent}%` }
+          ].map((stat) => (
+            <div
+              key={stat.label}
+              className="flex min-w-[170px] flex-1 items-end justify-between gap-3 rounded-[12px] border border-line/65 bg-[linear-gradient(180deg,rgba(255,255,255,0.62),rgba(255,255,255,0.42))] px-3 py-2.5 shadow-[inset_0_1px_0_rgba(255,255,255,0.38)] dark:bg-[linear-gradient(180deg,rgba(255,255,255,0.07),rgba(255,255,255,0.02))]"
+            >
+              <div className="text-[13px] text-ink/56">{stat.label}</div>
+              <div className="text-[34px] leading-none tracking-[-0.05em] text-ink/92">{stat.value}</div>
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );
@@ -564,26 +633,36 @@ function CorpusCard({ dashboard }: { dashboard: DashboardSnapshot }) {
 
 export function DashboardShell({ dashboard: initialDashboard }: { dashboard: DashboardSnapshot }) {
   const [dashboard, setDashboard] = useState<DashboardSnapshot>(initialDashboard);
-  const [range, setRange] = useState<number>(30);
+  const [range, setRange] = useState<DashboardRangeDays>(initialDashboard.dashboardRangeDays);
   const [saveError, setSaveError] = useState<string | null>(null);
   const requestIdRef = useRef(0);
-  const saveTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const rangeTouchedRef = useRef(false);
   const snapshotCacheRef = useRef<Record<string, DashboardSnapshot>>({
     [getLanguageSelectionKey(initialDashboard.activeLanguageCodes)]: initialDashboard
   });
 
   useEffect(() => {
     setDashboard(initialDashboard);
+    setRange(initialDashboard.dashboardRangeDays);
+    rangeTouchedRef.current = false;
     snapshotCacheRef.current[getLanguageSelectionKey(initialDashboard.activeLanguageCodes)] = initialDashboard;
 
     // Fetch fresh dashboard data on mount to reconcile stale Next.js router cache
     let cancelled = false;
+    const refreshStart = typeof window !== "undefined" ? performance.now() : null;
     fetch("/api/dashboard")
       .then((res) => (res.ok ? res.json() : null))
       .then((fresh: DashboardSnapshot | null) => {
         if (cancelled || !fresh) return;
         snapshotCacheRef.current[getLanguageSelectionKey(fresh.activeLanguageCodes)] = fresh;
         setDashboard(fresh);
+        if (!rangeTouchedRef.current) {
+          setRange(fresh.dashboardRangeDays);
+        }
+        if (refreshStart !== null) {
+          const refreshMs = performance.now() - refreshStart;
+          console.info(`[perf] dashboard.initial-refresh-ms=${refreshMs.toFixed(2)}`);
+        }
       })
       .catch(() => {});
     return () => {
@@ -591,73 +670,48 @@ export function DashboardShell({ dashboard: initialDashboard }: { dashboard: Das
     };
   }, [initialDashboard]);
 
-  useEffect(() => {
-    return () => {
-      if (saveTimeoutRef.current) {
-        clearTimeout(saveTimeoutRef.current);
-      }
-    };
-  }, []);
 
-  const persistSettings = (payload: { dashboardLanguageCodes?: SupportedLanguageCode[] }) => {
-    const optimisticDashboard = dashboard;
-    const nextLanguageCodes = payload.dashboardLanguageCodes ?? dashboard.activeLanguageCodes;
+  const filterByLanguages = (nextLanguageCodes: SupportedLanguageCode[]) => {
+    setSaveError(null);
+    const refreshStart = typeof window !== "undefined" ? performance.now() : null;
+
     const cachedSnapshot = snapshotCacheRef.current[getLanguageSelectionKey(nextLanguageCodes)];
+    if (cachedSnapshot) {
+      setDashboard(cachedSnapshot);
+    } else {
+      // Optimistic local update
+      setDashboard({ ...dashboard, activeLanguageCodes: nextLanguageCodes });
+    }
+
+    // Persist dashboard language selection from dashboard itself.
     const requestId = requestIdRef.current + 1;
     requestIdRef.current = requestId;
 
-    setSaveError(null);
-
-    setDashboard(
-      cachedSnapshot
-        ? cachedSnapshot
-        : {
-            ...dashboard,
-            activeLanguageCodes: nextLanguageCodes
-          }
-    );
-
-    // Save language choice immediately so it persists across navigation
     fetch("/api/settings", {
       method: "PUT",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(payload)
-    }).catch(() => {
-      // Silently ignore save-only errors; the snapshot refresh below will surface them
-    });
-
-    // Debounce the dashboard snapshot refresh to avoid rapid re-renders
-    if (saveTimeoutRef.current) {
-      clearTimeout(saveTimeoutRef.current);
-    }
-
-    saveTimeoutRef.current = setTimeout(async () => {
-      try {
-        const response = await fetch("/api/settings", {
-          method: "PUT",
-          headers: {
-            "Content-Type": "application/json"
-          },
-          body: JSON.stringify(payload)
-        });
-
-        if (!response.ok) {
-          throw new Error("Could not update settings.");
+      body: JSON.stringify({ dashboardLanguageCodes: nextLanguageCodes })
+    })
+      .then((res) => (res.ok ? res.json() : null))
+      .then((payload: { dashboard?: DashboardSnapshot } | null) => {
+        if (requestId !== requestIdRef.current) return;
+        const fresh = payload?.dashboard ?? null;
+        if (!fresh) {
+          setSaveError("Could not refresh dashboard for those language filters.");
+          return;
         }
-
-        const data: { dashboard: DashboardSnapshot } = await response.json();
-        snapshotCacheRef.current[getLanguageSelectionKey(data.dashboard.activeLanguageCodes)] = data.dashboard;
-
-        if (requestId === requestIdRef.current) {
-          setDashboard(data.dashboard);
+        snapshotCacheRef.current[getLanguageSelectionKey(fresh.activeLanguageCodes)] = fresh;
+        setDashboard(fresh);
+        setSaveError(null);
+        if (refreshStart !== null) {
+          const refreshMs = performance.now() - refreshStart;
+          console.info(`[perf] dashboard.filter-refresh-ms=${refreshMs.toFixed(2)} langs=${nextLanguageCodes.join(",")}`);
         }
-      } catch (error) {
-        if (requestId === requestIdRef.current) {
-          setDashboard(optimisticDashboard);
-          setSaveError(error instanceof Error ? error.message : "Could not update settings.");
-        }
-      }
-    }, 140);
+      })
+      .catch(() => {
+        if (requestId !== requestIdRef.current) return;
+        setSaveError("Could not refresh dashboard for those language filters.");
+      });
   };
 
   const toggleLanguage = (code: SupportedLanguageCode) => {
@@ -669,37 +723,63 @@ export function DashboardShell({ dashboard: initialDashboard }: { dashboard: Das
       return;
     }
 
-    persistSettings({ dashboardLanguageCodes: nextLanguageCodes });
+    filterByLanguages(nextLanguageCodes);
+  };
+
+  const activateAllLanguages = () => {
+    if (dashboard.activeLanguageCodes.length === dashboard.availableLanguages.length) {
+      filterByLanguages([]);
+      return;
+    }
+    const allLanguageCodes = dashboard.availableLanguages.map((language) => language.code);
+    filterByLanguages(allLanguageCodes);
+  };
+
+  const handleRangeChange = (nextRange: DashboardRangeDays) => {
+    rangeTouchedRef.current = true;
+    setRange(nextRange);
+    setDashboard((current) => ({ ...current, dashboardRangeDays: nextRange }));
+    snapshotCacheRef.current[getLanguageSelectionKey(dashboard.activeLanguageCodes)] = {
+      ...dashboard,
+      dashboardRangeDays: nextRange
+    };
+
+    void fetch("/api/settings", {
+      method: "PUT",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ dashboardRangeDays: nextRange })
+    }).catch(() => {});
   };
 
   const activeLanguageLabels = dashboard.availableLanguages
     .filter((language) => dashboard.activeLanguageCodes.includes(language.code))
     .map((language) => language.name)
-    .join(" + ");
+    .join(" + ") || "no active languages selected";
 
   return (
     <div className="space-y-4">
-      <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-[minmax(0,1.2fr)_minmax(0,0.8fr)] lg:gap-4">
+      <div className="grid grid-cols-[minmax(0,1.4fr)_minmax(0,1fr)] items-stretch gap-3 xl:grid-cols-[minmax(0,1.02fr)_minmax(0,0.46fr)_minmax(0,0.92fr)] xl:gap-4">
         <TodayCard dashboard={dashboard} />
-        <QueueCard
-          dashboard={dashboard}
-          saveError={saveError}
-          onToggleLanguage={toggleLanguage}
-        />
+        <TodayMiniStack dashboard={dashboard} />
+        <div className="col-span-2 xl:col-span-1">
+          <QueueCard
+            dashboard={dashboard}
+            saveError={saveError}
+            onToggleLanguage={toggleLanguage}
+            onActivateAll={activateAllLanguages}
+          />
+        </div>
       </div>
 
       <ReviewsSection
         dashboard={dashboard}
         range={range}
-        onRangeChange={setRange}
+        onRangeChange={handleRangeChange}
         activeLanguageLabels={activeLanguageLabels}
       />
+      <StreakCard dashboard={dashboard} />
       <VocabularySection dashboard={dashboard} range={range} />
-
-      <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:gap-4">
-        <StreakCard dashboard={dashboard} />
-        <CorpusCard dashboard={dashboard} />
-      </div>
+      <CorpusCard dashboard={dashboard} />
     </div>
   );
 }

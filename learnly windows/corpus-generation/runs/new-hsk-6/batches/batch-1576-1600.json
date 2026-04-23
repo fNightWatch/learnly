@@ -1,0 +1,350 @@
+[
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1576",
+    "rank": 1576,
+    "display_form": "银",
+    "lemma": "银",
+    "generation_form": "银",
+    "pronunciation": "yín",
+    "pos": "noun",
+    "primary_gloss": "silver",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1577",
+    "rank": 1577,
+    "display_form": "银牌",
+    "lemma": "银牌",
+    "generation_form": "银牌",
+    "pronunciation": "yínpái",
+    "pos": "noun",
+    "primary_gloss": "silver medal",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1578",
+    "rank": 1578,
+    "display_form": "引",
+    "lemma": "引",
+    "generation_form": "引",
+    "pronunciation": "yǐn",
+    "pos": "verb",
+    "primary_gloss": "to lead",
+    "secondary_glosses": [
+      "to guide"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1579",
+    "rank": 1579,
+    "display_form": "隐藏",
+    "lemma": "隐藏",
+    "generation_form": "隐藏",
+    "pronunciation": "yǐncáng",
+    "pos": "verb",
+    "primary_gloss": "to hide",
+    "secondary_glosses": [
+      "to conceal"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1580",
+    "rank": 1580,
+    "display_form": "引导",
+    "lemma": "引导",
+    "generation_form": "引导",
+    "pronunciation": "yǐndǎo",
+    "pos": "verb",
+    "primary_gloss": "to guide",
+    "secondary_glosses": [
+      "to lead"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1581",
+    "rank": 1581,
+    "display_form": "引发",
+    "lemma": "引发",
+    "generation_form": "引发",
+    "pronunciation": "yǐnfā",
+    "pos": "verb",
+    "primary_gloss": "to trigger",
+    "secondary_glosses": [
+      "to cause"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1582",
+    "rank": 1582,
+    "display_form": "引入",
+    "lemma": "引入",
+    "generation_form": "引入",
+    "pronunciation": "yǐnrù",
+    "pos": "verb",
+    "primary_gloss": "to introduce",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1583",
+    "rank": 1583,
+    "display_form": "隐私",
+    "lemma": "隐私",
+    "generation_form": "隐私",
+    "pronunciation": "yǐnsī",
+    "pos": "noun",
+    "primary_gloss": "privacy",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1584",
+    "rank": 1584,
+    "display_form": "饮用水",
+    "lemma": "饮用水",
+    "generation_form": "饮用水",
+    "pronunciation": "yǐnyòngshuǐ",
+    "pos": "noun",
+    "primary_gloss": "drinking water",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1585",
+    "rank": 1585,
+    "display_form": "印",
+    "lemma": "印",
+    "generation_form": "印",
+    "pronunciation": "yìn",
+    "pos": "noun, verb",
+    "primary_gloss": "seal",
+    "secondary_glosses": [
+      "stamp",
+      "to print"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1586",
+    "rank": 1586,
+    "display_form": "婴儿",
+    "lemma": "婴儿",
+    "generation_form": "婴儿",
+    "pronunciation": "yīng’ér",
+    "pos": "noun",
+    "primary_gloss": "baby",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1587",
+    "rank": 1587,
+    "display_form": "英雄",
+    "lemma": "英雄",
+    "generation_form": "英雄",
+    "pronunciation": "yīngxióng",
+    "pos": "noun",
+    "primary_gloss": "hero",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1588",
+    "rank": 1588,
+    "display_form": "影子",
+    "lemma": "影子",
+    "generation_form": "影子",
+    "pronunciation": "yǐngzi",
+    "pos": "noun",
+    "primary_gloss": "shadow",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1589",
+    "rank": 1589,
+    "display_form": "拥挤",
+    "lemma": "拥挤",
+    "generation_form": "拥挤",
+    "pronunciation": "yōngjǐ",
+    "pos": "verb, adjective",
+    "primary_gloss": "crowded",
+    "secondary_glosses": [
+      "to crowd"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1590",
+    "rank": 1590,
+    "display_form": "涌现",
+    "lemma": "涌现",
+    "generation_form": "涌现",
+    "pronunciation": "yǒngxiàn",
+    "pos": "verb",
+    "primary_gloss": "to emerge",
+    "secondary_glosses": [
+      "to appear"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1591",
+    "rank": 1591,
+    "display_form": "勇于",
+    "lemma": "勇于",
+    "generation_form": "勇于",
+    "pronunciation": "yǒngyú",
+    "pos": "verb",
+    "primary_gloss": "to be brave enough to",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1592",
+    "rank": 1592,
+    "display_form": "用餐",
+    "lemma": "用餐",
+    "generation_form": "用餐",
+    "pronunciation": "yòngcān",
+    "pos": "verb",
+    "primary_gloss": "to have a meal",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1593",
+    "rank": 1593,
+    "display_form": "用处",
+    "lemma": "用处",
+    "generation_form": "用处",
+    "pronunciation": "yòngchù",
+    "pos": "noun",
+    "primary_gloss": "use",
+    "secondary_glosses": [
+      "value"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1594",
+    "rank": 1594,
+    "display_form": "用功",
+    "lemma": "用功",
+    "generation_form": "用功",
+    "pronunciation": "yònggōng",
+    "pos": "verb, adjective",
+    "primary_gloss": "to be diligent",
+    "secondary_glosses": [
+      "diligent"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1595",
+    "rank": 1595,
+    "display_form": "用人",
+    "lemma": "用人",
+    "generation_form": "用人",
+    "pronunciation": "yòngrén",
+    "pos": "verb",
+    "primary_gloss": "to employ someone",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1596",
+    "rank": 1596,
+    "display_form": "用心",
+    "lemma": "用心",
+    "generation_form": "用心",
+    "pronunciation": "yòngxīn",
+    "pos": "adjective",
+    "primary_gloss": "attentively",
+    "secondary_glosses": [
+      "with concentration"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1597",
+    "rank": 1597,
+    "display_form": "优化",
+    "lemma": "优化",
+    "generation_form": "优化",
+    "pronunciation": "yōuhuà",
+    "pos": "verb",
+    "primary_gloss": "to optimize",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1598",
+    "rank": 1598,
+    "display_form": "优先",
+    "lemma": "优先",
+    "generation_form": "优先",
+    "pronunciation": "yōuxiān",
+    "pos": "verb",
+    "primary_gloss": "priority",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1599",
+    "rank": 1599,
+    "display_form": "优异",
+    "lemma": "优异",
+    "generation_form": "优异",
+    "pronunciation": "yōuyì",
+    "pos": "adjective",
+    "primary_gloss": "excellent",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1600",
+    "rank": 1600,
+    "display_form": "由来",
+    "lemma": "由来",
+    "generation_form": "由来",
+    "pronunciation": "yóulái",
+    "pos": "noun",
+    "primary_gloss": "origin",
+    "secondary_glosses": [
+      "history"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  }
+]

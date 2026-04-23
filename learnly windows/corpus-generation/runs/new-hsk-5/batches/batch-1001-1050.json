@@ -1,0 +1,721 @@
+[
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1001",
+    "rank": 1001,
+    "display_form": "胜",
+    "lemma": "胜",
+    "generation_form": "胜",
+    "pronunciation": "shèng",
+    "pos": "verb",
+    "primary_gloss": "to win",
+    "secondary_glosses": [
+      "to defeat"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1002",
+    "rank": 1002,
+    "display_form": "胜利",
+    "lemma": "胜利",
+    "generation_form": "胜利",
+    "pronunciation": "shènglì",
+    "pos": "verb",
+    "primary_gloss": "victory",
+    "secondary_glosses": [
+      "triumph",
+      "to win"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1003",
+    "rank": 1003,
+    "display_form": "诗",
+    "lemma": "诗",
+    "generation_form": "诗",
+    "pronunciation": "shī",
+    "pos": "noun",
+    "primary_gloss": "poetry",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1004",
+    "rank": 1004,
+    "display_form": "湿",
+    "lemma": "湿",
+    "generation_form": "湿",
+    "pronunciation": "shī",
+    "pos": "adjective",
+    "primary_gloss": "wet",
+    "secondary_glosses": [
+      "damp"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1005",
+    "rank": 1005,
+    "display_form": "失恋",
+    "lemma": "失恋",
+    "generation_form": "失恋",
+    "pronunciation": "shīliàn",
+    "pos": "verb",
+    "primary_gloss": "to lose in love",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1006",
+    "rank": 1006,
+    "display_form": "失眠",
+    "lemma": "失眠",
+    "generation_form": "失眠",
+    "pronunciation": "shīmián",
+    "pos": "verb",
+    "primary_gloss": "to suffer from insomnia",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1007",
+    "rank": 1007,
+    "display_form": "诗人",
+    "lemma": "诗人",
+    "generation_form": "诗人",
+    "pronunciation": "shīrén",
+    "pos": "noun",
+    "primary_gloss": "poet",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1008",
+    "rank": 1008,
+    "display_form": "失误",
+    "lemma": "失误",
+    "generation_form": "失误",
+    "pronunciation": "shīwù",
+    "pos": "verb, noun",
+    "primary_gloss": "to make a mistake",
+    "secondary_glosses": [
+      "mistake",
+      "error"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1009",
+    "rank": 1009,
+    "display_form": "失业",
+    "lemma": "失业",
+    "generation_form": "失业",
+    "pronunciation": "shīyè",
+    "pos": "verb",
+    "primary_gloss": "to lose one's job",
+    "secondary_glosses": [
+      "to be unemployed"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1010",
+    "rank": 1010,
+    "display_form": "时差",
+    "lemma": "时差",
+    "generation_form": "时差",
+    "pronunciation": "shíchā",
+    "pos": "noun",
+    "primary_gloss": "time difference",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1011",
+    "rank": 1011,
+    "display_form": "时常",
+    "lemma": "时常",
+    "generation_form": "时常",
+    "pronunciation": "shícháng",
+    "pos": "adverb",
+    "primary_gloss": "often",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1012",
+    "rank": 1012,
+    "display_form": "时代",
+    "lemma": "时代",
+    "generation_form": "时代",
+    "pronunciation": "shídài",
+    "pos": "noun",
+    "primary_gloss": "era",
+    "secondary_glosses": [
+      "times"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1013",
+    "rank": 1013,
+    "display_form": "实践",
+    "lemma": "实践",
+    "generation_form": "实践",
+    "pronunciation": "shíjiàn",
+    "pos": "verb",
+    "primary_gloss": "to practice",
+    "secondary_glosses": [
+      "to put into practice"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1014",
+    "rank": 1014,
+    "display_form": "时刻",
+    "lemma": "时刻",
+    "generation_form": "时刻",
+    "pronunciation": "shíkè",
+    "pos": "noun, adverb",
+    "primary_gloss": "moment",
+    "secondary_glosses": [
+      "constantly"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, adverb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1015",
+    "rank": 1015,
+    "display_form": "实力",
+    "lemma": "实力",
+    "generation_form": "实力",
+    "pronunciation": "shílì",
+    "pos": "noun",
+    "primary_gloss": "strength",
+    "secondary_glosses": [
+      "capability"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1016",
+    "rank": 1016,
+    "display_form": "时期",
+    "lemma": "时期",
+    "generation_form": "时期",
+    "pronunciation": "shíqī",
+    "pos": "noun",
+    "primary_gloss": "period",
+    "secondary_glosses": [
+      "phase"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1017",
+    "rank": 1017,
+    "display_form": "实施",
+    "lemma": "实施",
+    "generation_form": "实施",
+    "pronunciation": "shíshī",
+    "pos": "verb",
+    "primary_gloss": "to implement",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1018",
+    "rank": 1018,
+    "display_form": "石头",
+    "lemma": "石头",
+    "generation_form": "石头",
+    "pronunciation": "shítou",
+    "pos": "noun",
+    "primary_gloss": "stone",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1019",
+    "rank": 1019,
+    "display_form": "实习",
+    "lemma": "实习",
+    "generation_form": "实习",
+    "pronunciation": "shíxí",
+    "pos": "verb",
+    "primary_gloss": "to intern",
+    "secondary_glosses": [
+      "to practice"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1020",
+    "rank": 1020,
+    "display_form": "实现",
+    "lemma": "实现",
+    "generation_form": "实现",
+    "pronunciation": "shíxiàn",
+    "pos": "verb",
+    "primary_gloss": "to realize",
+    "secondary_glosses": [
+      "to achieve"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1021",
+    "rank": 1021,
+    "display_form": "实行",
+    "lemma": "实行",
+    "generation_form": "实行",
+    "pronunciation": "shíxíng",
+    "pos": "verb",
+    "primary_gloss": "to implement",
+    "secondary_glosses": [
+      "to carry out"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1022",
+    "rank": 1022,
+    "display_form": "实验",
+    "lemma": "实验",
+    "generation_form": "实验",
+    "pronunciation": "shíyàn",
+    "pos": "verb, noun",
+    "primary_gloss": "to experiment",
+    "secondary_glosses": [
+      "experiment"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1023",
+    "rank": 1023,
+    "display_form": "实验室",
+    "lemma": "实验室",
+    "generation_form": "实验室",
+    "pronunciation": "shíyànshì",
+    "pos": "noun",
+    "primary_gloss": "laboratory",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1024",
+    "rank": 1024,
+    "display_form": "实用",
+    "lemma": "实用",
+    "generation_form": "实用",
+    "pronunciation": "shíyòng",
+    "pos": "adjective",
+    "primary_gloss": "practical",
+    "secondary_glosses": [
+      "functional"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1025",
+    "rank": 1025,
+    "display_form": "食用",
+    "lemma": "食用",
+    "generation_form": "食用",
+    "pronunciation": "shíyòng",
+    "pos": "verb",
+    "primary_gloss": "to eat",
+    "secondary_glosses": [
+      "to be edible"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1026",
+    "rank": 1026,
+    "display_form": "使得",
+    "lemma": "使得",
+    "generation_form": "使得",
+    "pronunciation": "shǐde",
+    "pos": "verb",
+    "primary_gloss": "to cause",
+    "secondary_glosses": [
+      "to make"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1027",
+    "rank": 1027,
+    "display_form": "始终",
+    "lemma": "始终",
+    "generation_form": "始终",
+    "pronunciation": "shǐzhōng",
+    "pos": "noun, adverb",
+    "primary_gloss": "from beginning to end",
+    "secondary_glosses": [
+      "always"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, adverb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1028",
+    "rank": 1028,
+    "display_form": "式",
+    "lemma": "式",
+    "generation_form": "式",
+    "pronunciation": "shì",
+    "pos": "suffix",
+    "primary_gloss": "suffix meaning style",
+    "secondary_glosses": [
+      "type"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as suffix."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1029",
+    "rank": 1029,
+    "display_form": "适当",
+    "lemma": "适当",
+    "generation_form": "适当",
+    "pronunciation": "shìdàng",
+    "pos": "adjective",
+    "primary_gloss": "appropriate",
+    "secondary_glosses": [
+      "suitable"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1030",
+    "rank": 1030,
+    "display_form": "似的",
+    "lemma": "似的",
+    "generation_form": "似的",
+    "pronunciation": "shìde",
+    "pos": "auxiliary",
+    "primary_gloss": "like",
+    "secondary_glosses": [
+      "as if"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as auxiliary."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1031",
+    "rank": 1031,
+    "display_form": "事故",
+    "lemma": "事故",
+    "generation_form": "事故",
+    "pronunciation": "shìgù",
+    "pos": "noun",
+    "primary_gloss": "accident",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1032",
+    "rank": 1032,
+    "display_form": "事件",
+    "lemma": "事件",
+    "generation_form": "事件",
+    "pronunciation": "shìjiàn",
+    "pos": "noun",
+    "primary_gloss": "incident",
+    "secondary_glosses": [
+      "event"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1033",
+    "rank": 1033,
+    "display_form": "试卷",
+    "lemma": "试卷",
+    "generation_form": "试卷",
+    "pronunciation": "shìjuàn",
+    "pos": "noun",
+    "primary_gloss": "exam paper",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1034",
+    "rank": 1034,
+    "display_form": "市民",
+    "lemma": "市民",
+    "generation_form": "市民",
+    "pronunciation": "shìmín",
+    "pos": "noun",
+    "primary_gloss": "citizen",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1035",
+    "rank": 1035,
+    "display_form": "事实",
+    "lemma": "事实",
+    "generation_form": "事实",
+    "pronunciation": "shìshí",
+    "pos": "noun",
+    "primary_gloss": "fact",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1036",
+    "rank": 1036,
+    "display_form": "视为",
+    "lemma": "视为",
+    "generation_form": "视为",
+    "pronunciation": "shìwéi",
+    "pos": "verb",
+    "primary_gloss": "to regard as",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1037",
+    "rank": 1037,
+    "display_form": "事物",
+    "lemma": "事物",
+    "generation_form": "事物",
+    "pronunciation": "shìwù",
+    "pos": "noun",
+    "primary_gloss": "thing",
+    "secondary_glosses": [
+      "object"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1038",
+    "rank": 1038,
+    "display_form": "事先",
+    "lemma": "事先",
+    "generation_form": "事先",
+    "pronunciation": "shìxiān",
+    "pos": "noun",
+    "primary_gloss": "in advance",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1039",
+    "rank": 1039,
+    "display_form": "试验",
+    "lemma": "试验",
+    "generation_form": "试验",
+    "pronunciation": "shìyàn",
+    "pos": "verb",
+    "primary_gloss": "to test",
+    "secondary_glosses": [
+      "to experiment"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1040",
+    "rank": 1040,
+    "display_form": "事业",
+    "lemma": "事业",
+    "generation_form": "事业",
+    "pronunciation": "shìyè",
+    "pos": "noun",
+    "primary_gloss": "career",
+    "secondary_glosses": [
+      "undertaking",
+      "cause"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1041",
+    "rank": 1041,
+    "display_form": "试用",
+    "lemma": "试用",
+    "generation_form": "试用",
+    "pronunciation": "shìyòng",
+    "pos": "verb",
+    "primary_gloss": "to try out",
+    "secondary_glosses": [
+      "to be on probation"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1042",
+    "rank": 1042,
+    "display_form": "适用",
+    "lemma": "适用",
+    "generation_form": "适用",
+    "pronunciation": "shìyòng",
+    "pos": "adjective",
+    "primary_gloss": "applicable",
+    "secondary_glosses": [
+      "suitable"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1043",
+    "rank": 1043,
+    "display_form": "收获",
+    "lemma": "收获",
+    "generation_form": "收获",
+    "pronunciation": "shōuhuò",
+    "pos": "verb, noun",
+    "primary_gloss": "to reap",
+    "secondary_glosses": [
+      "harvest"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1044",
+    "rank": 1044,
+    "display_form": "收集",
+    "lemma": "收集",
+    "generation_form": "收集",
+    "pronunciation": "shōují",
+    "pos": "verb",
+    "primary_gloss": "to collect",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1045",
+    "rank": 1045,
+    "display_form": "收看",
+    "lemma": "收看",
+    "generation_form": "收看",
+    "pronunciation": "shōukàn",
+    "pos": "verb",
+    "primary_gloss": "to watch (TV",
+    "secondary_glosses": [
+      "program)"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1046",
+    "rank": 1046,
+    "display_form": "守",
+    "lemma": "守",
+    "generation_form": "守",
+    "pronunciation": "shǒu",
+    "pos": "verb",
+    "primary_gloss": "to guard",
+    "secondary_glosses": [
+      "to keep"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1047",
+    "rank": 1047,
+    "display_form": "首次",
+    "lemma": "首次",
+    "generation_form": "首次",
+    "pronunciation": "shǒucì",
+    "pos": "number",
+    "primary_gloss": "first time",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as number."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1048",
+    "rank": 1048,
+    "display_form": "手段",
+    "lemma": "手段",
+    "generation_form": "手段",
+    "pronunciation": "shǒuduàn",
+    "pos": "noun",
+    "primary_gloss": "method",
+    "secondary_glosses": [
+      "means"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1049",
+    "rank": 1049,
+    "display_form": "手工",
+    "lemma": "手工",
+    "generation_form": "手工",
+    "pronunciation": "shǒugōng",
+    "pos": "noun",
+    "primary_gloss": "handmade",
+    "secondary_glosses": [
+      "manual"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1050",
+    "rank": 1050,
+    "display_form": "手术",
+    "lemma": "手术",
+    "generation_form": "手术",
+    "pronunciation": "shǒushù",
+    "pos": "noun, verb",
+    "primary_gloss": "surgery",
+    "secondary_glosses": [
+      "to operate"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, verb."
+  }
+]

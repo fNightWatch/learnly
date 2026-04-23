@@ -23,6 +23,32 @@
       }
     ]
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-  "exclude": ["node_modules"]
+  "include": [
+    "next-env.d.ts",
+    ".next/types/**/*.ts",
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "scripts/**/*.ts",
+    "data/content.ts",
+    "drizzle.config.ts",
+    "tailwind.config.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    ".next",
+    "dist",
+    "data/generated",
+    "macos",
+    "languagehack_ios",
+    "languagehack_ios_fresh",
+    "corpus-generation",
+    "artifacts",
+    "playwright-report",
+    "src/lib/demo/generated",
+    "src/lib/demo/store-source.ts",
+    "test-results",
+    "tests",
+    "tmp",
+    ".tmp"
+  ]
 }

@@ -1,0 +1,701 @@
+[
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0651",
+    "rank": 651,
+    "display_form": "开幕",
+    "lemma": "开幕",
+    "generation_form": "开幕",
+    "pronunciation": "kāimù",
+    "pos": "verb",
+    "primary_gloss": "to open a ceremony or exhibition",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0652",
+    "rank": 652,
+    "display_form": "开幕式",
+    "lemma": "开幕式",
+    "generation_form": "开幕式",
+    "pronunciation": "kāimùshì",
+    "pos": "noun",
+    "primary_gloss": "opening ceremony",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0653",
+    "rank": 653,
+    "display_form": "开水",
+    "lemma": "开水",
+    "generation_form": "开水",
+    "pronunciation": "kāishuǐ",
+    "pos": "noun",
+    "primary_gloss": "boiled water",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0654",
+    "rank": 654,
+    "display_form": "开通",
+    "lemma": "开通",
+    "generation_form": "开通",
+    "pronunciation": "kāitōng",
+    "pos": "verb",
+    "primary_gloss": "to open service or line",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0655",
+    "rank": 655,
+    "display_form": "开业",
+    "lemma": "开业",
+    "generation_form": "开业",
+    "pronunciation": "kāiyè",
+    "pos": "verb",
+    "primary_gloss": "to open for business",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0656",
+    "rank": 656,
+    "display_form": "开展",
+    "lemma": "开展",
+    "generation_form": "开展",
+    "pronunciation": "kāizhǎn",
+    "pos": "verb",
+    "primary_gloss": "to develop",
+    "secondary_glosses": [
+      "to carry out"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0657",
+    "rank": 657,
+    "display_form": "看",
+    "lemma": "看",
+    "generation_form": "看",
+    "pronunciation": "kān",
+    "pos": "verb",
+    "primary_gloss": "to look after",
+    "secondary_glosses": [
+      "to watch"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0658",
+    "rank": 658,
+    "display_form": "看望",
+    "lemma": "看望",
+    "generation_form": "看望",
+    "pronunciation": "kànwàng",
+    "pos": "verb",
+    "primary_gloss": "to visit",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0659",
+    "rank": 659,
+    "display_form": "看作",
+    "lemma": "看作",
+    "generation_form": "看作",
+    "pronunciation": "kànzuò",
+    "pos": "verb",
+    "primary_gloss": "to regard as",
+    "secondary_glosses": [
+      "to consider as"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0660",
+    "rank": 660,
+    "display_form": "靠",
+    "lemma": "靠",
+    "generation_form": "靠",
+    "pronunciation": "kào",
+    "pos": "verb",
+    "primary_gloss": "to lean on",
+    "secondary_glosses": [
+      "to rely on",
+      "to be close to"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0661",
+    "rank": 661,
+    "display_form": "靠近",
+    "lemma": "靠近",
+    "generation_form": "靠近",
+    "pronunciation": "kàojìn",
+    "pos": "verb",
+    "primary_gloss": "to approach",
+    "secondary_glosses": [
+      "to get close to"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0662",
+    "rank": 662,
+    "display_form": "颗",
+    "lemma": "颗",
+    "generation_form": "颗",
+    "pronunciation": "kē",
+    "pos": "measure word",
+    "primary_gloss": "measure word for small round objects",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source gloss marks this entry as a measure word."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0663",
+    "rank": 663,
+    "display_form": "科研",
+    "lemma": "科研",
+    "generation_form": "科研",
+    "pronunciation": "kēyán",
+    "pos": "verb",
+    "primary_gloss": "scientific research",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0664",
+    "rank": 664,
+    "display_form": "可见",
+    "lemma": "可见",
+    "generation_form": "可见",
+    "pronunciation": "kějiàn",
+    "pos": "conjunction",
+    "primary_gloss": "it can be seen that",
+    "secondary_glosses": [
+      "obviously"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as conjunction."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0665",
+    "rank": 665,
+    "display_form": "可靠",
+    "lemma": "可靠",
+    "generation_form": "可靠",
+    "pronunciation": "kěkào",
+    "pos": "adjective",
+    "primary_gloss": "reliable",
+    "secondary_glosses": [
+      "dependable"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0666",
+    "rank": 666,
+    "display_form": "可怕",
+    "lemma": "可怕",
+    "generation_form": "可怕",
+    "pronunciation": "kěpà",
+    "pos": "adjective",
+    "primary_gloss": "terrible",
+    "secondary_glosses": [
+      "frightening"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0667",
+    "rank": 667,
+    "display_form": "克服",
+    "lemma": "克服",
+    "generation_form": "克服",
+    "pronunciation": "kèfú",
+    "pos": "verb",
+    "primary_gloss": "to overcome",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0668",
+    "rank": 668,
+    "display_form": "客服",
+    "lemma": "客服",
+    "generation_form": "客服",
+    "pronunciation": "kèfú",
+    "pos": "adjective",
+    "primary_gloss": "customer service",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0669",
+    "rank": 669,
+    "display_form": "客观",
+    "lemma": "客观",
+    "generation_form": "客观",
+    "pronunciation": "kèguān",
+    "pos": "adjective",
+    "primary_gloss": "objective",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0670",
+    "rank": 670,
+    "display_form": "客户",
+    "lemma": "客户",
+    "generation_form": "客户",
+    "pronunciation": "kèhù",
+    "pos": "noun",
+    "primary_gloss": "client",
+    "secondary_glosses": [
+      "customer"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0671",
+    "rank": 671,
+    "display_form": "空间",
+    "lemma": "空间",
+    "generation_form": "空间",
+    "pronunciation": "kōngjiān",
+    "pos": "noun",
+    "primary_gloss": "space",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0672",
+    "rank": 672,
+    "display_form": "空中",
+    "lemma": "空中",
+    "generation_form": "空中",
+    "pronunciation": "kōngzhōng",
+    "pos": "noun, adjective",
+    "primary_gloss": "in the air",
+    "secondary_glosses": [
+      "sky",
+      "aerial"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0673",
+    "rank": 673,
+    "display_form": "控制",
+    "lemma": "控制",
+    "generation_form": "控制",
+    "pronunciation": "kòngzhì",
+    "pos": "verb",
+    "primary_gloss": "to control",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0674",
+    "rank": 674,
+    "display_form": "又袋",
+    "lemma": "又袋",
+    "generation_form": "又袋",
+    "pronunciation": "kǒudai",
+    "pos": "noun",
+    "primary_gloss": "pocket",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0675",
+    "rank": 675,
+    "display_form": "又味",
+    "lemma": "又味",
+    "generation_form": "又味",
+    "pronunciation": "kǒuwèi",
+    "pos": "noun",
+    "primary_gloss": "taste",
+    "secondary_glosses": [
+      "flavor"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0676",
+    "rank": 676,
+    "display_form": "库",
+    "lemma": "库",
+    "generation_form": "库",
+    "pronunciation": "kù",
+    "pos": "noun",
+    "primary_gloss": "warehouse",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0677",
+    "rank": 677,
+    "display_form": "宽",
+    "lemma": "宽",
+    "generation_form": "宽",
+    "pronunciation": "kuān",
+    "pos": "adjective, noun, verb",
+    "primary_gloss": "wide",
+    "secondary_glosses": [
+      "broad",
+      "width",
+      "(to widen)"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective, noun, verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0678",
+    "rank": 678,
+    "display_form": "宽度",
+    "lemma": "宽度",
+    "generation_form": "宽度",
+    "pronunciation": "kuāndù",
+    "pos": "noun",
+    "primary_gloss": "width",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0679",
+    "rank": 679,
+    "display_form": "亏",
+    "lemma": "亏",
+    "generation_form": "亏",
+    "pronunciation": "kuī",
+    "pos": "verb",
+    "primary_gloss": "to lose",
+    "secondary_glosses": [
+      "to suffer a loss"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0680",
+    "rank": 680,
+    "display_form": "昆虫",
+    "lemma": "昆虫",
+    "generation_form": "昆虫",
+    "pronunciation": "kūnchóng",
+    "pos": "noun",
+    "primary_gloss": "insect",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0681",
+    "rank": 681,
+    "display_form": "扩大",
+    "lemma": "扩大",
+    "generation_form": "扩大",
+    "pronunciation": "kuòdà",
+    "pos": "verb",
+    "primary_gloss": "to expand",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0682",
+    "rank": 682,
+    "display_form": "来源",
+    "lemma": "来源",
+    "generation_form": "来源",
+    "pronunciation": "láiyuán",
+    "pos": "noun, verb",
+    "primary_gloss": "source",
+    "secondary_glosses": [
+      "origin",
+      "to originate from"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0683",
+    "rank": 683,
+    "display_form": "劳verb",
+    "lemma": "劳verb",
+    "generation_form": "劳verb",
+    "pronunciation": "láodòng",
+    "pos": "noun, verb",
+    "primary_gloss": "labor",
+    "secondary_glosses": [
+      "work",
+      "to work"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0684",
+    "rank": 684,
+    "display_form": "老百姓",
+    "lemma": "老百姓",
+    "generation_form": "老百姓",
+    "pronunciation": "lǎobǎixìng",
+    "pos": "noun",
+    "primary_gloss": "common people",
+    "secondary_glosses": [
+      "ordinary people"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0685",
+    "rank": 685,
+    "display_form": "老板",
+    "lemma": "老板",
+    "generation_form": "老板",
+    "pronunciation": "lǎobǎn",
+    "pos": "noun",
+    "primary_gloss": "boss",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0686",
+    "rank": 686,
+    "display_form": "老公",
+    "lemma": "老公",
+    "generation_form": "老公",
+    "pronunciation": "lǎogōng",
+    "pos": "noun",
+    "primary_gloss": "husband",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0687",
+    "rank": 687,
+    "display_form": "姥姥",
+    "lemma": "姥姥",
+    "generation_form": "姥姥",
+    "pronunciation": "lǎolao",
+    "pos": "noun",
+    "primary_gloss": "grandmother",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0688",
+    "rank": 688,
+    "display_form": "老婆",
+    "lemma": "老婆",
+    "generation_form": "老婆",
+    "pronunciation": "lǎopo",
+    "pos": "noun",
+    "primary_gloss": "wife",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0689",
+    "rank": 689,
+    "display_form": "姥爷",
+    "lemma": "姥爷",
+    "generation_form": "姥爷",
+    "pronunciation": "lǎoye",
+    "pos": "noun",
+    "primary_gloss": "grandfather",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0690",
+    "rank": 690,
+    "display_form": "乐观",
+    "lemma": "乐观",
+    "generation_form": "乐观",
+    "pronunciation": "lèguān",
+    "pos": "adjective",
+    "primary_gloss": "optimistic",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0691",
+    "rank": 691,
+    "display_form": "乐趣",
+    "lemma": "乐趣",
+    "generation_form": "乐趣",
+    "pronunciation": "lèqù",
+    "pos": "noun",
+    "primary_gloss": "fun",
+    "secondary_glosses": [
+      "delight"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0692",
+    "rank": 692,
+    "display_form": "泪",
+    "lemma": "泪",
+    "generation_form": "泪",
+    "pronunciation": "lèi",
+    "pos": "noun",
+    "primary_gloss": "tear",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0693",
+    "rank": 693,
+    "display_form": "类",
+    "lemma": "类",
+    "generation_form": "类",
+    "pronunciation": "lèi",
+    "pos": "noun",
+    "primary_gloss": "category",
+    "secondary_glosses": [
+      "kind",
+      "measure word for categories"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0694",
+    "rank": 694,
+    "display_form": "泪水",
+    "lemma": "泪水",
+    "generation_form": "泪水",
+    "pronunciation": "lèishuǐ",
+    "pos": "noun",
+    "primary_gloss": "tears",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0695",
+    "rank": 695,
+    "display_form": "类似",
+    "lemma": "类似",
+    "generation_form": "类似",
+    "pronunciation": "lèisì",
+    "pos": "verb",
+    "primary_gloss": "similar",
+    "secondary_glosses": [
+      "alike"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0696",
+    "rank": 696,
+    "display_form": "类型",
+    "lemma": "类型",
+    "generation_form": "类型",
+    "pronunciation": "lèixíng",
+    "pos": "noun",
+    "primary_gloss": "type",
+    "secondary_glosses": [
+      "category"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0697",
+    "rank": 697,
+    "display_form": "梨",
+    "lemma": "梨",
+    "generation_form": "梨",
+    "pronunciation": "lí",
+    "pos": "noun",
+    "primary_gloss": "pear",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0698",
+    "rank": 698,
+    "display_form": "离婚",
+    "lemma": "离婚",
+    "generation_form": "离婚",
+    "pronunciation": "líhūn",
+    "pos": "verb",
+    "primary_gloss": "to divorce",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0699",
+    "rank": 699,
+    "display_form": "厘米",
+    "lemma": "厘米",
+    "generation_form": "厘米",
+    "pronunciation": "límǐ",
+    "pos": "unknown",
+    "primary_gloss": "centimeter",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0700",
+    "rank": 700,
+    "display_form": "离职",
+    "lemma": "离职",
+    "generation_form": "离职",
+    "pronunciation": "lízhí",
+    "pos": "verb",
+    "primary_gloss": "to resign",
+    "secondary_glosses": [
+      "to leave a job"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  }
+]

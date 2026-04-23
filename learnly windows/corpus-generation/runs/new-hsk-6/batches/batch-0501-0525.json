@@ -1,0 +1,349 @@
+[
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0501",
+    "rank": 501,
+    "display_form": "规划",
+    "lemma": "规划",
+    "generation_form": "规划",
+    "pronunciation": "guīhuà",
+    "pos": "noun, verb",
+    "primary_gloss": "plan",
+    "secondary_glosses": [
+      "to plan"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0502",
+    "rank": 502,
+    "display_form": "归还",
+    "lemma": "归还",
+    "generation_form": "归还",
+    "pronunciation": "guīhuán",
+    "pos": "verb",
+    "primary_gloss": "to return",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0503",
+    "rank": 503,
+    "display_form": "规矩",
+    "lemma": "规矩",
+    "generation_form": "规矩",
+    "pronunciation": "guīju",
+    "pos": "noun, adjective",
+    "primary_gloss": "rule",
+    "secondary_glosses": [
+      "custom",
+      "well-behaved"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0504",
+    "rank": 504,
+    "display_form": "轨道",
+    "lemma": "轨道",
+    "generation_form": "轨道",
+    "pronunciation": "guǐdào",
+    "pos": "noun",
+    "primary_gloss": "track",
+    "secondary_glosses": [
+      "orbit"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0505",
+    "rank": 505,
+    "display_form": "跪",
+    "lemma": "跪",
+    "generation_form": "跪",
+    "pronunciation": "guì",
+    "pos": "verb",
+    "primary_gloss": "to kneel",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0506",
+    "rank": 506,
+    "display_form": "贵重",
+    "lemma": "贵重",
+    "generation_form": "贵重",
+    "pronunciation": "guìzhòng",
+    "pos": "adjective",
+    "primary_gloss": "precious",
+    "secondary_glosses": [
+      "valuable"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0507",
+    "rank": 507,
+    "display_form": "棍",
+    "lemma": "棍",
+    "generation_form": "棍",
+    "pronunciation": "gùn",
+    "pos": "noun",
+    "primary_gloss": "stick",
+    "secondary_glosses": [
+      "rod"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0508",
+    "rank": 508,
+    "display_form": "国宝",
+    "lemma": "国宝",
+    "generation_form": "国宝",
+    "pronunciation": "guóbǎo",
+    "pos": "noun",
+    "primary_gloss": "national treasure",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0509",
+    "rank": 509,
+    "display_form": "国产",
+    "lemma": "国产",
+    "generation_form": "国产",
+    "pronunciation": "guóchǎn",
+    "pos": "adjective",
+    "primary_gloss": "domestically produced",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0510",
+    "rank": 510,
+    "display_form": "国歌",
+    "lemma": "国歌",
+    "generation_form": "国歌",
+    "pronunciation": "guógē",
+    "pos": "noun",
+    "primary_gloss": "national anthem",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0511",
+    "rank": 511,
+    "display_form": "国旗",
+    "lemma": "国旗",
+    "generation_form": "国旗",
+    "pronunciation": "guóqí",
+    "pos": "noun",
+    "primary_gloss": "national flag",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0512",
+    "rank": 512,
+    "display_form": "国情",
+    "lemma": "国情",
+    "generation_form": "国情",
+    "pronunciation": "guóqíng",
+    "pos": "noun",
+    "primary_gloss": "national conditions",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0513",
+    "rank": 513,
+    "display_form": "国王",
+    "lemma": "国王",
+    "generation_form": "国王",
+    "pronunciation": "guówáng",
+    "pos": "noun",
+    "primary_gloss": "king",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0514",
+    "rank": 514,
+    "display_form": "过渡",
+    "lemma": "过渡",
+    "generation_form": "过渡",
+    "pronunciation": "guòdù",
+    "pos": "verb",
+    "primary_gloss": "to transition",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0515",
+    "rank": 515,
+    "display_form": "过后",
+    "lemma": "过后",
+    "generation_form": "过后",
+    "pronunciation": "guòhòu",
+    "pos": "noun",
+    "primary_gloss": "afterwards",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0516",
+    "rank": 516,
+    "display_form": "过时",
+    "lemma": "过时",
+    "generation_form": "过时",
+    "pronunciation": "guòshí",
+    "pos": "verb, adjective",
+    "primary_gloss": "to go out of fashion",
+    "secondary_glosses": [
+      "outdated",
+      "obsolete"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0517",
+    "rank": 517,
+    "display_form": "海内外",
+    "lemma": "海内外",
+    "generation_form": "海内外",
+    "pronunciation": "hǎi nèiwài",
+    "pos": "unknown",
+    "primary_gloss": "both at home and abroad",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0518",
+    "rank": 518,
+    "display_form": "海岸",
+    "lemma": "海岸",
+    "generation_form": "海岸",
+    "pronunciation": "hǎi’àn",
+    "pos": "noun",
+    "primary_gloss": "coast",
+    "secondary_glosses": [
+      "shore"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0519",
+    "rank": 519,
+    "display_form": "海拔",
+    "lemma": "海拔",
+    "generation_form": "海拔",
+    "pronunciation": "hǎibá",
+    "pos": "noun",
+    "primary_gloss": "altitude",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0520",
+    "rank": 520,
+    "display_form": "海面",
+    "lemma": "海面",
+    "generation_form": "海面",
+    "pronunciation": "hǎimiàn",
+    "pos": "noun",
+    "primary_gloss": "sea surface",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0521",
+    "rank": 521,
+    "display_form": "海域",
+    "lemma": "海域",
+    "generation_form": "海域",
+    "pronunciation": "hǎiyù",
+    "pos": "noun",
+    "primary_gloss": "sea area",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0522",
+    "rank": 522,
+    "display_form": "害",
+    "lemma": "害",
+    "generation_form": "害",
+    "pronunciation": "hài",
+    "pos": "noun, verb",
+    "primary_gloss": "harm",
+    "secondary_glosses": [
+      "to harm"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0523",
+    "rank": 523,
+    "display_form": "寒冬",
+    "lemma": "寒冬",
+    "generation_form": "寒冬",
+    "pronunciation": "hándōng",
+    "pos": "noun",
+    "primary_gloss": "cold winter",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0524",
+    "rank": 524,
+    "display_form": "含义",
+    "lemma": "含义",
+    "generation_form": "含义",
+    "pronunciation": "hányì",
+    "pos": "noun",
+    "primary_gloss": "meaning",
+    "secondary_glosses": [
+      "implication"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0525",
+    "rank": 525,
+    "display_form": "罕见",
+    "lemma": "罕见",
+    "generation_form": "罕见",
+    "pronunciation": "hǎnjiàn",
+    "pos": "adjective",
+    "primary_gloss": "rare",
+    "secondary_glosses": [
+      "seldom seen"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  }
+]

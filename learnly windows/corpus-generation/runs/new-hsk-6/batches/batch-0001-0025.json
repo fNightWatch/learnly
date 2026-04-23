@@ -1,0 +1,355 @@
+[
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0001",
+    "rank": 1,
+    "display_form": "岸",
+    "lemma": "岸",
+    "generation_form": "岸",
+    "pronunciation": "àn",
+    "pos": "noun",
+    "primary_gloss": "shore",
+    "secondary_glosses": [
+      "coast",
+      "bank"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0002",
+    "rank": 2,
+    "display_form": "案例",
+    "lemma": "案例",
+    "generation_form": "案例",
+    "pronunciation": "ànlì",
+    "pos": "noun",
+    "primary_gloss": "case",
+    "secondary_glosses": [
+      "example"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0003",
+    "rank": 3,
+    "display_form": "按摩",
+    "lemma": "按摩",
+    "generation_form": "按摩",
+    "pronunciation": "ànmó",
+    "pos": "verb",
+    "primary_gloss": "massage",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0004",
+    "rank": 4,
+    "display_form": "暗示",
+    "lemma": "暗示",
+    "generation_form": "暗示",
+    "pronunciation": "ànshì",
+    "pos": "verb",
+    "primary_gloss": "to hint",
+    "secondary_glosses": [
+      "to imply"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0005",
+    "rank": 5,
+    "display_form": "昂贵",
+    "lemma": "昂贵",
+    "generation_form": "昂贵",
+    "pronunciation": "ángguì",
+    "pos": "adjective",
+    "primary_gloss": "expensive",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0006",
+    "rank": 6,
+    "display_form": "白白",
+    "lemma": "白白",
+    "generation_form": "白白",
+    "pronunciation": "báibái",
+    "pos": "adverb",
+    "primary_gloss": "in vain",
+    "secondary_glosses": [
+      "for nothing"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0007",
+    "rank": 7,
+    "display_form": "白领",
+    "lemma": "白领",
+    "generation_form": "白领",
+    "pronunciation": "báilǐng",
+    "pos": "noun",
+    "primary_gloss": "white-collar worker",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0008",
+    "rank": 8,
+    "display_form": "摆",
+    "lemma": "摆",
+    "generation_form": "摆",
+    "pronunciation": "bǎi",
+    "pos": "verb",
+    "primary_gloss": "to place",
+    "secondary_glosses": [
+      "to arrange"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0009",
+    "rank": 9,
+    "display_form": "摆放",
+    "lemma": "摆放",
+    "generation_form": "摆放",
+    "pronunciation": "bǎifàng",
+    "pos": "verb",
+    "primary_gloss": "to put",
+    "secondary_glosses": [
+      "to place"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0010",
+    "rank": 10,
+    "display_form": "百分点",
+    "lemma": "百分点",
+    "generation_form": "百分点",
+    "pronunciation": "bǎifēndiǎn",
+    "pos": "noun",
+    "primary_gloss": "percentage point",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0011",
+    "rank": 11,
+    "display_form": "百货",
+    "lemma": "百货",
+    "generation_form": "百货",
+    "pronunciation": "bǎihuò",
+    "pos": "noun",
+    "primary_gloss": "department store",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0012",
+    "rank": 12,
+    "display_form": "摆脱",
+    "lemma": "摆脱",
+    "generation_form": "摆脱",
+    "pronunciation": "bǎituō",
+    "pos": "verb",
+    "primary_gloss": "to get rid of",
+    "secondary_glosses": [
+      "to break away from"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0013",
+    "rank": 13,
+    "display_form": "败",
+    "lemma": "败",
+    "generation_form": "败",
+    "pronunciation": "bài",
+    "pos": "verb",
+    "primary_gloss": "to be defeated",
+    "secondary_glosses": [
+      "to fail"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0014",
+    "rank": 14,
+    "display_form": "拜访",
+    "lemma": "拜访",
+    "generation_form": "拜访",
+    "pronunciation": "bàifǎng",
+    "pos": "verb",
+    "primary_gloss": "to visit",
+    "secondary_glosses": [
+      "to call on"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0015",
+    "rank": 15,
+    "display_form": "拜年",
+    "lemma": "拜年",
+    "generation_form": "拜年",
+    "pronunciation": "bàinián",
+    "pos": "verb",
+    "primary_gloss": "to pay a New Year's visit",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0016",
+    "rank": 16,
+    "display_form": "版",
+    "lemma": "版",
+    "generation_form": "版",
+    "pronunciation": "bǎn",
+    "pos": "noun, measure word",
+    "primary_gloss": "edition",
+    "secondary_glosses": [
+      "version",
+      "measure word for editions"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, measure word."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0017",
+    "rank": 17,
+    "display_form": "版本",
+    "lemma": "版本",
+    "generation_form": "版本",
+    "pronunciation": "bǎnběn",
+    "pos": "noun",
+    "primary_gloss": "version",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0018",
+    "rank": 18,
+    "display_form": "伴随",
+    "lemma": "伴随",
+    "generation_form": "伴随",
+    "pronunciation": "bànsuí",
+    "pos": "verb",
+    "primary_gloss": "to accompany",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0019",
+    "rank": 19,
+    "display_form": "扮演",
+    "lemma": "扮演",
+    "generation_form": "扮演",
+    "pronunciation": "bànyǎn",
+    "pos": "verb",
+    "primary_gloss": "to play the role of",
+    "secondary_glosses": [
+      "to act as"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0020",
+    "rank": 20,
+    "display_form": "榜样",
+    "lemma": "榜样",
+    "generation_form": "榜样",
+    "pronunciation": "bǎngyàng",
+    "pos": "noun",
+    "primary_gloss": "example",
+    "secondary_glosses": [
+      "model"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0021",
+    "rank": 21,
+    "display_form": "棒球",
+    "lemma": "棒球",
+    "generation_form": "棒球",
+    "pronunciation": "bàngqiú",
+    "pos": "noun",
+    "primary_gloss": "baseball",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0022",
+    "rank": 22,
+    "display_form": "保管",
+    "lemma": "保管",
+    "generation_form": "保管",
+    "pronunciation": "bǎoguǎn",
+    "pos": "verb",
+    "primary_gloss": "to take care of",
+    "secondary_glosses": [
+      "to keep"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0023",
+    "rank": 23,
+    "display_form": "保健",
+    "lemma": "保健",
+    "generation_form": "保健",
+    "pronunciation": "bǎojiàn",
+    "pos": "verb",
+    "primary_gloss": "health care",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0024",
+    "rank": 24,
+    "display_form": "保暖",
+    "lemma": "保暖",
+    "generation_form": "保暖",
+    "pronunciation": "bǎonuǎn",
+    "pos": "verb",
+    "primary_gloss": "to keep warm",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0025",
+    "rank": 25,
+    "display_form": "保修",
+    "lemma": "保修",
+    "generation_form": "保修",
+    "pronunciation": "bǎoxiū",
+    "pos": "verb",
+    "primary_gloss": "to guarantee repair",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  }
+]

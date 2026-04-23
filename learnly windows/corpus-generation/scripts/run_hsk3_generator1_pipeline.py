@@ -14,8 +14,6 @@ RUN_ROOT = ROOT / "runs" / "new-hsk-3"
 JOB_DIR = RUN_ROOT / "batches"
 OUT_DIR = RUN_ROOT / "generated" / "generator-1"
 LOG_DIR = RUN_ROOT / "logs"
-PYTHON = sys.executable or "python"
-PYTHON_NAME = Path(PYTHON).name or PYTHON
 
 BATCHES = [
     ("batch-0001-0025.json", "batch-0001-0025.jsonl"),
@@ -54,7 +52,7 @@ Requirements:
 - Each example needs meaning_en, sentence, translation, difficulty, source, and is_primary.
 - Match the final payload shape expected by orchestrator.py validate-jsonl / ingest-jsonl.
 - Use source value generator-1 on your examples.
-- Validate the finished batch with: {python_name} orchestrator.py --db-path corpus-hsk-3.sqlite validate-jsonl {output_path}
+- Validate the finished batch with: python3 orchestrator.py --db-path corpus-hsk-3.sqlite validate-jsonl {output_path}
 - If validation fails, fix the batch and revalidate before finishing.
 
 Quality bar:
@@ -74,7 +72,7 @@ def batch_is_ready(output_path: Path) -> bool:
     if not output_path.exists():
         return False
     try:
-        run([PYTHON, "orchestrator.py", "--db-path", str(DB_PATH), "validate-jsonl", str(output_path)])
+        run(["python3", "orchestrator.py", "--db-path", str(DB_PATH), "validate-jsonl", str(output_path)])
     except subprocess.CalledProcessError:
         return False
     return True
@@ -95,7 +93,6 @@ def launch_batch(job_path: Path, output_path: Path) -> subprocess.Popen[str]:
         job_path=job_path,
         output_path=output_path,
         db_path=DB_PATH,
-        python_name=PYTHON_NAME,
     )
     log_handle = log_path.open("w")
     cmd = [
@@ -126,8 +123,8 @@ def launch_batch(job_path: Path, output_path: Path) -> subprocess.Popen[str]:
 
 
 def validate_and_ingest(output_path: Path) -> None:
-    run([PYTHON, "orchestrator.py", "--db-path", str(DB_PATH), "validate-jsonl", str(output_path)])
-    run([PYTHON, "orchestrator.py", "--db-path", str(DB_PATH), "ingest-jsonl", str(output_path)])
+    run(["python3", "orchestrator.py", "--db-path", str(DB_PATH), "validate-jsonl", str(output_path)])
+    run(["python3", "orchestrator.py", "--db-path", str(DB_PATH), "ingest-jsonl", str(output_path)])
 
 
 def main() -> None:
@@ -151,7 +148,7 @@ def main() -> None:
         validate_and_ingest(output_path)
         print(f"Validated and ingested {out_name}", flush=True)
 
-        coverage = run([PYTHON, "orchestrator.py", "--db-path", str(DB_PATH), "coverage", "--dataset-id", DATASET_ID])
+        coverage = run(["python3", "orchestrator.py", "--db-path", str(DB_PATH), "coverage", "--dataset-id", DATASET_ID])
         print(coverage.stdout.strip(), flush=True)
 
 

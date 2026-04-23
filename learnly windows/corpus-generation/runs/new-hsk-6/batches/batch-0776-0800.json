@@ -1,0 +1,368 @@
+[
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0776",
+    "rank": 776,
+    "display_form": "考古",
+    "lemma": "考古",
+    "generation_form": "考古",
+    "pronunciation": "kǎogǔ",
+    "pos": "verb, noun",
+    "primary_gloss": "to engage in archaeology",
+    "secondary_glosses": [
+      "archaeology"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0777",
+    "rank": 777,
+    "display_form": "考核",
+    "lemma": "考核",
+    "generation_form": "考核",
+    "pronunciation": "kǎohé",
+    "pos": "verb",
+    "primary_gloss": "to assess",
+    "secondary_glosses": [
+      "to examine"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0778",
+    "rank": 778,
+    "display_form": "考验",
+    "lemma": "考验",
+    "generation_form": "考验",
+    "pronunciation": "kǎoyàn",
+    "pos": "verb",
+    "primary_gloss": "to test",
+    "secondary_glosses": [
+      "to put to the test"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0779",
+    "rank": 779,
+    "display_form": "科",
+    "lemma": "科",
+    "generation_form": "科",
+    "pronunciation": "kē",
+    "pos": "noun",
+    "primary_gloss": "field",
+    "secondary_glosses": [
+      "branch of study"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0780",
+    "rank": 780,
+    "display_form": "科幻",
+    "lemma": "科幻",
+    "generation_form": "科幻",
+    "pronunciation": "kēhuàn",
+    "pos": "noun",
+    "primary_gloss": "science fiction",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0781",
+    "rank": 781,
+    "display_form": "科目",
+    "lemma": "科目",
+    "generation_form": "科目",
+    "pronunciation": "kēmù",
+    "pos": "noun",
+    "primary_gloss": "subject",
+    "secondary_glosses": [
+      "course"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0782",
+    "rank": 782,
+    "display_form": "科普",
+    "lemma": "科普",
+    "generation_form": "科普",
+    "pronunciation": "kēpǔ",
+    "pos": "verb",
+    "primary_gloss": "to popularize science",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0783",
+    "rank": 783,
+    "display_form": "可又",
+    "lemma": "可又",
+    "generation_form": "可又",
+    "pronunciation": "kěkǒu",
+    "pos": "adjective",
+    "primary_gloss": "delicious",
+    "secondary_glosses": [
+      "tasty"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0784",
+    "rank": 784,
+    "display_form": "可怜",
+    "lemma": "可怜",
+    "generation_form": "可怜",
+    "pronunciation": "kělián",
+    "pos": "adjective, verb",
+    "primary_gloss": "pitiful",
+    "secondary_glosses": [
+      "to pity"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective, verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0785",
+    "rank": 785,
+    "display_form": "渴望",
+    "lemma": "渴望",
+    "generation_form": "渴望",
+    "pronunciation": "kěwàng",
+    "pos": "verb",
+    "primary_gloss": "to long for",
+    "secondary_glosses": [
+      "to thirst for"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0786",
+    "rank": 786,
+    "display_form": "可行",
+    "lemma": "可行",
+    "generation_form": "可行",
+    "pronunciation": "kěxíng",
+    "pos": "adjective",
+    "primary_gloss": "feasible",
+    "secondary_glosses": [
+      "workable"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0787",
+    "rank": 787,
+    "display_form": "客车",
+    "lemma": "客车",
+    "generation_form": "客车",
+    "pronunciation": "kèchē",
+    "pos": "noun",
+    "primary_gloss": "passenger bus",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0788",
+    "rank": 788,
+    "display_form": "课题",
+    "lemma": "课题",
+    "generation_form": "课题",
+    "pronunciation": "kètí",
+    "pos": "noun",
+    "primary_gloss": "topic",
+    "secondary_glosses": [
+      "research question"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0789",
+    "rank": 789,
+    "display_form": "肯",
+    "lemma": "肯",
+    "generation_form": "肯",
+    "pronunciation": "kěn",
+    "pos": "verb",
+    "primary_gloss": "to be willing",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0790",
+    "rank": 790,
+    "display_form": "恐惧",
+    "lemma": "恐惧",
+    "generation_form": "恐惧",
+    "pronunciation": "kǒngjù",
+    "pos": "adjective",
+    "primary_gloss": "fearful",
+    "secondary_glosses": [
+      "terrified"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0791",
+    "rank": 791,
+    "display_form": "空地",
+    "lemma": "空地",
+    "generation_form": "空地",
+    "pronunciation": "kòngdì",
+    "pos": "noun",
+    "primary_gloss": "open space",
+    "secondary_glosses": [
+      "vacant land"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0792",
+    "rank": 792,
+    "display_form": "空闲",
+    "lemma": "空闲",
+    "generation_form": "空闲",
+    "pronunciation": "kòngxián",
+    "pos": "adjective, noun",
+    "primary_gloss": "free",
+    "secondary_glosses": [
+      "leisure",
+      "free time"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective, noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0793",
+    "rank": 793,
+    "display_form": "又感",
+    "lemma": "又感",
+    "generation_form": "又感",
+    "pronunciation": "kǒugǎn",
+    "pos": "noun",
+    "primary_gloss": "taste",
+    "secondary_glosses": [
+      "texture"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0794",
+    "rank": 794,
+    "display_form": "又号",
+    "lemma": "又号",
+    "generation_form": "又号",
+    "pronunciation": "kǒuhào",
+    "pos": "noun",
+    "primary_gloss": "slogan",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0795",
+    "rank": 795,
+    "display_form": "又腔",
+    "lemma": "又腔",
+    "generation_form": "又腔",
+    "pronunciation": "kǒuqiāng",
+    "pos": "noun",
+    "primary_gloss": "oral cavity",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0796",
+    "rank": 796,
+    "display_form": "又头",
+    "lemma": "又头",
+    "generation_form": "又头",
+    "pronunciation": "kǒutóu",
+    "pos": "noun, adjective",
+    "primary_gloss": "oral",
+    "secondary_glosses": [
+      "动al",
+      "superficial"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0797",
+    "rank": 797,
+    "display_form": "扣",
+    "lemma": "扣",
+    "generation_form": "扣",
+    "pronunciation": "kòu",
+    "pos": "verb, noun",
+    "primary_gloss": "to deduct",
+    "secondary_glosses": [
+      "to button",
+      "button"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0798",
+    "rank": 798,
+    "display_form": "枯燥",
+    "lemma": "枯燥",
+    "generation_form": "枯燥",
+    "pronunciation": "kūzào",
+    "pos": "adjective",
+    "primary_gloss": "dry",
+    "secondary_glosses": [
+      "boring"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0799",
+    "rank": 799,
+    "display_form": "酷",
+    "lemma": "酷",
+    "generation_form": "酷",
+    "pronunciation": "kù",
+    "pos": "adjective",
+    "primary_gloss": "cool",
+    "secondary_glosses": [
+      "awesome"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0800",
+    "rank": 800,
+    "display_form": "夸",
+    "lemma": "夸",
+    "generation_form": "夸",
+    "pronunciation": "kuā",
+    "pos": "verb",
+    "primary_gloss": "to boast",
+    "secondary_glosses": [
+      "to praise"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  }
+]

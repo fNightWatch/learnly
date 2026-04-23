@@ -1,0 +1,378 @@
+[
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0751",
+    "rank": 751,
+    "display_form": "头痛",
+    "lemma": "头痛",
+    "generation_form": "头痛",
+    "pronunciation": "tóutòng",
+    "pos": "adjective",
+    "primary_gloss": "headache",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0752",
+    "rank": 752,
+    "display_form": "图",
+    "lemma": "图",
+    "generation_form": "图",
+    "pronunciation": "tú",
+    "pos": "noun, verb",
+    "primary_gloss": "picture",
+    "secondary_glosses": [
+      "drawing",
+      "diagram",
+      "(to plan",
+      "to scheme)"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0753",
+    "rank": 753,
+    "display_form": "图片",
+    "lemma": "图片",
+    "generation_form": "图片",
+    "pronunciation": "túpiàn",
+    "pos": "noun",
+    "primary_gloss": "picture",
+    "secondary_glosses": [
+      "image",
+      "photograph"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0754",
+    "rank": 754,
+    "display_form": "土",
+    "lemma": "土",
+    "generation_form": "土",
+    "pronunciation": "tǔ",
+    "pos": "noun, adjective",
+    "primary_gloss": "earth",
+    "secondary_glosses": [
+      "soil",
+      "land",
+      "(rustic",
+      "unrefined)"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0755",
+    "rank": 755,
+    "display_form": "推",
+    "lemma": "推",
+    "generation_form": "推",
+    "pronunciation": "tuī",
+    "pos": "verb",
+    "primary_gloss": "to push",
+    "secondary_glosses": [
+      "to shove"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0756",
+    "rank": 756,
+    "display_form": "推迟",
+    "lemma": "推迟",
+    "generation_form": "推迟",
+    "pronunciation": "tuīchí",
+    "pos": "verb",
+    "primary_gloss": "to postpone",
+    "secondary_glosses": [
+      "to delay"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0757",
+    "rank": 757,
+    "display_form": "推出",
+    "lemma": "推出",
+    "generation_form": "推出",
+    "pronunciation": "tuīchū",
+    "pos": "verb",
+    "primary_gloss": "to launch",
+    "secondary_glosses": [
+      "to push out",
+      "to introduce"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0758",
+    "rank": 758,
+    "display_form": "脱",
+    "lemma": "脱",
+    "generation_form": "脱",
+    "pronunciation": "tuō",
+    "pos": "verb",
+    "primary_gloss": "to take off",
+    "secondary_glosses": [
+      "to shed"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0759",
+    "rank": 759,
+    "display_form": "袜子",
+    "lemma": "袜子",
+    "generation_form": "袜子",
+    "pronunciation": "wàzi",
+    "pos": "noun",
+    "primary_gloss": "socks",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0760",
+    "rank": 760,
+    "display_form": "外出",
+    "lemma": "外出",
+    "generation_form": "外出",
+    "pronunciation": "wàichū",
+    "pos": "verb",
+    "primary_gloss": "to go out",
+    "secondary_glosses": [
+      "to leave home"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0761",
+    "rank": 761,
+    "display_form": "外套",
+    "lemma": "外套",
+    "generation_form": "外套",
+    "pronunciation": "wàitào",
+    "pos": "noun",
+    "primary_gloss": "coat",
+    "secondary_glosses": [
+      "jacket"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0762",
+    "rank": 762,
+    "display_form": "完全",
+    "lemma": "完全",
+    "generation_form": "完全",
+    "pronunciation": "wánquán",
+    "pos": "adjective, adverb",
+    "primary_gloss": "complete",
+    "secondary_glosses": [
+      "total",
+      "completely",
+      "absolutely"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective, adverb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0763",
+    "rank": 763,
+    "display_form": "晚安",
+    "lemma": "晚安",
+    "generation_form": "晚安",
+    "pronunciation": "wǎn’ān",
+    "pos": "verb",
+    "primary_gloss": "good night",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0764",
+    "rank": 764,
+    "display_form": "晚餐",
+    "lemma": "晚餐",
+    "generation_form": "晚餐",
+    "pronunciation": "wǎncān",
+    "pos": "noun",
+    "primary_gloss": "dinner",
+    "secondary_glosses": [
+      "supper"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0765",
+    "rank": 765,
+    "display_form": "网购",
+    "lemma": "网购",
+    "generation_form": "网购",
+    "pronunciation": "wǎnggòu",
+    "pos": "verb",
+    "primary_gloss": "to shop online",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0766",
+    "rank": 766,
+    "display_form": "往往",
+    "lemma": "往往",
+    "generation_form": "往往",
+    "pronunciation": "wǎngwǎng",
+    "pos": "adverb",
+    "primary_gloss": "often",
+    "secondary_glosses": [
+      "frequently"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0767",
+    "rank": 767,
+    "display_form": "网页",
+    "lemma": "网页",
+    "generation_form": "网页",
+    "pronunciation": "wǎngyè",
+    "pos": "noun",
+    "primary_gloss": "webpage",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0768",
+    "rank": 768,
+    "display_form": "网友",
+    "lemma": "网友",
+    "generation_form": "网友",
+    "pronunciation": "wǎngyǒu",
+    "pos": "noun",
+    "primary_gloss": "netizen",
+    "secondary_glosses": [
+      "internet user"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0769",
+    "rank": 769,
+    "display_form": "网址",
+    "lemma": "网址",
+    "generation_form": "网址",
+    "pronunciation": "wǎngzhǐ",
+    "pos": "noun",
+    "primary_gloss": "website URL",
+    "secondary_glosses": [
+      "web address"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0770",
+    "rank": 770,
+    "display_form": "危险",
+    "lemma": "危险",
+    "generation_form": "危险",
+    "pronunciation": "wēixiǎn",
+    "pos": "adjective, noun",
+    "primary_gloss": "dangerous",
+    "secondary_glosses": [
+      "danger"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective, noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0771",
+    "rank": 771,
+    "display_form": "为",
+    "lemma": "为",
+    "generation_form": "为",
+    "pronunciation": "wéi",
+    "pos": "verb",
+    "primary_gloss": "to do",
+    "secondary_glosses": [
+      "to act",
+      "to serve as"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0772",
+    "rank": 772,
+    "display_form": "味",
+    "lemma": "味",
+    "generation_form": "味",
+    "pronunciation": "wèi",
+    "pos": "noun",
+    "primary_gloss": "taste",
+    "secondary_glosses": [
+      "flavor"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0773",
+    "rank": 773,
+    "display_form": "味道",
+    "lemma": "味道",
+    "generation_form": "味道",
+    "pronunciation": "wèidào",
+    "pos": "noun",
+    "primary_gloss": "taste",
+    "secondary_glosses": [
+      "flavor"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0774",
+    "rank": 774,
+    "display_form": "卫生",
+    "lemma": "卫生",
+    "generation_form": "卫生",
+    "pronunciation": "wèishēng",
+    "pos": "adjective, noun",
+    "primary_gloss": "hygiene",
+    "secondary_glosses": [
+      "sanitation",
+      "clean",
+      "hygienic"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective, noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0775",
+    "rank": 775,
+    "display_form": "温度",
+    "lemma": "温度",
+    "generation_form": "温度",
+    "pronunciation": "wēndù",
+    "pos": "noun",
+    "primary_gloss": "temperature",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  }
+]

@@ -1,0 +1,352 @@
+[
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1276",
+    "rank": 1276,
+    "display_form": "特长",
+    "lemma": "特长",
+    "generation_form": "特长",
+    "pronunciation": "tècháng",
+    "pos": "noun",
+    "primary_gloss": "specialty",
+    "secondary_glosses": [
+      "strong point"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1277",
+    "rank": 1277,
+    "display_form": "特地",
+    "lemma": "特地",
+    "generation_form": "特地",
+    "pronunciation": "tèdì",
+    "pos": "adverb",
+    "primary_gloss": "especially",
+    "secondary_glosses": [
+      "for a specific purpose"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1278",
+    "rank": 1278,
+    "display_form": "特定",
+    "lemma": "特定",
+    "generation_form": "特定",
+    "pronunciation": "tèdìng",
+    "pos": "adjective",
+    "primary_gloss": "specific",
+    "secondary_glosses": [
+      "particular"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1279",
+    "rank": 1279,
+    "display_form": "特性",
+    "lemma": "特性",
+    "generation_form": "特性",
+    "pronunciation": "tèxìng",
+    "pos": "noun",
+    "primary_gloss": "characteristic",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1280",
+    "rank": 1280,
+    "display_form": "特意",
+    "lemma": "特意",
+    "generation_form": "特意",
+    "pronunciation": "tèyì",
+    "pos": "adverb",
+    "primary_gloss": "deliberately",
+    "secondary_glosses": [
+      "on purpose"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1281",
+    "rank": 1281,
+    "display_form": "题材",
+    "lemma": "题材",
+    "generation_form": "题材",
+    "pronunciation": "tícái",
+    "pos": "noun",
+    "primary_gloss": "theme",
+    "secondary_glosses": [
+      "subject matter"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1282",
+    "rank": 1282,
+    "display_form": "提取",
+    "lemma": "提取",
+    "generation_form": "提取",
+    "pronunciation": "tíqǔ",
+    "pos": "verb",
+    "primary_gloss": "to extract",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1283",
+    "rank": 1283,
+    "display_form": "提示",
+    "lemma": "提示",
+    "generation_form": "提示",
+    "pronunciation": "tíshì",
+    "pos": "verb",
+    "primary_gloss": "to prompt",
+    "secondary_glosses": [
+      "to point out"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1284",
+    "rank": 1284,
+    "display_form": "体操",
+    "lemma": "体操",
+    "generation_form": "体操",
+    "pronunciation": "tǐcāo",
+    "pos": "noun",
+    "primary_gloss": "gymnastics",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1285",
+    "rank": 1285,
+    "display_form": "体积",
+    "lemma": "体积",
+    "generation_form": "体积",
+    "pronunciation": "tǐjī",
+    "pos": "noun",
+    "primary_gloss": "volume",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1286",
+    "rank": 1286,
+    "display_form": "体系",
+    "lemma": "体系",
+    "generation_form": "体系",
+    "pronunciation": "tǐxì",
+    "pos": "noun",
+    "primary_gloss": "system",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1287",
+    "rank": 1287,
+    "display_form": "添",
+    "lemma": "添",
+    "generation_form": "添",
+    "pronunciation": "tiān",
+    "pos": "verb",
+    "primary_gloss": "to add",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1288",
+    "rank": 1288,
+    "display_form": "天才",
+    "lemma": "天才",
+    "generation_form": "天才",
+    "pronunciation": "tiāncái",
+    "pos": "noun",
+    "primary_gloss": "genius",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1289",
+    "rank": 1289,
+    "display_form": "添加",
+    "lemma": "添加",
+    "generation_form": "添加",
+    "pronunciation": "tiānjiā",
+    "pos": "verb",
+    "primary_gloss": "to add",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1290",
+    "rank": 1290,
+    "display_form": "天然",
+    "lemma": "天然",
+    "generation_form": "天然",
+    "pronunciation": "tiānrán",
+    "pos": "adjective",
+    "primary_gloss": "natural",
+    "secondary_glosses": [
+      "innate"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1291",
+    "rank": 1291,
+    "display_form": "天然气",
+    "lemma": "天然气",
+    "generation_form": "天然气",
+    "pronunciation": "tiānránqì",
+    "pos": "noun",
+    "primary_gloss": "natural gas",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1292",
+    "rank": 1292,
+    "display_form": "天文",
+    "lemma": "天文",
+    "generation_form": "天文",
+    "pronunciation": "tiānwén",
+    "pos": "noun",
+    "primary_gloss": "astronomy",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1293",
+    "rank": 1293,
+    "display_form": "天下",
+    "lemma": "天下",
+    "generation_form": "天下",
+    "pronunciation": "tiānxià",
+    "pos": "noun",
+    "primary_gloss": "the world",
+    "secondary_glosses": [
+      "under heaven"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1294",
+    "rank": 1294,
+    "display_form": "天真",
+    "lemma": "天真",
+    "generation_form": "天真",
+    "pronunciation": "tiānzhēn",
+    "pos": "adjective",
+    "primary_gloss": "naive",
+    "secondary_glosses": [
+      "innocent"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1295",
+    "rank": 1295,
+    "display_form": "田",
+    "lemma": "田",
+    "generation_form": "田",
+    "pronunciation": "tián",
+    "pos": "noun",
+    "primary_gloss": "field",
+    "secondary_glosses": [
+      "farmland"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1296",
+    "rank": 1296,
+    "display_form": "田径",
+    "lemma": "田径",
+    "generation_form": "田径",
+    "pronunciation": "tiánjìng",
+    "pos": "noun",
+    "primary_gloss": "track and field",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1297",
+    "rank": 1297,
+    "display_form": "调节",
+    "lemma": "调节",
+    "generation_form": "调节",
+    "pronunciation": "tiáojié",
+    "pos": "verb",
+    "primary_gloss": "to adjust",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1298",
+    "rank": 1298,
+    "display_form": "跳水",
+    "lemma": "跳水",
+    "generation_form": "跳水",
+    "pronunciation": "tiàoshuǐ",
+    "pos": "verb",
+    "primary_gloss": "diving",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1299",
+    "rank": 1299,
+    "display_form": "贴近",
+    "lemma": "贴近",
+    "generation_form": "贴近",
+    "pronunciation": "tiējìn",
+    "pos": "verb, adjective",
+    "primary_gloss": "to press close to",
+    "secondary_glosses": [
+      "close",
+      "intimate"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1300",
+    "rank": 1300,
+    "display_form": "听话",
+    "lemma": "听话",
+    "generation_form": "听话",
+    "pronunciation": "tīnghuà",
+    "pos": "adjective",
+    "primary_gloss": "obedient",
+    "secondary_glosses": [
+      "well-behaved"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  }
+]

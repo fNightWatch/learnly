@@ -1,0 +1,369 @@
+[
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0501",
+    "rank": 501,
+    "display_form": "美好",
+    "lemma": "美好",
+    "generation_form": "美好",
+    "pronunciation": "měihǎo",
+    "pos": "adjective",
+    "primary_gloss": "beautiful",
+    "secondary_glosses": [
+      "splendid"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0502",
+    "rank": 502,
+    "display_form": "美景",
+    "lemma": "美景",
+    "generation_form": "美景",
+    "pronunciation": "měijǐng",
+    "pos": "noun",
+    "primary_gloss": "beautiful scenery",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0503",
+    "rank": 503,
+    "display_form": "美丽",
+    "lemma": "美丽",
+    "generation_form": "美丽",
+    "pronunciation": "měilì",
+    "pos": "adjective",
+    "primary_gloss": "beautiful",
+    "secondary_glosses": [
+      "lovely"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0504",
+    "rank": 504,
+    "display_form": "美食",
+    "lemma": "美食",
+    "generation_form": "美食",
+    "pronunciation": "měishí",
+    "pos": "noun",
+    "primary_gloss": "delicious food",
+    "secondary_glosses": [
+      "cuisine"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0505",
+    "rank": 505,
+    "display_form": "梦",
+    "lemma": "梦",
+    "generation_form": "梦",
+    "pronunciation": "mèng",
+    "pos": "noun, verb",
+    "primary_gloss": "dream",
+    "secondary_glosses": [
+      "to dream"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0506",
+    "rank": 506,
+    "display_form": "梦想",
+    "lemma": "梦想",
+    "generation_form": "梦想",
+    "pronunciation": "mèngxiǎng",
+    "pos": "verb, noun",
+    "primary_gloss": "to dream",
+    "secondary_glosses": [
+      "dream"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0507",
+    "rank": 507,
+    "display_form": "密码",
+    "lemma": "密码",
+    "generation_form": "密码",
+    "pronunciation": "mìmǎ",
+    "pos": "noun",
+    "primary_gloss": "password",
+    "secondary_glosses": [
+      "PIN code"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0508",
+    "rank": 508,
+    "display_form": "免费",
+    "lemma": "免费",
+    "generation_form": "免费",
+    "pronunciation": "miǎnfèi",
+    "pos": "verb",
+    "primary_gloss": "free of charge",
+    "secondary_glosses": [
+      "to be free"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0509",
+    "rank": 509,
+    "display_form": "面对",
+    "lemma": "面对",
+    "generation_form": "面对",
+    "pronunciation": "miànduì",
+    "pos": "verb",
+    "primary_gloss": "to face",
+    "secondary_glosses": [
+      "to confront"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0510",
+    "rank": 510,
+    "display_form": "面试",
+    "lemma": "面试",
+    "generation_form": "面试",
+    "pronunciation": "miànshì",
+    "pos": "verb",
+    "primary_gloss": "interview",
+    "secondary_glosses": [
+      "audition",
+      "to interview"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0511",
+    "rank": 511,
+    "display_form": "秒",
+    "lemma": "秒",
+    "generation_form": "秒",
+    "pronunciation": "miǎo",
+    "pos": "measure word",
+    "primary_gloss": "second",
+    "secondary_glosses": [
+      "unit of time"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as measure word."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0512",
+    "rank": 512,
+    "display_form": "民族",
+    "lemma": "民族",
+    "generation_form": "民族",
+    "pronunciation": "mínzú",
+    "pos": "noun",
+    "primary_gloss": "ethnic group",
+    "secondary_glosses": [
+      "nationality"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0513",
+    "rank": 513,
+    "display_form": "末",
+    "lemma": "末",
+    "generation_form": "末",
+    "pronunciation": "mò",
+    "pos": "noun",
+    "primary_gloss": "end",
+    "secondary_glosses": [
+      "last"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0514",
+    "rank": 514,
+    "display_form": "母女",
+    "lemma": "母女",
+    "generation_form": "母女",
+    "pronunciation": "mǔnǚ",
+    "pos": "noun",
+    "primary_gloss": "mother and daughter",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0515",
+    "rank": 515,
+    "display_form": "母亲",
+    "lemma": "母亲",
+    "generation_form": "母亲",
+    "pronunciation": "mǔqīn",
+    "pos": "noun",
+    "primary_gloss": "mother",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0516",
+    "rank": 516,
+    "display_form": "母子",
+    "lemma": "母子",
+    "generation_form": "母子",
+    "pronunciation": "mǔzǐ",
+    "pos": "noun",
+    "primary_gloss": "mother and son",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0517",
+    "rank": 517,
+    "display_form": "目标",
+    "lemma": "目标",
+    "generation_form": "目标",
+    "pronunciation": "mùbiāo",
+    "pos": "noun",
+    "primary_gloss": "goal",
+    "secondary_glosses": [
+      "target",
+      "objective"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0518",
+    "rank": 518,
+    "display_form": "目的",
+    "lemma": "目的",
+    "generation_form": "目的",
+    "pronunciation": "mùdì",
+    "pos": "noun",
+    "primary_gloss": "purpose",
+    "secondary_glosses": [
+      "aim",
+      "goal"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0519",
+    "rank": 519,
+    "display_form": "目的地",
+    "lemma": "目的地",
+    "generation_form": "目的地",
+    "pronunciation": "mùdìdì",
+    "pos": "noun",
+    "primary_gloss": "destination",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0520",
+    "rank": 520,
+    "display_form": "目前",
+    "lemma": "目前",
+    "generation_form": "目前",
+    "pronunciation": "mùqián",
+    "pos": "noun",
+    "primary_gloss": "currently",
+    "secondary_glosses": [
+      "at present"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0521",
+    "rank": 521,
+    "display_form": "耐心",
+    "lemma": "耐心",
+    "generation_form": "耐心",
+    "pronunciation": "nàixīn",
+    "pos": "adjective, noun",
+    "primary_gloss": "patient",
+    "secondary_glosses": [
+      "patience"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective, noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0522",
+    "rank": 522,
+    "display_form": "南部",
+    "lemma": "南部",
+    "generation_form": "南部",
+    "pronunciation": "nánbù",
+    "pos": "noun",
+    "primary_gloss": "southern part",
+    "secondary_glosses": [
+      "south"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0523",
+    "rank": 523,
+    "display_form": "难道",
+    "lemma": "难道",
+    "generation_form": "难道",
+    "pronunciation": "nándào",
+    "pos": "adverb",
+    "primary_gloss": "could it be that...?",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0524",
+    "rank": 524,
+    "display_form": "男士",
+    "lemma": "男士",
+    "generation_form": "男士",
+    "pronunciation": "nánshì",
+    "pos": "noun",
+    "primary_gloss": "man",
+    "secondary_glosses": [
+      "gentleman"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0525",
+    "rank": 525,
+    "display_form": "难受",
+    "lemma": "难受",
+    "generation_form": "难受",
+    "pronunciation": "nánshòu",
+    "pos": "adjective",
+    "primary_gloss": "uncomfortable",
+    "secondary_glosses": [
+      "painful",
+      "hard to bear"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  }
+]

@@ -1,0 +1,380 @@
+[
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0801",
+    "rank": 801,
+    "display_form": "现有",
+    "lemma": "现有",
+    "generation_form": "现有",
+    "pronunciation": "xiànyǒu",
+    "pos": "verb, adjective",
+    "primary_gloss": "existing",
+    "secondary_glosses": [
+      "currently available",
+      "to have currently"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0802",
+    "rank": 802,
+    "display_form": "香",
+    "lemma": "香",
+    "generation_form": "香",
+    "pronunciation": "xiāng",
+    "pos": "adjective",
+    "primary_gloss": "fragrant",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0803",
+    "rank": 803,
+    "display_form": "相比",
+    "lemma": "相比",
+    "generation_form": "相比",
+    "pronunciation": "xiāngbǐ",
+    "pos": "verb",
+    "primary_gloss": "to compare with",
+    "secondary_glosses": [
+      "to contrast"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0804",
+    "rank": 804,
+    "display_form": "相反",
+    "lemma": "相反",
+    "generation_form": "相反",
+    "pronunciation": "xiāngfǎn",
+    "pos": "adjective, conjunction",
+    "primary_gloss": "opposite",
+    "secondary_glosses": [
+      "contrary",
+      "on the contrary"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective, conjunction."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0805",
+    "rank": 805,
+    "display_form": "相互",
+    "lemma": "相互",
+    "generation_form": "相互",
+    "pronunciation": "xiānghù",
+    "pos": "adverb",
+    "primary_gloss": "mutual",
+    "secondary_glosses": [
+      "each other"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0806",
+    "rank": 806,
+    "display_form": "相同",
+    "lemma": "相同",
+    "generation_form": "相同",
+    "pronunciation": "xiāngtóng",
+    "pos": "adjective",
+    "primary_gloss": "same",
+    "secondary_glosses": [
+      "identical"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0807",
+    "rank": 807,
+    "display_form": "详细",
+    "lemma": "详细",
+    "generation_form": "详细",
+    "pronunciation": "xiángxì",
+    "pos": "adjective",
+    "primary_gloss": "detailed",
+    "secondary_glosses": [
+      "thorough"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0808",
+    "rank": 808,
+    "display_form": "响",
+    "lemma": "响",
+    "generation_form": "响",
+    "pronunciation": "xiǎng",
+    "pos": "verb, adjective",
+    "primary_gloss": "to make a sound",
+    "secondary_glosses": [
+      "to ring",
+      "loud"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0809",
+    "rank": 809,
+    "display_form": "想法",
+    "lemma": "想法",
+    "generation_form": "想法",
+    "pronunciation": "xiǎngfǎ",
+    "pos": "noun",
+    "primary_gloss": "thought",
+    "secondary_glosses": [
+      "idea",
+      "opinion"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0810",
+    "rank": 810,
+    "display_form": "项",
+    "lemma": "项",
+    "generation_form": "项",
+    "pronunciation": "xiàng",
+    "pos": "measure word",
+    "primary_gloss": "measure word for projects",
+    "secondary_glosses": [
+      "items"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as measure word."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0811",
+    "rank": 811,
+    "display_form": "消息",
+    "lemma": "消息",
+    "generation_form": "消息",
+    "pronunciation": "xiāoxi",
+    "pos": "noun",
+    "primary_gloss": "news",
+    "secondary_glosses": [
+      "message",
+      "information"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0812",
+    "rank": 812,
+    "display_form": "小吃",
+    "lemma": "小吃",
+    "generation_form": "小吃",
+    "pronunciation": "xiǎochī",
+    "pos": "noun",
+    "primary_gloss": "snack",
+    "secondary_glosses": [
+      "light meal"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0813",
+    "rank": 813,
+    "display_form": "小伙子",
+    "lemma": "小伙子",
+    "generation_form": "小伙子",
+    "pronunciation": "xiǎohuǒzi",
+    "pos": "noun",
+    "primary_gloss": "young man",
+    "secondary_glosses": [
+      "lad"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0814",
+    "rank": 814,
+    "display_form": "小说",
+    "lemma": "小说",
+    "generation_form": "小说",
+    "pronunciation": "xiǎoshuō",
+    "pos": "noun",
+    "primary_gloss": "novel",
+    "secondary_glosses": [
+      "fiction"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0815",
+    "rank": 815,
+    "display_form": "小组",
+    "lemma": "小组",
+    "generation_form": "小组",
+    "pronunciation": "xiǎozǔ",
+    "pos": "noun",
+    "primary_gloss": "small group",
+    "secondary_glosses": [
+      "team"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0816",
+    "rank": 816,
+    "display_form": "效果",
+    "lemma": "效果",
+    "generation_form": "效果",
+    "pronunciation": "xiàoguǒ",
+    "pos": "noun",
+    "primary_gloss": "effect",
+    "secondary_glosses": [
+      "result"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0817",
+    "rank": 817,
+    "display_form": "笑话",
+    "lemma": "笑话",
+    "generation_form": "笑话",
+    "pronunciation": "xiàohua",
+    "pos": "noun, verb",
+    "primary_gloss": "joke",
+    "secondary_glosses": [
+      "laughter",
+      "to joke",
+      "to laugh at"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0818",
+    "rank": 818,
+    "display_form": "血",
+    "lemma": "血",
+    "generation_form": "血",
+    "pronunciation": "xiě",
+    "pos": "noun",
+    "primary_gloss": "blood",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0819",
+    "rank": 819,
+    "display_form": "心",
+    "lemma": "心",
+    "generation_form": "心",
+    "pronunciation": "xīn",
+    "pos": "noun",
+    "primary_gloss": "heart",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0820",
+    "rank": 820,
+    "display_form": "辛苦",
+    "lemma": "辛苦",
+    "generation_form": "辛苦",
+    "pronunciation": "xīnkǔ",
+    "pos": "adjective, verb",
+    "primary_gloss": "hard",
+    "secondary_glosses": [
+      "laborious",
+      "to work hard",
+      "to toil"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective, verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0821",
+    "rank": 821,
+    "display_form": "心情",
+    "lemma": "心情",
+    "generation_form": "心情",
+    "pronunciation": "xīnqíng",
+    "pos": "noun",
+    "primary_gloss": "mood",
+    "secondary_glosses": [
+      "feeling"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0822",
+    "rank": 822,
+    "display_form": "信号",
+    "lemma": "信号",
+    "generation_form": "信号",
+    "pronunciation": "xìnhào",
+    "pos": "noun",
+    "primary_gloss": "signal",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0823",
+    "rank": 823,
+    "display_form": "信息",
+    "lemma": "信息",
+    "generation_form": "信息",
+    "pronunciation": "xìnxī",
+    "pos": "noun",
+    "primary_gloss": "information",
+    "secondary_glosses": [
+      "message"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0824",
+    "rank": 824,
+    "display_form": "信心",
+    "lemma": "信心",
+    "generation_form": "信心",
+    "pronunciation": "xìnxīn",
+    "pos": "noun",
+    "primary_gloss": "confidence",
+    "secondary_glosses": [
+      "faith"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0825",
+    "rank": 825,
+    "display_form": "兴奋",
+    "lemma": "兴奋",
+    "generation_form": "兴奋",
+    "pronunciation": "xīngfèn",
+    "pos": "adjective, verb",
+    "primary_gloss": "excited",
+    "secondary_glosses": [
+      "thrilled",
+      "to excite",
+      "to get excited"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective, verb."
+  }
+]

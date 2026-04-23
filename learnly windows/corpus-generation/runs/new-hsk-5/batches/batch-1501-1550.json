@@ -1,0 +1,707 @@
+[
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1501",
+    "rank": 1501,
+    "display_form": "直",
+    "lemma": "直",
+    "generation_form": "直",
+    "pronunciation": "zhí",
+    "pos": "adjective, verb, adverb",
+    "primary_gloss": "straight",
+    "secondary_glosses": [
+      "to straighten",
+      "directly",
+      "continuously"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective, verb, adverb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1502",
+    "rank": 1502,
+    "display_form": "直播",
+    "lemma": "直播",
+    "generation_form": "直播",
+    "pronunciation": "zhíbō",
+    "pos": "verb",
+    "primary_gloss": "live broadcast",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1503",
+    "rank": 1503,
+    "display_form": "职场",
+    "lemma": "职场",
+    "generation_form": "职场",
+    "pronunciation": "zhíchǎng",
+    "pos": "noun",
+    "primary_gloss": "workplace",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1504",
+    "rank": 1504,
+    "display_form": "职工",
+    "lemma": "职工",
+    "generation_form": "职工",
+    "pronunciation": "zhígōng",
+    "pos": "noun",
+    "primary_gloss": "staff",
+    "secondary_glosses": [
+      "worker"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1505",
+    "rank": 1505,
+    "display_form": "执行",
+    "lemma": "执行",
+    "generation_form": "执行",
+    "pronunciation": "zhíxíng",
+    "pos": "verb, adjective",
+    "primary_gloss": "to execute",
+    "secondary_glosses": [
+      "to carry out",
+      "executive"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1506",
+    "rank": 1506,
+    "display_form": "止",
+    "lemma": "止",
+    "generation_form": "止",
+    "pronunciation": "zhǐ",
+    "pos": "verb",
+    "primary_gloss": "to stop",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1507",
+    "rank": 1507,
+    "display_form": "指导",
+    "lemma": "指导",
+    "generation_form": "指导",
+    "pronunciation": "zhǐdǎo",
+    "pos": "verb",
+    "primary_gloss": "to guide",
+    "secondary_glosses": [
+      "to direct"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1508",
+    "rank": 1508,
+    "display_form": "至",
+    "lemma": "至",
+    "generation_form": "至",
+    "pronunciation": "zhì",
+    "pos": "verb",
+    "primary_gloss": "to arrive",
+    "secondary_glosses": [
+      "to reach"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1509",
+    "rank": 1509,
+    "display_form": "治",
+    "lemma": "治",
+    "generation_form": "治",
+    "pronunciation": "zhì",
+    "pos": "verb",
+    "primary_gloss": "to treat",
+    "secondary_glosses": [
+      "to manage",
+      "to cure"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1510",
+    "rank": 1510,
+    "display_form": "制订",
+    "lemma": "制订",
+    "generation_form": "制订",
+    "pronunciation": "zhìdìng",
+    "pos": "verb",
+    "primary_gloss": "to formulate",
+    "secondary_glosses": [
+      "to work out"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1511",
+    "rank": 1511,
+    "display_form": "制定",
+    "lemma": "制定",
+    "generation_form": "制定",
+    "pronunciation": "zhìdìng",
+    "pos": "verb",
+    "primary_gloss": "to formulate",
+    "secondary_glosses": [
+      "to establish"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1512",
+    "rank": 1512,
+    "display_form": "制度",
+    "lemma": "制度",
+    "generation_form": "制度",
+    "pronunciation": "zhìdù",
+    "pos": "noun",
+    "primary_gloss": "system",
+    "secondary_glosses": [
+      "institution"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1513",
+    "rank": 1513,
+    "display_form": "智慧",
+    "lemma": "智慧",
+    "generation_form": "智慧",
+    "pronunciation": "zhìhuì",
+    "pos": "noun",
+    "primary_gloss": "wisdom",
+    "secondary_glosses": [
+      "intelligence"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1514",
+    "rank": 1514,
+    "display_form": "至今",
+    "lemma": "至今",
+    "generation_form": "至今",
+    "pronunciation": "zhìjīn",
+    "pos": "adverb",
+    "primary_gloss": "up to now",
+    "secondary_glosses": [
+      "so far"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1515",
+    "rank": 1515,
+    "display_form": "治疗",
+    "lemma": "治疗",
+    "generation_form": "治疗",
+    "pronunciation": "zhìliáo",
+    "pos": "verb",
+    "primary_gloss": "to treat medically",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1516",
+    "rank": 1516,
+    "display_form": "智能",
+    "lemma": "智能",
+    "generation_form": "智能",
+    "pronunciation": "zhìnéng",
+    "pos": "noun, adjective",
+    "primary_gloss": "intelligence",
+    "secondary_glosses": [
+      "intelligent",
+      "smart"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1517",
+    "rank": 1517,
+    "display_form": "志愿者",
+    "lemma": "志愿者",
+    "generation_form": "志愿者",
+    "pronunciation": "zhìyuànzhě",
+    "pos": "noun",
+    "primary_gloss": "volunteer",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1518",
+    "rank": 1518,
+    "display_form": "制造",
+    "lemma": "制造",
+    "generation_form": "制造",
+    "pronunciation": "zhìzào",
+    "pos": "verb",
+    "primary_gloss": "to manufacture",
+    "secondary_glosses": [
+      "to create"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1519",
+    "rank": 1519,
+    "display_form": "制作",
+    "lemma": "制作",
+    "generation_form": "制作",
+    "pronunciation": "zhìzuò",
+    "pos": "verb",
+    "primary_gloss": "to produce",
+    "secondary_glosses": [
+      "to make"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1520",
+    "rank": 1520,
+    "display_form": "中华",
+    "lemma": "中华",
+    "generation_form": "中华",
+    "pronunciation": "Zhōnghuá",
+    "pos": "noun",
+    "primary_gloss": "China",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1521",
+    "rank": 1521,
+    "display_form": "中华民族",
+    "lemma": "中华民族",
+    "generation_form": "中华民族",
+    "pronunciation": "Zhōnghuá Mínzú",
+    "pos": "unknown",
+    "primary_gloss": "Chinese nation",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1522",
+    "rank": 1522,
+    "display_form": "中级",
+    "lemma": "中级",
+    "generation_form": "中级",
+    "pronunciation": "zhōngjí",
+    "pos": "adjective",
+    "primary_gloss": "intermediate",
+    "secondary_glosses": [
+      "mid-level"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1523",
+    "rank": 1523,
+    "display_form": "中介",
+    "lemma": "中介",
+    "generation_form": "中介",
+    "pronunciation": "zhōngjiè",
+    "pos": "noun",
+    "primary_gloss": "agency",
+    "secondary_glosses": [
+      "intermediary"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1524",
+    "rank": 1524,
+    "display_form": "中期",
+    "lemma": "中期",
+    "generation_form": "中期",
+    "pronunciation": "zhōngqī",
+    "pos": "noun",
+    "primary_gloss": "medium term",
+    "secondary_glosses": [
+      "mid-term"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1525",
+    "rank": 1525,
+    "display_form": "中外",
+    "lemma": "中外",
+    "generation_form": "中外",
+    "pronunciation": "zhōngwài",
+    "pos": "noun",
+    "primary_gloss": "China and abroad",
+    "secondary_glosses": [
+      "domestic and foreign"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1526",
+    "rank": 1526,
+    "display_form": "中心",
+    "lemma": "中心",
+    "generation_form": "中心",
+    "pronunciation": "zhōngxīn",
+    "pos": "noun",
+    "primary_gloss": "center",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1527",
+    "rank": 1527,
+    "display_form": "中药",
+    "lemma": "中药",
+    "generation_form": "中药",
+    "pronunciation": "zhōngyào",
+    "pos": "noun",
+    "primary_gloss": "traditional Chinese medicine",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1528",
+    "rank": 1528,
+    "display_form": "中医",
+    "lemma": "中医",
+    "generation_form": "中医",
+    "pronunciation": "zhōngyī",
+    "pos": "noun",
+    "primary_gloss": "traditional Chinese medicine practitioner",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1529",
+    "rank": 1529,
+    "display_form": "种类",
+    "lemma": "种类",
+    "generation_form": "种类",
+    "pronunciation": "zhǒnglèi",
+    "pos": "noun",
+    "primary_gloss": "type",
+    "secondary_glosses": [
+      "kind"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1530",
+    "rank": 1530,
+    "display_form": "种子",
+    "lemma": "种子",
+    "generation_form": "种子",
+    "pronunciation": "zhǒngzi",
+    "pos": "noun",
+    "primary_gloss": "seed",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1531",
+    "rank": 1531,
+    "display_form": "重大",
+    "lemma": "重大",
+    "generation_form": "重大",
+    "pronunciation": "zhòngdà",
+    "pos": "adjective",
+    "primary_gloss": "great",
+    "secondary_glosses": [
+      "major"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1532",
+    "rank": 1532,
+    "display_form": "众多",
+    "lemma": "众多",
+    "generation_form": "众多",
+    "pronunciation": "zhòngduō",
+    "pos": "adjective",
+    "primary_gloss": "numerous",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1533",
+    "rank": 1533,
+    "display_form": "重量",
+    "lemma": "重量",
+    "generation_form": "重量",
+    "pronunciation": "zhòngliàng",
+    "pos": "noun",
+    "primary_gloss": "weight",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1534",
+    "rank": 1534,
+    "display_form": "种植",
+    "lemma": "种植",
+    "generation_form": "种植",
+    "pronunciation": "zhòngzhí",
+    "pos": "verb",
+    "primary_gloss": "to plant",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1535",
+    "rank": 1535,
+    "display_form": "周年",
+    "lemma": "周年",
+    "generation_form": "周年",
+    "pronunciation": "zhōunián",
+    "pos": "noun",
+    "primary_gloss": "anniversary",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1536",
+    "rank": 1536,
+    "display_form": "猪",
+    "lemma": "猪",
+    "generation_form": "猪",
+    "pronunciation": "zhū",
+    "pos": "noun",
+    "primary_gloss": "pig",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1537",
+    "rank": 1537,
+    "display_form": "逐步",
+    "lemma": "逐步",
+    "generation_form": "逐步",
+    "pronunciation": "zhúbù",
+    "pos": "adverb",
+    "primary_gloss": "step by step",
+    "secondary_glosses": [
+      "gradually"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1538",
+    "rank": 1538,
+    "display_form": "逐渐",
+    "lemma": "逐渐",
+    "generation_form": "逐渐",
+    "pronunciation": "zhújiàn",
+    "pos": "adverb",
+    "primary_gloss": "gradually",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1539",
+    "rank": 1539,
+    "display_form": "竹子",
+    "lemma": "竹子",
+    "generation_form": "竹子",
+    "pronunciation": "zhúzi",
+    "pos": "noun",
+    "primary_gloss": "bamboo",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1540",
+    "rank": 1540,
+    "display_form": "煮",
+    "lemma": "煮",
+    "generation_form": "煮",
+    "pronunciation": "zhǔ",
+    "pos": "verb",
+    "primary_gloss": "to boil",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1541",
+    "rank": 1541,
+    "display_form": "主持",
+    "lemma": "主持",
+    "generation_form": "主持",
+    "pronunciation": "zhǔchí",
+    "pos": "verb",
+    "primary_gloss": "to host",
+    "secondary_glosses": [
+      "to preside over"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1542",
+    "rank": 1542,
+    "display_form": "主动",
+    "lemma": "主动",
+    "generation_form": "主动",
+    "pronunciation": "zhǔdòng",
+    "pos": "adjective",
+    "primary_gloss": "proactive",
+    "secondary_glosses": [
+      "active"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1543",
+    "rank": 1543,
+    "display_form": "主观",
+    "lemma": "主观",
+    "generation_form": "主观",
+    "pronunciation": "zhǔguān",
+    "pos": "adjective",
+    "primary_gloss": "subjective",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1544",
+    "rank": 1544,
+    "display_form": "主人",
+    "lemma": "主人",
+    "generation_form": "主人",
+    "pronunciation": "zhǔrén",
+    "pos": "noun",
+    "primary_gloss": "owner",
+    "secondary_glosses": [
+      "host"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1545",
+    "rank": 1545,
+    "display_form": "主任",
+    "lemma": "主任",
+    "generation_form": "主任",
+    "pronunciation": "zhǔrèn",
+    "pos": "noun",
+    "primary_gloss": "director",
+    "secondary_glosses": [
+      "head"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1546",
+    "rank": 1546,
+    "display_form": "主食",
+    "lemma": "主食",
+    "generation_form": "主食",
+    "pronunciation": "zhǔshí",
+    "pos": "noun",
+    "primary_gloss": "staple food",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1547",
+    "rank": 1547,
+    "display_form": "主题",
+    "lemma": "主题",
+    "generation_form": "主题",
+    "pronunciation": "zhǔtí",
+    "pos": "noun",
+    "primary_gloss": "theme",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1548",
+    "rank": 1548,
+    "display_form": "主席",
+    "lemma": "主席",
+    "generation_form": "主席",
+    "pronunciation": "zhǔxí",
+    "pos": "noun",
+    "primary_gloss": "chairperson",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1549",
+    "rank": 1549,
+    "display_form": "注册",
+    "lemma": "注册",
+    "generation_form": "注册",
+    "pronunciation": "zhùcè",
+    "pos": "verb",
+    "primary_gloss": "to register",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1550",
+    "rank": 1550,
+    "display_form": "住房",
+    "lemma": "住房",
+    "generation_form": "住房",
+    "pronunciation": "zhùfáng",
+    "pos": "noun",
+    "primary_gloss": "housing",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  }
+]

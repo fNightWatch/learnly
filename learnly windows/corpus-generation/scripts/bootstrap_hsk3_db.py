@@ -4,20 +4,19 @@ import argparse
 import json
 import shutil
 import subprocess
-import sys
 from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parent.parent
 ORCHESTRATOR = ROOT / "orchestrator.py"
 EXTRACTOR = ROOT / "scripts" / "extract_new_hsk_word_list.py"
+DEFAULT_SOURCE_PDF = Path("/Users/moi/Downloads/New-HSK-Level-3-Words.pdf")
 TARGET_DB = ROOT / "corpus-hsk-3.sqlite"
 TARGET_RAW_PDF = ROOT / "data" / "raw" / "New-HSK-Level-3-Words.pdf"
 TARGET_SEEDS = ROOT / "data" / "processed" / "new-hsk-3-words-seeds.json"
 HSK1_SEEDS = ROOT / "data" / "processed" / "new-hsk-1-words-seeds.json"
 HSK2_SEEDS = ROOT / "data" / "processed" / "new-hsk-2-words-seeds.json"
 RUN_ROOT = ROOT / "runs" / "new-hsk-3"
-PYTHON = sys.executable or "python"
 
 
 def run(cmd: list[str]) -> None:
@@ -45,7 +44,7 @@ def create_batch_manifests(db_path: Path, dataset_id: str, seed_count: int, batc
         output_file = RUN_ROOT / "batches" / f"batch-{start_rank:04d}-{end_rank:04d}.json"
         run(
             [
-                PYTHON,
+                "python3",
                 str(ORCHESTRATOR),
                 "--db-path",
                 str(db_path),
@@ -65,7 +64,7 @@ def create_batch_manifests(db_path: Path, dataset_id: str, seed_count: int, batc
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Bootstrap the separate New HSK 3 corpus database and run tree.")
-    parser.add_argument("--source-pdf", default=str(TARGET_RAW_PDF))
+    parser.add_argument("--source-pdf", default=str(DEFAULT_SOURCE_PDF))
     parser.add_argument("--db-path", default=str(TARGET_DB))
     parser.add_argument("--dataset-id", default="new-hsk-3-words")
     parser.add_argument("--batch-size", type=int, default=25)
@@ -74,11 +73,6 @@ def main() -> None:
     source_pdf = Path(args.source_pdf)
     db_path = Path(args.db_path)
 
-    if not source_pdf.exists():
-        raise FileNotFoundError(
-            f"Source PDF not found: {source_pdf}. Pass --source-pdf with a local PDF path."
-        )
-
     TARGET_RAW_PDF.parent.mkdir(parents=True, exist_ok=True)
     TARGET_SEEDS.parent.mkdir(parents=True, exist_ok=True)
     ensure_run_tree()
@@ -86,7 +80,7 @@ def main() -> None:
     shutil.copyfile(source_pdf, TARGET_RAW_PDF)
     run(
         [
-            PYTHON,
+            "python3",
             str(EXTRACTOR),
             "--pdf",
             str(TARGET_RAW_PDF),
@@ -98,7 +92,7 @@ def main() -> None:
     extracted_rows = json.loads(TARGET_SEEDS.read_text())
     seed_count = len(extracted_rows)
 
-    run([PYTHON, str(ORCHESTRATOR), "--db-path", str(db_path), "init-db"])
+    run(["python3", str(ORCHESTRATOR), "--db-path", str(db_path), "init-db"])
 
     datasets = [
         (
@@ -124,7 +118,7 @@ def main() -> None:
     for dataset_id, name, source_file, metadata in datasets:
         run(
             [
-                PYTHON,
+                "python3",
                 str(ORCHESTRATOR),
                 "--db-path",
                 str(db_path),
@@ -154,7 +148,7 @@ def main() -> None:
     for dataset_id, json_file in seed_jobs:
         run(
             [
-                PYTHON,
+                "python3",
                 str(ORCHESTRATOR),
                 "--db-path",
                 str(db_path),
@@ -168,7 +162,7 @@ def main() -> None:
     create_batch_manifests(db_path, args.dataset_id, seed_count, args.batch_size)
     run(
         [
-            PYTHON,
+            "python3",
             str(ORCHESTRATOR),
             "--db-path",
             str(db_path),

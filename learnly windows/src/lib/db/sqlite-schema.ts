@@ -51,7 +51,10 @@ export const userSettings = sqliteTable("user_settings", {
   dailyGoal: integer("daily_goal").notNull().default(10),
   selectedLanguageCodes: text("selected_language_codes").notNull().default('["es"]'), // JSON array
   dashboardLanguageCodes: text("dashboard_language_codes").notNull().default('["es"]'), // JSON array
+  dashboardRangeDays: integer("dashboard_range_days").notNull().default(30),
   preferredStudyMode: text("preferred_study_mode").notNull().default("everyday"),
+  chineseReviewFlow: text("chinese_review_flow").notNull().default("four-click"),
+  assumedWordListIds: text("assumed_word_list_ids").notNull().default("[]"),
   updatedAt: text("updated_at").notNull(),
 });
 
@@ -84,6 +87,8 @@ export const sessions = sqliteTable("sessions", {
   dueCount: integer("due_count").notNull(),
   newCount: integer("new_count").notNull(),
   createdAt: text("created_at").notNull(),
+  elapsedMs: integer("elapsed_ms").notNull().default(0),
+  completedAt: text("completed_at"),
 });
 
 export const reviewEvents = sqliteTable("review_events", {
@@ -98,4 +103,22 @@ export const reviewEvents = sqliteTable("review_events", {
   stateAfter: text("state_after").notNull(),
 }, (table) => ({
   userReviewedIdx: index("review_events_user_reviewed_idx").on(table.userId, table.reviewedAt),
+}));
+
+export const reviewIdempotency = sqliteTable("review_idempotency", {
+  id: text("id").primaryKey(),
+  userId: text("user_id").notNull(),
+  sessionId: text("session_id").notNull(),
+  itemId: text("item_id").notNull(),
+  idempotencyKey: text("idempotency_key").notNull(),
+  responseJson: text("response_json").notNull(),
+  createdAt: text("created_at").notNull(),
+}, (table) => ({
+  userCreatedIdx: index("review_idempotency_user_created_idx").on(table.userId, table.createdAt),
+  lookupIdx: index("review_idempotency_lookup_idx").on(
+    table.userId,
+    table.sessionId,
+    table.itemId,
+    table.idempotencyKey
+  ),
 }));

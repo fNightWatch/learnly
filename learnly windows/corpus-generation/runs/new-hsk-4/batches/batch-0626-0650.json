@@ -1,0 +1,376 @@
+[
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0626",
+    "rank": 626,
+    "display_form": "散步",
+    "lemma": "散步",
+    "generation_form": "散步",
+    "pronunciation": "sànbù",
+    "pos": "verb",
+    "primary_gloss": "to take a walk",
+    "secondary_glosses": [
+      "to stroll"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0627",
+    "rank": 627,
+    "display_form": "扫码",
+    "lemma": "扫码",
+    "generation_form": "扫码",
+    "pronunciation": "sǎomǎ",
+    "pos": "verb",
+    "primary_gloss": "to scan a code",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0628",
+    "rank": 628,
+    "display_form": "森林",
+    "lemma": "森林",
+    "generation_form": "森林",
+    "pronunciation": "sēnlín",
+    "pos": "noun",
+    "primary_gloss": "forest",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0629",
+    "rank": 629,
+    "display_form": "商量",
+    "lemma": "商量",
+    "generation_form": "商量",
+    "pronunciation": "shāngliang",
+    "pos": "verb",
+    "primary_gloss": "to discuss",
+    "secondary_glosses": [
+      "to consult"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0630",
+    "rank": 630,
+    "display_form": "商品",
+    "lemma": "商品",
+    "generation_form": "商品",
+    "pronunciation": "shāngpǐn",
+    "pos": "noun",
+    "primary_gloss": "product",
+    "secondary_glosses": [
+      "commodity"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0631",
+    "rank": 631,
+    "display_form": "伤心",
+    "lemma": "伤心",
+    "generation_form": "伤心",
+    "pronunciation": "shāngxīn",
+    "pos": "adjective",
+    "primary_gloss": "sad",
+    "secondary_glosses": [
+      "heartbroken"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0632",
+    "rank": 632,
+    "display_form": "上门",
+    "lemma": "上门",
+    "generation_form": "上门",
+    "pronunciation": "shàngmén",
+    "pos": "verb",
+    "primary_gloss": "to visit",
+    "secondary_glosses": [
+      "to go to someone's house"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0633",
+    "rank": 633,
+    "display_form": "稍",
+    "lemma": "稍",
+    "generation_form": "稍",
+    "pronunciation": "shāo",
+    "pos": "adverb",
+    "primary_gloss": "a little",
+    "secondary_glosses": [
+      "slightly"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0634",
+    "rank": 634,
+    "display_form": "稍微",
+    "lemma": "稍微",
+    "generation_form": "稍微",
+    "pronunciation": "shāowēi",
+    "pos": "adverb",
+    "primary_gloss": "a little",
+    "secondary_glosses": [
+      "slightly"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0635",
+    "rank": 635,
+    "display_form": "少见",
+    "lemma": "少见",
+    "generation_form": "少见",
+    "pronunciation": "shǎojiàn",
+    "pos": "adjective",
+    "primary_gloss": "rare",
+    "secondary_glosses": [
+      "seldom seen"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0636",
+    "rank": 636,
+    "display_form": "少量",
+    "lemma": "少量",
+    "generation_form": "少量",
+    "pronunciation": "shǎoliàng",
+    "pos": "adjective",
+    "primary_gloss": "small amount",
+    "secondary_glosses": [
+      "a little"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0637",
+    "rank": 637,
+    "display_form": "少数",
+    "lemma": "少数",
+    "generation_form": "少数",
+    "pronunciation": "shǎoshù",
+    "pos": "noun",
+    "primary_gloss": "minority",
+    "secondary_glosses": [
+      "small number"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0638",
+    "rank": 638,
+    "display_form": "少年",
+    "lemma": "少年",
+    "generation_form": "少年",
+    "pronunciation": "shàonián",
+    "pos": "noun",
+    "primary_gloss": "juvenile",
+    "secondary_glosses": [
+      "teenager",
+      "youth"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0639",
+    "rank": 639,
+    "display_form": "社会",
+    "lemma": "社会",
+    "generation_form": "社会",
+    "pronunciation": "shèhuì",
+    "pos": "noun",
+    "primary_gloss": "society",
+    "secondary_glosses": [
+      "community"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0640",
+    "rank": 640,
+    "display_form": "摄氏度",
+    "lemma": "摄氏度",
+    "generation_form": "摄氏度",
+    "pronunciation": "shèshìdù",
+    "pos": "measure word",
+    "primary_gloss": "degrees Celsius",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as measure word."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0641",
+    "rank": 641,
+    "display_form": "身",
+    "lemma": "身",
+    "generation_form": "身",
+    "pronunciation": "shēn",
+    "pos": "noun, measure word",
+    "primary_gloss": "body",
+    "secondary_glosses": [
+      "oneself",
+      "measure word for clothes"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, measure word."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0642",
+    "rank": 642,
+    "display_form": "深",
+    "lemma": "深",
+    "generation_form": "深",
+    "pronunciation": "shēn",
+    "pos": "adjective, adverb",
+    "primary_gloss": "deep",
+    "secondary_glosses": [
+      "profound",
+      "(deeply",
+      "late)"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective, adverb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0643",
+    "rank": 643,
+    "display_form": "身份证",
+    "lemma": "身份证",
+    "generation_form": "身份证",
+    "pronunciation": "shēnfènzhèng",
+    "pos": "noun",
+    "primary_gloss": "ID card",
+    "secondary_glosses": [
+      "identification card"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0644",
+    "rank": 644,
+    "display_form": "申请",
+    "lemma": "申请",
+    "generation_form": "申请",
+    "pronunciation": "shēnqǐng",
+    "pos": "verb",
+    "primary_gloss": "to apply",
+    "secondary_glosses": [
+      "to file an application"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0645",
+    "rank": 645,
+    "display_form": "甚至",
+    "lemma": "甚至",
+    "generation_form": "甚至",
+    "pronunciation": "shènzhì",
+    "pos": "conjunction",
+    "primary_gloss": "even",
+    "secondary_glosses": [
+      "so much as that"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as conjunction."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0646",
+    "rank": 646,
+    "display_form": "生",
+    "lemma": "生",
+    "generation_form": "生",
+    "pronunciation": "shēng",
+    "pos": "verb",
+    "primary_gloss": "to give birth",
+    "secondary_glosses": [
+      "to produce",
+      "to grow"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0647",
+    "rank": 647,
+    "display_form": "生",
+    "lemma": "生",
+    "generation_form": "生",
+    "pronunciation": "shēng",
+    "pos": "adjective, adverb",
+    "primary_gloss": "raw",
+    "secondary_glosses": [
+      "uncooked",
+      "unripe",
+      "(very",
+      "extremely",
+      "terribly)"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective, adverb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0648",
+    "rank": 648,
+    "display_form": "生命",
+    "lemma": "生命",
+    "generation_form": "生命",
+    "pronunciation": "shēngmìng",
+    "pos": "noun",
+    "primary_gloss": "life",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0649",
+    "rank": 649,
+    "display_form": "生意",
+    "lemma": "生意",
+    "generation_form": "生意",
+    "pronunciation": "shēngyi",
+    "pos": "noun",
+    "primary_gloss": "business",
+    "secondary_glosses": [
+      "trade"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0650",
+    "rank": 650,
+    "display_form": "省",
+    "lemma": "省",
+    "generation_form": "省",
+    "pronunciation": "shěng",
+    "pos": "noun",
+    "primary_gloss": "province",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  }
+]

@@ -1,0 +1,10 @@
+HSK4 definition-layer cleanup
+Total rows reviewed: 1000
+Rows updated: 330
+Function-word rows updated: 31
+
+Key improvements:
+- Replaced 279 boilerplate source-import notes with learner-friendly notes.
+- Corrected POS or function-word handling for entries such as 此次, 打招呼, 零下, 能否, 随着, 所有, 同时, 者, and 之.
+- Fixed weak or misleading glosses for entries such as 安检, 笔试, 表, 材料, 提前, 为, 污染, 线上, 线下, 许多, and 演唱.
+- Tightened several mixed POS entries to better match learner-facing usage, including 表现, 翻译, 烦恼, 死, 塑料, and 讨厌.

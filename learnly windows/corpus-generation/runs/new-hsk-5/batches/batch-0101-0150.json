@@ -1,0 +1,718 @@
+[
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0101",
+    "rank": 101,
+    "display_form": "差距",
+    "lemma": "差距",
+    "generation_form": "差距",
+    "pronunciation": "chājù",
+    "pos": "noun",
+    "primary_gloss": "gap",
+    "secondary_glosses": [
+      "disparity"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0102",
+    "rank": 102,
+    "display_form": "叉子",
+    "lemma": "叉子",
+    "generation_form": "叉子",
+    "pronunciation": "chāzi",
+    "pos": "noun",
+    "primary_gloss": "fork",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0103",
+    "rank": 103,
+    "display_form": "拆",
+    "lemma": "拆",
+    "generation_form": "拆",
+    "pronunciation": "chāi",
+    "pos": "verb",
+    "primary_gloss": "to tear down",
+    "secondary_glosses": [
+      "to dismantle"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0104",
+    "rank": 104,
+    "display_form": "产",
+    "lemma": "产",
+    "generation_form": "产",
+    "pronunciation": "chǎn",
+    "pos": "verb",
+    "primary_gloss": "to produce",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0105",
+    "rank": 105,
+    "display_form": "产量",
+    "lemma": "产量",
+    "generation_form": "产量",
+    "pronunciation": "chǎnliàng",
+    "pos": "noun",
+    "primary_gloss": "output",
+    "secondary_glosses": [
+      "production"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0106",
+    "rank": 106,
+    "display_form": "产品",
+    "lemma": "产品",
+    "generation_form": "产品",
+    "pronunciation": "chǎnpǐn",
+    "pos": "noun",
+    "primary_gloss": "product",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0107",
+    "rank": 107,
+    "display_form": "产业",
+    "lemma": "产业",
+    "generation_form": "产业",
+    "pronunciation": "chǎnyè",
+    "pos": "noun",
+    "primary_gloss": "industry",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0108",
+    "rank": 108,
+    "display_form": "长处",
+    "lemma": "长处",
+    "generation_form": "长处",
+    "pronunciation": "chángchù",
+    "pos": "noun",
+    "primary_gloss": "strength",
+    "secondary_glosses": [
+      "strong point"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0109",
+    "rank": 109,
+    "display_form": "长度",
+    "lemma": "长度",
+    "generation_form": "长度",
+    "pronunciation": "chángdù",
+    "pos": "noun",
+    "primary_gloss": "length",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0110",
+    "rank": 110,
+    "display_form": "长久",
+    "lemma": "长久",
+    "generation_form": "长久",
+    "pronunciation": "chángjiǔ",
+    "pos": "adjective",
+    "primary_gloss": "long-lasting",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0111",
+    "rank": 111,
+    "display_form": "长期",
+    "lemma": "长期",
+    "generation_form": "长期",
+    "pronunciation": "chángqī",
+    "pos": "noun, adjective",
+    "primary_gloss": "long-term",
+    "secondary_glosses": [
+      "long period"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0112",
+    "rank": 112,
+    "display_form": "常识",
+    "lemma": "常识",
+    "generation_form": "常识",
+    "pronunciation": "chángshí",
+    "pos": "noun",
+    "primary_gloss": "common knowledge",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0113",
+    "rank": 113,
+    "display_form": "尝试",
+    "lemma": "尝试",
+    "generation_form": "尝试",
+    "pronunciation": "chángshì",
+    "pos": "verb",
+    "primary_gloss": "to attempt",
+    "secondary_glosses": [
+      "to try"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0114",
+    "rank": 114,
+    "display_form": "长途",
+    "lemma": "长途",
+    "generation_form": "长途",
+    "pronunciation": "chángtú",
+    "pos": "adjective",
+    "primary_gloss": "long-distance",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0115",
+    "rank": 115,
+    "display_form": "长远",
+    "lemma": "长远",
+    "generation_form": "长远",
+    "pronunciation": "chángyuǎn",
+    "pos": "adjective",
+    "primary_gloss": "long-term",
+    "secondary_glosses": [
+      "far-reaching"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0116",
+    "rank": 116,
+    "display_form": "场所",
+    "lemma": "场所",
+    "generation_form": "场所",
+    "pronunciation": "chǎngsuǒ",
+    "pos": "noun",
+    "primary_gloss": "place",
+    "secondary_glosses": [
+      "venue"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0117",
+    "rank": 117,
+    "display_form": "超",
+    "lemma": "超",
+    "generation_form": "超",
+    "pronunciation": "chāo",
+    "pos": "verb",
+    "primary_gloss": "to exceed",
+    "secondary_glosses": [
+      "to surpass"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0118",
+    "rank": 118,
+    "display_form": "超出",
+    "lemma": "超出",
+    "generation_form": "超出",
+    "pronunciation": "chāochū",
+    "pos": "verb",
+    "primary_gloss": "to exceed",
+    "secondary_glosses": [
+      "to go beyond"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0119",
+    "rank": 119,
+    "display_form": "超级",
+    "lemma": "超级",
+    "generation_form": "超级",
+    "pronunciation": "chāojí",
+    "pos": "adjective",
+    "primary_gloss": "super",
+    "secondary_glosses": [
+      "ultra"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0120",
+    "rank": 120,
+    "display_form": "超速",
+    "lemma": "超速",
+    "generation_form": "超速",
+    "pronunciation": "chāosù",
+    "pos": "verb",
+    "primary_gloss": "to speed",
+    "secondary_glosses": [
+      "to exceed the speed limit"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0121",
+    "rank": 121,
+    "display_form": "朝",
+    "lemma": "朝",
+    "generation_form": "朝",
+    "pronunciation": "cháo",
+    "pos": "verb, preposition",
+    "primary_gloss": "to face",
+    "secondary_glosses": [
+      "towards"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, preposition."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0122",
+    "rank": 122,
+    "display_form": "吵",
+    "lemma": "吵",
+    "generation_form": "吵",
+    "pronunciation": "chǎo",
+    "pos": "adjective, verb",
+    "primary_gloss": "noisy",
+    "secondary_glosses": [
+      "to quarrel"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective, verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0123",
+    "rank": 123,
+    "display_form": "炒",
+    "lemma": "炒",
+    "generation_form": "炒",
+    "pronunciation": "chǎo",
+    "pos": "verb",
+    "primary_gloss": "to stir-fry",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0124",
+    "rank": 124,
+    "display_form": "车祸",
+    "lemma": "车祸",
+    "generation_form": "车祸",
+    "pronunciation": "chēhuò",
+    "pos": "noun",
+    "primary_gloss": "car accident",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0125",
+    "rank": 125,
+    "display_form": "车库",
+    "lemma": "车库",
+    "generation_form": "车库",
+    "pronunciation": "chēkù",
+    "pos": "noun",
+    "primary_gloss": "garage",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0126",
+    "rank": 126,
+    "display_form": "车辆",
+    "lemma": "车辆",
+    "generation_form": "车辆",
+    "pronunciation": "chēliàng",
+    "pos": "noun",
+    "primary_gloss": "vehicle",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0127",
+    "rank": 127,
+    "display_form": "车厢",
+    "lemma": "车厢",
+    "generation_form": "车厢",
+    "pronunciation": "chēxiāng",
+    "pos": "noun",
+    "primary_gloss": "carriage",
+    "secondary_glosses": [
+      "compartment"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0128",
+    "rank": 128,
+    "display_form": "车主",
+    "lemma": "车主",
+    "generation_form": "车主",
+    "pronunciation": "chēzhǔ",
+    "pos": "noun",
+    "primary_gloss": "vehicle owner",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0129",
+    "rank": 129,
+    "display_form": "彻底",
+    "lemma": "彻底",
+    "generation_form": "彻底",
+    "pronunciation": "chèdǐ",
+    "pos": "adjective",
+    "primary_gloss": "thorough",
+    "secondary_glosses": [
+      "complete"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0130",
+    "rank": 130,
+    "display_form": "沉",
+    "lemma": "沉",
+    "generation_form": "沉",
+    "pronunciation": "chén",
+    "pos": "verb, adjective",
+    "primary_gloss": "to sink",
+    "secondary_glosses": [
+      "deep",
+      "heavy"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0131",
+    "rank": 131,
+    "display_form": "沉默",
+    "lemma": "沉默",
+    "generation_form": "沉默",
+    "pronunciation": "chénmò",
+    "pos": "verb",
+    "primary_gloss": "to keep silent",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0132",
+    "rank": 132,
+    "display_form": "称1",
+    "lemma": "称1",
+    "generation_form": "称1",
+    "pronunciation": "chēng",
+    "pos": "verb",
+    "primary_gloss": "to call",
+    "secondary_glosses": [
+      "to address"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0133",
+    "rank": 133,
+    "display_form": "称2",
+    "lemma": "称2",
+    "generation_form": "称2",
+    "pronunciation": "chēng",
+    "pos": "verb",
+    "primary_gloss": "to weigh",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0134",
+    "rank": 134,
+    "display_form": "称为",
+    "lemma": "称为",
+    "generation_form": "称为",
+    "pronunciation": "chēngwéi",
+    "pos": "verb",
+    "primary_gloss": "to be called",
+    "secondary_glosses": [
+      "to be known as"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0135",
+    "rank": 135,
+    "display_form": "称赞",
+    "lemma": "称赞",
+    "generation_form": "称赞",
+    "pronunciation": "chēngzàn",
+    "pos": "verb",
+    "primary_gloss": "to praise",
+    "secondary_glosses": [
+      "to commend"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0136",
+    "rank": 136,
+    "display_form": "成本",
+    "lemma": "成本",
+    "generation_form": "成本",
+    "pronunciation": "chéngběn",
+    "pos": "noun",
+    "primary_gloss": "cost",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0137",
+    "rank": 137,
+    "display_form": "承担",
+    "lemma": "承担",
+    "generation_form": "承担",
+    "pronunciation": "chéngdān",
+    "pos": "verb",
+    "primary_gloss": "to bear",
+    "secondary_glosses": [
+      "to undertake"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0138",
+    "rank": 138,
+    "display_form": "程度",
+    "lemma": "程度",
+    "generation_form": "程度",
+    "pronunciation": "chéngdù",
+    "pos": "noun",
+    "primary_gloss": "degree",
+    "secondary_glosses": [
+      "level"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0139",
+    "rank": 139,
+    "display_form": "成分",
+    "lemma": "成分",
+    "generation_form": "成分",
+    "pronunciation": "chéngfèn",
+    "pos": "noun",
+    "primary_gloss": "ingredient",
+    "secondary_glosses": [
+      "component"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0140",
+    "rank": 140,
+    "display_form": "成果",
+    "lemma": "成果",
+    "generation_form": "成果",
+    "pronunciation": "chéngguǒ",
+    "pos": "noun",
+    "primary_gloss": "achievement",
+    "secondary_glosses": [
+      "result"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0141",
+    "rank": 141,
+    "display_form": "成就",
+    "lemma": "成就",
+    "generation_form": "成就",
+    "pronunciation": "chéngjiù",
+    "pos": "noun, verb",
+    "primary_gloss": "accomplishment",
+    "secondary_glosses": [
+      "achievement",
+      "to achieve"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0142",
+    "rank": 142,
+    "display_form": "成立",
+    "lemma": "成立",
+    "generation_form": "成立",
+    "pronunciation": "chénglì",
+    "pos": "verb",
+    "primary_gloss": "to establish",
+    "secondary_glosses": [
+      "to set up"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0143",
+    "rank": 143,
+    "display_form": "成年",
+    "lemma": "成年",
+    "generation_form": "成年",
+    "pronunciation": "chéngnián",
+    "pos": "verb",
+    "primary_gloss": "to become an adult",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0144",
+    "rank": 144,
+    "display_form": "城区",
+    "lemma": "城区",
+    "generation_form": "城区",
+    "pronunciation": "chéngqū",
+    "pos": "noun",
+    "primary_gloss": "urban area",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0145",
+    "rank": 145,
+    "display_form": "成人",
+    "lemma": "成人",
+    "generation_form": "成人",
+    "pronunciation": "chéngrén",
+    "pos": "verb, noun",
+    "primary_gloss": "to become an adult",
+    "secondary_glosses": [
+      "adult"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0146",
+    "rank": 146,
+    "display_form": "承认",
+    "lemma": "承认",
+    "generation_form": "承认",
+    "pronunciation": "chéngrèn",
+    "pos": "verb",
+    "primary_gloss": "to admit",
+    "secondary_glosses": [
+      "to acknowledge"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0147",
+    "rank": 147,
+    "display_form": "承受",
+    "lemma": "承受",
+    "generation_form": "承受",
+    "pronunciation": "chéngshòu",
+    "pos": "verb",
+    "primary_gloss": "to bear",
+    "secondary_glosses": [
+      "to endure"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0148",
+    "rank": 148,
+    "display_form": "成熟",
+    "lemma": "成熟",
+    "generation_form": "成熟",
+    "pronunciation": "chéngshú",
+    "pos": "verb, adjective",
+    "primary_gloss": "to mature",
+    "secondary_glosses": [
+      "mature"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0149",
+    "rank": 149,
+    "display_form": "乘务员",
+    "lemma": "乘务员",
+    "generation_form": "乘务员",
+    "pronunciation": "chéngwùyuán",
+    "pos": "noun",
+    "primary_gloss": "attendant",
+    "secondary_glosses": [
+      "crew member"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0150",
+    "rank": 150,
+    "display_form": "程序",
+    "lemma": "程序",
+    "generation_form": "程序",
+    "pronunciation": "chéngxù",
+    "pos": "noun",
+    "primary_gloss": "procedure",
+    "secondary_glosses": [
+      "program"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  }
+]

@@ -1,0 +1,355 @@
+[
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0051",
+    "rank": 51,
+    "display_form": "闭",
+    "lemma": "闭",
+    "generation_form": "闭",
+    "pronunciation": "bì",
+    "pos": "verb",
+    "primary_gloss": "to close",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0052",
+    "rank": 52,
+    "display_form": "避",
+    "lemma": "避",
+    "generation_form": "避",
+    "pronunciation": "bì",
+    "pos": "verb",
+    "primary_gloss": "to avoid",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0053",
+    "rank": 53,
+    "display_form": "必修",
+    "lemma": "必修",
+    "generation_form": "必修",
+    "pronunciation": "bìxiū",
+    "pos": "adjective",
+    "primary_gloss": "compulsory (course)",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0054",
+    "rank": 54,
+    "display_form": "编",
+    "lemma": "编",
+    "generation_form": "编",
+    "pronunciation": "biān",
+    "pos": "verb",
+    "primary_gloss": "to weave",
+    "secondary_glosses": [
+      "to edit",
+      "to write"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0055",
+    "rank": 55,
+    "display_form": "编辑",
+    "lemma": "编辑",
+    "generation_form": "编辑",
+    "pronunciation": "biānjí",
+    "pos": "verb, noun",
+    "primary_gloss": "to edit",
+    "secondary_glosses": [
+      "editor"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0056",
+    "rank": 56,
+    "display_form": "编写",
+    "lemma": "编写",
+    "generation_form": "编写",
+    "pronunciation": "biānxiě",
+    "pos": "verb",
+    "primary_gloss": "to write",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0057",
+    "rank": 57,
+    "display_form": "遍地",
+    "lemma": "遍地",
+    "generation_form": "遍地",
+    "pronunciation": "biàndì",
+    "pos": "verb, adverb",
+    "primary_gloss": "all over",
+    "secondary_glosses": [
+      "everywhere",
+      "everywhere"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, adverb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0058",
+    "rank": 58,
+    "display_form": "便捷",
+    "lemma": "便捷",
+    "generation_form": "便捷",
+    "pronunciation": "biànjié",
+    "pos": "adjective",
+    "primary_gloss": "convenient",
+    "secondary_glosses": [
+      "fast"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0059",
+    "rank": 59,
+    "display_form": "变质",
+    "lemma": "变质",
+    "generation_form": "变质",
+    "pronunciation": "biànzhì",
+    "pos": "verb",
+    "primary_gloss": "to go bad",
+    "secondary_glosses": [
+      "to deteriorate"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0060",
+    "rank": 60,
+    "display_form": "兵",
+    "lemma": "兵",
+    "generation_form": "兵",
+    "pronunciation": "bīng",
+    "pos": "noun",
+    "primary_gloss": "soldier",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0061",
+    "rank": 61,
+    "display_form": "病毒",
+    "lemma": "病毒",
+    "generation_form": "病毒",
+    "pronunciation": "bìngdú",
+    "pos": "noun",
+    "primary_gloss": "virus",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0062",
+    "rank": 62,
+    "display_form": "播",
+    "lemma": "播",
+    "generation_form": "播",
+    "pronunciation": "bō",
+    "pos": "verb",
+    "primary_gloss": "to broadcast",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0063",
+    "rank": 63,
+    "display_form": "播种",
+    "lemma": "播种",
+    "generation_form": "播种",
+    "pronunciation": "bōzhǒng",
+    "pos": "verb",
+    "primary_gloss": "to sow seeds",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0064",
+    "rank": 64,
+    "display_form": "博览会",
+    "lemma": "博览会",
+    "generation_form": "博览会",
+    "pronunciation": "bólǎnhuì",
+    "pos": "noun",
+    "primary_gloss": "exposition",
+    "secondary_glosses": [
+      "fair"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0065",
+    "rank": 65,
+    "display_form": "薄弱",
+    "lemma": "薄弱",
+    "generation_form": "薄弱",
+    "pronunciation": "bóruò",
+    "pos": "adjective",
+    "primary_gloss": "weak",
+    "secondary_glosses": [
+      "fragile"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0066",
+    "rank": 66,
+    "display_form": "脖子",
+    "lemma": "脖子",
+    "generation_form": "脖子",
+    "pronunciation": "bózi",
+    "pos": "noun",
+    "primary_gloss": "neck",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0067",
+    "rank": 67,
+    "display_form": "不耐烦",
+    "lemma": "不耐烦",
+    "generation_form": "不耐烦",
+    "pronunciation": "bú nàifán",
+    "pos": "unknown",
+    "primary_gloss": "impatient",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0068",
+    "rank": 68,
+    "display_form": "不顾",
+    "lemma": "不顾",
+    "generation_form": "不顾",
+    "pronunciation": "búgù",
+    "pos": "verb",
+    "primary_gloss": "to disregard",
+    "secondary_glosses": [
+      "to ignore"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0069",
+    "rank": 69,
+    "display_form": "不料",
+    "lemma": "不料",
+    "generation_form": "不料",
+    "pronunciation": "búliào",
+    "pos": "conjunction",
+    "primary_gloss": "unexpectedly",
+    "secondary_glosses": [
+      "to one's surprise"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as conjunction."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0070",
+    "rank": 70,
+    "display_form": "不适",
+    "lemma": "不适",
+    "generation_form": "不适",
+    "pronunciation": "búshì",
+    "pos": "adjective",
+    "primary_gloss": "uncomfortable",
+    "secondary_glosses": [
+      "unwell"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0071",
+    "rank": 71,
+    "display_form": "不至于",
+    "lemma": "不至于",
+    "generation_form": "不至于",
+    "pronunciation": "búzhìyú",
+    "pos": "verb",
+    "primary_gloss": "not to the extent of",
+    "secondary_glosses": [
+      "unlikely to"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0072",
+    "rank": 72,
+    "display_form": "补",
+    "lemma": "补",
+    "generation_form": "补",
+    "pronunciation": "bǔ",
+    "pos": "verb",
+    "primary_gloss": "to supplement",
+    "secondary_glosses": [
+      "to make up"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0073",
+    "rank": 73,
+    "display_form": "捕",
+    "lemma": "捕",
+    "generation_form": "捕",
+    "pronunciation": "bǔ",
+    "pos": "verb",
+    "primary_gloss": "to catch",
+    "secondary_glosses": [
+      "to capture"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0074",
+    "rank": 74,
+    "display_form": "补偿",
+    "lemma": "补偿",
+    "generation_form": "补偿",
+    "pronunciation": "bǔcháng",
+    "pos": "verb",
+    "primary_gloss": "to compensate",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0075",
+    "rank": 75,
+    "display_form": "补课",
+    "lemma": "补课",
+    "generation_form": "补课",
+    "pronunciation": "bǔkè",
+    "pos": "verb",
+    "primary_gloss": "to make up a missed lesson",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  }
+]

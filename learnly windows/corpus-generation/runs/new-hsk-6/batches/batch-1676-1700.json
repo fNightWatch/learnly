@@ -1,0 +1,354 @@
+[
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1676",
+    "rank": 1676,
+    "display_form": "针",
+    "lemma": "针",
+    "generation_form": "针",
+    "pronunciation": "zhēn",
+    "pos": "noun",
+    "primary_gloss": "needle",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1677",
+    "rank": 1677,
+    "display_form": "真相",
+    "lemma": "真相",
+    "generation_form": "真相",
+    "pronunciation": "zhēnxiàng",
+    "pos": "noun",
+    "primary_gloss": "truth",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1678",
+    "rank": 1678,
+    "display_form": "珍珠",
+    "lemma": "珍珠",
+    "generation_form": "珍珠",
+    "pronunciation": "zhēnzhū",
+    "pos": "noun",
+    "primary_gloss": "pearl",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1679",
+    "rank": 1679,
+    "display_form": "枕头",
+    "lemma": "枕头",
+    "generation_form": "枕头",
+    "pronunciation": "zhěntou",
+    "pos": "noun",
+    "primary_gloss": "pillow",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1680",
+    "rank": 1680,
+    "display_form": "镇",
+    "lemma": "镇",
+    "generation_form": "镇",
+    "pronunciation": "zhèn",
+    "pos": "verb, noun",
+    "primary_gloss": "to guard",
+    "secondary_glosses": [
+      "town"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1681",
+    "rank": 1681,
+    "display_form": "阵雨",
+    "lemma": "阵雨",
+    "generation_form": "阵雨",
+    "pronunciation": "zhènyǔ",
+    "pos": "noun",
+    "primary_gloss": "shower rain",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1682",
+    "rank": 1682,
+    "display_form": "睁",
+    "lemma": "睁",
+    "generation_form": "睁",
+    "pronunciation": "zhēng",
+    "pos": "verb",
+    "primary_gloss": "to open",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1683",
+    "rank": 1683,
+    "display_form": "争吵",
+    "lemma": "争吵",
+    "generation_form": "争吵",
+    "pronunciation": "zhēngchǎo",
+    "pos": "verb",
+    "primary_gloss": "to quarrel",
+    "secondary_glosses": [
+      "to argue"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1684",
+    "rank": 1684,
+    "display_form": "争夺",
+    "lemma": "争夺",
+    "generation_form": "争夺",
+    "pronunciation": "zhēngduó",
+    "pos": "verb",
+    "primary_gloss": "to fight for",
+    "secondary_glosses": [
+      "to compete for"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1685",
+    "rank": 1685,
+    "display_form": "争论",
+    "lemma": "争论",
+    "generation_form": "争论",
+    "pronunciation": "zhēnglùn",
+    "pos": "verb",
+    "primary_gloss": "to debate",
+    "secondary_glosses": [
+      "to argue"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1686",
+    "rank": 1686,
+    "display_form": "征求",
+    "lemma": "征求",
+    "generation_form": "征求",
+    "pronunciation": "zhēngqiú",
+    "pos": "verb",
+    "primary_gloss": "to solicit",
+    "secondary_glosses": [
+      "to seek"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1687",
+    "rank": 1687,
+    "display_form": "争议",
+    "lemma": "争议",
+    "generation_form": "争议",
+    "pronunciation": "zhēngyì",
+    "pos": "verb",
+    "primary_gloss": "dispute",
+    "secondary_glosses": [
+      "controversy",
+      "to dispute"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1688",
+    "rank": 1688,
+    "display_form": "政策",
+    "lemma": "政策",
+    "generation_form": "政策",
+    "pronunciation": "zhèngcè",
+    "pos": "noun",
+    "primary_gloss": "policy",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1689",
+    "rank": 1689,
+    "display_form": "正规",
+    "lemma": "正规",
+    "generation_form": "正规",
+    "pronunciation": "zhèngguī",
+    "pos": "adjective",
+    "primary_gloss": "regular",
+    "secondary_glosses": [
+      "formal"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1690",
+    "rank": 1690,
+    "display_form": "正面",
+    "lemma": "正面",
+    "generation_form": "正面",
+    "pronunciation": "zhèngmiàn",
+    "pos": "noun, adjective",
+    "primary_gloss": "front side",
+    "secondary_glosses": [
+      "positive",
+      "direct"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1691",
+    "rank": 1691,
+    "display_form": "证实",
+    "lemma": "证实",
+    "generation_form": "证实",
+    "pronunciation": "zhèngshí",
+    "pos": "verb",
+    "primary_gloss": "to confirm",
+    "secondary_glosses": [
+      "to verify"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1692",
+    "rank": 1692,
+    "display_form": "正义",
+    "lemma": "正义",
+    "generation_form": "正义",
+    "pronunciation": "zhèngyì",
+    "pos": "noun, adjective",
+    "primary_gloss": "justice",
+    "secondary_glosses": [
+      "just"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1693",
+    "rank": 1693,
+    "display_form": "症状",
+    "lemma": "症状",
+    "generation_form": "症状",
+    "pronunciation": "zhèngzhuàng",
+    "pos": "noun",
+    "primary_gloss": "symptom",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1694",
+    "rank": 1694,
+    "display_form": "支2",
+    "lemma": "支",
+    "generation_form": "支",
+    "pronunciation": "zhī",
+    "pos": "verb",
+    "primary_gloss": "to support",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1695",
+    "rank": 1695,
+    "display_form": "枝",
+    "lemma": "枝",
+    "generation_form": "枝",
+    "pronunciation": "zhī",
+    "pos": "noun, measure word",
+    "primary_gloss": "branch",
+    "secondary_glosses": [
+      "measure word for long",
+      "thin objects"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, measure word."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1696",
+    "rank": 1696,
+    "display_form": "支撑",
+    "lemma": "支撑",
+    "generation_form": "支撑",
+    "pronunciation": "zhīchēng",
+    "pos": "verb",
+    "primary_gloss": "to support",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1697",
+    "rank": 1697,
+    "display_form": "支出",
+    "lemma": "支出",
+    "generation_form": "支出",
+    "pronunciation": "zhīchū",
+    "pos": "verb, noun",
+    "primary_gloss": "to pay out",
+    "secondary_glosses": [
+      "expenditure"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1698",
+    "rank": 1698,
+    "display_form": "脂肪",
+    "lemma": "脂肪",
+    "generation_form": "脂肪",
+    "pronunciation": "zhīfáng",
+    "pos": "noun",
+    "primary_gloss": "fat",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1699",
+    "rank": 1699,
+    "display_form": "之所以",
+    "lemma": "之所以",
+    "generation_form": "之所以",
+    "pronunciation": "zhīsuǒyǐ",
+    "pos": "conjunction",
+    "primary_gloss": "the reason why",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as conjunction."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1700",
+    "rank": 1700,
+    "display_form": "值班",
+    "lemma": "值班",
+    "generation_form": "值班",
+    "pronunciation": "zhíbān",
+    "pos": "verb",
+    "primary_gloss": "to be on duty",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  }
+]

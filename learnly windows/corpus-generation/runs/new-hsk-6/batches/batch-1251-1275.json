@@ -1,0 +1,345 @@
+[
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1251",
+    "rank": 1251,
+    "display_form": "岁月",
+    "lemma": "岁月",
+    "generation_form": "岁月",
+    "pronunciation": "suìyuè",
+    "pos": "noun",
+    "primary_gloss": "years",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1252",
+    "rank": 1252,
+    "display_form": "损坏",
+    "lemma": "损坏",
+    "generation_form": "损坏",
+    "pronunciation": "sǔnhuài",
+    "pos": "verb",
+    "primary_gloss": "to damage",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1253",
+    "rank": 1253,
+    "display_form": "损伤",
+    "lemma": "损伤",
+    "generation_form": "损伤",
+    "pronunciation": "sǔnshāng",
+    "pos": "verb",
+    "primary_gloss": "to harm",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1254",
+    "rank": 1254,
+    "display_form": "所",
+    "lemma": "所",
+    "generation_form": "所",
+    "pronunciation": "suǒ",
+    "pos": "particle",
+    "primary_gloss": "particle used to indicate passive voice or to nominalize 动s",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as particle."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1255",
+    "rank": 1255,
+    "display_form": "踏实",
+    "lemma": "踏实",
+    "generation_form": "踏实",
+    "pronunciation": "tāshi",
+    "pos": "adjective",
+    "primary_gloss": "steady",
+    "secondary_glosses": [
+      "firm"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1256",
+    "rank": 1256,
+    "display_form": "塔",
+    "lemma": "塔",
+    "generation_form": "塔",
+    "pronunciation": "tǎ",
+    "pos": "noun",
+    "primary_gloss": "pagoda",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1257",
+    "rank": 1257,
+    "display_form": "台风",
+    "lemma": "台风",
+    "generation_form": "台风",
+    "pronunciation": "táifēng",
+    "pos": "noun",
+    "primary_gloss": "typhoon",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1258",
+    "rank": 1258,
+    "display_form": "台球",
+    "lemma": "台球",
+    "generation_form": "台球",
+    "pronunciation": "táiqiú",
+    "pos": "noun",
+    "primary_gloss": "billiards",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1259",
+    "rank": 1259,
+    "display_form": "太空",
+    "lemma": "太空",
+    "generation_form": "太空",
+    "pronunciation": "tàikōng",
+    "pos": "noun",
+    "primary_gloss": "space",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1260",
+    "rank": 1260,
+    "display_form": "太阳能",
+    "lemma": "太阳能",
+    "generation_form": "太阳能",
+    "pronunciation": "tàiyángnéng",
+    "pos": "noun",
+    "primary_gloss": "solar energy",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1261",
+    "rank": 1261,
+    "display_form": "谈论",
+    "lemma": "谈论",
+    "generation_form": "谈论",
+    "pronunciation": "tánlùn",
+    "pos": "verb",
+    "primary_gloss": "to discuss",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1262",
+    "rank": 1262,
+    "display_form": "谈判",
+    "lemma": "谈判",
+    "generation_form": "谈判",
+    "pronunciation": "tánpàn",
+    "pos": "verb",
+    "primary_gloss": "to negotiate",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1263",
+    "rank": 1263,
+    "display_form": "弹性",
+    "lemma": "弹性",
+    "generation_form": "弹性",
+    "pronunciation": "tánxìng",
+    "pos": "noun",
+    "primary_gloss": "elasticity",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1264",
+    "rank": 1264,
+    "display_form": "探索",
+    "lemma": "探索",
+    "generation_form": "探索",
+    "pronunciation": "tànsuǒ",
+    "pos": "verb",
+    "primary_gloss": "to explore",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1265",
+    "rank": 1265,
+    "display_form": "探讨",
+    "lemma": "探讨",
+    "generation_form": "探讨",
+    "pronunciation": "tàntǎo",
+    "pos": "verb",
+    "primary_gloss": "to discuss",
+    "secondary_glosses": [
+      "to deliberate"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1266",
+    "rank": 1266,
+    "display_form": "汤圆",
+    "lemma": "汤圆",
+    "generation_form": "汤圆",
+    "pronunciation": "tāngyuán",
+    "pos": "noun",
+    "primary_gloss": "sweet dumplings",
+    "secondary_glosses": [
+      "Tangyuan"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1267",
+    "rank": 1267,
+    "display_form": "糖果",
+    "lemma": "糖果",
+    "generation_form": "糖果",
+    "pronunciation": "tángguǒ",
+    "pos": "noun",
+    "primary_gloss": "candy",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1268",
+    "rank": 1268,
+    "display_form": "烫",
+    "lemma": "烫",
+    "generation_form": "烫",
+    "pronunciation": "tàng",
+    "pos": "verb, adjective",
+    "primary_gloss": "to scald",
+    "secondary_glosses": [
+      "hot"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1269",
+    "rank": 1269,
+    "display_form": "掏",
+    "lemma": "掏",
+    "generation_form": "掏",
+    "pronunciation": "tāo",
+    "pos": "verb",
+    "primary_gloss": "to pull out",
+    "secondary_glosses": [
+      "to dig out"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1270",
+    "rank": 1270,
+    "display_form": "逃",
+    "lemma": "逃",
+    "generation_form": "逃",
+    "pronunciation": "táo",
+    "pos": "verb",
+    "primary_gloss": "to escape",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1271",
+    "rank": 1271,
+    "display_form": "逃跑",
+    "lemma": "逃跑",
+    "generation_form": "逃跑",
+    "pronunciation": "táopǎo",
+    "pos": "verb",
+    "primary_gloss": "to flee",
+    "secondary_glosses": [
+      "to run away"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1272",
+    "rank": 1272,
+    "display_form": "淘气",
+    "lemma": "淘气",
+    "generation_form": "淘气",
+    "pronunciation": "táoqì",
+    "pos": "adjective",
+    "primary_gloss": "naughty",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1273",
+    "rank": 1273,
+    "display_form": "淘汰",
+    "lemma": "淘汰",
+    "generation_form": "淘汰",
+    "pronunciation": "táotài",
+    "pos": "verb",
+    "primary_gloss": "to eliminate",
+    "secondary_glosses": [
+      "to be eliminated"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1274",
+    "rank": 1274,
+    "display_form": "套餐",
+    "lemma": "套餐",
+    "generation_form": "套餐",
+    "pronunciation": "tàocān",
+    "pos": "noun",
+    "primary_gloss": "set meal",
+    "secondary_glosses": [
+      "combo"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1275",
+    "rank": 1275,
+    "display_form": "特",
+    "lemma": "特",
+    "generation_form": "特",
+    "pronunciation": "tè",
+    "pos": "adverb",
+    "primary_gloss": "especially",
+    "secondary_glosses": [
+      "particularly"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  }
+]

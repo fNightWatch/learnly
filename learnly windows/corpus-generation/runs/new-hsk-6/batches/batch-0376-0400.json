@@ -1,0 +1,361 @@
+[
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0376",
+    "rank": 376,
+    "display_form": "放大",
+    "lemma": "放大",
+    "generation_form": "放大",
+    "pronunciation": "fàngdà",
+    "pos": "verb",
+    "primary_gloss": "to enlarge",
+    "secondary_glosses": [
+      "to magnify"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0377",
+    "rank": 377,
+    "display_form": "放飞",
+    "lemma": "放飞",
+    "generation_form": "放飞",
+    "pronunciation": "fàngfēi",
+    "pos": "verb",
+    "primary_gloss": "to fly freely",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0378",
+    "rank": 378,
+    "display_form": "飞速",
+    "lemma": "飞速",
+    "generation_form": "飞速",
+    "pronunciation": "fēisù",
+    "pos": "adverb",
+    "primary_gloss": "at lightning speed",
+    "secondary_glosses": [
+      "rapidly"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0379",
+    "rank": 379,
+    "display_form": "肥",
+    "lemma": "肥",
+    "generation_form": "肥",
+    "pronunciation": "féi",
+    "pos": "adjective, verb, noun",
+    "primary_gloss": "fat",
+    "secondary_glosses": [
+      "to become fat",
+      "fertilizer"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective, verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0380",
+    "rank": 380,
+    "display_form": "肥胖",
+    "lemma": "肥胖",
+    "generation_form": "肥胖",
+    "pronunciation": "féipàng",
+    "pos": "adjective",
+    "primary_gloss": "obese",
+    "secondary_glosses": [
+      "fat"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0381",
+    "rank": 381,
+    "display_form": "肥沃",
+    "lemma": "肥沃",
+    "generation_form": "肥沃",
+    "pronunciation": "féiwò",
+    "pos": "adjective",
+    "primary_gloss": "fertile",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0382",
+    "rank": 382,
+    "display_form": "肺",
+    "lemma": "肺",
+    "generation_form": "肺",
+    "pronunciation": "fèi",
+    "pos": "noun",
+    "primary_gloss": "lung",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0383",
+    "rank": 383,
+    "display_form": "肺炎",
+    "lemma": "肺炎",
+    "generation_form": "肺炎",
+    "pronunciation": "fèiyán",
+    "pos": "noun",
+    "primary_gloss": "pneumonia",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0384",
+    "rank": 384,
+    "display_form": "分工",
+    "lemma": "分工",
+    "generation_form": "分工",
+    "pronunciation": "fēngōng",
+    "pos": "verb",
+    "primary_gloss": "division of labor",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0385",
+    "rank": 385,
+    "display_form": "分级",
+    "lemma": "分级",
+    "generation_form": "分级",
+    "pronunciation": "fēnjí",
+    "pos": "verb",
+    "primary_gloss": "to classify",
+    "secondary_glosses": [
+      "to grade"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0386",
+    "rank": 386,
+    "display_form": "分期",
+    "lemma": "分期",
+    "generation_form": "分期",
+    "pronunciation": "fēnqī",
+    "pos": "verb",
+    "primary_gloss": "to pay in installments",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0387",
+    "rank": 387,
+    "display_form": "分散",
+    "lemma": "分散",
+    "generation_form": "分散",
+    "pronunciation": "fēnsàn",
+    "pos": "adjective, verb",
+    "primary_gloss": "dispersed",
+    "secondary_glosses": [
+      "to scatter"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective, verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0388",
+    "rank": 388,
+    "display_form": "氛围",
+    "lemma": "氛围",
+    "generation_form": "氛围",
+    "pronunciation": "fēnwéi",
+    "pos": "noun",
+    "primary_gloss": "atmosphere",
+    "secondary_glosses": [
+      "ambiance"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0389",
+    "rank": 389,
+    "display_form": "粉",
+    "lemma": "粉",
+    "generation_form": "粉",
+    "pronunciation": "fěn",
+    "pos": "noun, adjective",
+    "primary_gloss": "powder",
+    "secondary_glosses": [
+      "pink"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0390",
+    "rank": 390,
+    "display_form": "愤怒",
+    "lemma": "愤怒",
+    "generation_form": "愤怒",
+    "pronunciation": "fènnù",
+    "pos": "adjective",
+    "primary_gloss": "angry",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0391",
+    "rank": 391,
+    "display_form": "封闭",
+    "lemma": "封闭",
+    "generation_form": "封闭",
+    "pronunciation": "fēngbì",
+    "pos": "verb",
+    "primary_gloss": "to seal",
+    "secondary_glosses": [
+      "to close"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0392",
+    "rank": 392,
+    "display_form": "风光",
+    "lemma": "风光",
+    "generation_form": "风光",
+    "pronunciation": "fēngguāng",
+    "pos": "noun",
+    "primary_gloss": "scenery",
+    "secondary_glosses": [
+      "view"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0393",
+    "rank": 393,
+    "display_form": "风力",
+    "lemma": "风力",
+    "generation_form": "风力",
+    "pronunciation": "fēnglì",
+    "pos": "noun",
+    "primary_gloss": "wind power",
+    "secondary_glosses": [
+      "wind force"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0394",
+    "rank": 394,
+    "display_form": "丰收",
+    "lemma": "丰收",
+    "generation_form": "丰收",
+    "pronunciation": "fēngshōu",
+    "pos": "verb",
+    "primary_gloss": "bountiful harvest",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0395",
+    "rank": 395,
+    "display_form": "风雨",
+    "lemma": "风雨",
+    "generation_form": "风雨",
+    "pronunciation": "fēngyǔ",
+    "pos": "noun",
+    "primary_gloss": "wind and rain",
+    "secondary_glosses": [
+      "hardships"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0396",
+    "rank": 396,
+    "display_form": "奉献",
+    "lemma": "奉献",
+    "generation_form": "奉献",
+    "pronunciation": "fèngxiàn",
+    "pos": "verb",
+    "primary_gloss": "to devote",
+    "secondary_glosses": [
+      "to dedicate"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0397",
+    "rank": 397,
+    "display_form": "夫人",
+    "lemma": "夫人",
+    "generation_form": "夫人",
+    "pronunciation": "fūrén",
+    "pos": "noun",
+    "primary_gloss": "wife",
+    "secondary_glosses": [
+      "madam"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0398",
+    "rank": 398,
+    "display_form": "服",
+    "lemma": "服",
+    "generation_form": "服",
+    "pronunciation": "fú",
+    "pos": "verb",
+    "primary_gloss": "to serve",
+    "secondary_glosses": [
+      "to obey",
+      "clothing"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0399",
+    "rank": 399,
+    "display_form": "浮",
+    "lemma": "浮",
+    "generation_form": "浮",
+    "pronunciation": "fú",
+    "pos": "verb",
+    "primary_gloss": "to float",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0400",
+    "rank": 400,
+    "display_form": "服从",
+    "lemma": "服从",
+    "generation_form": "服从",
+    "pronunciation": "fúcóng",
+    "pos": "verb",
+    "primary_gloss": "to obey",
+    "secondary_glosses": [
+      "to comply"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  }
+]

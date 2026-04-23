@@ -1,0 +1,357 @@
+[
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0276",
+    "rank": 276,
+    "display_form": "广告",
+    "lemma": "广告",
+    "generation_form": "广告",
+    "pronunciation": "guǎnggào",
+    "pos": "noun",
+    "primary_gloss": "advertisement",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0277",
+    "rank": 277,
+    "display_form": "逛",
+    "lemma": "逛",
+    "generation_form": "逛",
+    "pronunciation": "guàng",
+    "pos": "verb",
+    "primary_gloss": "stroll",
+    "secondary_glosses": [
+      "roam",
+      "browse",
+      "shop around"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0278",
+    "rank": 278,
+    "display_form": "规定",
+    "lemma": "规定",
+    "generation_form": "规定",
+    "pronunciation": "guīdìng",
+    "pos": "verb, noun",
+    "primary_gloss": "stipulate",
+    "secondary_glosses": [
+      "prescribe",
+      "set rules",
+      "regulation",
+      "rule",
+      "stipulation"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0279",
+    "rank": 279,
+    "display_form": "国籍",
+    "lemma": "国籍",
+    "generation_form": "国籍",
+    "pronunciation": "guójí",
+    "pos": "noun",
+    "primary_gloss": "nationality",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0280",
+    "rank": 280,
+    "display_form": "国际",
+    "lemma": "国际",
+    "generation_form": "国际",
+    "pronunciation": "guójì",
+    "pos": "adjective, noun",
+    "primary_gloss": "international",
+    "secondary_glosses": [
+      "world"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective, noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0281",
+    "rank": 281,
+    "display_form": "果汁",
+    "lemma": "果汁",
+    "generation_form": "果汁",
+    "pronunciation": "guǒzhī",
+    "pos": "noun",
+    "primary_gloss": "fruit juice",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0282",
+    "rank": 282,
+    "display_form": "过程",
+    "lemma": "过程",
+    "generation_form": "过程",
+    "pronunciation": "guòchéng",
+    "pos": "noun",
+    "primary_gloss": "process",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0283",
+    "rank": 283,
+    "display_form": "海洋",
+    "lemma": "海洋",
+    "generation_form": "海洋",
+    "pronunciation": "hǎiyáng",
+    "pos": "noun",
+    "primary_gloss": "ocean",
+    "secondary_glosses": [
+      "sea"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0284",
+    "rank": 284,
+    "display_form": "害羞",
+    "lemma": "害羞",
+    "generation_form": "害羞",
+    "pronunciation": "hàixiū",
+    "pos": "adjective",
+    "primary_gloss": "shy",
+    "secondary_glosses": [
+      "bshful"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0285",
+    "rank": 285,
+    "display_form": "寒假",
+    "lemma": "寒假",
+    "generation_form": "寒假",
+    "pronunciation": "hánjià",
+    "pos": "noun",
+    "primary_gloss": "the winter vacation",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0286",
+    "rank": 286,
+    "display_form": "寒冷",
+    "lemma": "寒冷",
+    "generation_form": "寒冷",
+    "pronunciation": "hánlěng",
+    "pos": "adjective",
+    "primary_gloss": "cold",
+    "secondary_glosses": [
+      "frigid",
+      "chilly"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0287",
+    "rank": 287,
+    "display_form": "喊",
+    "lemma": "喊",
+    "generation_form": "喊",
+    "pronunciation": "hǎn",
+    "pos": "verb",
+    "primary_gloss": "shout",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0288",
+    "rank": 288,
+    "display_form": "汗",
+    "lemma": "汗",
+    "generation_form": "汗",
+    "pronunciation": "hàn",
+    "pos": "noun",
+    "primary_gloss": "sweat",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0289",
+    "rank": 289,
+    "display_form": "航班",
+    "lemma": "航班",
+    "generation_form": "航班",
+    "pronunciation": "hángbān",
+    "pos": "noun",
+    "primary_gloss": "flight",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0290",
+    "rank": 290,
+    "display_form": "好处",
+    "lemma": "好处",
+    "generation_form": "好处",
+    "pronunciation": "hǎochù",
+    "pos": "noun",
+    "primary_gloss": "benefit",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0291",
+    "rank": 291,
+    "display_form": "好好",
+    "lemma": "好好",
+    "generation_form": "好好",
+    "pronunciation": "hǎohǎo",
+    "pos": "adjective, adverb",
+    "primary_gloss": "good",
+    "secondary_glosses": [
+      "nice",
+      "proper",
+      "well",
+      "thoroughly",
+      "serious",
+      "all out"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective, adverb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0292",
+    "rank": 292,
+    "display_form": "好笑",
+    "lemma": "好笑",
+    "generation_form": "好笑",
+    "pronunciation": "hǎoxiào",
+    "pos": "adjective",
+    "primary_gloss": "funny",
+    "secondary_glosses": [
+      "ridiculous"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0293",
+    "rank": 293,
+    "display_form": "合格",
+    "lemma": "合格",
+    "generation_form": "合格",
+    "pronunciation": "hégé",
+    "pos": "adjective",
+    "primary_gloss": "qualified",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0294",
+    "rank": 294,
+    "display_form": "盒子",
+    "lemma": "盒子",
+    "generation_form": "盒子",
+    "pronunciation": "hézi",
+    "pos": "noun",
+    "primary_gloss": "box",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0295",
+    "rank": 295,
+    "display_form": "红包",
+    "lemma": "红包",
+    "generation_form": "红包",
+    "pronunciation": "hóngbāo",
+    "pos": "noun",
+    "primary_gloss": "red envelope",
+    "secondary_glosses": [
+      "red packet"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0296",
+    "rank": 296,
+    "display_form": "厚",
+    "lemma": "厚",
+    "generation_form": "厚",
+    "pronunciation": "hòu",
+    "pos": "adjective",
+    "primary_gloss": "thick",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0297",
+    "rank": 297,
+    "display_form": "后悔",
+    "lemma": "后悔",
+    "generation_form": "后悔",
+    "pronunciation": "hòuhuǐ",
+    "pos": "verb",
+    "primary_gloss": "regret",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0298",
+    "rank": 298,
+    "display_form": "忽然",
+    "lemma": "忽然",
+    "generation_form": "忽然",
+    "pronunciation": "hūrán",
+    "pos": "adverb",
+    "primary_gloss": "suddenly",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0299",
+    "rank": 299,
+    "display_form": "互联网",
+    "lemma": "互联网",
+    "generation_form": "互联网",
+    "pronunciation": "hùliánwǎng",
+    "pos": "noun",
+    "primary_gloss": "Internet",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0300",
+    "rank": 300,
+    "display_form": "护士",
+    "lemma": "护士",
+    "generation_form": "护士",
+    "pronunciation": "hùshi",
+    "pos": "noun",
+    "primary_gloss": "nurse",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  }
+]

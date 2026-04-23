@@ -18,24 +18,14 @@ Learnly is a greenfield prototype for a ranked vocabulary product: one daily FSR
 - Review sessions use a file-backed prototype store in `.learnly/demo-store.json` so the product loop persists locally
 - The scheduler uses the official `ts-fsrs` runtime behind a local wrapper, with Hack Chinese-style product logic layered on top of it
 - Landing, dashboard, study, and words all consume the same language-aware study-plan model
-- Audio uses ElevenLabs when `ELEVENLABS_API_KEY` is configured. macOS also supports a local `say` fallback; other platforms fall back to browser speech synthesis in the client.
-
-## Cross-platform setup note
-
-- Do not reuse `node_modules`, `.next`, `.learnly`, `__MACOSX`, or `.DS_Store` from another machine or from a zip archive.
-- After unpacking on a new OS, reinstall dependencies locally with `npm ci` before running the app.
-- Use the pinned Node version from `.nvmrc` when possible.
-- Run `npm run doctor` after install to verify Node, native SQLite bindings, and archive junk.
-- If you are switching OSes or cleaning up a broken archive unpack, run `npm run clean:artifacts`. Use `npm run clean:runtime` only if you also want to wipe local `.next` output and `.learnly` state.
+- Audio is generated locally per language with cached `say` voices for prototype-quality term and sentence playback
 
 ## Suggested local setup
 
-1. Install the recommended Node version from `.nvmrc`
-2. Install dependencies: `npm ci`
-3. Run environment checks: `npm run doctor`
-4. Copy `.env.example` to `.env.local`
-5. Start the app: `npm run dev`
-6. Open `http://localhost:3000`
+1. Install dependencies: `npm install`
+2. Copy `.env.example` to `.env.local`
+3. Start the app: `npm run dev`
+4. Open `http://localhost:3000`
 
 ## Main routes
 

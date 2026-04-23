@@ -1,0 +1,371 @@
+[
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0301",
+    "rank": 301,
+    "display_form": "电力",
+    "lemma": "电力",
+    "generation_form": "电力",
+    "pronunciation": "diànlì",
+    "pos": "noun",
+    "primary_gloss": "power",
+    "secondary_glosses": [
+      "electricity"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0302",
+    "rank": 302,
+    "display_form": "店铺",
+    "lemma": "店铺",
+    "generation_form": "店铺",
+    "pronunciation": "diànpù",
+    "pos": "noun",
+    "primary_gloss": "shop",
+    "secondary_glosses": [
+      "store"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0303",
+    "rank": 303,
+    "display_form": "电源",
+    "lemma": "电源",
+    "generation_form": "电源",
+    "pronunciation": "diànyuán",
+    "pos": "noun",
+    "primary_gloss": "power source",
+    "secondary_glosses": [
+      "outlet"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0304",
+    "rank": 304,
+    "display_form": "吊",
+    "lemma": "吊",
+    "generation_form": "吊",
+    "pronunciation": "diào",
+    "pos": "verb",
+    "primary_gloss": "to hang",
+    "secondary_glosses": [
+      "to suspend"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0305",
+    "rank": 305,
+    "display_form": "调动",
+    "lemma": "调动",
+    "generation_form": "调动",
+    "pronunciation": "diàodòng",
+    "pos": "verb",
+    "primary_gloss": "to transfer",
+    "secondary_glosses": [
+      "to mobilize"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0306",
+    "rank": 306,
+    "display_form": "钓鱼",
+    "lemma": "钓鱼",
+    "generation_form": "钓鱼",
+    "pronunciation": "diàoyú",
+    "pos": "verb",
+    "primary_gloss": "to fish",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0307",
+    "rank": 307,
+    "display_form": "跌",
+    "lemma": "跌",
+    "generation_form": "跌",
+    "pronunciation": "diē",
+    "pos": "verb",
+    "primary_gloss": "to fall",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0308",
+    "rank": 308,
+    "display_form": "顶",
+    "lemma": "顶",
+    "generation_form": "顶",
+    "pronunciation": "dǐng",
+    "pos": "noun, verb, measure word",
+    "primary_gloss": "top",
+    "secondary_glosses": [
+      "to carry on the head",
+      "measure word for hats"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, verb, measure word."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0309",
+    "rank": 309,
+    "display_form": "订单",
+    "lemma": "订单",
+    "generation_form": "订单",
+    "pronunciation": "dìngdān",
+    "pos": "noun",
+    "primary_gloss": "order form",
+    "secondary_glosses": [
+      "purchase order"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0310",
+    "rank": 310,
+    "display_form": "订婚",
+    "lemma": "订婚",
+    "generation_form": "订婚",
+    "pronunciation": "dìnghūn",
+    "pos": "verb",
+    "primary_gloss": "to get engaged",
+    "secondary_glosses": [
+      "to be betrothed"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0311",
+    "rank": 311,
+    "display_form": "定价",
+    "lemma": "定价",
+    "generation_form": "定价",
+    "pronunciation": "dìngjià",
+    "pos": "verb, noun",
+    "primary_gloss": "to set a price",
+    "secondary_glosses": [
+      "price"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0312",
+    "rank": 312,
+    "display_form": "定时",
+    "lemma": "定时",
+    "generation_form": "定时",
+    "pronunciation": "dìngshí",
+    "pos": "verb, noun",
+    "primary_gloss": "to set a time",
+    "secondary_glosses": [
+      "timing"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0313",
+    "rank": 313,
+    "display_form": "定位",
+    "lemma": "定位",
+    "generation_form": "定位",
+    "pronunciation": "dìngwèi",
+    "pos": "verb, noun",
+    "primary_gloss": "to position",
+    "secondary_glosses": [
+      "to locate",
+      "position"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0314",
+    "rank": 314,
+    "display_form": "定义",
+    "lemma": "定义",
+    "generation_form": "定义",
+    "pronunciation": "dìngyì",
+    "pos": "noun, verb",
+    "primary_gloss": "definition",
+    "secondary_glosses": [
+      "to define"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0315",
+    "rank": 315,
+    "display_form": "定制",
+    "lemma": "定制",
+    "generation_form": "定制",
+    "pronunciation": "dìngzhì",
+    "pos": "verb",
+    "primary_gloss": "to customize",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0316",
+    "rank": 316,
+    "display_form": "栋",
+    "lemma": "栋",
+    "generation_form": "栋",
+    "pronunciation": "dòng",
+    "pos": "measure word",
+    "primary_gloss": "measure word for buildings",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as measure word."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0317",
+    "rank": 317,
+    "display_form": "动机",
+    "lemma": "动机",
+    "generation_form": "动机",
+    "pronunciation": "dòngjī",
+    "pos": "noun",
+    "primary_gloss": "motive",
+    "secondary_glosses": [
+      "motivation"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0318",
+    "rank": 318,
+    "display_form": "动力",
+    "lemma": "动力",
+    "generation_form": "动力",
+    "pronunciation": "dònglì",
+    "pos": "noun",
+    "primary_gloss": "power",
+    "secondary_glosses": [
+      "driving force"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0319",
+    "rank": 319,
+    "display_form": "动漫",
+    "lemma": "动漫",
+    "generation_form": "动漫",
+    "pronunciation": "dòngmàn",
+    "pos": "noun",
+    "primary_gloss": "animation",
+    "secondary_glosses": [
+      "anime"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0320",
+    "rank": 320,
+    "display_form": "动态",
+    "lemma": "动态",
+    "generation_form": "动态",
+    "pronunciation": "dòngtài",
+    "pos": "noun, adjective",
+    "primary_gloss": "dynamic",
+    "secondary_glosses": [
+      "trend",
+      "dynamic"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0321",
+    "rank": 321,
+    "display_form": "动听",
+    "lemma": "动听",
+    "generation_form": "动听",
+    "pronunciation": "dòngtīng",
+    "pos": "adjective",
+    "primary_gloss": "pleasant to listen to",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0322",
+    "rank": 322,
+    "display_form": "逗",
+    "lemma": "逗",
+    "generation_form": "逗",
+    "pronunciation": "dòu",
+    "pos": "verb, adjective",
+    "primary_gloss": "to tease",
+    "secondary_glosses": [
+      "funny"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0323",
+    "rank": 323,
+    "display_form": "斗争",
+    "lemma": "斗争",
+    "generation_form": "斗争",
+    "pronunciation": "dòuzhēng",
+    "pos": "verb, noun",
+    "primary_gloss": "to struggle",
+    "secondary_glosses": [
+      "struggle",
+      "fight"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0324",
+    "rank": 324,
+    "display_form": "都市",
+    "lemma": "都市",
+    "generation_form": "都市",
+    "pronunciation": "dūshì",
+    "pos": "noun",
+    "primary_gloss": "city",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0325",
+    "rank": 325,
+    "display_form": "毒",
+    "lemma": "毒",
+    "generation_form": "毒",
+    "pronunciation": "dú",
+    "pos": "noun, verb, adjective",
+    "primary_gloss": "poison",
+    "secondary_glosses": [
+      "toxin",
+      "to poison",
+      "poisonous"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, verb, adjective."
+  }
+]

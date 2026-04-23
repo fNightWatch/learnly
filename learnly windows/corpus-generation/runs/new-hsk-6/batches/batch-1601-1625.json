@@ -1,0 +1,355 @@
+[
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1601",
+    "rank": 1601,
+    "display_form": "游人",
+    "lemma": "游人",
+    "generation_form": "游人",
+    "pronunciation": "yóurén",
+    "pos": "noun",
+    "primary_gloss": "tourist",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1602",
+    "rank": 1602,
+    "display_form": "犹如",
+    "lemma": "犹如",
+    "generation_form": "犹如",
+    "pronunciation": "yóurú",
+    "pos": "verb",
+    "primary_gloss": "like",
+    "secondary_glosses": [
+      "as if"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1603",
+    "rank": 1603,
+    "display_form": "有机",
+    "lemma": "有机",
+    "generation_form": "有机",
+    "pronunciation": "yǒujī",
+    "pos": "adjective",
+    "primary_gloss": "organic",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1604",
+    "rank": 1604,
+    "display_form": "有劲",
+    "lemma": "有劲",
+    "generation_form": "有劲",
+    "pronunciation": "yǒujìn",
+    "pos": "verb, adjective",
+    "primary_gloss": "energetic",
+    "secondary_glosses": [
+      "vigorous",
+      "to be strong"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1605",
+    "rank": 1605,
+    "display_form": "有序",
+    "lemma": "有序",
+    "generation_form": "有序",
+    "pronunciation": "yǒuxù",
+    "pos": "adjective",
+    "primary_gloss": "orderly",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1606",
+    "rank": 1606,
+    "display_form": "于",
+    "lemma": "于",
+    "generation_form": "于",
+    "pronunciation": "yú",
+    "pos": "preposition",
+    "primary_gloss": "in",
+    "secondary_glosses": [
+      "at",
+      "to"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as preposition."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1607",
+    "rank": 1607,
+    "display_form": "余额",
+    "lemma": "余额",
+    "generation_form": "余额",
+    "pronunciation": "yú’é",
+    "pos": "noun",
+    "primary_gloss": "balance",
+    "secondary_glosses": [
+      "remainder"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1608",
+    "rank": 1608,
+    "display_form": "与其",
+    "lemma": "与其",
+    "generation_form": "与其",
+    "pronunciation": "yǔqí",
+    "pos": "conjunction",
+    "primary_gloss": "rather than",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as conjunction."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1609",
+    "rank": 1609,
+    "display_form": "羽绒服",
+    "lemma": "羽绒服",
+    "generation_form": "羽绒服",
+    "pronunciation": "yǔróngfú",
+    "pos": "noun",
+    "primary_gloss": "down jacket",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1610",
+    "rank": 1610,
+    "display_form": "预定",
+    "lemma": "预定",
+    "generation_form": "预定",
+    "pronunciation": "yùdìng",
+    "pos": "verb",
+    "primary_gloss": "to book",
+    "secondary_glosses": [
+      "to reserve"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1611",
+    "rank": 1611,
+    "display_form": "预料",
+    "lemma": "预料",
+    "generation_form": "预料",
+    "pronunciation": "yùliào",
+    "pos": "verb, noun",
+    "primary_gloss": "to predict",
+    "secondary_glosses": [
+      "prediction"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1612",
+    "rank": 1612,
+    "display_form": "预期",
+    "lemma": "预期",
+    "generation_form": "预期",
+    "pronunciation": "yùqī",
+    "pos": "verb",
+    "primary_gloss": "to expect",
+    "secondary_glosses": [
+      "to anticipate"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1613",
+    "rank": 1613,
+    "display_form": "浴室",
+    "lemma": "浴室",
+    "generation_form": "浴室",
+    "pronunciation": "yùshì",
+    "pos": "noun",
+    "primary_gloss": "bathroom",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1614",
+    "rank": 1614,
+    "display_form": "欲望",
+    "lemma": "欲望",
+    "generation_form": "欲望",
+    "pronunciation": "yùwàng",
+    "pos": "noun",
+    "primary_gloss": "desire",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1615",
+    "rank": 1615,
+    "display_form": "原本",
+    "lemma": "原本",
+    "generation_form": "原本",
+    "pronunciation": "yuánběn",
+    "pos": "adverb",
+    "primary_gloss": "originally",
+    "secondary_glosses": [
+      "at first"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1616",
+    "rank": 1616,
+    "display_form": "原材料",
+    "lemma": "原材料",
+    "generation_form": "原材料",
+    "pronunciation": "yuáncáiliào",
+    "pos": "noun",
+    "primary_gloss": "raw material",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1617",
+    "rank": 1617,
+    "display_form": "原理",
+    "lemma": "原理",
+    "generation_form": "原理",
+    "pronunciation": "yuánlǐ",
+    "pos": "noun",
+    "primary_gloss": "principle",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1618",
+    "rank": 1618,
+    "display_form": "原料",
+    "lemma": "原料",
+    "generation_form": "原料",
+    "pronunciation": "yuánliào",
+    "pos": "noun",
+    "primary_gloss": "raw material",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1619",
+    "rank": 1619,
+    "display_form": "园林",
+    "lemma": "园林",
+    "generation_form": "园林",
+    "pronunciation": "yuánlín",
+    "pos": "noun",
+    "primary_gloss": "garden",
+    "secondary_glosses": [
+      "landscape"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1620",
+    "rank": 1620,
+    "display_form": "圆满",
+    "lemma": "圆满",
+    "generation_form": "圆满",
+    "pronunciation": "yuánmǎn",
+    "pos": "adjective",
+    "primary_gloss": "satisfactory",
+    "secondary_glosses": [
+      "successful"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1621",
+    "rank": 1621,
+    "display_form": "原始",
+    "lemma": "原始",
+    "generation_form": "原始",
+    "pronunciation": "yuánshǐ",
+    "pos": "adjective",
+    "primary_gloss": "primitive",
+    "secondary_glosses": [
+      "original"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1622",
+    "rank": 1622,
+    "display_form": "元素",
+    "lemma": "元素",
+    "generation_form": "元素",
+    "pronunciation": "yuánsù",
+    "pos": "noun",
+    "primary_gloss": "element",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1623",
+    "rank": 1623,
+    "display_form": "原先",
+    "lemma": "原先",
+    "generation_form": "原先",
+    "pronunciation": "yuánxiān",
+    "pos": "noun",
+    "primary_gloss": "former",
+    "secondary_glosses": [
+      "original"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1624",
+    "rank": 1624,
+    "display_form": "元宵",
+    "lemma": "元宵",
+    "generation_form": "元宵",
+    "pronunciation": "yuánxiāo",
+    "pos": "noun",
+    "primary_gloss": "sweet dumplings",
+    "secondary_glosses": [
+      "Yuanxiao"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1625",
+    "rank": 1625,
+    "display_form": "源于",
+    "lemma": "源于",
+    "generation_form": "源于",
+    "pronunciation": "yuányú",
+    "pos": "verb",
+    "primary_gloss": "to originate from",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  }
+]

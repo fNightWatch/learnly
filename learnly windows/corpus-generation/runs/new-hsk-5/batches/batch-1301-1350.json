@@ -1,0 +1,713 @@
+[
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1301",
+    "rank": 1301,
+    "display_form": "修建",
+    "lemma": "修建",
+    "generation_form": "修建",
+    "pronunciation": "xiūjiàn",
+    "pos": "verb",
+    "primary_gloss": "to build",
+    "secondary_glosses": [
+      "to construct"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1302",
+    "rank": 1302,
+    "display_form": "休闲",
+    "lemma": "休闲",
+    "generation_form": "休闲",
+    "pronunciation": "xiūxián",
+    "pos": "verb",
+    "primary_gloss": "leisure",
+    "secondary_glosses": [
+      "to relax"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1303",
+    "rank": 1303,
+    "display_form": "需",
+    "lemma": "需",
+    "generation_form": "需",
+    "pronunciation": "xū",
+    "pos": "verb",
+    "primary_gloss": "to need",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1304",
+    "rank": 1304,
+    "display_form": "需求",
+    "lemma": "需求",
+    "generation_form": "需求",
+    "pronunciation": "xūqiú",
+    "pos": "noun",
+    "primary_gloss": "demand",
+    "secondary_glosses": [
+      "need"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1305",
+    "rank": 1305,
+    "display_form": "虚心",
+    "lemma": "虚心",
+    "generation_form": "虚心",
+    "pronunciation": "xūxīn",
+    "pos": "adjective",
+    "primary_gloss": "modest",
+    "secondary_glosses": [
+      "open-minded"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1306",
+    "rank": 1306,
+    "display_form": "宣布",
+    "lemma": "宣布",
+    "generation_form": "宣布",
+    "pronunciation": "xuānbù",
+    "pos": "verb",
+    "primary_gloss": "to announce",
+    "secondary_glosses": [
+      "to declare"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1307",
+    "rank": 1307,
+    "display_form": "宣传",
+    "lemma": "宣传",
+    "generation_form": "宣传",
+    "pronunciation": "xuānchuán",
+    "pos": "verb",
+    "primary_gloss": "to promote",
+    "secondary_glosses": [
+      "to publicize"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1308",
+    "rank": 1308,
+    "display_form": "选手",
+    "lemma": "选手",
+    "generation_form": "选手",
+    "pronunciation": "xuǎnshǒu",
+    "pos": "noun",
+    "primary_gloss": "contestant",
+    "secondary_glosses": [
+      "player"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1309",
+    "rank": 1309,
+    "display_form": "学分",
+    "lemma": "学分",
+    "generation_form": "学分",
+    "pronunciation": "xuéfēn",
+    "pos": "noun",
+    "primary_gloss": "credit",
+    "secondary_glosses": [
+      "academic credit"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1310",
+    "rank": 1310,
+    "display_form": "学科",
+    "lemma": "学科",
+    "generation_form": "学科",
+    "pronunciation": "xuékē",
+    "pos": "noun",
+    "primary_gloss": "discipline",
+    "secondary_glosses": [
+      "subject"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1311",
+    "rank": 1311,
+    "display_form": "学历",
+    "lemma": "学历",
+    "generation_form": "学历",
+    "pronunciation": "xuélì",
+    "pos": "noun",
+    "primary_gloss": "educational background",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1312",
+    "rank": 1312,
+    "display_form": "学年",
+    "lemma": "学年",
+    "generation_form": "学年",
+    "pronunciation": "xuénián",
+    "pos": "noun",
+    "primary_gloss": "academic year",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1313",
+    "rank": 1313,
+    "display_form": "学术",
+    "lemma": "学术",
+    "generation_form": "学术",
+    "pronunciation": "xuéshù",
+    "pos": "noun",
+    "primary_gloss": "academics",
+    "secondary_glosses": [
+      "scholarship"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1314",
+    "rank": 1314,
+    "display_form": "学者",
+    "lemma": "学者",
+    "generation_form": "学者",
+    "pronunciation": "xuézhě",
+    "pos": "noun",
+    "primary_gloss": "scholar",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1315",
+    "rank": 1315,
+    "display_form": "雪糕",
+    "lemma": "雪糕",
+    "generation_form": "雪糕",
+    "pronunciation": "xuěgāo",
+    "pos": "noun",
+    "primary_gloss": "ice cream",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1316",
+    "rank": 1316,
+    "display_form": "询问",
+    "lemma": "询问",
+    "generation_form": "询问",
+    "pronunciation": "xúnwèn",
+    "pos": "verb",
+    "primary_gloss": "to inquire",
+    "secondary_glosses": [
+      "to ask"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1317",
+    "rank": 1317,
+    "display_form": "寻找",
+    "lemma": "寻找",
+    "generation_form": "寻找",
+    "pronunciation": "xúnzhǎo",
+    "pos": "verb",
+    "primary_gloss": "to look for",
+    "secondary_glosses": [
+      "to seek"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1318",
+    "rank": 1318,
+    "display_form": "训练",
+    "lemma": "训练",
+    "generation_form": "训练",
+    "pronunciation": "xùnliàn",
+    "pos": "verb",
+    "primary_gloss": "to train",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1319",
+    "rank": 1319,
+    "display_form": "迅速",
+    "lemma": "迅速",
+    "generation_form": "迅速",
+    "pronunciation": "xùnsù",
+    "pos": "adjective",
+    "primary_gloss": "rapid",
+    "secondary_glosses": [
+      "quick"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1320",
+    "rank": 1320,
+    "display_form": "呀",
+    "lemma": "呀",
+    "generation_form": "呀",
+    "pronunciation": "yā",
+    "pos": "interjection",
+    "primary_gloss": "ah",
+    "secondary_glosses": [
+      "oh"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as interjection."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1321",
+    "rank": 1321,
+    "display_form": "押金",
+    "lemma": "押金",
+    "generation_form": "押金",
+    "pronunciation": "yājīn",
+    "pos": "noun",
+    "primary_gloss": "deposit",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1322",
+    "rank": 1322,
+    "display_form": "压岁钱",
+    "lemma": "压岁钱",
+    "generation_form": "压岁钱",
+    "pronunciation": "yāsuìqián",
+    "pos": "noun",
+    "primary_gloss": "lucky money",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1323",
+    "rank": 1323,
+    "display_form": "鸭子",
+    "lemma": "鸭子",
+    "generation_form": "鸭子",
+    "pronunciation": "yāzi",
+    "pos": "noun",
+    "primary_gloss": "duck",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1324",
+    "rank": 1324,
+    "display_form": "牙齿",
+    "lemma": "牙齿",
+    "generation_form": "牙齿",
+    "pronunciation": "yáchǐ",
+    "pos": "noun",
+    "primary_gloss": "tooth",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1325",
+    "rank": 1325,
+    "display_form": "沿",
+    "lemma": "沿",
+    "generation_form": "沿",
+    "pronunciation": "yán",
+    "pos": "preposition, verb, noun",
+    "primary_gloss": "along",
+    "secondary_glosses": [
+      "to follow",
+      "edge"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as preposition, verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1326",
+    "rank": 1326,
+    "display_form": "延长",
+    "lemma": "延长",
+    "generation_form": "延长",
+    "pronunciation": "yáncháng",
+    "pos": "verb",
+    "primary_gloss": "to extend",
+    "secondary_glosses": [
+      "to prolong"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1327",
+    "rank": 1327,
+    "display_form": "研发",
+    "lemma": "研发",
+    "generation_form": "研发",
+    "pronunciation": "yánfā",
+    "pos": "verb",
+    "primary_gloss": "to research and develop",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1328",
+    "rank": 1328,
+    "display_form": "严肃",
+    "lemma": "严肃",
+    "generation_form": "严肃",
+    "pronunciation": "yánsù",
+    "pos": "adjective, verb",
+    "primary_gloss": "serious",
+    "secondary_glosses": [
+      "stern",
+      "to be serious"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective, verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1329",
+    "rank": 1329,
+    "display_form": "研制",
+    "lemma": "研制",
+    "generation_form": "研制",
+    "pronunciation": "yánzhì",
+    "pos": "verb",
+    "primary_gloss": "to research and develop",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1330",
+    "rank": 1330,
+    "display_form": "眼",
+    "lemma": "眼",
+    "generation_form": "眼",
+    "pronunciation": "yǎn",
+    "pos": "noun",
+    "primary_gloss": "eye",
+    "secondary_glosses": [
+      "measure word for wells",
+      "eyes"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1331",
+    "rank": 1331,
+    "display_form": "演讲",
+    "lemma": "演讲",
+    "generation_form": "演讲",
+    "pronunciation": "yǎnjiǎng",
+    "pos": "verb",
+    "primary_gloss": "to give a speech",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1332",
+    "rank": 1332,
+    "display_form": "眼泪",
+    "lemma": "眼泪",
+    "generation_form": "眼泪",
+    "pronunciation": "yǎnlèi",
+    "pos": "noun",
+    "primary_gloss": "tears",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1333",
+    "rank": 1333,
+    "display_form": "阳台",
+    "lemma": "阳台",
+    "generation_form": "阳台",
+    "pronunciation": "yángtái",
+    "pos": "noun",
+    "primary_gloss": "balcony",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1334",
+    "rank": 1334,
+    "display_form": "样式",
+    "lemma": "样式",
+    "generation_form": "样式",
+    "pronunciation": "yàngshì",
+    "pos": "noun",
+    "primary_gloss": "style",
+    "secondary_glosses": [
+      "pattern"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1335",
+    "rank": 1335,
+    "display_form": "腰",
+    "lemma": "腰",
+    "generation_form": "腰",
+    "pronunciation": "yāo",
+    "pos": "noun",
+    "primary_gloss": "waist",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1336",
+    "rank": 1336,
+    "display_form": "摇",
+    "lemma": "摇",
+    "generation_form": "摇",
+    "pronunciation": "yáo",
+    "pos": "verb",
+    "primary_gloss": "to shake",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1337",
+    "rank": 1337,
+    "display_form": "咬",
+    "lemma": "咬",
+    "generation_form": "咬",
+    "pronunciation": "yǎo",
+    "pos": "verb",
+    "primary_gloss": "to bite",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1338",
+    "rank": 1338,
+    "display_form": "要不",
+    "lemma": "要不",
+    "generation_form": "要不",
+    "pronunciation": "yàobù",
+    "pos": "conjunction",
+    "primary_gloss": "otherwise",
+    "secondary_glosses": [
+      "or else"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as conjunction."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1339",
+    "rank": 1339,
+    "display_form": "要不是",
+    "lemma": "要不是",
+    "generation_form": "要不是",
+    "pronunciation": "yàobúshì",
+    "pos": "conjunction",
+    "primary_gloss": "if it were not for",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as conjunction."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1340",
+    "rank": 1340,
+    "display_form": "药品",
+    "lemma": "药品",
+    "generation_form": "药品",
+    "pronunciation": "yàopǐn",
+    "pos": "noun",
+    "primary_gloss": "medicine",
+    "secondary_glosses": [
+      "pharmaceutical"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1341",
+    "rank": 1341,
+    "display_form": "药物",
+    "lemma": "药物",
+    "generation_form": "药物",
+    "pronunciation": "yàowù",
+    "pos": "noun",
+    "primary_gloss": "medication",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1342",
+    "rank": 1342,
+    "display_form": "夜间",
+    "lemma": "夜间",
+    "generation_form": "夜间",
+    "pronunciation": "yèjiān",
+    "pos": "noun",
+    "primary_gloss": "night",
+    "secondary_glosses": [
+      "nighttime"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1343",
+    "rank": 1343,
+    "display_form": "夜市",
+    "lemma": "夜市",
+    "generation_form": "夜市",
+    "pronunciation": "yèshì",
+    "pos": "noun",
+    "primary_gloss": "night market",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1344",
+    "rank": 1344,
+    "display_form": "业务",
+    "lemma": "业务",
+    "generation_form": "业务",
+    "pronunciation": "yèwù",
+    "pos": "noun",
+    "primary_gloss": "business",
+    "secondary_glosses": [
+      "professional work"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1345",
+    "rank": 1345,
+    "display_form": "业余",
+    "lemma": "业余",
+    "generation_form": "业余",
+    "pronunciation": "yèyú",
+    "pos": "adjective",
+    "primary_gloss": "amateur",
+    "secondary_glosses": [
+      "spare time"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1346",
+    "rank": 1346,
+    "display_form": "依据",
+    "lemma": "依据",
+    "generation_form": "依据",
+    "pronunciation": "yījù",
+    "pos": "noun, verb, preposition",
+    "primary_gloss": "basis",
+    "secondary_glosses": [
+      "foundation",
+      "to base on",
+      "to rely on",
+      "according to",
+      "based on"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, verb, preposition."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1347",
+    "rank": 1347,
+    "display_form": "依靠",
+    "lemma": "依靠",
+    "generation_form": "依靠",
+    "pronunciation": "yīkào",
+    "pos": "verb, noun",
+    "primary_gloss": "to rely on",
+    "secondary_glosses": [
+      "support"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1348",
+    "rank": 1348,
+    "display_form": "医疗",
+    "lemma": "医疗",
+    "generation_form": "医疗",
+    "pronunciation": "yīliáo",
+    "pos": "verb",
+    "primary_gloss": "medical treatment",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1349",
+    "rank": 1349,
+    "display_form": "依然",
+    "lemma": "依然",
+    "generation_form": "依然",
+    "pronunciation": "yīrán",
+    "pos": "adverb",
+    "primary_gloss": "still",
+    "secondary_glosses": [
+      "as before"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1350",
+    "rank": 1350,
+    "display_form": "医学",
+    "lemma": "医学",
+    "generation_form": "医学",
+    "pronunciation": "yīxué",
+    "pos": "noun",
+    "primary_gloss": "medicine",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  }
+]

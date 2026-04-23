@@ -1,0 +1,354 @@
+[
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0451",
+    "rank": 451,
+    "display_form": "宫",
+    "lemma": "宫",
+    "generation_form": "宫",
+    "pronunciation": "gōng",
+    "pos": "noun",
+    "primary_gloss": "palace",
+    "secondary_glosses": [
+      "temple"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0452",
+    "rank": 452,
+    "display_form": "公安",
+    "lemma": "公安",
+    "generation_form": "公安",
+    "pronunciation": "gōng’ān",
+    "pos": "noun",
+    "primary_gloss": "public security",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0453",
+    "rank": 453,
+    "display_form": "工地",
+    "lemma": "工地",
+    "generation_form": "工地",
+    "pronunciation": "gōngdì",
+    "pos": "noun",
+    "primary_gloss": "construction site",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0454",
+    "rank": 454,
+    "display_form": "工夫",
+    "lemma": "工夫",
+    "generation_form": "工夫",
+    "pronunciation": "gōngfu",
+    "pos": "noun",
+    "primary_gloss": "effort",
+    "secondary_glosses": [
+      "time",
+      "skill"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0455",
+    "rank": 455,
+    "display_form": "公告",
+    "lemma": "公告",
+    "generation_form": "公告",
+    "pronunciation": "gōnggào",
+    "pos": "verb, noun",
+    "primary_gloss": "announcement",
+    "secondary_glosses": [
+      "notice",
+      "to announce"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0456",
+    "rank": 456,
+    "display_form": "供给",
+    "lemma": "供给",
+    "generation_form": "供给",
+    "pronunciation": "gōngjǐ",
+    "pos": "verb",
+    "primary_gloss": "to supply",
+    "secondary_glosses": [
+      "to provide"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0457",
+    "rank": 457,
+    "display_form": "攻击",
+    "lemma": "攻击",
+    "generation_form": "攻击",
+    "pronunciation": "gōngjī",
+    "pos": "verb",
+    "primary_gloss": "to attack",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0458",
+    "rank": 458,
+    "display_form": "公开",
+    "lemma": "公开",
+    "generation_form": "公开",
+    "pronunciation": "gōngkāi",
+    "pos": "adjective, verb",
+    "primary_gloss": "open",
+    "secondary_glosses": [
+      "public",
+      "to make public"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective, verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0459",
+    "rank": 459,
+    "display_form": "公民",
+    "lemma": "公民",
+    "generation_form": "公民",
+    "pronunciation": "gōngmín",
+    "pos": "noun",
+    "primary_gloss": "citizen",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0460",
+    "rank": 460,
+    "display_form": "公认",
+    "lemma": "公认",
+    "generation_form": "公认",
+    "pronunciation": "gōngrèn",
+    "pos": "verb",
+    "primary_gloss": "to be generally recognized",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0461",
+    "rank": 461,
+    "display_form": "功效",
+    "lemma": "功效",
+    "generation_form": "功效",
+    "pronunciation": "gōngxiào",
+    "pos": "noun",
+    "primary_gloss": "efficacy",
+    "secondary_glosses": [
+      "effect"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0462",
+    "rank": 462,
+    "display_form": "工序",
+    "lemma": "工序",
+    "generation_form": "工序",
+    "pronunciation": "gōngxù",
+    "pos": "noun",
+    "primary_gloss": "process",
+    "secondary_glosses": [
+      "procedure"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0463",
+    "rank": 463,
+    "display_form": "公益",
+    "lemma": "公益",
+    "generation_form": "公益",
+    "pronunciation": "gōngyì",
+    "pos": "noun",
+    "primary_gloss": "public welfare",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0464",
+    "rank": 464,
+    "display_form": "供应",
+    "lemma": "供应",
+    "generation_form": "供应",
+    "pronunciation": "gōngyìng",
+    "pos": "verb",
+    "primary_gloss": "to supply",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0465",
+    "rank": 465,
+    "display_form": "公元",
+    "lemma": "公元",
+    "generation_form": "公元",
+    "pronunciation": "gōngyuán",
+    "pos": "noun",
+    "primary_gloss": "Gregorian calendar A.D.",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0466",
+    "rank": 466,
+    "display_form": "公正",
+    "lemma": "公正",
+    "generation_form": "公正",
+    "pronunciation": "gōngzhèng",
+    "pos": "adjective",
+    "primary_gloss": "fair",
+    "secondary_glosses": [
+      "just"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0467",
+    "rank": 467,
+    "display_form": "公众",
+    "lemma": "公众",
+    "generation_form": "公众",
+    "pronunciation": "gōngzhòng",
+    "pos": "noun",
+    "primary_gloss": "public",
+    "secondary_glosses": [
+      "the general public"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0468",
+    "rank": 468,
+    "display_form": "公主",
+    "lemma": "公主",
+    "generation_form": "公主",
+    "pronunciation": "gōngzhǔ",
+    "pos": "noun",
+    "primary_gloss": "princess",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0469",
+    "rank": 469,
+    "display_form": "巩固",
+    "lemma": "巩固",
+    "generation_form": "巩固",
+    "pronunciation": "gǒnggù",
+    "pos": "adjective, verb",
+    "primary_gloss": "solid",
+    "secondary_glosses": [
+      "to consolidate"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective, verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0470",
+    "rank": 470,
+    "display_form": "共计",
+    "lemma": "共计",
+    "generation_form": "共计",
+    "pronunciation": "gòngjì",
+    "pos": "verb",
+    "primary_gloss": "to total",
+    "secondary_glosses": [
+      "to amount to"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0471",
+    "rank": 471,
+    "display_form": "沟",
+    "lemma": "沟",
+    "generation_form": "沟",
+    "pronunciation": "gōu",
+    "pos": "noun",
+    "primary_gloss": "ditch",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0472",
+    "rank": 472,
+    "display_form": "构造",
+    "lemma": "构造",
+    "generation_form": "构造",
+    "pronunciation": "gòuzào",
+    "pos": "verb",
+    "primary_gloss": "to construct",
+    "secondary_glosses": [
+      "to build"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0473",
+    "rank": 473,
+    "display_form": "孤独",
+    "lemma": "孤独",
+    "generation_form": "孤独",
+    "pronunciation": "gūdú",
+    "pos": "adjective",
+    "primary_gloss": "lonely",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0474",
+    "rank": 474,
+    "display_form": "姑姑",
+    "lemma": "姑姑",
+    "generation_form": "姑姑",
+    "pronunciation": "gūgu",
+    "pos": "noun",
+    "primary_gloss": "aunt (father's sister)",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0475",
+    "rank": 475,
+    "display_form": "古典",
+    "lemma": "古典",
+    "generation_form": "古典",
+    "pronunciation": "gǔdiǎn",
+    "pos": "adjective",
+    "primary_gloss": "classical",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  }
+]

@@ -7,7 +7,7 @@ import sqlite3
 from pathlib import Path
 
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).absolute().parent
 DEFAULT_DB_PATH = ROOT / "corpus.sqlite"
 DB_PATH = DEFAULT_DB_PATH
 SCHEMA_PATH = ROOT / "schema.sql"
@@ -17,6 +17,29 @@ ANNOTATION_RE = re.compile(r"（[^）]*）")
 CHINESE_PUNCT_RE = re.compile(r"[，。！？；：、“”‘’（）《》〈〉【】—…·\s,.!?;:\"'()\[\]{}-]+")
 LEVEL_DATASET_RE = re.compile(r"^new-hsk-(\d+)-words$")
 WORD_ID_LEVEL_RE = re.compile(r"^new-hsk-(\d+)-\d{4}$")
+TRAILING_SENSE_DIGIT_RE = re.compile(r"^([\u3400-\u9fff]+)\d+$")
+
+METRIC_FLOORS = {
+    "new-hsk-3-words": {
+        "avg_chars": 9.4,
+        "avg_difficulty": 2.0,
+        "max_share_len_le_8": 0.45,
+    },
+    "new-hsk-4-words": {
+        "avg_chars": 10.0,
+        "avg_difficulty": 2.1,
+        "max_share_len_le_8": 0.30,
+    },
+    "new-hsk-5-words": {
+        "avg_chars": 10.8,
+        "avg_difficulty": 2.2,
+        "max_share_len_le_8": 0.20,
+    },
+    "new-hsk-6-words": {
+        "avg_words": 20.0,
+        "avg_difficulty": 3.1,
+    },
+}
 
 
 def connect() -> sqlite3.Connection:
@@ -253,8 +276,15 @@ def display_form_variants(display_form: str) -> list[str]:
     variants = []
     for part in ALT_SEPARATOR_RE.split(display_form.strip()):
         cleaned = ANNOTATION_RE.sub("", part).strip()
-        if cleaned and cleaned not in variants:
-            variants.append(cleaned)
+        if not cleaned:
+            continue
+        match = TRAILING_SENSE_DIGIT_RE.match(cleaned)
+        candidates = [cleaned]
+        if match:
+            candidates = [match.group(1), cleaned]
+        for candidate in candidates:
+            if candidate and candidate not in variants:
+                variants.append(candidate)
     return variants or [display_form.strip()]
 
 
@@ -308,38 +338,111 @@ def clean_sentence_for_segmentation(sentence: str) -> str:
     return CHINESE_PUNCT_RE.sub("", sentence)
 
 
-def can_segment_with_lexicon(text: str, lexicon: set[str]) -> bool:
+def segment_with_lexicon(text: str, lexicon: set[str]) -> list[str] | None:
     if not text:
-        return True
+        return []
     max_token_length = max((len(token) for token in lexicon), default=0)
-    failed = set()
+    failed: set[int] = set()
+    memo: dict[int, list[str] | None] = {}
 
-    def dfs(index: int) -> bool:
+    def dfs(index: int) -> list[str] | None:
         if index == len(text):
-            return True
+            return []
+        if index in memo:
+            return memo[index]
         if index in failed:
-            return False
+            return None
         upper = min(len(text), index + max_token_length)
         for end in range(upper, index, -1):
-            if text[index:end] in lexicon and dfs(end):
-                return True
+            token = text[index:end]
+            if token not in lexicon:
+                continue
+            rest = dfs(end)
+            if rest is not None:
+                memo[index] = [token] + rest
+                return memo[index]
         failed.add(index)
-        return False
+        memo[index] = None
+        return None
 
     return dfs(0)
 
 
-def validate_payload_vocabulary(payload: dict, conn: sqlite3.Connection) -> None:
+def can_segment_with_lexicon(text: str, lexicon: set[str]) -> bool:
+    return segment_with_lexicon(text, lexicon) is not None
+
+
+def validate_and_count_payload_tokens(payload: dict, conn: sqlite3.Connection) -> list[int]:
     dataset_id = dataset_id_for_word_id(payload["word"]["id"])
     if not dataset_id:
-        return
+        return []
     lexicon = build_allowed_lexicon(dataset_id, conn)
+    token_counts: list[int] = []
     for example in payload["examples"]:
-        cleaned = clean_sentence_for_segmentation(example["sentence"])
-        if not can_segment_with_lexicon(cleaned, lexicon):
+        segmented = segment_with_lexicon(
+            clean_sentence_for_segmentation(example["sentence"]),
+            lexicon,
+        )
+        if segmented is None:
             raise ValueError(
                 f"{payload['word']['id']}: sentence uses words outside allowed New HSK level set: {example['sentence']}"
             )
+        token_counts.append(len(segmented))
+    return token_counts
+
+
+def validate_payload_vocabulary(payload: dict, conn: sqlite3.Connection) -> None:
+    validate_and_count_payload_tokens(payload, conn)
+
+
+def compute_dataset_metrics(dataset_id: str) -> dict:
+    word_prefix = f"{dataset_word_prefix(dataset_id)}-%"
+    with connect() as conn:
+        word_count = conn.execute(
+            "SELECT COUNT(*) FROM words WHERE id LIKE ?",
+            (word_prefix,),
+        ).fetchone()[0]
+        example_rows = conn.execute(
+            """
+            SELECT e.sentence, e.difficulty
+            FROM examples e
+            JOIN words w ON w.id = e.word_id
+            WHERE w.id LIKE ?
+            ORDER BY w.rank, e.id
+            """,
+            (word_prefix,),
+        ).fetchall()
+        lexicon = build_allowed_lexicon(dataset_id, conn)
+
+    sentence_lengths: list[int] = []
+    token_counts: list[int] = []
+    difficulties: list[int] = []
+    segmentation_failures = 0
+    for row in example_rows:
+        sentence = row["sentence"]
+        difficulty = row["difficulty"]
+        sentence_lengths.append(len(sentence))
+        difficulties.append(difficulty)
+        segmented = segment_with_lexicon(clean_sentence_for_segmentation(sentence), lexicon)
+        if segmented is None:
+            segmentation_failures += 1
+            continue
+        token_counts.append(len(segmented))
+
+    example_count = len(example_rows)
+    avg_words = round(sum(token_counts) / len(token_counts), 3) if token_counts else 0.0
+    return {
+        "dataset_id": dataset_id,
+        "db_path": str(DB_PATH),
+        "word_count": word_count,
+        "example_count": example_count,
+        "avg_chars": round(sum(sentence_lengths) / example_count, 3) if example_count else 0.0,
+        "avg_words": avg_words,
+        "avg_tokens": avg_words,
+        "avg_difficulty": round(sum(difficulties) / len(difficulties), 3) if difficulties else 0.0,
+        "share_len_le_8": round(sum(1 for length in sentence_lengths if length <= 8) / example_count, 3) if example_count else 0.0,
+        "segmentation_failures": segmentation_failures,
+    }
 
 
 def export_generation_jobs(
@@ -506,6 +609,7 @@ def merge_agent_batch(dataset_id: str, generator1_file: str, generator2_file: st
 
 
 def ingest_jsonl(jsonl_file: str) -> None:
+    validate_jsonl(jsonl_file)
     with Path(jsonl_file).open() as handle:
         for line in handle:
             line = line.strip()
@@ -519,44 +623,144 @@ def validate_jsonl(jsonl_file: str) -> None:
     path = Path(jsonl_file)
     count = 0
     seen_word_ids = set()
-    with path.open() as handle:
-        for line_number, line in enumerate(handle, start=1):
-            line = line.strip()
-            if not line:
-                continue
-            payload = json.loads(line)
-            word = payload["word"]
-            glosses = payload["glosses"]
-            examples = payload["examples"]
-            translations = payload["example_translations"]
+    sentence_lengths: list[int] = []
+    token_counts: list[int] = []
+    example_difficulties: list[int] = []
+    dataset_ids: set[str] = set()
+    with connect() as conn:
+        with path.open() as handle:
+            for line_number, line in enumerate(handle, start=1):
+                line = line.strip()
+                if not line:
+                    continue
+                payload = json.loads(line)
+                word = payload["word"]
+                glosses = payload["glosses"]
+                examples = payload["examples"]
+                translations = payload["example_translations"]
 
-            word_id = word["id"]
-            if word_id in seen_word_ids:
-                raise ValueError(f"{path}:{line_number}: duplicate word id {word_id}")
-            seen_word_ids.add(word_id)
+                word_id = word["id"]
+                dataset_id = dataset_id_for_word_id(word_id)
+                if dataset_id:
+                    dataset_ids.add(dataset_id)
+                if word_id in seen_word_ids:
+                    raise ValueError(f"{path}:{line_number}: duplicate word id {word_id}")
+                seen_word_ids.add(word_id)
 
-            if len(examples) != 3:
-                raise ValueError(f"{path}:{line_number}: expected 3 examples for {word_id}")
-            if len(translations) != 3:
-                raise ValueError(f"{path}:{line_number}: expected 3 translations for {word_id}")
-            if sum(1 for example in examples if example["is_primary"]) != 1:
-                raise ValueError(f"{path}:{line_number}: expected exactly one primary example for {word_id}")
+                if len(examples) != 3:
+                    raise ValueError(f"{path}:{line_number}: expected 3 examples for {word_id}")
+                if len(translations) != 3:
+                    raise ValueError(f"{path}:{line_number}: expected 3 translations for {word_id}")
+                if sum(1 for example in examples if example["is_primary"]) != 1:
+                    raise ValueError(f"{path}:{line_number}: expected exactly one primary example for {word_id}")
 
-            expected_example_ids = {f"{word_id}-ex1", f"{word_id}-ex2", f"{word_id}-ex3"}
-            actual_example_ids = {example["id"] for example in examples}
-            if actual_example_ids != expected_example_ids:
-                raise ValueError(f"{path}:{line_number}: bad example ids for {word_id}")
+                expected_example_ids = {f"{word_id}-ex1", f"{word_id}-ex2", f"{word_id}-ex3"}
+                actual_example_ids = {example["id"] for example in examples}
+                if actual_example_ids != expected_example_ids:
+                    raise ValueError(f"{path}:{line_number}: bad example ids for {word_id}")
 
-            actual_translation_ids = {item["example_id"] for item in translations}
-            if actual_translation_ids != expected_example_ids:
-                raise ValueError(f"{path}:{line_number}: translation ids do not match examples for {word_id}")
+                actual_translation_ids = {item["example_id"] for item in translations}
+                if actual_translation_ids != expected_example_ids:
+                    raise ValueError(f"{path}:{line_number}: translation ids do not match examples for {word_id}")
 
-            if "primary_gloss" not in glosses or "notes" not in glosses:
-                raise ValueError(f"{path}:{line_number}: incomplete gloss block for {word_id}")
+                if "primary_gloss" not in glosses or "notes" not in glosses:
+                    raise ValueError(f"{path}:{line_number}: incomplete gloss block for {word_id}")
 
-            count += 1
+                sentence_values = [example["sentence"] for example in examples]
+                if len(set(sentence_values)) != len(sentence_values):
+                    raise ValueError(f"{path}:{line_number}: duplicate Chinese sentences inside {word_id}")
+                sentence_lengths.extend(len(sentence) for sentence in sentence_values)
+                for example in examples:
+                    if example["difficulty"] not in {1, 2, 3, 4, 5}:
+                        raise ValueError(
+                            f"{path}:{line_number}: {word_id}: difficulty must be 1, 2, 3, 4, or 5, got {example['difficulty']}"
+                        )
+                example_difficulties.extend(example["difficulty"] for example in examples)
+
+                translation_values = [item["translation"] for item in translations]
+                if len(set(translation_values)) != len(translation_values):
+                    raise ValueError(f"{path}:{line_number}: duplicate English translations inside {word_id}")
+
+                variants = display_form_variants(word["display_form"])
+                for example in examples:
+                    if not any(variant and variant in example["sentence"] for variant in variants):
+                        raise ValueError(
+                            f"{path}:{line_number}: {word_id}: example does not visibly contain the target display form or any accepted variant: {example['sentence']}"
+                        )
+
+                try:
+                    token_counts.extend(validate_and_count_payload_tokens(payload, conn))
+                except ValueError as exc:
+                    raise ValueError(f"{path}:{line_number}: {exc}") from exc
+
+                count += 1
+
+    if len(dataset_ids) == 1 and example_difficulties:
+        dataset_id = next(iter(dataset_ids))
+        floors = METRIC_FLOORS.get(dataset_id)
+        if floors:
+            avg_difficulty = sum(example_difficulties) / len(example_difficulties)
+            if "avg_chars" in floors and sentence_lengths:
+                avg_chars = sum(sentence_lengths) / len(sentence_lengths)
+                if avg_chars < floors["avg_chars"]:
+                    raise ValueError(
+                        f"{path}: average sentence length {avg_chars:.2f} is below the {dataset_id} floor of {floors['avg_chars']:.2f}"
+                    )
+            avg_words_floor = floors.get("avg_words", floors.get("avg_tokens"))
+            if avg_words_floor is not None and token_counts:
+                avg_words = sum(token_counts) / len(token_counts)
+                if avg_words < avg_words_floor:
+                    raise ValueError(
+                        f"{path}: average segmented word count {avg_words:.2f} is below the {dataset_id} floor of {avg_words_floor:.2f}"
+                    )
+            if "avg_difficulty" in floors and avg_difficulty < floors["avg_difficulty"]:
+                raise ValueError(
+                    f"{path}: average difficulty {avg_difficulty:.2f} is below the {dataset_id} floor of {floors['avg_difficulty']:.2f}"
+                )
+            if "max_share_len_le_8" in floors and sentence_lengths:
+                share_len_le_8 = sum(1 for length in sentence_lengths if length <= 8) / len(sentence_lengths)
+                if share_len_le_8 > floors["max_share_len_le_8"]:
+                    raise ValueError(
+                        f"{path}: share of sentences with length <= 8 is {share_len_le_8:.1%}, above the {dataset_id} cap of {floors['max_share_len_le_8']:.1%}"
+                    )
 
     print(json.dumps({"file": str(path), "word_count": count}, ensure_ascii=False))
+
+
+def show_dataset_metrics(dataset_id: str) -> None:
+    print(json.dumps(compute_dataset_metrics(dataset_id), ensure_ascii=False, indent=2))
+
+
+def compare_lower_level_metrics(dataset_id: str) -> None:
+    match = LEVEL_DATASET_RE.match(dataset_id)
+    if not match:
+        raise ValueError(f"{dataset_id} is not a New HSK level dataset id")
+
+    target_level = int(match.group(1))
+    target_metrics = compute_dataset_metrics(dataset_id)
+    lower_levels = []
+    for level in range(1, target_level):
+        candidate = f"new-hsk-{level}-words"
+        db_path = ROOT / "corpus.sqlite" if level == 1 else ROOT / f"corpus-hsk-{level}.sqlite"
+        if not db_path.exists():
+            continue
+        previous_db_path = DB_PATH
+        try:
+            set_db_path(str(db_path))
+            lower_levels.append(compute_dataset_metrics(candidate))
+        finally:
+            set_db_path(str(previous_db_path))
+
+    comparison = {
+        "dataset_id": dataset_id,
+        "db_path": str(DB_PATH),
+        "target": target_metrics,
+        "lower_levels": lower_levels,
+        "max_lower_avg_words": max((item["avg_words"] for item in lower_levels), default=0.0),
+        "max_lower_avg_tokens": max((item["avg_tokens"] for item in lower_levels), default=0.0),
+        "max_lower_avg_difficulty": max((item["avg_difficulty"] for item in lower_levels), default=0.0),
+    }
+    print(json.dumps(comparison, ensure_ascii=False, indent=2))
 
 
 def show_coverage(dataset_id: str) -> None:
@@ -899,6 +1103,12 @@ def main() -> None:
     coverage = subparsers.add_parser("coverage")
     coverage.add_argument("--dataset-id", required=True)
 
+    metrics = subparsers.add_parser("dataset-metrics")
+    metrics.add_argument("--dataset-id", required=True)
+
+    compare_metrics = subparsers.add_parser("compare-lower-level-metrics")
+    compare_metrics.add_argument("--dataset-id", required=True)
+
     audit = subparsers.add_parser("audit-dataset")
     audit.add_argument("--dataset-id", required=True)
     audit.add_argument("--audit-name", required=True)
@@ -953,6 +1163,10 @@ def main() -> None:
         )
     elif args.command == "coverage":
         show_coverage(args.dataset_id)
+    elif args.command == "dataset-metrics":
+        show_dataset_metrics(args.dataset_id)
+    elif args.command == "compare-lower-level-metrics":
+        compare_lower_level_metrics(args.dataset_id)
     elif args.command == "audit-dataset":
         audit_dataset(args.dataset_id, args.audit_name, args.notes)
     elif args.command == "ingest-result":

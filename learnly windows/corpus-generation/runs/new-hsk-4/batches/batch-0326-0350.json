@@ -1,0 +1,369 @@
+[
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0326",
+    "rank": 326,
+    "display_form": "即使",
+    "lemma": "即使",
+    "generation_form": "即使",
+    "pronunciation": "jíshǐ",
+    "pos": "conjunction",
+    "primary_gloss": "even if",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as conjunction."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0327",
+    "rank": 327,
+    "display_form": "既",
+    "lemma": "既",
+    "generation_form": "既",
+    "pronunciation": "jì",
+    "pos": "adverb, conjunction",
+    "primary_gloss": "already",
+    "secondary_glosses": [
+      "since",
+      "both ... and ...",
+      "as well as (used in the pattern 既...又/ 也...)"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb, conjunction."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0328",
+    "rank": 328,
+    "display_form": "寄",
+    "lemma": "寄",
+    "generation_form": "寄",
+    "pronunciation": "jì",
+    "pos": "verb",
+    "primary_gloss": "send",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0329",
+    "rank": 329,
+    "display_form": "计划",
+    "lemma": "计划",
+    "generation_form": "计划",
+    "pronunciation": "jìhuà",
+    "pos": "noun, verb",
+    "primary_gloss": "plan",
+    "secondary_glosses": [
+      "project",
+      "program",
+      "scheme",
+      "to plan",
+      "to map out",
+      "to intend"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0330",
+    "rank": 330,
+    "display_form": "既然",
+    "lemma": "既然",
+    "generation_form": "既然",
+    "pronunciation": "jìrán",
+    "pos": "conjunction",
+    "primary_gloss": "since",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as conjunction."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0331",
+    "rank": 331,
+    "display_form": "技术",
+    "lemma": "技术",
+    "generation_form": "技术",
+    "pronunciation": "jìshù",
+    "pos": "noun",
+    "primary_gloss": "technology",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0332",
+    "rank": 332,
+    "display_form": "继续",
+    "lemma": "继续",
+    "generation_form": "继续",
+    "pronunciation": "jìxù",
+    "pos": "verb",
+    "primary_gloss": "continue",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0333",
+    "rank": 333,
+    "display_form": "记者",
+    "lemma": "记者",
+    "generation_form": "记者",
+    "pronunciation": "jìzhě",
+    "pos": "noun",
+    "primary_gloss": "reporter",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0334",
+    "rank": 334,
+    "display_form": "加班",
+    "lemma": "加班",
+    "generation_form": "加班",
+    "pronunciation": "jiābān",
+    "pos": "verb",
+    "primary_gloss": "work overtime",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0335",
+    "rank": 335,
+    "display_form": "家具",
+    "lemma": "家具",
+    "generation_form": "家具",
+    "pronunciation": "jiājù",
+    "pos": "noun",
+    "primary_gloss": "furniture",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0336",
+    "rank": 336,
+    "display_form": "加快",
+    "lemma": "加快",
+    "generation_form": "加快",
+    "pronunciation": "jiākuài",
+    "pos": "verb",
+    "primary_gloss": "speed up",
+    "secondary_glosses": [
+      "accelerate"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0337",
+    "rank": 337,
+    "display_form": "加强",
+    "lemma": "加强",
+    "generation_form": "加强",
+    "pronunciation": "jiāqiáng",
+    "pos": "verb",
+    "primary_gloss": "strengthen",
+    "secondary_glosses": [
+      "reinforce"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0338",
+    "rank": 338,
+    "display_form": "加入",
+    "lemma": "加入",
+    "generation_form": "加入",
+    "pronunciation": "jiārù",
+    "pos": "verb",
+    "primary_gloss": "add",
+    "secondary_glosses": [
+      "mix",
+      "join",
+      "become a member"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0339",
+    "rank": 339,
+    "display_form": "加上",
+    "lemma": "加上",
+    "generation_form": "加上",
+    "pronunciation": "jiāshàng",
+    "pos": "conjunction",
+    "primary_gloss": "plus",
+    "secondary_glosses": [
+      "add",
+      "with the addition of"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as conjunction."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0340",
+    "rank": 340,
+    "display_form": "家庭",
+    "lemma": "家庭",
+    "generation_form": "家庭",
+    "pronunciation": "jiātíng",
+    "pos": "noun",
+    "primary_gloss": "family",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0341",
+    "rank": 341,
+    "display_form": "家乡",
+    "lemma": "家乡",
+    "generation_form": "家乡",
+    "pronunciation": "jiāxiāng",
+    "pos": "noun",
+    "primary_gloss": "hometown",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0342",
+    "rank": 342,
+    "display_form": "加油",
+    "lemma": "加油",
+    "generation_form": "加油",
+    "pronunciation": "jiāyóu",
+    "pos": "verb",
+    "primary_gloss": "oil",
+    "secondary_glosses": [
+      "refuel",
+      "make an all-out effort"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0343",
+    "rank": 343,
+    "display_form": "加油站",
+    "lemma": "加油站",
+    "generation_form": "加油站",
+    "pronunciation": "jiāyóuzhàn",
+    "pos": "noun",
+    "primary_gloss": "gas station",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0344",
+    "rank": 344,
+    "display_form": "家长",
+    "lemma": "家长",
+    "generation_form": "家长",
+    "pronunciation": "jiāzhǎng",
+    "pos": "noun",
+    "primary_gloss": "parent",
+    "secondary_glosses": [
+      "the head of the family"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0345",
+    "rank": 345,
+    "display_form": "假",
+    "lemma": "假",
+    "generation_form": "假",
+    "pronunciation": "jiǎ",
+    "pos": "adjective",
+    "primary_gloss": "false",
+    "secondary_glosses": [
+      "fake"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0346",
+    "rank": 346,
+    "display_form": "价格",
+    "lemma": "价格",
+    "generation_form": "价格",
+    "pronunciation": "jiàgé",
+    "pos": "noun",
+    "primary_gloss": "price",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0347",
+    "rank": 347,
+    "display_form": "价钱",
+    "lemma": "价钱",
+    "generation_form": "价钱",
+    "pronunciation": "jiàqián",
+    "pos": "noun",
+    "primary_gloss": "price",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0348",
+    "rank": 348,
+    "display_form": "假日",
+    "lemma": "假日",
+    "generation_form": "假日",
+    "pronunciation": "jiàrì",
+    "pos": "noun",
+    "primary_gloss": "holiday",
+    "secondary_glosses": [
+      "day off",
+      "vacation"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0349",
+    "rank": 349,
+    "display_form": "减",
+    "lemma": "减",
+    "generation_form": "减",
+    "pronunciation": "jiǎn",
+    "pos": "verb",
+    "primary_gloss": "to reduce",
+    "secondary_glosses": [
+      "to decrease",
+      "to subtract",
+      "to lessen"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0350",
+    "rank": 350,
+    "display_form": "减轻",
+    "lemma": "减轻",
+    "generation_form": "减轻",
+    "pronunciation": "jiǎnqīng",
+    "pos": "verb",
+    "primary_gloss": "to lighten",
+    "secondary_glosses": [
+      "to ease",
+      "to alleviate",
+      "to reduce (burden",
+      "weight",
+      "pressure)"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  }
+]

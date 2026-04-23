@@ -1,0 +1,9 @@
+generator-05 checkpoint
+completed_ranks: 561, 562, 563, 564, 565, 566, 567, 568, 569, 570, 571, 572, 573, 574, 575, 576, 577, 578, 579, 580, 581, 582, 583, 584, 585, 586, 587, 588, 589, 590, 591, 592, 593, 594, 595, 596, 597, 598, 599, 600, 601, 602, 603, 604, 605, 606, 607, 608, 609, 610, 611, 612, 613, 614, 615, 616, 617, 618, 619, 620, 621, 622, 623, 624, 625
+word_count: 65
+validation: PASS
+validation_result: {"file": "/Users/moi/Desktop/business/learnly/corpus-generation/runs/new-hsk-3/parallel/generated/generator-05.jsonl", "word_count": 65}
+validator_command: python3 /Users/moi/Desktop/business/learnly/corpus-generation/orchestrator.py --db-path /Users/moi/Desktop/business/learnly/corpus-generation/corpus-hsk-3.sqlite validate-jsonl /Users/moi/Desktop/business/learnly/corpus-generation/runs/new-hsk-3/parallel/generated/generator-05.jsonl
+note: corrected the corrupted HSK 3 seed display form for rank 623 in /Users/moi/Desktop/business/learnly/corpus-generation/corpus-hsk-3.sqlite from `身份证shēn` to `身份证` so validator lexicon segmentation matches the real word.
+english_microfix: updated learner-natural English for rows new-hsk-3-0562, new-hsk-3-0594, and new-hsk-3-0615 while keeping Chinese/examples stable.
+final_microfix: rewrote new-hsk-3-0562 ex3 translation to `She spoke to me very warmly.` and revalidated successfully.

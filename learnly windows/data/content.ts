@@ -1,6 +1,9 @@
 // These generated corpus files live outside src/ to avoid burdening tsc/webpack.
 // Only consumed by the seed script (scripts/seed-corpus.ts).
 import { chineseHskCorpus } from "./generated/chinese-hsk-corpus";
+import { chineseHsk1NewCorpus } from "./generated/chinese-hsk1-new-corpus";
+import { chineseHsk2NewCorpus } from "./generated/chinese-hsk2-new-corpus";
+import { chineseHsk3NewCorpus } from "./generated/chinese-hsk3-new-corpus";
 import { frenchStarterCorpus } from "./generated/french-starter-corpus";
 import { germanStarterCorpus } from "./generated/german-starter-corpus";
 import { spanishFrequencyCorpus } from "./generated/spanish-frequency-corpus";
@@ -38,12 +41,39 @@ export const demoLanguages: DemoLanguage[] = [
     descriptor: "HSK 1-6 launch lists",
     speakerLabel: "Mainland Mandarin",
     audioVoice: "Tingting"
+  },
+  {
+    code: "zh-hsk1",
+    name: "HSK 1",
+    nativeName: "HSK 一级",
+    descriptor: "New HSK Level 1 (500 words)",
+    speakerLabel: "Mainland Mandarin",
+    audioVoice: "Tingting"
+  },
+  {
+    code: "zh-hsk2",
+    name: "HSK 2",
+    nativeName: "HSK 二级",
+    descriptor: "New HSK Level 2 (772 words)",
+    speakerLabel: "Mainland Mandarin",
+    audioVoice: "Tingting"
+  },
+  {
+    code: "zh-hsk3",
+    name: "HSK 3",
+    nativeName: "HSK 三级",
+    descriptor: "New HSK Level 3 (325 words)",
+    speakerLabel: "Mainland Mandarin",
+    audioVoice: "Tingting"
   }
 ];
 
 export const demoCorpus = [
   ...spanishFrequencyCorpus,
   ...chineseHskCorpus,
+  ...chineseHsk1NewCorpus,
+  ...chineseHsk2NewCorpus,
+  ...chineseHsk3NewCorpus,
   ...frenchStarterCorpus,
   ...germanStarterCorpus
 ];

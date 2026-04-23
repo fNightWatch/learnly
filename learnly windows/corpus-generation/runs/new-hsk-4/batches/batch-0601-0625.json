@@ -1,0 +1,370 @@
+[
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0601",
+    "rank": 601,
+    "display_form": "全球",
+    "lemma": "全球",
+    "generation_form": "全球",
+    "pronunciation": "quánqiú",
+    "pos": "noun",
+    "primary_gloss": "the whole world",
+    "secondary_glosses": [
+      "global"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0602",
+    "rank": 602,
+    "display_form": "全身",
+    "lemma": "全身",
+    "generation_form": "全身",
+    "pronunciation": "quánshēn",
+    "pos": "noun",
+    "primary_gloss": "whole body",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0603",
+    "rank": 603,
+    "display_form": "缺",
+    "lemma": "缺",
+    "generation_form": "缺",
+    "pronunciation": "quē",
+    "pos": "verb",
+    "primary_gloss": "to lack",
+    "secondary_glosses": [
+      "to be short of"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0604",
+    "rank": 604,
+    "display_form": "缺点",
+    "lemma": "缺点",
+    "generation_form": "缺点",
+    "pronunciation": "quēdiǎn",
+    "pos": "noun",
+    "primary_gloss": "shortcoming",
+    "secondary_glosses": [
+      "defect"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0605",
+    "rank": 605,
+    "display_form": "缺少",
+    "lemma": "缺少",
+    "generation_form": "缺少",
+    "pronunciation": "quēshǎo",
+    "pos": "verb",
+    "primary_gloss": "to lack",
+    "secondary_glosses": [
+      "to be short of"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0606",
+    "rank": 606,
+    "display_form": "却",
+    "lemma": "却",
+    "generation_form": "却",
+    "pronunciation": "què",
+    "pos": "adverb",
+    "primary_gloss": "but",
+    "secondary_glosses": [
+      "yet",
+      "however"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0607",
+    "rank": 607,
+    "display_form": "确实",
+    "lemma": "确实",
+    "generation_form": "确实",
+    "pronunciation": "quèshí",
+    "pos": "adverb",
+    "primary_gloss": "indeed",
+    "secondary_glosses": [
+      "really"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0608",
+    "rank": 608,
+    "display_form": "然而",
+    "lemma": "然而",
+    "generation_form": "然而",
+    "pronunciation": "rán’ér",
+    "pos": "conjunction",
+    "primary_gloss": "however",
+    "secondary_glosses": [
+      "but"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as conjunction."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0609",
+    "rank": 609,
+    "display_form": "热闹",
+    "lemma": "热闹",
+    "generation_form": "热闹",
+    "pronunciation": "rènao",
+    "pos": "adjective, verb, noun",
+    "primary_gloss": "lively",
+    "secondary_glosses": [
+      "bustling",
+      "to liven up",
+      "lively atmosphere"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective, verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0610",
+    "rank": 610,
+    "display_form": "人生",
+    "lemma": "人生",
+    "generation_form": "人生",
+    "pronunciation": "rénshēng",
+    "pos": "noun",
+    "primary_gloss": "life",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0611",
+    "rank": 611,
+    "display_form": "人数",
+    "lemma": "人数",
+    "generation_form": "人数",
+    "pronunciation": "rénshù",
+    "pos": "noun",
+    "primary_gloss": "number of people",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0612",
+    "rank": 612,
+    "display_form": "人员",
+    "lemma": "人员",
+    "generation_form": "人员",
+    "pronunciation": "rényuán",
+    "pos": "noun",
+    "primary_gloss": "personnel",
+    "secondary_glosses": [
+      "staff"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0613",
+    "rank": 613,
+    "display_form": "任何",
+    "lemma": "任何",
+    "generation_form": "任何",
+    "pronunciation": "rènhé",
+    "pos": "pronoun",
+    "primary_gloss": "any",
+    "secondary_glosses": [
+      "whatever"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as pronoun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0614",
+    "rank": 614,
+    "display_form": "任务",
+    "lemma": "任务",
+    "generation_form": "任务",
+    "pronunciation": "rènwu",
+    "pos": "noun",
+    "primary_gloss": "task",
+    "secondary_glosses": [
+      "assignment",
+      "mission"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0615",
+    "rank": 615,
+    "display_form": "扔",
+    "lemma": "扔",
+    "generation_form": "扔",
+    "pronunciation": "rēng",
+    "pos": "verb",
+    "primary_gloss": "to throw",
+    "secondary_glosses": [
+      "to toss"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0616",
+    "rank": 616,
+    "display_form": "仍",
+    "lemma": "仍",
+    "generation_form": "仍",
+    "pronunciation": "réng",
+    "pos": "adverb",
+    "primary_gloss": "still",
+    "secondary_glosses": [
+      "yet"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0617",
+    "rank": 617,
+    "display_form": "仍然",
+    "lemma": "仍然",
+    "generation_form": "仍然",
+    "pronunciation": "réngrán",
+    "pos": "adverb",
+    "primary_gloss": "still",
+    "secondary_glosses": [
+      "yet"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0618",
+    "rank": 618,
+    "display_form": "日常",
+    "lemma": "日常",
+    "generation_form": "日常",
+    "pronunciation": "rìcháng",
+    "pos": "adjective",
+    "primary_gloss": "daily",
+    "secondary_glosses": [
+      "everyday"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0619",
+    "rank": 619,
+    "display_form": "日记",
+    "lemma": "日记",
+    "generation_form": "日记",
+    "pronunciation": "rìjì",
+    "pos": "noun",
+    "primary_gloss": "diary",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0620",
+    "rank": 620,
+    "display_form": "日期",
+    "lemma": "日期",
+    "generation_form": "日期",
+    "pronunciation": "rìqī",
+    "pos": "noun",
+    "primary_gloss": "date",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0621",
+    "rank": 621,
+    "display_form": "日子",
+    "lemma": "日子",
+    "generation_form": "日子",
+    "pronunciation": "rìzi",
+    "pos": "noun",
+    "primary_gloss": "day",
+    "secondary_glosses": [
+      "life",
+      "time"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0622",
+    "rank": 622,
+    "display_form": "入",
+    "lemma": "入",
+    "generation_form": "入",
+    "pronunciation": "rù",
+    "pos": "verb",
+    "primary_gloss": "to enter",
+    "secondary_glosses": [
+      "to go in"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0623",
+    "rank": 623,
+    "display_form": "入又",
+    "lemma": "入又",
+    "generation_form": "入又",
+    "pronunciation": "rùkǒu",
+    "pos": "noun",
+    "primary_gloss": "entrance",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0624",
+    "rank": 624,
+    "display_form": "入学",
+    "lemma": "入学",
+    "generation_form": "入学",
+    "pronunciation": "rùxué",
+    "pos": "verb",
+    "primary_gloss": "to enter school",
+    "secondary_glosses": [
+      "to enroll"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0625",
+    "rank": 625,
+    "display_form": "入住",
+    "lemma": "入住",
+    "generation_form": "入住",
+    "pronunciation": "rùzhù",
+    "pos": "verb",
+    "primary_gloss": "to check in",
+    "secondary_glosses": [
+      "to move in"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  }
+]

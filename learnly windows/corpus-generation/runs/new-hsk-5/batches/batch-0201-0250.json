@@ -1,0 +1,723 @@
+[
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0201",
+    "rank": 201,
+    "display_form": "从而",
+    "lemma": "从而",
+    "generation_form": "从而",
+    "pronunciation": "cóng’ér",
+    "pos": "conjunction",
+    "primary_gloss": "thus",
+    "secondary_glosses": [
+      "thereby"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as conjunction."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0202",
+    "rank": 202,
+    "display_form": "从前",
+    "lemma": "从前",
+    "generation_form": "从前",
+    "pronunciation": "cóngqián",
+    "pos": "noun",
+    "primary_gloss": "formerly",
+    "secondary_glosses": [
+      "before"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0203",
+    "rank": 203,
+    "display_form": "从事",
+    "lemma": "从事",
+    "generation_form": "从事",
+    "pronunciation": "cóngshì",
+    "pos": "verb",
+    "primary_gloss": "to engage in",
+    "secondary_glosses": [
+      "to pursue"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0204",
+    "rank": 204,
+    "display_form": "促进",
+    "lemma": "促进",
+    "generation_form": "促进",
+    "pronunciation": "cùjìn",
+    "pos": "verb",
+    "primary_gloss": "to promote",
+    "secondary_glosses": [
+      "to advance"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0205",
+    "rank": 205,
+    "display_form": "促使",
+    "lemma": "促使",
+    "generation_form": "促使",
+    "pronunciation": "cùshǐ",
+    "pos": "verb",
+    "primary_gloss": "to urge",
+    "secondary_glosses": [
+      "to prompt"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0206",
+    "rank": 206,
+    "display_form": "促销",
+    "lemma": "促销",
+    "generation_form": "促销",
+    "pronunciation": "cùxiāo",
+    "pos": "verb",
+    "primary_gloss": "to promote (sales)",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0207",
+    "rank": 207,
+    "display_form": "催",
+    "lemma": "催",
+    "generation_form": "催",
+    "pronunciation": "cuī",
+    "pos": "verb",
+    "primary_gloss": "to urge",
+    "secondary_glosses": [
+      "to hurry"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0208",
+    "rank": 208,
+    "display_form": "存放",
+    "lemma": "存放",
+    "generation_form": "存放",
+    "pronunciation": "cúnfàng",
+    "pos": "verb",
+    "primary_gloss": "to deposit",
+    "secondary_glosses": [
+      "to store"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0209",
+    "rank": 209,
+    "display_form": "存款",
+    "lemma": "存款",
+    "generation_form": "存款",
+    "pronunciation": "cúnkuǎn",
+    "pos": "verb, noun",
+    "primary_gloss": "to deposit money",
+    "secondary_glosses": [
+      "deposit"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0210",
+    "rank": 210,
+    "display_form": "存在",
+    "lemma": "存在",
+    "generation_form": "存在",
+    "pronunciation": "cúnzài",
+    "pos": "verb",
+    "primary_gloss": "to exist",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0211",
+    "rank": 211,
+    "display_form": "措施",
+    "lemma": "措施",
+    "generation_form": "措施",
+    "pronunciation": "cuòshī",
+    "pos": "noun",
+    "primary_gloss": "measure",
+    "secondary_glosses": [
+      "step"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0212",
+    "rank": 212,
+    "display_form": "达成",
+    "lemma": "达成",
+    "generation_form": "达成",
+    "pronunciation": "dáchéng",
+    "pos": "verb",
+    "primary_gloss": "to reach",
+    "secondary_glosses": [
+      "to accomplish"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0213",
+    "rank": 213,
+    "display_form": "打扮",
+    "lemma": "打扮",
+    "generation_form": "打扮",
+    "pronunciation": "dǎban",
+    "pos": "verb",
+    "primary_gloss": "to dress up",
+    "secondary_glosses": [
+      "to disguise"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0214",
+    "rank": 214,
+    "display_form": "打包",
+    "lemma": "打包",
+    "generation_form": "打包",
+    "pronunciation": "dǎbāo",
+    "pos": "verb",
+    "primary_gloss": "to pack",
+    "secondary_glosses": [
+      "to take out"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0215",
+    "rank": 215,
+    "display_form": "打断",
+    "lemma": "打断",
+    "generation_form": "打断",
+    "pronunciation": "dǎduàn",
+    "pos": "verb",
+    "primary_gloss": "to interrupt",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0216",
+    "rank": 216,
+    "display_form": "打破",
+    "lemma": "打破",
+    "generation_form": "打破",
+    "pronunciation": "dǎpò",
+    "pos": "verb",
+    "primary_gloss": "to break",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0217",
+    "rank": 217,
+    "display_form": "打听",
+    "lemma": "打听",
+    "generation_form": "打听",
+    "pronunciation": "dǎting",
+    "pos": "verb",
+    "primary_gloss": "to ask about",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0218",
+    "rank": 218,
+    "display_form": "大胆",
+    "lemma": "大胆",
+    "generation_form": "大胆",
+    "pronunciation": "dàdǎn",
+    "pos": "adjective",
+    "primary_gloss": "bold",
+    "secondary_glosses": [
+      "daring"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0219",
+    "rank": 219,
+    "display_form": "大多",
+    "lemma": "大多",
+    "generation_form": "大多",
+    "pronunciation": "dàduō",
+    "pos": "adverb",
+    "primary_gloss": "mostly",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0220",
+    "rank": 220,
+    "display_form": "大会",
+    "lemma": "大会",
+    "generation_form": "大会",
+    "pronunciation": "dàhuì",
+    "pos": "noun",
+    "primary_gloss": "general meeting",
+    "secondary_glosses": [
+      "conference"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0221",
+    "rank": 221,
+    "display_form": "大力",
+    "lemma": "大力",
+    "generation_form": "大力",
+    "pronunciation": "dàlì",
+    "pos": "noun, adverb",
+    "primary_gloss": "great strength",
+    "secondary_glosses": [
+      "vigorously",
+      "with great effort"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, adverb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0222",
+    "rank": 222,
+    "display_form": "大妈",
+    "lemma": "大妈",
+    "generation_form": "大妈",
+    "pronunciation": "dàmā",
+    "pos": "noun",
+    "primary_gloss": "aunt",
+    "secondary_glosses": [
+      "middle-aged woman"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0223",
+    "rank": 223,
+    "display_form": "大米",
+    "lemma": "大米",
+    "generation_form": "大米",
+    "pronunciation": "dàmǐ",
+    "pos": "noun",
+    "primary_gloss": "rice",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0224",
+    "rank": 224,
+    "display_form": "大脑",
+    "lemma": "大脑",
+    "generation_form": "大脑",
+    "pronunciation": "dànǎo",
+    "pos": "noun",
+    "primary_gloss": "brain",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0225",
+    "rank": 225,
+    "display_form": "大批",
+    "lemma": "大批",
+    "generation_form": "大批",
+    "pronunciation": "dàpī",
+    "pos": "adjective",
+    "primary_gloss": "large batch",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0226",
+    "rank": 226,
+    "display_form": "大厦",
+    "lemma": "大厦",
+    "generation_form": "大厦",
+    "pronunciation": "dàshà",
+    "pos": "noun",
+    "primary_gloss": "mansion",
+    "secondary_glosses": [
+      "building"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0227",
+    "rank": 227,
+    "display_form": "大事",
+    "lemma": "大事",
+    "generation_form": "大事",
+    "pronunciation": "dàshì",
+    "pos": "noun",
+    "primary_gloss": "important matter",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0228",
+    "rank": 228,
+    "display_form": "大象",
+    "lemma": "大象",
+    "generation_form": "大象",
+    "pronunciation": "dàxiàng",
+    "pos": "noun",
+    "primary_gloss": "elephant",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0229",
+    "rank": 229,
+    "display_form": "大型",
+    "lemma": "大型",
+    "generation_form": "大型",
+    "pronunciation": "dàxíng",
+    "pos": "adjective",
+    "primary_gloss": "large-scale",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0230",
+    "rank": 230,
+    "display_form": "大爷",
+    "lemma": "大爷",
+    "generation_form": "大爷",
+    "pronunciation": "dàye",
+    "pos": "noun",
+    "primary_gloss": "uncle",
+    "secondary_glosses": [
+      "elderly man"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0231",
+    "rank": 231,
+    "display_form": "大于",
+    "lemma": "大于",
+    "generation_form": "大于",
+    "pronunciation": "dàyú",
+    "pos": "verb",
+    "primary_gloss": "to be greater than",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0232",
+    "rank": 232,
+    "display_form": "大众",
+    "lemma": "大众",
+    "generation_form": "大众",
+    "pronunciation": "dàzhòng",
+    "pos": "noun",
+    "primary_gloss": "the masses",
+    "secondary_glosses": [
+      "public"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0233",
+    "rank": 233,
+    "display_form": "代",
+    "lemma": "代",
+    "generation_form": "代",
+    "pronunciation": "dài",
+    "pos": "verb, noun",
+    "primary_gloss": "to represent",
+    "secondary_glosses": [
+      "generation"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0234",
+    "rank": 234,
+    "display_form": "代表",
+    "lemma": "代表",
+    "generation_form": "代表",
+    "pronunciation": "dàibiǎo",
+    "pos": "noun, verb",
+    "primary_gloss": "representative",
+    "secondary_glosses": [
+      "to represent"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0235",
+    "rank": 235,
+    "display_form": "带动",
+    "lemma": "带动",
+    "generation_form": "带动",
+    "pronunciation": "dàidòng",
+    "pos": "verb",
+    "primary_gloss": "to drive",
+    "secondary_glosses": [
+      "to bring about"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0236",
+    "rank": 236,
+    "display_form": "代替",
+    "lemma": "代替",
+    "generation_form": "代替",
+    "pronunciation": "dàitì",
+    "pos": "verb",
+    "primary_gloss": "to replace",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0237",
+    "rank": 237,
+    "display_form": "待遇",
+    "lemma": "待遇",
+    "generation_form": "待遇",
+    "pronunciation": "dàiyù",
+    "pos": "noun",
+    "primary_gloss": "treatment",
+    "secondary_glosses": [
+      "salary"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0238",
+    "rank": 238,
+    "display_form": "单",
+    "lemma": "单",
+    "generation_form": "单",
+    "pronunciation": "dān",
+    "pos": "adjective, adverb, noun",
+    "primary_gloss": "single",
+    "secondary_glosses": [
+      "alone",
+      "bill",
+      "list",
+      "measure word"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective, adverb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0239",
+    "rank": 239,
+    "display_form": "单独",
+    "lemma": "单独",
+    "generation_form": "单独",
+    "pronunciation": "dāndú",
+    "pos": "adverb",
+    "primary_gloss": "alone",
+    "secondary_glosses": [
+      "separately"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0240",
+    "rank": 240,
+    "display_form": "担任",
+    "lemma": "担任",
+    "generation_form": "担任",
+    "pronunciation": "dānrèn",
+    "pos": "verb",
+    "primary_gloss": "to hold the position of",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0241",
+    "rank": 241,
+    "display_form": "单一",
+    "lemma": "单一",
+    "generation_form": "单一",
+    "pronunciation": "dānyī",
+    "pos": "adjective",
+    "primary_gloss": "single",
+    "secondary_glosses": [
+      "singular"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0242",
+    "rank": 242,
+    "display_form": "单元",
+    "lemma": "单元",
+    "generation_form": "单元",
+    "pronunciation": "dānyuán",
+    "pos": "noun",
+    "primary_gloss": "unit",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0243",
+    "rank": 243,
+    "display_form": "胆小",
+    "lemma": "胆小",
+    "generation_form": "胆小",
+    "pronunciation": "dǎnxiǎo",
+    "pos": "adjective",
+    "primary_gloss": "timid",
+    "secondary_glosses": [
+      "cowardly"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0244",
+    "rank": 244,
+    "display_form": "淡",
+    "lemma": "淡",
+    "generation_form": "淡",
+    "pronunciation": "dàn",
+    "pos": "adjective",
+    "primary_gloss": "light",
+    "secondary_glosses": [
+      "weak",
+      "bland"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0245",
+    "rank": 245,
+    "display_form": "当地",
+    "lemma": "当地",
+    "generation_form": "当地",
+    "pronunciation": "dāngdì",
+    "pos": "noun",
+    "primary_gloss": "local area",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0246",
+    "rank": 246,
+    "display_form": "当年",
+    "lemma": "当年",
+    "generation_form": "当年",
+    "pronunciation": "dāngnián",
+    "pos": "noun",
+    "primary_gloss": "that year",
+    "secondary_glosses": [
+      "those days"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0247",
+    "rank": 247,
+    "display_form": "当前",
+    "lemma": "当前",
+    "generation_form": "当前",
+    "pronunciation": "dāngqián",
+    "pos": "verb, noun",
+    "primary_gloss": "to face",
+    "secondary_glosses": [
+      "current",
+      "present"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0248",
+    "rank": 248,
+    "display_form": "当中",
+    "lemma": "当中",
+    "generation_form": "当中",
+    "pronunciation": "dāngzhōng",
+    "pos": "noun",
+    "primary_gloss": "among",
+    "secondary_glosses": [
+      "in the middle"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0249",
+    "rank": 249,
+    "display_form": "挡",
+    "lemma": "挡",
+    "generation_form": "挡",
+    "pronunciation": "dǎng",
+    "pos": "verb",
+    "primary_gloss": "to block",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0250",
+    "rank": 250,
+    "display_form": "当",
+    "lemma": "当",
+    "generation_form": "当",
+    "pronunciation": "dàng",
+    "pos": "verb",
+    "primary_gloss": "to treat as",
+    "secondary_glosses": [
+      "to regard as",
+      "to serve as"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  }
+]

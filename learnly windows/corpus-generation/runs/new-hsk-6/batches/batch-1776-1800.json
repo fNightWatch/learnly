@@ -1,0 +1,360 @@
+[
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1776",
+    "rank": 1776,
+    "display_form": "资产",
+    "lemma": "资产",
+    "generation_form": "资产",
+    "pronunciation": "zīchǎn",
+    "pos": "noun",
+    "primary_gloss": "assets",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1777",
+    "rank": 1777,
+    "display_form": "自豪",
+    "lemma": "自豪",
+    "generation_form": "自豪",
+    "pronunciation": "zìháo",
+    "pos": "adjective",
+    "primary_gloss": "proud",
+    "secondary_glosses": [
+      "self-respecting"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1778",
+    "rank": 1778,
+    "display_form": "自来水",
+    "lemma": "自来水",
+    "generation_form": "自来水",
+    "pronunciation": "zìláishuǐ",
+    "pos": "noun",
+    "primary_gloss": "running water",
+    "secondary_glosses": [
+      "tap water"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1779",
+    "rank": 1779,
+    "display_form": "自律",
+    "lemma": "自律",
+    "generation_form": "自律",
+    "pronunciation": "zìlǜ",
+    "pos": "verb",
+    "primary_gloss": "self-discipline",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1780",
+    "rank": 1780,
+    "display_form": "字幕",
+    "lemma": "字幕",
+    "generation_form": "字幕",
+    "pronunciation": "zìmù",
+    "pos": "noun",
+    "primary_gloss": "subtitles",
+    "secondary_glosses": [
+      "captions"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1781",
+    "rank": 1781,
+    "display_form": "自杀",
+    "lemma": "自杀",
+    "generation_form": "自杀",
+    "pronunciation": "zìshā",
+    "pos": "verb",
+    "primary_gloss": "to commit suicide",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1782",
+    "rank": 1782,
+    "display_form": "自我",
+    "lemma": "自我",
+    "generation_form": "自我",
+    "pronunciation": "zìwǒ",
+    "pos": "pronoun",
+    "primary_gloss": "self",
+    "secondary_glosses": [
+      "oneself"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as pronoun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1783",
+    "rank": 1783,
+    "display_form": "自言自语",
+    "lemma": "自言自语",
+    "generation_form": "自言自语",
+    "pronunciation": "zìyán-zìyǔ",
+    "pos": "unknown",
+    "primary_gloss": "to talk to oneself",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1784",
+    "rank": 1784,
+    "display_form": "自愿",
+    "lemma": "自愿",
+    "generation_form": "自愿",
+    "pronunciation": "zìyuàn",
+    "pos": "verb",
+    "primary_gloss": "to be willing",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1785",
+    "rank": 1785,
+    "display_form": "自助",
+    "lemma": "自助",
+    "generation_form": "自助",
+    "pronunciation": "zìzhù",
+    "pos": "verb",
+    "primary_gloss": "self-service",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1786",
+    "rank": 1786,
+    "display_form": "棕色",
+    "lemma": "棕色",
+    "generation_form": "棕色",
+    "pronunciation": "zōngsè",
+    "pos": "noun",
+    "primary_gloss": "brown color",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1787",
+    "rank": 1787,
+    "display_form": "总裁",
+    "lemma": "总裁",
+    "generation_form": "总裁",
+    "pronunciation": "zǒngcái",
+    "pos": "noun",
+    "primary_gloss": "CEO",
+    "secondary_glosses": [
+      "president"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1788",
+    "rank": 1788,
+    "display_form": "总计",
+    "lemma": "总计",
+    "generation_form": "总计",
+    "pronunciation": "zǒngjì",
+    "pos": "verb",
+    "primary_gloss": "to total",
+    "secondary_glosses": [
+      "to sum up"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1789",
+    "rank": 1789,
+    "display_form": "总理",
+    "lemma": "总理",
+    "generation_form": "总理",
+    "pronunciation": "zǒnglǐ",
+    "pos": "noun",
+    "primary_gloss": "premier",
+    "secondary_glosses": [
+      "prime minister"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1790",
+    "rank": 1790,
+    "display_form": "总算",
+    "lemma": "总算",
+    "generation_form": "总算",
+    "pronunciation": "zǒngsuàn",
+    "pos": "adverb",
+    "primary_gloss": "finally",
+    "secondary_glosses": [
+      "at last"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1791",
+    "rank": 1791,
+    "display_form": "粽子",
+    "lemma": "粽子",
+    "generation_form": "粽子",
+    "pronunciation": "zòngzi",
+    "pos": "noun",
+    "primary_gloss": "zongzi",
+    "secondary_glosses": [
+      "sticky rice dumpling"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1792",
+    "rank": 1792,
+    "display_form": "走廊",
+    "lemma": "走廊",
+    "generation_form": "走廊",
+    "pronunciation": "zǒuláng",
+    "pos": "noun",
+    "primary_gloss": "corridor",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1793",
+    "rank": 1793,
+    "display_form": "足",
+    "lemma": "足",
+    "generation_form": "足",
+    "pronunciation": "zú",
+    "pos": "adjective, adverb",
+    "primary_gloss": "foot",
+    "secondary_glosses": [
+      "sufficient",
+      "sufficiently",
+      "fully"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective, adverb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1794",
+    "rank": 1794,
+    "display_form": "足以",
+    "lemma": "足以",
+    "generation_form": "足以",
+    "pronunciation": "zúyǐ",
+    "pos": "verb",
+    "primary_gloss": "sufficient to",
+    "secondary_glosses": [
+      "enough to"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1795",
+    "rank": 1795,
+    "display_form": "阻碍",
+    "lemma": "阻碍",
+    "generation_form": "阻碍",
+    "pronunciation": "zǔ’ài",
+    "pos": "verb, noun",
+    "primary_gloss": "to hinder",
+    "secondary_glosses": [
+      "to obstruct",
+      "obstacle"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1796",
+    "rank": 1796,
+    "display_form": "阻挡",
+    "lemma": "阻挡",
+    "generation_form": "阻挡",
+    "pronunciation": "zǔdǎng",
+    "pos": "verb",
+    "primary_gloss": "to block",
+    "secondary_glosses": [
+      "to stop"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1797",
+    "rank": 1797,
+    "display_form": "祖国",
+    "lemma": "祖国",
+    "generation_form": "祖国",
+    "pronunciation": "zǔguó",
+    "pos": "noun",
+    "primary_gloss": "motherland",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1798",
+    "rank": 1798,
+    "display_form": "祖先",
+    "lemma": "祖先",
+    "generation_form": "祖先",
+    "pronunciation": "zǔxiān",
+    "pos": "noun",
+    "primary_gloss": "ancestors",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1799",
+    "rank": 1799,
+    "display_form": "钻",
+    "lemma": "钻",
+    "generation_form": "钻",
+    "pronunciation": "zuān",
+    "pos": "verb",
+    "primary_gloss": "to drill",
+    "secondary_glosses": [
+      "to go into"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1800",
+    "rank": 1800,
+    "display_form": "罪",
+    "lemma": "罪",
+    "generation_form": "罪",
+    "pronunciation": "zuì",
+    "pos": "noun",
+    "primary_gloss": "crime",
+    "secondary_glosses": [
+      "guilt"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  }
+]

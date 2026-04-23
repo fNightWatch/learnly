@@ -1,0 +1,350 @@
+[
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0676",
+    "rank": 676,
+    "display_form": "郊外",
+    "lemma": "郊外",
+    "generation_form": "郊外",
+    "pronunciation": "jiāowài",
+    "pos": "noun",
+    "primary_gloss": "suburb",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0677",
+    "rank": 677,
+    "display_form": "角落",
+    "lemma": "角落",
+    "generation_form": "角落",
+    "pronunciation": "jiǎoluò",
+    "pos": "noun",
+    "primary_gloss": "corner",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0678",
+    "rank": 678,
+    "display_form": "脚印",
+    "lemma": "脚印",
+    "generation_form": "脚印",
+    "pronunciation": "jiǎoyìn",
+    "pos": "noun",
+    "primary_gloss": "footprint",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0679",
+    "rank": 679,
+    "display_form": "较为",
+    "lemma": "较为",
+    "generation_form": "较为",
+    "pronunciation": "jiàowéi",
+    "pos": "adverb",
+    "primary_gloss": "relatively",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0680",
+    "rank": 680,
+    "display_form": "教训",
+    "lemma": "教训",
+    "generation_form": "教训",
+    "pronunciation": "jiàoxùn",
+    "pos": "verb, noun",
+    "primary_gloss": "to teach a lesson",
+    "secondary_glosses": [
+      "lesson"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0681",
+    "rank": 681,
+    "display_form": "结",
+    "lemma": "结",
+    "generation_form": "结",
+    "pronunciation": "jiē",
+    "pos": "verb",
+    "primary_gloss": "to bear fruit",
+    "secondary_glosses": [
+      "to produce a result"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0682",
+    "rank": 682,
+    "display_form": "结果",
+    "lemma": "结果",
+    "generation_form": "结果",
+    "pronunciation": "jiēguǒ",
+    "pos": "verb",
+    "primary_gloss": "to tie",
+    "secondary_glosses": [
+      "to knot"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0683",
+    "rank": 683,
+    "display_form": "接连",
+    "lemma": "接连",
+    "generation_form": "接连",
+    "pronunciation": "jiēlián",
+    "pos": "verb, adverb",
+    "primary_gloss": "in a row",
+    "secondary_glosses": [
+      "one after another",
+      "repeatedly"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, adverb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0684",
+    "rank": 684,
+    "display_form": "结实",
+    "lemma": "结实",
+    "generation_form": "结实",
+    "pronunciation": "jiēshi",
+    "pos": "adjective",
+    "primary_gloss": "sturdy",
+    "secondary_glosses": [
+      "strong"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0685",
+    "rank": 685,
+    "display_form": "街头",
+    "lemma": "街头",
+    "generation_form": "街头",
+    "pronunciation": "jiētóu",
+    "pos": "noun",
+    "primary_gloss": "street",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0686",
+    "rank": 686,
+    "display_form": "杰出",
+    "lemma": "杰出",
+    "generation_form": "杰出",
+    "pronunciation": "jiéchū",
+    "pos": "adjective",
+    "primary_gloss": "outstanding",
+    "secondary_glosses": [
+      "prominent"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0687",
+    "rank": 687,
+    "display_form": "节能",
+    "lemma": "节能",
+    "generation_form": "节能",
+    "pronunciation": "jiénéng",
+    "pos": "verb",
+    "primary_gloss": "to save energy",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0688",
+    "rank": 688,
+    "display_form": "结尾",
+    "lemma": "结尾",
+    "generation_form": "结尾",
+    "pronunciation": "jiéwěi",
+    "pos": "verb, noun",
+    "primary_gloss": "to end",
+    "secondary_glosses": [
+      "end"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0689",
+    "rank": 689,
+    "display_form": "截至",
+    "lemma": "截至",
+    "generation_form": "截至",
+    "pronunciation": "jiézhì",
+    "pos": "verb",
+    "primary_gloss": "as of",
+    "secondary_glosses": [
+      "up to"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0690",
+    "rank": 690,
+    "display_form": "截止",
+    "lemma": "截止",
+    "generation_form": "截止",
+    "pronunciation": "jiézhǐ",
+    "pos": "verb",
+    "primary_gloss": "to end",
+    "secondary_glosses": [
+      "to cut off"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0691",
+    "rank": 691,
+    "display_form": "节奏",
+    "lemma": "节奏",
+    "generation_form": "节奏",
+    "pronunciation": "jiézòu",
+    "pos": "noun",
+    "primary_gloss": "rhythm",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0692",
+    "rank": 692,
+    "display_form": "解",
+    "lemma": "解",
+    "generation_form": "解",
+    "pronunciation": "jiě",
+    "pos": "verb",
+    "primary_gloss": "to untie",
+    "secondary_glosses": [
+      "to solve"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0693",
+    "rank": 693,
+    "display_form": "解答",
+    "lemma": "解答",
+    "generation_form": "解答",
+    "pronunciation": "jiědá",
+    "pos": "verb",
+    "primary_gloss": "to answer",
+    "secondary_glosses": [
+      "to explain"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0694",
+    "rank": 694,
+    "display_form": "解读",
+    "lemma": "解读",
+    "generation_form": "解读",
+    "pronunciation": "jiědú",
+    "pos": "verb",
+    "primary_gloss": "to interpret",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0695",
+    "rank": 695,
+    "display_form": "解放",
+    "lemma": "解放",
+    "generation_form": "解放",
+    "pronunciation": "jiěfàng",
+    "pos": "verb",
+    "primary_gloss": "to liberate",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0696",
+    "rank": 696,
+    "display_form": "解说",
+    "lemma": "解说",
+    "generation_form": "解说",
+    "pronunciation": "jiěshuō",
+    "pos": "verb",
+    "primary_gloss": "to explain",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0697",
+    "rank": 697,
+    "display_form": "借鉴",
+    "lemma": "借鉴",
+    "generation_form": "借鉴",
+    "pronunciation": "jièjiàn",
+    "pos": "verb",
+    "primary_gloss": "to draw lessons from",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0698",
+    "rank": 698,
+    "display_form": "戒指",
+    "lemma": "戒指",
+    "generation_form": "戒指",
+    "pronunciation": "jièzhi",
+    "pos": "noun",
+    "primary_gloss": "ring",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0699",
+    "rank": 699,
+    "display_form": "借助",
+    "lemma": "借助",
+    "generation_form": "借助",
+    "pronunciation": "jièzhù",
+    "pos": "verb",
+    "primary_gloss": "to use as a means",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0700",
+    "rank": 700,
+    "display_form": "金额",
+    "lemma": "金额",
+    "generation_form": "金额",
+    "pronunciation": "jīn’é",
+    "pos": "noun",
+    "primary_gloss": "amount of money",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  }
+]

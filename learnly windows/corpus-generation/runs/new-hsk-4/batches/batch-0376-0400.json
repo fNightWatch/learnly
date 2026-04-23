@@ -1,0 +1,396 @@
+[
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0376",
+    "rank": 376,
+    "display_form": "教学",
+    "lemma": "教学",
+    "generation_form": "教学",
+    "pronunciation": "jiàoxué",
+    "pos": "noun",
+    "primary_gloss": "teach",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0377",
+    "rank": 377,
+    "display_form": "教育",
+    "lemma": "教育",
+    "generation_form": "教育",
+    "pronunciation": "jiàoyù",
+    "pos": "noun, verb",
+    "primary_gloss": "education",
+    "secondary_glosses": [
+      "to educate"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0378",
+    "rank": 378,
+    "display_form": "叫作",
+    "lemma": "叫作",
+    "generation_form": "叫作",
+    "pronunciation": "jiàozuò",
+    "pos": "verb",
+    "primary_gloss": "be called",
+    "secondary_glosses": [
+      "be known as"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0379",
+    "rank": 379,
+    "display_form": "街道",
+    "lemma": "街道",
+    "generation_form": "街道",
+    "pronunciation": "jiēdào",
+    "pos": "noun",
+    "primary_gloss": "street",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0380",
+    "rank": 380,
+    "display_form": "接受",
+    "lemma": "接受",
+    "generation_form": "接受",
+    "pronunciation": "jiēshòu",
+    "pos": "verb",
+    "primary_gloss": "accept",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0381",
+    "rank": 381,
+    "display_form": "接着",
+    "lemma": "接着",
+    "generation_form": "接着",
+    "pronunciation": "jiēzhe",
+    "pos": "verb, adverb",
+    "primary_gloss": "to continue",
+    "secondary_glosses": [
+      "to follow",
+      "to catch",
+      "then",
+      "next",
+      "subsequently"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, adverb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0382",
+    "rank": 382,
+    "display_form": "结果",
+    "lemma": "结果",
+    "generation_form": "结果",
+    "pronunciation": "jiéguǒ",
+    "pos": "noun, conjunction",
+    "primary_gloss": "result",
+    "secondary_glosses": [
+      "outcome",
+      "consequence",
+      "as a result",
+      "consequently",
+      "in the end"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, conjunction."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0383",
+    "rank": 383,
+    "display_form": "节假日",
+    "lemma": "节假日",
+    "generation_form": "节假日",
+    "pronunciation": "jiéjiàrì",
+    "pos": "noun",
+    "primary_gloss": "festivals and holidays",
+    "secondary_glosses": [
+      "holiday season"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0384",
+    "rank": 384,
+    "display_form": "节约",
+    "lemma": "节约",
+    "generation_form": "节约",
+    "pronunciation": "jiéyuē",
+    "pos": "verb",
+    "primary_gloss": "to save",
+    "secondary_glosses": [
+      "to economize",
+      "to conserve"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0385",
+    "rank": 385,
+    "display_form": "结账",
+    "lemma": "结账",
+    "generation_form": "结账",
+    "pronunciation": "jiézhàng",
+    "pos": "verb",
+    "primary_gloss": "to pay the bill",
+    "secondary_glosses": [
+      "to settle an account",
+      "to check out"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0386",
+    "rank": 386,
+    "display_form": "解释",
+    "lemma": "解释",
+    "generation_form": "解释",
+    "pronunciation": "jiěshì",
+    "pos": "verb",
+    "primary_gloss": "to explain",
+    "secondary_glosses": [
+      "to interpret",
+      "to account for"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0387",
+    "rank": 387,
+    "display_form": "今后",
+    "lemma": "今后",
+    "generation_form": "今后",
+    "pronunciation": "jīnhòu",
+    "pos": "noun",
+    "primary_gloss": "from now on",
+    "secondary_glosses": [
+      "in the future",
+      "henceforth"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0388",
+    "rank": 388,
+    "display_form": "仅",
+    "lemma": "仅",
+    "generation_form": "仅",
+    "pronunciation": "jǐn",
+    "pos": "adverb",
+    "primary_gloss": "only",
+    "secondary_glosses": [
+      "merely",
+      "solely"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0389",
+    "rank": 389,
+    "display_form": "尽管",
+    "lemma": "尽管",
+    "generation_form": "尽管",
+    "pronunciation": "jǐnguǎn",
+    "pos": "adverb, conjunction",
+    "primary_gloss": "feel free to",
+    "secondary_glosses": [
+      "not hesitate to (often in the pattern 尽管 + verb)",
+      "although",
+      "even though",
+      "despite"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb, conjunction."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0390",
+    "rank": 390,
+    "display_form": "仅仅",
+    "lemma": "仅仅",
+    "generation_form": "仅仅",
+    "pronunciation": "jǐnjǐn",
+    "pos": "adverb",
+    "primary_gloss": "only",
+    "secondary_glosses": [
+      "merely",
+      "barely",
+      "simply"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0391",
+    "rank": 391,
+    "display_form": "紧张",
+    "lemma": "紧张",
+    "generation_form": "紧张",
+    "pronunciation": "jǐnzhāng",
+    "pos": "adjective",
+    "primary_gloss": "nervous",
+    "secondary_glosses": [
+      "tense",
+      "strained",
+      "in short supply"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0392",
+    "rank": 392,
+    "display_form": "进入",
+    "lemma": "进入",
+    "generation_form": "进入",
+    "pronunciation": "jìnrù",
+    "pos": "verb",
+    "primary_gloss": "to enter",
+    "secondary_glosses": [
+      "to access",
+      "to be admitted to"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0393",
+    "rank": 393,
+    "display_form": "进行",
+    "lemma": "进行",
+    "generation_form": "进行",
+    "pronunciation": "jìnxíng",
+    "pos": "verb",
+    "primary_gloss": "to carry out",
+    "secondary_glosses": [
+      "to conduct",
+      "to proceed with",
+      "to undertake"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0394",
+    "rank": 394,
+    "display_form": "禁止",
+    "lemma": "禁止",
+    "generation_form": "禁止",
+    "pronunciation": "jìnzhǐ",
+    "pos": "verb",
+    "primary_gloss": "to prohibit",
+    "secondary_glosses": [
+      "to forbid",
+      "to ban"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0395",
+    "rank": 395,
+    "display_form": "精彩",
+    "lemma": "精彩",
+    "generation_form": "精彩",
+    "pronunciation": "jīngcǎi",
+    "pos": "adjective",
+    "primary_gloss": "brilliant",
+    "secondary_glosses": [
+      "splendid",
+      "wonderful",
+      "exciting"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0396",
+    "rank": 396,
+    "display_form": "经济",
+    "lemma": "经济",
+    "generation_form": "经济",
+    "pronunciation": "jīngjì",
+    "pos": "noun, adjective",
+    "primary_gloss": "economy",
+    "secondary_glosses": [
+      "economics",
+      "economical",
+      "affordable"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0397",
+    "rank": 397,
+    "display_form": "京剧",
+    "lemma": "京剧",
+    "generation_form": "京剧",
+    "pronunciation": "jīngjù",
+    "pos": "noun",
+    "primary_gloss": "Beijing opera",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0398",
+    "rank": 398,
+    "display_form": "经历",
+    "lemma": "经历",
+    "generation_form": "经历",
+    "pronunciation": "jīnglì",
+    "pos": "verb, noun",
+    "primary_gloss": "to experience",
+    "secondary_glosses": [
+      "to go through",
+      "experience",
+      "past",
+      "history"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0399",
+    "rank": 399,
+    "display_form": "经验",
+    "lemma": "经验",
+    "generation_form": "经验",
+    "pronunciation": "jīngyàn",
+    "pos": "noun",
+    "primary_gloss": "experience",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0400",
+    "rank": 400,
+    "display_form": "警察",
+    "lemma": "警察",
+    "generation_form": "警察",
+    "pronunciation": "jǐngchá",
+    "pos": "noun",
+    "primary_gloss": "police",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  }
+]

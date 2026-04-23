@@ -1,0 +1,383 @@
+[
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0451",
+    "rank": 451,
+    "display_form": "来得及",
+    "lemma": "来得及",
+    "generation_form": "来得及",
+    "pronunciation": "láidejí",
+    "pos": "verb",
+    "primary_gloss": "there's still time",
+    "secondary_glosses": [
+      "can make it in time"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0452",
+    "rank": 452,
+    "display_form": "懒",
+    "lemma": "懒",
+    "generation_form": "懒",
+    "pronunciation": "lǎn",
+    "pos": "adjective",
+    "primary_gloss": "lazy",
+    "secondary_glosses": [
+      "idle"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0453",
+    "rank": 453,
+    "display_form": "浪费",
+    "lemma": "浪费",
+    "generation_form": "浪费",
+    "pronunciation": "làngfèi",
+    "pos": "verb",
+    "primary_gloss": "to waste",
+    "secondary_glosses": [
+      "to squander"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0454",
+    "rank": 454,
+    "display_form": "浪漫",
+    "lemma": "浪漫",
+    "generation_form": "浪漫",
+    "pronunciation": "làngmàn",
+    "pos": "adjective",
+    "primary_gloss": "romantic",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0455",
+    "rank": 455,
+    "display_form": "老虎",
+    "lemma": "老虎",
+    "generation_form": "老虎",
+    "pronunciation": "lǎohǔ",
+    "pos": "noun",
+    "primary_gloss": "tiger",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0456",
+    "rank": 456,
+    "display_form": "老家",
+    "lemma": "老家",
+    "generation_form": "老家",
+    "pronunciation": "lǎojiā",
+    "pos": "noun",
+    "primary_gloss": "hometown",
+    "secondary_glosses": [
+      "home state"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0457",
+    "rank": 457,
+    "display_form": "老年",
+    "lemma": "老年",
+    "generation_form": "老年",
+    "pronunciation": "lǎonián",
+    "pos": "noun",
+    "primary_gloss": "elderly",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0458",
+    "rank": 458,
+    "display_form": "老是",
+    "lemma": "老是",
+    "generation_form": "老是",
+    "pronunciation": "lǎoshì",
+    "pos": "adverb",
+    "primary_gloss": "always",
+    "secondary_glosses": [
+      "constantly"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0459",
+    "rank": 459,
+    "display_form": "冷静",
+    "lemma": "冷静",
+    "generation_form": "冷静",
+    "pronunciation": "lěngjìng",
+    "pos": "adjective",
+    "primary_gloss": "calm",
+    "secondary_glosses": [
+      "cool-headed"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0460",
+    "rank": 460,
+    "display_form": "理发",
+    "lemma": "理发",
+    "generation_form": "理发",
+    "pronunciation": "lǐfà",
+    "pos": "verb",
+    "primary_gloss": "to have a haircut",
+    "secondary_glosses": [
+      "to cut hair"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0461",
+    "rank": 461,
+    "display_form": "理解",
+    "lemma": "理解",
+    "generation_form": "理解",
+    "pronunciation": "lǐjiě",
+    "pos": "verb",
+    "primary_gloss": "to understand",
+    "secondary_glosses": [
+      "to comprehend"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0462",
+    "rank": 462,
+    "display_form": "礼貌",
+    "lemma": "礼貌",
+    "generation_form": "礼貌",
+    "pronunciation": "lǐmào",
+    "pos": "noun, adjective",
+    "primary_gloss": "courtesy",
+    "secondary_glosses": [
+      "politeness",
+      "polite"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0463",
+    "rank": 463,
+    "display_form": "理想",
+    "lemma": "理想",
+    "generation_form": "理想",
+    "pronunciation": "lǐxiǎng",
+    "pos": "noun, adjective",
+    "primary_gloss": "ideal",
+    "secondary_glosses": [
+      "dream",
+      "ideal"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0464",
+    "rank": 464,
+    "display_form": "厉害",
+    "lemma": "厉害",
+    "generation_form": "厉害",
+    "pronunciation": "lìhai",
+    "pos": "adjective",
+    "primary_gloss": "severe",
+    "secondary_glosses": [
+      "fierce",
+      "impressive",
+      "excellent"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0465",
+    "rank": 465,
+    "display_form": "力气",
+    "lemma": "力气",
+    "generation_form": "力气",
+    "pronunciation": "lìqi",
+    "pos": "noun",
+    "primary_gloss": "strength",
+    "secondary_glosses": [
+      "physical power"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0466",
+    "rank": 466,
+    "display_form": "例如",
+    "lemma": "例如",
+    "generation_form": "例如",
+    "pronunciation": "lìrú",
+    "pos": "verb",
+    "primary_gloss": "for example",
+    "secondary_glosses": [
+      "such as"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0467",
+    "rank": 467,
+    "display_form": "例子",
+    "lemma": "例子",
+    "generation_form": "例子",
+    "pronunciation": "lìzi",
+    "pos": "noun",
+    "primary_gloss": "example",
+    "secondary_glosses": [
+      "instance"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0468",
+    "rank": 468,
+    "display_form": "俩",
+    "lemma": "俩",
+    "generation_form": "俩",
+    "pronunciation": "liǎ",
+    "pos": "number-classifier",
+    "primary_gloss": "two",
+    "secondary_glosses": [
+      "both"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as number-classifier."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0469",
+    "rank": 469,
+    "display_form": "连",
+    "lemma": "连",
+    "generation_form": "连",
+    "pronunciation": "lián",
+    "pos": "preposition, verb, adverb",
+    "primary_gloss": "used to introduce the object of a verb",
+    "secondary_glosses": [
+      "linking",
+      "(even",
+      "including)",
+      "(to connect",
+      "to link)"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as preposition, verb, adverb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0470",
+    "rank": 470,
+    "display_form": "联系",
+    "lemma": "联系",
+    "generation_form": "联系",
+    "pronunciation": "liánxì",
+    "pos": "verb",
+    "primary_gloss": "to contact",
+    "secondary_glosses": [
+      "to connect"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0471",
+    "rank": 471,
+    "display_form": "凉",
+    "lemma": "凉",
+    "generation_form": "凉",
+    "pronunciation": "liáng",
+    "pos": "adjective",
+    "primary_gloss": "cool",
+    "secondary_glosses": [
+      "cold"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0472",
+    "rank": 472,
+    "display_form": "量",
+    "lemma": "量",
+    "generation_form": "量",
+    "pronunciation": "liáng",
+    "pos": "verb",
+    "primary_gloss": "to measure",
+    "secondary_glosses": [
+      "to weigh"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0473",
+    "rank": 473,
+    "display_form": "两",
+    "lemma": "两",
+    "generation_form": "两",
+    "pronunciation": "liǎng",
+    "pos": "measure word",
+    "primary_gloss": "measure word for vehicles",
+    "secondary_glosses": [
+      "animals",
+      "etc."
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as measure word."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0474",
+    "rank": 474,
+    "display_form": "亮",
+    "lemma": "亮",
+    "generation_form": "亮",
+    "pronunciation": "liàng",
+    "pos": "adjective, verb",
+    "primary_gloss": "bright",
+    "secondary_glosses": [
+      "light",
+      "to shine",
+      "to show"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective, verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0475",
+    "rank": 475,
+    "display_form": "列",
+    "lemma": "列",
+    "generation_form": "列",
+    "pronunciation": "liè",
+    "pos": "verb, measure word",
+    "primary_gloss": "to arrange in a row",
+    "secondary_glosses": [
+      "to list",
+      "measure word for rows or lines"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, measure word."
+  }
+]

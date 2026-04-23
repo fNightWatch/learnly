@@ -1,0 +1,716 @@
+[
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1551",
+    "rank": 1551,
+    "display_form": "住宿",
+    "lemma": "住宿",
+    "generation_form": "住宿",
+    "pronunciation": "zhùsù",
+    "pos": "verb",
+    "primary_gloss": "to stay",
+    "secondary_glosses": [
+      "to lodge"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1552",
+    "rank": 1552,
+    "display_form": "住址",
+    "lemma": "住址",
+    "generation_form": "住址",
+    "pronunciation": "zhùzhǐ",
+    "pos": "noun",
+    "primary_gloss": "address",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1553",
+    "rank": 1553,
+    "display_form": "注重",
+    "lemma": "注重",
+    "generation_form": "注重",
+    "pronunciation": "zhùzhòng",
+    "pos": "verb",
+    "primary_gloss": "to pay attention to",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1554",
+    "rank": 1554,
+    "display_form": "抓",
+    "lemma": "抓",
+    "generation_form": "抓",
+    "pronunciation": "zhuā",
+    "pos": "verb",
+    "primary_gloss": "to grab",
+    "secondary_glosses": [
+      "to catch"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1555",
+    "rank": 1555,
+    "display_form": "抓紧",
+    "lemma": "抓紧",
+    "generation_form": "抓紧",
+    "pronunciation": "zhuājǐn",
+    "pos": "verb",
+    "primary_gloss": "to grasp firmly",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1556",
+    "rank": 1556,
+    "display_form": "专家",
+    "lemma": "专家",
+    "generation_form": "专家",
+    "pronunciation": "zhuānjiā",
+    "pos": "noun",
+    "primary_gloss": "expert",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1557",
+    "rank": 1557,
+    "display_form": "专心",
+    "lemma": "专心",
+    "generation_form": "专心",
+    "pronunciation": "zhuānxīn",
+    "pos": "adjective",
+    "primary_gloss": "concentrated",
+    "secondary_glosses": [
+      "attentive"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1558",
+    "rank": 1558,
+    "display_form": "转变",
+    "lemma": "转变",
+    "generation_form": "转变",
+    "pronunciation": "zhuǎnbiàn",
+    "pos": "verb",
+    "primary_gloss": "to change",
+    "secondary_glosses": [
+      "to transform"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1559",
+    "rank": 1559,
+    "display_form": "转告",
+    "lemma": "转告",
+    "generation_form": "转告",
+    "pronunciation": "zhuǎngào",
+    "pos": "verb",
+    "primary_gloss": "to pass on a message",
+    "secondary_glosses": [
+      "to relay"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1560",
+    "rank": 1560,
+    "display_form": "装饰",
+    "lemma": "装饰",
+    "generation_form": "装饰",
+    "pronunciation": "zhuāngshì",
+    "pos": "verb, noun",
+    "primary_gloss": "to decorate",
+    "secondary_glosses": [
+      "decoration"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1561",
+    "rank": 1561,
+    "display_form": "装修",
+    "lemma": "装修",
+    "generation_form": "装修",
+    "pronunciation": "zhuāngxiū",
+    "pos": "verb",
+    "primary_gloss": "to renovate",
+    "secondary_glosses": [
+      "to decorate"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1562",
+    "rank": 1562,
+    "display_form": "撞",
+    "lemma": "撞",
+    "generation_form": "撞",
+    "pronunciation": "zhuàng",
+    "pos": "verb",
+    "primary_gloss": "to bump",
+    "secondary_glosses": [
+      "to collide"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1563",
+    "rank": 1563,
+    "display_form": "状况",
+    "lemma": "状况",
+    "generation_form": "状况",
+    "pronunciation": "zhuàngkuàng",
+    "pos": "noun",
+    "primary_gloss": "condition",
+    "secondary_glosses": [
+      "situation"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1564",
+    "rank": 1564,
+    "display_form": "状态",
+    "lemma": "状态",
+    "generation_form": "状态",
+    "pronunciation": "zhuàngtài",
+    "pos": "noun",
+    "primary_gloss": "state",
+    "secondary_glosses": [
+      "condition"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1565",
+    "rank": 1565,
+    "display_form": "追",
+    "lemma": "追",
+    "generation_form": "追",
+    "pronunciation": "zhuī",
+    "pos": "verb",
+    "primary_gloss": "to chase",
+    "secondary_glosses": [
+      "to pursue"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1566",
+    "rank": 1566,
+    "display_form": "追求",
+    "lemma": "追求",
+    "generation_form": "追求",
+    "pronunciation": "zhuīqiú",
+    "pos": "verb",
+    "primary_gloss": "to pursue",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1567",
+    "rank": 1567,
+    "display_form": "资格",
+    "lemma": "资格",
+    "generation_form": "资格",
+    "pronunciation": "zīgé",
+    "pos": "noun",
+    "primary_gloss": "qualification",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1568",
+    "rank": 1568,
+    "display_form": "资金",
+    "lemma": "资金",
+    "generation_form": "资金",
+    "pronunciation": "zījīn",
+    "pos": "noun",
+    "primary_gloss": "funds",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1569",
+    "rank": 1569,
+    "display_form": "姿势",
+    "lemma": "姿势",
+    "generation_form": "姿势",
+    "pronunciation": "zīshì",
+    "pos": "noun",
+    "primary_gloss": "posture",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1570",
+    "rank": 1570,
+    "display_form": "咨询",
+    "lemma": "咨询",
+    "generation_form": "咨询",
+    "pronunciation": "zīxún",
+    "pos": "verb",
+    "primary_gloss": "to consult",
+    "secondary_glosses": [
+      "to seek advice"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1571",
+    "rank": 1571,
+    "display_form": "资源",
+    "lemma": "资源",
+    "generation_form": "资源",
+    "pronunciation": "zīyuán",
+    "pos": "noun",
+    "primary_gloss": "resources",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1572",
+    "rank": 1572,
+    "display_form": "紫",
+    "lemma": "紫",
+    "generation_form": "紫",
+    "pronunciation": "zǐ",
+    "pos": "adjective",
+    "primary_gloss": "purple",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1573",
+    "rank": 1573,
+    "display_form": "子女",
+    "lemma": "子女",
+    "generation_form": "子女",
+    "pronunciation": "zǐnǚ",
+    "pos": "noun",
+    "primary_gloss": "children",
+    "secondary_glosses": [
+      "sons and daughters"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1574",
+    "rank": 1574,
+    "display_form": "自从",
+    "lemma": "自从",
+    "generation_form": "自从",
+    "pronunciation": "zìcóng",
+    "pos": "preposition",
+    "primary_gloss": "since",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as preposition."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1575",
+    "rank": 1575,
+    "display_form": "自动",
+    "lemma": "自动",
+    "generation_form": "自动",
+    "pronunciation": "zìdòng",
+    "pos": "adverb, adjective",
+    "primary_gloss": "automatically",
+    "secondary_glosses": [
+      "automatic"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb, adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1576",
+    "rank": 1576,
+    "display_form": "自觉",
+    "lemma": "自觉",
+    "generation_form": "自觉",
+    "pronunciation": "zìjué",
+    "pos": "verb, adjective",
+    "primary_gloss": "to be aware",
+    "secondary_glosses": [
+      "to act on one's own",
+      "conscious"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1577",
+    "rank": 1577,
+    "display_form": "字母",
+    "lemma": "字母",
+    "generation_form": "字母",
+    "pronunciation": "zìmǔ",
+    "pos": "noun",
+    "primary_gloss": "alphabet letter",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1578",
+    "rank": 1578,
+    "display_form": "自身",
+    "lemma": "自身",
+    "generation_form": "自身",
+    "pronunciation": "zìshēn",
+    "pos": "noun",
+    "primary_gloss": "oneself",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1579",
+    "rank": 1579,
+    "display_form": "自由",
+    "lemma": "自由",
+    "generation_form": "自由",
+    "pronunciation": "zìyóu",
+    "pos": "adjective, noun",
+    "primary_gloss": "free",
+    "secondary_glosses": [
+      "freedom"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective, noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1580",
+    "rank": 1580,
+    "display_form": "综合",
+    "lemma": "综合",
+    "generation_form": "综合",
+    "pronunciation": "zōnghé",
+    "pos": "verb",
+    "primary_gloss": "to synthesize",
+    "secondary_glosses": [
+      "to sum up"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1581",
+    "rank": 1581,
+    "display_form": "总部",
+    "lemma": "总部",
+    "generation_form": "总部",
+    "pronunciation": "zǒngbù",
+    "pos": "noun",
+    "primary_gloss": "headquarters",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1582",
+    "rank": 1582,
+    "display_form": "总共",
+    "lemma": "总共",
+    "generation_form": "总共",
+    "pronunciation": "zǒnggòng",
+    "pos": "adverb",
+    "primary_gloss": "in total",
+    "secondary_glosses": [
+      "altogether"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1583",
+    "rank": 1583,
+    "display_form": "总数",
+    "lemma": "总数",
+    "generation_form": "总数",
+    "pronunciation": "zǒngshù",
+    "pos": "noun",
+    "primary_gloss": "total",
+    "secondary_glosses": [
+      "sum"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1584",
+    "rank": 1584,
+    "display_form": "总体",
+    "lemma": "总体",
+    "generation_form": "总体",
+    "pronunciation": "zǒngtǐ",
+    "pos": "noun",
+    "primary_gloss": "overall",
+    "secondary_glosses": [
+      "general"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1585",
+    "rank": 1585,
+    "display_form": "总统",
+    "lemma": "总统",
+    "generation_form": "总统",
+    "pronunciation": "zǒngtǒng",
+    "pos": "noun",
+    "primary_gloss": "president",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1586",
+    "rank": 1586,
+    "display_form": "总之",
+    "lemma": "总之",
+    "generation_form": "总之",
+    "pronunciation": "zǒngzhī",
+    "pos": "conjunction",
+    "primary_gloss": "in short",
+    "secondary_glosses": [
+      "in brief"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as conjunction."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1587",
+    "rank": 1587,
+    "display_form": "租金",
+    "lemma": "租金",
+    "generation_form": "租金",
+    "pronunciation": "zūjīn",
+    "pos": "noun",
+    "primary_gloss": "rent",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1588",
+    "rank": 1588,
+    "display_form": "族",
+    "lemma": "族",
+    "generation_form": "族",
+    "pronunciation": "zú",
+    "pos": "suffix",
+    "primary_gloss": "suffix meaning ethnic group",
+    "secondary_glosses": [
+      "race"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as suffix."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1589",
+    "rank": 1589,
+    "display_form": "足够",
+    "lemma": "足够",
+    "generation_form": "足够",
+    "pronunciation": "zúgòu",
+    "pos": "verb",
+    "primary_gloss": "sufficient",
+    "secondary_glosses": [
+      "enough",
+      "to be sufficient"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1590",
+    "rank": 1590,
+    "display_form": "组成",
+    "lemma": "组成",
+    "generation_form": "组成",
+    "pronunciation": "zǔchéng",
+    "pos": "verb",
+    "primary_gloss": "to form",
+    "secondary_glosses": [
+      "to compose"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1591",
+    "rank": 1591,
+    "display_form": "组合",
+    "lemma": "组合",
+    "generation_form": "组合",
+    "pronunciation": "zǔhé",
+    "pos": "verb, noun",
+    "primary_gloss": "to combine",
+    "secondary_glosses": [
+      "combination"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1592",
+    "rank": 1592,
+    "display_form": "阻止",
+    "lemma": "阻止",
+    "generation_form": "阻止",
+    "pronunciation": "zǔzhǐ",
+    "pos": "verb",
+    "primary_gloss": "to prevent",
+    "secondary_glosses": [
+      "to stop"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1593",
+    "rank": 1593,
+    "display_form": "组织",
+    "lemma": "组织",
+    "generation_form": "组织",
+    "pronunciation": "zǔzhī",
+    "pos": "verb, noun",
+    "primary_gloss": "to organize",
+    "secondary_glosses": [
+      "organization"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1594",
+    "rank": 1594,
+    "display_form": "嘴巴",
+    "lemma": "嘴巴",
+    "generation_form": "嘴巴",
+    "pronunciation": "zuǐba",
+    "pos": "noun",
+    "primary_gloss": "mouth",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1595",
+    "rank": 1595,
+    "display_form": "醉",
+    "lemma": "醉",
+    "generation_form": "醉",
+    "pronunciation": "zuì",
+    "pos": "verb",
+    "primary_gloss": "to be drunk",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1596",
+    "rank": 1596,
+    "display_form": "最初",
+    "lemma": "最初",
+    "generation_form": "最初",
+    "pronunciation": "zuìchū",
+    "pos": "noun",
+    "primary_gloss": "at first",
+    "secondary_glosses": [
+      "initially"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1597",
+    "rank": 1597,
+    "display_form": "最佳",
+    "lemma": "最佳",
+    "generation_form": "最佳",
+    "pronunciation": "zuìjiā",
+    "pos": "adjective",
+    "primary_gloss": "best",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1598",
+    "rank": 1598,
+    "display_form": "尊敬",
+    "lemma": "尊敬",
+    "generation_form": "尊敬",
+    "pronunciation": "zūnjìng",
+    "pos": "verb, adjective",
+    "primary_gloss": "to respect",
+    "secondary_glosses": [
+      "respectful"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1599",
+    "rank": 1599,
+    "display_form": "遵守",
+    "lemma": "遵守",
+    "generation_form": "遵守",
+    "pronunciation": "zūnshǒu",
+    "pos": "verb",
+    "primary_gloss": "to obey",
+    "secondary_glosses": [
+      "to abide by"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1600",
+    "rank": 1600,
+    "display_form": "作出",
+    "lemma": "作出",
+    "generation_form": "作出",
+    "pronunciation": "zuòchū",
+    "pos": "verb",
+    "primary_gloss": "to put forward",
+    "secondary_glosses": [
+      "to make a decision"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  }
+]

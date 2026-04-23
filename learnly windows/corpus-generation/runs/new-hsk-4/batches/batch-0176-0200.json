@@ -1,0 +1,360 @@
+[
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0176",
+    "rank": 176,
+    "display_form": "对于",
+    "lemma": "对于",
+    "generation_form": "对于",
+    "pronunciation": "duìyú",
+    "pos": "preposition",
+    "primary_gloss": "regarding",
+    "secondary_glosses": [
+      "concerning"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as preposition."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0177",
+    "rank": 177,
+    "display_form": "队员",
+    "lemma": "队员",
+    "generation_form": "队员",
+    "pronunciation": "duìyuán",
+    "pos": "noun",
+    "primary_gloss": "team member",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0178",
+    "rank": 178,
+    "display_form": "队长",
+    "lemma": "队长",
+    "generation_form": "队长",
+    "pronunciation": "duìzhǎng",
+    "pos": "noun",
+    "primary_gloss": "team leader",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0179",
+    "rank": 179,
+    "display_form": "顿",
+    "lemma": "顿",
+    "generation_form": "顿",
+    "pronunciation": "dùn",
+    "pos": "measure word, verb",
+    "primary_gloss": "measure word for meals",
+    "secondary_glosses": [
+      "scolding",
+      "(to pause)"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as measure word, verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0180",
+    "rank": 180,
+    "display_form": "多么",
+    "lemma": "多么",
+    "generation_form": "多么",
+    "pronunciation": "duōme",
+    "pos": "adverb",
+    "primary_gloss": "how",
+    "secondary_glosses": [
+      "so",
+      "what"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0181",
+    "rank": 181,
+    "display_form": "多数",
+    "lemma": "多数",
+    "generation_form": "多数",
+    "pronunciation": "duōshù",
+    "pos": "noun",
+    "primary_gloss": "majority",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0182",
+    "rank": 182,
+    "display_form": "多样",
+    "lemma": "多样",
+    "generation_form": "多样",
+    "pronunciation": "duōyàng",
+    "pos": "adjective",
+    "primary_gloss": "diverse",
+    "secondary_glosses": [
+      "varied"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0183",
+    "rank": 183,
+    "display_form": "而",
+    "lemma": "而",
+    "generation_form": "而",
+    "pronunciation": "ér",
+    "pos": "conjunction",
+    "primary_gloss": "but",
+    "secondary_glosses": [
+      "and",
+      "yet"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as conjunction."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0184",
+    "rank": 184,
+    "display_form": "儿童",
+    "lemma": "儿童",
+    "generation_form": "儿童",
+    "pronunciation": "értóng",
+    "pos": "noun",
+    "primary_gloss": "child",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0185",
+    "rank": 185,
+    "display_form": "发出",
+    "lemma": "发出",
+    "generation_form": "发出",
+    "pronunciation": "fāchū",
+    "pos": "verb",
+    "primary_gloss": "to send out",
+    "secondary_glosses": [
+      "to issue"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0186",
+    "rank": 186,
+    "display_form": "发送",
+    "lemma": "发送",
+    "generation_form": "发送",
+    "pronunciation": "fāsòng",
+    "pos": "verb",
+    "primary_gloss": "to send",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0187",
+    "rank": 187,
+    "display_form": "法",
+    "lemma": "法",
+    "generation_form": "法",
+    "pronunciation": "fǎ",
+    "pos": "noun",
+    "primary_gloss": "law",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0188",
+    "rank": 188,
+    "display_form": "法律",
+    "lemma": "法律",
+    "generation_form": "法律",
+    "pronunciation": "fǎlǜ",
+    "pos": "noun",
+    "primary_gloss": "law",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0189",
+    "rank": 189,
+    "display_form": "翻译",
+    "lemma": "翻译",
+    "generation_form": "翻译",
+    "pronunciation": "fānyì",
+    "pos": "verb, noun",
+    "primary_gloss": "to translate",
+    "secondary_glosses": [
+      "translation"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0190",
+    "rank": 190,
+    "display_form": "烦",
+    "lemma": "烦",
+    "generation_form": "烦",
+    "pronunciation": "fán",
+    "pos": "adjective, verb",
+    "primary_gloss": "annoyed",
+    "secondary_glosses": [
+      "vexed",
+      "to bother"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective, verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0191",
+    "rank": 191,
+    "display_form": "烦恼",
+    "lemma": "烦恼",
+    "generation_form": "烦恼",
+    "pronunciation": "fánnǎo",
+    "pos": "adjective",
+    "primary_gloss": "worried",
+    "secondary_glosses": [
+      "distressed"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0192",
+    "rank": 192,
+    "display_form": "反对",
+    "lemma": "反对",
+    "generation_form": "反对",
+    "pronunciation": "fǎnduì",
+    "pos": "verb",
+    "primary_gloss": "to oppose",
+    "secondary_glosses": [
+      "to be against"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0193",
+    "rank": 193,
+    "display_form": "方面",
+    "lemma": "方面",
+    "generation_form": "方面",
+    "pronunciation": "fāngmiàn",
+    "pos": "noun",
+    "primary_gloss": "aspect",
+    "secondary_glosses": [
+      "side"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0194",
+    "rank": 194,
+    "display_form": "方式",
+    "lemma": "方式",
+    "generation_form": "方式",
+    "pronunciation": "fāngshì",
+    "pos": "noun",
+    "primary_gloss": "way",
+    "secondary_glosses": [
+      "method"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0195",
+    "rank": 195,
+    "display_form": "房东",
+    "lemma": "房东",
+    "generation_form": "房东",
+    "pronunciation": "fángdōng",
+    "pos": "noun",
+    "primary_gloss": "landlord",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0196",
+    "rank": 196,
+    "display_form": "房租",
+    "lemma": "房租",
+    "generation_form": "房租",
+    "pronunciation": "fángzū",
+    "pos": "noun",
+    "primary_gloss": "rent",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0197",
+    "rank": 197,
+    "display_form": "放弃",
+    "lemma": "放弃",
+    "generation_form": "放弃",
+    "pronunciation": "fàngqì",
+    "pos": "verb",
+    "primary_gloss": "to give up",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0198",
+    "rank": 198,
+    "display_form": "放松",
+    "lemma": "放松",
+    "generation_form": "放松",
+    "pronunciation": "fàngsōng",
+    "pos": "verb",
+    "primary_gloss": "to relax",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0199",
+    "rank": 199,
+    "display_form": "费",
+    "lemma": "费",
+    "generation_form": "费",
+    "pronunciation": "fèi",
+    "pos": "noun, verb",
+    "primary_gloss": "fee",
+    "secondary_glosses": [
+      "expense",
+      "to spend"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, verb."
+  },
+  {
+    "dataset_id": "new-hsk-4-words",
+    "word_id": "new-hsk-4-0200",
+    "rank": 200,
+    "display_form": "费用",
+    "lemma": "费用",
+    "generation_form": "费用",
+    "pronunciation": "fèiyong",
+    "pos": "noun",
+    "primary_gloss": "cost",
+    "secondary_glosses": [
+      "expense"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  }
+]

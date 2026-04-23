@@ -1,0 +1,707 @@
+[
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0951",
+    "rank": 951,
+    "display_form": "山区",
+    "lemma": "山区",
+    "generation_form": "山区",
+    "pronunciation": "shānqū",
+    "pos": "noun",
+    "primary_gloss": "mountain area",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0952",
+    "rank": 952,
+    "display_form": "擅长",
+    "lemma": "擅长",
+    "generation_form": "擅长",
+    "pronunciation": "shàncháng",
+    "pos": "verb",
+    "primary_gloss": "to be good at",
+    "secondary_glosses": [
+      "to be skilled in"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0953",
+    "rank": 953,
+    "display_form": "善良",
+    "lemma": "善良",
+    "generation_form": "善良",
+    "pronunciation": "shànliáng",
+    "pos": "adjective",
+    "primary_gloss": "kind",
+    "secondary_glosses": [
+      "virtuous"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0954",
+    "rank": 954,
+    "display_form": "善于",
+    "lemma": "善于",
+    "generation_form": "善于",
+    "pronunciation": "shànyú",
+    "pos": "verb",
+    "primary_gloss": "to be good at",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0955",
+    "rank": 955,
+    "display_form": "扇子",
+    "lemma": "扇子",
+    "generation_form": "扇子",
+    "pronunciation": "shànzi",
+    "pos": "noun",
+    "primary_gloss": "fan",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0956",
+    "rank": 956,
+    "display_form": "伤",
+    "lemma": "伤",
+    "generation_form": "伤",
+    "pronunciation": "shāng",
+    "pos": "noun, verb",
+    "primary_gloss": "injury",
+    "secondary_glosses": [
+      "wound",
+      "to injure"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0957",
+    "rank": 957,
+    "display_form": "伤害",
+    "lemma": "伤害",
+    "generation_form": "伤害",
+    "pronunciation": "shānghài",
+    "pos": "verb",
+    "primary_gloss": "to harm",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0958",
+    "rank": 958,
+    "display_form": "商家",
+    "lemma": "商家",
+    "generation_form": "商家",
+    "pronunciation": "shāngjiā",
+    "pos": "noun",
+    "primary_gloss": "business",
+    "secondary_glosses": [
+      "merchant"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0959",
+    "rank": 959,
+    "display_form": "商人",
+    "lemma": "商人",
+    "generation_form": "商人",
+    "pronunciation": "shāngrén",
+    "pos": "noun",
+    "primary_gloss": "businessman",
+    "secondary_glosses": [
+      "merchant"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0960",
+    "rank": 960,
+    "display_form": "商务",
+    "lemma": "商务",
+    "generation_form": "商务",
+    "pronunciation": "shāngwù",
+    "pos": "noun",
+    "primary_gloss": "business",
+    "secondary_glosses": [
+      "commercial affairs"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0961",
+    "rank": 961,
+    "display_form": "商业",
+    "lemma": "商业",
+    "generation_form": "商业",
+    "pronunciation": "shāngyè",
+    "pos": "noun",
+    "primary_gloss": "commerce",
+    "secondary_glosses": [
+      "business"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0962",
+    "rank": 962,
+    "display_form": "赏",
+    "lemma": "赏",
+    "generation_form": "赏",
+    "pronunciation": "shǎng",
+    "pos": "verb",
+    "primary_gloss": "to appreciate",
+    "secondary_glosses": [
+      "to reward"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0963",
+    "rank": 963,
+    "display_form": "上传",
+    "lemma": "上传",
+    "generation_form": "上传",
+    "pronunciation": "shàngchuán",
+    "pos": "verb",
+    "primary_gloss": "to upload",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0964",
+    "rank": 964,
+    "display_form": "上升",
+    "lemma": "上升",
+    "generation_form": "上升",
+    "pronunciation": "shàngshēng",
+    "pos": "verb",
+    "primary_gloss": "to rise",
+    "secondary_glosses": [
+      "to go up"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0965",
+    "rank": 965,
+    "display_form": "上下",
+    "lemma": "上下",
+    "generation_form": "上下",
+    "pronunciation": "shàngxià",
+    "pos": "noun",
+    "primary_gloss": "up and down",
+    "secondary_glosses": [
+      "high and low"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0966",
+    "rank": 966,
+    "display_form": "上涨",
+    "lemma": "上涨",
+    "generation_form": "上涨",
+    "pronunciation": "shàngzhǎng",
+    "pos": "verb",
+    "primary_gloss": "to rise",
+    "secondary_glosses": [
+      "to increase"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0967",
+    "rank": 967,
+    "display_form": "烧",
+    "lemma": "烧",
+    "generation_form": "烧",
+    "pronunciation": "shāo",
+    "pos": "verb, noun",
+    "primary_gloss": "to burn",
+    "secondary_glosses": [
+      "barbecue",
+      "burnt food"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0968",
+    "rank": 968,
+    "display_form": "烧烤",
+    "lemma": "烧烤",
+    "generation_form": "烧烤",
+    "pronunciation": "shāokǎo",
+    "pos": "noun",
+    "primary_gloss": "barbecue",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0969",
+    "rank": 969,
+    "display_form": "蛇",
+    "lemma": "蛇",
+    "generation_form": "蛇",
+    "pronunciation": "shé",
+    "pos": "noun",
+    "primary_gloss": "snake",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0970",
+    "rank": 970,
+    "display_form": "舍不得",
+    "lemma": "舍不得",
+    "generation_form": "舍不得",
+    "pronunciation": "shěbude",
+    "pos": "verb",
+    "primary_gloss": "to hate to part with",
+    "secondary_glosses": [
+      "to be reluctant to give up"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0971",
+    "rank": 971,
+    "display_form": "舍得",
+    "lemma": "舍得",
+    "generation_form": "舍得",
+    "pronunciation": "shěde",
+    "pos": "verb",
+    "primary_gloss": "to be willing to",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0972",
+    "rank": 972,
+    "display_form": "设备",
+    "lemma": "设备",
+    "generation_form": "设备",
+    "pronunciation": "shèbèi",
+    "pos": "noun",
+    "primary_gloss": "equipment",
+    "secondary_glosses": [
+      "device"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0973",
+    "rank": 973,
+    "display_form": "设计",
+    "lemma": "设计",
+    "generation_form": "设计",
+    "pronunciation": "shèjì",
+    "pos": "verb, noun",
+    "primary_gloss": "to design",
+    "secondary_glosses": [
+      "design"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0974",
+    "rank": 974,
+    "display_form": "设立",
+    "lemma": "设立",
+    "generation_form": "设立",
+    "pronunciation": "shèlì",
+    "pos": "verb",
+    "primary_gloss": "to establish",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0975",
+    "rank": 975,
+    "display_form": "社区",
+    "lemma": "社区",
+    "generation_form": "社区",
+    "pronunciation": "shèqū",
+    "pos": "noun",
+    "primary_gloss": "community",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0976",
+    "rank": 976,
+    "display_form": "设施",
+    "lemma": "设施",
+    "generation_form": "设施",
+    "pronunciation": "shèshī",
+    "pos": "noun",
+    "primary_gloss": "facilities",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0977",
+    "rank": 977,
+    "display_form": "摄影",
+    "lemma": "摄影",
+    "generation_form": "摄影",
+    "pronunciation": "shèyǐng",
+    "pos": "verb",
+    "primary_gloss": "to take a photograph",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0978",
+    "rank": 978,
+    "display_form": "设置",
+    "lemma": "设置",
+    "generation_form": "设置",
+    "pronunciation": "shèzhì",
+    "pos": "verb",
+    "primary_gloss": "to set up",
+    "secondary_glosses": [
+      "to install"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0979",
+    "rank": 979,
+    "display_form": "伸",
+    "lemma": "伸",
+    "generation_form": "伸",
+    "pronunciation": "shēn",
+    "pos": "verb",
+    "primary_gloss": "to stretch",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0980",
+    "rank": 980,
+    "display_form": "身材",
+    "lemma": "身材",
+    "generation_form": "身材",
+    "pronunciation": "shēncái",
+    "pos": "noun",
+    "primary_gloss": "figure",
+    "secondary_glosses": [
+      "stature"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0981",
+    "rank": 981,
+    "display_form": "深度",
+    "lemma": "深度",
+    "generation_form": "深度",
+    "pronunciation": "shēndù",
+    "pos": "noun, adjective",
+    "primary_gloss": "depth",
+    "secondary_glosses": [
+      "deep"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0982",
+    "rank": 982,
+    "display_form": "身份",
+    "lemma": "身份",
+    "generation_form": "身份",
+    "pronunciation": "shēnfèn",
+    "pos": "noun",
+    "primary_gloss": "identity",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0983",
+    "rank": 983,
+    "display_form": "深厚",
+    "lemma": "深厚",
+    "generation_form": "深厚",
+    "pronunciation": "shēnhòu",
+    "pos": "adjective",
+    "primary_gloss": "deep",
+    "secondary_glosses": [
+      "profound"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0984",
+    "rank": 984,
+    "display_form": "深刻",
+    "lemma": "深刻",
+    "generation_form": "深刻",
+    "pronunciation": "shēnkè",
+    "pos": "adjective",
+    "primary_gloss": "profound",
+    "secondary_glosses": [
+      "deep"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0985",
+    "rank": 985,
+    "display_form": "深入",
+    "lemma": "深入",
+    "generation_form": "深入",
+    "pronunciation": "shēnrù",
+    "pos": "verb, adjective",
+    "primary_gloss": "to penetrate deeply",
+    "secondary_glosses": [
+      "deep",
+      "thorough"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0986",
+    "rank": 986,
+    "display_form": "深远",
+    "lemma": "深远",
+    "generation_form": "深远",
+    "pronunciation": "shēnyuǎn",
+    "pos": "adjective",
+    "primary_gloss": "far-reaching",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0987",
+    "rank": 987,
+    "display_form": "神话",
+    "lemma": "神话",
+    "generation_form": "神话",
+    "pronunciation": "shénhuà",
+    "pos": "noun",
+    "primary_gloss": "myth",
+    "secondary_glosses": [
+      "mythology"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0988",
+    "rank": 988,
+    "display_form": "神秘",
+    "lemma": "神秘",
+    "generation_form": "神秘",
+    "pronunciation": "shénmì",
+    "pos": "adjective",
+    "primary_gloss": "mysterious",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0989",
+    "rank": 989,
+    "display_form": "升",
+    "lemma": "升",
+    "generation_form": "升",
+    "pronunciation": "shēng",
+    "pos": "verb",
+    "primary_gloss": "to rise",
+    "secondary_glosses": [
+      "to go up"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0990",
+    "rank": 990,
+    "display_form": "生产",
+    "lemma": "生产",
+    "generation_form": "生产",
+    "pronunciation": "shēngchǎn",
+    "pos": "verb",
+    "primary_gloss": "to produce",
+    "secondary_glosses": [
+      "to manufacture"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0991",
+    "rank": 991,
+    "display_form": "生存",
+    "lemma": "生存",
+    "generation_form": "生存",
+    "pronunciation": "shēngcún",
+    "pos": "verb",
+    "primary_gloss": "to survive",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0992",
+    "rank": 992,
+    "display_form": "生动",
+    "lemma": "生动",
+    "generation_form": "生动",
+    "pronunciation": "shēngdòng",
+    "pos": "adjective",
+    "primary_gloss": "vivid",
+    "secondary_glosses": [
+      "lively"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0993",
+    "rank": 993,
+    "display_form": "升级",
+    "lemma": "升级",
+    "generation_form": "升级",
+    "pronunciation": "shēngjí",
+    "pos": "verb",
+    "primary_gloss": "to upgrade",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0994",
+    "rank": 994,
+    "display_form": "升温",
+    "lemma": "升温",
+    "generation_form": "升温",
+    "pronunciation": "shēngwēn",
+    "pos": "verb",
+    "primary_gloss": "to heat up",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0995",
+    "rank": 995,
+    "display_form": "生物",
+    "lemma": "生物",
+    "generation_form": "生物",
+    "pronunciation": "shēngwù",
+    "pos": "noun",
+    "primary_gloss": "living things",
+    "secondary_glosses": [
+      "organism"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0996",
+    "rank": 996,
+    "display_form": "生肖",
+    "lemma": "生肖",
+    "generation_form": "生肖",
+    "pronunciation": "shēngxiào",
+    "pos": "noun",
+    "primary_gloss": "Chinese zodiac",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0997",
+    "rank": 997,
+    "display_form": "生长",
+    "lemma": "生长",
+    "generation_form": "生长",
+    "pronunciation": "shēngzhǎng",
+    "pos": "verb",
+    "primary_gloss": "to grow",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0998",
+    "rank": 998,
+    "display_form": "省",
+    "lemma": "省",
+    "generation_form": "省",
+    "pronunciation": "shěng",
+    "pos": "verb",
+    "primary_gloss": "to save",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-0999",
+    "rank": 999,
+    "display_form": "省份",
+    "lemma": "省份",
+    "generation_form": "省份",
+    "pronunciation": "shěngfèn",
+    "pos": "noun",
+    "primary_gloss": "province",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1000",
+    "rank": 1000,
+    "display_form": "省会",
+    "lemma": "省会",
+    "generation_form": "省会",
+    "pronunciation": "shěnghuì",
+    "pos": "noun",
+    "primary_gloss": "provincial capital",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  }
+]

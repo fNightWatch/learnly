@@ -1,0 +1,150 @@
+[
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1021",
+    "rank": 1021,
+    "display_form": "实行",
+    "lemma": "实行",
+    "generation_form": "实行",
+    "pronunciation": "shíxíng",
+    "pos": "verb",
+    "primary_gloss": "to implement",
+    "secondary_glosses": [
+      "to carry out"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1022",
+    "rank": 1022,
+    "display_form": "实验",
+    "lemma": "实验",
+    "generation_form": "实验",
+    "pronunciation": "shíyàn",
+    "pos": "verb, noun",
+    "primary_gloss": "to experiment",
+    "secondary_glosses": [
+      "experiment"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1023",
+    "rank": 1023,
+    "display_form": "实验室",
+    "lemma": "实验室",
+    "generation_form": "实验室",
+    "pronunciation": "shíyànshì",
+    "pos": "noun",
+    "primary_gloss": "laboratory",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1024",
+    "rank": 1024,
+    "display_form": "实用",
+    "lemma": "实用",
+    "generation_form": "实用",
+    "pronunciation": "shíyòng",
+    "pos": "adjective",
+    "primary_gloss": "practical",
+    "secondary_glosses": [
+      "functional"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1025",
+    "rank": 1025,
+    "display_form": "食用",
+    "lemma": "食用",
+    "generation_form": "食用",
+    "pronunciation": "shíyòng",
+    "pos": "verb",
+    "primary_gloss": "to eat",
+    "secondary_glosses": [
+      "to be edible"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1026",
+    "rank": 1026,
+    "display_form": "使得",
+    "lemma": "使得",
+    "generation_form": "使得",
+    "pronunciation": "shǐde",
+    "pos": "verb",
+    "primary_gloss": "to cause",
+    "secondary_glosses": [
+      "to make"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1027",
+    "rank": 1027,
+    "display_form": "始终",
+    "lemma": "始终",
+    "generation_form": "始终",
+    "pronunciation": "shǐzhōng",
+    "pos": "noun, adverb",
+    "primary_gloss": "from beginning to end",
+    "secondary_glosses": [
+      "always"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, adverb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1028",
+    "rank": 1028,
+    "display_form": "式",
+    "lemma": "式",
+    "generation_form": "式",
+    "pronunciation": "shì",
+    "pos": "suffix",
+    "primary_gloss": "suffix meaning style",
+    "secondary_glosses": [
+      "type"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as suffix."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1029",
+    "rank": 1029,
+    "display_form": "适当",
+    "lemma": "适当",
+    "generation_form": "适当",
+    "pronunciation": "shìdàng",
+    "pos": "adjective",
+    "primary_gloss": "appropriate",
+    "secondary_glosses": [
+      "suitable"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1030",
+    "rank": 1030,
+    "display_form": "似的",
+    "lemma": "似的",
+    "generation_form": "似的",
+    "pronunciation": "shìde",
+    "pos": "auxiliary",
+    "primary_gloss": "like",
+    "secondary_glosses": [
+      "as if"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as auxiliary."
+  }
+]

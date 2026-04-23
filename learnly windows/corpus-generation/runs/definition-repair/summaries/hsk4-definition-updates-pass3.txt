@@ -1,0 +1,19 @@
+HSK4 definition-layer cleanup pass 3
+Total rows reviewed: 247
+Rows updated: 247
+Notes rewritten: 247
+Gloss changes made: 3
+POS changes made: 0
+
+Key improvements:
+- Rewrote all targeted notes into natural learner-friendly English without the rejected robotic shells.
+- Corrected obvious gloss typos/case issues in 害羞, 回忆, and 叶子.
+- Cleaned the flagged spelling problems from note text, including bashful/regretting/memorying/Leaf-style issues.
+
+Validation:
+- Missing target IDs in patch: 0
+- Extra IDs in patch: 0
+- Duplicate IDs in patch: 0
+- Invalid schema rows: 0
+- Banned note-shell matches: 0
+- Known typo-token hits after rewrite: 0

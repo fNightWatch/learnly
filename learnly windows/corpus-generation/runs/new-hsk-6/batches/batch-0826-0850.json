@@ -1,0 +1,359 @@
+[
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0826",
+    "rank": 826,
+    "display_form": "老太太",
+    "lemma": "老太太",
+    "generation_form": "老太太",
+    "pronunciation": "lǎotàitai",
+    "pos": "noun",
+    "primary_gloss": "old lady",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0827",
+    "rank": 827,
+    "display_form": "乐于",
+    "lemma": "乐于",
+    "generation_form": "乐于",
+    "pronunciation": "lèyú",
+    "pos": "verb",
+    "primary_gloss": "to be happy to",
+    "secondary_glosses": [
+      "to be willing to"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0828",
+    "rank": 828,
+    "display_form": "雷",
+    "lemma": "雷",
+    "generation_form": "雷",
+    "pronunciation": "léi",
+    "pos": "noun",
+    "primary_gloss": "thunder",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0829",
+    "rank": 829,
+    "display_form": "类别",
+    "lemma": "类别",
+    "generation_form": "类别",
+    "pronunciation": "lèibié",
+    "pos": "noun",
+    "primary_gloss": "category",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0830",
+    "rank": 830,
+    "display_form": "理",
+    "lemma": "理",
+    "generation_form": "理",
+    "pronunciation": "lǐ",
+    "pos": "noun, verb",
+    "primary_gloss": "reason",
+    "secondary_glosses": [
+      "logic",
+      "to manage"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0831",
+    "rank": 831,
+    "display_form": "理财",
+    "lemma": "理财",
+    "generation_form": "理财",
+    "pronunciation": "lǐcái",
+    "pos": "verb",
+    "primary_gloss": "to manage money",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0832",
+    "rank": 832,
+    "display_form": "理科",
+    "lemma": "理科",
+    "generation_form": "理科",
+    "pronunciation": "lǐkē",
+    "pos": "noun",
+    "primary_gloss": "science",
+    "secondary_glosses": [
+      "sciences"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0833",
+    "rank": 833,
+    "display_form": "理念",
+    "lemma": "理念",
+    "generation_form": "理念",
+    "pronunciation": "lǐniàn",
+    "pos": "noun",
+    "primary_gloss": "idea",
+    "secondary_glosses": [
+      "concept"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0834",
+    "rank": 834,
+    "display_form": "理性",
+    "lemma": "理性",
+    "generation_form": "理性",
+    "pronunciation": "lǐxìng",
+    "pos": "adjective, noun",
+    "primary_gloss": "rational",
+    "secondary_glosses": [
+      "reasonable",
+      "reason"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective, noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0835",
+    "rank": 835,
+    "display_form": "立",
+    "lemma": "立",
+    "generation_form": "立",
+    "pronunciation": "lì",
+    "pos": "verb",
+    "primary_gloss": "to stand",
+    "secondary_glosses": [
+      "to set up"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0836",
+    "rank": 836,
+    "display_form": "粒",
+    "lemma": "粒",
+    "generation_form": "粒",
+    "pronunciation": "lì",
+    "pos": "noun, measure word",
+    "primary_gloss": "grain",
+    "secondary_glosses": [
+      "measure word for small particles"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, measure word."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0837",
+    "rank": 837,
+    "display_form": "立场",
+    "lemma": "立场",
+    "generation_form": "立场",
+    "pronunciation": "lìchǎng",
+    "pos": "noun",
+    "primary_gloss": "position",
+    "secondary_glosses": [
+      "standpoint"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0838",
+    "rank": 838,
+    "display_form": "力度",
+    "lemma": "力度",
+    "generation_form": "力度",
+    "pronunciation": "lìdù",
+    "pos": "noun",
+    "primary_gloss": "intensity",
+    "secondary_glosses": [
+      "strength"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0839",
+    "rank": 839,
+    "display_form": "历经",
+    "lemma": "历经",
+    "generation_form": "历经",
+    "pronunciation": "lìjīng",
+    "pos": "verb",
+    "primary_gloss": "to experience",
+    "secondary_glosses": [
+      "to go through"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0840",
+    "rank": 840,
+    "display_form": "历年",
+    "lemma": "历年",
+    "generation_form": "历年",
+    "pronunciation": "lìnián",
+    "pos": "noun",
+    "primary_gloss": "over the years",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0841",
+    "rank": 841,
+    "display_form": "例外",
+    "lemma": "例外",
+    "generation_form": "例外",
+    "pronunciation": "lìwài",
+    "pos": "verb, noun",
+    "primary_gloss": "to be an exception",
+    "secondary_glosses": [
+      "exception"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0842",
+    "rank": 842,
+    "display_form": "利息",
+    "lemma": "利息",
+    "generation_form": "利息",
+    "pronunciation": "lìxī",
+    "pos": "noun",
+    "primary_gloss": "interest",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0843",
+    "rank": 843,
+    "display_form": "联合国",
+    "lemma": "联合国",
+    "generation_form": "联合国",
+    "pronunciation": "Liánhéguó",
+    "pos": "noun",
+    "primary_gloss": "United Nations",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0844",
+    "rank": 844,
+    "display_form": "联网",
+    "lemma": "联网",
+    "generation_form": "联网",
+    "pronunciation": "liánwǎng",
+    "pos": "verb",
+    "primary_gloss": "to network",
+    "secondary_glosses": [
+      "to connect to the internet"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0845",
+    "rank": 845,
+    "display_form": "联想",
+    "lemma": "联想",
+    "generation_form": "联想",
+    "pronunciation": "liánxiǎng",
+    "pos": "verb",
+    "primary_gloss": "to associate",
+    "secondary_glosses": [
+      "to connect"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0846",
+    "rank": 846,
+    "display_form": "链接",
+    "lemma": "链接",
+    "generation_form": "链接",
+    "pronunciation": "liànjiē",
+    "pos": "verb",
+    "primary_gloss": "to link",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0847",
+    "rank": 847,
+    "display_form": "两岸",
+    "lemma": "两岸",
+    "generation_form": "两岸",
+    "pronunciation": "liǎng’àn",
+    "pos": "noun",
+    "primary_gloss": "both sides",
+    "secondary_glosses": [
+      "both coasts"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0848",
+    "rank": 848,
+    "display_form": "两极",
+    "lemma": "两极",
+    "generation_form": "两极",
+    "pronunciation": "liǎngjí",
+    "pos": "noun",
+    "primary_gloss": "two poles",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0849",
+    "rank": 849,
+    "display_form": "晾",
+    "lemma": "晾",
+    "generation_form": "晾",
+    "pronunciation": "liàng",
+    "pos": "verb",
+    "primary_gloss": "to dry",
+    "secondary_glosses": [
+      "to air"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0850",
+    "rank": 850,
+    "display_form": "料1",
+    "lemma": "料",
+    "generation_form": "料",
+    "pronunciation": "liào",
+    "pos": "noun",
+    "primary_gloss": "material",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  }
+]

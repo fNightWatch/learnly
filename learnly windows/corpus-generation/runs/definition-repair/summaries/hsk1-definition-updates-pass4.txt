@@ -1,0 +1,10 @@
+HSK1 definition-layer pass 4 summary
+
+Total target rows reviewed: 18
+Rows updated: 18
+Function-word rows updated: 13
+
+Key improvements:
+- Rewrote the notes for the requested 18 rows into more natural beginner-facing English.
+- Kept POS and gloss layers unchanged, since no obvious correctness issues appeared in this subset.
+- Removed repetitive note openings and made the explanations more direct and teachable.
