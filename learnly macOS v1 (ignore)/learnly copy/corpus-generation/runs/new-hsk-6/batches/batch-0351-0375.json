@@ -1,0 +1,361 @@
+[
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0351",
+    "rank": 351,
+    "display_form": "发电",
+    "lemma": "发电",
+    "generation_form": "发电",
+    "pronunciation": "fādiàn",
+    "pos": "verb",
+    "primary_gloss": "to generate electricity",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0352",
+    "rank": 352,
+    "display_form": "发动",
+    "lemma": "发动",
+    "generation_form": "发动",
+    "pronunciation": "fādòng",
+    "pos": "verb",
+    "primary_gloss": "to start",
+    "secondary_glosses": [
+      "to launch"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0353",
+    "rank": 353,
+    "display_form": "发放",
+    "lemma": "发放",
+    "generation_form": "发放",
+    "pronunciation": "fāfàng",
+    "pos": "verb",
+    "primary_gloss": "to distribute",
+    "secondary_glosses": [
+      "to issue"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0354",
+    "rank": 354,
+    "display_form": "发光",
+    "lemma": "发光",
+    "generation_form": "发光",
+    "pronunciation": "fāguāng",
+    "pos": "verb",
+    "primary_gloss": "to glow",
+    "secondary_glosses": [
+      "to emit light"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0355",
+    "rank": 355,
+    "display_form": "发票",
+    "lemma": "发票",
+    "generation_form": "发票",
+    "pronunciation": "fāpiào",
+    "pos": "noun",
+    "primary_gloss": "invoice",
+    "secondary_glosses": [
+      "receipt"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0356",
+    "rank": 356,
+    "display_form": "发行",
+    "lemma": "发行",
+    "generation_form": "发行",
+    "pronunciation": "fāxíng",
+    "pos": "verb",
+    "primary_gloss": "to publish",
+    "secondary_glosses": [
+      "to issue"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0357",
+    "rank": 357,
+    "display_form": "发炎",
+    "lemma": "发炎",
+    "generation_form": "发炎",
+    "pronunciation": "fāyán",
+    "pos": "verb",
+    "primary_gloss": "to become inflamed",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0358",
+    "rank": 358,
+    "display_form": "发育",
+    "lemma": "发育",
+    "generation_form": "发育",
+    "pronunciation": "fāyù",
+    "pos": "verb",
+    "primary_gloss": "to grow",
+    "secondary_glosses": [
+      "to develop"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0359",
+    "rank": 359,
+    "display_form": "法定",
+    "lemma": "法定",
+    "generation_form": "法定",
+    "pronunciation": "fǎdìng",
+    "pos": "adjective",
+    "primary_gloss": "legal",
+    "secondary_glosses": [
+      "statutory"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0360",
+    "rank": 360,
+    "display_form": "法官",
+    "lemma": "法官",
+    "generation_form": "法官",
+    "pronunciation": "fǎguān",
+    "pos": "noun",
+    "primary_gloss": "judge",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0361",
+    "rank": 361,
+    "display_form": "法规",
+    "lemma": "法规",
+    "generation_form": "法规",
+    "pronunciation": "fǎguī",
+    "pos": "noun",
+    "primary_gloss": "laws",
+    "secondary_glosses": [
+      "regulations"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0362",
+    "rank": 362,
+    "display_form": "番",
+    "lemma": "番",
+    "generation_form": "番",
+    "pronunciation": "fān",
+    "pos": "measure word",
+    "primary_gloss": "measure word for actions",
+    "secondary_glosses": [
+      "occurrences"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as measure word."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0363",
+    "rank": 363,
+    "display_form": "繁忙",
+    "lemma": "繁忙",
+    "generation_form": "繁忙",
+    "pronunciation": "fánmáng",
+    "pos": "adjective",
+    "primary_gloss": "busy",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0364",
+    "rank": 364,
+    "display_form": "凡是",
+    "lemma": "凡是",
+    "generation_form": "凡是",
+    "pronunciation": "fánshì",
+    "pos": "adverb",
+    "primary_gloss": "all",
+    "secondary_glosses": [
+      "every"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0365",
+    "rank": 365,
+    "display_form": "繁殖",
+    "lemma": "繁殖",
+    "generation_form": "繁殖",
+    "pronunciation": "fánzhí",
+    "pos": "verb",
+    "primary_gloss": "to breed",
+    "secondary_glosses": [
+      "to reproduce"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0366",
+    "rank": 366,
+    "display_form": "反馈",
+    "lemma": "反馈",
+    "generation_form": "反馈",
+    "pronunciation": "fǎnkuì",
+    "pos": "verb",
+    "primary_gloss": "to give feedback",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0367",
+    "rank": 367,
+    "display_form": "反思",
+    "lemma": "反思",
+    "generation_form": "反思",
+    "pronunciation": "fǎnsī",
+    "pos": "verb",
+    "primary_gloss": "to reflect",
+    "secondary_glosses": [
+      "to think back"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0368",
+    "rank": 368,
+    "display_form": "犯",
+    "lemma": "犯",
+    "generation_form": "犯",
+    "pronunciation": "fàn",
+    "pos": "verb",
+    "primary_gloss": "to commit a crime",
+    "secondary_glosses": [
+      "to violate"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0369",
+    "rank": 369,
+    "display_form": "方方面面",
+    "lemma": "方方面面",
+    "generation_form": "方方面面",
+    "pronunciation": "fāngfāngmiànmiàn名",
+    "pos": "unknown",
+    "primary_gloss": "all aspects",
+    "secondary_glosses": [
+      "every side"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0370",
+    "rank": 370,
+    "display_form": "方位",
+    "lemma": "方位",
+    "generation_form": "方位",
+    "pronunciation": "fāngwèi",
+    "pos": "noun",
+    "primary_gloss": "direction",
+    "secondary_glosses": [
+      "position"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0371",
+    "rank": 371,
+    "display_form": "方言",
+    "lemma": "方言",
+    "generation_form": "方言",
+    "pronunciation": "fāngyán",
+    "pos": "noun",
+    "primary_gloss": "dialect",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0372",
+    "rank": 372,
+    "display_form": "妨碍",
+    "lemma": "妨碍",
+    "generation_form": "妨碍",
+    "pronunciation": "fáng’ài",
+    "pos": "verb",
+    "primary_gloss": "to hinder",
+    "secondary_glosses": [
+      "to obstruct"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0373",
+    "rank": 373,
+    "display_form": "房价",
+    "lemma": "房价",
+    "generation_form": "房价",
+    "pronunciation": "fángjià",
+    "pos": "noun",
+    "primary_gloss": "housing price",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0374",
+    "rank": 374,
+    "display_form": "防治",
+    "lemma": "防治",
+    "generation_form": "防治",
+    "pronunciation": "fángzhì",
+    "pos": "verb",
+    "primary_gloss": "to prevent",
+    "secondary_glosses": [
+      "to control"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0375",
+    "rank": 375,
+    "display_form": "访谈",
+    "lemma": "访谈",
+    "generation_form": "访谈",
+    "pronunciation": "fǎngtán",
+    "pos": "verb",
+    "primary_gloss": "to interview",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  }
+]

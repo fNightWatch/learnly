@@ -1,5 +1,9 @@
 import { expect, test } from "@playwright/test";
+import { eq } from "drizzle-orm";
 import { loadCoreLoopFixture } from "./support/fixture-driver";
+import { getDb } from "../../src/lib/db/local-client";
+import * as tables from "../../src/lib/db/sqlite-schema";
+import { createInitialState } from "../../src/lib/srs/scheduler";
 
 test.describe("core loop api", () => {
   test("dashboard/settings/plan/progress endpoints stay coherent", async ({ request }) => {
@@ -15,6 +19,7 @@ test.describe("core loop api", () => {
       data: {
         dashboardLanguageCodes: ["es", "fr"],
         chineseReviewFlow: "two-click",
+        assumedWordListIds: ["hsk-1"],
       },
     });
     expect(update.ok()).toBeTruthy();
@@ -25,10 +30,13 @@ test.describe("core loop api", () => {
         const json = (await response.json()) as {
           dashboardLanguageCodes: string[];
           chineseReviewFlow: string;
+          assumedWordListIds: string[];
+          availableAssumedWordLists?: Array<{ id: string }>;
         };
-        return `${json.dashboardLanguageCodes.sort().join(",")}::${json.chineseReviewFlow}`;
+        expect(json.availableAssumedWordLists?.some((list) => list.id === "hsk-1")).toBeTruthy();
+        return `${json.dashboardLanguageCodes.sort().join(",")}::${json.chineseReviewFlow}::${json.assumedWordListIds.sort().join(",")}`;
       })
-      .toBe("es,fr::two-click");
+      .toBe("es,fr::two-click::hsk-1");
 
     const dashboard = await request.get("/api/dashboard");
     expect(dashboard.ok()).toBeTruthy();
@@ -89,6 +97,104 @@ test.describe("core loop api", () => {
     expect(next.ok()).toBeTruthy();
     const nextJson = (await next.json()) as { nextCard: { itemId: string } | null };
     expect(nextJson.nextCard?.itemId).toBe(reviewed.nextCard?.itemId);
+  });
+
+  test("everyday keeps all due cards ahead of new cards, even when due count exceeds 100", async ({ request }) => {
+    loadCoreLoopFixture("fresh", {
+      selectedLanguages: ["es"],
+      dashboardLanguages: ["es"],
+    });
+
+    const db = getDb();
+    const now = new Date();
+    const dueAt = new Date(now.getTime() - 60 * 60 * 1000).toISOString();
+    const introducedAt = new Date(now.getTime() - 7 * 24 * 60 * 60 * 1000).toISOString();
+    const lastReviewedAt = new Date(now.getTime() - 24 * 60 * 60 * 1000).toISOString();
+    const dueItems = db
+      .select({ id: tables.corpusItems.id })
+      .from(tables.corpusItems)
+      .where(eq(tables.corpusItems.languageCode, "es"))
+      .orderBy(tables.corpusItems.rank)
+      .limit(105)
+      .all();
+
+    expect(dueItems).toHaveLength(105);
+
+    for (const { id } of dueItems) {
+      const seed = createInitialState("demo-user", id, now);
+      db.insert(tables.userItemStates)
+        .values({
+          ...seed,
+          itemId: id,
+          status: "review",
+          dueAt,
+          stability: 3.2,
+          difficulty: 5,
+          scheduledDays: 3,
+          learningSteps: 0,
+          lapses: 0,
+          reps: 4,
+          lastRating: 3,
+          introducedAt,
+          lastReviewedAt,
+        })
+        .onConflictDoUpdate({
+          target: [tables.userItemStates.userId, tables.userItemStates.itemId],
+          set: {
+            status: "review",
+            dueAt,
+            stability: 3.2,
+            difficulty: 5,
+            scheduledDays: 3,
+            learningSteps: 0,
+            lapses: 0,
+            reps: 4,
+            lastRating: 3,
+            introducedAt,
+            lastReviewedAt,
+          },
+        })
+        .run();
+    }
+
+    const start = await request.post("/api/session/start", {
+      data: {
+        languageCodes: ["es"],
+        mode: "everyday",
+      },
+    });
+    expect(start.ok()).toBeTruthy();
+    const started = (await start.json()) as {
+      sessionId: string;
+      dueCount: number;
+      firstCard: { itemId: string; isNew: boolean } | null;
+    };
+
+    expect(started.dueCount).toBeGreaterThan(100);
+    expect(started.firstCard?.isNew).toBe(false);
+
+    let currentCard = started.firstCard;
+    for (let reviewedDue = 0; reviewedDue < started.dueCount; reviewedDue += 1) {
+      expect(currentCard).not.toBeNull();
+      expect(currentCard?.isNew).toBe(false);
+
+      const review = await request.post("/api/reviews", {
+        data: {
+          sessionId: started.sessionId,
+          itemId: currentCard!.itemId,
+          rating: 3,
+          elapsedMs: 600,
+        },
+      });
+      expect(review.ok()).toBeTruthy();
+      const reviewed = (await review.json()) as {
+        nextCard: { itemId: string; isNew: boolean } | null;
+      };
+      currentCard = reviewed.nextCard;
+    }
+
+    expect(currentCard).not.toBeNull();
+    expect(currentCard?.isNew).toBe(true);
   });
 
   test("Chinese sessions include preview tokens and learn route is idempotent while injecting into the active queue", async ({ request }) => {

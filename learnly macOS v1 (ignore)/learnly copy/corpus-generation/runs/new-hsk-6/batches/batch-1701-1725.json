@@ -1,0 +1,365 @@
+[
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1701",
+    "rank": 1701,
+    "display_form": "职位",
+    "lemma": "职位",
+    "generation_form": "职位",
+    "pronunciation": "zhíwèi",
+    "pos": "noun",
+    "primary_gloss": "position",
+    "secondary_glosses": [
+      "post"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1702",
+    "rank": 1702,
+    "display_form": "职务",
+    "lemma": "职务",
+    "generation_form": "职务",
+    "pronunciation": "zhíwù",
+    "pos": "noun",
+    "primary_gloss": "duties",
+    "secondary_glosses": [
+      "job"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1703",
+    "rank": 1703,
+    "display_form": "职员",
+    "lemma": "职员",
+    "generation_form": "职员",
+    "pronunciation": "zhíyuán",
+    "pos": "noun",
+    "primary_gloss": "office worker",
+    "secondary_glosses": [
+      "staff"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1704",
+    "rank": 1704,
+    "display_form": "职责",
+    "lemma": "职责",
+    "generation_form": "职责",
+    "pronunciation": "zhízé",
+    "pos": "noun",
+    "primary_gloss": "responsibility",
+    "secondary_glosses": [
+      "duty"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1705",
+    "rank": 1705,
+    "display_form": "侄子",
+    "lemma": "侄子",
+    "generation_form": "侄子",
+    "pronunciation": "zhízi",
+    "pos": "noun",
+    "primary_gloss": "nephew",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1706",
+    "rank": 1706,
+    "display_form": "只得",
+    "lemma": "只得",
+    "generation_form": "只得",
+    "pronunciation": "zhǐdé",
+    "pos": "adverb",
+    "primary_gloss": "can only",
+    "secondary_glosses": [
+      "have to"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1707",
+    "rank": 1707,
+    "display_form": "指定",
+    "lemma": "指定",
+    "generation_form": "指定",
+    "pronunciation": "zhǐdìng",
+    "pos": "verb",
+    "primary_gloss": "to designate",
+    "secondary_glosses": [
+      "to appoint"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1708",
+    "rank": 1708,
+    "display_form": "只顾",
+    "lemma": "只顾",
+    "generation_form": "只顾",
+    "pronunciation": "zhǐgù",
+    "pos": "adverb",
+    "primary_gloss": "to be only concerned with",
+    "secondary_glosses": [
+      "to solely attend to"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1709",
+    "rank": 1709,
+    "display_form": "指挥",
+    "lemma": "指挥",
+    "generation_form": "指挥",
+    "pronunciation": "zhǐhuī",
+    "pos": "verb, noun",
+    "primary_gloss": "to command",
+    "secondary_glosses": [
+      "command",
+      "direction"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1710",
+    "rank": 1710,
+    "display_form": "指示",
+    "lemma": "指示",
+    "generation_form": "指示",
+    "pronunciation": "zhǐshì",
+    "pos": "verb, noun",
+    "primary_gloss": "to instruct",
+    "secondary_glosses": [
+      "instruction"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1711",
+    "rank": 1711,
+    "display_form": "指责",
+    "lemma": "指责",
+    "generation_form": "指责",
+    "pronunciation": "zhǐzé",
+    "pos": "verb",
+    "primary_gloss": "to accuse",
+    "secondary_glosses": [
+      "to criticize"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1712",
+    "rank": 1712,
+    "display_form": "制",
+    "lemma": "制",
+    "generation_form": "制",
+    "pronunciation": "zhì",
+    "pos": "verb",
+    "primary_gloss": "to produce",
+    "secondary_glosses": [
+      "to manufacture"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1713",
+    "rank": 1713,
+    "display_form": "至关重要",
+    "lemma": "至关重要",
+    "generation_form": "至关重要",
+    "pronunciation": "zhìguān-zhòngyào",
+    "pos": "unknown",
+    "primary_gloss": "crucially important",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1714",
+    "rank": 1714,
+    "display_form": "智力",
+    "lemma": "智力",
+    "generation_form": "智力",
+    "pronunciation": "zhìlì",
+    "pos": "noun",
+    "primary_gloss": "intelligence",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1715",
+    "rank": 1715,
+    "display_form": "治理",
+    "lemma": "治理",
+    "generation_form": "治理",
+    "pronunciation": "zhìlǐ",
+    "pos": "verb",
+    "primary_gloss": "to govern",
+    "secondary_glosses": [
+      "to manage"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1716",
+    "rank": 1716,
+    "display_form": "制品",
+    "lemma": "制品",
+    "generation_form": "制品",
+    "pronunciation": "zhìpǐn",
+    "pos": "noun",
+    "primary_gloss": "product",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1717",
+    "rank": 1717,
+    "display_form": "秩序",
+    "lemma": "秩序",
+    "generation_form": "秩序",
+    "pronunciation": "zhìxù",
+    "pos": "noun",
+    "primary_gloss": "order",
+    "secondary_glosses": [
+      "discipline"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1718",
+    "rank": 1718,
+    "display_form": "质疑",
+    "lemma": "质疑",
+    "generation_form": "质疑",
+    "pronunciation": "zhìyí",
+    "pos": "verb",
+    "primary_gloss": "to question",
+    "secondary_glosses": [
+      "to doubt"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1719",
+    "rank": 1719,
+    "display_form": "至于",
+    "lemma": "至于",
+    "generation_form": "至于",
+    "pronunciation": "zhìyú",
+    "pos": "verb, preposition",
+    "primary_gloss": "to go so far as to",
+    "secondary_glosses": [
+      "as for",
+      "as to"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, preposition."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1720",
+    "rank": 1720,
+    "display_form": "中等",
+    "lemma": "中等",
+    "generation_form": "中等",
+    "pronunciation": "zhōngděng",
+    "pos": "adjective",
+    "primary_gloss": "medium",
+    "secondary_glosses": [
+      "moderate"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1721",
+    "rank": 1721,
+    "display_form": "终点",
+    "lemma": "终点",
+    "generation_form": "终点",
+    "pronunciation": "zhōngdiǎn",
+    "pos": "noun",
+    "primary_gloss": "end point",
+    "secondary_glosses": [
+      "destination"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1722",
+    "rank": 1722,
+    "display_form": "中断",
+    "lemma": "中断",
+    "generation_form": "中断",
+    "pronunciation": "zhōngduàn",
+    "pos": "verb",
+    "primary_gloss": "to interrupt",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1723",
+    "rank": 1723,
+    "display_form": "终身",
+    "lemma": "终身",
+    "generation_form": "终身",
+    "pronunciation": "zhōngshēn",
+    "pos": "noun",
+    "primary_gloss": "lifelong",
+    "secondary_glosses": [
+      "entire life"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1724",
+    "rank": 1724,
+    "display_form": "钟头",
+    "lemma": "钟头",
+    "generation_form": "钟头",
+    "pronunciation": "zhōngtóu",
+    "pos": "noun",
+    "primary_gloss": "hour",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1725",
+    "rank": 1725,
+    "display_form": "中旬",
+    "lemma": "中旬",
+    "generation_form": "中旬",
+    "pronunciation": "zhōngxún",
+    "pos": "noun",
+    "primary_gloss": "middle ten days of a month",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  }
+]

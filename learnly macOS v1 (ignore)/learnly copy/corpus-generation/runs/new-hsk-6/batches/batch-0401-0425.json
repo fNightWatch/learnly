@@ -1,0 +1,369 @@
+[
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0401",
+    "rank": 401,
+    "display_form": "幅度",
+    "lemma": "幅度",
+    "generation_form": "幅度",
+    "pronunciation": "fúdù",
+    "pos": "noun",
+    "primary_gloss": "range",
+    "secondary_glosses": [
+      "scope",
+      "extent"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0402",
+    "rank": 402,
+    "display_form": "符号",
+    "lemma": "符号",
+    "generation_form": "符号",
+    "pronunciation": "fúhào",
+    "pos": "noun",
+    "primary_gloss": "symbol",
+    "secondary_glosses": [
+      "sign"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0403",
+    "rank": 403,
+    "display_form": "福利",
+    "lemma": "福利",
+    "generation_form": "福利",
+    "pronunciation": "fúlì",
+    "pos": "noun, verb",
+    "primary_gloss": "welfare",
+    "secondary_glosses": [
+      "benefit",
+      "to provide welfare"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0404",
+    "rank": 404,
+    "display_form": "服用",
+    "lemma": "服用",
+    "generation_form": "服用",
+    "pronunciation": "fúyòng",
+    "pos": "verb",
+    "primary_gloss": "to take (medicine)",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0405",
+    "rank": 405,
+    "display_form": "辅导",
+    "lemma": "辅导",
+    "generation_form": "辅导",
+    "pronunciation": "fǔdǎo",
+    "pos": "verb",
+    "primary_gloss": "to coach",
+    "secondary_glosses": [
+      "to tutor"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0406",
+    "rank": 406,
+    "display_form": "辅助",
+    "lemma": "辅助",
+    "generation_form": "辅助",
+    "pronunciation": "fǔzhù",
+    "pos": "verb, adjective",
+    "primary_gloss": "to assist",
+    "secondary_glosses": [
+      "auxiliary"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0407",
+    "rank": 407,
+    "display_form": "副2",
+    "lemma": "副",
+    "generation_form": "副",
+    "pronunciation": "fù",
+    "pos": "adjective",
+    "primary_gloss": "deputy",
+    "secondary_glosses": [
+      "vice-"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0408",
+    "rank": 408,
+    "display_form": "覆盖",
+    "lemma": "覆盖",
+    "generation_form": "覆盖",
+    "pronunciation": "fùgài",
+    "pos": "verb",
+    "primary_gloss": "to cover",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0409",
+    "rank": 409,
+    "display_form": "附件",
+    "lemma": "附件",
+    "generation_form": "附件",
+    "pronunciation": "fùjiàn",
+    "pos": "noun",
+    "primary_gloss": "attachment",
+    "secondary_glosses": [
+      "accessory"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0410",
+    "rank": 410,
+    "display_form": "负面",
+    "lemma": "负面",
+    "generation_form": "负面",
+    "pronunciation": "fùmiàn",
+    "pos": "adjective",
+    "primary_gloss": "negative",
+    "secondary_glosses": [
+      "adverse"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0411",
+    "rank": 411,
+    "display_form": "富裕",
+    "lemma": "富裕",
+    "generation_form": "富裕",
+    "pronunciation": "fùyù",
+    "pos": "adjective, verb",
+    "primary_gloss": "wealthy",
+    "secondary_glosses": [
+      "to enrich"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective, verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0412",
+    "rank": 412,
+    "display_form": "赋予",
+    "lemma": "赋予",
+    "generation_form": "赋予",
+    "pronunciation": "fùyǔ",
+    "pos": "verb",
+    "primary_gloss": "to endow",
+    "secondary_glosses": [
+      "to give"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0413",
+    "rank": 413,
+    "display_form": "该",
+    "lemma": "该",
+    "generation_form": "该",
+    "pronunciation": "gāi",
+    "pos": "pronoun",
+    "primary_gloss": "that",
+    "secondary_glosses": [
+      "such"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as pronoun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0414",
+    "rank": 414,
+    "display_form": "改编",
+    "lemma": "改编",
+    "generation_form": "改编",
+    "pronunciation": "gǎibiān",
+    "pos": "verb",
+    "primary_gloss": "to adapt",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0415",
+    "rank": 415,
+    "display_form": "改造",
+    "lemma": "改造",
+    "generation_form": "改造",
+    "pronunciation": "gǎizào",
+    "pos": "verb",
+    "primary_gloss": "to transform",
+    "secondary_glosses": [
+      "to rebuild"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0416",
+    "rank": 416,
+    "display_form": "概率",
+    "lemma": "概率",
+    "generation_form": "概率",
+    "pronunciation": "gàilǜ",
+    "pos": "noun",
+    "primary_gloss": "probability",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0417",
+    "rank": 417,
+    "display_form": "肝",
+    "lemma": "肝",
+    "generation_form": "肝",
+    "pronunciation": "gān",
+    "pos": "noun",
+    "primary_gloss": "liver",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0418",
+    "rank": 418,
+    "display_form": "干脆",
+    "lemma": "干脆",
+    "generation_form": "干脆",
+    "pronunciation": "gāncuì",
+    "pos": "adjective, adverb",
+    "primary_gloss": "decisive",
+    "secondary_glosses": [
+      "straightforward",
+      "simply",
+      "just"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective, adverb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0419",
+    "rank": 419,
+    "display_form": "尴尬",
+    "lemma": "尴尬",
+    "generation_form": "尴尬",
+    "pronunciation": "gāngà",
+    "pos": "adjective",
+    "primary_gloss": "embarrassed",
+    "secondary_glosses": [
+      "awkward"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0420",
+    "rank": 420,
+    "display_form": "干旱",
+    "lemma": "干旱",
+    "generation_form": "干旱",
+    "pronunciation": "gānhàn",
+    "pos": "adjective",
+    "primary_gloss": "dry",
+    "secondary_glosses": [
+      "arid"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0421",
+    "rank": 421,
+    "display_form": "干扰",
+    "lemma": "干扰",
+    "generation_form": "干扰",
+    "pronunciation": "gānrǎo",
+    "pos": "verb",
+    "primary_gloss": "to disturb",
+    "secondary_glosses": [
+      "to interfere"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0422",
+    "rank": 422,
+    "display_form": "干燥",
+    "lemma": "干燥",
+    "generation_form": "干燥",
+    "pronunciation": "gānzào",
+    "pos": "adjective",
+    "primary_gloss": "dry",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0423",
+    "rank": 423,
+    "display_form": "感激",
+    "lemma": "感激",
+    "generation_form": "感激",
+    "pronunciation": "gǎnjī",
+    "pos": "verb",
+    "primary_gloss": "to appreciate",
+    "secondary_glosses": [
+      "to be grateful"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0424",
+    "rank": 424,
+    "display_form": "赶忙",
+    "lemma": "赶忙",
+    "generation_form": "赶忙",
+    "pronunciation": "gǎnmáng",
+    "pos": "adverb",
+    "primary_gloss": "hurriedly",
+    "secondary_glosses": [
+      "quickly"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0425",
+    "rank": 425,
+    "display_form": "感染",
+    "lemma": "感染",
+    "generation_form": "感染",
+    "pronunciation": "gǎnrǎn",
+    "pos": "verb",
+    "primary_gloss": "to infect",
+    "secondary_glosses": [
+      "to influence"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  }
+]

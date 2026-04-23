@@ -12,6 +12,7 @@ RULES:
   - `new-hsk-3-words`: 7-16 Chinese words
   - `new-hsk-4-words`: 8-17 Chinese words
   - `new-hsk-5-words`: 9-19 Chinese words
+  - `new-hsk-6-words`: the finished batch must average at least 20 segmented Chinese words per sentence, so individual sentences should usually land around 18-24 segmented words unless the target word clearly needs a different shape
 - Vocabulary constraint by rank:
   - Rank 1-200: only use top-300 words alongside the target
   - Rank 201-500: only use top-700 words
@@ -29,10 +30,12 @@ RULES:
   - `new-hsk-3-words`: only New HSK 1 plus New HSK 2 plus New HSK 3 vocabulary
   - `new-hsk-4-words`: only New HSK 1 plus New HSK 2 plus New HSK 3 plus New HSK 4 vocabulary
   - `new-hsk-5-words`: only New HSK 1 plus New HSK 2 plus New HSK 3 plus New HSK 4 plus New HSK 5 vocabulary
+  - `new-hsk-6-words`: only New HSK 1 plus New HSK 2 plus New HSK 3 plus New HSK 4 plus New HSK 5 plus New HSK 6 vocabulary
 - For `new-hsk-2-words`, make the sentences a little richer than HSK 1 with slightly more time, place, or clause detail, but keep them beginner-safe and concrete
 - For `new-hsk-3-words`, make the sentences only a little richer than HSK 2 with just a small step up in detail or clause structure, but keep them concrete, learner-safe, and easy to picture
 - For `new-hsk-4-words`, make the sentences only a little richer than HSK 3 with just a small step up in detail or clause structure, but keep them concrete, learner-safe, and easy to picture
 - For `new-hsk-5-words`, make the sentences only a little richer than HSK 4 with just a small step up in detail or clause structure, but keep them concrete, learner-safe, and easy to picture
+- For `new-hsk-6-words`, make the sentences clearly denser and longer than HSK 5 while still natural, concrete when possible, and fully lexicon-safe; across the batch, aim for an average difficulty above the lower levels on the `1-5` scale
 - Do NOT start sentences with the target word unless grammatically natural
 - Use different subjects and scenarios across all 3 candidates
 - For Chinese: simplified characters only

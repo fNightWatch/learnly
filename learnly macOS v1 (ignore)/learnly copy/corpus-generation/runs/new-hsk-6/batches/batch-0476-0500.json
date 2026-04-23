@@ -1,0 +1,371 @@
+[
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0476",
+    "rank": 476,
+    "display_form": "古迹",
+    "lemma": "古迹",
+    "generation_form": "古迹",
+    "pronunciation": "gǔjì",
+    "pos": "noun",
+    "primary_gloss": "historic site",
+    "secondary_glosses": [
+      "relic"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0477",
+    "rank": 477,
+    "display_form": "股票",
+    "lemma": "股票",
+    "generation_form": "股票",
+    "pronunciation": "gǔpiào",
+    "pos": "noun",
+    "primary_gloss": "stock",
+    "secondary_glosses": [
+      "share"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0478",
+    "rank": 478,
+    "display_form": "古人",
+    "lemma": "古人",
+    "generation_form": "古人",
+    "pronunciation": "gǔrén",
+    "pos": "noun",
+    "primary_gloss": "ancient people",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0479",
+    "rank": 479,
+    "display_form": "股市",
+    "lemma": "股市",
+    "generation_form": "股市",
+    "pronunciation": "gǔshì",
+    "pos": "noun",
+    "primary_gloss": "stock market",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0480",
+    "rank": 480,
+    "display_form": "骨头",
+    "lemma": "骨头",
+    "generation_form": "骨头",
+    "pronunciation": "gǔtou",
+    "pos": "noun",
+    "primary_gloss": "bone",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0481",
+    "rank": 481,
+    "display_form": "鼓舞",
+    "lemma": "鼓舞",
+    "generation_form": "鼓舞",
+    "pronunciation": "gǔwǔ",
+    "pos": "verb, adjective",
+    "primary_gloss": "to inspire",
+    "secondary_glosses": [
+      "to encourage",
+      "inspiring"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0482",
+    "rank": 482,
+    "display_form": "顾",
+    "lemma": "顾",
+    "generation_form": "顾",
+    "pronunciation": "gù",
+    "pos": "verb",
+    "primary_gloss": "to attend to",
+    "secondary_glosses": [
+      "to look after"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0483",
+    "rank": 483,
+    "display_form": "固体",
+    "lemma": "固体",
+    "generation_form": "固体",
+    "pronunciation": "gùtǐ",
+    "pos": "noun",
+    "primary_gloss": "solid",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0484",
+    "rank": 484,
+    "display_form": "顾问",
+    "lemma": "顾问",
+    "generation_form": "顾问",
+    "pronunciation": "gùwèn",
+    "pos": "noun",
+    "primary_gloss": "consultant",
+    "secondary_glosses": [
+      "advisor"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0485",
+    "rank": 485,
+    "display_form": "故障",
+    "lemma": "故障",
+    "generation_form": "故障",
+    "pronunciation": "gùzhàng",
+    "pos": "noun",
+    "primary_gloss": "breakdown",
+    "secondary_glosses": [
+      "malfunction"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0486",
+    "rank": 486,
+    "display_form": "拐",
+    "lemma": "拐",
+    "generation_form": "拐",
+    "pronunciation": "guǎi",
+    "pos": "verb",
+    "primary_gloss": "to turn",
+    "secondary_glosses": [
+      "to limp"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0487",
+    "rank": 487,
+    "display_form": "拐弯",
+    "lemma": "拐弯",
+    "generation_form": "拐弯",
+    "pronunciation": "guǎiwān",
+    "pos": "verb",
+    "primary_gloss": "to turn a corner",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0488",
+    "rank": 488,
+    "display_form": "官",
+    "lemma": "官",
+    "generation_form": "官",
+    "pronunciation": "guān",
+    "pos": "noun",
+    "primary_gloss": "official",
+    "secondary_glosses": [
+      "government official"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0489",
+    "rank": 489,
+    "display_form": "关爱",
+    "lemma": "关爱",
+    "generation_form": "关爱",
+    "pronunciation": "guān’ài",
+    "pos": "verb",
+    "primary_gloss": "to care for",
+    "secondary_glosses": [
+      "to show concern"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0490",
+    "rank": 490,
+    "display_form": "官方",
+    "lemma": "官方",
+    "generation_form": "官方",
+    "pronunciation": "guānfāng",
+    "pos": "noun",
+    "primary_gloss": "official",
+    "secondary_glosses": [
+      "government"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0491",
+    "rank": 491,
+    "display_form": "观光",
+    "lemma": "观光",
+    "generation_form": "观光",
+    "pronunciation": "guānguāng",
+    "pos": "verb",
+    "primary_gloss": "to sightsee",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0492",
+    "rank": 492,
+    "display_form": "关怀",
+    "lemma": "关怀",
+    "generation_form": "关怀",
+    "pronunciation": "guānhuái",
+    "pos": "verb",
+    "primary_gloss": "to care for",
+    "secondary_glosses": [
+      "to show concern"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0493",
+    "rank": 493,
+    "display_form": "关联",
+    "lemma": "关联",
+    "generation_form": "关联",
+    "pronunciation": "guānlián",
+    "pos": "verb",
+    "primary_gloss": "to be related",
+    "secondary_glosses": [
+      "to be connected"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0494",
+    "rank": 494,
+    "display_form": "观赏",
+    "lemma": "观赏",
+    "generation_form": "观赏",
+    "pronunciation": "guānshǎng",
+    "pos": "verb",
+    "primary_gloss": "to view",
+    "secondary_glosses": [
+      "to admire"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0495",
+    "rank": 495,
+    "display_form": "官员",
+    "lemma": "官员",
+    "generation_form": "官员",
+    "pronunciation": "guānyuán",
+    "pos": "noun",
+    "primary_gloss": "official",
+    "secondary_glosses": [
+      "government official"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0496",
+    "rank": 496,
+    "display_form": "管道",
+    "lemma": "管道",
+    "generation_form": "管道",
+    "pronunciation": "guǎndào",
+    "pos": "noun",
+    "primary_gloss": "pipe",
+    "secondary_glosses": [
+      "tubing"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0497",
+    "rank": 497,
+    "display_form": "罐",
+    "lemma": "罐",
+    "generation_form": "罐",
+    "pronunciation": "guàn",
+    "pos": "noun",
+    "primary_gloss": "can",
+    "secondary_glosses": [
+      "jar"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0498",
+    "rank": 498,
+    "display_form": "广阔",
+    "lemma": "广阔",
+    "generation_form": "广阔",
+    "pronunciation": "guǎngkuò",
+    "pos": "adjective",
+    "primary_gloss": "vast",
+    "secondary_glosses": [
+      "wide"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0499",
+    "rank": 499,
+    "display_form": "归",
+    "lemma": "归",
+    "generation_form": "归",
+    "pronunciation": "guī",
+    "pos": "verb, preposition",
+    "primary_gloss": "to return",
+    "secondary_glosses": [
+      "by"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, preposition."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0500",
+    "rank": 500,
+    "display_form": "规范",
+    "lemma": "规范",
+    "generation_form": "规范",
+    "pronunciation": "guīfàn",
+    "pos": "noun, adjective, verb",
+    "primary_gloss": "norm",
+    "secondary_glosses": [
+      "standard",
+      "rule",
+      "standard",
+      "normative",
+      "to standardize",
+      "to regulate"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, adjective, verb."
+  }
+]

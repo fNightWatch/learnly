@@ -45,7 +45,7 @@ function RangeSelect({
   );
 }
 
-function shouldShowLabel(range: number, index: number, total: number) {
+function shouldShowLabel(range: DashboardRangeDays, index: number, total: number) {
   if (range <= 7) {
     return true;
   }
@@ -55,6 +55,23 @@ function shouldShowLabel(range: number, index: number, total: number) {
 
 function getReviewsAxisLabel(index: number) {
   return `${index + 1}d`;
+}
+
+function formatStudyDuration(totalMs: number | null | undefined) {
+  if (typeof totalMs !== "number" || !Number.isFinite(totalMs)) {
+    return "00:00";
+  }
+
+  const totalSeconds = Math.max(0, Math.round(totalMs / 1000));
+  const hours = Math.floor(totalSeconds / 3600);
+  const minutes = Math.floor((totalSeconds % 3600) / 60);
+  const seconds = totalSeconds % 60;
+
+  if (hours > 0) {
+    return `${hours}:${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
+  }
+
+  return `${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
 }
 
 function getGrowthPointLabel(entry: VocabularyGrowthDatum, index: number, total: number) {
@@ -93,7 +110,7 @@ function getGrowthAxisLabel(entry: VocabularyGrowthDatum, index: number, total: 
   return `${daysBack}d`;
 }
 
-function shouldShowGrowthLabel(range: number, index: number, total: number) {
+function shouldShowGrowthLabel(range: DashboardRangeDays, index: number, total: number) {
   if (range <= 7) {
     return true;
   }
@@ -106,7 +123,7 @@ function ReviewsDueChart({
   range
 }: {
   data: ReviewsDueDatum[];
-  range: number;
+  range: DashboardRangeDays;
 }) {
   const visible = data.slice(0, range);
   const rawMax = Math.max(...visible.map((entry) => entry.value), 1);
@@ -186,7 +203,7 @@ function VocabularyGrowthChart({
   range
 }: {
   data: VocabularyGrowthDatum[];
-  range: number;
+  range: DashboardRangeDays;
 }) {
   const visible = data.slice(data.length - range);
   const maxLearned = Math.max(...visible.map((entry) => entry.learning + entry.solid), 1);
@@ -369,21 +386,33 @@ function TodayCard({
 }
 
 function TodayMiniStack({ dashboard }: { dashboard: DashboardSnapshot }) {
+  const studiedToday = formatStudyDuration(dashboard.timeStudiedTodayMs);
+
   return (
     <section className="min-w-0">
-      <div className="grid h-full min-h-[104px] grid-rows-2 gap-1.5 sm:min-h-[116px] sm:gap-2">
-        <div className="dashboard-today-mini flex flex-col justify-center rounded-[14px] border px-3 py-1.5">
-          <div className="text-[10px] uppercase tracking-[0.18em] text-ink/38 dark:text-white/82">Reviewed</div>
-          <div className="mt-0.5 flex items-end gap-1.5">
-            <div className="text-[27px] leading-none tracking-[-0.05em] text-ink/92 dark:text-white">{dashboard.reviewsToday}</div>
-            <div className="pb-[2px] text-[11px] uppercase tracking-[0.14em] text-ink/42 dark:text-white/88">today</div>
+      <div className="grid h-full gap-1.5 sm:min-h-[116px] sm:gap-2">
+        <div className="grid gap-1.5 sm:grid-cols-2 sm:gap-2">
+          <div className="dashboard-today-mini flex flex-col justify-center rounded-[14px] border px-3 py-2">
+            <div className="text-[10px] uppercase tracking-[0.18em] text-ink/38 dark:text-white/82">Reviewed</div>
+            <div className="mt-0.5 flex items-end gap-1.5">
+              <div className="text-[25px] leading-none tracking-[-0.05em] text-ink/92 dark:text-white sm:text-[27px]">{dashboard.reviewsToday}</div>
+              <div className="pb-[2px] text-[10px] uppercase tracking-[0.14em] text-ink/42 dark:text-white/88 sm:text-[11px]">today</div>
+            </div>
+          </div>
+
+          <div className="dashboard-today-mini flex flex-col justify-center rounded-[14px] border px-3 py-2">
+            <div className="text-[10px] uppercase tracking-[0.18em] text-ink/38 dark:text-white/82">New words</div>
+            <div className="mt-0.5 flex items-end gap-1.5">
+              <div className="text-[25px] leading-none tracking-[-0.05em] text-ink/92 dark:text-white sm:text-[27px]">{dashboard.introducedToday}</div>
+              <div className="pb-[2px] text-[10px] uppercase tracking-[0.14em] text-ink/42 dark:text-white/88 sm:text-[11px]">today</div>
+            </div>
           </div>
         </div>
-        <div className="dashboard-today-mini flex flex-col justify-center rounded-[14px] border px-3 py-1.5">
-          <div className="text-[10px] uppercase tracking-[0.18em] text-ink/38 dark:text-white/82">New words</div>
-          <div className="mt-0.5 flex items-end gap-1.5">
-            <div className="text-[27px] leading-none tracking-[-0.05em] text-ink/92 dark:text-white">{dashboard.introducedToday}</div>
-            <div className="pb-[2px] text-[11px] uppercase tracking-[0.14em] text-ink/42 dark:text-white/88">today</div>
+
+        <div className="dashboard-today-mini flex flex-col gap-1 rounded-[14px] border px-3 py-2 sm:flex-row sm:items-end sm:justify-between sm:gap-3">
+          <div className="text-[10px] uppercase tracking-[0.18em] text-ink/38 dark:text-white/82">Time studied</div>
+          <div className="text-[23px] leading-none tracking-[-0.06em] tabular-nums text-ink/92 dark:text-white sm:text-[26px]">
+            {studiedToday}
           </div>
         </div>
       </div>
@@ -461,8 +490,8 @@ function ReviewsSection({
   activeLanguageLabels
 }: {
   dashboard: DashboardSnapshot;
-  range: number;
-  onRangeChange: (value: number) => void;
+  range: DashboardRangeDays;
+  onRangeChange: (value: DashboardRangeDays) => void;
   activeLanguageLabels: string;
 }) {
   return (
@@ -486,7 +515,7 @@ function VocabularySection({
   range
 }: {
   dashboard: DashboardSnapshot;
-  range: number;
+  range: DashboardRangeDays;
 }) {
   return (
     <section>
@@ -620,6 +649,7 @@ export function DashboardShell({ dashboard: initialDashboard }: { dashboard: Das
 
     // Fetch fresh dashboard data on mount to reconcile stale Next.js router cache
     let cancelled = false;
+    const refreshStart = typeof window !== "undefined" ? performance.now() : null;
     fetch("/api/dashboard")
       .then((res) => (res.ok ? res.json() : null))
       .then((fresh: DashboardSnapshot | null) => {
@@ -628,6 +658,10 @@ export function DashboardShell({ dashboard: initialDashboard }: { dashboard: Das
         setDashboard(fresh);
         if (!rangeTouchedRef.current) {
           setRange(fresh.dashboardRangeDays);
+        }
+        if (refreshStart !== null) {
+          const refreshMs = performance.now() - refreshStart;
+          console.info(`[perf] dashboard.initial-refresh-ms=${refreshMs.toFixed(2)}`);
         }
       })
       .catch(() => {});
@@ -639,6 +673,7 @@ export function DashboardShell({ dashboard: initialDashboard }: { dashboard: Das
 
   const filterByLanguages = (nextLanguageCodes: SupportedLanguageCode[]) => {
     setSaveError(null);
+    const refreshStart = typeof window !== "undefined" ? performance.now() : null;
 
     const cachedSnapshot = snapshotCacheRef.current[getLanguageSelectionKey(nextLanguageCodes)];
     if (cachedSnapshot) {
@@ -668,6 +703,10 @@ export function DashboardShell({ dashboard: initialDashboard }: { dashboard: Das
         snapshotCacheRef.current[getLanguageSelectionKey(fresh.activeLanguageCodes)] = fresh;
         setDashboard(fresh);
         setSaveError(null);
+        if (refreshStart !== null) {
+          const refreshMs = performance.now() - refreshStart;
+          console.info(`[perf] dashboard.filter-refresh-ms=${refreshMs.toFixed(2)} langs=${nextLanguageCodes.join(",")}`);
+        }
       })
       .catch(() => {
         if (requestId !== requestIdRef.current) return;

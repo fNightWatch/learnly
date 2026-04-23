@@ -10,16 +10,26 @@ SCORING CRITERIA (each 0-10):
 
 AUTOMATIC DISQUALIFICATION (final score = 0):
 - Sentence does not contain the target word or its inflected form
-- Sentence is longer than 15 words
+- Sentence is far outside the dataset's intended length bar
 - Target word is used in a secondary or rare meaning
 - Contains profanity, violence, or controversial content
 
 Final score = average of all 5 criteria, rounded to 1 decimal.
 
-Difficulty rating: 1 if all non-target words are top-500 frequency, 2 if top-1500, 3 if beyond.
+Difficulty rating uses the `1-5` corpus scale:
+- `1`: very easy for the dataset
+- `2`: easy
+- `3`: standard target-level difficulty
+- `4`: clearly harder or denser than standard
+- `5`: upper-end difficulty while still natural and lexicon-safe
+
+For `new-hsk-6-words`, the batch-level checker must reject output that fails either of these floors:
+- average segmented word count below `20.0`
+- average difficulty below `3.1`
 
 Input format:
 {
+  "dataset_id": "new-hsk-6-words",
   "word": "como",
   "lang": "es",
   "pos": "conjunction",
@@ -34,8 +44,8 @@ Input format:
 Output format:
 {
   "scores": [
-    {"id": "g1-a", "naturalness": 9, "clarity": 8, "vocab_level": 9, "memorability": 7, "correctness": 10, "final": 8.6, "difficulty": 1, "flag": null},
-    {"id": "g1-b", "naturalness": 6, "clarity": 5, "vocab_level": 8, "memorability": 5, "correctness": 10, "final": 6.8, "difficulty": 1, "flag": "ambiguous meaning"}
+    {"id": "g1-a", "naturalness": 9, "clarity": 8, "vocab_level": 9, "memorability": 7, "correctness": 10, "final": 8.6, "difficulty": 3, "flag": null},
+    {"id": "g1-b", "naturalness": 6, "clarity": 5, "vocab_level": 8, "memorability": 5, "correctness": 10, "final": 6.8, "difficulty": 2, "flag": "ambiguous meaning"}
   ]
 }
 

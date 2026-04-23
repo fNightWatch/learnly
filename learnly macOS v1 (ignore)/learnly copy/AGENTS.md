@@ -258,6 +258,11 @@ This file contains a growing ruleset that improves over time. **At session start
 214. [STYLE] Always keep Study pause UI as a discreet top status banner with light scrim (not a large centered white pill/modal), because the user explicitly rejected the current paused look as ugly.
 215. [STYLE] Always keep the Study setup screen close to web quality with a full-width primary `Start Study` CTA, restrained segment styling, and polished language chips — tiny CTA pills and heavy dark segment bars are explicitly rejected as ugly.
 216. [UX] Always run Study `Timer` mode as a countdown from the selected minutes to `00:00` and only auto-complete after the learner submits the current card when time is up — never interrupt mid-card.
+217. [PROCESS] Always verify a newly added dashboard metric renders a real value in the live UI before calling the task done — correct backend data can still surface as `n/a` on screen.
+217. [PROCESS] Always keep iOS UI fix requests scoped to `languagehack_ios` when the user explicitly says they mean the iOS app, not the website — the user explicitly clarified native-only work here.
+218. [PROCESS] Always use the website Study UI as the parity reference when refining the iOS Study experience if the user says the site is the active reference — the user explicitly pointed to localhost:3000 as the source of truth.
+219. [UX] Always keep the iPhone bottom bar proportionally narrower and seated lower against the device safe area instead of wide/high when the user flags its geometry — the user explicitly rejected the current iOS bottom bar placement.
+220. [STYLE] Always make the iOS Study pause state match the website more closely with a clean overlay, a real resume path, and web-parity accent colors when the user flags pause and color drift — the user explicitly rejected the current iOS pause UI and mismatched blues.
 217. [STYLE] Always keep numeric count pills in `Still due by language` light and refined (never dark/heavy ovals) so they look premium instead of cheap — the user explicitly rejected dark outlined number badges.
 218. [STYLE] Always treat Streak as a high-importance hero module with larger visual scale, stronger hierarchy, and a more expressive badge rhythm when the user says it feels underwhelming.
 219. [UX] Always make the entire visible button/pill outline area fully clickable (not just the text glyphs) by defining explicit hit shapes on custom SwiftUI controls — the user explicitly reported text-only click behavior as broken responsiveness.
@@ -322,3 +327,53 @@ This file contains a growing ruleset that improves over time. **At session start
 272. [UX] Always apply iOS `System/Light/Dark` theme overrides at the app-root scene level so the selected mode updates every page and overlay immediately.
 273. [PROCESS] Always fall back to `next dev --turbo` after `seed-db.ts` when plain Learnly `next dev` binds but stalls without usable responses on Node 22 — this repo can reach `Ready` reliably through Turbopack when the standard dev path hangs.
 274. [PROCESS] Always keep the root web `tsconfig.json` narrowly scoped to web app files instead of broad `**/*.ts(x)` globs — letting Next inspect the whole repository can trigger dev-bundler timeouts and `failed to receive message` errors here.
+275. [PROCESS] Always remove stray duplicate ref files in `../learnly-remote/.git/refs/heads/` when the sync workflow fails with `fatal: bad object refs/heads/...` — stale local branch-ref copies can break the existing sync script before `rsync` or push even starts.
+276. [PROCESS] Always document resolved operational sync issues in `RUN.md` when the user asks to preserve them there — repo-specific git/runbook fixes should not live only in chat or memory.
+273. [UX] Always render iPhone Settings and other modal flows edge-to-edge with no centered floating root panel or black letterbox margins — the user explicitly rejected any non-fullscreen iOS presentation.
+274. [UX] Always apply iOS theme override from the active root shell and its fullscreen overlays (not only static app bootstrap) so selecting `Light`/`Dark` updates immediately.
+
+217. [DATA] Always configure assumed words in Settings first and scope the initial implementation to whole curated lists instead of per-word selection — the user explicitly wants assumed words added now through list selection only.
+
+218. [PROCESS] Always read `RUN.md` before booting or verifying the web app in this repo — the user explicitly corrected the startup workflow.
+219. [PROCESS] Always create or update a dedicated feature memory markdown file under `memory/features/` whenever the user asks for a feature implementation or feature change — the user explicitly wants every feature to have its own implementation doc with logic, technical details, and ongoing updates.
+
+277. [UX] Always treat iOS Done-state as edge-to-edge fullscreen with zero app-canvas letterboxing and full scroll access to every web-parity section/functionality — the user explicitly defined Done as full-screen plus no hidden content.
+
+278. [UX] Always implement iOS parity as true fullscreen, fully scrollable, and function-complete with no hidden web-parity sections, while limiting Liquid Glass to navigation and selected accents for readability — the user explicitly redefined Done with these constraints.
+
+279. [PROCESS] Always complete this session only after a real iOS QA pass confirms button accessibility, full content visibility/scrollability, and functional parity with mobile web behavior across all key screens.
+280. [PROCESS] Always restore and launch a working web app first when the user explicitly asks to "just run it", and postpone non-essential refactors/upgrades until after HTTP 200 is confirmed on `/`, `/dashboard`, and `/study`.
+281. [PROCESS] Always reset progress-protection baseline (without crashing routes) when `.learnly/learnly.db` is intentionally replaced/restored and progress counts become lower than an older manifest snapshot — DB recovery should not brick `/study` or `/dashboard`.
+282. [PROCESS] Always verify Learnly startup with a second delayed liveness probe (listener + HTTP) before saying "site is running" — this environment can pass the first check and still drop the dev server seconds later.
+283. [PROCESS] Always prioritize a clean, single-session restart of the existing app when the user asks to "just run it", and avoid unrelated upgrades/refactors until stable HTTP 200 is confirmed on `/`, `/dashboard`, and `/study` — the user explicitly wants reliable launch first and no extra breakage.
+284. [DATA] Always preserve and restore the highest-progress `.learnly/learnly.db` snapshot first when fixing startup issues — user learning history must never be dropped as a side effect of run/debug work.
+285. [DATA] Never delete, overwrite, move, or recreate `.learnly/learnly.db` during run/debug work unless the user explicitly asks for destructive data reset in that exact session — user progress is priority-zero data.
+286. [PROCESS] Always create a timestamped safety snapshot of `.learnly/learnly.db` before any command that touches DB state (seeding, restore, migration, troubleshooting) — rollback must always be possible.
+287. [DATA] Always compare progress counts (`user_item_states`, `review_events`, `sessions`) before and after startup recovery steps, and treat any drop as a blocking incident requiring immediate restore — silent progress regression is unacceptable.
+288. [PROCESS] Always prefer the highest-progress snapshot in `.learnly/progress-backups/` when recovery is required, and preserve the currently active DB as `learnly.db.before-restore-<timestamp>` before restoring — no-recovery-point restores are forbidden.
+289. [PROCESS] Always run Learnly dev through the guarded watchdog path (`scripts/dev-stable.sh`) for normal launch in this repo so health failures auto-restart instead of randomly dying.
+290. [PROCESS] Always verify liveness on all three core routes (`/`, `/dashboard`, `/study`) after every restart and after a short delay; if any route fails, the server is not considered running.
+291. [DATA] Never publish run instructions that recommend `rm .learnly/learnly.db` as a normal troubleshooting step — destructive reset is last resort only, with explicit user approval and backups already taken.
+292. [PROCESS] Always use a lightweight health endpoint with long startup grace in `dev-stable.sh`, and never use short-timeout watchdog probes against heavy routes like `/dashboard` or `/study` — cold compile can take minutes and false health failures cause restart loops.
+293. [DATA] Always require explicit user confirmation before any destructive or progress-reducing operation (DB reset, restore downgrade, truncation, migration rewrite), and default all performance benchmarking to non-mutating mode unless `ALLOW_MUTATING_BENCH=1` is intentionally set.
+294. [STYLE] Always use the exact user-supplied design asset for browser preview/logo changes when they point to a file, instead of redrawing a new mark — the user explicitly corrected the favicon source.
+295. [UX] Always keep `Everyday` study sessions in review-first mode until every due card is exhausted, and only then show new words — the user explicitly said everyday should behave like review-only until the due queue is empty.
+296. [CODE] Always define `languagehack_ios` XcodeGen targets with `supportedDestinations: [iOS]` instead of relying on `platform: iOS` alone — this repo otherwise generates an `iphoneos`-only project that breaks simulator build/test tooling.
+297. [UX] Always seat the iPhone bottom bar even lower toward the bottom safe area when the user says it is still too high — the user explicitly corrected the latest iOS bar position.
+298. [STYLE] Always make the iPhone bottom bar use a genuinely correct Liquid Glass treatment when the user says the current glass behavior is wrong — the user explicitly rejected the current bottom-bar glass behavior in the iOS app.
+299. [UX] Always remove the large outer setup card shell on iPhone when the user flags it as unnecessary — the mobile study setup should not sit inside an extra boxed container.
+
+300. [STYLE] Always match the iOS dashboard palette to the current website dashboard colors when the user says the native dashboard colors are off — dashboard accent tuning in iOS should follow the live site as the visual source of truth.
+
+301. [UX] Always visually QA the live iPhone bottom bar after any native navigation restyle and immediately simplify it if the glass treatment starts looking smeared, bloated, or visually broken — the user explicitly rejected the current bottom bar as a mess.
+
+302. [PROCESS] Always consult current Apple guidance before refining the iOS Liquid Glass bottom bar when the user explicitly asks for guideline-correct behavior — bottom bar styling should not be guessed when Apple’s own design rules are the reference.
+
+303. [PROCESS] Always audit the rest of the iOS UI against current Apple design guidance after fixing a major navigation mismatch when the user explicitly asks for broader documentation-based review.
+
+304. [PROCESS] Always keep implementing the full Apple-guideline iOS cleanup end-to-end when the user says to keep working, instead of stopping at review findings.
+305. [PROCESS] Always verify actual startup behavior and file-read failures before blaming iCloud offloading in this repo — `dataless` metadata alone is not sufficient evidence when the user says the files are already downloaded.
+306. [PROCESS] Always read `memory/claude_memory.md` and `RUN.md` carefully for prior startup logs before diagnosing Learnly launch failures — the user explicitly corrected that these files contain important run history.
+307. [PROCESS] Always report startup status only from exact `RUN.md` steps and live command output, never from assumptions — the user explicitly asked to stop making things up.
+308. [DATA] Always compute dashboard `Time studied today` from true session elapsed time, not from summed per-review `elapsed_ms`, because per-card wall-clock values can include idle/paused time and overcount the day total.
+309. [PROCESS] Always follow `SYNC.md` literally for repo sync destination/pathing in this repo, and never reinterpret the target from other repo docs or folder names — the user explicitly corrected a wrong sync into `learnly windows`.

@@ -1,0 +1,359 @@
+[
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0276",
+    "rank": 276,
+    "display_form": "岛",
+    "lemma": "岛",
+    "generation_form": "岛",
+    "pronunciation": "dǎo",
+    "pos": "noun",
+    "primary_gloss": "island",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0277",
+    "rank": 277,
+    "display_form": "倒闭",
+    "lemma": "倒闭",
+    "generation_form": "倒闭",
+    "pronunciation": "dǎobì",
+    "pos": "verb",
+    "primary_gloss": "to go bankrupt",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0278",
+    "rank": 278,
+    "display_form": "倒车",
+    "lemma": "倒车",
+    "generation_form": "倒车",
+    "pronunciation": "dǎochē",
+    "pos": "verb",
+    "primary_gloss": "to reverse",
+    "secondary_glosses": [
+      "to back up"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0279",
+    "rank": 279,
+    "display_form": "导师",
+    "lemma": "导师",
+    "generation_form": "导师",
+    "pronunciation": "dǎoshī",
+    "pos": "noun",
+    "primary_gloss": "supervisor",
+    "secondary_glosses": [
+      "mentor"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0280",
+    "rank": 280,
+    "display_form": "道德",
+    "lemma": "道德",
+    "generation_form": "道德",
+    "pronunciation": "dàodé",
+    "pos": "noun, adjective",
+    "primary_gloss": "morality",
+    "secondary_glosses": [
+      "ethics",
+      "moral"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0281",
+    "rank": 281,
+    "display_form": "倒是",
+    "lemma": "倒是",
+    "generation_form": "倒是",
+    "pronunciation": "dàoshì",
+    "pos": "adverb",
+    "primary_gloss": "contrary to expectation",
+    "secondary_glosses": [
+      "but"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0282",
+    "rank": 282,
+    "display_form": "得了",
+    "lemma": "得了",
+    "generation_form": "得了",
+    "pronunciation": "déle",
+    "pos": "verb, particle",
+    "primary_gloss": "to finish",
+    "secondary_glosses": [
+      "used after 动s to express possibility"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, particle."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0283",
+    "rank": 283,
+    "display_form": "得以",
+    "lemma": "得以",
+    "generation_form": "得以",
+    "pronunciation": "déyǐ",
+    "pos": "verb",
+    "primary_gloss": "to be able to",
+    "secondary_glosses": [
+      "so that"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0284",
+    "rank": 284,
+    "display_form": "得知",
+    "lemma": "得知",
+    "generation_form": "得知",
+    "pronunciation": "dézhī",
+    "pos": "verb",
+    "primary_gloss": "to learn of",
+    "secondary_glosses": [
+      "to hear about"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0285",
+    "rank": 285,
+    "display_form": "灯笼",
+    "lemma": "灯笼",
+    "generation_form": "灯笼",
+    "pronunciation": "dēnglong",
+    "pos": "noun",
+    "primary_gloss": "lantern",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0286",
+    "rank": 286,
+    "display_form": "等级",
+    "lemma": "等级",
+    "generation_form": "等级",
+    "pronunciation": "děngjí",
+    "pos": "noun",
+    "primary_gloss": "grade",
+    "secondary_glosses": [
+      "rank"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0287",
+    "rank": 287,
+    "display_form": "滴",
+    "lemma": "滴",
+    "generation_form": "滴",
+    "pronunciation": "dī",
+    "pos": "verb, measure word",
+    "primary_gloss": "to drip",
+    "secondary_glosses": [
+      "measure word"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, measure word."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0288",
+    "rank": 288,
+    "display_form": "低碳",
+    "lemma": "低碳",
+    "generation_form": "低碳",
+    "pronunciation": "dītàn",
+    "pos": "adjective",
+    "primary_gloss": "low-carbon",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0289",
+    "rank": 289,
+    "display_form": "抵达",
+    "lemma": "抵达",
+    "generation_form": "抵达",
+    "pronunciation": "dǐdá",
+    "pos": "verb",
+    "primary_gloss": "to arrive",
+    "secondary_glosses": [
+      "to reach"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0290",
+    "rank": 290,
+    "display_form": "抵抗",
+    "lemma": "抵抗",
+    "generation_form": "抵抗",
+    "pronunciation": "dǐkàng",
+    "pos": "verb",
+    "primary_gloss": "to resist",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0291",
+    "rank": 291,
+    "display_form": "地道",
+    "lemma": "地道",
+    "generation_form": "地道",
+    "pronunciation": "dìdao",
+    "pos": "adjective",
+    "primary_gloss": "authentic",
+    "secondary_glosses": [
+      "genuine"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0292",
+    "rank": 292,
+    "display_form": "地方",
+    "lemma": "地方",
+    "generation_form": "地方",
+    "pronunciation": "dìfāng",
+    "pos": "noun",
+    "primary_gloss": "place",
+    "secondary_glosses": [
+      "location"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0293",
+    "rank": 293,
+    "display_form": "地形",
+    "lemma": "地形",
+    "generation_form": "地形",
+    "pronunciation": "dìxíng",
+    "pos": "noun",
+    "primary_gloss": "terrain",
+    "secondary_glosses": [
+      "landform"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0294",
+    "rank": 294,
+    "display_form": "地域",
+    "lemma": "地域",
+    "generation_form": "地域",
+    "pronunciation": "dìyù",
+    "pos": "noun",
+    "primary_gloss": "region",
+    "secondary_glosses": [
+      "area"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0295",
+    "rank": 295,
+    "display_form": "地质",
+    "lemma": "地质",
+    "generation_form": "地质",
+    "pronunciation": "dìzhì",
+    "pos": "noun",
+    "primary_gloss": "geology",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0296",
+    "rank": 296,
+    "display_form": "点击",
+    "lemma": "点击",
+    "generation_form": "点击",
+    "pronunciation": "diǎnjī",
+    "pos": "verb",
+    "primary_gloss": "to click",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0297",
+    "rank": 297,
+    "display_form": "典礼",
+    "lemma": "典礼",
+    "generation_form": "典礼",
+    "pronunciation": "diǎnlǐ",
+    "pos": "noun",
+    "primary_gloss": "ceremony",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0298",
+    "rank": 298,
+    "display_form": "点燃",
+    "lemma": "点燃",
+    "generation_form": "点燃",
+    "pronunciation": "diǎnrán",
+    "pos": "verb",
+    "primary_gloss": "to ignite",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0299",
+    "rank": 299,
+    "display_form": "典型",
+    "lemma": "典型",
+    "generation_form": "典型",
+    "pronunciation": "diǎnxíng",
+    "pos": "noun, adjective",
+    "primary_gloss": "model",
+    "secondary_glosses": [
+      "typical",
+      "representative"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0300",
+    "rank": 300,
+    "display_form": "电饭锅",
+    "lemma": "电饭锅",
+    "generation_form": "电饭锅",
+    "pronunciation": "diànfànguō",
+    "pos": "noun",
+    "primary_gloss": "rice cooker",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  }
+]

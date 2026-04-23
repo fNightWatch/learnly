@@ -2,6 +2,7 @@
 
 import argparse
 import json
+import os
 import re
 import unicodedata
 from pathlib import Path
@@ -9,7 +10,7 @@ from pathlib import Path
 import pdfplumber
 
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(os.path.dirname(os.path.dirname(__file__)))
 
 RANK_X_MAX = 150
 CHINESE_X_MAX = 230
@@ -26,6 +27,7 @@ ANNOTATION_RE = re.compile(r"（([^）]+)）")
 LEADING_RANK_RE = re.compile(r"^(\d+)(.*)$")
 CHINESE_CHAR_RE = re.compile(r"[\u3400-\u9fff]")
 FOOTNOTE_RE = re.compile(r"[¹²³⁴⁵⁶⁷⁸⁹⁰]")
+WHITESPACE_RE = re.compile(r"\s+")
 POS_MAP = {
     "形": "adjective",
     "动": "verb",
@@ -53,10 +55,58 @@ ENGLISH_POS_MAP = {
     "pronoun": "pronoun",
     "verb": "verb",
 }
+DISPLAY_FORM_FIXUPS = {
+    "劳verb": "劳动",
+}
 
 
 def normalize_text(text: str) -> str:
     return unicodedata.normalize("NFKC", text).strip()
+
+
+def normalize_display_form(display_form: str) -> str:
+    cleaned = ANNOTATION_RE.sub("", normalize_text(display_form))
+    cleaned = WHITESPACE_RE.sub("", cleaned)
+    return DISPLAY_FORM_FIXUPS.get(cleaned, cleaned)
+
+
+def normalize_pronunciation(pronunciation: str) -> str:
+    cleaned = normalize_text(pronunciation)
+    cleaned = re.sub(r"\s*-\s*", "-", cleaned)
+    return WHITESPACE_RE.sub(" ", cleaned).strip(" ;,")
+
+
+def contains_latin(text: str) -> bool:
+    for char in text:
+        if "LATIN" in unicodedata.name(char, ""):
+            return True
+    return False
+
+
+def normalize_chinese_pos(pos_text: str) -> tuple[str, str] | None:
+    cleaned = normalize_text(pos_text).replace(" ", "")
+    if not cleaned:
+        return None
+
+    parts = [part for part in re.split(r"[、,;/]", cleaned) if part]
+    if not parts or any(part not in POS_MAP for part in parts):
+        return None
+
+    normalized_parts = []
+    for part in parts:
+        mapped = POS_MAP[part]
+        if mapped not in normalized_parts:
+            normalized_parts.append(mapped)
+
+    normalized = ", ".join(normalized_parts)
+    return (
+        normalized,
+        f"Imported from the source PDF. The source marks this entry as {normalized}.",
+    )
+
+
+def looks_like_chinese_pos_label(text: str) -> bool:
+    return normalize_chinese_pos(text) is not None
 
 
 def group_words_into_lines(page_words: list[dict]) -> list[list[dict]]:
@@ -99,10 +149,11 @@ def uses_level4_layout(page_words: list[dict]) -> bool:
 
     pos_hits = 0
     for word in page_words:
-        text = normalize_text(word["text"]).lower()
+        raw_text = normalize_text(word["text"])
+        text = raw_text.lower()
         if not (240 <= word["x0"] <= 360):
             continue
-        if any(label in text for label in ENGLISH_POS_MAP):
+        if any(label in text for label in ENGLISH_POS_MAP) or looks_like_chinese_pos_label(raw_text):
             pos_hits += 1
             if pos_hits >= 3:
                 return True
@@ -176,6 +227,9 @@ def normalize_english_pos(pos_text: str) -> tuple[str, str] | None:
 
 
 def parse_pos(display_form: str, primary_gloss: str, pos_text: str = "") -> tuple[str, str]:
+    chinese_pos = normalize_chinese_pos(pos_text)
+    if chinese_pos:
+        return chinese_pos
     english_pos = normalize_english_pos(pos_text)
     if english_pos:
         return english_pos
@@ -193,6 +247,26 @@ def parse_pos(display_form: str, primary_gloss: str, pos_text: str = "") -> tupl
         "unknown",
         "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation.",
     )
+
+
+def validate_output_rows(rows: list[dict]) -> None:
+    malformed = []
+    for row in rows:
+        display_form = row["display_form"]
+        pronunciation = row["pronunciation"]
+        if not display_form:
+            malformed.append((row["rank"], "empty display_form"))
+            continue
+        if contains_latin(display_form):
+            malformed.append((row["rank"], f"display_form still contains pinyin or Latin text: {display_form}"))
+        if not pronunciation:
+            malformed.append((row["rank"], "missing pronunciation"))
+        elif looks_like_chinese_pos_label(pronunciation):
+            malformed.append((row["rank"], f"pronunciation still looks like a POS label: {pronunciation}"))
+
+    if malformed:
+        preview = ", ".join(f"{rank} ({reason})" for rank, reason in malformed[:12])
+        raise ValueError(f"Malformed extracted rows detected: {preview}")
 
 
 def extract_rows(pdf_path: Path) -> list[dict]:
@@ -260,14 +334,15 @@ def extract_rows(pdf_path: Path) -> list[dict]:
         output_rows.append(
             {
                 "rank": row["rank"],
-                "display_form": row["display_form"],
-                "pronunciation": row["pronunciation"],
+                "display_form": normalize_display_form(row["display_form"]),
+                "pronunciation": normalize_pronunciation(row["pronunciation"]),
                 "pos": pos,
                 "primary_gloss": primary_gloss,
                 "secondary_glosses": secondary_glosses,
                 "notes": notes,
             }
         )
+    validate_output_rows(output_rows)
     return output_rows
 
 

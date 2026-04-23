@@ -1,0 +1,347 @@
+[
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0876",
+    "rank": 876,
+    "display_form": "轮船",
+    "lemma": "轮船",
+    "generation_form": "轮船",
+    "pronunciation": "lúnchuán",
+    "pos": "noun",
+    "primary_gloss": "steamship",
+    "secondary_glosses": [
+      "ship"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0877",
+    "rank": 877,
+    "display_form": "轮流",
+    "lemma": "轮流",
+    "generation_form": "轮流",
+    "pronunciation": "lúnliú",
+    "pos": "verb",
+    "primary_gloss": "to take turns",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0878",
+    "rank": 878,
+    "display_form": "轮椅",
+    "lemma": "轮椅",
+    "generation_form": "轮椅",
+    "pronunciation": "lúnyǐ",
+    "pos": "noun",
+    "primary_gloss": "wheelchair",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0879",
+    "rank": 879,
+    "display_form": "轮子",
+    "lemma": "轮子",
+    "generation_form": "轮子",
+    "pronunciation": "lúnzi",
+    "pos": "noun",
+    "primary_gloss": "wheel",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0880",
+    "rank": 880,
+    "display_form": "论坛",
+    "lemma": "论坛",
+    "generation_form": "论坛",
+    "pronunciation": "lùntán",
+    "pos": "noun",
+    "primary_gloss": "forum",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0881",
+    "rank": 881,
+    "display_form": "落地",
+    "lemma": "落地",
+    "generation_form": "落地",
+    "pronunciation": "luòdì",
+    "pos": "verb",
+    "primary_gloss": "to land",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0882",
+    "rank": 882,
+    "display_form": "落后",
+    "lemma": "落后",
+    "generation_form": "落后",
+    "pronunciation": "luòhòu",
+    "pos": "verb, adjective",
+    "primary_gloss": "to lag behind",
+    "secondary_glosses": [
+      "backward"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0883",
+    "rank": 883,
+    "display_form": "马虎",
+    "lemma": "马虎",
+    "generation_form": "马虎",
+    "pronunciation": "mǎhu",
+    "pos": "adjective",
+    "primary_gloss": "careless",
+    "secondary_glosses": [
+      "sloppy"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0884",
+    "rank": 884,
+    "display_form": "码头",
+    "lemma": "码头",
+    "generation_form": "码头",
+    "pronunciation": "mǎtóu",
+    "pos": "noun",
+    "primary_gloss": "dock",
+    "secondary_glosses": [
+      "pier"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0885",
+    "rank": 885,
+    "display_form": "蚂蚁",
+    "lemma": "蚂蚁",
+    "generation_form": "蚂蚁",
+    "pronunciation": "mǎyǐ",
+    "pos": "noun",
+    "primary_gloss": "ant",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0886",
+    "rank": 886,
+    "display_form": "嘛",
+    "lemma": "嘛",
+    "generation_form": "嘛",
+    "pronunciation": "ma",
+    "pos": "particle",
+    "primary_gloss": "particle indicating obviousness or emphasis",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as particle."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0887",
+    "rank": 887,
+    "display_form": "埋",
+    "lemma": "埋",
+    "generation_form": "埋",
+    "pronunciation": "mái",
+    "pos": "verb",
+    "primary_gloss": "to bury",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0888",
+    "rank": 888,
+    "display_form": "迈",
+    "lemma": "迈",
+    "generation_form": "迈",
+    "pronunciation": "mài",
+    "pos": "verb",
+    "primary_gloss": "to step",
+    "secondary_glosses": [
+      "to stride"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0889",
+    "rank": 889,
+    "display_form": "麦克风",
+    "lemma": "麦克风",
+    "generation_form": "麦克风",
+    "pronunciation": "màikèfēng",
+    "pos": "noun",
+    "primary_gloss": "microphone",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0890",
+    "rank": 890,
+    "display_form": "漫长",
+    "lemma": "漫长",
+    "generation_form": "漫长",
+    "pronunciation": "màncháng",
+    "pos": "adjective",
+    "primary_gloss": "very long",
+    "secondary_glosses": [
+      "lengthy"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0891",
+    "rank": 891,
+    "display_form": "漫画",
+    "lemma": "漫画",
+    "generation_form": "漫画",
+    "pronunciation": "mànhuà",
+    "pos": "noun",
+    "primary_gloss": "comic",
+    "secondary_glosses": [
+      "cartoon"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0892",
+    "rank": 892,
+    "display_form": "盲人",
+    "lemma": "盲人",
+    "generation_form": "盲人",
+    "pronunciation": "mángrén",
+    "pos": "noun",
+    "primary_gloss": "blind person",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0893",
+    "rank": 893,
+    "display_form": "冒",
+    "lemma": "冒",
+    "generation_form": "冒",
+    "pronunciation": "mào",
+    "pos": "verb",
+    "primary_gloss": "to emit",
+    "secondary_glosses": [
+      "to risk"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0894",
+    "rank": 894,
+    "display_form": "冒险",
+    "lemma": "冒险",
+    "generation_form": "冒险",
+    "pronunciation": "màoxiǎn",
+    "pos": "verb",
+    "primary_gloss": "to take a risk",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0895",
+    "rank": 895,
+    "display_form": "贸易",
+    "lemma": "贸易",
+    "generation_form": "贸易",
+    "pronunciation": "màoyì",
+    "pos": "noun",
+    "primary_gloss": "trade",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0896",
+    "rank": 896,
+    "display_form": "煤",
+    "lemma": "煤",
+    "generation_form": "煤",
+    "pronunciation": "méi",
+    "pos": "noun",
+    "primary_gloss": "coal",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0897",
+    "rank": 897,
+    "display_form": "梅花",
+    "lemma": "梅花",
+    "generation_form": "梅花",
+    "pronunciation": "méihuā",
+    "pos": "noun",
+    "primary_gloss": "plum blossom",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0898",
+    "rank": 898,
+    "display_form": "眉毛",
+    "lemma": "眉毛",
+    "generation_form": "眉毛",
+    "pronunciation": "méimao",
+    "pos": "noun",
+    "primary_gloss": "eyebrow",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0899",
+    "rank": 899,
+    "display_form": "美观",
+    "lemma": "美观",
+    "generation_form": "美观",
+    "pronunciation": "měiguān",
+    "pos": "adjective",
+    "primary_gloss": "beautiful",
+    "secondary_glosses": [
+      "aesthetically pleasing"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0900",
+    "rank": 900,
+    "display_form": "弥补",
+    "lemma": "弥补",
+    "generation_form": "弥补",
+    "pronunciation": "míbǔ",
+    "pos": "verb",
+    "primary_gloss": "to compensate",
+    "secondary_glosses": [
+      "to make up for"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  }
+]

@@ -7,11 +7,12 @@
 
 import Database from "better-sqlite3";
 import path from "path";
-import { mkdirSync, existsSync } from "fs";
-import { demoLanguages, demoCorpus } from "@/lib/demo/content";
+import { mkdirSync, existsSync, readFileSync } from "fs";
+import type { DemoLanguage, DemoLexicalItem } from "@/lib/demo/types";
 
 const DB_DIRECTORY = path.join(process.cwd(), ".learnly");
 const DB_PATH = path.join(DB_DIRECTORY, "learnly.db");
+const CORPUS_SEED_PATH = path.join(process.cwd(), "data", "corpus-seed.json");
 const CORPUS_SQLITE_PATH = path.join(process.cwd(), "corpus-generation", "corpus.sqlite");
 const CORPUS_HSK2_SQLITE_PATH = path.join(process.cwd(), "corpus-generation", "corpus-hsk-2.sqlite");
 const CORPUS_HSK3_SQLITE_PATH = path.join(process.cwd(), "corpus-generation", "corpus-hsk-3.sqlite");
@@ -125,6 +126,13 @@ const hasChineseReviewFlow = userSettingsColumns.some((column) => column.name ==
 if (!hasChineseReviewFlow) {
   sqlite.exec("ALTER TABLE user_settings ADD COLUMN chinese_review_flow TEXT NOT NULL DEFAULT 'four-click';");
 }
+
+const corpusSeed = JSON.parse(readFileSync(CORPUS_SEED_PATH, "utf8")) as {
+  languages: DemoLanguage[];
+  items: DemoLexicalItem[];
+};
+const demoLanguages = corpusSeed.languages;
+const demoCorpus = corpusSeed.items;
 
 // ---------------------------------------------------------------------------
 // Seed languages + corpus items (incremental)

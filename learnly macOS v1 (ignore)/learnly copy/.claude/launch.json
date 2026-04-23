@@ -4,7 +4,7 @@
     {
       "name": "Next.js Dev Server",
       "runtimeExecutable": "/bin/sh",
-      "runtimeArgs": ["-c", "pkill -f 'next dev' 2>/dev/null; pkill -f 'next-router-worker' 2>/dev/null; sleep 1; cd /Users/moi/Desktop/business/learnly && /opt/homebrew/opt/node@22/bin/node /Users/moi/Desktop/business/learnly/node_modules/tsx/dist/cli.mjs /Users/moi/Desktop/business/learnly/scripts/seed-db.ts && /opt/homebrew/opt/node@22/bin/node /Users/moi/Desktop/business/learnly/node_modules/.bin/next dev"],
+      "runtimeArgs": ["-c", "cd /Users/moi/Desktop/business/learnly && bash scripts/dev-stable.sh"],
       "port": 3000,
       "autoPort": true,
       "env": {
@@ -17,6 +17,15 @@
       "runtimeExecutable": "npm",
       "runtimeArgs": ["run", "db:studio"],
       "port": 4983
+    },
+    {
+      "name": "Performance Benchmark",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "perf:bench"],
+      "env": {
+        "HOST": "127.0.0.1",
+        "PORT": "3000"
+      }
     }
   ]
 }

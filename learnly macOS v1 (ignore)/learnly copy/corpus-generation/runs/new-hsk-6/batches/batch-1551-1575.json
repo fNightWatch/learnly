@@ -1,0 +1,367 @@
+[
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1551",
+    "rank": 1551,
+    "display_form": "移民",
+    "lemma": "移民",
+    "generation_form": "移民",
+    "pronunciation": "yímín",
+    "pos": "verb, noun",
+    "primary_gloss": "to immigrate",
+    "secondary_glosses": [
+      "immigrant"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1552",
+    "rank": 1552,
+    "display_form": "仪器",
+    "lemma": "仪器",
+    "generation_form": "仪器",
+    "pronunciation": "yíqì",
+    "pos": "noun",
+    "primary_gloss": "instrument",
+    "secondary_glosses": [
+      "apparatus"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1553",
+    "rank": 1553,
+    "display_form": "仪式",
+    "lemma": "仪式",
+    "generation_form": "仪式",
+    "pronunciation": "yíshì",
+    "pos": "noun",
+    "primary_gloss": "ceremony",
+    "secondary_glosses": [
+      "rite"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1554",
+    "rank": 1554,
+    "display_form": "一向",
+    "lemma": "一向",
+    "generation_form": "一向",
+    "pronunciation": "yíxiàng",
+    "pos": "adverb",
+    "primary_gloss": "always",
+    "secondary_glosses": [
+      "consistently"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1555",
+    "rank": 1555,
+    "display_form": "一系列",
+    "lemma": "一系列",
+    "generation_form": "一系列",
+    "pronunciation": "yíxìliè",
+    "pos": "adjective",
+    "primary_gloss": "a series of",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1556",
+    "rank": 1556,
+    "display_form": "一再",
+    "lemma": "一再",
+    "generation_form": "一再",
+    "pronunciation": "yízài",
+    "pos": "adverb",
+    "primary_gloss": "repeatedly",
+    "secondary_glosses": [
+      "time and again"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1557",
+    "rank": 1557,
+    "display_form": "一阵",
+    "lemma": "一阵",
+    "generation_form": "一阵",
+    "pronunciation": "yízhèn",
+    "pos": "数量",
+    "primary_gloss": "a period of",
+    "secondary_glosses": [
+      "a burst of"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as 数量."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1558",
+    "rank": 1558,
+    "display_form": "遗址",
+    "lemma": "遗址",
+    "generation_form": "遗址",
+    "pronunciation": "yízhǐ",
+    "pos": "noun",
+    "primary_gloss": "ruins",
+    "secondary_glosses": [
+      "historical site"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1559",
+    "rank": 1559,
+    "display_form": "以便",
+    "lemma": "以便",
+    "generation_form": "以便",
+    "pronunciation": "yǐbiàn",
+    "pos": "conjunction",
+    "primary_gloss": "so that",
+    "secondary_glosses": [
+      "in order to"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as conjunction."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1560",
+    "rank": 1560,
+    "display_form": "以免",
+    "lemma": "以免",
+    "generation_form": "以免",
+    "pronunciation": "yǐmiǎn",
+    "pos": "conjunction",
+    "primary_gloss": "so as not to",
+    "secondary_glosses": [
+      "lest"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as conjunction."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1561",
+    "rank": 1561,
+    "display_form": "以往",
+    "lemma": "以往",
+    "generation_form": "以往",
+    "pronunciation": "yǐwǎng",
+    "pos": "noun",
+    "primary_gloss": "in the past",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1562",
+    "rank": 1562,
+    "display_form": "异常",
+    "lemma": "异常",
+    "generation_form": "异常",
+    "pronunciation": "yìcháng",
+    "pos": "adjective, adverb",
+    "primary_gloss": "unusual",
+    "secondary_glosses": [
+      "abnormal",
+      "extremely"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective, adverb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1563",
+    "rank": 1563,
+    "display_form": "益处",
+    "lemma": "益处",
+    "generation_form": "益处",
+    "pronunciation": "yìchù",
+    "pos": "noun",
+    "primary_gloss": "benefit",
+    "secondary_glosses": [
+      "advantage"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1564",
+    "rank": 1564,
+    "display_form": "一帆风顺",
+    "lemma": "一帆风顺",
+    "generation_form": "一帆风顺",
+    "pronunciation": "yìfān-fēngshùn",
+    "pos": "unknown",
+    "primary_gloss": "plain sailing",
+    "secondary_glosses": [
+      "smooth going"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1565",
+    "rank": 1565,
+    "display_form": "一又气",
+    "lemma": "一又气",
+    "generation_form": "一又气",
+    "pronunciation": "yìkǒuqì",
+    "pos": "adverb",
+    "primary_gloss": "in one breath",
+    "secondary_glosses": [
+      "without a break"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1566",
+    "rank": 1566,
+    "display_form": "议论",
+    "lemma": "议论",
+    "generation_form": "议论",
+    "pronunciation": "yìlùn",
+    "pos": "verb, noun",
+    "primary_gloss": "to discuss",
+    "secondary_glosses": [
+      "to comment",
+      "discussion"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1567",
+    "rank": 1567,
+    "display_form": "一模一样",
+    "lemma": "一模一样",
+    "generation_form": "一模一样",
+    "pronunciation": "yìmú-yíyàng",
+    "pos": "unknown",
+    "primary_gloss": "exactly the same",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1568",
+    "rank": 1568,
+    "display_form": "艺人",
+    "lemma": "艺人",
+    "generation_form": "艺人",
+    "pronunciation": "yìrén",
+    "pos": "noun",
+    "primary_gloss": "artist",
+    "secondary_glosses": [
+      "performer"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1569",
+    "rank": 1569,
+    "display_form": "一身",
+    "lemma": "一身",
+    "generation_form": "一身",
+    "pronunciation": "yìshēn",
+    "pos": "noun",
+    "primary_gloss": "whole body",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1570",
+    "rank": 1570,
+    "display_form": "一时",
+    "lemma": "一时",
+    "generation_form": "一时",
+    "pronunciation": "yìshí",
+    "pos": "noun, adverb",
+    "primary_gloss": "temporarily",
+    "secondary_glosses": [
+      "for a moment"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, adverb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1571",
+    "rank": 1571,
+    "display_form": "一同",
+    "lemma": "一同",
+    "generation_form": "一同",
+    "pronunciation": "yìtóng",
+    "pos": "adverb",
+    "primary_gloss": "together",
+    "secondary_glosses": [
+      "along with"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1572",
+    "rank": 1572,
+    "display_form": "易于",
+    "lemma": "易于",
+    "generation_form": "易于",
+    "pronunciation": "yìyú",
+    "pos": "verb",
+    "primary_gloss": "to be easy to",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1573",
+    "rank": 1573,
+    "display_form": "抑制",
+    "lemma": "抑制",
+    "generation_form": "抑制",
+    "pronunciation": "yìzhì",
+    "pos": "verb",
+    "primary_gloss": "to suppress",
+    "secondary_glosses": [
+      "to inhibit"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1574",
+    "rank": 1574,
+    "display_form": "因",
+    "lemma": "因",
+    "generation_form": "因",
+    "pronunciation": "yīn",
+    "pos": "preposition, conjunction",
+    "primary_gloss": "because",
+    "secondary_glosses": [
+      "due to"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as preposition, conjunction."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1575",
+    "rank": 1575,
+    "display_form": "音节",
+    "lemma": "音节",
+    "generation_form": "音节",
+    "pronunciation": "yīnjié",
+    "pos": "noun",
+    "primary_gloss": "syllable",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  }
+]

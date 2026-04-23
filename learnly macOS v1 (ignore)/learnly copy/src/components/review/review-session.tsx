@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState, type ReactNode } from "react";
+import { startTransition, useEffect, useRef, useState, type ReactNode } from "react";
 import { useRouter } from "next/navigation";
 import { buildAudioUrl } from "@/lib/demo/audio-source";
 import { SettingsOverlay } from "@/components/settings/settings-overlay";
@@ -126,7 +126,7 @@ const studyModes: Array<{ id: StudyMode; label: string; description: string }> =
   {
     id: "everyday",
     label: "Everyday",
-    description: "Due cards first, then a few fresh introductions."
+    description: "Finish every due card first, then move into new words."
   },
   {
     id: "review-only",
@@ -317,6 +317,8 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
   const [directionExpanded, setDirectionExpanded] = useState(false);
   const [speedExpanded, setSpeedExpanded] = useState(false);
   const resumeDirectionOverrideRef = useRef<"es-to-en" | "en-to-es" | null>(null);
+  const cardStartedAtElapsedSecondsRef = useRef(0);
+  const nextCardPerfStartRef = useRef<number | null>(null);
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const preloadedAudioRef = useRef<Map<string, HTMLAudioElement>>(new Map());
   const compactRecoveryLayoutRef = useRef(false);
@@ -407,7 +409,11 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
     router.replace(complete ? "/study?complete=1" : "/study", { scroll: false });
   };
 
-  const resetCardFlow = (options?: { preserveAutoDirectionCounter?: boolean; preserveDirectionOverride?: boolean }) => {
+  const resetCardFlow = (options?: {
+    preserveAutoDirectionCounter?: boolean;
+    preserveDirectionOverride?: boolean;
+    cardStartElapsedSeconds?: number;
+  }) => {
     setRevealed(false);
     setChineseStage("pronunciation-guess");
     setChinesePronunciationKnown(null);
@@ -417,6 +423,7 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
     setStudyCardStep(null);
     setTranslationRevealed(false);
     setStartTime(Date.now());
+    cardStartedAtElapsedSecondsRef.current = options?.cardStartElapsedSeconds ?? elapsedSeconds;
     if (!options?.preserveDirectionOverride) {
       resumeDirectionOverrideRef.current = null;
     }
@@ -460,6 +467,21 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
     void playAudio("term");
   }, [card?.itemId]);
 
+  useEffect(() => {
+    if (phase !== "studying" || !card || typeof window === "undefined") {
+      return;
+    }
+
+    const startedAt = nextCardPerfStartRef.current;
+    if (startedAt === null) {
+      return;
+    }
+
+    const latencyMs = performance.now() - startedAt;
+    console.info(`[perf] study.next-card-visible-ms=${latencyMs.toFixed(2)} item=${card.itemId}`);
+    nextCardPerfStartRef.current = null;
+  }, [card?.itemId, phase]);
+
   // --- Session API ---
   const startConfiguredSession = async (
     nextLanguageCodes: SupportedLanguageCode[],
@@ -491,7 +513,7 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
       setRemainingCount(data.remainingCount);
       setSummary({ dueCount: data.dueCount, newCount: data.newCount });
       setInsights(data.insights);
-      resetCardFlow();
+      resetCardFlow({ cardStartElapsedSeconds: 0 });
 
       // Persist so session survives page refresh
       saveActiveSession({
@@ -555,7 +577,11 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
               setElapsedSeconds(elapsedSinceStart);
               setCardsReviewedThisSession(persisted.cardsReviewed);
               setPhase("studying");
-              resetCardFlow({ preserveAutoDirectionCounter: true, preserveDirectionOverride: true });
+              resetCardFlow({
+                preserveAutoDirectionCounter: true,
+                preserveDirectionOverride: true,
+                cardStartElapsedSeconds: elapsedSinceStart
+              });
               setSettingsLoading(false);
               return;
             }
@@ -578,7 +604,7 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
         }
 
         // Normal boot: load settings for setup screen
-        const settingsResponse = await fetch("/api/settings");
+        const settingsResponse = await fetch("/api/settings", { cache: "no-store" });
         if (!settingsResponse.ok) {
           throw new Error("Could not load study settings.");
         }
@@ -607,7 +633,7 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
 
     const syncChineseFlow = async () => {
       try {
-        const response = await fetch("/api/settings");
+        const response = await fetch("/api/settings", { cache: "no-store" });
         if (!response.ok) return;
         const settings: { chineseReviewFlow?: ChineseReviewFlow } = await response.json();
         setChineseReviewFlow(settings.chineseReviewFlow === "two-click" ? "two-click" : "four-click");
@@ -704,6 +730,20 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
     }
     const remaining = Math.max(0, timerMinutes * 60 - elapsedSeconds);
     return formatTime(remaining);
+  };
+
+  const persistCompletedSessionToServer = async (targetSessionId: string, totalElapsedMs: number) => {
+    try {
+      await fetch(`/api/session/${targetSessionId}/complete`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({ elapsedMs: totalElapsedMs })
+      });
+    } catch {
+      // Keep local completion state even if the server write fails.
+    }
   };
 
   // --- Start study handler ---
@@ -840,17 +880,23 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
     }
 
     setError(null);
+    const requestStartedAt = typeof window !== "undefined" ? performance.now() : null;
+    const idempotencyKey = `${sessionId}:${card.itemId}:${rating}:${startTime}`;
+    const cardElapsedMs = Math.max(0, (elapsedSeconds - cardStartedAtElapsedSecondsRef.current) * 1000);
+    const totalSessionElapsedMs = Math.max(0, elapsedSeconds * 1000);
 
     const response = await fetch("/api/reviews", {
       method: "POST",
       headers: {
-        "Content-Type": "application/json"
+        "Content-Type": "application/json",
+        "x-idempotency-key": idempotencyKey
       },
       body: JSON.stringify({
         sessionId,
         itemId: card.itemId,
         rating,
-        elapsedMs: Date.now() - startTime
+        elapsedMs: cardElapsedMs,
+        sessionElapsedMs: totalSessionElapsedMs
       })
     });
 
@@ -859,7 +905,14 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
       return;
     }
 
+    const serverResponseMs = response.headers.get("x-response-time-ms");
     const data: ReviewResponse = await response.json();
+    if (requestStartedAt !== null) {
+      const clientMs = performance.now() - requestStartedAt;
+      console.info(
+        `[perf] study.review-submit-ms=${clientMs.toFixed(2)} server-ms=${serverResponseMs ?? "n/a"}`
+      );
+    }
     const nextCardsReviewed = cardsReviewedThisSession + 1;
     setCardsReviewedThisSession(nextCardsReviewed);
 
@@ -894,12 +947,18 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
       clearActiveSession();
       setPhase("complete");
       setCompletionRoute(true);
+      void persistCompletedSessionToServer(sessionId, totalSessionElapsedMs);
       return;
     }
 
+    if (typeof window !== "undefined") {
+      nextCardPerfStartRef.current = performance.now();
+    }
     setCard(data.nextCard);
     setRemainingCount(data.remainingCount);
-    setInsights(data.insights);
+    startTransition(() => {
+      setInsights(data.insights);
+    });
     resetCardFlow();
 
     // Keep resume behavior stable: persist both review count and auto-direction rotation.
@@ -1594,6 +1653,9 @@ export function ReviewSession({ availableLanguages }: { availableLanguages: Demo
             <button
               type="button"
               onClick={() => {
+                if (sessionId) {
+                  void persistCompletedSessionToServer(sessionId, Math.max(0, elapsedSeconds * 1000));
+                }
                 saveCompletedSession({
                   elapsedSeconds,
                   cardsReviewed: cardsReviewedThisSession,

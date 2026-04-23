@@ -1,6 +1,7 @@
 import { getDb } from "@/lib/db/local-client";
 import { eq, like, asc } from "drizzle-orm";
 import * as tables from "@/lib/db/sqlite-schema";
+import type { AssumedWordListOption } from "@/lib/demo/types";
 
 type CuratedList = {
   id: string;
@@ -67,4 +68,13 @@ export function getCuratedLists(): CuratedList[] {
     ...buildHskLists()
   ];
   return cached;
+}
+
+export function getAvailableAssumedWordLists(): AssumedWordListOption[] {
+  return getCuratedLists().map((list) => ({
+    id: list.id,
+    title: list.title,
+    description: list.description,
+    itemCount: list.itemIds.length
+  }));
 }

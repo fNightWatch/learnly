@@ -1,11 +1,13 @@
 import Database from "better-sqlite3";
 import { drizzle } from "drizzle-orm/better-sqlite3";
 import path from "path";
-import { mkdirSync } from "fs";
+import { mkdirSync, existsSync, readFileSync } from "fs";
+import type { DemoLanguage, DemoLexicalItem } from "@/lib/demo/types";
 import * as schema from "./sqlite-schema";
 
 const DB_DIRECTORY = path.join(process.cwd(), ".learnly");
 const DB_PATH = path.join(DB_DIRECTORY, "learnly.db");
+const CORPUS_SEED_PATH = path.join(process.cwd(), "data", "corpus-seed.json");
 
 let db: ReturnType<typeof drizzle<typeof schema>> | null = null;
 let sqliteClient: Database.Database | null = null;
@@ -70,6 +72,7 @@ export function getDb() {
       dashboard_range_days INTEGER NOT NULL DEFAULT 30,
       preferred_study_mode TEXT NOT NULL DEFAULT 'everyday',
       chinese_review_flow TEXT NOT NULL DEFAULT 'four-click',
+      assumed_word_list_ids TEXT NOT NULL DEFAULT '[]',
       updated_at TEXT NOT NULL
     );
 
@@ -101,7 +104,9 @@ export function getDb() {
       queue TEXT NOT NULL,
       due_count INTEGER NOT NULL,
       new_count INTEGER NOT NULL,
-      created_at TEXT NOT NULL
+      created_at TEXT NOT NULL,
+      elapsed_ms INTEGER NOT NULL DEFAULT 0,
+      completed_at TEXT
     );
 
     CREATE TABLE IF NOT EXISTS review_events (
@@ -117,6 +122,19 @@ export function getDb() {
     );
 
     CREATE INDEX IF NOT EXISTS review_events_user_reviewed_idx ON review_events(user_id, reviewed_at);
+
+    CREATE TABLE IF NOT EXISTS review_idempotency (
+      id TEXT PRIMARY KEY,
+      user_id TEXT NOT NULL,
+      session_id TEXT NOT NULL,
+      item_id TEXT NOT NULL,
+      idempotency_key TEXT NOT NULL,
+      response_json TEXT NOT NULL,
+      created_at TEXT NOT NULL
+    );
+
+    CREATE INDEX IF NOT EXISTS review_idempotency_user_created_idx ON review_idempotency(user_id, created_at);
+    CREATE INDEX IF NOT EXISTS review_idempotency_lookup_idx ON review_idempotency(user_id, session_id, item_id, idempotency_key);
   `);
 
   const userSettingsColumns = sqlite
@@ -134,15 +152,40 @@ export function getDb() {
       "ALTER TABLE user_settings ADD COLUMN dashboard_range_days INTEGER NOT NULL DEFAULT 30;"
     );
   }
+  const hasAssumedWordListIds = userSettingsColumns.some(
+    (column) => column.name === "assumed_word_list_ids"
+  );
+  if (!hasAssumedWordListIds) {
+    sqlite.exec(
+      "ALTER TABLE user_settings ADD COLUMN assumed_word_list_ids TEXT NOT NULL DEFAULT '[]';"
+    );
+  }
+  const sessionColumns = sqlite
+    .prepare("PRAGMA table_info(sessions)")
+    .all() as { name: string }[];
+  const hasSessionElapsedMs = sessionColumns.some((column) => column.name === "elapsed_ms");
+  if (!hasSessionElapsedMs) {
+    sqlite.exec(
+      "ALTER TABLE sessions ADD COLUMN elapsed_ms INTEGER NOT NULL DEFAULT 0;"
+    );
+  }
+  const hasSessionCompletedAt = sessionColumns.some((column) => column.name === "completed_at");
+  if (!hasSessionCompletedAt) {
+    sqlite.exec(
+      "ALTER TABLE sessions ADD COLUMN completed_at TEXT;"
+    );
+  }
 
   // Auto-seed corpus tables on first run
   const langCount = sqlite.prepare("SELECT COUNT(*) as count FROM corpus_languages").get() as { count: number };
-  if (langCount.count === 0) {
+  if (langCount.count === 0 && existsSync(CORPUS_SEED_PATH)) {
     try {
-      // Use eval("require") so webpack skips this entirely — the 110k-line corpus files won't be bundled
-      // eslint-disable-next-line @typescript-eslint/no-require-imports, no-eval
-      const loadModule = eval("require");
-      const { demoLanguages, demoCorpus } = loadModule("@/lib/demo/content");
+      const corpusSeed = JSON.parse(readFileSync(CORPUS_SEED_PATH, "utf8")) as {
+        languages: DemoLanguage[];
+        items: DemoLexicalItem[];
+      };
+      const demoLanguages = corpusSeed.languages;
+      const demoCorpus = corpusSeed.items;
 
       const insertLang = sqlite.prepare(
         `INSERT OR IGNORE INTO corpus_languages (code, name, native_name, descriptor, speaker_label, audio_voice, beta)
@@ -171,7 +214,7 @@ export function getDb() {
       seedAll();
       console.log(`Seeded ${demoLanguages.length} languages and ${demoCorpus.length} corpus items into SQLite.`);
     } catch (err) {
-      console.warn("Auto-seed skipped (expected if seed-db.ts already ran):", String(err));
+      console.warn("Auto-seed from JSON skipped (expected if seed-db.ts already ran):", String(err));
     }
   }
 

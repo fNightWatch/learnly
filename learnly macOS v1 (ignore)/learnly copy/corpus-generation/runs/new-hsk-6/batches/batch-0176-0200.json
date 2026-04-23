@@ -1,0 +1,359 @@
+[
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0176",
+    "rank": 176,
+    "display_form": "冲突",
+    "lemma": "冲突",
+    "generation_form": "冲突",
+    "pronunciation": "chōngtū",
+    "pos": "verb",
+    "primary_gloss": "conflict",
+    "secondary_glosses": [
+      "to conflict"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0177",
+    "rank": 177,
+    "display_form": "崇拜",
+    "lemma": "崇拜",
+    "generation_form": "崇拜",
+    "pronunciation": "chóngbài",
+    "pos": "verb",
+    "primary_gloss": "to worship",
+    "secondary_glosses": [
+      "to adore"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0178",
+    "rank": 178,
+    "display_form": "重建",
+    "lemma": "重建",
+    "generation_form": "重建",
+    "pronunciation": "chóngjiàn",
+    "pos": "verb",
+    "primary_gloss": "to rebuild",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0179",
+    "rank": 179,
+    "display_form": "冲",
+    "lemma": "冲",
+    "generation_form": "冲",
+    "pronunciation": "chòng",
+    "pos": "verb, preposition",
+    "primary_gloss": "towards",
+    "secondary_glosses": [
+      "with the force of"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, preposition."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0180",
+    "rank": 180,
+    "display_form": "抽奖",
+    "lemma": "抽奖",
+    "generation_form": "抽奖",
+    "pronunciation": "chōujiǎng",
+    "pos": "verb",
+    "primary_gloss": "to draw a prize",
+    "secondary_glosses": [
+      "to enter a lucky draw"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0181",
+    "rank": 181,
+    "display_form": "抽象",
+    "lemma": "抽象",
+    "generation_form": "抽象",
+    "pronunciation": "chōuxiàng",
+    "pos": "adjective",
+    "primary_gloss": "abstract",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0182",
+    "rank": 182,
+    "display_form": "愁",
+    "lemma": "愁",
+    "generation_form": "愁",
+    "pronunciation": "chóu",
+    "pos": "verb",
+    "primary_gloss": "to worry",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0183",
+    "rank": 183,
+    "display_form": "筹备",
+    "lemma": "筹备",
+    "generation_form": "筹备",
+    "pronunciation": "chóubèi",
+    "pos": "verb",
+    "primary_gloss": "to prepare",
+    "secondary_glosses": [
+      "to make arrangements"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0184",
+    "rank": 184,
+    "display_form": "初步",
+    "lemma": "初步",
+    "generation_form": "初步",
+    "pronunciation": "chūbù",
+    "pos": "adjective",
+    "primary_gloss": "preliminary",
+    "secondary_glosses": [
+      "initial"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0185",
+    "rank": 185,
+    "display_form": "出场",
+    "lemma": "出场",
+    "generation_form": "出场",
+    "pronunciation": "chūchǎng",
+    "pos": "verb",
+    "primary_gloss": "to appear on stage",
+    "secondary_glosses": [
+      "to enter"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0186",
+    "rank": 186,
+    "display_form": "初等",
+    "lemma": "初等",
+    "generation_form": "初等",
+    "pronunciation": "chūděng",
+    "pos": "adjective",
+    "primary_gloss": "elementary",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0187",
+    "rank": 187,
+    "display_form": "出境",
+    "lemma": "出境",
+    "generation_form": "出境",
+    "pronunciation": "chūjìng",
+    "pos": "verb",
+    "primary_gloss": "to leave the country",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0188",
+    "rank": 188,
+    "display_form": "出力",
+    "lemma": "出力",
+    "generation_form": "出力",
+    "pronunciation": "chūlì",
+    "pos": "verb",
+    "primary_gloss": "to exert effort",
+    "secondary_glosses": [
+      "to contribute"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0189",
+    "rank": 189,
+    "display_form": "出名",
+    "lemma": "出名",
+    "generation_form": "出名",
+    "pronunciation": "chūmíng",
+    "pos": "adjective",
+    "primary_gloss": "famous",
+    "secondary_glosses": [
+      "well-known"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0190",
+    "rank": 190,
+    "display_form": "出入",
+    "lemma": "出入",
+    "generation_form": "出入",
+    "pronunciation": "chūrù",
+    "pos": "noun",
+    "primary_gloss": "discrepancy",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0191",
+    "rank": 191,
+    "display_form": "出示",
+    "lemma": "出示",
+    "generation_form": "出示",
+    "pronunciation": "chūshì",
+    "pos": "verb",
+    "primary_gloss": "to show",
+    "secondary_glosses": [
+      "to present"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0192",
+    "rank": 192,
+    "display_form": "出游",
+    "lemma": "出游",
+    "generation_form": "出游",
+    "pronunciation": "chūyóu",
+    "pos": "verb",
+    "primary_gloss": "to go on a trip",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0193",
+    "rank": 193,
+    "display_form": "出于",
+    "lemma": "出于",
+    "generation_form": "出于",
+    "pronunciation": "chūyú",
+    "pos": "verb",
+    "primary_gloss": "out of",
+    "secondary_glosses": [
+      "due to"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0194",
+    "rank": 194,
+    "display_form": "除",
+    "lemma": "除",
+    "generation_form": "除",
+    "pronunciation": "chú",
+    "pos": "verb, preposition",
+    "primary_gloss": "to remove",
+    "secondary_glosses": [
+      "to divide",
+      "except"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, preposition."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0195",
+    "rank": 195,
+    "display_form": "除非",
+    "lemma": "除非",
+    "generation_form": "除非",
+    "pronunciation": "chúfēi",
+    "pos": "conjunction",
+    "primary_gloss": "unless",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as conjunction."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0196",
+    "rank": 196,
+    "display_form": "储存",
+    "lemma": "储存",
+    "generation_form": "储存",
+    "pronunciation": "chǔcún",
+    "pos": "verb",
+    "primary_gloss": "to store",
+    "secondary_glosses": [
+      "to keep"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0197",
+    "rank": 197,
+    "display_form": "处罚",
+    "lemma": "处罚",
+    "generation_form": "处罚",
+    "pronunciation": "chǔfá",
+    "pos": "verb",
+    "primary_gloss": "to punish",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0198",
+    "rank": 198,
+    "display_form": "储蓄",
+    "lemma": "储蓄",
+    "generation_form": "储蓄",
+    "pronunciation": "chǔxù",
+    "pos": "verb, noun",
+    "primary_gloss": "to save",
+    "secondary_glosses": [
+      "to deposit",
+      "savings"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0199",
+    "rank": 199,
+    "display_form": "处处",
+    "lemma": "处处",
+    "generation_form": "处处",
+    "pronunciation": "chùchù",
+    "pos": "adverb",
+    "primary_gloss": "everywhere",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0200",
+    "rank": 200,
+    "display_form": "穿过",
+    "lemma": "穿过",
+    "generation_form": "穿过",
+    "pronunciation": "chuānguò",
+    "pos": "verb",
+    "primary_gloss": "to go through",
+    "secondary_glosses": [
+      "to pass through"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  }
+]

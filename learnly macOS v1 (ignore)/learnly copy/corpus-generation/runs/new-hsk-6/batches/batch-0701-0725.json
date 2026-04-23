@@ -1,0 +1,354 @@
+[
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0701",
+    "rank": 701,
+    "display_form": "金牌",
+    "lemma": "金牌",
+    "generation_form": "金牌",
+    "pronunciation": "jīnpái",
+    "pos": "noun",
+    "primary_gloss": "gold medal",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0702",
+    "rank": 702,
+    "display_form": "金钱",
+    "lemma": "金钱",
+    "generation_form": "金钱",
+    "pronunciation": "jīnqián",
+    "pos": "noun",
+    "primary_gloss": "money",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0703",
+    "rank": 703,
+    "display_form": "金融",
+    "lemma": "金融",
+    "generation_form": "金融",
+    "pronunciation": "jīnróng",
+    "pos": "noun",
+    "primary_gloss": "finance",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0704",
+    "rank": 704,
+    "display_form": "金属",
+    "lemma": "金属",
+    "generation_form": "金属",
+    "pronunciation": "jīnshǔ",
+    "pos": "noun",
+    "primary_gloss": "metal",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0705",
+    "rank": 705,
+    "display_form": "金子",
+    "lemma": "金子",
+    "generation_form": "金子",
+    "pronunciation": "jīnzi",
+    "pos": "noun",
+    "primary_gloss": "gold",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0706",
+    "rank": 706,
+    "display_form": "尽",
+    "lemma": "尽",
+    "generation_form": "尽",
+    "pronunciation": "jìn",
+    "pos": "动, 副",
+    "primary_gloss": "to exhaust",
+    "secondary_glosses": [
+      "to use up",
+      "(to the utmost)"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as 动, 副."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0707",
+    "rank": 707,
+    "display_form": "进而",
+    "lemma": "进而",
+    "generation_form": "进而",
+    "pronunciation": "jìn’ér",
+    "pos": "conjunction",
+    "primary_gloss": "then",
+    "secondary_glosses": [
+      "and then"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as conjunction."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0708",
+    "rank": 708,
+    "display_form": "进度",
+    "lemma": "进度",
+    "generation_form": "进度",
+    "pronunciation": "jìndù",
+    "pos": "noun",
+    "primary_gloss": "progress",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0709",
+    "rank": 709,
+    "display_form": "进化",
+    "lemma": "进化",
+    "generation_form": "进化",
+    "pronunciation": "jìnhuà",
+    "pos": "verb",
+    "primary_gloss": "evolution",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0710",
+    "rank": 710,
+    "display_form": "近来",
+    "lemma": "近来",
+    "generation_form": "近来",
+    "pronunciation": "jìnlái",
+    "pos": "noun",
+    "primary_gloss": "recently",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0711",
+    "rank": 711,
+    "display_form": "近视",
+    "lemma": "近视",
+    "generation_form": "近视",
+    "pronunciation": "jìnshì",
+    "pos": "adjective",
+    "primary_gloss": "nearsighted",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0712",
+    "rank": 712,
+    "display_form": "进展",
+    "lemma": "进展",
+    "generation_form": "进展",
+    "pronunciation": "jìnzhǎn",
+    "pos": "verb",
+    "primary_gloss": "progress",
+    "secondary_glosses": [
+      "advance"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0713",
+    "rank": 713,
+    "display_form": "精美",
+    "lemma": "精美",
+    "generation_form": "精美",
+    "pronunciation": "jīngměi",
+    "pos": "adjective",
+    "primary_gloss": "exquisite",
+    "secondary_glosses": [
+      "delicate"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0714",
+    "rank": 714,
+    "display_form": "精确",
+    "lemma": "精确",
+    "generation_form": "精确",
+    "pronunciation": "jīngquè",
+    "pos": "adjective",
+    "primary_gloss": "accurate",
+    "secondary_glosses": [
+      "precise"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0715",
+    "rank": 715,
+    "display_form": "惊人",
+    "lemma": "惊人",
+    "generation_form": "惊人",
+    "pronunciation": "jīngrén",
+    "pos": "adjective",
+    "primary_gloss": "astonishing",
+    "secondary_glosses": [
+      "amazing"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0716",
+    "rank": 716,
+    "display_form": "经商",
+    "lemma": "经商",
+    "generation_form": "经商",
+    "pronunciation": "jīngshāng",
+    "pos": "verb",
+    "primary_gloss": "to engage in business",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0717",
+    "rank": 717,
+    "display_form": "精通",
+    "lemma": "精通",
+    "generation_form": "精通",
+    "pronunciation": "jīngtōng",
+    "pos": "verb",
+    "primary_gloss": "to master",
+    "secondary_glosses": [
+      "be proficient in"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0718",
+    "rank": 718,
+    "display_form": "精心",
+    "lemma": "精心",
+    "generation_form": "精心",
+    "pronunciation": "jīngxīn",
+    "pos": "adjective",
+    "primary_gloss": "meticulously",
+    "secondary_glosses": [
+      "carefully"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0719",
+    "rank": 719,
+    "display_form": "惊讶",
+    "lemma": "惊讶",
+    "generation_form": "惊讶",
+    "pronunciation": "jīngyà",
+    "pos": "adjective",
+    "primary_gloss": "surprised",
+    "secondary_glosses": [
+      "amazed"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0720",
+    "rank": 720,
+    "display_form": "精致",
+    "lemma": "精致",
+    "generation_form": "精致",
+    "pronunciation": "jīngzhì",
+    "pos": "adjective",
+    "primary_gloss": "delicate",
+    "secondary_glosses": [
+      "refined"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0721",
+    "rank": 721,
+    "display_form": "精准",
+    "lemma": "精准",
+    "generation_form": "精准",
+    "pronunciation": "jīngzhǔn",
+    "pos": "adjective",
+    "primary_gloss": "accurate",
+    "secondary_glosses": [
+      "precise"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0722",
+    "rank": 722,
+    "display_form": "井",
+    "lemma": "井",
+    "generation_form": "井",
+    "pronunciation": "jǐng",
+    "pos": "noun",
+    "primary_gloss": "well",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0723",
+    "rank": 723,
+    "display_form": "警告",
+    "lemma": "警告",
+    "generation_form": "警告",
+    "pronunciation": "jǐnggào",
+    "pos": "verb",
+    "primary_gloss": "to warn",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0724",
+    "rank": 724,
+    "display_form": "景观",
+    "lemma": "景观",
+    "generation_form": "景观",
+    "pronunciation": "jǐngguān",
+    "pos": "noun",
+    "primary_gloss": "landscape",
+    "secondary_glosses": [
+      "view"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0725",
+    "rank": 725,
+    "display_form": "景象",
+    "lemma": "景象",
+    "generation_form": "景象",
+    "pronunciation": "jǐngxiàng",
+    "pos": "noun",
+    "primary_gloss": "scene",
+    "secondary_glosses": [
+      "sight"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  }
+]

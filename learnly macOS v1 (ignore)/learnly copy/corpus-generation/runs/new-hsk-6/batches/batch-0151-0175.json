@@ -1,0 +1,369 @@
+[
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0151",
+    "rank": 151,
+    "display_form": "趁",
+    "lemma": "趁",
+    "generation_form": "趁",
+    "pronunciation": "chèn",
+    "pos": "preposition",
+    "primary_gloss": "to take advantage of",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as preposition."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0152",
+    "rank": 152,
+    "display_form": "撑",
+    "lemma": "撑",
+    "generation_form": "撑",
+    "pronunciation": "chēng",
+    "pos": "verb",
+    "primary_gloss": "to prop up",
+    "secondary_glosses": [
+      "to support"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0153",
+    "rank": 153,
+    "display_form": "称号",
+    "lemma": "称号",
+    "generation_form": "称号",
+    "pronunciation": "chēnghào",
+    "pos": "noun",
+    "primary_gloss": "title",
+    "secondary_glosses": [
+      "appellation"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0154",
+    "rank": 154,
+    "display_form": "称呼",
+    "lemma": "称呼",
+    "generation_form": "称呼",
+    "pronunciation": "chēnghu",
+    "pos": "verb, noun",
+    "primary_gloss": "to address",
+    "secondary_glosses": [
+      "form of address"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0155",
+    "rank": 155,
+    "display_form": "称作",
+    "lemma": "称作",
+    "generation_form": "称作",
+    "pronunciation": "chēngzuò",
+    "pos": "verb",
+    "primary_gloss": "to be called",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0156",
+    "rank": 156,
+    "display_form": "成",
+    "lemma": "成",
+    "generation_form": "成",
+    "pronunciation": "chéng",
+    "pos": "measure word",
+    "primary_gloss": "measure word for one-tenth",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as measure word."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0157",
+    "rank": 157,
+    "display_form": "乘",
+    "lemma": "乘",
+    "generation_form": "乘",
+    "pronunciation": "chéng",
+    "pos": "verb",
+    "primary_gloss": "to ride",
+    "secondary_glosses": [
+      "to take"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0158",
+    "rank": 158,
+    "display_form": "盛",
+    "lemma": "盛",
+    "generation_form": "盛",
+    "pronunciation": "chéng",
+    "pos": "verb",
+    "primary_gloss": "to hold",
+    "secondary_glosses": [
+      "to contain"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0159",
+    "rank": 159,
+    "display_form": "承办",
+    "lemma": "承办",
+    "generation_form": "承办",
+    "pronunciation": "chéngbàn",
+    "pos": "verb",
+    "primary_gloss": "to undertake",
+    "secondary_glosses": [
+      "to contract"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0160",
+    "rank": 160,
+    "display_form": "惩罚",
+    "lemma": "惩罚",
+    "generation_form": "惩罚",
+    "pronunciation": "chéngfá",
+    "pos": "verb",
+    "primary_gloss": "to punish",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0161",
+    "rank": 161,
+    "display_form": "成交",
+    "lemma": "成交",
+    "generation_form": "成交",
+    "pronunciation": "chéngjiāo",
+    "pos": "verb",
+    "primary_gloss": "to conclude a deal",
+    "secondary_glosses": [
+      "to transact"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0162",
+    "rank": 162,
+    "display_form": "承诺",
+    "lemma": "承诺",
+    "generation_form": "承诺",
+    "pronunciation": "chéngnuò",
+    "pos": "verb",
+    "primary_gloss": "to promise",
+    "secondary_glosses": [
+      "to commit"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0163",
+    "rank": 163,
+    "display_form": "成千上万",
+    "lemma": "成千上万",
+    "generation_form": "成千上万",
+    "pronunciation": "chéngqiān-shàngwàn",
+    "pos": "unknown",
+    "primary_gloss": "tens of thousands",
+    "secondary_glosses": [
+      "numerous"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0164",
+    "rank": 164,
+    "display_form": "呈现",
+    "lemma": "呈现",
+    "generation_form": "呈现",
+    "pronunciation": "chéngxiàn",
+    "pos": "verb",
+    "primary_gloss": "to present",
+    "secondary_glosses": [
+      "to appear"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0165",
+    "rank": 165,
+    "display_form": "成效",
+    "lemma": "成效",
+    "generation_form": "成效",
+    "pronunciation": "chéngxiào",
+    "pos": "noun",
+    "primary_gloss": "effect",
+    "secondary_glosses": [
+      "result"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0166",
+    "rank": 166,
+    "display_form": "诚信",
+    "lemma": "诚信",
+    "generation_form": "诚信",
+    "pronunciation": "chéngxìn",
+    "pos": "adjective",
+    "primary_gloss": "honest",
+    "secondary_glosses": [
+      "trustworthy"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0167",
+    "rank": 167,
+    "display_form": "成语",
+    "lemma": "成语",
+    "generation_form": "成语",
+    "pronunciation": "chéngyǔ",
+    "pos": "noun",
+    "primary_gloss": "idiom",
+    "secondary_glosses": [
+      "chengyu"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0168",
+    "rank": 168,
+    "display_form": "城镇",
+    "lemma": "城镇",
+    "generation_form": "城镇",
+    "pronunciation": "chéngzhèn",
+    "pos": "noun",
+    "primary_gloss": "town",
+    "secondary_glosses": [
+      "small city"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0169",
+    "rank": 169,
+    "display_form": "持久",
+    "lemma": "持久",
+    "generation_form": "持久",
+    "pronunciation": "chíjiǔ",
+    "pos": "adjective",
+    "primary_gloss": "lasting",
+    "secondary_glosses": [
+      "enduring"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0170",
+    "rank": 170,
+    "display_form": "持有",
+    "lemma": "持有",
+    "generation_form": "持有",
+    "pronunciation": "chíyǒu",
+    "pos": "verb",
+    "primary_gloss": "to hold",
+    "secondary_glosses": [
+      "to possess"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0171",
+    "rank": 171,
+    "display_form": "尺",
+    "lemma": "尺",
+    "generation_form": "尺",
+    "pronunciation": "chǐ",
+    "pos": "measure word, noun",
+    "primary_gloss": "measure word for length",
+    "secondary_glosses": [
+      "ruler"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as measure word, noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0172",
+    "rank": 172,
+    "display_form": "尺寸",
+    "lemma": "尺寸",
+    "generation_form": "尺寸",
+    "pronunciation": "chǐcùn",
+    "pos": "noun",
+    "primary_gloss": "size",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0173",
+    "rank": 173,
+    "display_form": "冲动",
+    "lemma": "冲动",
+    "generation_form": "冲动",
+    "pronunciation": "chōngdòng",
+    "pos": "noun, adjective",
+    "primary_gloss": "impulse",
+    "secondary_glosses": [
+      "impulsive"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0174",
+    "rank": 174,
+    "display_form": "冲击",
+    "lemma": "冲击",
+    "generation_form": "冲击",
+    "pronunciation": "chōngjī",
+    "pos": "verb",
+    "primary_gloss": "impact",
+    "secondary_glosses": [
+      "shock",
+      "to assault"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0175",
+    "rank": 175,
+    "display_form": "充实",
+    "lemma": "充实",
+    "generation_form": "充实",
+    "pronunciation": "chōngshí",
+    "pos": "adjective, verb",
+    "primary_gloss": "substantial",
+    "secondary_glosses": [
+      "rich",
+      "to enrich"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective, verb."
+  }
+]

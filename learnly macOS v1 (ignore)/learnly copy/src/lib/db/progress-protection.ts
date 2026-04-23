@@ -1,5 +1,5 @@
 import type Database from "better-sqlite3";
-import { existsSync, mkdirSync, readFileSync, writeFileSync } from "fs";
+import { existsSync, mkdirSync, readFileSync, statSync, writeFileSync } from "fs";
 import path from "path";
 import { getSqlite } from "@/lib/db/local-client";
 
@@ -7,6 +7,12 @@ type ProgressCounts = {
   itemStates: number;
   reviewEvents: number;
   sessions: number;
+};
+
+type DbIdentity = {
+  device: number;
+  inode: number;
+  birthtimeMs: number;
 };
 
 type ProgressManifest = {
@@ -17,6 +23,7 @@ type ProgressManifest = {
       counts: ProgressCounts;
       createdAt: string;
       reason: string;
+      dbIdentity?: DbIdentity;
     }
   >;
 };
@@ -24,6 +31,7 @@ type ProgressManifest = {
 const PROTECTION_DIRECTORY = path.join(process.cwd(), ".learnly", "progress-protection");
 const BACKUP_DIRECTORY = path.join(process.cwd(), ".learnly", "progress-backups");
 const MANIFEST_PATH = path.join(PROTECTION_DIRECTORY, "manifest.json");
+const DB_PATH = path.join(process.cwd(), ".learnly", "learnly.db");
 
 function sqlString(value: string) {
   return `'${value.replace(/'/g, "''")}'`;
@@ -61,6 +69,50 @@ function isLowerProgress(current: ProgressCounts, baseline: ProgressCounts) {
 function shouldRefreshBackup(current: ProgressCounts, baseline?: ProgressCounts) {
   if (!baseline) return true;
   return current.itemStates > baseline.itemStates || current.reviewEvents > baseline.reviewEvents;
+}
+
+function getDbIdentity(): DbIdentity | null {
+  if (!existsSync(DB_PATH)) {
+    return null;
+  }
+
+  try {
+    const stats = statSync(DB_PATH);
+    return {
+      device: Number(stats.dev),
+      inode: Number(stats.ino),
+      birthtimeMs: stats.birthtimeMs
+    };
+  } catch {
+    return null;
+  }
+}
+
+function isSameDbIdentity(current: DbIdentity | null, baseline?: DbIdentity) {
+  if (!current || !baseline) return false;
+  return (
+    current.device === baseline.device &&
+    current.inode === baseline.inode &&
+    current.birthtimeMs === baseline.birthtimeMs
+  );
+}
+
+function isDbReplacementAfterBaseline(
+  currentIdentity: DbIdentity | null,
+  baseline?: {
+    createdAt: string;
+    dbIdentity?: DbIdentity;
+  }
+) {
+  if (!baseline || !currentIdentity) return false;
+
+  if (baseline.dbIdentity) {
+    return !isSameDbIdentity(currentIdentity, baseline.dbIdentity);
+  }
+
+  const baselineCreatedAtMs = Date.parse(baseline.createdAt);
+  if (!Number.isFinite(baselineCreatedAtMs)) return false;
+  return currentIdentity.birthtimeMs > baselineCreatedAtMs + 1000;
 }
 
 export function installProgressProtectionTriggers(sqlite: Database.Database) {
@@ -115,6 +167,7 @@ export function ensureProgressBackup(userId: string, reason: string) {
   const sqlite = getSqlite();
   installProgressProtectionTriggers(sqlite);
   const counts = getProgressCounts(userId);
+  const dbIdentity = getDbIdentity();
 
   if (counts.itemStates === 0 && counts.reviewEvents === 0 && counts.sessions === 0) {
     return null;
@@ -122,8 +175,9 @@ export function ensureProgressBackup(userId: string, reason: string) {
 
   const manifest = readManifest();
   const protectedBaseline = manifest.users[userId];
+  const dbReplacementDetected = isDbReplacementAfterBaseline(dbIdentity, protectedBaseline);
 
-  if (protectedBaseline && isLowerProgress(counts, protectedBaseline.counts)) {
+  if (protectedBaseline && isLowerProgress(counts, protectedBaseline.counts) && !dbReplacementDetected) {
     throw new Error(
       [
         "progress protection: current learner progress is lower than the last protected snapshot",
@@ -134,7 +188,7 @@ export function ensureProgressBackup(userId: string, reason: string) {
     );
   }
 
-  if (!shouldRefreshBackup(counts, protectedBaseline?.counts)) {
+  if (!dbReplacementDetected && !shouldRefreshBackup(counts, protectedBaseline?.counts)) {
     return protectedBaseline;
   }
 
@@ -151,7 +205,8 @@ export function ensureProgressBackup(userId: string, reason: string) {
     backupPath,
     counts,
     createdAt: createdAt.toISOString(),
-    reason
+    reason: dbReplacementDetected ? `${reason}-db-replaced` : reason,
+    dbIdentity: dbIdentity ?? undefined
   };
 
   manifest.users[userId] = snapshot;

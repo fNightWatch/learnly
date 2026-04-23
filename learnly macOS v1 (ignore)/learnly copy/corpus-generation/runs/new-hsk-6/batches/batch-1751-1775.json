@@ -1,0 +1,360 @@
+[
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1751",
+    "rank": 1751,
+    "display_form": "主张",
+    "lemma": "主张",
+    "generation_form": "主张",
+    "pronunciation": "zhǔzhāng",
+    "pos": "verb, noun",
+    "primary_gloss": "to advocate",
+    "secondary_glosses": [
+      "view",
+      "stance"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1752",
+    "rank": 1752,
+    "display_form": "祝福",
+    "lemma": "祝福",
+    "generation_form": "祝福",
+    "pronunciation": "zhùfú",
+    "pos": "verb",
+    "primary_gloss": "to bless",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1753",
+    "rank": 1753,
+    "display_form": "助理",
+    "lemma": "助理",
+    "generation_form": "助理",
+    "pronunciation": "zhùlǐ",
+    "pos": "adjective, noun",
+    "primary_gloss": "assisting",
+    "secondary_glosses": [
+      "assistant"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective, noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1754",
+    "rank": 1754,
+    "display_form": "助手",
+    "lemma": "助手",
+    "generation_form": "助手",
+    "pronunciation": "zhùshǒu",
+    "pos": "noun",
+    "primary_gloss": "assistant",
+    "secondary_glosses": [
+      "helper"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1755",
+    "rank": 1755,
+    "display_form": "祝愿",
+    "lemma": "祝愿",
+    "generation_form": "祝愿",
+    "pronunciation": "zhùyuàn",
+    "pos": "verb",
+    "primary_gloss": "to wish",
+    "secondary_glosses": [
+      "to express good wishes"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1756",
+    "rank": 1756,
+    "display_form": "住宅",
+    "lemma": "住宅",
+    "generation_form": "住宅",
+    "pronunciation": "zhùzhái",
+    "pos": "noun",
+    "primary_gloss": "residence",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1757",
+    "rank": 1757,
+    "display_form": "著作",
+    "lemma": "著作",
+    "generation_form": "著作",
+    "pronunciation": "zhùzuò",
+    "pos": "noun",
+    "primary_gloss": "work",
+    "secondary_glosses": [
+      "writing"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1758",
+    "rank": 1758,
+    "display_form": "砖",
+    "lemma": "砖",
+    "generation_form": "砖",
+    "pronunciation": "zhuān",
+    "pos": "noun",
+    "primary_gloss": "brick",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1759",
+    "rank": 1759,
+    "display_form": "专科",
+    "lemma": "专科",
+    "generation_form": "专科",
+    "pronunciation": "zhuānkē",
+    "pos": "noun",
+    "primary_gloss": "specialized subject",
+    "secondary_glosses": [
+      "specialty"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1760",
+    "rank": 1760,
+    "display_form": "专利",
+    "lemma": "专利",
+    "generation_form": "专利",
+    "pronunciation": "zhuānlì",
+    "pos": "noun",
+    "primary_gloss": "patent",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1761",
+    "rank": 1761,
+    "display_form": "专题",
+    "lemma": "专题",
+    "generation_form": "专题",
+    "pronunciation": "zhuāntí",
+    "pos": "noun",
+    "primary_gloss": "special topic",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1762",
+    "rank": 1762,
+    "display_form": "专用",
+    "lemma": "专用",
+    "generation_form": "专用",
+    "pronunciation": "zhuānyòng",
+    "pos": "verb",
+    "primary_gloss": "dedicated",
+    "secondary_glosses": [
+      "specialized"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1763",
+    "rank": 1763,
+    "display_form": "专注",
+    "lemma": "专注",
+    "generation_form": "专注",
+    "pronunciation": "zhuānzhù",
+    "pos": "adjective",
+    "primary_gloss": "concentrated",
+    "secondary_glosses": [
+      "focused"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1764",
+    "rank": 1764,
+    "display_form": "转换",
+    "lemma": "转换",
+    "generation_form": "转换",
+    "pronunciation": "zhuǎnhuàn",
+    "pos": "verb",
+    "primary_gloss": "to convert",
+    "secondary_glosses": [
+      "to transform"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1765",
+    "rank": 1765,
+    "display_form": "转交",
+    "lemma": "转交",
+    "generation_form": "转交",
+    "pronunciation": "zhuǎnjiāo",
+    "pos": "verb",
+    "primary_gloss": "to pass on",
+    "secondary_glosses": [
+      "to hand over"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1766",
+    "rank": 1766,
+    "display_form": "转让",
+    "lemma": "转让",
+    "generation_form": "转让",
+    "pronunciation": "zhuǎnràng",
+    "pos": "verb",
+    "primary_gloss": "to transfer",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1767",
+    "rank": 1767,
+    "display_form": "转身",
+    "lemma": "转身",
+    "generation_form": "转身",
+    "pronunciation": "zhuǎnshēn",
+    "pos": "verb",
+    "primary_gloss": "to turn around",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1768",
+    "rank": 1768,
+    "display_form": "转移",
+    "lemma": "转移",
+    "generation_form": "转移",
+    "pronunciation": "zhuǎnyí",
+    "pos": "verb",
+    "primary_gloss": "to transfer",
+    "secondary_glosses": [
+      "to shift"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1769",
+    "rank": 1769,
+    "display_form": "转",
+    "lemma": "转",
+    "generation_form": "转",
+    "pronunciation": "zhuàn",
+    "pos": "verb",
+    "primary_gloss": "to turn",
+    "secondary_glosses": [
+      "to revolve"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1770",
+    "rank": 1770,
+    "display_form": "转动",
+    "lemma": "转动",
+    "generation_form": "转动",
+    "pronunciation": "zhuàndòng",
+    "pos": "verb",
+    "primary_gloss": "to rotate",
+    "secondary_glosses": [
+      "to spin"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1771",
+    "rank": 1771,
+    "display_form": "装备",
+    "lemma": "装备",
+    "generation_form": "装备",
+    "pronunciation": "zhuāngbèi",
+    "pos": "verb, noun",
+    "primary_gloss": "to equip",
+    "secondary_glosses": [
+      "equipment"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1772",
+    "rank": 1772,
+    "display_form": "庄稼",
+    "lemma": "庄稼",
+    "generation_form": "庄稼",
+    "pronunciation": "zhuāngjia",
+    "pos": "noun",
+    "primary_gloss": "crops",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1773",
+    "rank": 1773,
+    "display_form": "追究",
+    "lemma": "追究",
+    "generation_form": "追究",
+    "pronunciation": "zhuījiū",
+    "pos": "verb",
+    "primary_gloss": "to investigate",
+    "secondary_glosses": [
+      "to look into"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1774",
+    "rank": 1774,
+    "display_form": "捉",
+    "lemma": "捉",
+    "generation_form": "捉",
+    "pronunciation": "zhuō",
+    "pos": "verb",
+    "primary_gloss": "to catch",
+    "secondary_glosses": [
+      "to capture"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-1775",
+    "rank": 1775,
+    "display_form": "资本",
+    "lemma": "资本",
+    "generation_form": "资本",
+    "pronunciation": "zīběn",
+    "pos": "noun",
+    "primary_gloss": "capital",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  }
+]

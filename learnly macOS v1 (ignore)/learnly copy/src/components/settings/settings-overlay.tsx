@@ -10,15 +10,29 @@ import {
 } from "@/lib/site/theme-palette";
 
 type LanguageOption = { code: string; name: string };
+type AssumedWordListOption = {
+  id: string;
+  title: string;
+  description: string;
+  itemCount: number;
+};
 type StudyMode = "everyday" | "review-only" | "new-only";
 type ChineseReviewFlow = "two-click" | "four-click";
-type SettingsPage = "menu" | "daily-goal" | "study-languages" | "study-mode" | "chinese-flow" | "theme";
+type SettingsPage =
+  | "menu"
+  | "daily-goal"
+  | "study-languages"
+  | "assumed-words"
+  | "study-mode"
+  | "chinese-flow"
+  | "theme";
 
 interface SettingsData {
   dailyGoal: number;
   selectedLanguageCodes: string[];
   preferredStudyMode: StudyMode;
   chineseReviewFlow: ChineseReviewFlow;
+  assumedWordListIds: string[];
 }
 
 const studyModes: { id: StudyMode; label: string }[] = [
@@ -41,6 +55,7 @@ export function SettingsOverlay({
 }) {
   const [settings, setSettings] = useState<SettingsData | null>(null);
   const [languages, setLanguages] = useState<LanguageOption[]>([]);
+  const [assumedWordLists, setAssumedWordLists] = useState<AssumedWordListOption[]>([]);
   const [palette, setPalette] = useState<ThemePaletteKey>("classic");
   const [page, setPage] = useState<SettingsPage>("menu");
   const settingsRef = useRef(settings);
@@ -58,14 +73,18 @@ export function SettingsOverlay({
       document.documentElement.dataset.palette = "classic";
     }
 
-    fetch("/api/settings")
+    fetch("/api/settings", { cache: "no-store" })
       .then((r) => r.json())
-      .then((s: SettingsData & { availableLanguages?: { code: string; name: string }[] }) => {
+      .then((s: SettingsData & {
+        availableLanguages?: { code: string; name: string }[];
+        availableAssumedWordLists?: AssumedWordListOption[];
+      }) => {
       setSettings({
         dailyGoal: s.dailyGoal,
         selectedLanguageCodes: s.selectedLanguageCodes,
         preferredStudyMode: s.preferredStudyMode,
-        chineseReviewFlow: s.chineseReviewFlow === "two-click" ? "two-click" : "four-click"
+        chineseReviewFlow: s.chineseReviewFlow === "two-click" ? "two-click" : "four-click",
+        assumedWordListIds: Array.isArray(s.assumedWordListIds) ? s.assumedWordListIds : []
       });
       setLanguages(
         (s.availableLanguages ?? []).map((l) => ({
@@ -73,6 +92,7 @@ export function SettingsOverlay({
           name: l.name
         }))
       );
+      setAssumedWordLists(s.availableAssumedWordLists ?? []);
     });
   }, [open]);
 
@@ -112,6 +132,8 @@ export function SettingsOverlay({
 
   const toggleLang = (list: string[], code: string) =>
     list.includes(code) ? (list.length > 1 ? list.filter((c) => c !== code) : list) : [...list, code];
+  const toggleValue = (list: string[], value: string) =>
+    list.includes(value) ? list.filter((entry) => entry !== value) : [...list, value];
   const selectedLanguageNames = languages
     .filter((lang) => settings.selectedLanguageCodes.includes(lang.code))
     .map((lang) => lang.name);
@@ -124,9 +146,23 @@ export function SettingsOverlay({
     studyModes.find((mode) => mode.id === settings.preferredStudyMode)?.label ?? "Everyday";
   const chineseFlowLabel =
     chineseReviewFlows.find((mode) => mode.id === settings.chineseReviewFlow)?.label ?? "4 click";
+  const selectedAssumedLists = assumedWordLists.filter((list) =>
+    settings.assumedWordListIds.includes(list.id)
+  );
+  const selectedAssumedWordCount = selectedAssumedLists.reduce(
+    (total, list) => total + list.itemCount,
+    0
+  );
+  const assumedWordSummary =
+    selectedAssumedLists.length === 0
+      ? "No assumed lists selected"
+      : selectedAssumedLists.length <= 2
+        ? `${selectedAssumedLists.map((list) => list.title).join(", ")} · ${selectedAssumedWordCount} words`
+        : `${selectedAssumedLists.length} lists · ${selectedAssumedWordCount} words`;
   const pageTitle: Record<Exclude<SettingsPage, "menu">, string> = {
     "daily-goal": "Daily new words",
     "study-languages": "Study languages",
+    "assumed-words": "Assumed words",
     "study-mode": "Preferred study mode",
     "chinese-flow": "Chinese review flow",
     theme: "Theme palette"
@@ -224,6 +260,17 @@ export function SettingsOverlay({
               </button>
               <button
                 type="button"
+                onClick={() => setPage("assumed-words")}
+                className="flex w-full items-center justify-between rounded-[16px] border border-line/70 bg-panel/78 px-4 py-3 text-left transition-[transform,opacity,box-shadow] hover:border-clay/30 hover:bg-panel dark:border-line/50"
+              >
+                <div>
+                  <div className="text-sm font-semibold text-ink/88 dark:text-white/88">Assumed words</div>
+                  <div className="mt-1 text-xs text-ink/46 dark:text-white/52">{assumedWordSummary}</div>
+                </div>
+                <span className="text-ink/38 dark:text-white/50">›</span>
+              </button>
+              <button
+                type="button"
                 onClick={() => setPage("chinese-flow")}
                 className="flex w-full items-center justify-between rounded-[16px] border border-line/70 bg-panel/78 px-4 py-3 text-left transition-[transform,opacity,box-shadow] hover:border-clay/30 hover:bg-panel dark:border-line/50"
               >
@@ -296,6 +343,59 @@ export function SettingsOverlay({
                       }`}
                     >
                       {lang.name}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          ) : null}
+
+          {page === "assumed-words" ? (
+            <div>
+              <div className="text-xs uppercase tracking-[0.2em] text-ink/40 dark:text-white/40">
+                Assumed words
+              </div>
+              <p className="mt-3 text-sm leading-6 text-ink/56 dark:text-white/56">
+                Pick the lists we should treat as already familiar. For now, assumed words can only
+                be configured by whole list.
+              </p>
+              <div className="mt-4 space-y-2">
+                {assumedWordLists.map((list) => {
+                  const active = settings.assumedWordListIds.includes(list.id);
+                  return (
+                    <button
+                      key={list.id}
+                      type="button"
+                      aria-pressed={active}
+                      onClick={() =>
+                        void save({
+                          assumedWordListIds: toggleValue(settings.assumedWordListIds, list.id)
+                        })
+                      }
+                      className={`flex w-full items-start justify-between gap-4 rounded-[18px] border px-4 py-3 text-left transition-[transform,opacity,box-shadow] ${
+                        active
+                          ? "border-clay/40 bg-clay/12 dark:border-clay/50 dark:bg-clay/20"
+                          : "border-line/70 bg-panel/78 hover:border-clay/30 hover:bg-panel dark:border-line/50"
+                      }`}
+                    >
+                      <div className="min-w-0">
+                        <div className="text-sm font-semibold text-ink/88 dark:text-white/88">
+                          {list.title}
+                        </div>
+                        <div className="mt-1 text-xs leading-5 text-ink/48 dark:text-white/52">
+                          {list.description}
+                        </div>
+                      </div>
+                      <div className="flex shrink-0 flex-col items-end gap-2">
+                        <span className="rounded-full border border-line/70 bg-paper/70 px-2.5 py-1 text-[11px] font-medium uppercase tracking-[0.14em] text-ink/56 dark:border-line/40 dark:bg-white/8 dark:text-white/58">
+                          {list.itemCount} words
+                        </span>
+                        {active ? (
+                          <span className="rounded-full bg-ink px-2.5 py-1 text-[11px] font-semibold uppercase tracking-[0.14em] text-white dark:bg-white dark:text-black">
+                            Selected
+                          </span>
+                        ) : null}
+                      </div>
                     </button>
                   );
                 })}

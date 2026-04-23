@@ -3,6 +3,12 @@ export type LexicalItemType = "lemma" | "phrase";
 export type StudyMode = "everyday" | "review-only" | "new-only";
 export type ChineseReviewFlow = "two-click" | "four-click";
 export type DashboardRangeDays = 7 | 30;
+export type AssumedWordListOption = {
+  id: string;
+  title: string;
+  description: string;
+  itemCount: number;
+};
 
 export type DemoLanguage = {
   code: SupportedLanguageCode;
@@ -56,6 +62,7 @@ export type LearnerSettings = {
   dashboardRangeDays: DashboardRangeDays;
   preferredStudyMode: StudyMode;
   chineseReviewFlow: ChineseReviewFlow;
+  assumedWordListIds: string[];
   updatedAt: string;
 };
 
@@ -221,6 +228,8 @@ export type DemoSession = {
   dueCount: number;
   newCount: number;
   createdAt: string;
+  elapsedMs: number;
+  completedAt: string | null;
 };
 
 export type DashboardSnapshot = {
@@ -238,6 +247,7 @@ export type DashboardSnapshot = {
   dailyGoal: number;
   reviewsToday: number;
   introducedToday: number;
+  timeStudiedTodayMs: number;
   averageNewPerDay: number;
   totalReviews: number;
   streakDays: number;

@@ -1,0 +1,352 @@
+[
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0551",
+    "rank": 551,
+    "display_form": "洪水",
+    "lemma": "洪水",
+    "generation_form": "洪水",
+    "pronunciation": "hóngshuǐ",
+    "pos": "noun",
+    "primary_gloss": "flood",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0552",
+    "rank": 552,
+    "display_form": "后代",
+    "lemma": "后代",
+    "generation_form": "后代",
+    "pronunciation": "hòudài",
+    "pos": "noun",
+    "primary_gloss": "offspring",
+    "secondary_glosses": [
+      "descendants"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0553",
+    "rank": 553,
+    "display_form": "后期",
+    "lemma": "后期",
+    "generation_form": "后期",
+    "pronunciation": "hòuqī",
+    "pos": "noun",
+    "primary_gloss": "late stage",
+    "secondary_glosses": [
+      "later period"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0554",
+    "rank": 554,
+    "display_form": "后人",
+    "lemma": "后人",
+    "generation_form": "后人",
+    "pronunciation": "hòurén",
+    "pos": "noun",
+    "primary_gloss": "later generations",
+    "secondary_glosses": [
+      "people of later times"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0555",
+    "rank": 555,
+    "display_form": "后退",
+    "lemma": "后退",
+    "generation_form": "后退",
+    "pronunciation": "hòutuì",
+    "pos": "verb",
+    "primary_gloss": "to retreat",
+    "secondary_glosses": [
+      "to move back"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0556",
+    "rank": 556,
+    "display_form": "后者",
+    "lemma": "后者",
+    "generation_form": "后者",
+    "pronunciation": "hòuzhě",
+    "pos": "noun",
+    "primary_gloss": "the latter",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0557",
+    "rank": 557,
+    "display_form": "忽略",
+    "lemma": "忽略",
+    "generation_form": "忽略",
+    "pronunciation": "hūlüè",
+    "pos": "verb",
+    "primary_gloss": "to neglect",
+    "secondary_glosses": [
+      "to overlook"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0558",
+    "rank": 558,
+    "display_form": "壶",
+    "lemma": "壶",
+    "generation_form": "壶",
+    "pronunciation": "hú",
+    "pos": "noun",
+    "primary_gloss": "pot",
+    "secondary_glosses": [
+      "kettle"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0559",
+    "rank": 559,
+    "display_form": "胡子",
+    "lemma": "胡子",
+    "generation_form": "胡子",
+    "pronunciation": "húzi",
+    "pos": "noun",
+    "primary_gloss": "beard",
+    "secondary_glosses": [
+      "mustache"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0560",
+    "rank": 560,
+    "display_form": "户",
+    "lemma": "户",
+    "generation_form": "户",
+    "pronunciation": "hù",
+    "pos": "measure word",
+    "primary_gloss": "measure word for households",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as measure word."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0561",
+    "rank": 561,
+    "display_form": "互助",
+    "lemma": "互助",
+    "generation_form": "互助",
+    "pronunciation": "hùzhù",
+    "pos": "verb",
+    "primary_gloss": "mutual aid",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0562",
+    "rank": 562,
+    "display_form": "花朵",
+    "lemma": "花朵",
+    "generation_form": "花朵",
+    "pronunciation": "huāduǒ",
+    "pos": "noun",
+    "primary_gloss": "flower",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0563",
+    "rank": 563,
+    "display_form": "花生",
+    "lemma": "花生",
+    "generation_form": "花生",
+    "pronunciation": "huāshēng",
+    "pos": "noun",
+    "primary_gloss": "peanut",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0564",
+    "rank": 564,
+    "display_form": "滑冰",
+    "lemma": "滑冰",
+    "generation_form": "滑冰",
+    "pronunciation": "huábīng",
+    "pos": "verb",
+    "primary_gloss": "to skate",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0565",
+    "rank": 565,
+    "display_form": "滑行",
+    "lemma": "滑行",
+    "generation_form": "滑行",
+    "pronunciation": "huáxíng",
+    "pos": "verb",
+    "primary_gloss": "to glide",
+    "secondary_glosses": [
+      "to slide"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0566",
+    "rank": 566,
+    "display_form": "滑雪",
+    "lemma": "滑雪",
+    "generation_form": "滑雪",
+    "pronunciation": "huáxuě",
+    "pos": "verb",
+    "primary_gloss": "to ski",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0567",
+    "rank": 567,
+    "display_form": "划",
+    "lemma": "划",
+    "generation_form": "划",
+    "pronunciation": "huà",
+    "pos": "verb",
+    "primary_gloss": "to row",
+    "secondary_glosses": [
+      "to paddle"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0568",
+    "rank": 568,
+    "display_form": "划分",
+    "lemma": "划分",
+    "generation_form": "划分",
+    "pronunciation": "huàfēn",
+    "pos": "verb",
+    "primary_gloss": "to divide",
+    "secondary_glosses": [
+      "to partition"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0569",
+    "rank": 569,
+    "display_form": "化石",
+    "lemma": "化石",
+    "generation_form": "化石",
+    "pronunciation": "huàshí",
+    "pos": "noun",
+    "primary_gloss": "fossil",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0570",
+    "rank": 570,
+    "display_form": "话筒",
+    "lemma": "话筒",
+    "generation_form": "话筒",
+    "pronunciation": "huàtǒng",
+    "pos": "noun",
+    "primary_gloss": "microphone",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0571",
+    "rank": 571,
+    "display_form": "化妆",
+    "lemma": "化妆",
+    "generation_form": "化妆",
+    "pronunciation": "huàzhuāng",
+    "pos": "verb",
+    "primary_gloss": "to put on makeup",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0572",
+    "rank": 572,
+    "display_form": "怀",
+    "lemma": "怀",
+    "generation_form": "怀",
+    "pronunciation": "huái",
+    "pos": "noun, verb",
+    "primary_gloss": "chest",
+    "secondary_glosses": [
+      "bosom",
+      "to hold in mind"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0573",
+    "rank": 573,
+    "display_form": "怀念",
+    "lemma": "怀念",
+    "generation_form": "怀念",
+    "pronunciation": "huáiniàn",
+    "pos": "verb",
+    "primary_gloss": "to cherish the memory of",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0574",
+    "rank": 574,
+    "display_form": "怀孕",
+    "lemma": "怀孕",
+    "generation_form": "怀孕",
+    "pronunciation": "huáiyùn",
+    "pos": "verb",
+    "primary_gloss": "to be pregnant",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0575",
+    "rank": 575,
+    "display_form": "欢乐",
+    "lemma": "欢乐",
+    "generation_form": "欢乐",
+    "pronunciation": "huānlè",
+    "pos": "adjective",
+    "primary_gloss": "happy",
+    "secondary_glosses": [
+      "joyful"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  }
+]

@@ -1,0 +1,144 @@
+[
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1001",
+    "rank": 1001,
+    "display_form": "胜",
+    "lemma": "胜",
+    "generation_form": "胜",
+    "pronunciation": "shèng",
+    "pos": "verb",
+    "primary_gloss": "to win",
+    "secondary_glosses": [
+      "to defeat"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1002",
+    "rank": 1002,
+    "display_form": "胜利",
+    "lemma": "胜利",
+    "generation_form": "胜利",
+    "pronunciation": "shènglì",
+    "pos": "verb",
+    "primary_gloss": "victory",
+    "secondary_glosses": [
+      "triumph",
+      "to win"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1003",
+    "rank": 1003,
+    "display_form": "诗",
+    "lemma": "诗",
+    "generation_form": "诗",
+    "pronunciation": "shī",
+    "pos": "noun",
+    "primary_gloss": "poetry",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1004",
+    "rank": 1004,
+    "display_form": "湿",
+    "lemma": "湿",
+    "generation_form": "湿",
+    "pronunciation": "shī",
+    "pos": "adjective",
+    "primary_gloss": "wet",
+    "secondary_glosses": [
+      "damp"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1005",
+    "rank": 1005,
+    "display_form": "失恋",
+    "lemma": "失恋",
+    "generation_form": "失恋",
+    "pronunciation": "shīliàn",
+    "pos": "verb",
+    "primary_gloss": "to lose in love",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1006",
+    "rank": 1006,
+    "display_form": "失眠",
+    "lemma": "失眠",
+    "generation_form": "失眠",
+    "pronunciation": "shīmián",
+    "pos": "verb",
+    "primary_gloss": "to suffer from insomnia",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1007",
+    "rank": 1007,
+    "display_form": "诗人",
+    "lemma": "诗人",
+    "generation_form": "诗人",
+    "pronunciation": "shīrén",
+    "pos": "noun",
+    "primary_gloss": "poet",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1008",
+    "rank": 1008,
+    "display_form": "失误",
+    "lemma": "失误",
+    "generation_form": "失误",
+    "pronunciation": "shīwù",
+    "pos": "verb, noun",
+    "primary_gloss": "to make a mistake",
+    "secondary_glosses": [
+      "mistake",
+      "error"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1009",
+    "rank": 1009,
+    "display_form": "失业",
+    "lemma": "失业",
+    "generation_form": "失业",
+    "pronunciation": "shīyè",
+    "pos": "verb",
+    "primary_gloss": "to lose one's job",
+    "secondary_glosses": [
+      "to be unemployed"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-5-words",
+    "word_id": "new-hsk-5-1010",
+    "rank": 1010,
+    "display_form": "时差",
+    "lemma": "时差",
+    "generation_form": "时差",
+    "pronunciation": "shíchā",
+    "pos": "noun",
+    "primary_gloss": "time difference",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  }
+]

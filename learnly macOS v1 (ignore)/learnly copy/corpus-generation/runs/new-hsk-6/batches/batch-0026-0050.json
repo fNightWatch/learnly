@@ -1,0 +1,342 @@
+[
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0026",
+    "rank": 26,
+    "display_form": "保障",
+    "lemma": "保障",
+    "generation_form": "保障",
+    "pronunciation": "bǎozhàng",
+    "pos": "verb, noun",
+    "primary_gloss": "to ensure",
+    "secondary_glosses": [
+      "to guarantee",
+      "guarantee"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0027",
+    "rank": 27,
+    "display_form": "爆",
+    "lemma": "爆",
+    "generation_form": "爆",
+    "pronunciation": "bào",
+    "pos": "verb",
+    "primary_gloss": "to explode",
+    "secondary_glosses": [
+      "to burst"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0028",
+    "rank": 28,
+    "display_form": "爆发",
+    "lemma": "爆发",
+    "generation_form": "爆发",
+    "pronunciation": "bàofā",
+    "pos": "verb",
+    "primary_gloss": "to break out",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0029",
+    "rank": 29,
+    "display_form": "报刊",
+    "lemma": "报刊",
+    "generation_form": "报刊",
+    "pronunciation": "bàokān",
+    "pos": "noun",
+    "primary_gloss": "newspapers and magazines",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0030",
+    "rank": 30,
+    "display_form": "暴力",
+    "lemma": "暴力",
+    "generation_form": "暴力",
+    "pronunciation": "bàolì",
+    "pos": "noun",
+    "primary_gloss": "violence",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0031",
+    "rank": 31,
+    "display_form": "暴露",
+    "lemma": "暴露",
+    "generation_form": "暴露",
+    "pronunciation": "bàolù",
+    "pos": "verb",
+    "primary_gloss": "to expose",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0032",
+    "rank": 32,
+    "display_form": "报社",
+    "lemma": "报社",
+    "generation_form": "报社",
+    "pronunciation": "bàoshè",
+    "pos": "noun",
+    "primary_gloss": "newspaper office",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0033",
+    "rank": 33,
+    "display_form": "爆炸",
+    "lemma": "爆炸",
+    "generation_form": "爆炸",
+    "pronunciation": "bàozhà",
+    "pos": "verb",
+    "primary_gloss": "to explode",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0034",
+    "rank": 34,
+    "display_form": "悲观",
+    "lemma": "悲观",
+    "generation_form": "悲观",
+    "pronunciation": "bēiguān",
+    "pos": "adjective",
+    "primary_gloss": "pessimistic",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0035",
+    "rank": 35,
+    "display_form": "悲剧",
+    "lemma": "悲剧",
+    "generation_form": "悲剧",
+    "pronunciation": "bēijù",
+    "pos": "noun",
+    "primary_gloss": "tragedy",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0036",
+    "rank": 36,
+    "display_form": "悲伤",
+    "lemma": "悲伤",
+    "generation_form": "悲伤",
+    "pronunciation": "bēishāng",
+    "pos": "adjective",
+    "primary_gloss": "sad",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0037",
+    "rank": 37,
+    "display_form": "北极",
+    "lemma": "北极",
+    "generation_form": "北极",
+    "pronunciation": "běijí",
+    "pos": "noun",
+    "primary_gloss": "North Pole",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0038",
+    "rank": 38,
+    "display_form": "北美洲",
+    "lemma": "北美洲",
+    "generation_form": "北美洲",
+    "pronunciation": "Běiměizhōu",
+    "pos": "noun",
+    "primary_gloss": "North America",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0039",
+    "rank": 39,
+    "display_form": "被动",
+    "lemma": "被动",
+    "generation_form": "被动",
+    "pronunciation": "bèidòng",
+    "pos": "adjective",
+    "primary_gloss": "passive",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0040",
+    "rank": 40,
+    "display_form": "被迫",
+    "lemma": "被迫",
+    "generation_form": "被迫",
+    "pronunciation": "bèipò",
+    "pos": "verb",
+    "primary_gloss": "to be forced",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0041",
+    "rank": 41,
+    "display_form": "背心",
+    "lemma": "背心",
+    "generation_form": "背心",
+    "pronunciation": "bèixīn",
+    "pos": "noun",
+    "primary_gloss": "vest",
+    "secondary_glosses": [
+      "undershirt"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0042",
+    "rank": 42,
+    "display_form": "备用",
+    "lemma": "备用",
+    "generation_form": "备用",
+    "pronunciation": "bèiyòng",
+    "pos": "verb",
+    "primary_gloss": "standby",
+    "secondary_glosses": [
+      "backup"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0043",
+    "rank": 43,
+    "display_form": "倍增",
+    "lemma": "倍增",
+    "generation_form": "倍增",
+    "pronunciation": "bèizēng",
+    "pos": "verb",
+    "primary_gloss": "to double",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0044",
+    "rank": 44,
+    "display_form": "奔跑",
+    "lemma": "奔跑",
+    "generation_form": "奔跑",
+    "pronunciation": "bēnpǎo",
+    "pos": "verb",
+    "primary_gloss": "to run",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0045",
+    "rank": 45,
+    "display_form": "本能",
+    "lemma": "本能",
+    "generation_form": "本能",
+    "pronunciation": "běnnéng",
+    "pos": "noun, adverb",
+    "primary_gloss": "instinct",
+    "secondary_glosses": [
+      "instinctively"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun, adverb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0046",
+    "rank": 46,
+    "display_form": "本身",
+    "lemma": "本身",
+    "generation_form": "本身",
+    "pronunciation": "běnshēn",
+    "pos": "pronoun",
+    "primary_gloss": "itself",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as pronoun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0047",
+    "rank": 47,
+    "display_form": "本土",
+    "lemma": "本土",
+    "generation_form": "本土",
+    "pronunciation": "běntǔ",
+    "pos": "noun",
+    "primary_gloss": "local",
+    "secondary_glosses": [
+      "native territory"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0048",
+    "rank": 48,
+    "display_form": "逼",
+    "lemma": "逼",
+    "generation_form": "逼",
+    "pronunciation": "bī",
+    "pos": "verb",
+    "primary_gloss": "to force",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0049",
+    "rank": 49,
+    "display_form": "比方",
+    "lemma": "比方",
+    "generation_form": "比方",
+    "pronunciation": "bǐfang",
+    "pos": "verb",
+    "primary_gloss": "to analogize",
+    "secondary_glosses": [
+      "to compare"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0050",
+    "rank": 50,
+    "display_form": "比重",
+    "lemma": "比重",
+    "generation_form": "比重",
+    "pronunciation": "bǐzhòng",
+    "pos": "noun",
+    "primary_gloss": "proportion",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  }
+]

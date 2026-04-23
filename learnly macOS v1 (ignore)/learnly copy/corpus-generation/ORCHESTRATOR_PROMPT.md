@@ -80,15 +80,17 @@ Process words in rank order, in reusable batches. For each word:
 - Store the English meaning taught by each example alongside that example.
 - Example-sentence quality and translation quality are the main priority.
 - Every Chinese example sentence must use only New HSK words from the same level or below.
-- For HSK 1, every token in every sentence must come from the New HSK 1 source list.
-- For HSK 2, every token in every sentence must come from the combined New HSK 1 and New HSK 2 source lists.
-- For HSK 3, every token in every sentence must come from the combined New HSK 1, New HSK 2, and New HSK 3 source lists.
-- For HSK 4, every token in every sentence must come from the combined New HSK 1, New HSK 2, New HSK 3, and New HSK 4 source lists.
-- For HSK 5, every token in every sentence must come from the combined New HSK 1, New HSK 2, New HSK 3, New HSK 4, and New HSK 5 source lists.
+- For HSK 1, every Chinese word in every sentence must come from the New HSK 1 source list.
+- For HSK 2, every Chinese word in every sentence must come from the combined New HSK 1 and New HSK 2 source lists.
+- For HSK 3, every Chinese word in every sentence must come from the combined New HSK 1, New HSK 2, and New HSK 3 source lists.
+- For HSK 4, every Chinese word in every sentence must come from the combined New HSK 1, New HSK 2, New HSK 3, and New HSK 4 source lists.
+- For HSK 5, every Chinese word in every sentence must come from the combined New HSK 1, New HSK 2, New HSK 3, New HSK 4, and New HSK 5 source lists.
+- For HSK 6, every Chinese word in every sentence must come from the combined New HSK 1, New HSK 2, New HSK 3, New HSK 4, New HSK 5, and New HSK 6 source lists.
 - For HSK 2, target slightly richer sentences than HSK 1: usually 6-14 Chinese words, still concrete and easy to picture, with only modestly more detail or clause structure.
 - For HSK 3, target only slightly richer sentences than HSK 2: usually 7-16 Chinese words, still concrete and easy to picture, with just a small step up in detail or clause structure and no abstract or advanced vocabulary outside the allowed HSK 1+2+3 set.
 - For HSK 4, target only slightly richer sentences than HSK 3: usually 8-17 Chinese words, still concrete and easy to picture, with just a small step up in detail or clause structure and no abstract or advanced vocabulary outside the allowed HSK 1+2+3+4 set.
 - For HSK 5, target only slightly richer sentences than HSK 4: usually 9-19 Chinese words, still concrete and easy to picture, with just a small step up in detail or clause structure and no abstract or advanced vocabulary outside the allowed HSK 1+2+3+4+5 set.
+- For HSK 6, target longer denser sentences than HSK 5 while still staying natural, lexicon-safe, clearly harder than every lower level, and never dropping below the hard minimum floor of 20 segmented words.
 
 ### Step 1: Fetch the source row
 
@@ -125,10 +127,12 @@ Automatic disqualification:
 
 Round the final score to 1 decimal place.
 
-Difficulty:
-- `1` if all non-target words are top-500
-- `2` if all non-target words are top-1500
-- `3` otherwise
+Difficulty uses the `1-5` corpus scale:
+- `1` for very easy within the dataset
+- `2` for easy
+- `3` for standard target-level difficulty
+- `4` for clearly harder or denser than standard
+- `5` for the hardest still-natural lexicon-safe sentences in the batch
 
 ### Step 4: Select the best 3
 
@@ -136,8 +140,7 @@ Rules:
 - Drop anything below `6.0`
 - Keep the strongest 3 candidates overall
 - Prefer context diversity
-- At least one chosen example must be difficulty `1` when possible
-- The best difficulty `1` example becomes `is_primary: true`
+- Prefer the clearest lowest-friction example as `is_primary: true`, but do not force difficulty `1` for higher-level HSK batches if that would weaken the corpus
 
 If fewer than 3 survive, re-prompt the worker with targeted feedback and replace just the failed slots.
 
@@ -194,6 +197,7 @@ Final output must match the existing ingestion shape:
   - New HSK 3: only slightly richer than HSK 2, usually 7-16 Chinese words, HSK 1 plus HSK 2 plus HSK 3 vocabulary only
   - New HSK 4: only slightly richer than HSK 3, usually 8-17 Chinese words, HSK 1 plus HSK 2 plus HSK 3 plus HSK 4 vocabulary only
   - New HSK 5: only slightly richer than HSK 4, usually 9-19 Chinese words, HSK 1 plus HSK 2 plus HSK 3 plus HSK 4 plus HSK 5 vocabulary only
+  - New HSK 6: HSK 1 plus HSK 2 plus HSK 3 plus HSK 4 plus HSK 5 plus HSK 6 vocabulary only, with the finished batch averaging at least 20 segmented words per sentence and at least 3.1 difficulty on the `1-5` scale
 
 ## Quality bar
 

@@ -1,0 +1,363 @@
+[
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0326",
+    "rank": 326,
+    "display_form": "渡",
+    "lemma": "渡",
+    "generation_form": "渡",
+    "pronunciation": "dù",
+    "pos": "verb",
+    "primary_gloss": "to cross a river",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0327",
+    "rank": 327,
+    "display_form": "端",
+    "lemma": "端",
+    "generation_form": "端",
+    "pronunciation": "duān",
+    "pos": "verb",
+    "primary_gloss": "to hold",
+    "secondary_glosses": [
+      "to carry"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0328",
+    "rank": 328,
+    "display_form": "短缺",
+    "lemma": "短缺",
+    "generation_form": "短缺",
+    "pronunciation": "duǎnquē",
+    "pos": "verb",
+    "primary_gloss": "shortage",
+    "secondary_glosses": [
+      "to be short of"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0329",
+    "rank": 329,
+    "display_form": "对称",
+    "lemma": "对称",
+    "generation_form": "对称",
+    "pronunciation": "duìchèn",
+    "pos": "adjective",
+    "primary_gloss": "symmetrical",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0330",
+    "rank": 330,
+    "display_form": "对接",
+    "lemma": "对接",
+    "generation_form": "对接",
+    "pronunciation": "duìjiē",
+    "pos": "verb",
+    "primary_gloss": "to dock",
+    "secondary_glosses": [
+      "to link up"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0331",
+    "rank": 331,
+    "display_form": "对抗",
+    "lemma": "对抗",
+    "generation_form": "对抗",
+    "pronunciation": "duìkàng",
+    "pos": "verb",
+    "primary_gloss": "to confront",
+    "secondary_glosses": [
+      "to oppose"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0332",
+    "rank": 332,
+    "display_form": "对立",
+    "lemma": "对立",
+    "generation_form": "对立",
+    "pronunciation": "duìlì",
+    "pos": "verb",
+    "primary_gloss": "to oppose",
+    "secondary_glosses": [
+      "to be in opposition"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0333",
+    "rank": 333,
+    "display_form": "对应",
+    "lemma": "对应",
+    "generation_form": "对应",
+    "pronunciation": "duìyìng",
+    "pos": "verb, adjective",
+    "primary_gloss": "to correspond",
+    "secondary_glosses": [
+      "corresponding"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0334",
+    "rank": 334,
+    "display_form": "蹲",
+    "lemma": "蹲",
+    "generation_form": "蹲",
+    "pronunciation": "dūn",
+    "pos": "verb",
+    "primary_gloss": "to squat",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0335",
+    "rank": 335,
+    "display_form": "顿时",
+    "lemma": "顿时",
+    "generation_form": "顿时",
+    "pronunciation": "dùnshí",
+    "pos": "adverb",
+    "primary_gloss": "suddenly",
+    "secondary_glosses": [
+      "immediately"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adverb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0336",
+    "rank": 336,
+    "display_form": "多才多艺",
+    "lemma": "多才多艺",
+    "generation_form": "多才多艺",
+    "pronunciation": "duōcái-duōyì",
+    "pos": "unknown",
+    "primary_gloss": "versatile",
+    "secondary_glosses": [
+      "gifted in many ways"
+    ],
+    "notes": "Imported from the source PDF. Sense splitting and part of speech may need refinement before example generation."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0337",
+    "rank": 337,
+    "display_form": "多亏",
+    "lemma": "多亏",
+    "generation_form": "多亏",
+    "pronunciation": "duōkuī",
+    "pos": "verb",
+    "primary_gloss": "thanks to",
+    "secondary_glosses": [
+      "fortunately"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0338",
+    "rank": 338,
+    "display_form": "多媒体",
+    "lemma": "多媒体",
+    "generation_form": "多媒体",
+    "pronunciation": "duōméitǐ",
+    "pos": "noun",
+    "primary_gloss": "multimedia",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0339",
+    "rank": 339,
+    "display_form": "多余",
+    "lemma": "多余",
+    "generation_form": "多余",
+    "pronunciation": "duōyú",
+    "pos": "verb, adjective",
+    "primary_gloss": "to be more than needed",
+    "secondary_glosses": [
+      "superfluous",
+      "unnecessary"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb, adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0340",
+    "rank": 340,
+    "display_form": "多元",
+    "lemma": "多元",
+    "generation_form": "多元",
+    "pronunciation": "duōyuán",
+    "pos": "adjective",
+    "primary_gloss": "diverse",
+    "secondary_glosses": [
+      "pluralistic"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0341",
+    "rank": 341,
+    "display_form": "夺",
+    "lemma": "夺",
+    "generation_form": "夺",
+    "pronunciation": "duó",
+    "pos": "verb",
+    "primary_gloss": "to seize",
+    "secondary_glosses": [
+      "to take"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0342",
+    "rank": 342,
+    "display_form": "夺取",
+    "lemma": "夺取",
+    "generation_form": "夺取",
+    "pronunciation": "duóqǔ",
+    "pos": "verb",
+    "primary_gloss": "to capture",
+    "secondary_glosses": [
+      "to take by force"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0343",
+    "rank": 343,
+    "display_form": "躲避",
+    "lemma": "躲避",
+    "generation_form": "躲避",
+    "pronunciation": "duǒbì",
+    "pos": "verb",
+    "primary_gloss": "to avoid",
+    "secondary_glosses": [
+      "to hide"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0344",
+    "rank": 344,
+    "display_form": "恶心",
+    "lemma": "恶心",
+    "generation_form": "恶心",
+    "pronunciation": "ěxin",
+    "pos": "adjective, verb",
+    "primary_gloss": "nauseating",
+    "secondary_glosses": [
+      "disgusting",
+      "to feel nauseous"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective, verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0345",
+    "rank": 345,
+    "display_form": "恶劣",
+    "lemma": "恶劣",
+    "generation_form": "恶劣",
+    "pronunciation": "èliè",
+    "pos": "adjective",
+    "primary_gloss": "bad",
+    "secondary_glosses": [
+      "vile"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as adjective."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0346",
+    "rank": 346,
+    "display_form": "儿科",
+    "lemma": "儿科",
+    "generation_form": "儿科",
+    "pronunciation": "érkē",
+    "pos": "noun",
+    "primary_gloss": "pediatrics",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0347",
+    "rank": 347,
+    "display_form": "耳环",
+    "lemma": "耳环",
+    "generation_form": "耳环",
+    "pronunciation": "ěrhuán",
+    "pos": "noun",
+    "primary_gloss": "earring",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0348",
+    "rank": 348,
+    "display_form": "二氧化碳",
+    "lemma": "二氧化碳",
+    "generation_form": "二氧化碳",
+    "pronunciation": "èryǎnghuàtàn",
+    "pos": "noun",
+    "primary_gloss": "carbon dioxide",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as noun."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0349",
+    "rank": 349,
+    "display_form": "发病",
+    "lemma": "发病",
+    "generation_form": "发病",
+    "pronunciation": "fābìng",
+    "pos": "verb",
+    "primary_gloss": "to fall ill",
+    "secondary_glosses": [],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  },
+  {
+    "dataset_id": "new-hsk-6-words",
+    "word_id": "new-hsk-6-0350",
+    "rank": 350,
+    "display_form": "发愁",
+    "lemma": "发愁",
+    "generation_form": "发愁",
+    "pronunciation": "fāchóu",
+    "pos": "verb",
+    "primary_gloss": "to worry",
+    "secondary_glosses": [
+      "to feel anxious"
+    ],
+    "notes": "Imported from the source PDF. The source marks this entry as verb."
+  }
+]
