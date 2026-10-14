@@ -176,6 +176,11 @@
   .caption kbd { font: inherit; color: var(--text); }
 
   @media (max-width: 560px) {
+    .cover { flex-direction: row; justify-content: center; align-items: flex-end; padding-bottom: 3%; gap: 10px; }
+    .play-big { width: 34px; }
+    .play-big .ring { inset: -6px; }
+    .cover-meta { justify-items: start; letter-spacing: 0.2em; }
+    .meta-len { display: none; }
     .time { display: none; }
     .caption { letter-spacing: 0.14em; }
     .caption .keys { display: none; }
@@ -188,7 +193,7 @@
 <main class="wrap">
   <div class="frame" id="frame">
     <canvas id="film" width="1920" height="1080" aria-label="Фильм «Стратегия»"></canvas>
-    <audio id="score" src="audio/strategy.m4a" preload="auto"></audio>
+    <audio id="score" src="audio/strategy.mp3" preload="auto"></audio>
     <div class="cover" id="cover">
       <button class="play-big" id="bigPlay" type="button" disabled aria-label="Звук ещё готовится">
         <span class="ring" aria-hidden="true"></span>
@@ -196,7 +201,7 @@
       </button>
       <div class="cover-meta">
         <span id="status" role="status">Загружаю шрифты</span>
-        <span>7 актов · 3:30 · со звуком</span>
+        <span class="meta-len">7 актов · 3:30</span>
       </div>
     </div>
     <div class="controls" id="controls">

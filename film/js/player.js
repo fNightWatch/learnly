@@ -5,7 +5,7 @@
   const F = window.F;
   const RENDER = !!window.__FILM_RENDER__;
   const DUR = F.DURATION;
-  const POSTER_T = 14.4;
+  const POSTER_T = 15.1;
   try { F.reduced = !RENDER && window.matchMedia('(prefers-reduced-motion: reduce)').matches; } catch (e) { F.reduced = false; }
 
   const $ = (id) => document.getElementById(id);
@@ -60,7 +60,7 @@
     const timeline = $('timeline'), fill = $('fill'), timeEl = $('time'), marks = $('marks');
 
     const audio = $('score');
-    let audioOk = !!(audio && audio.canPlayType && audio.canPlayType('audio/mp4; codecs="mp4a.40.2"'));
+    let audioOk = !!(audio && audio.canPlayType && audio.canPlayType('audio/mpeg'));
     let playing = false, offset = 0, startedAt = 0, dirty = true, started = false, isReady = false;
     let lastAT = -1, lastPN = 0;
 
@@ -128,7 +128,8 @@
         try {
           audio.currentTime = offset;
           const p = audio.play();
-          if (p && p.catch) p.catch(() => { audioOk = false; startedAt = performance.now() / 1000; });
+          // AbortError — запуск прерван нашей же паузой или перемоткой; это не поломка звука
+          if (p && p.catch) p.catch((e) => { if (!e || e.name !== 'AbortError') audioOk = false; });
         } catch (e) { audioOk = false; }
       }
       playing = true;
@@ -155,11 +156,11 @@
       play();
     }
     function seek(t) {
-      const was = playing;
-      if (was) pause();
       offset = Math.max(0, Math.min(DUR - 0.01, t));
+      startedAt = performance.now() / 1000;
+      lastAT = -1;
+      if (audioOk) { try { audio.currentTime = offset; } catch (e) { /* позиция применится при запуске */ } }
       dirty = true;
-      if (was) play();
     }
     function end() {
       pause();
