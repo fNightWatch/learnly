@@ -1,0 +1,4 @@
+fonttools[woff]>=4.50
+skia-pathops>=0.8
+numpy>=1.24
+ttfautohint-py>=0.5

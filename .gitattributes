@@ -24,3 +24,7 @@
 *.sqlite binary
 *.sqlite-shm binary
 *.sqlite-wal binary
+*.ttf binary
+*.otf binary
+*.woff binary
+*.woff2 binary

@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shirota Specimen</title>
+<link rel="stylesheet" href="../css/shirota.css">
+<style>
+  :root {
+    --bg: #05070d;
+    --panel: #0b1020;
+    --line: #1b2340;
+    --ink: #f3f5fa;
+    --muted: #8a93ad;
+    --accent: #2f6bff;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "Shirota", system-ui, sans-serif;
+    font-weight: 400;
+  }
+  .wrap { max-width: 1240px; margin: 0 auto; padding: 0 24px; }
+  header.hero {
+    padding: 72px 0 88px;
+    background:
+      radial-gradient(1200px 500px at 85% 20%, rgba(47, 107, 255, .45), transparent 60%),
+      radial-gradient(900px 300px at 10% 110%, rgba(47, 107, 255, .35), transparent 60%),
+      var(--bg);
+    border-bottom: 1px solid var(--line);
+    overflow: hidden;
+  }
+  .kicker { font-family: "Shirota Expanded"; font-weight: 600; font-size: clamp(18px, 2.6vw, 34px); margin: 0 0 40px; }
+  .display { font-family: "Shirota Expanded"; font-weight: 900; font-size: clamp(56px, 11vw, 150px); line-height: .98; margin: 0; letter-spacing: -0.005em; }
+  .sub { font-family: "Shirota Expanded"; font-weight: 500; font-size: clamp(16px, 2.3vw, 30px); margin: 36px 0 0; line-height: 1.15; }
+  section { padding: 64px 0; border-bottom: 1px solid var(--line); }
+  h2 { font-family: "Shirota Wide"; font-weight: 700; font-size: 14px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); margin: 0 0 28px; }
+  .matrix { display: grid; grid-template-columns: 120px repeat(3, 1fr); gap: 0; border-top: 1px solid var(--line); }
+  .matrix > div { padding: 14px 12px; border-bottom: 1px solid var(--line); white-space: nowrap; overflow: hidden; text-overflow: clip; font-size: 26px; }
+  .matrix .lbl { font-family: "Shirota Wide"; font-size: 12px; color: var(--muted); letter-spacing: .08em; display: flex; align-items: center; }
+  .matrix .head { font-family: "Shirota Wide"; font-weight: 700; font-size: 12px; color: var(--muted); letter-spacing: .12em; text-transform: uppercase; }
+  .tester { display: grid; gap: 16px; }
+  .controls { display: flex; flex-wrap: wrap; gap: 18px 28px; align-items: center; font-family: "Shirota Wide"; font-size: 13px; color: var(--muted); }
+  .controls label { display: flex; gap: 10px; align-items: center; }
+  .controls select, .controls input { accent-color: var(--accent); }
+  select { background: var(--panel); color: var(--ink); border: 1px solid var(--line); padding: 6px 8px; font: inherit; }
+  .sample { outline: none; line-height: 1.08; padding: 18px 0; overflow-wrap: anywhere; }
+  .charset { display: grid; grid-template-columns: repeat(auto-fill, minmax(64px, 1fr)); border-left: 1px solid var(--line); border-top: 1px solid var(--line); }
+  .charset span { aspect-ratio: 1; display: flex; align-items: center; justify-content: center; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); font-size: 30px; }
+  .cols { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; }
+  .cols p { margin: 0; font-size: 16px; line-height: 1.5; color: #d9deea; }
+  .cols h3 { margin: 0 0 12px; font-size: 22px; }
+  pre { background: var(--panel); border: 1px solid var(--line); padding: 18px; overflow: auto; font-size: 13px; line-height: 1.5; color: #c9d2ea; }
+  @media (max-width: 860px) {
+    .cols { grid-template-columns: 1fr; }
+    .matrix { grid-template-columns: 84px repeat(3, 1fr); }
+    .matrix > div { font-size: 18px; }
+  }
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <p class="kicker">Бизнес-форум · Shirota Expanded</p>
+    <h1 class="display">ШИРОКИЙ<br>ШРИФТ</h1>
+    <p class="sub">Шрифт для заголовков, логотипов и интерфейсов<br>«Кириллица & Latin» — 9 начертаний × 3 ширины</p>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <h2>27 styles</h2>
+    <div class="matrix" id="matrix"></div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap tester">
+    <h2>Type tester</h2>
+    <div class="controls">
+      <label>Width
+        <select id="t-width">
+          <option value="Shirota">Normal</option>
+          <option value="Shirota Wide">Wide</option>
+          <option value="Shirota Expanded" selected>Expanded</option>
+        </select>
+      </label>
+      <label>Weight <input id="t-weight" type="range" min="100" max="900" step="100" value="900"> <span id="t-wv">900</span></label>
+      <label>Size <input id="t-size" type="range" min="16" max="200" step="1" value="96"> <span id="t-sv">96</span>px</label>
+    </div>
+    <div class="sample" id="t-sample" contenteditable="true" spellcheck="false">БИЗНЕС-ФОРУМ<br>Владелец компании</div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Text</h2>
+    <div class="cols">
+      <div style="font-family:'Shirota'">
+        <h3 style="font-weight:700">Shirota · Normal</h3>
+        <p>Съешь же ещё этих мягких французских булок, да выпей чаю. The quick brown fox jumps over the lazy dog — 0123456789. Широта шрифта задаётся отдельным семейством, а насыщенность — весом от 100 до 900.</p>
+      </div>
+      <div style="font-family:'Shirota Wide'">
+        <h3 style="font-weight:700">Shirota · Wide</h3>
+        <p>Съешь же ещё этих мягких французских булок, да выпей чаю. The quick brown fox jumps over the lazy dog — 0123456789. Широта шрифта задаётся отдельным семейством.</p>
+      </div>
+      <div style="font-family:'Shirota Expanded'">
+        <h3 style="font-weight:700">Shirota · Expanded</h3>
+        <p>Съешь же ещё этих мягких французских булок, да выпей чаю. The quick brown fox jumps over the lazy dog.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Character set · Shirota Expanded Bold</h2>
+    <div class="charset" id="charset" style="font-family:'Shirota Expanded';font-weight:700"></div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Usage</h2>
+<pre>&lt;link rel="stylesheet" href="css/shirota.css"&gt;
+
+.headline { font-family: "Shirota Expanded"; font-weight: 900; }  /* Black, extended */
+.subtitle { font-family: "Shirota Expanded"; font-weight: 500; }  /* Medium */
+.ui-text  { font-family: "Shirota";          font-weight: 400; }  /* Normal width */
+.label    { font-family: "Shirota Wide";     font-weight: 600; }
+
+/* or one family, width via font-stretch: 100% | 125% | 150% */
+.alt { font-family: "Shirota Family"; font-stretch: 150%; font-weight: 800; }</pre>
+  </div>
+</section>
+
+<script src="charset.js"></script>
+<script>
+  const weights = [[100, "Thin"], [200, "ExtraLight"], [300, "Light"], [400, "Regular"],
+                   [500, "Medium"], [600, "SemiBold"], [700, "Bold"], [800, "ExtraBold"], [900, "Black"]];
+  const fams = ["Shirota", "Shirota Wide", "Shirota Expanded"];
+  const m = document.getElementById("matrix");
+  m.insertAdjacentHTML("beforeend", '<div class="head"></div>' + ["Normal", "Wide", "Expanded"].map(t => `<div class="head">${t}</div>`).join(""));
+  for (const [w, n] of weights) {
+    m.insertAdjacentHTML("beforeend", `<div class="lbl">${w} ${n}</div>` +
+      fams.map(f => `<div style="font-family:'${f}';font-weight:${w}">Широта Shirota</div>`).join(""));
+  }
+  const cs = document.getElementById("charset");
+  for (const ch of Array.from(window.SHIROTA_CHARSET || "")) {
+    const c = ch.codePointAt(0);
+    const esc = ch === "&" ? "&amp;" : ch === "<" ? "&lt;" : ch;
+    cs.insertAdjacentHTML("beforeend", `<span title="U+${c.toString(16).toUpperCase().padStart(4, "0")}">${esc}</span>`);
+  }
+  const s = document.getElementById("t-sample"), ws = document.getElementById("t-width"),
+        wt = document.getElementById("t-weight"), sz = document.getElementById("t-size");
+  function upd() {
+    s.style.fontFamily = `"${ws.value}"`; s.style.fontWeight = wt.value; s.style.fontSize = sz.value + "px";
+    document.getElementById("t-wv").textContent = wt.value; document.getElementById("t-sv").textContent = sz.value;
+  }
+  [ws, wt, sz].forEach(el => el.addEventListener("input", upd)); upd();
+</script>
+</body>
+</html>
